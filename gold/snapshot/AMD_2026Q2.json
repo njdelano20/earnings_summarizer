@@ -91,7 +91,7 @@
     ["we launched Helios, our rack-scale AI platform", "Helios is now in production with initial shipments on track to begin later this quarter"],
     "we are planning for a softer PC market as higher memory and component costs weigh on demand",
     "In gaming, revenue declined 31% year-over-year to $779 million",
-    "Revenue increased 19% year-over-year to $977 million",
+    ["Revenue increased 19% year-over-year to $977 million", "Embedded segment revenue was $977 million, up 19% year-over-year"],
     "the server CPU supply chain is tight right now",
     ["We gained x86 server revenue share year-over-year", "Customer demand for Venice is stronger than for any prior EPYC generation"],
     "the range will depend on the ability to bring on more capacity in a timely fashion"

@@ -33,8 +33,18 @@ def one(facts, **want):
 
 class SentenceSplitting(unittest.TestCase):
     def test_abbreviations_do_not_split(self):
-        s = split_into_sentences("Growth in the U.S. Apple grew 5% vs. last year. Inc. results improved. Mr. Cook spoke.")
+        s = split_into_sentences("Growth in the U.S. Treasury market beat expectations vs. last year. Inc. results improved. "
+                                 "Mr. Cook spoke.")
         self.assertEqual(len(s), 3)
+
+    def test_us_before_any_capitalised_word_splits_unless_it_continues_a_name(self):
+        # Copart: "...delivery services in the U.S. Operating income grew 2.8%..." was one sentence before this rule
+        s = split_into_sentences("This includes long-haul delivery in the U.S. Operating income grew 2.8% to $464.3 million.")
+        self.assertEqual(s[0], "This includes long-haul delivery in the U.S.")
+        self.assertEqual(len(s), 2)
+        self.assertEqual(len(split_into_sentences("Last month, U.S. News & World Report named Las Vegas first.")), 1)
+        self.assertEqual(len(split_into_sentences("Property in the U.S. Virgin Islands is a U.S. territory.")), 1)
+        self.assertEqual(len(split_into_sentences("Our U.S. insurance units declined 4.2%.")), 1)      # lower-case: an adjective
 
     def test_us_before_common_starter_does_split(self):
         self.assertEqual(len(split_into_sentences("We grew in the U.S. We also grew in Japan.")), 2)

@@ -17,7 +17,7 @@
     {"kind": "guidance", "metric": "ebitda", "segment": "total", "stat": "level", "unit": "USD", "value": 1.225e9, "value_high": 1.275e9, "where": "adjusted EBITDA of between $1.225 billion and $1.275 billion", "note": "full year 2026"},
     {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 910e6, "value_high": 960e6, "where": "adjusted free cash flow guidance of $910 million to $960 million", "note": "full year 2026, reiterated"},
     {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "growth", "unit": "pct", "value": 20, "where": "a 20% increase year-over-year at the midpoint", "note": "growth of the 2026 adjusted free cash flow guide at its midpoint"},
-    {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 280e6, "where": "excess adjusted free cash flow of approximately $280 million", "note": "the excess after funding the distribution growth"},
+    {"kind": "guidance", "metric": "excess_free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 280e6, "where": "excess adjusted free cash flow of approximately $280 million", "note": "the excess after funding the distribution growth; a different measure from free cash flow (metric name refined from 'free_cash_flow' on 2026-09-21 when the extractor gained a separate one)"},
     {"kind": "guidance", "metric": "ebitda_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 75, "where": "above our 75% target", "note": "a stated long-term target, kept"}
   ],
   "forbidden": [

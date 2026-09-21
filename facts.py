@@ -123,7 +123,8 @@ _BASIS = re.compile(
     r"from\s+the\s+(?:prior|previous|last)\s+quarter|versus\s+the\s+(?:prior|previous|last)\s+quarter))",
     re.I)
 _CONSTANT_CURRENCY = re.compile(
-    r"^\s*,?\s*(?:at|in|on)\s+(?:a\s+)?constant[- ]currency|^\s*,?\s*(?:adjusting|adjusted)\s+for\s+currency|^\s*,?\s*at\s+cc\b",
+    r"^\s*,?\s*(?:at|in|on)\s+(?:a\s+)?constant[- ]currency|^\s*,?\s*(?:adjusting|adjusted)\s+for\s+currency|^\s*,?\s*at\s+cc\b"
+    r"|^\s*,?\s*excluding\s+(?:the\s+)?(?:[\w-]+\s+){0,3}(?:foreign\s+(?:currency|exchange)|currency|fx)\b",
     re.I)
 _QUALIFIER = re.compile(
     r"\b(approximately|approx\.?|about|around|roughly|at\s+least|at\s+most|over|more\s+than|greater\s+than|"
@@ -177,7 +178,7 @@ _LEAD_BASIS = re.compile(
     r"|(?P<yoy>year[- ]over[- ]year|on\s+a\s+year[- ]over[- ]year\s+basis))\b", re.I)
 _QUAL_WORDS = r"(?:(?:by|about|approximately|around|roughly|nearly|almost|over|more\s+than)\s+)*"
 # "up 6% year-over-year AND 7% sequentially": the second figure repeats the verb of the first.
-_CHAIN_GAP = re.compile(rf"\s*,?\s*(?:and|,)\s*(?:an?\s+)?{_QUAL_WORDS}", re.I)
+_CHAIN_GAP = re.compile(rf"\s*,?\s*(?:and|or|,)\s*(?:an?\s+)?{_QUAL_WORDS}", re.I)
 # "to more than double" (guidance only): a growth rate stated as a multiple.
 _MULTIPLE = re.compile(r"\b(?P<q>more\s+than\s+|at\s+least\s+)?(?P<w>double|triple)\b(?![- ]digit)", re.I)
 _PERIOD_LEAD = re.compile(r"\s*(?:in|for|during|over)\s+(?:the\s+)?", re.I)
@@ -261,6 +262,9 @@ def _classify_fig(f: _Fig, text: str) -> None:
         f.sign = -1 if _NEGATIVE_VERB.match(m["verb"]) else 1
     post = text[f.end:f.end + 90]
     bm = _BASIS.match(post)
+    if not bm:                                              # "a 20% increase year-over-year"
+        noun = re.match(r"\s*(?:increase|decrease|growth|decline)\s+", post, re.I)
+        bm = _BASIS.match(post[noun.end():]) if noun else None
     if bm:
         f.basis = "yoy" if bm["yoy"] else "qoq"
     f.constant_currency = bool(_CONSTANT_CURRENCY.match(post))
@@ -292,16 +296,19 @@ _TRIGGER_DEFS: list[tuple[str, str]] = [
     ("backlog", r"backlog"),
     ("bookings", r"bookings"),
     ("signings", r"signings"),
+    # "excess adjusted free cash flow" (what is left after the distribution) is a different measure from free cash flow
+    ("excess_free_cash_flow", r"excess\s+(?:adjusted\s+)?free\s+cash\s+flows?"),
     ("free_cash_flow", r"free\s+cash\s+flow"),
     ("operating_cash_flow",
      r"operating\s+cash\s+flows?|cash\s+flows?\s+from\s+operat\w+|cash\s+from\s+(?:continuing\s+)?operations"),
     ("capex", r"capital\s+expenditures?|capex"),
     ("operating_expenses", r"(?:total\s+)?operating\s+expenses?|opex"),
     ("cash_and_securities",
-     r"cash(?:,\s*|\s+)(?:cash\s+equivalents,?\s+)?and\s+(?:marketable\s+securities|short-term\s+investments|cash\s+equivalents|investments)"),
+     r"cash(?:,\s*|\s+)(?:cash\s+equivalents,?\s+)?and\s+(?:marketable\s+securities|short-term\s+investments|"
+     r"cash\s+equivalents|equivalents|investments)"),
     ("cash", r"cash(?=\s+of\b)|cash\s+balance"),
     ("total_debt", r"(?:total|net|gross)\s+debt|debt\s+balance|debt(?=\s+(?:of|was|at)\b)"),
-    ("share_repurchases", r"share\s+repurchases?|share\s+buybacks?|buybacks?|repurchases?"),
+    ("share_repurchases", r"share\s+repurchases?|share\s+buybacks?|buybacks?|repurchas(?:e|es|ed|ing)"),
     ("dividends", r"dividends?"),
     ("capital_returned",
      r"(?:returned|returning)(?=\s+(?:over\s+|about\s+|approximately\s+|nearly\s+|more\s+than\s+)?\$)"),
@@ -323,7 +330,7 @@ was were is are be been being our the a an in of for to with that which as by fr
 record quarter quarters new strong we i this these those its their also but or while despite driven up down
 grew saw set reached delivered posted reported achieved including across during each first second third
 fourth last prior year fiscal solid healthy robust impressive modest significant incredible all-time best
-better very adjusted non-gaap gaap organic january february march april may june july august september
+better very adjusted gross net underlying non-gaap gaap organic january february march april may june july august september
 october november december growth double-digit single-digit digit digits had has have having generated came
 coming totaled totalled operating expanded expand expanding improved improving improve increased decreased
 declined reduced accelerated raised lowered year-over-year yoy sequential sequentially basis points point
@@ -359,7 +366,11 @@ def _is_name(tok: str) -> bool:
             and low not in _STOP and low not in _SCALE_WORDS)
 
 
+_EXCLUDERS = {"excluding", "excludes", "including", "includes", "ex", "without", "except", "less"}
+
+
 def _segment_words_before(pre: str) -> list[str]:
+    pre = re.split(r"[:;]", pre)[-1]           # a colon/semicolon ends the phrase: "as follows: Gathering revenues"
     toks = _TOKEN.findall(pre)
     i = len(toks) - 1
     seg: list[str] = []
@@ -379,6 +390,8 @@ def _segment_words_before(pre: str) -> list[str]:
             i -= 1
             continue
         break
+    if seg and i >= 0 and toks[i].lower() in _EXCLUDERS:
+        return []                              # "Total revenues, excluding pass-through revenues": a qualifier, not a segment
     seg.reverse()
     while seg and _is_connector(seg[-1]):
         seg.pop()
@@ -411,9 +424,13 @@ _SEG_GROWTH_FOR = re.compile(
 
 
 _HEAD_LEAD = re.compile(
-    r"^\s*(?:(?:now|next|and|so)[, ]+)?(?:turning|moving|starting|looking|switching|let(?:'s|\s+us)\s+(?:turn|move))"
-    r"\s+(?:now\s+)?(?:to|with|at)\s+", re.I)
-_HEAD_STARTING_WITH = re.compile(r"\bstarting\s+with\s+(?:the\s+|our\s+)?(?P<seg>[^,.;]+)", re.I)
+    r"^\s*(?:(?:now|next|and|so|finally|lastly)[, ]+)?(?:turning|moving|starting|looking|switching|shifting|"
+    r"let(?:'s|\s+us)\s+(?:turn|move))\s+(?:now\s+)?(?:to|with|at)\s+", re.I)
+_HEAD_STARTING_WITH = re.compile(r"\bstarting\s+with\s+(?:the\s+|our\s+)?(?P<seg>[^,;]+)", re.I)
+# A sentence that closes the current section without opening another ("In summary, ...", "Overall, ...").
+_HEAD_RESET = re.compile(r"^\s*(?:in\s+(?:summary|closing|conclusion)|to\s+summari[sz]e|finally|lastly|overall)\b", re.I)
+# "Internationally, the story is one of continued momentum." opens the international section.
+_HEAD_ADVERB = {"internationally": "international"}
 _HEAD_NOT_SEGMENT = re.compile(
     r"\b(?:segments|balance|sheet|cash|flow|outlook|guidance|results|quarter|financial|details?|questions?|overview|"
     r"summary|half|year|stack|market)\b", re.I)
@@ -424,14 +441,18 @@ def _section_from_heading(text: str) -> tuple[bool, str | None]:
     Returns (is_heading, segment): a heading that names no single business ("Turning to the balance sheet") returns
     (True, None) so the previous section is closed. Only business-like names count: an explicit "segment"/"business"
     word, or every word capitalized ("Client and Gaming")."""
+    adverb = re.match(r"\s*([A-Za-z]+)\b", text)
+    if adverb and adverb.group(1).lower() in _HEAD_ADVERB:
+        return True, _HEAD_ADVERB[adverb.group(1).lower()]
     m = _HEAD_LEAD.match(text)
     if not m:
-        return False, None
+        return (True, None) if _HEAD_RESET.match(text) else (False, None)
     rest = text[m.end():]
     sw = _HEAD_STARTING_WITH.search(rest)
     if sw:
         rest = sw["seg"]
-    rest = re.split(r"[.,;:]", rest, maxsplit=1)[0].strip()
+    # the text is one sentence, so only its final period ends it: the periods inside "U.S." must survive
+    rest = re.split(r"[,;:]", rest.rstrip(" ."), maxsplit=1)[0].strip()
     rest = re.sub(r"^(?:(?:the|our)\s+)+", "", rest, flags=re.I)
     words = [w for w in _TOKEN.findall(rest) if not _is_connector(w)]
     if not words or _HEAD_NOT_SEGMENT.search(rest):
@@ -456,6 +477,8 @@ class _Trig:
     seg_lower: bool = False        # segment phrase has no capitalized word (e.g. "our services revenue")
     seg_from_subject: bool = False  # segment taken from the sentence subject, not from words next to the metric
     seg_from_section: bool = False  # segment carried over from a heading sentence ("Turning to our Embedded segment.")
+    seg_explicit: bool = False      # the sentence itself names the segment (or says total): it may update the section
+    seg_from_sentence: bool = False  # segment inherited from an earlier metric in the same sentence
 
 
 def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
@@ -475,10 +498,12 @@ def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
         last_end = r[1]
 
     trigs: list[_Trig] = []
+    prev_seg, prev_end = None, 0             # last explicitly named segment in THIS sentence, and where its metric ended
     for start, end, metric, growth in kept:
         seg = None
         from_subject = False
         from_section = False
+        from_sentence = False
         if metric in SEGMENTED_METRICS:
             pre = text[:start]
             # A comma right before the metric ends an introduction ("Later, revenue ...");
@@ -498,17 +523,31 @@ def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
                         subj = _leading_subject(text, start)
                         if subj:
                             words, from_subject = subj, True
-                if not words and section_seg:
+                # "U.S. gross profit grew to $484.1 million, up 0.9%, and gross profit margin was 48.3%": the second
+                # metric is the same segment's, unless something in between changes the subject.
+                # "Our gross adjusted EBITDA margin was 85%": "our" + metric speaks for the whole company
+                possessive = bool(re.search(r"\b(?:our|the\s+company['’]s)\s+(?:[\w-]+\s+){0,2}$", pre, re.I))
+                if not words and prev_seg and not possessive:
+                    between = text[prev_end:start]
+                    if not re.search(r";|\bbut\b|\b(?:total|company|consolidated|overall)\b", between, re.I) \
+                            and not _gap_has_entity(between):
+                        words, from_sentence = _TOKEN.findall(prev_seg), True
+                if not words and section_seg and not possessive:
                     words, from_section = _TOKEN.findall(section_seg), True
             seg = _normalize_segment(words)
             seg_lower = seg != "total" and not any(
                 any(c.isupper() for c in w) for w in words if not _is_connector(w)
                 and w.lower() not in _DROP_SEGMENT_WORDS)
+            if words and not from_section and not from_sentence:
+                # only a capitalised name ("U.S.", "iPhone") is passed on, never a lowercase noun like "revenue"
+                prev_seg, prev_end = (seg, end) if (seg != "total" and not seg_lower) else (None, end)
         else:
             seg, seg_lower = "total", False
         trigs.append(_Trig(metric, start, end, text[start:end], seg, growth,
-                           seg_lower=seg_lower and not from_section, seg_from_subject=from_subject,
-                           seg_from_section=from_section))
+                           seg_lower=seg_lower and not from_section and not from_sentence, seg_from_subject=from_subject,
+                           seg_from_section=from_section, seg_from_sentence=from_sentence,
+                           seg_explicit=metric in SEGMENTED_METRICS and bool(words) and not from_section
+                           and not from_sentence))
     return trigs
 
 
@@ -531,7 +570,10 @@ _GUIDE_CUE = re.compile(
     r"\b(?:we|the\s+company|management)\s+(?:currently\s+|now\s+|also\s+|still\s+|do\s+|would\s+|continue\s+to\s+|are\s+)*"
     r"(?:expect(?:s|ing)?|anticipat(?:e|es|ing)|project(?:s|ing)?|forecast(?:s|ing)?|guid(?:e|es|ing))\b"
     r"|\bexpected\s+(?:to|benefit|impact|headwind|tailwind)\b|\b(?:is|are)\s+expected\b"
-    r"|\bour\s+(?:outlook|guidance)\b|\b(?:full[- ]year|year)\s+(?:outlook|guidance)\b|\bon\s+track\s+to\b", re.I)
+    r"|\bour\s+(?:outlook|guidance)\b|\b(?:full[- ]year|year)\s+(?:outlook|guidance)\b|\bon\s+track\s+to\b"
+    # "we reiterate our 2026 adjusted free cash flow guidance of ...", "we are updating AFFO guidance for 2026"
+    r"|\b(?:reiterat\w+|reaffirm\w*|maintain\w*|rais(?:e|ed|ing)|lower(?:ed|ing)|updat(?:e|ed|ing))\s+"
+    r"(?:our\s+|the\s+)?(?:[\w$%-]+\s+){0,7}?(?:guidance|outlook)\b", re.I)
 
 _PERIOD_RE = re.compile(
     r"\b(?:(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+quarter"
@@ -620,7 +662,7 @@ def _period_after(text: str, pos: int, limit: int | None = None, max_distance: i
 
 # A guidance period carries over to the next sentences only while the outlook passage continues.
 _GUIDANCE_CTX_TTL = 4                     # sentences
-_SECTION_TTL = 2                          # sentences a segment heading keeps applying to metric-first sentences
+_SECTION_NEAR = 3                         # a section segment inherited from more sentences back than this is marked "far"
 
 
 # =========================================================================== #
@@ -685,9 +727,23 @@ _ENTITY_OK = {"january", "february", "march", "april", "may", "june", "july", "a
               "this", "that", "q1", "q2", "q3", "q4", "fy"}
 
 
+# "On revenue, the U.S. segment was essentially flat, down 0.4%": the segment sits between the metric and the figure
+_SEG_APPOSITIVE = re.compile(r"(?:(?:the|our)\s+)?(?:[A-Z][A-Za-z.&'-]*\s+)+(?:segment|business)\b")
+
+
+def _gap_segment(gap: str) -> str | None:
+    m = _SEG_APPOSITIVE.search(gap)
+    if not m:
+        return None
+    seg = _normalize_segment(_TOKEN.findall(re.sub(r"^(?:the|our)\s+", "", m.group(0), flags=re.I)))
+    return None if seg == "total" or seg in _GENERIC_SEGMENT_WORDS else seg
+
+
 def _gap_has_entity(gap: str) -> bool:
     """A capitalized name inside the metric->figure gap ('growth in Hybrid Infrastructure of 6%')
-    means the figure probably belongs to that entity, not to the metric's own subject."""
+    means the figure probably belongs to that entity, not to the metric's own subject.
+    (A named segment used as an appositive, 'the U.S. segment', is handled by _gap_segment instead.)"""
+    gap = _SEG_APPOSITIVE.sub(" ", gap)
     for tok in re.findall(r"[A-Za-z][A-Za-z0-9+&'\-.]*", gap):
         if any(c.isupper() for c in tok) and tok.lower().rstrip(".") not in _ENTITY_OK \
                 and not re.fullmatch(r"(?:Q[1-4]|FY\d*)", tok):
@@ -695,10 +751,10 @@ def _gap_has_entity(gap: str) -> bool:
     return False
 
 
-def _left_trigger(f: _Fig, trigs: list[_Trig], others: list[_Fig], text: str) -> _Trig | None:
+def _left_trigger(f: _Fig, trigs: list[_Trig], others: list[_Fig], text: str, allow_used: bool = False) -> _Trig | None:
     best = None
     for t in trigs:
-        if t.used or t.end > f.start or f.start - t.end > 110:
+        if (t.used and not allow_used) or t.end > f.start or f.start - t.end > 110:
             continue
         if any(t.end <= o.start and o.end <= f.start for o in others if o is not f):
             continue
@@ -833,13 +889,15 @@ def _change_dict(c: _Fig) -> dict:
             "basis": c.basis, "constant_currency": c.constant_currency, "text": c.raw}
 
 
-_TO_LEVEL = re.compile(r"\s*(?:to|at|reaching)\s+(?:a\s+)?(?:record\s+)?(?:new\s+)?(?:(?:approximately|about|nearly|over)\s+)?", re.I)
+_TO_LEVEL = re.compile(
+    r"(?:\s*,?\s*(?:excluding|including|adjusted\s+for|before|after)\b[^$%]{0,90}?)?"     # "..., excluding the impact of FX,"
+    r"\s*,?\s*(?:to|at|reaching)\s+(?:a\s+)?(?:record\s+)?(?:new\s+)?(?:(?:approximately|about|nearly|over)\s+)?", re.I)
 
 
 def _lead_changes(f: _Fig, figs: list[_Fig], text: str) -> list[_Fig]:
     """Changes stated BEFORE their level: 'revenue increased 50% year-over-year and 13% sequentially to a record
     $11.5 billion'. Returns the run of change figures that lead into `f` (empty if `f` is not introduced this way)."""
-    if f.kind != "money":
+    if f.kind not in ("money", "pct"):      # a percentage level counts only for margin-type metrics (checked by the caller)
         return []
     out: list[_Fig] = []
     nxt = f.start
@@ -882,12 +940,19 @@ def _rel_descriptor(text: str, f: _Fig, trig: _Trig | None) -> str | None:
     return re.sub(r"\s+", " ", found[-1].group(0).lower()) if found else None
 
 
+_OR_A_BEFORE = re.compile(r"\bor\s+(?:an?\s+)?(?:approximately\s+|about\s+)?$", re.I)
+_RATE_NOUN_AFTER = re.compile(r"\s*(?:increase|decrease|growth|decline)\b", re.I)
+_TARGET_BEFORE = re.compile(r"\b(?:our|the|its)\s+(?:\w+\s+)?$", re.I)
+_TARGET_AFTER = re.compile(r"\s*(?:[\w-]+\s+){0,2}?targets?\b", re.I)
+
+
 def _lead_basis(text: str) -> str | None:
     m = _LEAD_BASIS.match(text)
     return None if not m else ("yoy" if m["yoy"] else "qoq")
 
 
-def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = None) -> tuple[list[_Rec], list[dict]]:
+def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = None,
+                      section_far: bool = False) -> tuple[list[_Rec], list[dict]]:
     figs = _find_figures(text, guidance=is_guidance)
     trigs = _find_triggers(text, section_seg)
     driver = next((label for rx, label in _DRIVERS if rx.search(text)), None)
@@ -908,12 +973,28 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
         t, growth_cue = _right_trigger(f, trigs, text)
         how = "right"
         pre_ch = _lead_changes(f, figs, text)
+        if pre_ch and f.kind == "pct":
+            # "gross margins increasing 71 basis points to 46.3%": only for margin-type metrics, whose level is a percentage
+            probe = _left_trigger(f, trigs, [o for o in others if not any(o is c for c in pre_ch)], text)
+            if probe is None or probe.metric not in PCT_LEVEL_METRICS:
+                pre_ch = []
+        # "above our 75% target": a target, which may share the metric of the result named just before it
+        is_target = bool(_TARGET_BEFORE.search(text[max(0, f.start - 8):f.start]) and _TARGET_AFTER.match(text[f.end:]))
         if t is None:
             # The lead-in changes sit between the metric and the level ("revenue increased 50% ... to $11.5 billion")
             # and would otherwise block the metric from reaching it.
-            t = _left_trigger(f, trigs, [o for o in others if not any(o is c for c in pre_ch)], text)
+            t = _left_trigger(f, trigs, [o for o in others if not any(o is c for c in pre_ch)], text, allow_used=is_target)
             how = "left"
             growth_cue = False
+        coord_prev = None
+        if t is None and f.kind == "pct" and _OR_A_BEFORE.search(text[max(0, f.start - 12):f.start]) \
+                and _RATE_NOUN_AFTER.match(text[f.end:]):
+            # "guidance of $910 million to $960 million or a 20% increase year-over-year at the midpoint": the growth
+            # rate restates the figure before it, so it belongs to the same metric
+            coord_prev = next((r for r in reversed(recs) if r.trig is not None and r.fig is not None
+                               and r.fig.end <= f.start), None)
+            if coord_prev is not None:
+                t, how, growth_cue = coord_prev.trig, "left", True
         if t is None:
             continue
 
@@ -935,20 +1016,34 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
             seg_source = "subject"
         elif t.seg_from_section:
             seg_source = "section"
+        elif t.seg_from_sentence:
+            seg_source = "sentence"
         if how == "right" and t.metric == "revenue" and (t.segment == "total" or t.seg_from_subject) \
                 and not _segment_words_before(text[:t.start]):
             segment, seg_source = _subject_segment(text, f)
+        if how == "left" and (segment == "total" or seg_source in ("section", "sentence")):
+            gap_seg = _gap_segment(text[t.end:f.start])          # "On revenue, the U.S. segment was flat, down 0.4%"
+            if gap_seg:                                           # (named in the clause: beats anything remembered)
+                segment, seg_source = gap_seg, "gap"
         rec = _Rec(metric=t.metric, segment=segment, stat=stat, unit=unit, lo=f.lo, hi=f.hi,
                    fig=f, trig=t, how=how, qualifier=f.qualifier, basis=basis,
-                   accounting=_accounting_basis(text, t), growth_inferred=t.growth_rate,
+                   accounting=_accounting_basis(text, t), growth_inferred=t.growth_rate or coord_prev is not None,
                    segment_source=seg_source, figure_text=f.raw, order=f.start, after_ok=True,
                    after_limit=next((g.start for g in figs if g.start >= f.end), None))
+        if coord_prev is not None:
+            rec.flags.append("metric_from_coordinated_figure")
         if segment is None:
             rec.flags.append("segment_unresolved")
         elif seg_source == "subject":
             rec.flags.append("segment_from_subject")
         elif seg_source == "section":
             rec.flags.append("segment_from_section")
+            if section_far:
+                rec.flags.append("segment_from_section_far")     # inherited from several sentences back: less certain
+        elif seg_source == "sentence":
+            rec.flags.append("segment_from_sentence")
+        elif seg_source == "gap":
+            rec.flags.append("segment_from_gap")
         elif t.seg_lower:
             rec.flags.append("segment_lowercase_phrase")
         if stat == "growth" and basis is None:
@@ -958,10 +1053,13 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
             rec.flags.append("adjusted_basis")
         if t.growth_rate:
             rec.flags.append("metric_inferred_from_growth_rate")
-        rel =_rel_descriptor(text, f, t if how == "left" else None) if (is_guidance or re.search(r"\bwill\b", text)) else None
+        rel = _rel_descriptor(text, f, t if how == "left" else None) if (is_guidance or re.search(r"\bwill\b", text)) else None
         if rel:
             rec.descriptor, rec.reference = rel, True
             rec.flags.append("figure_is_reference_target")
+        elif is_target:
+            rec.reference = True                                # a stated target is forward-looking: kind guidance
+            rec.flags.append("figure_is_target")
         t.used = True
         f.consumed = True
         recs.append(rec)
@@ -998,6 +1096,19 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
                 by_fig[id(m)].changes.append(change)
                 c.consumed = True
                 attached = True
+                mr = by_fig[id(m)]
+                if c.kind == "pct":
+                    # "revenue grew to $1.24 billion, up 2.1%": the level carries the change AND the growth is a fact of
+                    # its own, exactly as for "revenue grew 2.1% to $1.24 billion"
+                    grec = _Rec(metric=mr.metric, segment=mr.segment, stat="growth", unit="pct", lo=c.sign * c.lo,
+                                hi=(c.sign * c.hi if c.hi is not None else None), fig=c, trig=mr.trig, how="left",
+                                qualifier=c.qualifier, basis=c.basis, accounting=mr.accounting,
+                                growth_inferred=mr.growth_inferred, segment_source=mr.segment_source,
+                                figure_text=c.raw, order=c.start, currency_basis="constant" if c.constant_currency else None,
+                                flags=[fl for fl in mr.flags if fl.startswith("segment_")])
+                    if c.basis is None:
+                        grec.flags.append("basis_unspecified")
+                    recs.append(grec)
         if attached:
             continue
         t = _left_trigger(c, trigs, others, text)
@@ -1014,16 +1125,31 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
             continue
         stat = "growth" if c.kind == "pct" else "change"
         unit = {"money": "USD", "pct": "pct", "bps": "bps", "pp": "pp"}[c.kind]
-        rec = _Rec(metric=t.metric, segment=t.segment, stat=stat, unit=unit,
+        seg_c = t.segment
+        src_c = ("subject" if t.seg_from_subject else "section" if t.seg_from_section
+                 else "sentence" if t.seg_from_sentence else "trigger")
+        if seg_c == "total" or src_c in ("section", "sentence"):
+            gap_seg = _gap_segment(text[t.end:c.start])           # "On revenue, the U.S. segment was flat, down 0.4%"
+            if gap_seg:
+                seg_c, src_c = gap_seg, "gap"
+        rec = _Rec(metric=t.metric, segment=seg_c, stat=stat, unit=unit,
                    lo=c.sign * c.lo, hi=(c.sign * c.hi if c.hi is not None else None),
                    fig=c, trig=t, how="left", qualifier=c.qualifier, basis=c.basis or (coord.basis if coord else None),
                    accounting=_accounting_basis(text, t), growth_inferred=t.growth_rate or coord is not None,
                    figure_text=c.raw, order=c.start,
                    currency_basis="constant" if c.constant_currency else None,
-                   segment_source="subject" if t.seg_from_subject else "trigger",
+                   segment_source=src_c,
                    after_ok=True, after_limit=next((g.start for g in figs if g.start >= c.end), None))
-        if t.seg_from_subject:
+        if src_c == "subject":
             rec.flags.append("segment_from_subject")
+        elif src_c == "section":
+            rec.flags.append("segment_from_section")
+            if section_far:
+                rec.flags.append("segment_from_section_far")
+        elif src_c == "sentence":
+            rec.flags.append("segment_from_sentence")
+        elif src_c == "gap":
+            rec.flags.append("segment_from_gap")
         elif t.seg_lower:
             rec.flags.append("segment_lowercase_phrase")
         if t.growth_rate:
@@ -1121,7 +1247,7 @@ def _confidence(rec: _Rec, turn: Turn) -> str:
         conf = _cap_conf(conf, "low")
     if rec.segment_source == "subject" or "segment_lowercase_phrase" in rec.flags:
         conf = _cap_conf(conf, "medium")
-    if rec.growth_inferred or rec.context_from == "previous" or rec.reference:
+    if rec.growth_inferred or rec.context_from == "previous" or rec.reference or "segment_from_section_far" in rec.flags:
         conf = _cap_conf(conf, "medium")
     if rec.segment is None and rec.metric != "impact":
         conf = _cap_conf(conf, "low")
@@ -1159,12 +1285,24 @@ def extract_facts(transcript: Transcript) -> dict:
             elif is_guidance and guidance_ctx is not None:
                 guidance_ctx_at = sent.index
 
+            # The current segment persists until something ends it: a new heading, a generic transition, a
+            # company-wide sentence, or a different segment named outright (which becomes the new current one).
             is_head, head_seg = _section_from_heading(text)
-            active_section = section_seg if (section_seg and 0 < sent.index - section_at <= _SECTION_TTL) else None
+            # (An outlook sentence that names no segment is about the company: "On iPhone, we expect ... . We expect gross
+            # margin to be between 47% and 48%." must not hand the second sentence to iPhone.)
+            recs, leftovers = _process_sentence(text, is_guidance, None if (is_head or is_guidance) else section_seg,
+                                                sent.index - section_at > _SECTION_NEAR)
             if is_head:
                 section_seg, section_at = head_seg, sent.index
-
-            recs, leftovers = _process_sentence(text, is_guidance, active_section)
+            else:
+                for rec in recs:
+                    t = rec.trig
+                    if t is None or not t.seg_explicit:
+                        continue
+                    if rec.segment == "total":
+                        section_seg, section_at = None, sent.index
+                    elif rec.segment and not t.seg_lower:            # a capitalised name, not "service revenues"
+                        section_seg, section_at = rec.segment, sent.index
             for lo in leftovers:
                 unclaimed.append({
                     "figure_text": lo["figure_text"], "reason": lo["reason"], "sentence": text,

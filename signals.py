@@ -39,7 +39,20 @@ def _rx(p: str) -> re.Pattern:
 # =========================================================================== #
 
 _BOILERPLATE = _rx(r"forward-looking|risk factors|safe harbor|form 10-[kq]|form 8-k|assumes no obligation|"
-                   r"securities litigation|a replay of|non-gaap (?:measures|reconciliation)")
+                   r"securities litigation|a replay of|non-gaap (?:measures|reconciliation)|"
+                   r"reconciliations?\b|differ materially|cautionary statement|\bwww\.|https?://")
+# Conversation management, in any wording: what the speaker WILL do on this call, thanks, and who is on it. These are
+# structural families, not a list of phrases seen so far; they only ever drop a sentence that carries no figure.
+_DISCOURSE = _rx(
+    r"\b(?:i|we|you|he|she)\s*(?:will|'ll|am going to|are going to|would like to|want to)\s+(?:now\s+|also\s+|first\s+|just\s+|then\s+|briefly\s+)?"
+    r"(?:discuss|walk\s+(?:you\s+)?through|review|cover|share|highlight|start|begin|turn|hand|hear\s+from|take\s+(?:your\s+)?questions|"
+    r"open|spend|touch\s+on|outline|summari[sz]e)\b"
+    r"|\b(?:you|listeners)\s+will\s+hear\s+from\b|\b(?:will|to)\s+(?:open|take)\s+(?:up\s+)?(?:the\s+)?(?:call|line|lines|questions)\b"
+    r"|\bopen\s+(?:up\s+)?the\s+(?:call|line|lines)\b|\b(?:turn|hand)\s+(?:the\s+)?(?:call|it|things)\s+(?:back\s+)?(?:over\s+)?(?:to|back)\b"
+    r"|\b(?:glad|grateful|thankful|appreciate\w*)\b.{0,60}\b(?:you|your|analysts?|everyone|joining|noticed|presence|question|participation)\b"
+    r"|\b(?:thanks?|thank\s+you)\s+for\s+(?:the|your|joining|participating|taking)\b|\bi\s+can\s+take\s+that\b"
+    r"|\bhosting\s+the\s+call\b|\bparticipants\s+on\s+(?:today's|the|this)\s+call\b|\bcan\s+be\s+found\s+(?:on|in|at)\b"
+    r"|\b(?:great|good|fair|excellent|helpful)\s+(?:question|point|color)\b|\bspot[- ]on\b")
 _PLEASANTRY = _rx(r"^(?:thank(?:s| you)|good (?:afternoon|morning|evening)|hey|hi|yeah|yep|sure|okay|welcome|"
                   r"i (?:really )?appreciate|great question|that's a (?:good|great) question|no problem)\b")
 
@@ -150,6 +163,10 @@ _PRONOUN_LEAD = _rx(r"^(?:that|this|it|these|those|they|which|and|but|so)\b")
 _PROCEDURAL = _rx(r"^(?:let me|let's|why don't i|i'll let|i'll just|i'd like to|i just wanted|i wanted to|"
                   r"kevan, you want|i(?:'ll| will) (?:start|begin) with|(?:now,? )?i(?:'ll| will) (?:now )?(?:turn|hand)|"
                   r"with that,? i)\b")
+# "Turning to our Embedded segment." is a signpost. Only when SHORT: "Looking to the second half of the year, we are planning
+# for a softer PC market as ..." merely starts with the same words and is real outlook.
+_TRANSITION = _rx(r"^(?:(?:now|and|finally|lastly),?\s+)?(?:turning|moving|shifting|switching|looking)\s+(?:now\s+)?(?:to|at)\b")
+_TRANSITION_MAX_WORDS = 14
 # A sentence about the whole company must not inherit a segment from a neighbouring sentence.
 _TOTAL_SCOPE = _rx(r"\b(?:company|total|overall|consolidated|our (?:revenue|gross margin|earnings|net income)|"
                    r"earnings per share|operating (?:cash flow|expenses))\b")
@@ -392,7 +409,9 @@ def extract_signals(transcript: Transcript, registry: Registry, facts: list[dict
             words = len(text.split())
             if words < 3 or text.endswith("?") or _BOILERPLATE.search(text) or _PLEASANTRY.search(text):
                 continue
-            if _PROCEDURAL.search(text) and not re.search(r"\d", re.sub(r"\b(?:19|20)\d\d\b|\bQ[1-4]\b", "", text)):
+            if (_PROCEDURAL.search(text) or _DISCOURSE.search(text)
+                    or (_TRANSITION.match(text) and words <= _TRANSITION_MAX_WORDS)) \
+                    and not re.search(r"\d", re.sub(r"\b(?:19|20)\d\d\b|\bQ[1-4]\b", "", text)):
                 continue                       # (a year or quarter tag is not a business figure)
 
             nodes = registry.nodes_in_text(text)

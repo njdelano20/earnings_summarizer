@@ -174,6 +174,10 @@ def _role_from_title(title: str | None) -> str:
     return ROLE_MANAGEMENT
 
 
+# Whoever opens a call with safe-harbor text and introductions: their PREPARED remarks are procedure, not business.
+_PROCEDURAL_TITLE = re.compile(r"\b(?:general counsel|chief legal officer|corporate secretary|legal counsel)\b", re.I)
+
+
 def _finish(filename: str, text: str, turn_specs: list[dict], meta: dict) -> Transcript:
     """turn_specs: dicts with speaker, role, start, end, title, sentiment (already ordered)."""
     qa_idx = meta.get("qa_start_turn")
@@ -191,7 +195,10 @@ def _finish(filename: str, text: str, turn_specs: list[dict], meta: dict) -> Tra
     turns: list[Turn] = []
     for i, t in enumerate(turn_specs):
         section = "qa" if qa_idx is not None and i >= qa_idx else "prepared"
-        turn = Turn(index=i, speaker=t["speaker"], role=t["role"], section=section,
+        role = t["role"]
+        if section == "prepared" and role == ROLE_MANAGEMENT and _PROCEDURAL_TITLE.search(t.get("title") or ""):
+            role = ROLE_IR                    # a General Counsel's safe-harbor statement is not a management claim
+        turn = Turn(index=i, speaker=t["speaker"], role=role, section=section,
                     start=t["start"], end=t["end"], title=t.get("title"),
                     sentiment=t.get("sentiment"))
         for j, (s, e, txt) in enumerate(

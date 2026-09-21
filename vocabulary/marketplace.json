@@ -1,0 +1,9 @@
+{
+  "name": "marketplace",
+  "description": "Online marketplaces and auction platforms (Copart and similar): unit volumes, average selling prices and gross transaction value are the headline operating numbers, alongside the usual revenue and margins.",
+  "metrics": [
+    {"name": "units", "pattern": "unit\\s+(?:volumes?|sales)|units", "segmented": true},
+    {"name": "asp", "pattern": "average\\s+selling\\s+prices?|asps?", "segmented": true},
+    {"name": "gtv", "pattern": "gross\\s+transaction\\s+value|gtv", "segmented": true}
+  ]
+}

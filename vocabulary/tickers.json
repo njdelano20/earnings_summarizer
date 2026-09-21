@@ -1,0 +1,7 @@
+{
+  "note": "Which vocabulary packs (vocabulary/<pack>.json) each ticker uses, on top of the core vocabulary. A ticker not listed here gets the core vocabulary only and is flagged in the batch scorecard. Later this can be filled from the MarketDataLibrary's sector/industry labels instead of by hand.",
+  "tickers": {
+    "CPRT": ["marketplace"],
+    "VICI": ["reit"]
+  }
+}

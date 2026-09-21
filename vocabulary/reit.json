@@ -1,0 +1,12 @@
+{
+  "name": "reit",
+  "description": "Real estate investment trusts (VICI and similar): AFFO / FFO per share are the earnings measure (not EPS), plus net operating income and occupancy.",
+  "metrics": [
+    {"name": "affo_per_share", "pattern": "affo[- ]per[- ](?:(?:diluted|basic|common)\\s+)*share", "per_share": true},
+    {"name": "affo", "pattern": "affo|adjusted\\s+funds\\s+from\\s+operations", "per_share_metric": "affo_per_share"},
+    {"name": "ffo_per_share", "pattern": "ffo[- ]per[- ](?:(?:diluted|basic|common)\\s+)*share", "per_share": true},
+    {"name": "ffo", "pattern": "ffo|funds\\s+from\\s+operations", "per_share_metric": "ffo_per_share"},
+    {"name": "noi", "pattern": "(?:same[- ]store\\s+)?(?:net\\s+operating\\s+income|noi)", "segmented": true},
+    {"name": "occupancy", "pattern": "occupancy(?:\\s+rates?)?|occupied", "pct_level": true, "segmented": true}
+  ]
+}

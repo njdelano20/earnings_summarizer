@@ -23,8 +23,9 @@ from __future__ import annotations
 
 import re
 from collections import Counter, defaultdict
-from dataclasses import dataclass, field, asdict
+from dataclasses import dataclass, field, asdict, replace
 
+import vocab as _vocab
 from transcript import Transcript, Turn, ROLE_MANAGEMENT, ROLE_UNKNOWN
 
 # =========================================================================== #
@@ -269,7 +270,7 @@ def _classify_fig(f: _Fig, text: str) -> None:
         f.basis = "yoy" if bm["yoy"] else "qoq"
     f.constant_currency = bool(_CONSTANT_CURRENCY.match(post))
     if f.kind == "money":
-        f.per_share = bool(re.match(r"\s*(?:per\s+(?:diluted\s+)?share|a\s+share)", post, re.I))
+        f.per_share = bool(re.match(r"\s*(?:per\s+(?:(?:diluted|basic|common)\s+)*share|a\s+share)", post, re.I))
     q = _QUALIFIER.search(text[max(0, f.start - 30):f.start])
     if q:
         f.qualifier = re.sub(r"\s+", " ", q.group(1).lower())
@@ -306,7 +307,7 @@ _TRIGGER_DEFS: list[tuple[str, str]] = [
     ("cash_and_securities",
      r"cash(?:,\s*|\s+)(?:cash\s+equivalents,?\s+)?and\s+(?:marketable\s+securities|short-term\s+investments|"
      r"cash\s+equivalents|equivalents|investments)"),
-    ("cash", r"cash(?=\s+of\b)|cash\s+balance"),
+    ("cash", r"cash(?=\s+(?:of|and\s+\$)\b|\s+and\s+\$)|cash\s+balance|cash\s+on\s+hand"),
     ("total_debt", r"(?:total|net|gross)\s+debt|debt\s+balance|debt(?=\s+(?:of|was|at)\b)"),
     ("share_repurchases", r"share\s+repurchases?|share\s+buybacks?|buybacks?|repurchas(?:e|es|ed|ing)"),
     ("dividends", r"dividends?"),
@@ -324,6 +325,11 @@ SEGMENTED_METRICS = {"revenue", "comparable_sales", "gross_margin", "gross_profi
                      "operating_margin", "operating_income", "ebitda", "ebitda_margin",
                      "arr", "backlog", "bookings", "signings"}
 PCT_LEVEL_METRICS = {"gross_margin", "operating_margin", "ebitda_margin", "tax_rate"}
+
+# The vocabulary in force for the call being extracted: the core above plus the industry packs assigned to its ticker
+# (vocab.py, vocabulary/*.json). extract_facts() sets it for the duration of one call and restores the core afterwards.
+_CORE_VOCAB = _vocab.Vocabulary(list(_TRIGGER_RES), set(SEGMENTED_METRICS), set(PCT_LEVEL_METRICS))
+_V = _CORE_VOCAB
 
 _STOP = set("""
 was were is are be been being our the a an in of for to with that which as by from at on both all every
@@ -483,7 +489,7 @@ class _Trig:
 
 def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
     raw: list[tuple[int, int, str, bool]] = []
-    for name, rx in _TRIGGER_RES:
+    for name, rx in _V.triggers:
         for m in rx.finditer(text):
             raw.append((m.start(), m.end(), name, False))
     for m in _GROWTH_RATE_RE.finditer(text):
@@ -504,13 +510,17 @@ def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
         from_subject = False
         from_section = False
         from_sentence = False
-        if metric in SEGMENTED_METRICS:
+        if metric in _V.segmented:
             pre = text[:start]
+            # "Our gross adjusted EBITDA margin was 85%": "our" + metric speaks for the whole company
+            possessive = bool(re.search(r"\b(?:our|the\s+company['’]s)\s+(?:[\w-]+\s+){0,2}$", pre, re.I))
             # A comma right before the metric ends an introduction ("Later, revenue ...");
             # real "In iPad, revenue ..." introductions are handled by _SEG_LEADING below.
             words = [] if pre.rstrip().endswith(",") else _segment_words_before(pre)
             if words and all(w.lower() in _GENERIC_SEGMENT_WORDS for w in words if not _is_connector(w)):
                 words = []                # "Segment revenue grew 6%": names no business, so look at the context
+            if words and section_seg and not possessive and all(w.lower() == "total" for w in words if not _is_connector(w)):
+                words, from_section = _TOKEN.findall(section_seg), True   # "Total units declined 4.2%" inside the U.S. section
             if not words:
                 after = _SEG_GROWTH_FOR.match(text[end:]) if growth else _SEG_AFTER.match(text[end:])
                 if after and not _BAD_SEGMENT.search(after["seg"]):
@@ -525,8 +535,6 @@ def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
                             words, from_subject = subj, True
                 # "U.S. gross profit grew to $484.1 million, up 0.9%, and gross profit margin was 48.3%": the second
                 # metric is the same segment's, unless something in between changes the subject.
-                # "Our gross adjusted EBITDA margin was 85%": "our" + metric speaks for the whole company
-                possessive = bool(re.search(r"\b(?:our|the\s+company['’]s)\s+(?:[\w-]+\s+){0,2}$", pre, re.I))
                 if not words and prev_seg and not possessive:
                     between = text[prev_end:start]
                     if not re.search(r";|\bbut\b|\b(?:total|company|consolidated|overall)\b", between, re.I) \
@@ -546,7 +554,7 @@ def _find_triggers(text: str, section_seg: str | None = None) -> list[_Trig]:
         trigs.append(_Trig(metric, start, end, text[start:end], seg, growth,
                            seg_lower=seg_lower and not from_section and not from_sentence, seg_from_subject=from_subject,
                            seg_from_section=from_section, seg_from_sentence=from_sentence,
-                           seg_explicit=metric in SEGMENTED_METRICS and bool(words) and not from_section
+                           seg_explicit=metric in _V.segmented and bool(words) and not from_section
                            and not from_sentence))
     return trigs
 
@@ -880,7 +888,7 @@ class _Rec:
 
 
 def _money_unit(f: _Fig, metric: str) -> str:
-    return "USD_per_share" if (f.per_share or metric == "eps") else "USD"
+    return "USD_per_share" if (f.per_share or metric == "eps" or metric in _V.per_share_metrics) else "USD"
 
 
 def _change_dict(c: _Fig) -> dict:
@@ -976,7 +984,7 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
         if pre_ch and f.kind == "pct":
             # "gross margins increasing 71 basis points to 46.3%": only for margin-type metrics, whose level is a percentage
             probe = _left_trigger(f, trigs, [o for o in others if not any(o is c for c in pre_ch)], text)
-            if probe is None or probe.metric not in PCT_LEVEL_METRICS:
+            if probe is None or probe.metric not in _V.pct_level:
                 pre_ch = []
         # "above our 75% target": a target, which may share the metric of the result named just before it
         is_target = bool(_TARGET_BEFORE.search(text[max(0, f.start - 8):f.start]) and _TARGET_AFTER.match(text[f.end:]))
@@ -1095,20 +1103,7 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
             if not any(m.end <= t.start < c.start and t.used and t is not owner for t in trigs):
                 by_fig[id(m)].changes.append(change)
                 c.consumed = True
-                attached = True
-                mr = by_fig[id(m)]
-                if c.kind == "pct":
-                    # "revenue grew to $1.24 billion, up 2.1%": the level carries the change AND the growth is a fact of
-                    # its own, exactly as for "revenue grew 2.1% to $1.24 billion"
-                    grec = _Rec(metric=mr.metric, segment=mr.segment, stat="growth", unit="pct", lo=c.sign * c.lo,
-                                hi=(c.sign * c.hi if c.hi is not None else None), fig=c, trig=mr.trig, how="left",
-                                qualifier=c.qualifier, basis=c.basis, accounting=mr.accounting,
-                                growth_inferred=mr.growth_inferred, segment_source=mr.segment_source,
-                                figure_text=c.raw, order=c.start, currency_basis="constant" if c.constant_currency else None,
-                                flags=[fl for fl in mr.flags if fl.startswith("segment_")])
-                    if c.basis is None:
-                        grec.flags.append("basis_unspecified")
-                    recs.append(grec)
+                attached = True                  # one statement, one fact: the level carries its change (see tests)
         if attached:
             continue
         t = _left_trigger(c, trigs, others, text)
@@ -1178,7 +1173,7 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
             if best is None:
                 continue
             best.used = True
-            desc_stat = "level" if best.metric in PCT_LEVEL_METRICS else "growth"
+            desc_stat = "level" if best.metric in _V.pct_level else "growth"
             recs.append(_Rec(metric=best.metric, segment=best.segment, stat=desc_stat, unit="pct",
                              lo=None, hi=None, fig=None, trig=best, descriptor=d.group(0).strip(),
                              growth_inferred=best.growth_rate, figure_text=d.group(0).strip(),

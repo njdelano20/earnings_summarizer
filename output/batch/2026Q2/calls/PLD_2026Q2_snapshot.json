@@ -1,0 +1,3190 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "PLD",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "PLD",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Justin Meng",
+    "role": "ir"
+   },
+   {
+    "name": "Dan Letter",
+    "role": "management"
+   },
+   {
+    "name": "Tim Arndt",
+    "role": "management"
+   },
+   {
+    "name": "Tom Catherwood",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Griffin",
+    "role": "analyst"
+   },
+   {
+    "name": "Chris Caton",
+    "role": "management"
+   },
+   {
+    "name": "Jon Petersen",
+    "role": "analyst"
+   },
+   {
+    "name": "Vikram Malhotra",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Goldsmith",
+    "role": "analyst"
+   },
+   {
+    "name": "Caitlin Burrows",
+    "role": "analyst"
+   },
+   {
+    "name": "Vince Tibone",
+    "role": "analyst"
+   },
+   {
+    "name": "Eric (on behalf of John Kim)",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Carroll",
+    "role": "analyst"
+   },
+   {
+    "name": "Nicholas Yulico",
+    "role": "analyst"
+   },
+   {
+    "name": "Dave Rodgers",
+    "role": "analyst"
+   },
+   {
+    "name": "Todd Thomas",
+    "role": "analyst"
+   },
+   {
+    "name": "Jamie Feldman (on behalf of Blaine Heck)",
+    "role": "analyst"
+   },
+   {
+    "name": "Nick Thillman",
+    "role": "analyst"
+   },
+   {
+    "name": "Brendan Lynch",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "PLD_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.50",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "strategic_capital",
+   "name": "Strategic Capital",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 8
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "PLD_2026_2-002"
+  ],
+  "signal_ids": [
+   "PLD_2026_2-S002",
+   "PLD_2026_2-S005",
+   "PLD_2026_2-S008",
+   "PLD_2026_2-S019",
+   "PLD_2026_2-S020",
+   "PLD_2026_2-S025",
+   "PLD_2026_2-S028",
+   "PLD_2026_2-S031",
+   "PLD_2026_2-S034",
+   "PLD_2026_2-S035",
+   "PLD_2026_2-S036",
+   "PLD_2026_2-S049",
+   "PLD_2026_2-S056",
+   "PLD_2026_2-S057",
+   "PLD_2026_2-S065",
+   "PLD_2026_2-S074",
+   "PLD_2026_2-S080"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "strategic_capital",
+   "name": "Strategic Capital",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PLD_2026_2-001"
+   ],
+   "signal_ids": [
+    "PLD_2026_2-S011",
+    "PLD_2026_2-S012",
+    "PLD_2026_2-S016",
+    "PLD_2026_2-S029",
+    "PLD_2026_2-S033",
+    "PLD_2026_2-S038"
+   ],
+   "n_home_signals": 8,
+   "n_mentions": 8,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 2,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 12,
+    "cautious": 4,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.5
+   }
+  },
+  "speakers": {
+   "Dan Letter": {
+    "confident": 6,
+    "cautious": 3
+   },
+   "Tim Arndt": {
+    "confident": 6,
+    "cautious": 1
+   },
+   "Chris Caton": {
+    "confident": 2
+   }
+  },
+  "notable_confident": [
+   "PLD_2026_2-S081",
+   "PLD_2026_2-S070",
+   "PLD_2026_2-S049",
+   "PLD_2026_2-S071"
+  ],
+  "notable_cautious": [
+   "PLD_2026_2-S060",
+   "PLD_2026_2-S044",
+   "PLD_2026_2-S064",
+   "PLD_2026_2-S077"
+  ],
+  "withheld": [],
+  "revisions": [
+   "PLD_2026_2-S012",
+   "PLD_2026_2-S031",
+   "PLD_2026_2-S033"
+  ]
+ },
+ "signals": [
+  {
+   "id": "PLD_2026_2-S001",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "We delivered another exceptional quarter driven by strengthening demand, disciplined execution, and the expanding capabilities of our platform.",
+   "ev_start": 1804,
+   "ev_end": 1947,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "record",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "We signed a record 67 million sq ft of leases during the quarter, and after several quarters of sustained demand, we believe the market is entering its next phase.",
+   "ev_start": 2001,
+   "ev_end": 2164,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S003",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined",
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We're putting that demand to work through disciplined investment.",
+   "ev_start": 2165,
+   "ev_end": 2230,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S004",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Our 14,000 acre land bank represents 240 million sq ft of embedded development opportunity.",
+   "ev_start": 2231,
+   "ev_end": 2322,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Our power pipeline has expanded to approximately 5.8 GW, representing about $17 billion of powered shell investment potential or up to $87 billion on a turnkey basis.",
+   "ev_start": 2793,
+   "ev_end": 2959,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S006",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "They're looking for integrated solutions across logistics, energy, and warehouse operations.",
+   "ev_start": 3278,
+   "ev_end": 3370,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S007",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ],
+    "competition": [
+     "ahead of the market"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "That insight helps us anticipate demand, shape our development pipeline, and stay ahead of the market.",
+   "ev_start": 3484,
+   "ev_end": 3586,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expanding"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "During the quarter, we closed our $1.2 billion European joint venture with La Caisse, further expanding that long-standing relationship and reflecting strong demand for high quality logistics assets.",
+   "ev_start": 3654,
+   "ev_end": 3853,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Prologis remains the partner of choice for investors seeking scale, execution, and access to the highest quality logistics portfolio in the world.",
+   "ev_start": 3854,
+   "ev_end": 4000,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S010",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "We're confident in where the business is headed and remain focused on creating long-term value for our shareholders.",
+   "ev_start": 4108,
+   "ev_end": 4224,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "We generated $83 million of promote revenue in the quarter, driven by outperformance from three vehicles, underscoring the performance-driven nature within our strategic capital business.",
+   "ev_start": 4455,
+   "ev_end": 4642,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Notably, our portfolio lease mark-to-market remained unchanged from the prior quarter at 17% on a net effective basis, fully replenishing our embedded NOI opportunity of nearly $800 million available without any further market rent growth.",
+   "ev_start": 4885,
+   "ev_end": 5124,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Turning to capital deployment, as Dan mentioned, we started over $1.6 billion in new development during the quarter, including approximately $800 million in logistics properties.",
+   "ev_start": 5366,
+   "ev_end": 5544,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "We acquired $1.8 billion of real estate during the quarter at an estimated discount to replacement cost of approximately 20%, executing on our strategy to go deeper within our existing markets.",
+   "ev_start": 5840,
+   "ev_end": 6033,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S015",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded"
+    ],
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Stepping back, the underwritten IRRs on our acquisitions have exceeded the IRRs on our dispositions by 140 basis points year to date, achieving both ongoing portfolio optimization while enhancing long-term returns.",
+   "ev_start": 6234,
+   "ev_end": 6448,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "grows"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Finally, contributions totaled $500 million for the quarter, demonstrating continued execution of our business model, which crystallizes value creation, recycles capital, and grows AUM and revenues within our strategic capital business.",
+   "ev_start": 6449,
+   "ev_end": 6685,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "As an update on data centers, we had an exceptional quarter with advancement of our priorities in every facet of this growing business.",
+   "ev_start": 6686,
+   "ev_end": 6821,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S018",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "We started a 260 MW build-to-suit campus with total expected investment of approximately $800 million.",
+   "ev_start": 6822,
+   "ev_end": 6924,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S019",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "We've now commenced nearly $4 billion of data center development, all build-to-suit for the highest quality digital infrastructure customers, with more than 50% of this capital invested in turnkey projects.",
+   "ev_start": 7019,
+   "ev_end": 7225,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S020",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see the"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "During the quarter, we also completed a 100 MW power land sale, generating an 82% margin and illustrating our disciplined approach to maximizing risk-adjusted returns by monetizing projects at the stage where we see the greatest profit margin.",
+   "ev_start": 7226,
+   "ev_end": 7469,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "The breadth of this activity demonstrates that our data center business is driven by an integrated platform that consistently originates, develops, and realizes value.",
+   "ev_start": 7684,
+   "ev_end": 7851,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased approximately 70"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "performance": [
+     "declining"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "This contributed to vacancy declining to 7.2%, while market rents increased approximately 70 basis points.",
+   "ev_start": 8230,
+   "ev_end": 8336,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growing"
+    ],
+    "performance": [
+     "demand",
+     "growing",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "Customer demand is broadening with notable and growing strength across e-commerce, advanced manufacturing, and increasingly customers supporting the build-out of digital infrastructure.",
+   "ev_start": 8337,
+   "ev_end": 8522,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Alongside these secular additions, demand from our largest segment, basic daily needs and the logistics that support them, remains healthy.",
+   "ev_start": 8717,
+   "ev_end": 8856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Demand remains robust, and vacancy has been stable and relatively tight at 5.2%.",
+   "ev_start": 9200,
+   "ev_end": 9280,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased approximately 60"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "This has been translating to rent growth, which increased approximately 60 basis points during the quarter and 160 basis points from the trough last year.",
+   "ev_start": 9281,
+   "ev_end": 9435,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S027",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Large format space remains in tight supply, creating upward pressure on rents and adding depth to our build-to-suit pipeline.",
+   "ev_start": 9500,
+   "ev_end": 9625,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S028",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "availability"
+    ],
+    "performance": [
+     "units"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "We have very limited availability in spaces larger than 500,000 sq ft and no availability whatsoever in spaces larger than 1 million sq ft. At the same time, occupancy is improving across smaller units in nearly all of our markets.",
+   "ev_start": 9626,
+   "ev_end": 9857,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased approximately 1"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Appraised values across our strategic capital platform increased approximately 1% quarter-over-quarter.",
+   "ev_start": 10222,
+   "ev_end": 10325,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S030",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "Our debt-to-EBITDA ratio ended the quarter at 4.7x, building tremendous borrowing capacity, especially when considering the scale of our balance sheet.",
+   "ev_start": 10636,
+   "ev_end": 10787,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "raised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ],
+    "revision": [
+     "raised"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "We are raising our outlook to reflect the strength of our operating performance and continued visibility into earnings growth.",
+   "ev_start": 10845,
+   "ev_end": 10971,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance",
+     "growth of 5",
+     "growth of 6"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "This increase, together with our second quarter outperformance, drives our expectation for net effect of same-store growth of 5.25%-5.75% and cash same-store growth of 6.75%-7.25%.",
+   "ev_start": 11054,
+   "ev_end": 11234,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S033",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [
+    "PLD_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expected to"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "Strategic capital revenue, excluding promotes, remains unchanged at $660 million-$680 million, while net promote income is now expected to be flat on the year.",
+   "ev_start": 11235,
+   "ev_end": 11394,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expanding"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "We are increasing development starts, and this on an owned and managed basis, to a range of $5.5 billion-$6.5 billion, reflecting strong demand and expanding opportunities.",
+   "ev_start": 11464,
+   "ev_end": 11636,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S035",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "We are also increasing acquisitions to $1.5 billion-$2 billion and expect contributions and dispositions to range from $4.25 billion-$5.25 billion, consistent with our strategy of recycling capital and optimizing portfolio returns.",
+   "ev_start": 11713,
+   "ev_end": 11944,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S036",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PLD_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "Putting it all together, we are raising our net earnings guidance to $4.40-$4.55 per share.",
+   "ev_start": 11945,
+   "ev_end": 12036,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "We are executing across every part of our platform, from operations and development to strategic capital data centers and energy, at a time that market conditions continue to improve.",
+   "ev_start": 12289,
+   "ev_end": 12472,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S038",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "strategic_capital"
+   ],
+   "home": "strategic_capital",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "demand",
+     "growth",
+     "accelerating",
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "Occupier and investor demand is broadening, rent growth is re-accelerating, and our customers continue to turn to us for increasingly integrated solutions.",
+   "ev_start": 12473,
+   "ev_end": 12628,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "Combined with the strength of our balance sheet and the scale of our platform, we believe these trends position Prologis to continue creating value today while extending our long-term growth opportunity.",
+   "ev_start": 12629,
+   "ev_end": 12832,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "What I would say is this: we've been very consistent over time in how we think about M&A. The bar is high.",
+   "ev_start": 12992,
+   "ev_end": 13098,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S041",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "We'll always be disciplined on price.",
+   "ev_start": 13171,
+   "ev_end": 13208,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S042",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "It's been a really steady level of improvement and execution, and we're as pleased as anybody to see the market also coming along.",
+   "ev_start": 15078,
+   "ev_end": 15208,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeds",
+     "expand"
+    ],
+    "forward": [
+     "we see market"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "The specific answer to your question is, if we see market rents achieve a growth level that exceeds rent change in any given year by roll, right, that's just going to be the math of when we would then turn to see it expand again.",
+   "ev_start": 15603,
+   "ev_end": 15832,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S044",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 9,
+   "sentence": "We would hold out the possibility that that could occur, especially when we look at not just the standing lease mark-to-market that we have, but when we evaluate replacement cost rents as well, which you know are very favorable.",
+   "ev_start": 15833,
+   "ev_end": 16061,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S045",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance"
+    ],
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 1,
+   "sentence": "I think what you should look at is just the continued outperformance in occupancy, and you're seeing us just take more and more market share every quarter.",
+   "ev_start": 16143,
+   "ev_end": 16298,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 4,
+   "sentence": "That's our fourth record in the past seven quarters.",
+   "ev_start": 17244,
+   "ev_end": 17296,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S047",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 12,
+   "sentence": "They're investing in their supply chains.",
+   "ev_start": 17772,
+   "ev_end": 17813,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S048",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 14,
+   "sentence": "You've heard us talk about our big box availability.",
+   "ev_start": 17858,
+   "ev_end": 17910,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S049",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "competition": [
+     "competing"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 9,
+   "sentence": "Companies are just getting more comfortable investing in their supply chains, competing and winning for revenues.",
+   "ev_start": 18734,
+   "ev_end": 18847,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S050",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 10,
+   "sentence": "There are categories that reflect growth opportunities in the future that are underpunching their weight.",
+   "ev_start": 18848,
+   "ev_end": 18953,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "That's really great momentum.",
+   "ev_start": 20521,
+   "ev_end": 20550,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 4,
+   "sentence": "Market rents and occupancies have stabilized and begun to grow again.",
+   "ev_start": 21628,
+   "ev_end": 21697,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S053",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see that"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 5,
+   "sentence": "The specific numbers you're looking for, net absorption, we see that amounting to 220 million sq ft in the U.S. this year, and it's all the things Dan described as it relates to the dialogue we're having with customers, our pipeline, and the breadth across markets and sizes.",
+   "ev_start": 21698,
+   "ev_end": 21973,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S054",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 7,
+   "sentence": "Putting it together, the markets are entering a new phase of growth, and it sets us up to see more consistent and sustained rent growth going forward as the occupational recovery emerges.",
+   "ev_start": 22133,
+   "ev_end": 22320,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S055",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipating",
+     "going forward"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 9,
+   "sentence": "We're anticipating that growth has the position to become more consistent going forward.",
+   "ev_start": 22400,
+   "ev_end": 22488,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S056",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 10,
+   "sentence": "As this operational recovery becomes more broad-based, we could see inflation plus style growth emerge over time, given where market rents are relative to replacement costs.",
+   "ev_start": 22489,
+   "ev_end": 22662,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 12,
+   "sentence": "Now looking forward, barriers to supply, both at the municipal and at the state level, should help accelerate the recovery as conditions firm.",
+   "ev_start": 23964,
+   "ev_end": 24106,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 1,
+   "sentence": "The build-to-suit pipeline is growing.",
+   "ev_start": 25587,
+   "ev_end": 25625,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S059",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 5,
+   "sentence": "I feel very good about that build-to-suit volume and just where our customers are and just the fact that there are so few large format buildings available.",
+   "ev_start": 25850,
+   "ev_end": 26005,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S060",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "plays out"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 6,
+   "sentence": "When you have 14,000 acres of land and 240 million sq ft of opportunities, it really plays out well for us.",
+   "ev_start": 26006,
+   "ev_end": 26113,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 0,
+   "sentence": "I might pile on there and just highlight as well that the margin is what best contextualizes that mix then together with our expectations on stabilized cap rates.",
+   "ev_start": 28475,
+   "ev_end": 28637,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S062",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 3,
+   "sentence": "What I'm very proud of is the fact that we told you all what we were going to do in 2023 with this data center business, and that was around building a pipeline, that was around building internal capabilities, that was around round-tripping properties.",
+   "ev_start": 29555,
+   "ev_end": 29807,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S063",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 6,
+   "sentence": "We put the 10 GW out there as a projection that we're very confident in that we're going to deliver.",
+   "ev_start": 30042,
+   "ev_end": 30142,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S064",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperform"
+    ],
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 8,
+   "sentence": "It's grown since 2023, and we'll see how this team is able to continue to outperform.",
+   "ev_start": 30287,
+   "ev_end": 30372,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S065",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "competition": [
+     "advantage"
+    ],
+    "product": [
+     "availability"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 3,
+   "sentence": "We've talked about opening up capital availability via our logistics development ventures, et cetera, and we're really clearing the decks for having all of the capital availability here that'll be necessary to take advantage of what has indeed been a growing opportunity.",
+   "ev_start": 30717,
+   "ev_end": 30988,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 6,
+   "sentence": "I would say we've essentially completed a review of what's available in the market.",
+   "ev_start": 32025,
+   "ev_end": 32108,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S067",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 13,
+   "sentence": "That's where the largest component of nominal value creation resides, and we feel very good about our capacity to do so.",
+   "ev_start": 33106,
+   "ev_end": 33226,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S068",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 7,
+   "sentence": "These deals have a tremendous uplift in land basis to get to fair market value for powered land.",
+   "ev_start": 34005,
+   "ev_end": 34101,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S069",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformed"
+    ],
+    "competition": [
+     "outperformed the market"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 7,
+   "sentence": "That portfolio, our FIBRA vehicle there is excellent and has outperformed the market, meaningfully generating a promote.",
+   "ev_start": 35408,
+   "ev_end": 35528,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S070",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 9,
+   "sentence": "We feel very good about it and look forward to its future.",
+   "ev_start": 35595,
+   "ev_end": 35653,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S071",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisitions"
+    ],
+    "confident": [
+     "feel great about"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 58,
+   "sentence_index": 1,
+   "sentence": "With regard to the acquisitions in the quarter, we feel great about what was bought there.",
+   "ev_start": 36329,
+   "ev_end": 36419,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S072",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 5,
+   "sentence": "Look at the market share that we're taking every quarter when you look at the occupancy.",
+   "ev_start": 38257,
+   "ev_end": 38345,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S073",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 9,
+   "sentence": "We just adjusted up our development starts for the second time this year, given the confidence that we have in the markets that we selected to buy this land and develop out our logistics business.",
+   "ev_start": 38687,
+   "ev_end": 38883,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S074",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "outperform"
+    ],
+    "negative": [
+     "decline",
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 67,
+   "sentence_index": 6,
+   "sentence": "In terms of different geographies and the spread, I don't know that we'll have any markets with a decline over the next 12 months, the best geographies will definitely outperform inflation.",
+   "ev_start": 40939,
+   "ev_end": 41128,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 71,
+   "sentence_index": 2,
+   "sentence": "The approvals and entitlements continue to be a growing issue.",
+   "ev_start": 42393,
+   "ev_end": 42455,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S076",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiates"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 71,
+   "sentence_index": 6,
+   "sentence": "I'd say that's really where Prologis differentiates in a big way.",
+   "ev_start": 42645,
+   "ev_end": 42710,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S077",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "play out"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 71,
+   "sentence_index": 17,
+   "sentence": "It's just the evolution of how these things play out, and it's on us to be as far out in front of these as we possibly can and be the most responsible data center developer there is.",
+   "ev_start": 43536,
+   "ev_end": 43718,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 75,
+   "sentence_index": 4,
+   "sentence": "There's healthy, secular demand drivers.",
+   "ev_start": 44532,
+   "ev_end": 44572,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S079",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 75,
+   "sentence_index": 16,
+   "sentence": "That's what gives us our confidence.",
+   "ev_start": 45320,
+   "ev_end": 45356,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 79,
+   "sentence_index": 3,
+   "sentence": "We have introduced a consensus source for you to be able to see this.",
+   "ev_start": 46194,
+   "ev_end": 46263,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PLD_2026_2-S081",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud",
+     "feel great about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 80,
+   "sentence_index": 6,
+   "sentence": "As you saw, we're very proud of the build that we had over the quarter and feel great about the balance of the year.",
+   "ev_start": 47132,
+   "ev_end": 47248,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "PLD_2026_2-S011",
+  "PLD_2026_2-S012",
+  "PLD_2026_2-S016",
+  "PLD_2026_2-S029",
+  "PLD_2026_2-S033",
+  "PLD_2026_2-S038",
+  "PLD_2026_2-S002",
+  "PLD_2026_2-S005",
+  "PLD_2026_2-S008",
+  "PLD_2026_2-S019",
+  "PLD_2026_2-S020",
+  "PLD_2026_2-S025",
+  "PLD_2026_2-S028",
+  "PLD_2026_2-S031",
+  "PLD_2026_2-S034",
+  "PLD_2026_2-S035",
+  "PLD_2026_2-S036",
+  "PLD_2026_2-S049",
+  "PLD_2026_2-S056",
+  "PLD_2026_2-S057",
+  "PLD_2026_2-S065",
+  "PLD_2026_2-S074",
+  "PLD_2026_2-S080"
+ ],
+ "surfaced_signal_ids": [
+  "PLD_2026_2-S011",
+  "PLD_2026_2-S012",
+  "PLD_2026_2-S016",
+  "PLD_2026_2-S029",
+  "PLD_2026_2-S033",
+  "PLD_2026_2-S038",
+  "PLD_2026_2-S002",
+  "PLD_2026_2-S005",
+  "PLD_2026_2-S008",
+  "PLD_2026_2-S019",
+  "PLD_2026_2-S020",
+  "PLD_2026_2-S025",
+  "PLD_2026_2-S028",
+  "PLD_2026_2-S031",
+  "PLD_2026_2-S034",
+  "PLD_2026_2-S035",
+  "PLD_2026_2-S036",
+  "PLD_2026_2-S049",
+  "PLD_2026_2-S056",
+  "PLD_2026_2-S057",
+  "PLD_2026_2-S065",
+  "PLD_2026_2-S074",
+  "PLD_2026_2-S080",
+  "PLD_2026_2-S081",
+  "PLD_2026_2-S070",
+  "PLD_2026_2-S071",
+  "PLD_2026_2-S060",
+  "PLD_2026_2-S044",
+  "PLD_2026_2-S064",
+  "PLD_2026_2-S077"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "strategic_capital"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 81,
+  "signals_usable": 81,
+  "selected": 23,
+  "by_topic": {
+   "strategy": 14,
+   "momentum": 32,
+   "product": 12,
+   "competition": 7,
+   "pressure": 3
+  },
+  "by_horizon": {
+   "current": 67,
+   "forward": 14
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 1,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

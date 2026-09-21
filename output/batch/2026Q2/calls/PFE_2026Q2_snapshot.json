@@ -1,0 +1,4638 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "PFE",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "PFE",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 7,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Francesca DeMartino",
+    "role": "ir"
+   },
+   {
+    "name": "Albert Bourla",
+    "role": "management"
+   },
+   {
+    "name": "David Denton",
+    "role": "management"
+   },
+   {
+    "name": "Cecile Guegan",
+    "role": "management"
+   },
+   {
+    "name": "Chris Boshoff",
+    "role": "management"
+   },
+   {
+    "name": "Evan Seigerman",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Schott",
+    "role": "analyst"
+   },
+   {
+    "name": "Aamir Malik",
+    "role": "management"
+   },
+   {
+    "name": "Umer Raffat",
+    "role": "analyst"
+   },
+   {
+    "name": "Geoffrey Meacham",
+    "role": "analyst"
+   },
+   {
+    "name": "Akash Tewari",
+    "role": "analyst"
+   },
+   {
+    "name": "Terence Flynn",
+    "role": "analyst"
+   },
+   {
+    "name": "Trung Huynh",
+    "role": "analyst"
+   },
+   {
+    "name": "Steve Scala",
+    "role": "analyst"
+   },
+   {
+    "name": "Asad Haider",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "PFE_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $15B (+1%), second quarter",
+   "fact_ids": [
+    "PFE_2026_2-004"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $0.77/sh",
+   "fact_ids": [
+    "PFE_2026_2-005"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Gross margin 76%",
+   "fact_ids": [
+    "PFE_2026_2-007"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating margin 35%",
+   "fact_ids": [
+    "PFE_2026_2-009"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $3.45B",
+   "fact_ids": [
+    "PFE_2026_2-012"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is decelerating: guided 7% to 9% vs 25% reported",
+   "fact_ids": [
+    "PFE_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.18, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 15000000000.0,
+    "fact_id": "PFE_2026_2-004"
+   },
+   "growth": {
+    "value": 25.0,
+    "period": "second quarter",
+    "fact_id": "PFE_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": {
+    "value": 76.0,
+    "period": "second quarter",
+    "fact_id": "PFE_2026_2-007",
+    "confidence": "high"
+   },
+   "outlook": {
+    "direction": "down",
+    "source": "PFE_2026_2-S061",
+    "delta_pp": -17.0,
+    "guided_lo": 7.0,
+    "guided_hi": 9.0,
+    "guided_descriptor": "high single-digit"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "non_covid_product_performance_and_revised",
+   "name": "Non-Covid Product Performance And Revised",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "PFE_2026_2-001",
+   "PFE_2026_2-002",
+   "PFE_2026_2-004",
+   "PFE_2026_2-007",
+   "PFE_2026_2-009",
+   "PFE_2026_2-008",
+   "PFE_2026_2-010",
+   "PFE_2026_2-005",
+   "PFE_2026_2-015",
+   "PFE_2026_2-012",
+   "PFE_2026_2-011",
+   "PFE_2026_2-014",
+   "PFE_2026_2-003"
+  ],
+  "signal_ids": [
+   "PFE_2026_2-S007",
+   "PFE_2026_2-S012",
+   "PFE_2026_2-S018",
+   "PFE_2026_2-S027",
+   "PFE_2026_2-S037",
+   "PFE_2026_2-S043",
+   "PFE_2026_2-S044",
+   "PFE_2026_2-S045",
+   "PFE_2026_2-S046",
+   "PFE_2026_2-S048",
+   "PFE_2026_2-S052",
+   "PFE_2026_2-S055",
+   "PFE_2026_2-S056",
+   "PFE_2026_2-S062",
+   "PFE_2026_2-S071",
+   "PFE_2026_2-S104",
+   "PFE_2026_2-S106"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "non_covid_product_performance_and_revised",
+   "name": "Non-Covid Product Performance And Revised",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PFE_2026_2-013"
+   ],
+   "signal_ids": [
+    "PFE_2026_2-S057"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 25.0,
+    "period": "second quarter",
+    "fact_id": "PFE_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 7.0,
+    "hi": 9.0,
+    "descriptor": "high single-digit",
+    "period": null,
+    "source": "signal_text",
+    "id": "PFE_2026_2-S061",
+    "direction_word": null,
+    "text": "Over the next several years, we will continue to position Pfizer for high single-digit revenue growth towards the end of the decade.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -17.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 10,
+    "cautious": 7,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.18
+   },
+   "qa": {
+    "confident": 15,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "Albert Bourla": {
+    "confident": 13,
+    "cautious": 1
+   },
+   "David Denton": {
+    "confident": 2
+   },
+   "Cecile Guegan": {
+    "confident": 2,
+    "cautious": 1
+   },
+   "Chris Boshoff": {
+    "cautious": 5,
+    "confident": 3
+   },
+   "Aamir Malik": {
+    "confident": 5
+   }
+  },
+  "notable_confident": [
+   "PFE_2026_2-S083",
+   "PFE_2026_2-S102",
+   "PFE_2026_2-S006",
+   "PFE_2026_2-S059"
+  ],
+  "notable_cautious": [
+   "PFE_2026_2-S076",
+   "PFE_2026_2-S016",
+   "PFE_2026_2-S073",
+   "PFE_2026_2-S075",
+   "PFE_2026_2-S077"
+  ],
+  "withheld": [],
+  "revisions": [
+   "PFE_2026_2-S025"
+  ]
+ },
+ "signals": [
+  {
+   "id": "PFE_2026_2-S001",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "We also are building towards the future, advancing our R&D pipeline that provides multiple opportunities for success across our four therapeutic areas.",
+   "ev_start": 2022,
+   "ev_end": 2173,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.58,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Previously, we announced that Dave Denton would be leaving Pfizer soon for another opportunity.",
+   "ev_start": 2174,
+   "ev_end": 2269,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S003",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnered"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Since then, Dave has partnered closely with Cecile Guegan to prepare for this transition.",
+   "ev_start": 2270,
+   "ev_end": 2359,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S004",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "With Cecile's leadership, I'm confident we are in very good hands.",
+   "ev_start": 2603,
+   "ev_end": 2669,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "strategy": [
+     "capital allocation"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "She has worked closely with Dave and our leadership team in completing key transactions, developing our approach to capital allocation and driving efficiency and productivity improvements across our company.",
+   "ev_start": 2849,
+   "ev_end": 3056,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Now I'm confident in the years ahead because we have been purposeful in establishing a foundation marked by strong execution across our business, alignment among our leadership team and a clear strategy to guide our colleagues in working toward meaningful future growth and impact.",
+   "ev_start": 3057,
+   "ev_end": 3338,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S007",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PFE_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "strategy": [
+     "acquired"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "In the quarter, revenue for our acquired products grew 25% operationally when excluding the impact of certain one-time items in the same quarter a year ago.",
+   "ev_start": 3462,
+   "ev_end": 3618,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S008",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "We are focused on execution and pleased with the progress we continue to make with each of them.",
+   "ev_start": 3717,
+   "ev_end": 3813,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S009",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gained",
+     "growing"
+    ],
+    "product": [
+     "innovative"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "With the addition of Seagen, we gained an innovative platform, deep scientific expertise and a promising ADC pipeline central to our goal of growing our oncology.",
+   "ev_start": 3814,
+   "ev_end": 3976,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S010",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "We also acquired a commercial portfolio that is delivering ahead of expectations.",
+   "ev_start": 3977,
+   "ev_end": 4058,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PFE_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "In the quarter, we drove strong revenue growth with a 21% year-over-year increase across the legacy Seagen portfolio in the U.S. after excluding the one-time stocking benefit that we had in the second quarter of last year.",
+   "ev_start": 4059,
+   "ev_end": 4281,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S012",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe",
+     "expected to"
+    ],
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "With Metsera, we believe we are on a path towards unlocking a differentiated profile for patients with obesity and related conditions in a market expected to reach $150 billion.",
+   "ev_start": 4282,
+   "ev_end": 4459,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S013",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "Data we shared recently at the American Diabetes Association Scientific Sessions reinforce why we are excited about berobenatide, which is an investigational ultra-long-acting GLP-1 receptor agonist with the potential to be the first monthly GLP-1 peptide approved for the treatment of obesity and related comorbidities.",
+   "ev_start": 4460,
+   "ev_end": 4780,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Finally, the acquisition of Biohaven positioned our company as a leader in providing treatment options for migraine, a disease affecting an estimated 1.2 billion people worldwide.",
+   "ev_start": 4984,
+   "ev_end": 5163,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "delivered strong year-over-year growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "NURTEC delivered strong year-over-year growth again this quarter and continued to lead the oral CGRP class in total prescriptions.",
+   "ev_start": 5164,
+   "ev_end": 5294,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S016",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "We have the Phase III trial underway for menstrual migraine, an area of high unmet patient need and another trial evaluating redosing for acute treatment of migraine.",
+   "ev_start": 5418,
+   "ev_end": 5584,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S017",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Our pipeline progress through the first half of the year reflects our discipline in prioritizing programs where strong science, clinical execution and strategic investments can make the greatest impact for patients.",
+   "ev_start": 5696,
+   "ev_end": 5911,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S018",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ],
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 4.53,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "Our R&D team already has been productive with our ambitious agenda, achieving critical milestones that included 3 regulatory approvals, 6 key data readouts and 8 pivotal study starts so far.",
+   "ev_start": 5912,
+   "ev_end": 6102,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S019",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "unveiled"
+    ],
+    "product": [
+     "unveiled"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "We have unveiled data from 21 late-stage readouts and achieved 6 regulatory approvals.",
+   "ev_start": 6238,
+   "ev_end": 6324,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "We also have clear line of sight to our aim of delivering a risk-adjusted high single-digit revenue CAGR from year-end 2028 through year-end 2033.",
+   "ev_start": 6325,
+   "ev_end": 6471,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "This is supported by our bottoms-up analysis that included assessing our base of growing in-line products and 20 key potential new medicines and vaccines within our pipeline.",
+   "ev_start": 6472,
+   "ev_end": 6646,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S022",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment",
+     "r&d"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We continue to prioritize investment in R&D, both on internal programs and selective business development with the potential to strengthen our position in key areas.",
+   "ev_start": 6647,
+   "ev_end": 6812,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S023",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Financial discipline and cost management is allowing us to continue investing in growth.",
+   "ev_start": 6813,
+   "ev_end": 6901,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S024",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "With our strong performance through the first half of the year and our ongoing productivity enhancement discipline, we remain confident in our business.",
+   "ev_start": 7347,
+   "ev_end": 7499,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S025",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance",
+     "full year"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "Today, we are raising the midpoint of our revenue guidance for full year 2026 and reaffirming guidance for adjusted diluted earnings per share.",
+   "ev_start": 7500,
+   "ev_end": 7643,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S026",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "dividend"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "And we remain committed to maintaining and, over time, growing our dividend.",
+   "ev_start": 7644,
+   "ev_end": 7720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S027",
+   "topics": [
+    "competition",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "improved"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "r&d"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "We view AI as the structural transformation opportunity for driving substantial acceleration of our R&D pipeline, greater speed and productivity across our business and an improved competitive position for Pfizer.",
+   "ev_start": 7721,
+   "ev_end": 7934,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S028",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "Even greater opportunities are ahead as we apply AI to accelerate innovation in drug discovery and development.",
+   "ev_start": 8143,
+   "ev_end": 8254,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S029",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "Our ambition is to build an AI-native R&D organization where every insight from target discovery through medical evidence continuously informs the next decision.",
+   "ev_start": 8255,
+   "ev_end": 8416,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S030",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "In summary, I'm confident in how our business is positioned.",
+   "ev_start": 8417,
+   "ev_end": 8477,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S031",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "David Denton",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Leaving Pfizer was a difficult decision, but it's the right one for me personally.",
+   "ev_start": 8948,
+   "ev_end": 9030,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S032",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "David Denton",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "I'm deeply proud of what we've accomplished together, the team that we have built and the vision for the future of Pfizer.",
+   "ev_start": 9031,
+   "ev_end": 9153,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S033",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Denton",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "The results of this quarter show how well our company is executing and why we are confident in the strategy for returning to growth post 2028.",
+   "ev_start": 9154,
+   "ev_end": 9296,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S034",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i believe",
+     "well positioned"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "I believe Pfizer is well positioned to return to growth from 2029 onward and create meaningful value for shareholders.",
+   "ev_start": 10101,
+   "ev_end": 10219,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S035",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "disciplined",
+     "capital allocation",
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "We will continue to execute a disciplined approach to capital allocation, making targeted investment today to drive revenue growth later in the decade and beyond.",
+   "ev_start": 10220,
+   "ev_end": 10382,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S036",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "dividend"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "We intend to do this while maintaining and, over the long term, growing the dividend.",
+   "ev_start": 10383,
+   "ev_end": 10468,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S037",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "strategy": [
+     "acquired"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 6,
+   "sentence": "Commercial execution is driving strong results, including 18% operational revenue growth in our launched and acquired products this quarter.",
+   "ev_start": 10502,
+   "ev_end": 10642,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S038",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "high single-digit"
+    ],
+    "product": [
+     "launched"
+    ],
+    "strategy": [
+     "acquired"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "With the continued growth of our launched and acquired products, we are laying the groundwork for high single-digit revenue growth towards the end of the decade.",
+   "ev_start": 10695,
+   "ev_end": 10856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "Our second quarter adjusted earnings performance reflects disciplined execution across our strategic priorities and continued progress towards building the foundation for durable long-term value creation.",
+   "ev_start": 10857,
+   "ev_end": 11061,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S040",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 11,
+   "sentence": "We are raising the midpoint of our revenue guidance range despite lower-than-expected COVID revenues.",
+   "ev_start": 11198,
+   "ev_end": 11299,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S041",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 13,
+   "sentence": "We delivered revenue growth in the quarter through disciplined execution across key brands in the U.S. and select international markets.",
+   "ev_start": 11487,
+   "ev_end": 11623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "Progress leveraging data and scaling AI across the company supported our field force in driving access and increasing uptake for new launches.",
+   "ev_start": 11849,
+   "ev_end": 11991,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S043",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "We also expect post-2028 cash flow to benefit from the previously announced Vyndamax patent settlement.",
+   "ev_start": 12631,
+   "ev_end": 12734,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S044",
+   "topics": [
+    "momentum",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PFE_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "grew"
+    ],
+    "product": [
+     "launched"
+    ],
+    "strategy": [
+     "acquired"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "We continue to drive value in key in-line products approaching LOEs, while our launched and acquired products delivered $3.2 billion in revenues and grew 18% operationally in the quarter.",
+   "ev_start": 13014,
+   "ev_end": 13201,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S045",
+   "topics": [
+    "product",
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "negative": [
+     "headwinds"
+    ],
+    "product": [
+     "launched"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "strategy": [
+     "invest",
+     "acquired"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.72,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 28,
+   "sentence": "We continue to invest behind in-line brands and launched and acquired products to support their growth trajectory and help offset incoming LOE headwinds over the next several years.",
+   "ev_start": 13401,
+   "ev_end": 13582,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 34,
+   "sentence": "Adjusted SG&A expenses decreased 3% operationally, primarily reflecting lower spending in corporate enabling function.",
+   "ev_start": 14132,
+   "ev_end": 14250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S047",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 35,
+   "sentence": "Adjusted R&D expenses increased 12% operationally, primarily driven by an increase in spending in certain oncology and obesity product candidates.",
+   "ev_start": 14251,
+   "ev_end": 14397,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S048",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PFE_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "r&d",
+     "investment"
+    ],
+    "performance": [
+     "margin",
+     "revenue"
+    ]
+   },
+   "score": 4.53,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 36,
+   "sentence": "Second quarter 2026 adjusted operating margin was strong at 35%, reflecting effective cost management, strong non-COVID revenue performance and higher R&D investment in the quarter.",
+   "ev_start": 14398,
+   "ev_end": 14579,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S049",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we continue to forecast"
+    ],
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 41,
+   "sentence": "For SV, we continue to forecast significant risk-adjusted revenue in other non-small cell lung cancer indications, subject to technical and regulatory success.",
+   "ev_start": 15150,
+   "ev_end": 15309,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 42,
+   "sentence": "So far, Seagen revenue performance has exceeded our initial expectation, and we aim to continue delivering above initial expectation in the long term.",
+   "ev_start": 15310,
+   "ev_end": 15460,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S051",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 43,
+   "sentence": "We remain disciplined in operating expense management and focused on long-term margin improvement.",
+   "ev_start": 15461,
+   "ev_end": 15559,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S052",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "are expected"
+    ],
+    "product": [
+     "announced"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 45,
+   "sentence": "Building on that momentum, today, we announced the expansion of our ongoing cost improvement programs, which are expected to generate approximately $2.5 billion in additional net cost savings from 2027 through 2029.",
+   "ev_start": 15750,
+   "ev_end": 15965,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S053",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "are expected",
+     "future"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "margin",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 51,
+   "sentence": "These initiatives are expected to enhance operating efficiency, support continued operating margin expansion and strengthen our ability to invest in innovation and future growth opportunities.",
+   "ev_start": 16721,
+   "ev_end": 16913,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S054",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "dividend",
+     "repurchases"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 54,
+   "sentence": "It includes reinvesting in the business at appropriate returns, maintaining and, over time, growing our dividend and preserving optionality for future value-enhancing actions, including share repurchases.",
+   "ev_start": 17047,
+   "ev_end": 17251,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S055",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PFE_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested",
+     "r&d",
+     "dividend"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 55,
+   "sentence": "In the first half of 2026, we invested $5.5 billion in internal and external R&D and returned $4.9 billion to shareholders via our quarterly dividend.",
+   "ev_start": 17252,
+   "ev_end": 17402,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S056",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired",
+     "r&d"
+    ]
+   },
+   "score": 3.75,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 56,
+   "sentence": "The Innovent Biologics deal closed in July, resulting in an initial $650 million upfront payment to be recorded as acquired in-process R&D expense in the third quarter.",
+   "ev_start": 17403,
+   "ev_end": 17571,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "non_covid_product_performance_and_revised"
+   ],
+   "home": "non_covid_product_performance_and_revised",
+   "fact_ids": [
+    "PFE_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 62,
+   "sentence": "Our updated revenue guidance reflects strong non-COVID product performance and revised revenue expectation of approximately $4 billion, down from $5 billion for COVID-19 revenues.",
+   "ev_start": 18299,
+   "ev_end": 18478,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S058",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PFE_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "unfavorable"
+    ],
+    "strategy": [
+     "acquired",
+     "r&d"
+    ]
+   },
+   "score": 3.75,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 64,
+   "sentence": "This EPS range now absorbs an unfavorable impact of approximately $0.10 related to the $650 million acquired in-process R&D charge from the Innovent Biologics transaction.",
+   "ev_start": 18588,
+   "ev_end": 18759,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S059",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "by the end of"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 65,
+   "sentence": "This outlook reflects year-to-date performance, confidence in our business, progress with ongoing cost improvement initiatives, our expectation of adjusted gross margin in the mid-70s range and continued investment to support growth by the end of the decade.",
+   "ev_start": 18760,
+   "ev_end": 19018,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S060",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 68,
+   "sentence": "And as always, we will continue to monitor currency fluctuation as the year progresses.",
+   "ev_start": 19215,
+   "ev_end": 19302,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single-digit",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.86,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 70,
+   "sentence": "Over the next several years, we will continue to position Pfizer for high single-digit revenue growth towards the end of the decade.",
+   "ev_start": 19345,
+   "ev_end": 19477,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S062",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "launched"
+    ],
+    "strategy": [
+     "invest",
+     "r&d",
+     "acquired"
+    ]
+   },
+   "score": 6.03,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 71,
+   "sentence": "We will invest in our business with focus and discipline, supporting continued progress with our R&D pipeline and driving commercial impact with our launched and acquired product.",
+   "ev_start": 19478,
+   "ev_end": 19657,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S063",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growing"
+    ],
+    "strategy": [
+     "disciplined",
+     "capital allocation",
+     "dividend"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 72,
+   "sentence": "We remain committed to disciplined capital allocation with a continued focus on maintaining and, over the long term, growing our dividend while preserving balance sheet strength and flexibility.",
+   "ev_start": 19658,
+   "ev_end": 19852,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 16,
+   "sentence": "Combined with our leading capabilities in small molecules and protein engineering, we are now advancing the next wave of potential ADC breakthroughs in the clinic, leveraging innovative linkers, payloads and targets.",
+   "ev_start": 22585,
+   "ev_end": 22801,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S065",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "product": [
+     "integrating"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 18,
+   "sentence": "GPS, which includes an auristatin S payload designed for improved tolerability and 3028 from Innovent, a bispecific dual payload ADC integrating multiple clinically validated approaches.",
+   "ev_start": 22824,
+   "ev_end": 23010,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 20,
+   "sentence": "In June, we announced the primary overall survival endpoint was not met in the intention-to-treat population non-small cell, non-squamous non-small cell lung cancer.",
+   "ev_start": 23145,
+   "ev_end": 23310,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S067",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergize"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 28,
+   "sentence": "These data align with the ability of vedotin ADCs to induce immunogenic cell death and thereby potentially synergize with anti-PD-1 agents such as pembrolizumab.",
+   "ev_start": 24355,
+   "ev_end": 24516,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S068",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 30,
+   "sentence": "Moving to 4404, our PD-1 VEGF bispecific antibody that has the potential to be a next-generation backbone therapy.",
+   "ev_start": 24715,
+   "ev_end": 24829,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S069",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 35,
+   "sentence": "Our ambitions with 4404 are supported by its differentiated profile recently presented at AACR, including in vitro data showing soluble VEGF-A affinity that is 30 to 60-fold higher than the PD-1 VEGF bispecific ivonescimab and the VEGF monoclonal anti-bevacizumab.",
+   "ev_start": 25343,
+   "ev_end": 25607,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S070",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.22,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 44,
+   "sentence": "We are taking a comprehensive approach with Mevrometostat's development with 3 pivotal studies underway, including MEVPRO-1, evaluating Mevrometostat plus XTANDI versus either XTANDI or docetaxel in post-abiraterone metastatic hormone-resistant prostate cancer.",
+   "ev_start": 26789,
+   "ev_end": 27050,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S071",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "delay"
+    ],
+    "pressure": [
+     "delay"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 46,
+   "sentence": "In MEVPRO-1, our goal is to delay resistance to XTANDI, which has historically delivered radiographic progression-free survival of about 5 to 8 months in similar settings.",
+   "ev_start": 27189,
+   "ev_end": 27360,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S072",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 47,
+   "sentence": "Obesity is a core focus area for our R&D organization.",
+   "ev_start": 27361,
+   "ev_end": 27415,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S073",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 54,
+   "sentence": "Importantly, there were no treatment discontinuations due to treatment-emergent adverse events in any of the arms evaluating maintenance doses moving to Phase III.",
+   "ev_start": 28411,
+   "ev_end": 28574,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S074",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "favorable"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 57,
+   "sentence": "We see high concordance between the high-dose VESPER-1 extension study and the model's predictions, further increasing our confidence that berobenatide can potentially deliver robust efficacy and favorable GI tolerability with the convenience of a monthly therapy.",
+   "ev_start": 28987,
+   "ev_end": 29251,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S075",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 60,
+   "sentence": "The now fully enrolled VESPER-4 and 5 studies of weekly berobenatide and the VESPER-6 study evaluating monthly dosing.",
+   "ev_start": 29453,
+   "ev_end": 29571,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S076",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we plan"
+    ],
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 61,
+   "sentence": "We plan to advance 10 Phase III studies in 2026, including one evaluating participants switching from approved weekly therapies to monthly berobenatide.",
+   "ev_start": 29572,
+   "ev_end": 29724,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S077",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluation"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 65,
+   "sentence": "As is typical for small early-stage studies, these were designed to inform starting doses and potential escalation regimens for further evaluation in Phase IIb.",
+   "ev_start": 30134,
+   "ev_end": 30294,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 68,
+   "sentence": "Looking ahead, our efforts in R&D will continue to be defined by focused execution.",
+   "ev_start": 30542,
+   "ev_end": 30625,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S079",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 69,
+   "sentence": "Here, we provide visibility into the steady cadence of milestones expected over the next 12 months, including 5 regulatory decisions, 8 key readouts and 19 pivotal study starts.",
+   "ev_start": 30626,
+   "ev_end": 30803,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S080",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 1,
+   "sentence": "We continue to be excited about the potential of mevrometostat to become a breakthrough therapy in prostate cancer.",
+   "ev_start": 31675,
+   "ev_end": 31790,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S081",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 4,
+   "sentence": "And our data are now validated by some competitors with EZH2 or PRC2 inhibitor data in prostate cancer, although these are obviously earlier studies.",
+   "ev_start": 31972,
+   "ev_end": 32121,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S082",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "later this year"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 9,
+   "sentence": "So altogether, we are confident in the performance of the experimental arm in MEVPRO-1, and we're looking forward to share update of a potential next breakthrough for prostate cancer later this year.",
+   "ev_start": 32557,
+   "ev_end": 32756,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "exceeding",
+     "momentum"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 4,
+   "sentence": "The strength of our business led to the incremental $1.5 billion above the original guidance is a reflection of, one, exceeding our expectation in Q1 and Q2 on non-COVID portfolio, but it also reflects the confidence in the momentum across our overall business.",
+   "ev_start": 33745,
+   "ev_end": 34006,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S084",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "partner",
+     "launched"
+    ],
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 5,
+   "sentence": "It comes from our key products, Eliquis being one of them with the drivers that our partner, BMS has described, but it's also coming from our launched and acquired products.",
+   "ev_start": 34007,
+   "ev_end": 34180,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 6,
+   "sentence": "As I mentioned earlier, 27% growth if you exclude the one-time impact that we had in 2025 and then some of the drivers that you have seen where we have very strong performance, especially on NURTEC and Padcev.",
+   "ev_start": 34181,
+   "ev_end": 34390,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Cecile Guegan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 9,
+   "sentence": "So overall, very strong performance across the board on our non-COVID, which translates into the raise in revenue and also translates into EPS, which is then offset by the $0.10 linked to the IPR&D.",
+   "ev_start": 34810,
+   "ev_end": 35008,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S087",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.72,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 1,
+   "sentence": "Chris, I think what's exciting on Padcev is if you think about the data Chris shared, our indicated uses for Padcev and pembro now span the entire continuum, all the way from curative intent MIBC through to metastatic disease, all independent of cisplatin eligibility.",
+   "ev_start": 35107,
+   "ev_end": 35375,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 2,
+   "sentence": "And we've executed really well against that in the growing patient population that we have.",
+   "ev_start": 35376,
+   "ev_end": 35467,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 4,
+   "sentence": "We grew over 20%.",
+   "ev_start": 35490,
+   "ev_end": 35507,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S090",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 7,
+   "sentence": "And we're also really pleased with the uptake that we have in the MIBC setting.",
+   "ev_start": 35645,
+   "ev_end": 35724,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S091",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "is going to",
+     "going forward"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 10,
+   "sentence": "To your question about what to expect, we obviously think Padcev is going to be a major growth engine for us going forward.",
+   "ev_start": 35868,
+   "ev_end": 35991,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 11,
+   "sentence": "We've had very accelerated growth to date.",
+   "ev_start": 35992,
+   "ev_end": 36034,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S093",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 12,
+   "sentence": "The pace of that growth, of course, is going to moderate from here as we reach the majority of eligible patients and prescribers in la/mUC, but we'll continue to drive that opportunity.",
+   "ev_start": 36035,
+   "ev_end": 36220,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 0,
+   "sentence": "And I want also to emphasize that there is a very important study that we have initiated that if positive, will be very exciting, which is in bladder-sparing opportunity so that those patients will not have to go through this horrible operation.",
+   "ev_start": 36311,
+   "ev_end": 36556,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S095",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 1,
+   "sentence": "I think we're obviously very excited about this.",
+   "ev_start": 37497,
+   "ev_end": 37545,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S096",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "So I think that's exciting for us.",
+   "ev_start": 37686,
+   "ev_end": 37720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S097",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Aamir Malik",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 6,
+   "sentence": "So yes, we're very excited about this.",
+   "ev_start": 37981,
+   "ev_end": 38019,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S098",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 8,
+   "sentence": "We believe atirmociclib could be highly differentiated here because of the tolerability.",
+   "ev_start": 40796,
+   "ev_end": 40884,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S099",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "later this year",
+     "by the end of"
+    ],
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 9,
+   "sentence": "And we should release later this year the clinical trial design for the adjuvant study that should start by the end of 2026.",
+   "ev_start": 40885,
+   "ev_end": 41009,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S100",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulators"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 2,
+   "sentence": "And we are very active in trying to explain that to regulators and legislators.",
+   "ev_start": 41275,
+   "ev_end": 41354,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S101",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcements"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "There is a mobility right now on that topic, and you have seen several announcements here and there, including some pilot programs that they are planning to implement.",
+   "ev_start": 41355,
+   "ev_end": 41522,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S102",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "dividend"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 1,
+   "sentence": "We feel extremely confident that we will - even the most stretched scenarios that we are running, we will be able to maintain our dividend.",
+   "ev_start": 42195,
+   "ev_end": 42334,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S103",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "dividend"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "So I want once and for all to make that clear to all that the dividend will be maintained and eventually through the - after the LOE period, will start again growing it.",
+   "ev_start": 42335,
+   "ev_end": 42504,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S104",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "later this year"
+    ],
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 2,
+   "sentence": "So first question on TRANQUILLO 1 and the TRANQUILLO study - and 2, we obviously want to present later this year at a conference, the full data set, so we don't want to release all the data now.",
+   "ev_start": 43360,
+   "ev_end": 43554,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S105",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we hope",
+     "later this year"
+    ],
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 4,
+   "sentence": "But we've seen, as we stated in the press release for both 50 and 100 milligrams for both primary and co-primary endpoints, clinically meaningful and statistical data, which we hope to share at a conference later this year.",
+   "ev_start": 43678,
+   "ev_end": 43901,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S106",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 8,
+   "sentence": "A reminder that one of the main competitors is IL-4 and IL-13, and there's also an IL-13 only medicine recently that you would have seen.",
+   "ev_start": 44048,
+   "ev_end": 44185,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "released"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 11,
+   "sentence": "Data previously released, which is the EASI-75 in atopic dermatitis for both the medium and high dose where we showed 52% and 50% EASI-75 placebo adjusted.",
+   "ev_start": 44456,
+   "ev_end": 44611,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S108",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Chris Boshoff",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 12,
+   "sentence": "And results for us that's - I mean, that's differentiated data.",
+   "ev_start": 44612,
+   "ev_end": 44675,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S109",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 1,
+   "sentence": "That's a very, very exciting asset for us.",
+   "ev_start": 44863,
+   "ev_end": 44905,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S110",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 2,
+   "sentence": "You remember this memorable day that we resolved the MFN and tariffs altogether for the industry, I think.",
+   "ev_start": 45690,
+   "ev_end": 45796,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S111",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 3,
+   "sentence": "No, the agreements are very consistent with what you have seen for other companies and for us, and we are very pleased with the agreements.",
+   "ev_start": 45797,
+   "ev_end": 45936,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S112",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 23,
+   "sentence": "If you see how much we have invested in business development, it is outpacing everyone else right now since 2022, let's say, after we came back from normality after the COVID years.",
+   "ev_start": 49282,
+   "ev_end": 49463,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S113",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 24,
+   "sentence": "We have had over $80 billion of investments already placed in three of the transactions and all three are performing very well.",
+   "ev_start": 49464,
+   "ev_end": 49591,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S114",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 39,
+   "sentence": "So I think that we have invested a lot, and we will continue doing smaller pieces.",
+   "ev_start": 50503,
+   "ev_end": 50585,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S115",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 40,
+   "sentence": "Those investments, we are confident will drive high single-digit growth after the LOE period, which is in '28.",
+   "ev_start": 50586,
+   "ev_end": 50696,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S116",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.28,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 43,
+   "sentence": "And again, I want to emphasize, I'm very pleased with what we were able to achieve.",
+   "ev_start": 50778,
+   "ev_end": 50861,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S117",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 46,
+   "sentence": "I think with R&D, you will see the significant progress that we have.",
+   "ev_start": 51128,
+   "ev_end": 51197,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PFE_2026_2-S118",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Albert Bourla",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 48,
+   "sentence": "And we are remaining optimistic that they will be successful.",
+   "ev_start": 51327,
+   "ev_end": 51388,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "PFE_2026_2-S057",
+  "PFE_2026_2-S007",
+  "PFE_2026_2-S012",
+  "PFE_2026_2-S018",
+  "PFE_2026_2-S027",
+  "PFE_2026_2-S037",
+  "PFE_2026_2-S043",
+  "PFE_2026_2-S044",
+  "PFE_2026_2-S045",
+  "PFE_2026_2-S046",
+  "PFE_2026_2-S048",
+  "PFE_2026_2-S052",
+  "PFE_2026_2-S055",
+  "PFE_2026_2-S056",
+  "PFE_2026_2-S062",
+  "PFE_2026_2-S071",
+  "PFE_2026_2-S104",
+  "PFE_2026_2-S106"
+ ],
+ "surfaced_signal_ids": [
+  "PFE_2026_2-S057",
+  "PFE_2026_2-S007",
+  "PFE_2026_2-S012",
+  "PFE_2026_2-S018",
+  "PFE_2026_2-S027",
+  "PFE_2026_2-S037",
+  "PFE_2026_2-S043",
+  "PFE_2026_2-S044",
+  "PFE_2026_2-S045",
+  "PFE_2026_2-S046",
+  "PFE_2026_2-S048",
+  "PFE_2026_2-S052",
+  "PFE_2026_2-S055",
+  "PFE_2026_2-S056",
+  "PFE_2026_2-S062",
+  "PFE_2026_2-S071",
+  "PFE_2026_2-S104",
+  "PFE_2026_2-S106",
+  "PFE_2026_2-S083",
+  "PFE_2026_2-S102",
+  "PFE_2026_2-S006",
+  "PFE_2026_2-S059",
+  "PFE_2026_2-S076",
+  "PFE_2026_2-S016",
+  "PFE_2026_2-S073",
+  "PFE_2026_2-S075",
+  "PFE_2026_2-S077",
+  "PFE_2026_2-S025"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "non_covid_product_performance_and_revised"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "PFE_2026_2-006"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "1 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 118,
+  "signals_usable": 118,
+  "selected": 18,
+  "by_topic": {
+   "strategy": 42,
+   "product": 24,
+   "momentum": 32,
+   "competition": 7,
+   "pressure": 8
+  },
+  "by_horizon": {
+   "forward": 29,
+   "current": 89
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 1,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

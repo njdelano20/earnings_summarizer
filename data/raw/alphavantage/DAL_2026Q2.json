@@ -1,0 +1,438 @@
+{
+ "symbol": "DAL",
+ "quarter": "2026Q2",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Morning, everyone, and welcome to the Delta Air Lines June Quarter 2026 Financial Results Conference Call. My name is Matthew, and I will be your coordinator. At this time, all participants are in a listen-only mode until we conduct a question-and-answer session following the presentation. As a reminder, today's call is being recorded. If you have any questions or comments during the presentation, you may press 1 on your phone to enter the question queue at any time. I would now like to turn the conference over to Julie Stewart, Vice President of Investor Relations and Corporate Development. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Julie Stewart",
+   "title": "VP, Investor Relations & Corporate Development",
+   "content": "Thank you, Matthew. Good morning, everyone, and thanks for joining us for our June 2026 earnings call. Joining us from Atlanta today are our CEO, Edward H. Bastian; our Chief Operating Officer, Daniel Janki; Chief Commercial Officer, Joe Esposito; and our Chief Financial Officer, Erik Snell. Edward will open the call with an overview of Delta's performance and strategy. Daniel will cover the operation, Joe will provide an update on the revenue environment, and Erik will discuss costs and our balance sheet. After the prepared remarks, we will also take analyst questions, and we ask that you please limit yourself to one question with a brief follow-up so that we can get to as many of you as possible. As a reminder, today's discussion contains forward-looking statements that represent our beliefs or expectations about future events. All forward-looking statements involve risks and uncertainties that could cause actual results to materially differ from forward-looking statements. Some of the factors that may cause such differences are described in Delta's SEC filings. We will also discuss non-GAAP financial measures; all results exclude special items unless otherwise noted. You can find a reconciliation of our non-GAAP measures on the Investor Relations page at ir.delta.com. And with that, I will turn the call over to Edward.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "Thank you, Julie. Good morning, everyone. We appreciate you joining us today. This morning, we reported our June quarter results, and it is clear that Delta's brand and industry position are stronger than ever. We generated record revenue, which grew 14%, increasing more than $2 billion over last year. This reflects sustained strength in demand and momentum across our diverse business. We delivered pretax profits of $1.4 billion, earnings of $1.56 per share, and an operating margin of 9%. All were better than the guidance that we provided at the start of the quarter. Return on invested capital was 11%, well above our cost of capital. Through the first half, we generated $1.4 billion of free cash flow, fortified our investment-grade balance sheet, and announced a 15% increase to the dividend. Most importantly, we kept investing to make travel safer, easier, and more enjoyable for our customers. Our people are what truly set Delta apart. They delivered industry-leading performance across key operational metrics, and we also earned Delta recognition from a major points guide as the best U.S. airline for the eighth consecutive year. Our people are our number one competitive advantage, and I want to thank the Delta team for their commitment to delivering for our customers every day, particularly during the busy summer travel season. In May, we announced a 4% pay increase. We have accrued nearly $500 million towards next year's profit sharing payout for the first half of the year. Both reflect our long-standing commitment to sharing success with the people who drive it. Turning to the current environment, the U.S. economy remains resilient, supported by strong employment, rising household incomes, and significant wealth accumulation. Our customers are prioritizing experiences, investing in the moments and connections that matter most to them, driving sustained strength and demand for air travel. These trends align well with Delta's strategy, demonstrating the loyalty that we are seeing across customer segments and powering high-margin, diverse revenue streams that enhance the resilience of our business. Our Delta American Express partnership is a clear example of the strength of our loyalty ecosystem. Card spend has grown double digits for the past seven quarters with particular strength among our premium Reserve cardholders. With continued momentum in both new card acquisitions and spend, we expect remuneration of $9 billion this year, up 10% over 2025. As I stated in April, high fuel prices have proven to be the most powerful catalyst for change in our industry, and this year that has once again been the case. Coming into the recent fuel spike, most U.S. carriers were already struggling to earn their cost of capital against a backdrop where industry airfares have meaningfully lagged inflation, costs have reset higher, and consumer preferences have evolved. As we predicted, structural change has accelerated, enabling the industry to recapture this year's fuel cost inflation at the fastest pace of any recent cycle. Even after recent fare increases, airfares remain 10 to 15 percentage points below overall inflation since COVID. With continued fuel volatility, and much of the industry still earning returns below its cost of capital, we believe current revenue momentum should remain sustainable even if fuel prices moderate. That is an important step toward improving the industry's financial health and earning sustainable returns over time. For Delta, we are executing on our strategy from a position of strength. With continued revenue momentum, measured capacity, and a more stable fuel environment, we expect to return to earnings growth on double-digit operating margins in the second half of this year. For the full year, we are affirming the guidance that we set at the start of the year even with a multibillion-dollar fuel headwind. Our outlook for earnings of $6.50 to $7.50 per share represents growth of 20% year over year. And our free cash flow outlook of $3 billion to $4 billion brings our three-year cumulative total to over $11 billion. Looking beyond 2026, we are confident in our long-term financial framework and path to mid-teens margins and return on invested capital. The strength and consistency of our results give us the ability to keep investing and innovating to extend Delta's lead, elevating the experience and creating a more seamless and personalized travel journey. As we invest in the areas that customers value the most, loyalty to Delta continues to grow. Last month, we opened our second Delta One lounge at LAX, bringing the Delta One lounge network to five locations and expanding the industry's largest club and lounge footprint. Our Delta Amex co-brand card continues to lead the industry, and our recent portfolio enhancements are strengthening the value proposition for both existing and prospective cardholders. We are also making the journey more seamless through Delta Sync Concierge. Our AI-powered digital assistant is now available to more than half of Fly Delta app users with a full rollout later this month. This year, we continue to set the standard on connectivity. Fast, free Wi-Fi is already available to members across nearly our entire fleet. Satellite upgrades are coming online in the months ahead to deliver even faster speeds and broader global coverage. Starting in 2028, Amazon Leo will unlock the next generation of onboard connectivity, reach, and personalization. In closing, our performance now reinforces the durability and the differentiation of the Delta business model and our investment thesis. Looking ahead, I am incredibly optimistic about Delta's future and our opportunities to deliver even better performance for our employees, our customers, and our owners. Now, Daniel will cover our operational results.",
+   "sentiment": "0.9"
+  },
+  {
+   "speaker": "Daniel Charles Janki",
+   "title": "Chief Operating Officer",
+   "content": "Thank you, Edward. I want to begin by thanking the Delta team for the outstanding service they provide to our customers every day. Operational excellence is core to the Delta brand, and it is the experience our customers expect. Our culture of continuous improvement — that spirit of 'keep climbing' — drives us to get better every day. This, combined with the continued investment in technology and data, better positions our people to run a great operation, improving reliability and efficiency. During the quarter, we extended our industry leadership in on-time arrival and departure performance while strengthening operational metrics across our system. Completion factor improved through the quarter. We expect continued progress into the second half as targeted actions we have taken to improve resilience gain further traction. We delivered record baggage performance led by our largest hub in Atlanta, where performance has improved meaningfully from last year's strong baseline. This was supported by enhancements to our baggage handling system and processes and our patented baggage AI technology. Delta continued to lead large U.S. carriers in domestic net promoter scores, improving over last year. This was driven by outstanding service of the Delta team, with people-interaction scores reaching all-time records across our global system. This includes year-over-year improvement across airport customer service, reservations and care, flight attendants, and our pilots. This performance reflects the focus of our people and reinforces how we are making travel easier and more reliable for every customer. We are continuing to invest in technology while empowering our people to deliver more proactive communication directly to customers. We are also enhancing digital tools with a simplified rebooking process, expanded self-service, and continued rollout of Delta Sync Concierge. Our customers are noticing. This has driven more than a 25% improvement in NPS during periods of irregular operations. A more reliable customer experience starts with a more reliable fleet, and our Delta TechOps team is central to that. Key fleet reliability metrics, including aircraft out-of-service levels, maintenance-related delays, and cancellations, all improved versus prior year, benefiting from predictive maintenance capabilities and the investments we have made in fleet resilience over the last few years. Beyond supporting our own operation, TechOps represents an exciting opportunity to further diversify our revenue through growing our third-party MRO business. This year, we remain on track to generate approximately $1.2 billion in revenue, up nearly 50% from last year, with low double-digit margins. Over the next several years, our technical capabilities, coupled with our strong customer relationships and record backlog, position us to more than double MRO revenue while expanding margins. Now I will turn it over to Joe to cover our commercial results and outlook.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Thank you, Daniel. June quarter results reflect strong execution and our clear prioritization of managing for margins. Total revenue of $17.7 billion was at the high end of our expectations, up 14% over prior year on approximately 1% capacity growth, driving total unit revenue growth of 12.4%. We are focused on continuing this revenue momentum to fully recover this year's fuel cost pressure and improve margins as we move through the back half of the year. Domestic-led unit revenue growth was up 12.4%, driven by higher yield. International grew 8% over prior year, led by Latin America. Importantly, main cabin trends improved through the quarter, with main cabin unit revenue growing mid-teens in the month of June. Across corporate sales, all sectors posted double-digit growth. Performance was strong across core and coastal hubs, where sales rose more than 20% versus prior year. Diverse revenue streams represented 61% of total revenue in the quarter, up two points over last year, with premium and loyalty revenue both up nearly 20%. Cargo revenue grew 39%, primarily on volume, and MRO delivered revenue growth of more than 30% year-over-year driven by legacy engine platforms. Now turning to outlook: demand remains strong and broad-based. Cash sales improved through the quarter across the entire booking curve, in both premium and main cabin products. These trends, combined with our measured approach to capacity growth, support the sustainability of yield strength. We expect the September quarter revenue to grow mid-teens versus last year. Total unit revenue growth is expected to improve sequentially even against more challenging prior-year comparisons. And while it remains early, December quarter bookings are coming in strong, giving us confidence that this revenue strength will extend through the fourth quarter. Capacity for the third quarter is up 1%, while fourth quarter we planned 2% to 3%, led by international. Our integrated commercial strategy is how we will continue to deliver a revenue and margin premium to the industry. We are expanding our global network through new routes and joint venture partnerships while continuing to renew our fleet, enabling us to grow the network more profitably. We are also improving the product and giving customers more choice. The rollout of basic, classic, and extra offerings in Delta Comfort+ is now complete and will be expanded across all premium cabins this quarter. These offerings increase flexibility for customers while driving improved revenue performance. Loyalty remains one of Delta's most valuable assets. SkyMiles membership growth is outpacing capacity, led by double-digit gains among Gen Z members. That engagement is translating into durable revenue, best illustrated by our industry-leading co-brand performance. In closing, these investments reinforce our competitive advantage and give us more ways to grow revenue, deepen loyalty, and expand margins over time. I will now hand it to Erik to discuss our financial performance.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Erik Storey Snell",
+   "title": "Chief Financial Officer",
+   "content": "Thank you, Joe. I want to start by recognizing the Delta team for delivering strong Q2 results. We generated $1.4 billion of pretax profit with an 8.8% operating margin despite the highest fuel costs in our history, reflecting the structural advantages we have built in the business. Total fuel expense was $4.4 billion, up nearly $2 billion versus last year. Fuel price per gallon averaged $3.93, including a $0.11 refinery benefit, net of a $0.05 impact from a temporary outage. Fuel price came in better than guidance as lower crack spreads more than offset the reduced refinery benefit. The refinery is a strategic advantage for Delta, providing a meaningful offset in a high-crack environment, and we expect 2026 to be one of its most profitable years. Nonfuel unit costs increased 6.8% over prior year in the June quarter, reflecting higher crew and revenue-related costs and capacity growth several points below our initial plan. Through the first half, we generated $4 billion of operating cash flow and $1.4 billion of free cash flow after $2.6 billion of reinvestment. The investments we are making are further compounding our advantages. The durability of our performance allows us to invest year after year in our employees and in elevating the customer experience, all while continuing to pay down debt. Our balance sheet is the best in Delta's history: investment-grade ratings from all three major credit agencies and a substantial and growing base of unencumbered assets and secured borrowing capacity. We ended the quarter with adjusted net debt of $13.6 billion, down from year-end. While much of the industry raised additional capital, debt reduction remains a top priority and we expect gross leverage to reach 2x by year-end. As we move toward our long-term target of 1x, we remain committed to increasing shareholder returns. Turning to our outlook, we expect September quarter nonfuel unit cost performance to improve modestly, with further progress in the December quarter as operational investments continue to gain traction and capacity growth begins to normalize. This puts us back on a path toward our long-term framework of low single-digit unit cost growth. Our outlook assumes an all-in fuel price of approximately $3.50 per gallon, including a $0.05 refinery benefit. Total fuel expense is expected to be about 40% higher than last year. Combined with our mid-teens revenue growth outlook, we expect a Q3 operating margin of 11% to 13% and earnings per share of $2.20 to $2.50, up meaningfully from $1.70 last year. In closing, the affirmation of our full-year outlook from the start of the year and our ability to grow earnings despite a nearly $4 billion increase in fuel cost reinforces that Delta's durability continues to improve relative to prior cycles and to the industry. Delta's differentiated strategy and consistent execution across dynamic environments give us confidence in delivering our long-term financial framework and creating sustained value for our owners. We will now move to Q&A. Matthew, please open the line for analyst questions.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Julie Stewart",
+   "title": "VP, Investor Relations & Corporate Development",
+   "content": "Matthew, can you please remind the analysts how to enter the call queue?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Certainly. At this time, we will be conducting a question-and-answer session. If you have any questions or comments, please press 1 on your phone at this time. We do ask that while posing your question, please pick up your handset if you are listening on speakerphone to provide optimum sound quality. We do ask that all Q&A participants please limit to one question and one brief related follow-up question. Once again, if you have any questions or comments, please press 1 on your phone. Your first question is coming from Conor Cunningham from Melius Research. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Conor Cunningham",
+   "title": "Analyst",
+   "content": "Hi, everyone. Thank you. Joe, I was hoping to start with you. Can you just talk a little bit about the progression in unit revenue throughout the second quarter? I am trying to get a sense of the difference between the revenue production that you saw in April versus June, given the mix dynamic as you were more exposed to the higher fares. I am not asking for monthly detail, just trying to understand the spread a little bit as we get more comfortable with the second-half outlook on revenue. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Yes, Conor. It is one of the things that gives us confidence as we go into the back half and especially the third quarter. Our exit rate on TRASM was significantly higher than our entry rate, and that goes to how our fuel recapture strategy moved the quarter. We started it in May, and in April we were already 70% booked. Each month, you get more and more of new-priced revenue that comes through the system. So it was significantly higher as the exit rate for both premium and main cabin, and that is what gives us confidence toward our guide for the third quarter and the back half of the year.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Conor Cunningham",
+   "title": "Analyst",
+   "content": "Okay. Thank you. And Ed, maybe bigger picture: there have been many comments around how the industry is changing in pricing going forward given recent developments. You did not explicitly guide to fourth quarter, but rough math suggests that you expect pricing to remain firm from here. What gives you confidence that this revenue environment is sustainable? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "I think it gives us a lot of confidence that we are going to hold on to the pricing environment and the revenue momentum. The industry has no other choice: inflation is going through both fuel and nonfuel and costs are significant, and fuel prices are still elevated. That is why we have confidence in holding on to the revenue with a modest capacity increase as well. Our forward cash sales, if you look at cash and bookings, are higher than our close-in. That is what we want to see when we think about confidence for the back half, especially for bookings greater than 90 or 120 days. Then as you get into fall, Delta's network is much more business-oriented in a post-summer environment, not only domestically but internationally. That is where our confidence comes from in the back half. Thanks.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Your next question is coming from Mike Linenberg from Deutsche Bank. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Mike Linenberg",
+   "title": "Analyst",
+   "content": "Oh, yeah. Hey. Good morning, everyone. Edward, this one's for you. It looks like the low-cost, low-fare carrier group is in a bit of a secular decline by many measures of market share. As we think about the industry's ability to hold on to fare increases, one concern among investors is that carriers in that group could come in and undermine the pricing structure as energy prices come off. What are your thoughts on that?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "Sure, Mike. What we have seen is not just this quarter but has been building for the last several years: significant structural changes to the overall industry landscape. The last time we saw fuel moving with a lot of volatility was maybe nine to ten years ago, and back then the low-cost carriers were the darlings of the industry. They had the highest margins and growth rates and looked at fuel as a competitive advantage. Some, such as Southwest, had fuel hedges, which they used to try to take market share. None of that exists any longer. The world has changed completely. No one has fuel hedges of any material note. The cost of production is up — not just fuel but labor, airports, technology, and aircraft costs; you cannot get planes easily, and if you can, the costs are higher. So you need to change the business model to build resilience in pricing durability. That is what we have done over time. It includes diversifying revenue streams. That is why our American Express relationship is so important, why our long-standing leadership in business travel is important, why international growth matters, and why MRO and cargo matter — all are growing double digits. We have been building this and wrapping it around an experience that is substantially better in terms of the premium experience we offer today versus 10 years ago. Technology gives us the chance to become world-class merchandisers and retailers. Ten years ago, we had a blunt instrument with a few price categories; today we continue to add to that. What we are seeing here is no surprise to Delta, and the fact others are following our lead is no surprise either. Even with industry pricing improvements, the low end of the market still needs to increase fares by another roughly 5% by our estimate just to get to breakeven at today's fuel environment. There is nothing to be gained by trying to grow in that environment; the opportunity is in finding ways to secure higher revenues, not higher market share. That has been our focus.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Mike Linenberg",
+   "title": "Analyst",
+   "content": "Just a quick one for Daniel: you talked about committed actions to improve operations and noted that the numbers improved through the quarter. Anything on the staffing side or fleet side? Any particular fleet giving you problems this quarter?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Daniel Charles Janki",
+   "title": "Chief Operating Officer",
+   "content": "Thanks, Mike. On the fleet elements, you have to be systematic across the board about continuing to invest and put resiliency in it. Our teams have continued to get better, and we have opportunities to get better on that front. A lot of it is capturing data, more predictive maintenance, staying out in front of issues, and continuing to work them. We have seen improvements in metrics that show progress. On the crew side, we are taking actions around resiliency and capability in our crew resourcing: adding people, process, and technology to get better utilization of those resources. We will continue to make progress on that front.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from David Vernon from Bernstein. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "David Vernon",
+   "title": "Analyst",
+   "content": "Hey, good afternoon or good morning, and thanks for fitting me in here. A question regarding the CASM ex outlook: you noted cost moderating as you get to more normalized growth. Can you talk about what that means for the fourth quarter and maybe the beginning of next year in terms of ASM growth, where in the network you are looking to add capacity, and where you see opportunities to put capacity to work that is compensatory given the state of affairs and where oil is?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "David, it is premature to give guideposts for 2027 specifically. But we have come through a period this quarter and into the third quarter with muted domestic capacity as an obvious response to the fuel spike. Fuel continues to stay elevated — fuel today is roughly 50% higher than where we started the year. I think crack spreads will remain sticky; they may come down, but they'll be sticky given questions around refinery damage and production capability. I would anticipate that in the fourth quarter, you'll see us return to a more normalized capacity run rate around the 2% to 3% that we have historically targeted. That level roughly keeps us in line with economic growth. Looking forward into 2027, our mindset is consistent: we stay in our lane strategically. Growth for the back end of the year and into the next couple of years will largely be in two areas: upgauging and international. We have taken a holiday from upgauging over the last couple years with some fleet resets, but with deliveries of the MAX 10 and other narrowbody opportunities, we will ramp up gauge, which is an efficient way to grow. International growth will focus on markets like Riyadh, bringing Tel Aviv back, and expanding in Asia. That is the outlook for growth as I see it for the next year or so.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "David Vernon",
+   "title": "Analyst",
+   "content": "That is helpful. Quick follow-up: you mentioned the MAX 10 and MAX 7. As deliveries of those constrained aircraft pick up, do you think they could upset the structural environment you described?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "Yes, it absolutely factors into structural change. One fuel that powered the low-cost evolution was being able to grow faster than your costs. Aircraft availability has dramatically changed, and it's not just Airbus and Boeing production capacity but engine production and the quality and durability issues we've seen with new engine technology compared to legacy engines. Availability of aircraft is a significant constraint. For us, we look forward to getting the MAX 10 in Delta colors next year, which will enable us to release some older narrowbodies like 717s and 757s. That will be positive for efficiency and upgauging.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from Andrew Didora from Bank of America. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Andrew Didora",
+   "title": "Analyst",
+   "content": "Hi. Good morning, everyone. Joe, a question on international: if we were sitting here in May, much of Q2 international was already on the books versus Q3, correct? I ask because international, particularly the Atlantic, may be a little below what we thought, but that could be a booking-curve dynamic. Should we expect better sequential improvement internationally because of that dynamic, and any thoughts on international geographies would be helpful.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Good morning. Yes, that's exactly right. Long-haul international typically has about 15 points more bookings than domestic in earlier windows, and Transatlantic bookings often begin January and February for the summer. Domestic is closer in. So you will see sequential improvements as we progress through the next quarter and into the fall. Business travel also improves significantly in the Transatlantic during September and October. Around the world, Transatlantic will still have a very solid summer. Point-of-sale has been a little softer in some foreign markets, but we have transitioned to more U.S. point-of-sale: we are over 80% U.S. point-of-sale in the Transatlantic, which leverages our brand strength and higher fares. The Pacific has kept up with capacity; we are growing the Pacific and unit revenues were up about 8% on similar capacity, and we added new markets this year like Hong Kong. Latin America is two stories: South America has been very strong for 18 months and forwards look good based on our LATAM partnership. Mexico has been a little weaker due to incidents of violence earlier this year, and short haul has been softer, but we expect improvements into Q4. Capacity reflects that: we were down 7% in Latin America, mostly short haul, and we'll bring capacity back as demand recovers. Overall, expect a strong winter for leisure travel.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Andrew Didora",
+   "title": "Analyst",
+   "content": "That's great and very helpful. Quick follow-up about cabin segmentation you announced earlier this week: how far can this go? Are there further opportunities to expand a la carte options? Any comments on how you view those options over the next three to five years would be helpful. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "We are still in the early stages of segmentation. We rolled out segmentation in main cabin years ago, expanded into Comfort+, and now are launching into premium products. There is a lot of opportunity. It benefits the consumer and revenue upgrades, giving choice to customers. Over time, you can see us retailing products in those categories more effectively and rewarding our best customers with better products in these categories. Today it looks like typical revenue management merchandising, but with our brands and data we will merge retailing with merchandising more tightly for the future.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from Tom Fitzgerald from TD Cowen. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Tom Fitzgerald",
+   "title": "Analyst",
+   "content": "Hi, everyone. Thanks very much for the time. Curious on cargo: can you unpack some of the strength in Q2? Was that primarily spot price-driven, fuel surcharges, or volume? Also, should we expect cargo to decelerate into the back half or continue to show strong performance?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Most of what we saw in cargo revenue this quarter was volume-driven. We captured some rerouting of cargo that typically goes through the Middle East and other areas, and we have made structural improvements internally which have increased our capability and efficiency. Asia is one of the largest cargo markets from the U.S., and we've been expanding there and investing in airplane capability. We also made internal restructuring to prioritize cargo. We expect strength throughout the year — probably not 39% but we expect a really strong back half in cargo, and it will play a bigger role as we continue to invest internationally because cargo contributes to international profitability.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Tom Fitzgerald",
+   "title": "Analyst",
+   "content": "Okay, thank you. One more on MRO: can you provide updated thinking on margin trajectory for that business in the back half and over the next couple of years? You have a longer-term target of mid-teens, but we have seen strong growth year over year in the first half.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Erik Storey Snell",
+   "title": "Chief Financial Officer",
+   "content": "Sure, Tom. Our target is mid-teens margin for MRO. We expect to expand margins a couple hundred basis points per year. The first half was better than that given strong volume leverage; we expected a lot of revenue growth and that drove margin improvement. Think of the business moving from low double-digit margins to mid-teens as revenue grows; the progression would be about a couple hundred basis points a year as we grow top line and capture operating leverage.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Julie Stewart",
+   "title": "VP, Investor Relations & Corporate Development",
+   "content": "Matthew, we can now go to our next question.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Certainly. Your next question is coming from Jamie Baker from JPMorgan. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jamie Baker",
+   "title": "Analyst",
+   "content": "Hey. Good morning. For Ed: what internal analysis have you done to assess what peak pretax margins might look like for Delta in the coming years? Hypothetically, if the industry reached very high margins, there would be competitive responses, but what are your thoughts on a structural peak for Delta margins and what you are willing to share?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "Jamie, thanks. I'm not sure what peak looks like; we are not there yet. Our framework laid out a pathway to mid-teens margins sustainably, and a peak environment might be a bit higher. The key elements are structural change in the industry — discipline in the face of high costs (fuel, labor, aircraft availability, and airport costs) — and the value proposition we are building for consumers. We are competing on value and experience, where Delta wins. Efficiency opportunities like upgauging remain important; replacing smaller aircraft with larger, more efficient ones helps grow capacity profitably, which matters in a congested domestic system. Technology, including AI, will also enable us to be more efficient and smarter in how we do business; it may take one to two years before we see a meaningful imprint, but it will be significant. So the combination of strategy, product, fleet efficiency, loyalty, and technology is why mid-teens is durable and achievable. Also, restoring domestic premium cabin performance toward 2019 levels could add two to three points to overall margins, which gives you a sense of the leverage we have.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Jamie Baker",
+   "title": "Analyst",
+   "content": "Quick follow-up on segmenting Delta One and D1: basic economy succeeded in part because many corporations forbade business travelers from using it. Do you expect similar corporate responses to basic premium fares? Will corporates wall off basic premium such that the product's success depends on that behavior?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "When we rolled segmentation out to Comfort+, we implemented corporate gating similar to what was done with main cabin basic economy. We plan to move similarly through other categories. Not every fare will be allowed on every flight; we will use these tools based on demand by flight and market. I would expect this to be positive for top-end consumers in first class as we add more flexibility. Basic premium fares will be restrictive and will not work for many corporate customers, so corporate policies will matter and will help preserve premium value.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from Brandon Oglenski from Barclays. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brandon Oglenski",
+   "title": "Analyst",
+   "content": "Hi. Good morning, everyone, and thanks for taking the question. Erik, translating your RASM and expectations for low single-digit CASM in Q4, you get close to that mid-teens operating margin goal that you've targeted long term. How do you think about unit cost inflation in 2027 and beyond and managing through new labor contracts and related matters?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Erik Storey Snell",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, Brandon. We expect modest progress on unit cost as we go forward, mainly from operational actions that Daniel mentioned and improved resilience. We saw exit-rate improvements in the quarter, and we feel good about modest progress into the fourth quarter. Once capacity growth normalizes and operational improvements continue to gain traction, we expect to return to our long-term framework of low single-digit unit cost growth. The setup for next year will determine the specifics of where capacity lands. Also, we already have many costs built into our baseline: our pay scales are competitive in the industry, and we've accounted for significant airport investments. Our ability to outperform on unit cost going forward will be strong when we return to low-single-digit CASM growth.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Brandon Oglenski",
+   "title": "Analyst",
+   "content": "Quick follow-up: you've talked about resiliency in staffing this year. Is that potentially a tailwind into 2027?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Erik Storey Snell",
+   "title": "Chief Financial Officer",
+   "content": "Yes, I think it is. We have implemented a number of actions that take time to mature, and we're seeing the fruits of that labor. It's not just crew resilience; we have efficiency actions across the system. As we gain growth, you'll see leverage. In the second quarter, with growth below plan, our resources were roughly flat versus growth. Once growth accelerates, you start to see real leverage, and I would expect a couple points of leverage from better utilization of resources and investments under the growth we expect.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Your next question is coming from Ravi Shanker from Morgan Stanley. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ravi Shanker",
+   "title": "Analyst",
+   "content": "Great. Thanks. Good morning, everyone. Daniel or Joe, can you give some color on load factor by cabin and how you're thinking of balancing load factor versus preserving RASM as we go into the back half of the year?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Ravi, loads are highest during peak summer. If you break it down by premium versus main cabin, our paid premium load factor has been very strong and growing. Main cabin is fairly consistent with last year. Our capacity decisions reflect this: premium capacity is up low single digits while main cabin capacity is down 2% to 3%. That mix change helps us sell higher load factors in premium cabins while stabilizing main cabin. As we move into September and October, load factors generally moderate as business travel replaces leisure, and we typically see higher load factors again during the holiday season.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Ravi Shanker",
+   "title": "Analyst",
+   "content": "Quick follow-up: what is the current status of the refinery after the outage? If it is not fully back up yet, what is the timing?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Erik Storey Snell",
+   "title": "Chief Financial Officer",
+   "content": "The refinery had an outage a couple weeks ago, which was about a $0.05 hit to us in Q2. We are back up now to approximately 75% throughput of the product that goes through the refinery, but there will be a tail of the outage into the third quarter that translates to about a $0.05 to $0.07 hit in Q3. Net of that, we still expect the refinery to provide roughly a $0.05 benefit in Q3 based on current forwards, and that benefit would increase into the fourth quarter.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from Duane Pfennigwerth from Evercore ISI. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Duane Pfennigwerth",
+   "title": "Analyst",
+   "content": "Thanks. Good morning and nice results. A question: did events like the World Cup benefit the domestic business disproportionately? Did it keep more demand in the U.S. this summer, including premium demand? Longer term, as you think about next summer, which entities are best positioned?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "World Cup and similar events are beneficial, and we are a beneficiary, but it was not a material driver of the quarter overall. You see impacts on specific flights and cities depending on game locations, and there is often closer-in demand for unscheduled games. It did not significantly change how we deployed capacity this year; any additions for World Cup were small in the grand scheme of things. For next year, we don't expect it to materially change our capacity decisions.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "At a higher level, I would add that the U.S. has done a great job welcoming visitation, and the World Cup acted as a strong advertisement for travel to the U.S. That should enhance inbound participation next year and improve mix, even if it doesn't change specific market choices significantly.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Duane Pfennigwerth",
+   "title": "Analyst",
+   "content": "If I could sneak one more in on the co-brand card acceleration you noted: can you talk about the drivers of that growth and whether there's any geographic push behind it?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "American Express is a great partner and strategically aligned with us on growth. The growth in cards and spend is complementary to how we are expanding, both domestically and internationally. It is not just transactional; it's a strategic commercial partnership. We see benefits in co-marketing, distribution, and product enhancements. We should be adding roughly another million cards per year in our sights this year and expect about $9 billion in remuneration. It is a tight, high-value partnership.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "One of the strengths of our relationship with American Express is that we are exclusive partners and highly complementary in demographics and strategy. We are among their largest and fastest-growing partners, and we constantly look for ways to enhance value through benefits, lounges, and other joint offerings. The partnership compoundingly builds value year after year.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from Catherine O'Brien from Goldman Sachs. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Catherine O'Brien",
+   "title": "Analyst",
+   "content": "Hey, good morning, everyone. Thanks for the time. I wanted to dig into corporate strength: in January you saw a pickup in corporate volumes. Can you break down how much of the double-digit corporate sales growth was fare growth versus volume? If volumes pick up further, how meaningful could that be to premium cabin pricing given continued strong demand from high-end leisure travelers for premium products since the pandemic? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Hi, Catherine. Most of the 20% growth was fare-driven. We have seen some passenger improvement as well, particularly international, with variation by city. There is upside for additional volumes in the future. It has been good to see the resiliency of corporate demand.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Catherine O'Brien",
+   "title": "Analyst",
+   "content": "Great. Quick follow-up on premium and main cabin trends: can you provide what premium versus main cabin RASM growth was in Q2? Given tougher comps in premium and the reduction in low-cost capacity this year, are you anticipating main cabin RASM could outperform premium underlying your Q3 guide? Delta has cut main cabin seats, which may look different than the rest of the industry—any additional color would be helpful. Thanks so much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "In the second quarter, main cabin unit revenue did exceed premium because main cabin capacity was down and the quality of seat exposure improved. The ultra-low-cost carrier category is down about 30% capacity, which has materially improved main cabin unit revenue. We haven't grown main cabin seats for several years and will not grow them next year either. Premium revenue was up 17% and unit revenue in premium is below main cabin this quarter, but premium capacity growth has been restrained and premium revenue growth is still high single digits, so the balance between main cabin and premium is improving in favor of margin and revenue quality.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your next question is coming from John Godyn from Citigroup. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Godyn",
+   "title": "Analyst",
+   "content": "Hey, guys. Thanks for taking my question. Edward, you've been a long-tenured CEO and have seen a lot. You understandably did not guide to a specific historic Q4 number, but if you hit your guidance it sets up for a major 2027 breakout year. Can you talk about how the slow and consistent changes in the industry and Delta's strategy compounded to set up this situation, and why we should have confidence this inflection is sustainable beyond the end of the year?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Edward H. Bastian",
+   "title": "Chief Executive Officer",
+   "content": "John, thank you. The results and the forecast into the back half are consistent with what we've been previewing to investors for some time: a pathway out of the commodity cycle toward a differentiated, premium strategy. It is about building a sustainable business model that generates great returns for customers, employees, communities, and investors. The structural changes in the industry plus our investments in product, loyalty, and fleet efficiency have built durable advantages. We have an aligned leadership team and 100,000 employees who understand the strategy and focus on service. Over time, competing on value and experience rather than price becomes more durable. We continue to invest in the balance sheet, pay down debt, and be in a position to play offense when opportunities arise. So I see continued growth and durable improvements. We are not at the end of this evolution.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "John Godyn",
+   "title": "Analyst",
+   "content": "Fantastic. I will leave it at one. Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Julie Stewart",
+   "title": "VP, Investor Relations & Corporate Development",
+   "content": "We will now go to our final analyst question.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Your final question is coming from Savanthi Syth from Raymond James. Your line is live.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Savanthi Syth",
+   "title": "Analyst",
+   "content": "Hey. Good morning. With a focus on international over the next few years, how do you see capacity growth split between domestic and international over the longer term? Just wanted to put a finer point on that as you think longer term.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Longer term, domestic capacity tends to move with the U.S. economy; international will grow faster for us because there are many economies we still don't serve. Domestic growth will include efficiency improvements and upgauging to make us more efficient without adding many additional flights. We will continue to focus international on Asia and the Middle East and add cities we do not currently serve. Europe, in our view, is more of an efficiency story — replacing older widebodies with more efficient 787s improves margins and premium capacity. South America offers more opportunities through LATAM, with hubs we'd like to leverage. Joint venture partners are core to our international strategy, and we have strong partners to execute with.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Savanthi Syth",
+   "title": "Analyst",
+   "content": "Just to follow up: does that put Europe and Latin America somewhere in between domestic and the higher-growth international markets?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Joe Esposito",
+   "title": "Chief Commercial Officer",
+   "content": "Europe falls into an efficiency bucket given our aircraft coming online, such as 787s replacing 767s, yielding significant efficiency and premium-seat gains. South America has opportunities with LATAM's hub development like Lima, Santiago, Sao Paulo, and Bogota; we are in early stages with LATAM and Korean Air on developing those hubs. Overall, international growth will be driven by targeted markets, while domestic will emphasize efficiency and strategic local growth.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Julie Stewart",
+   "title": "VP, Investor Relations & Corporate Development",
+   "content": "Okay. With that, that will conclude our second quarter earnings call today. Thank you everyone for joining us, and have a wonderful weekend.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. That concludes today's conference. Thank you for your participation today.",
+   "sentiment": "0.0"
+  }
+ ]
+}

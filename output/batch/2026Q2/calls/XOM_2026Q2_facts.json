@@ -1,0 +1,485 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "XOM",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "XOM",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 2,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "James Chapman",
+    "role": "ir"
+   },
+   {
+    "name": "Darren Woods",
+    "role": "management"
+   },
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Stephen Richardson",
+    "role": "analyst"
+   },
+   {
+    "name": "Neil Hansen",
+    "role": "management"
+   },
+   {
+    "name": "Neil Mehta",
+    "role": "analyst"
+   },
+   {
+    "name": "Arun Jayaram",
+    "role": "analyst"
+   },
+   {
+    "name": "Devin McDermott",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas George Blyth Leggate",
+    "role": "analyst"
+   },
+   {
+    "name": "Wei Jiang",
+    "role": "analyst"
+   },
+   {
+    "name": "Bob Brackett",
+    "role": "analyst"
+   },
+   {
+    "name": "Biraj Borkhataria",
+    "role": "analyst"
+   },
+   {
+    "name": "Jean Ann Salisbury",
+    "role": "analyst"
+   },
+   {
+    "name": "Jason Gabelman",
+    "role": "analyst"
+   },
+   {
+    "name": "Manav Gupta",
+    "role": "analyst"
+   },
+   {
+    "name": "Sam Margolin",
+    "role": "analyst"
+   },
+   {
+    "name": "John Royall",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter",
+   "detail": "the call says 'second quarter', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "XOM_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "facts": [
+  {
+   "kind": "reported",
+   "metric": "operating_cash_flow",
+   "segment": "total",
+   "stat": "level",
+   "value": 23600000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 9,
+   "sentence": "Despite the temporary loss of approximately 10% of our upstream production, we delivered exceptional financial results, including industry-leading earnings of $14.5 billion and cash flow from operations of $23.6 billion.",
+   "ev_start": 2059,
+   "ev_end": 2279,
+   "figure_text": "$23.6 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "XOM_2026_2-001"
+  },
+  {
+   "kind": "reported",
+   "metric": "free_cash_flow",
+   "segment": "total",
+   "stat": "level",
+   "value": 17000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "more than",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 48,
+   "sentence": "Financially, this was a strong quarter with more than $14 billion of earnings, more than $17 billion of free cash flow and a more than $7 billion reduction in net debt.",
+   "ev_start": 6845,
+   "ev_end": 7013,
+   "figure_text": "$17 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "XOM_2026_2-002"
+  },
+  {
+   "kind": "reported",
+   "metric": "capex",
+   "segment": "total",
+   "stat": "level",
+   "value": 7000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "roughly",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 50,
+   "sentence": "Cash capital expenditures were roughly $7 billion, and we returned more than $9 billion to shareholders through dividends and share repurchases.",
+   "ev_start": 7187,
+   "ev_end": 7331,
+   "figure_text": "$7 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "XOM_2026_2-003"
+  },
+  {
+   "kind": "reported",
+   "metric": "capital_returned",
+   "segment": "total",
+   "stat": "level",
+   "value": 9000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "more than",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 50,
+   "sentence": "Cash capital expenditures were roughly $7 billion, and we returned more than $9 billion to shareholders through dividends and share repurchases.",
+   "ev_start": 7187,
+   "ev_end": 7331,
+   "figure_text": "$9 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "XOM_2026_2-004"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "10%",
+   "reason": "not_tied_to_metric",
+   "sentence": "Despite the temporary loss of approximately 10% of our upstream production, we delivered exceptional financial results, including industry-leading earnings of $14.5 billion and cash flow from operations of $23.6 billion.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2059
+  },
+  {
+   "figure_text": "$14.5 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "Despite the temporary loss of approximately 10% of our upstream production, we delivered exceptional financial results, including industry-leading earnings of $14.5 billion and cash flow from operations of $23.6 billion.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2059
+  },
+  {
+   "figure_text": "180%",
+   "reason": "no_metric_phrase",
+   "sentence": "In Chemical products, our North American facilities with advantaged feed and record first half reliability helped meet the shortfall in supply caused by disruptions in the Middle East, driving a roughly 180% increase in chemical product margins versus the first quarter.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2647
+  },
+  {
+   "figure_text": "$750 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Those actions kept our operations running and customers supplied and helped avoid roughly $750 million in annual disruption cost through advanced modeling, fleet reallocations, product reformulations and alternate supply sources.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 5145
+  },
+  {
+   "figure_text": "$16.3 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Cumulative structural cost savings have increased to $16.3 billion since 2019, with centralized organizations contributing nearly half of the year-to-date savings.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6681
+  },
+  {
+   "figure_text": "$14 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "Financially, this was a strong quarter with more than $14 billion of earnings, more than $17 billion of free cash flow and a more than $7 billion reduction in net debt.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6845
+  },
+  {
+   "figure_text": "$7 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "Financially, this was a strong quarter with more than $14 billion of earnings, more than $17 billion of free cash flow and a more than $7 billion reduction in net debt.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6845
+  },
+  {
+   "figure_text": "98%",
+   "reason": "no_metric_phrase",
+   "sentence": "The ability to execute these projects at industry-leading cost and schedule, running the FPSOs at above 98% reliability, optimizing, being able to produce at 100,000 barrels a day above the investment basis.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 12217
+  },
+  {
+   "figure_text": "9%",
+   "reason": "no_metric_phrase",
+   "sentence": "In fact, if you look at the contribution from Energy Products to our overall business line earnings, it's gone from about 9% to about 23% in the last 5 years.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 16472
+  },
+  {
+   "figure_text": "23%",
+   "reason": "no_metric_phrase",
+   "sentence": "In fact, if you look at the contribution from Energy Products to our overall business line earnings, it's gone from about 9% to about 23% in the last 5 years.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 16472
+  },
+  {
+   "figure_text": "95%",
+   "reason": "no_metric_phrase",
+   "sentence": "Gulf Coast refineries, the reliability exceeded 95% in the quarter.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 16854
+  },
+  {
+   "figure_text": "$55 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "So again, as we mentioned, at this point, we fully recovered the $55 billion of investment along with all the operating costs.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26014
+  },
+  {
+   "figure_text": "75%",
+   "reason": "no_metric_phrase",
+   "sentence": "And the way the contractor agreement works is we can recover that investment up to 75%.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26141
+  },
+  {
+   "figure_text": "75%",
+   "reason": "no_metric_phrase",
+   "sentence": "We'll still recover that at that 75% cap, but there's much less investment to recover.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26687
+  },
+  {
+   "figure_text": "20%",
+   "reason": "no_metric_phrase",
+   "sentence": "And if you look at just the ability to execute projects, we're doing about twice the number of mega projects in our nearest IOC, and we're doing it up to 20% lower project costs and our project delivery schedules are 20% faster than industry average.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "ev_start": 31432
+  },
+  {
+   "figure_text": "11%",
+   "reason": "change_without_metric",
+   "sentence": "If you look at just what we've accomplished here in the last 3 years, our global throughput is up 11% and the production of jet and diesel is up by 15%.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "ev_start": 33831
+  },
+  {
+   "figure_text": "15%",
+   "reason": "change_without_metric",
+   "sentence": "If you look at just what we've accomplished here in the last 3 years, our global throughput is up 11% and the production of jet and diesel is up by 15%.",
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "ev_start": 33831
+  },
+  {
+   "figure_text": "30%",
+   "reason": "no_metric_phrase",
+   "sentence": "The turnarounds we have completed this year, what we've seen relative to the last time we did a similar turnaround or in the previous cycle, we've seen a 30% improvement in cost and a 60% improvement in duration.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "ev_start": 34736
+  },
+  {
+   "figure_text": "60%",
+   "reason": "no_metric_phrase",
+   "sentence": "The turnarounds we have completed this year, what we've seen relative to the last time we did a similar turnaround or in the previous cycle, we've seen a 30% improvement in cost and a 60% improvement in duration.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "ev_start": 34736
+  },
+  {
+   "figure_text": "$16.3 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "And again, we're at $16.3 billion cumulative year-to-date, and we plan to get to $20 billion by 2030.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "ev_start": 48516
+  },
+  {
+   "figure_text": "$20 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "And again, we're at $16.3 billion cumulative year-to-date, and we plan to get to $20 billion by 2030.",
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "ev_start": 48516
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 4,
+  "by_kind": {
+   "reported": 4
+  },
+  "by_confidence": {
+   "high": 4
+  },
+  "verified": 4,
+  "unverified": 0,
+  "unclaimed_figures": 21,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

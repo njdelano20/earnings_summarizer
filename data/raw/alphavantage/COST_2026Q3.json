@@ -1,0 +1,396 @@
+{
+ "symbol": "COST",
+ "quarter": "2026Q3",
+ "transcript": [
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Ladies and gentlemen, thank you for standing by. My name is Abby, and I will be your conference operator today. At this time, I would like to welcome everyone to the Costco Wholesale Corporation's Third Quarter 2026 Earnings Call. All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there will be a question-and-answer session. If you would like to ask a question during that time, simply press star followed by 1 on your telephone keypad. If you would like to withdraw your question, press star 1 again. Thank you. I would now like to turn the conference over to Gary Millerchip, Chief Financial Officer. You may begin.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Good afternoon, everyone. And thank you for joining us for Costco's third quarter 2026 earnings call. I would like to start by reminding you that these discussions will include forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 2000. These statements involve risks and uncertainties that may cause actual events, results, and/or performance to differ materially from those indicated by such statements. The risks and uncertainties include, but are not limited to, those outlined in today's call, as well as other risks identified from time to time in the company's public statements and reports filed with the SEC. Forward-looking statements speak only as of the date they are made, and the company does not undertake to update these statements except as required by law. Comparable sales and comparable sales excluding impacts from changes in gasoline prices and foreign exchange are intended as supplemental information and are not a substitute for net sales presented in accordance with GAAP. Before we dive into our financial results, I am delighted to say that Ron Vachris is once again joining me for today's call. I will now hand over to Ron for some opening comments. Thank you, Gary.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "Good afternoon, everybody, and thank you for joining us today. I will make a few comments on current events and provide a brief update on our strategic priorities before turning the call back over to Gary. Against the backdrop of ongoing macro uncertainty, our focus on providing quality goods and services at the lowest possible price continues to resonate strongly with our members. Nowhere has this been more apparent in the third quarter than our gas business. Events in the Middle East have had a significant impact on product supply and gas prices. Our focus, as always, is to be there for our members by staying in stock and offering the best value. The result was record-breaking volumes. All three 4-week fiscal periods of the quarter set successive all-time company volume sales records, with the final 5 weeks of the quarter becoming our top five volume weeks ever. Our gas team performed exceptionally well to manage this unprecedented demand, which required multiple daily gas deliveries to many locations. The high consumer price sensitivity, which fueled these record volumes, also drove many members to use our gas stations for the very first time in the third quarter. We believe this will drive even greater loyalty with these members in the future as members who use our gas stations typically spend more with us in the warehouse. We are closely monitoring the longer-term inflationary impact of higher oil prices as well as the future impacts of tariffs. Our buyers continue to demonstrate their ability to adapt, and are using their significant experience and expertise to try to reduce the impacts on prices for our members. Our goal is to be the first to lower prices and last to raise them. Gary will share some examples later on the call where we lowered prices this quarter. We are also able to bring greater value to our members through many exciting new Signature items in the third quarter. On the topic of tariffs, we started submitting our refund claims for the Section 301 tariffs. We are doing this through the process set up by U.S. Customs and Border Protection. These submissions will go in over what may be the next few months and based on what other claimants have experienced, should start receiving refunds on approved claims on a rolling basis over the following two to three months. As we have mentioned before, our plan is to return to our members in some form the portion of tariffs that were passed on to them. How much we return and when depends on a variety of factors, including how much refund money we receive and when it arrives, as well as developments in the lawsuit filed against the company regarding the return process. Turning to progress with growth priorities: our real estate operations team continues to focus on increasing our pipeline of new warehouses both domestically and internationally. We are targeting 30+ net new openings per year in the coming years. In the quarter, we opened four net new warehouses, including three in the U.S., and one additional Canadian business center. Those openings brought our total warehouse count to 928 worldwide. We currently expect to have 26 net new openings in fiscal year 2026, down two buildings from the prior call with those two buildings now set to open in fiscal year 2027. So far this year, we have also completed two relocations with one more planned in Q4 as we continue to relocate select high-volume warehouses to larger locations with more parking and expanded gas stations to provide a better member experience and drive more volumes in these warehouses. In digital, we are making meaningful strides to deliver a more seamless and convenient experience for our members across the warehouse and online. As a result of our investments in technology and the commitment from our employees to use this technology to deliver a great member experience, we are seeing a significant improvement in the speed of checkout. The enhancements we have made include improvements to the mobile wallet, the introduction of a digital membership card with quick access on the Costco app, and the rollout of our shopping cart prescan tool internationally. The pay station pilot I spoke about last quarter has also been successful, and we are now incorporating this technology into our new warehouse openings and high-volume buildings. We are also enhancing the e-commerce experience for members and recently rolled out same-day delivery services in Spain and France. Same-day delivery powered by our third-party partners has become a highly effective way to deliver more convenience to our members. Average same-day delivery time in the U.S. is now less than 45 minutes, and the average member satisfaction rating is 4.8 out of 5. This part of our business is growing at an even faster rate than our digital business overall, and is a strong driver of loyalty, as it is often our highest-spending members who are using the service. Finally, as we learn more about how consumers are embracing AI in their shopping habits, we are working with leading AI companies to improve the visibility of our values to current and potential future Costco members. We believe AI is changing how consumers research products and has the potential to be a significant opportunity for Costco given our pricing authority and our focus on quality. With that, I will turn it back over to Gary to discuss the results for the quarter and I will jump back on during Q&A to field some questions.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, Ron. In today's press release, we reported operating results for the third quarter of fiscal year 2026, the 12 weeks ending May 10. As usual, we published a slide deck under Events and Presentations on our investor website with supplemental information to support today's press release. Net income for the third quarter came in at $2.19 billion or $4.93 per diluted share, up 15% from $1.9 billion or $4.28 per diluted share last year. Net sales for the third quarter were $69.2 billion, an increase of 11.6% from $62 billion in Q3 2025. Comparable sales were up 9.8%, and 6.6% adjusted for gas price inflation and foreign exchange. Excluding gas sales entirely, and adjusting for the impact of foreign exchange, comparable sales were also up 6.6%. Digitally enabled comparable sales were up 21.5%, 20.8% adjusting for foreign exchange. Our segment breakout of comparable sales is disclosed in both our earnings release and the supplemental slide deck. In terms of Q3 comp sales metrics, foreign exchange positively impacted sales by approximately 1% while gas price inflation positively impacted sales by approximately 2.2%. Traffic or shopping frequency increased 2.4% worldwide. Our average transaction or ticket was up 7.3% worldwide, and 4.2% excluding gas price inflation and changes in foreign exchange. Moving down the income statement to membership fee income: we reported membership fee income of $1.37 billion, an increase of $133 million or 10.7% year over year. Adjusting for foreign exchange, the increase was 9.9%. The September 2024 U.S. and Canada membership fee increase accounted for a little more than one-quarter of membership income growth. Excluding the membership fee increase and foreign exchange, membership income grew 7% year over year. This was driven by continued growth in our membership base and upgrades to executive memberships. At Q3 end, we had 41.2 million paid executive memberships, up 9.6% versus last year. This quarter, we launched our executive member program in China and have seen strong early adoption in the market. We ended the quarter with 82.9 million total paid members, up 4.1% versus last year, and 149 million cardholders, up 4% year over year. In terms of renewal rates, at Q3 end, our U.S. and Canada renewal rate was 92.2%, up 10 basis points from last quarter. The worldwide rate came in at 89.7% unchanged from last quarter. As previously shared, members who sign up online on average renew at a slightly lower rate than warehouse sign-ups. As this population has grown as a percentage of our total base, this creates some downward pressure on the overall renewal rate. In Q3, it was pleasing to see that our focus on increasing the renewal rates of these members through targeted digital communications and retention strategies more than offset the negative impact from this mix change in our membership base. Turning to gross margin: our reported rate was lower year over year by 21 basis points, coming in at 11.04% compared to 11.25% last year. Excluding gas inflation, the gross margin rate was higher by 1 basis point. Core was lower by 46 basis points and lower by 29 basis points excluding gas inflation. In terms of core margins on their own sales, our core-on-core margins were lower by 9 basis points. This decrease was due to slightly lower margins in fresh and food and sundries where we invested in lower prices for our members on several everyday items, such as eggs and beef. Transportation costs were also a headwind in the quarter due to higher gas prices. The significant difference between reported core margins and core-on-core margins was primarily due to mix changes as we saw gas, e-commerce and pharmacy sales grow at a faster pace than core merchandising sales. Ancillary and other businesses gross margin was higher by 9 basis points and 14 basis points excluding gas inflation. This was driven by higher sales penetration in e-commerce and pharmacy, partially offset by a lower gross margin rate in gas. LIFO positively impacted the rate by 14 basis points both with and without gas inflation. We had a $44 million LIFO charge in Q3 this year, compared to a $130 million charge in Q3 last year. This quarter's gross margin rate benefited 2 basis points from lapping the catch-up accrual in Q3 last year for the increased employee vacation days included in our March 2025 employee agreement. Moving on to SG&A: our reported SG&A rate was lower or better year over year by 20 basis points, coming in at 8.96% compared to last year's 9.16%. Excluding gas inflation, SG&A was lower or better by 2 basis points year over year. The operations component of SG&A was lower or better by 12 basis points, but worse or higher by 3 basis points excluding the impact of gas inflation, as underlying improvements in productivity were offset by higher healthcare costs. Central was lower or better by 3 basis points and lower by 1 basis point excluding the impact of gas inflation. Equity compensation was flat and higher or worse by 1 basis point excluding gas. This quarter, SG&A also benefited 5 basis points from lapping the catch-up accrual in Q3 last year for higher vacation days in our 2025 employee agreement. Below the operating income line, interest expense was $32 million compared to $35 million last year, interest income was $130 million versus $95 million last year, driven by higher cash balances, and foreign exchange and other was a $25 million benefit versus a $10 million loss last year largely due to changes in foreign exchange. In terms of income taxes, our tax rate in Q3 was 25.4% compared to 26.2% in Q3 last year. Turning now to some key items of note in the quarter: capital expenditure in Q3 was $1.41 billion. We estimate CapEx for the full year will be approximately $6.5 billion as we continue to invest in building a larger pipeline of new warehouses, remodeling our existing warehouses to drive continued growth in high-volume buildings, expanding our depot network to support operational efficiency, and in enhancing the member digital experience. In terms of merchandising highlights, as Ron mentioned in his opening comments, gas prices had a major impact on the quarter, with our members allocating a greater proportion of their total spend to gas. At the same time, we saw very robust comp sales results excluding gas, as our combination of merchandising quality, value and newness continues to resonate with members. Fresh comparable sales were up in the high single digits in the quarter, led by meat and bakery. In meat, we saw strength in both premium cuts of beef and lower-cost proteins such as ground beef and poultry. In bakery, we continue to see success with the launch of exciting new items including a variety of seasonal pastries and cookies. Non-foods comp sales were up in the high single digits in Q3. Top-performing departments were gold and jewelry, small electrics, tires, home furnishings, majors, and health and beauty. Self-care and wellness items performed extremely well during the quarter, including fragrances and hair and skin products in the health and beauty and small appliances departments. We also saw members wanting to splurge on higher-value self-care items where the quality and value is compelling. For example, we experienced almost 50% sales growth in saunas and massage chairs during the quarter. In food and sundries, comp sales grew in the mid-single digits led by packaged foods and candy. While egg price deflation was a headwind to sales, this was partially offset by significant growth in other items such as protein snacks and protein bars. Kirkland Signature is also driving growth in food and sundries. We continue to innovate with new KS items, offering savings of at least 15% to 20% to the national brand equivalent with equal or better quality. Q3 launches included our KS energy drink, KS ultra-filtered milk, KS sea salt popcorn, and KS oven roasted chicken dog food. Our goal is to be the first to lower prices where we see opportunities to do so, and a few examples this quarter included KS Crispy Wings from $16.99 to $14.99, KS Milk Chocolate Almonds from $19.99 to $18.99, KS golf balls from $32.99 to $29.99, and KS king-size sheets from $89.99 to $79.99. In ancillary businesses, comp sales were up in the mid-20s. Pharmacy led the way and saw significant market share gains in the quarter. In addition to our experienced pharmacists taking great care of our members, a number of factors are contributing to this growth. These include increased GLP-1 demand and inclusion of Wegovy and Ozempic in our Member Prescription Program, great value on pet medications, acceptance of Medicare Part D over-the-counter flex cards, and expansion of our mail order and specialty pharmacy offerings. Gas comps were in the positive high twenties, driven by a price per gallon increase year over year as well as an acceleration in volumes. Turning now to inflation: overall, inflation increased slightly in Q3, largely because of higher gas prices. This was offset by lower inflation in food and sundries and fresh, primarily due to deflation in produce, eggs, and dairy. Inflation increased slightly in nonfoods, and we are anticipating further inflation in a number of nonfood categories as higher resin costs start to flow into cost of goods. As always, our buyers are working hard to mitigate the impact of cost increases. The supply chain is generally stable, and our merchants feel good about our inventory position heading into the summer. We have relatively low inventory exposure to shipping issues stemming from the situation in the Middle East, but we continue to monitor the situation closely. In digital, we saw strong member engagement in Q3, with site and app traffic up 37%. Pharmacy, gold and jewelry, home furnishings, tires, special events, housewares, and majors all grew double digits year over year. Delivering a more personalized experience for our members is a key focus, and we continue to make progress in this area. In Q3, our personalized product recommendation carousels delivered conversion rates three times better than our typical conversion rates, and contributed just under $5 billion of e-commerce sales. As Ron shared earlier on the call, with consumers increasingly using AI to research products and services, we believe this has the potential to be a significant sales opportunity for Costco. We are now leveraging AI to enhance our product pages online, which in turn is increasing our relevance with large language models. While the volume of traffic generated from AI search is still low, we saw triple-digit growth in Q3, and this activity had the highest conversion rate of all traffic coming to our site. Finally, as we accelerate our digital capabilities, we are also broadening our reach in retail media. Q3 marked the launch of a new collaboration with Google Commerce and Media and YouTube. Launching this partnership will make it easier for brands and agencies to collaborate with Costco retail media, and is a significant milestone on our journey towards increasing our share of retail media revenue. That concludes our prepared remarks. In terms of upcoming releases, we will announce our May sales results for the 4 weeks ending Sunday, May 31 on Wednesday, June 3 after market close. We will now open the line up for questions.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Thank you. We will now begin the question-and-answer session. If you have dialed in and would like to ask a question, please press star 1 on your telephone keypad to raise your hand and join the queue. If you are called upon to ask your question and are listening via speakerphone on your device, please pick up your handset and ensure that your phone is not on mute when asking your question. To be able to take as many questions as possible, we ask that you please limit yourself to one question. Again, it is star 1 to join the queue. And our first question comes from the line of Michael Lasser with UBS. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Michael Lasser",
+   "title": "Analyst, UBS",
+   "content": "Good evening. Thank you so much for taking my question. Recognizing and fully understanding you do not provide guidance, but given that new membership growth is a critical driver of your overall same-store sales growth as these new customers ramp their usage of the warehouses, and this metric has slowed to 4.1%, which is the lowest level in some time, should we keep our expectations around your same-store sales growth outlook for at least the near term pretty modest, especially when you consider that you will be lapping some of the changes to the club hours in the coming weeks? Thank you so much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Hi, Michael. Thanks for the question. I'll cover that in a couple of different parts. First, taking a step back on membership and what we are seeing there in terms of growth: overall, we were pleased with the results in the quarter. As we noted in the prepared remarks, when we look at membership growth and back out the fee increase and foreign exchange, we were up 7% overall. A big part of that was due to the continued engagement we see with executive members growing, and that was up over 9% during the quarter. When we see members who are at an executive level, they generally spend more with us and visit more frequently, so that is a positive dynamic in terms of impact and potential for future health and growth in terms of membership spending. We saw paid membership growth up just over 4%, and those two together combined to create the 7% growth in membership income. We were also pleased to see the renewal rate has normalized as the mix of digital members has matured and as we implemented targeted marketing and retention strategies, which helped level that membership renewal rate. Our goal is to continue to improve that rate as we execute more of those communication and targeting efforts. As you mentioned, we have seen some slowing in year-over-year membership growth in recent quarters. We attribute that to a number of factors. One is we have not been opening new warehouses in major new markets recently. When we opened new warehouses in markets such as Japan and China in prior years, we tended to see outsized growth in membership, but often the renewal rate on those members is lower because many were new consumers coming from further away to experience the warehouse. We have not had a major new opening in a new international market for a while, which definitely has an impact, and we are cycling some stronger growth from sign-ups a year ago as well. We think the 4% to 5% range is a more normal rate of growth when you do not have the benefit of a large increase linked to a special event like COVID or a new market entry. Overall, with the renewal rate leveling out and year-over-year growth in new member sign-ups, we feel good about the health of membership and believe there is opportunity for continued growth in the future.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Michael Lasser",
+   "title": "Analyst, UBS",
+   "content": "And just as it relates to same-store sales growth, given that is a critical pipeline, especially as you lap some of the big outsized drivers over the last few years? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Yeah. In general, I would say we do not give guidance on what we expect future trends to look like. We do expect to continue to grow our market share as we deliver great value for members and continue to provide great quality items. Broadly, what we are seeing at the moment is a continuation of the trends over the last year or so: members being willing to spend but having very high expectations around quality, value, and newness. Our value proposition seems to be resonating well. We have been cycling some fairly major gift card programs and gold sales year over year, and yet our recent results excluding gas continue to comp in that 6% to 7% range. We have not really seen variation from that performance when you look at membership spend and membership growth over the last year or so.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Michael Lasser",
+   "title": "Analyst, UBS",
+   "content": "Thank you very much, and good luck.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Simeon Gutman with Morgan Stanley. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Pedro Gill (for Simeon Gutman)",
+   "title": "Analyst, Morgan Stanley",
+   "content": "This is Pedro Gill here on for Simeon. Thank you for taking our question. I would like to ask you first about the core-on-core margin, which was down 9 basis points as you are lapping against some of the very strong gains that started four quarters ago, more or less. Should we recognize this as a sign that you are strategically taking a more aggressive value posture to gain share given some of the trends in the consumer out there? And are you seeing something similar from the competition?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Yes, thanks for the question. I would probably take a step back on gross margin. When we talk about the rate year over year, we focus on gross margin overall excluding gas inflation or deflation. During the quarter, that measure improved by one basis point. We are cycling higher growth in gross margin rate in prior periods, so there are a lot of moving parts in this quarter. We had higher top-line growth overall, but it came with a significant shift in the composition of sales: higher sales in gas and added e-commerce and pharmacy, which created a mix impact. In terms of core-on-core, we knew we were cycling a fairly large LIFO charge from last year and saw an opportunity, recognizing members were dealing with higher gas prices, to invest in increasing value to the member — partly by widening our value gap in gas to drive volume growth and more gallons and traffic to our gas stations, and also by investing in everyday prices such as eggs and meat. We saw the option to do that because of the benefit we were cycling from the prior year and felt it was the right thing to do to continue to drive top-line growth and deliver value for our members. Generally, we view ourselves as our toughest competitor, and the majority of the price investments we make are because we want to ensure we are delivering great value for our members. If we have opportunities to invest to drive top-line growth while sustaining gross margins, we will take those opportunities.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Pedro Gill (for Simeon Gutman)",
+   "title": "Analyst, Morgan Stanley",
+   "content": "And as a follow-up, if I could ask about the components of your comp between traffic and ticket. The ticket component is particularly meaningful. If you could parse out how much of that is same-SKU comparable pricing versus mix versus larger baskets, that would be very helpful.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "It is really a combination of all of the above. We are seeing an increased number of items in the basket and some inflation in the basket. Part of the inflation is moving to larger-sized items or better-quality items or higher-value items. We do not tend to break out the individual elements, but it is a combination of mix, pricing, and larger baskets.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Christopher Horvers with JPMorgan. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Horvers",
+   "title": "Analyst, JPMorgan",
+   "content": "Thanks. Good evening. I wanted to pick up the pricing thread. You mentioned in prepared remarks running prices lower ahead of expected cost declines. One of your peers talked about eating some tariffs, maybe passing through price earlier even though they had pre-tariff inventory. Is there a change in the rationality of the overall market or is this simply opportunistic given the current backdrop?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "I would answer that a couple of ways and Ron may add color. Taking a step back on the competitive landscape, we think the market is very rational currently. We tend to be our own biggest competitor with the goal of maintaining pricing authority and being there for our members. Because of higher gas prices, we felt it was important to deliver more value for our members. When thinking about gross margin impact, the rate will fluctuate quarter to quarter and we encourage you not to get too fixated on one element. This quarter, we invested more in some everyday items like beef and eggs because we had the opportunity to do so while cycling a LIFO charge from last year, and we also widened our gaps in gas. Over the last 12 to 24 months, the gross margin rate excluding gas inflation or deflation has generally been stable with a slight improvement, and Q3 was in line with that trajectory. We had the capacity to invest more in value for our members given the impacts we were seeing on gas prices.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "To add to what Gary said: the moves on pricing were strategic, not reactionary. We will sometimes move down earlier into lower-cost goods when those goods become available, as we did with eggs when that commodity started dropping. We use pricing as a lever. We have long said we are the first to come down and the last to go up, and this period was a good example of lowering prices where we could to provide value for our members.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Christopher Horvers",
+   "title": "Analyst, JPMorgan",
+   "content": "That makes sense. Historically, we have thought about total comp of 4% to 5% to start to see core leverage. On SG&A, you reported something like a nine basis point improvement and because FX helps, but you actually delevered three basis points. Is there something changing there? You mentioned healthcare costs. To what extent did freight impact that flow through and any commentary about how to think about the future? Thanks very much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "On SG&A, I would not say anything has changed in our view. If you look at the key components in operations, we were probably about mid-single-digit leverage in core operations, but higher healthcare costs and a couple of small one-time items more than offset that impact. In central, we also had a couple of legal settlements and reserves that impacted the central numbers. Outside of those items, we would have seen a reasonable amount of leverage during the quarter more consistent with mid-single-digit comps delivering a level of leverage. Excluding gas, we typically see that level of leverage on core operations; we do not typically see the same level of leverage from gas.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Oliver Chen with TD Cowen. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Oliver Chen",
+   "title": "Analyst, TD Cowen",
+   "content": "Gary and Ron — as you think about retail media, your business model is quite different with SKU efficiency from other players. What are the parameters or guardrails you are thinking about in balancing member satisfaction against the big opportunity? It sounds like you're at a nice turning point with that opportunity. Also, Ron, as you continue to push for innovation and being your own best competitor, what are the trade-offs in terms of expenditures? Is it very capital-light in terms of improving checkout and automation, as well as implementing AI to further make customers happier, yet using technology and distribution and speed? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "On retail media, it's simple for us: the member always comes first. Our focus with retail media is to build personalization capabilities to deliver more relevant messaging that helps improve the experience and save our members time and money. We've also introduced some media activity on third-party sites to build the capability and show CPG partners what's possible with Costco and retail media. As we scale up personalization capabilities, we will continue to look at retail media through the lens of how it delivers value and relevance for our members and how CPG partners can participate to deliver better return on marketing spend. We expect retail media to ramp up through the lens of member experience and member value, and a large portion of that value will be reinvested to deliver more value for members and better pricing to drive top-line sales.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "On the technology spend, I would consider it capital-light from our perspective and we're seeing great returns. The investments in e-commerce and AI have costs, but they are being offset by greater sales and leverage. On the operations side, the technology we're using at the front end has been accretive to higher productivity. We are seeing benefits through shorter lines and faster throughput for our members, which lowers payroll needs in some areas. We don't view it as a heavy capital lift at this point given the returns we're seeing.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Chuck Grom with Gordon Haskett. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Chuck Grom",
+   "title": "Analyst, Gordon Haskett",
+   "content": "Hi, Ron. Hi, Gary. About $45 in cash per share on the balance sheet. Can you zoom out and help us think about capital allocation, including plans for a special dividend and also how you may look to deploy future tariff refunds?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Sure. On capital and financial strategy, our number one priority is to keep investing in the business to drive growth. We are focused on accelerating new warehouses, remodeling warehouses where we can expand capacity and support continued growth, expanding the depot network, investing in manufacturing capabilities to support Kirkland Signature growth (things like expanding hot dog capacity and coffee roasting), and investing in digital member engagement. As we make those investments, we are also growing the regular dividend over time and continue to buy back stock at a level that avoids dilution from executive stock grants. We generate excess cash beyond those priorities, and at our current valuation a special dividend is often the most effective way to return excess cash without giving up flexibility to invest in growth. We will evaluate the timing and approach with our board but have no plan to share at this time. Regarding the tariff refunds, we will evaluate how much we receive and timing and then determine the appropriate action, which could include returning some portion to members as we've discussed previously.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Chuck Grom",
+   "title": "Analyst, Gordon Haskett",
+   "content": "Okay, great. Fair enough. And then just on real estate, you talked about relocating stores this year. Can you help us think about the opportunities set and remind us what threshold or criteria you typically use when you decide to relocate a club?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "It really depends on the existing facility. Some earlier club locations in the Northeast were smaller facilities with limited parking. When the size of the business in that market hits thresholds relative to average warehouse volumes, that can trigger a relocation opportunity. It's not a single dollar threshold worldwide — it is about the size of the business, the size of the facility, and how we are servicing members in terms of gas station capacity, parking, and warehouse traffic. It's a moving target and we evaluate each opportunity strategically.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Scot Ciccarelli with Truist. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Scot Ciccarelli",
+   "title": "Analyst, Truist",
+   "content": "Hi, guys. Thanks for the time. It seems like two of your biggest competitors, worldwide, particularly in the U.S., continue to ratchet up the competitive bar on delivery speeds. Given that and the potential increase in agent-enabled commerce, it seems delivery capabilities and speed will become even more important over time. Do you think Costco will ultimately need to build out your own first-party delivery capabilities, or can you fully rely on third-party partners to compete in that environment?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "We will continue to evaluate. In 2020, we made an acquisition to get into big-and-bulky delivery because we saw an opportunity to shorten delivery times; that has been productive for the company. For same-day delivery now, we have very good third-party partners that deliver high satisfaction — average delivery time is under 45 minutes in the U.S. and member satisfaction is high. We are currently happy with the partners we have but will continue to evaluate whether further vertical integration makes sense to improve delivery times globally.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Zihan Ma with Bernstein. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Zihan Ma",
+   "title": "Analyst, Bernstein",
+   "content": "Hi. Thank you for taking my question. I have one on traffic. Understanding there was a lot of calendar shift in Q3, it looks like traffic was below the historical trend at least for the first part of Q3 and then started growing into April. Can you help us understand, one, how much of the April acceleration was benefiting from the gas inflation and driving more traffic into stores; and two, is there a structural way to further improve traffic especially given many of your stores may already be at capacity, so you may not physically be able to attract more traffic growth from here?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Thanks for the question. It's helpful to look at traffic over a 12-month period because we've seen a mix change over time. About a year ago, basket size was flat to slightly negative and traffic was up mid-single digits. Since then, basket size has increased and traffic has continued to grow but more modestly. On a recent monthly basis, traffic has been up roughly around two percent, still healthy but normalized compared to higher prior levels. We have undertaken initiatives to create opportunities for more frequent visits: extended operating hours for gas stations and warehouses, remodeling and expanding warehouses to create more parking and gas capacity, technology to speed checkout, and infill real estate to relieve pressure on high-volume locations. All these measures help maintain traffic growth, but month-to-month dynamics will vary with factors such as members' stocking behavior and concerns about tariffs. Overall, we feel good about traffic growth on a two-year and year-over-year basis.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "To add: investments in capital expenditures and acquiring adjacent properties for expanded parking, along with technology that improves throughput and turns parking spaces faster, drive better traffic in high-volume warehouses. Strategic infill builds also relieve pressure and lead to build-back of traffic in relieved warehouses.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "To clarify on gas: gas station visits are not included in our in-warehouse traffic count. Typically, a little less than half of the members who visit our gas stations also visit the warehouse. We did not see a dramatic change in warehouse traffic overall as a direct result of gas. Over time, members who engage with us for gas tend to visit the warehouse more frequently, spend more overall, and renew at a higher rate, so gas engagement is a good barometer for long-term loyalty.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Zihan Ma",
+   "title": "Analyst, Bernstein",
+   "content": "That is very helpful. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Peter Benedict with Baird. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Peter Benedict",
+   "title": "Analyst, Baird",
+   "content": "Hey, guys. Thanks for taking the question. I know we are going to get the main numbers next week, but curious if you would comment on any behavioral changes or changes in trend that you've seen thus far. And as a related bigger-picture question around GLP-1s, you talked about it in the prepared remarks. How is it influencing any category performance, or how are you thinking about leaning into different categories over the next several months and years?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, Peter. I won't preview next week's sales release, but generally we are not seeing major changes in member behavior except around gas, which has had a major impact on total spend because of higher prices. Core merchandising remains consistent: quality, value, and newness are very important and are resonating. Everyday value performs well in tires, majors, and health and beauty, while newness and excitement do well in special events and certain self-care items. In fresh, premium meat remains strong because of value and quality, and unit growth is strong in ground beef and poultry with everyday value. Regarding GLP-1s, our value proposition in pharmacy helps members access these drugs cost-effectively. In food and sundries, we're leaning into protein-related items—protein snacks, bars, and beef sticks—and we launched a Kirkland Signature Beef Stick that has seen strong volume. Those are category areas where we are focusing given member demand and value proposition.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "On merchandising, I've met with several large CPGs recently with our head merchant. They are pivoting based on GLP-1 customer needs and focusing on protein and related items. We launched Kirkland Signature Ultra-filtered protein milk which is performing extremely well. I am impressed with how CPGs are adapting and with the merchandising opportunities tied to these trends.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Peter Benedict",
+   "title": "Analyst, Baird",
+   "content": "That is good to hear. Thanks so much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Rupesh Parikh with Oppenheimer. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rupesh Parikh",
+   "title": "Analyst, Oppenheimer",
+   "content": "Going back to your commentary on AI search, are you seeing any benefits in particular categories or services in terms of traffic and conversion?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "It's fairly broad-based but still early days. As we update product pages to better translate through large language models, the commitment to value and quality, member reviews, and positive comparisons to alternatives tend to resonate with the models. We're showing up more consistently when members search for items where we offer strong value and quality, and we have plans to increase our presence. This is an opportunity as consumer behavior evolves and we want to capture our fair share of that activity.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "A good example is appliances. Our all-in pricing often includes delivery, installation, and other services that traditional search did not always show. Large language models can represent the entire value proposition—such as tires where installation, road hazard coverage, and nitrogen may be included—so we are bullish on AI search and the ability to tell the whole Costco value story.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Rupesh Parikh",
+   "title": "Analyst, Oppenheimer",
+   "content": "Thanks. Follow-up on fuel: you've seen a significant increase in volumes. How do you think about opportunities to increase throughput going forward and whether this may be a more permanent increase in fuel demand based on recent behavior changes?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "It's difficult to predict gas prices, but by widening our price gaps and delivering value, members who engage with our fuel business tend to visit more frequently, shop more, and renew at higher rates. We are also seeing members who have been members for some time using our gas stations for the first time, which is encouraging for long-term loyalty. When gas prices are higher, members may travel further or be willing to wait for our pumps, so throughput and member behavior can vary with price. Overall, we believe gas engagement drives loyalty and long-term growth.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Rupesh Parikh",
+   "title": "Analyst, Oppenheimer",
+   "content": "Great. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of Gregory Melich with Evercore ISI. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gregory Melich",
+   "title": "Analyst, Evercore ISI",
+   "content": "I would love to unpack a little bit more on disinflation and inflation. Is it still running roughly 1% across the box? Because you said there were some good and some bad areas in the quarter.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "We have shared low to mid-single-digit inflation in the past, but most of the increase in the inflation rate this quarter was driven by gas. If I break it down by category: fresh and food and sundries were slightly lower this quarter due to deflation in produce, eggs, and dairy. We still see inflation in beef, deli, and items like candy. Non-foods were a bit higher in the quarter; one driver is higher costs in components such as memory chips affecting majors. We took the opportunity to buy forward some items to mitigate impacts for our members. If oil prices remain elevated, we would expect inflation to flow into categories with plastic components, polyester, or cotton due to higher resin costs. Our buyers are working to mitigate cost increases where possible.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Gregory Melich",
+   "title": "Analyst, Evercore ISI",
+   "content": "Got it. And on gas, you said you widened your price gaps in gasoline. Did the dollar profit per gallon slip as part of that, or did you just take up price less than the market?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "Our profit was a little bit higher year over year, although the rate of sales change was significantly lower.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Gregory Melich",
+   "title": "Analyst, Evercore ISI",
+   "content": "Got it, and good luck. Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "Our next question comes from the line of John Heinbockel with Guggenheim Partners. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Heinbockel",
+   "title": "Analyst, Guggenheim Partners",
+   "content": "Hey, guys. Two related questions for Ron. What does the club pipeline look like in Europe and Asia over the next three years? And where is the greatest backlog of clubs coming? Secondly, on capacity in Canada where you have very high AUVs, as you add clubs, what does the capacity dynamic look like in that country?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ron Vachris",
+   "title": "President and Chief Operating Officer",
+   "content": "In Canada, we see a lot of upside potential and have a multi-year plan charted out for the next three to five years with consistent strong growth in Canada for at least that period. In Asia, we see great opportunities remaining in China, Korea, and Japan, with Taiwan also offering opportunities. Those three countries have significant potential. In Europe, we are still young in France and see growth ahead there; Spain has a shorter runway but significant growth potential over the next three years, and the U.K. has been very strong for us over the last three years. Overall, we expect strong international expansion over the next five to ten years with those markets leading outside of North America.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "And our final question comes from the line of Christopher Nardone with Bank of America. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Nardone",
+   "title": "Analyst, Bank of America",
+   "content": "Thanks, guys. On the executive membership strength, are you seeing more customers trade up from Gold into Executive, or is the recent strength more driven by new customers choosing the higher-tier membership? And as a related follow-up with the spike in gas prices, are you seeing new membership acquisition improve as you move through the spring season?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gary Millerchip",
+   "title": "Chief Financial Officer",
+   "content": "On executive membership, it's a combination of both. We're seeing increases in upgrades from Gold to Executive and also a higher penetration of new members signing up for Executive with the extra benefits we offer. We are seeing year-over-year growth in new member sign-ups. I would not attribute it to a single factor, but the momentum in new sign-ups is encouraging. Regarding the executive membership rollout in China, overall we have been very pleased and it is ahead of our expectations. We launched with the expectation it would be a great value for members and have seen higher activity than anticipated. We have executive membership in most markets where we have a sufficient number of warehouses. There are individual countries where we do not offer Executive today, and over time, as our presence grows, it may make sense to expand it. For now, we have executive membership in the markets where it makes sense.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Christopher Nardone",
+   "title": "Analyst, Bank of America",
+   "content": "Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Abby",
+   "title": "Conference Operator",
+   "content": "That concludes our question-and-answer session and today's conference call. We thank you for your participation, and you may now disconnect.",
+   "sentiment": "0.0"
+  }
+ ]
+}

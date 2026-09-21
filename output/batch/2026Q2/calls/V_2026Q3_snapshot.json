@@ -1,0 +1,5718 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "V",
+  "fiscal_quarter": 3,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q3",
+  "symbol": "V",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q3",
+  "period_end": "2026-06",
+  "fye_month": 9,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jennifer Como",
+    "role": "ir"
+   },
+   {
+    "name": "Ryan McInerney",
+    "role": "management"
+   },
+   {
+    "name": "Christopher Suh",
+    "role": "management"
+   },
+   {
+    "name": "Will Nance",
+    "role": "analyst"
+   },
+   {
+    "name": "James Friedman",
+    "role": "analyst"
+   },
+   {
+    "name": "Timothy Chiodo",
+    "role": "analyst"
+   },
+   {
+    "name": "Fahed Kunwar",
+    "role": "analyst"
+   },
+   {
+    "name": "Tien-Tsin Huang",
+    "role": "analyst"
+   },
+   {
+    "name": "Jeff Cantwell",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrew Schmidt",
+    "role": "analyst"
+   },
+   {
+    "name": "Sanjay Sakhrani",
+    "role": "analyst"
+   },
+   {
+    "name": "Darrin Peller",
+    "role": "analyst"
+   },
+   {
+    "name": "Paul Cory",
+    "role": "analyst"
+   },
+   {
+    "name": "Dominic Gabriel",
+    "role": "analyst"
+   },
+   {
+    "name": "David Koning",
+    "role": "analyst"
+   },
+   {
+    "name": "Harshita Rawat",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "third quarter",
+   "detail": "the call says 'third quarter', matching 2026Q3"
+  },
+  "reported_period_label": "q2",
+  "source_file": "V_2026Q3.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $11.60B (+14% yoy, +11%), third quarter",
+   "fact_ids": [
+    "V_2026_3-002"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $3.32/sh (+11% yoy)",
+   "fact_ids": [
+    "V_2026_3-015"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is decelerating: guided 10% to 13% vs 14% reported",
+   "fact_ids": [
+    "V_2026_3-022",
+    "V_2026_3-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.85",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 11600000000.0,
+    "fact_id": "V_2026_3-002"
+   },
+   "growth": {
+    "value": 14.0,
+    "period": "third quarter",
+    "fact_id": "V_2026_3-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "V_2026_3-022",
+    "delta_pp": -2.5,
+    "guided_lo": 10.0,
+    "guided_hi": 13.0,
+    "guided_descriptor": "low teens"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "service",
+   "name": "Service",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 14.0,
+    "period": "q2",
+    "fact_id": "V_2026_3-005",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 9
+  },
+  {
+   "node": "data_processing",
+   "name": "Data Processing",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 17.0,
+    "period": "q2",
+    "fact_id": "V_2026_3-006",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "international_transaction",
+   "name": "International Transaction",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 6.0,
+    "period": "q2",
+    "fact_id": "V_2026_3-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "commercial_and_money_movement_solutions",
+   "name": "Commercial And Money Movement Solutions",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 17.0,
+    "period": "q2",
+    "fact_id": "V_2026_3-009",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "value_added_services",
+   "name": "Value-Added Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 34.0,
+    "period": "q2",
+    "fact_id": "V_2026_3-010",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 16
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "V_2026_3-027",
+   "V_2026_3-001",
+   "V_2026_3-003",
+   "V_2026_3-002",
+   "V_2026_3-012",
+   "V_2026_3-013",
+   "V_2026_3-004",
+   "V_2026_3-015",
+   "V_2026_3-016",
+   "V_2026_3-014",
+   "V_2026_3-022",
+   "V_2026_3-017",
+   "V_2026_3-023",
+   "V_2026_3-018",
+   "V_2026_3-019",
+   "V_2026_3-024",
+   "V_2026_3-021",
+   "V_2026_3-026",
+   "V_2026_3-020",
+   "V_2026_3-025"
+  ],
+  "signal_ids": [
+   "V_2026_3-S001",
+   "V_2026_3-S013",
+   "V_2026_3-S024",
+   "V_2026_3-S032",
+   "V_2026_3-S042",
+   "V_2026_3-S046",
+   "V_2026_3-S080",
+   "V_2026_3-S081",
+   "V_2026_3-S097",
+   "V_2026_3-S108",
+   "V_2026_3-S113",
+   "V_2026_3-S118",
+   "V_2026_3-S125",
+   "V_2026_3-S139",
+   "V_2026_3-S140"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "service",
+   "name": "Service",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "V_2026_3-005"
+   ],
+   "signal_ids": [
+    "V_2026_3-S022",
+    "V_2026_3-S023",
+    "V_2026_3-S036",
+    "V_2026_3-S038",
+    "V_2026_3-S066"
+   ],
+   "n_home_signals": 9,
+   "n_mentions": 9,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "data_processing",
+   "name": "Data Processing",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "V_2026_3-006"
+   ],
+   "signal_ids": [
+    "V_2026_3-S067"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "international_transaction",
+   "name": "International Transaction",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "V_2026_3-007"
+   ],
+   "signal_ids": [
+    "V_2026_3-S068"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "commercial_and_money_movement_solutions",
+   "name": "Commercial And Money Movement Solutions",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "V_2026_3-009"
+   ],
+   "signal_ids": [
+    "V_2026_3-S006",
+    "V_2026_3-S072",
+    "V_2026_3-S096"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "value_added_services",
+   "name": "Value-Added Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "V_2026_3-010",
+    "V_2026_3-011"
+   ],
+   "signal_ids": [
+    "V_2026_3-S034",
+    "V_2026_3-S044",
+    "V_2026_3-S045",
+    "V_2026_3-S069",
+    "V_2026_3-S075",
+    "V_2026_3-S106"
+   ],
+   "n_home_signals": 14,
+   "n_mentions": 16,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 14.0,
+    "period": "third quarter",
+    "fact_id": "V_2026_3-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 10.0,
+    "hi": 13.0,
+    "descriptor": "low teens",
+    "period": "full year",
+    "source": "ledger",
+    "id": "V_2026_3-022",
+    "direction_word": null,
+    "text": "low teens",
+    "confidence": "high"
+   },
+   "direction": "down",
+   "delta_pp": -2.5,
+   "confidence": "high",
+   "note": ""
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 12,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.85
+   }
+  },
+  "speakers": {
+   "Ryan McInerney": {
+    "confident": 11,
+    "cautious": 1
+   },
+   "Christopher Suh": {
+    "confident": 6
+   }
+  },
+  "notable_confident": [
+   "V_2026_3-S043",
+   "V_2026_3-S125",
+   "V_2026_3-S097",
+   "V_2026_3-S046"
+  ],
+  "notable_cautious": [
+   "V_2026_3-S140"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "V_2026_3-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-001",
+    "V_2026_3-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 14",
+     "up 11"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "In our fiscal third quarter, net revenue was up 14% year over year to $11.6 billion and EPS was up 11%, both ahead of expectations.",
+   "ev_start": 1874,
+   "ev_end": 2005,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "volume",
+     "grew"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Quarterly payments volume grew 10% year over year in constant dollars to cross $4 trillion for the first time in Visa's history, and processed transactions grew 10% year over year to 72 billion reflecting strong and resilient consumer spending.",
+   "ev_start": 2006,
+   "ev_end": 2250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S003",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "momentum"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "After record-setting net revenue growth in our second quarter, we continue to build on our momentum in the third quarter in three important ways: 1) through our wins in consumer payments, commercial payments, and money movement, with a focus on serving our clients; 2) with product innovation and development across our business, both what we are building and how we are building it; and 3) in continuing to position our value-added services as a key driver of our growth, not just this year, but for years to come.",
+   "ev_start": 2251,
+   "ev_end": 2766,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We remain obsessed with helping our clients in the payments ecosystem scale and grow.",
+   "ev_start": 2896,
+   "ev_end": 2981,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S005",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "product": [
+     "partner",
+     "innovation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "Most notably, the NPS from both sellers and fintechs each increased several points with respondents valuing our strong brand, trusted partner relationships, global network strength, reliability, and innovation.",
+   "ev_start": 3226,
+   "ev_end": 3436,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_and_money_movement_solutions"
+   ],
+   "home": "commercial_and_money_movement_solutions",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growing"
+    ],
+    "forward": [
+     "we see the"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "We see the strength of these relationships in our consumer and commercial and money movement solutions business, with our credentials growing 8% year over year in the third quarter and our tokenized penetration nearing 60% of our e-commerce transactions globally.",
+   "ev_start": 3437,
+   "ev_end": 3700,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "First, in Europe, through portfolio migrations and organic expansion, we have grown credentials by more than 40 million in the last 12 months, which is over 70% faster than the annualized credentials growth we saw in the region from fiscal year 2019 to 2024.",
+   "ev_start": 3740,
+   "ev_end": 3998,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S008",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "strategic partnership"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "An example from this quarter is NatWest, where we have won the entire consumer credit portfolio of their retail bank, demonstrating the strength of our strategic partnership that has been restored over the past five years.",
+   "ev_start": 4100,
+   "ev_end": 4322,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "In Latin America, we have continued to bring our innovation and strong relationship management to drive processing penetration and value-added services.",
+   "ev_start": 4323,
+   "ev_end": 4475,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": []
+   },
+   "score": 2.32,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "In the U.S., we won the consumer debit portfolio of a large Southeast community institution, Colony Bank, which is a testament to our clear strategic alignment with our clients and the strength of Visa's debit network and value-added services.",
+   "ev_start": 4975,
+   "ev_end": 5218,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_and_money_movement_solutions"
+   ],
+   "home": "commercial_and_money_movement_solutions",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Our commercial and money movement solutions revenue grew 17% year over year, with 13% year over year commercial payment volume growth, both in constant dollars, as our product development continued to help us win business.",
+   "ev_start": 5219,
+   "ev_end": 5441,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "And in the U.S. and across six countries in Europe and Asia Pacific, we renewed with Nuvei, a fast-growing B2B travel issuer for virtual cards.",
+   "ev_start": 6025,
+   "ev_end": 6168,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.99,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "In money movement, Visa Direct transactions grew 21% year over year this quarter to 4 billion.",
+   "ev_start": 6169,
+   "ev_end": 6263,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S014",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "product": [
+     "use cases"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.49,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Expanding relationships to activate new use cases is one key way we enable growth for Visa Direct.",
+   "ev_start": 6264,
+   "ev_end": 6362,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "resonating"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "With all of these examples, it is clear that our people, products, and technology are resonating and building trust with our clients globally, positioning us for the future.",
+   "ev_start": 6853,
+   "ev_end": 7026,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S016",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "With the dawn of the generative AI era, we moved quickly to deploy AI across our enterprise to assist us in areas like engineering, client service, and model orchestration.",
+   "ev_start": 7463,
+   "ev_end": 7635,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying",
+     "new tools"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We have progressed materially in product development and engineering, deploying new tools, plug-ins, agent skills, and persistent sessions to create an end-to-end pipeline with human oversight and autonomous capability.",
+   "ev_start": 7788,
+   "ev_end": 8007,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "product": [
+     "ship",
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "As a result of this new way of working, we are able to design, build, and ship products at an increased velocity with continuous innovation and improvement.",
+   "ev_start": 8473,
+   "ev_end": 8629,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S019",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "We are active and investing in each layer of the stablecoin stack from blockchain to issuance, wallets, infrastructure and orchestration, and applications.",
+   "ev_start": 8757,
+   "ev_end": 8912,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S020",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.6,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "And in the application layer, we launched the Visa Stablecoin Platform for stablecoin minting, movement, and management.",
+   "ev_start": 9223,
+   "ev_end": 9343,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 3.1,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "It is designed to enable our partners to settle with Visa and stablecoins, provide on-chain wallet-as-a-service infrastructure, and move money between fiat and stablecoins beginning with OpenUSD across a wide variety of use cases.",
+   "ev_start": 9344,
+   "ev_end": 9574,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "Furthermore, the Visa Stablecoin Platform's infrastructure will be integrated with Pismo, which can enable tokenized deposits for financial institutions, and Pismo plans to add third-party tokenized deposit infrastructure providers in the future.",
+   "ev_start": 9575,
+   "ev_end": 9821,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S023",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrating"
+    ],
+    "strategy": [
+     "investing",
+     "acquiring"
+    ]
+   },
+   "score": 3.6,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "There is much more to come in this space, and Visa is participating and will continue to participate in all of these layers whether through building Visa products and services, integrating with partners, investing, or acquiring.",
+   "ev_start": 9822,
+   "ev_end": 10050,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "forward": [
+     "we believe",
+     "future"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.1,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "We believe agentic commerce will expand our addressable market and drive future growth for Visa.",
+   "ev_start": 10147,
+   "ev_end": 10243,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new seller capabilities"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "This quarter, we continued to work across the ecosystem by enabling new seller capabilities such as our agent score and agent directory, and building infrastructure such as our token assurance framework to ensure agent-initiated transactions are transparent and trusted.",
+   "ev_start": 10244,
+   "ev_end": 10514,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships",
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "Across payments, partnerships are critical in driving adoption and AI is no different.",
+   "ev_start": 10515,
+   "ev_end": 10601,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S027",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnering"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 4.1,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "We are excited to be partnering with OpenAI to enable secure Visa payments within agentic commerce.",
+   "ev_start": 10602,
+   "ev_end": 10701,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S028",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.6,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "Through the partnership, Visa will provide its global network, credentialing capabilities, and security infrastructure to support agentic commerce experiences, helping consumers and businesses interact and transact with confidence.",
+   "ev_start": 10702,
+   "ev_end": 10933,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S029",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 2.1,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "And as part of our partnership with Meta, Visa is enabling new ways to pay across Facebook and Instagram, powered by Visa Intelligent Commerce, allowing consumers to transact seamlessly and securely with Visa tokens.",
+   "ev_start": 10934,
+   "ev_end": 11150,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S030",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipped",
+     "releases"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "We now have more than 150 AI-powered applications, and over the last 12 months, we have shipped more than 300 major product releases.",
+   "ev_start": 11306,
+   "ev_end": 11439,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S031",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "Changes in the way we work and where we invest also impact how we operate the company.",
+   "ev_start": 11440,
+   "ev_end": 11526,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 5.6,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "Today, we announced that we are eliminating roles with the majority being in our technology and product teams, to ensure that we are continuing to position Visa for future growth.",
+   "ev_start": 11527,
+   "ev_end": 11706,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Another important area of product development has been in our value-added services, which grew revenue by 34% in constant dollars in Q3 with the vast majority of the revenue linked to transactions, cards, and accounts.",
+   "ev_start": 11707,
+   "ev_end": 11925,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S034",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "popular"
+    ],
+    "product": [
+     "popular"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "For example, two of our most popular network products, Subscription Manager and Stop Payment services, which help cardholders view and decide where their card is on file for a subscription or recurring payment, now have 2 billion credentials enrolled.",
+   "ev_start": 12047,
+   "ev_end": 12298,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S035",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new products"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "And we continue to develop new products including our AI Financial Assistant, enabling banks to white-label our AI-powered financial insights from their data and Visa's network data for their cardholders right in the bank's own app and website.",
+   "ev_start": 12299,
+   "ev_end": 12543,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S036",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "expanding"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "We are also expanding our issuer processing with DPS Full-Service Credit, bringing the best of Visa, DPS, and Pismo into an integrated credit issuer processing solution designed for fintechs and small to midsized banks.",
+   "ev_start": 12544,
+   "ev_end": 12763,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new agentic tools"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "In Acceptance Solutions, I just mentioned our new agentic tools for sellers and enhanced tokens, but this portfolio includes many other capabilities that are driven by both carded and non-carded transactions.",
+   "ev_start": 12881,
+   "ev_end": 13089,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S038",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "strategy": [
+     "acquirers"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "Within CyberSource, for example, some of the largest bank acquirers and sellers globally access the latest solutions such as Unified Checkout that launched globally in March.",
+   "ev_start": 13090,
+   "ev_end": 13264,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquirers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "Over 4.5 thousand sellers and acquirers globally have enabled this with more to come including one of our largest acquirers in the UK.",
+   "ev_start": 13453,
+   "ev_end": 13587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.39,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "In the U.S., you likely saw some of our largest clients, such as Chase, Bank of America, Wells Fargo, and Marriott, activate our FIFA offerings and promotions for their customers to drive acquisition and loyalty.",
+   "ev_start": 14455,
+   "ev_end": 14667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.6,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "Two examples I would highlight: in Brazil, a leading bank worked with Visa to launch multiple campaigns including a promotion entering cardholders for a chance to win tickets for every 100 reais spent, with more chances for new cardholders.",
+   "ev_start": 14716,
+   "ev_end": 14956,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "In Mexico, the launch of a new FIFA card helped drive significant card issuance for one issuer, with nearly 400 thousand new debit cards and more than 250 thousand new credit cards.",
+   "ev_start": 15116,
+   "ev_end": 15297,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S043",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership",
+     "partner"
+    ],
+    "confident": [
+     "enthusiasm",
+     "pleased"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "With all of the enthusiasm around FIFA, we are very pleased to have extended our long-standing global partnership agreement as the official payment technology partner for FIFA tournaments.",
+   "ev_start": 15474,
+   "ev_end": 15662,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.6,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "It is unique sponsorship assets like these that make Visa a partner of choice for our value-added services.",
+   "ev_start": 15663,
+   "ev_end": 15770,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S045",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "accelerated",
+     "strong"
+    ],
+    "product": [
+     "rollout",
+     "innovative"
+    ],
+    "performance": [
+     "momentum",
+     "accelerated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "In our first three quarters of 26, I have seen the momentum across our business continue to build through the Net Promoter Score from our clients, through the rate of client renewals and wins, through the accelerated rollout of innovative products and solutions, through the increasing engagement in our value-added services and by consistently delivering strong financial results to our investors.",
+   "ev_start": 15771,
+   "ev_end": 16169,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "grow"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 87,
+   "sentence": "The opportunity ahead is significant, and I am confident that we have significantly shifted our ability to build and grow the future of payments faster and better than ever before.",
+   "ev_start": 16170,
+   "ev_end": 16350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 10"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "In constant dollars, global payments volume was up 10% year over year.",
+   "ev_start": 16619,
+   "ev_end": 16689,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 12"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "Cross border volume, excluding intra-Europe, was up 12%.",
+   "ev_start": 16690,
+   "ev_end": 16746,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "And total processed transactions grew 10%.",
+   "ev_start": 16747,
+   "ev_end": 16789,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "stronger",
+     "up 14"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Fiscal third quarter net revenue was up 14% year over year, better than our expectations, primarily due to stronger-than-expected key business drivers, higher-than-expected value-added services revenue, and better-than-expected FX.",
+   "ev_start": 16790,
+   "ev_end": 17021,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 13"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Third quarter net revenue was up 13% in constant dollars.",
+   "ev_start": 17022,
+   "ev_end": 17079,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "stronger",
+     "up 11"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "EPS was up 11% year over year in both nominal and constant dollars, better than expected primarily due to stronger-than-expected net revenue growth.",
+   "ev_start": 17080,
+   "ev_end": 17228,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "grew"
+    ],
+    "performance": [
+     "volume",
+     "grew",
+     "growth",
+     "accelerating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "U.S. payment volume grew 10% year over year, up about two points from Q2, a growth rate not seen since fiscal '19 excluding the COVID recovery, with both card-present and card-not-present growth accelerating strongly.",
+   "ev_start": 17256,
+   "ev_end": 17473,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.99,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "U.S. payment volume growth was the result of several factors including higher tax refunds, the cost of fuel, retail including the timing of promotional shopping events, strong Visa Direct growth, and FIFA-related spend.",
+   "ev_start": 17474,
+   "ev_end": 17693,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated",
+     "grow"
+    ],
+    "performance": [
+     "accelerated",
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Debit accelerated by more than two points from Q2 to grow 9% year over year.",
+   "ev_start": 17761,
+   "ev_end": 17837,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "improvement",
+     "grow"
+    ],
+    "performance": [
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Growth across consumer spend bands saw incremental improvement from Q2, with the highest spend band continuing to grow the fastest.",
+   "ev_start": 17838,
+   "ev_end": 17969,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 10"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "Third quarter total international payments volume was up 10% year over year in constant dollars, generally consistent with the growth we have seen over the past several quarters.",
+   "ev_start": 18126,
+   "ev_end": 18304,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S058",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "Now to cross border volume which I will speak to in constant dollars and excluding intra-Europe transactions.",
+   "ev_start": 18305,
+   "ev_end": 18414,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "volume",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "Q3 total cross border volume grew 12% year over year, up more than a point from Q2.",
+   "ev_start": 18415,
+   "ev_end": 18498,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 16"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Cross border e-commerce volume was up 16%, three points above Q2, primarily driven by retail including the timing of promotional shopping events.",
+   "ev_start": 18499,
+   "ev_end": 18644,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 10"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Travel-related cross border volume was up 10%, consistent with Q2.",
+   "ev_start": 18645,
+   "ev_end": 18711,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "A few highlights: total card-present spend in the U.S. accelerated with card-present transactions up as much as 20% in select host cities on match days.",
+   "ev_start": 19215,
+   "ev_end": 19367,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "We saw acceleration in tap-to-pay, with weekly tapped transit transactions reaching a peak of nearly 40% year over year growth in U.S. host cities.",
+   "ev_start": 19368,
+   "ev_end": 19515,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "By spend categories in host cities, entertainment and restaurants saw the highest growth in cross border spend.",
+   "ev_start": 19832,
+   "ev_end": 19943,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S065",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "With that as a backdrop, I will move to discuss our financial results, starting with the revenue components.",
+   "ev_start": 20395,
+   "ev_end": 20503,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "service"
+   ],
+   "home": "service",
+   "fact_ids": [
+    "V_2026_3-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Service revenue grew 14% year over year versus 9% growth in Q2.",
+   "ev_start": 20504,
+   "ev_end": 20567,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_processing",
+    "value_added_services"
+   ],
+   "home": "data_processing",
+   "fact_ids": [
+    "V_2026_3-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Data processing revenue grew 17%, above the 10% growth in processed transactions, primarily due to pricing, strong value-added services performance, and higher cross border transaction mix.",
+   "ev_start": 20655,
+   "ev_end": 20844,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international_transaction"
+   ],
+   "home": "international_transaction",
+   "fact_ids": [
+    "V_2026_3-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 6"
+    ],
+    "performance": [
+     "revenue",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "International transaction revenue was up 6%, below the 12% increase in constant-dollar cross border volume growth excluding intra-Europe, primarily due to lapping the currency volatility peak last year and mix.",
+   "ev_start": 20845,
+   "ev_end": 21055,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [
+    "V_2026_3-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Other revenue grew 45%, primarily driven by growth in advisory and other value-added services, especially marketing services revenue, as well as pricing.",
+   "ev_start": 21056,
+   "ev_end": 21209,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Client incentives grew 18%, a step up of four points from Q2, primarily due to lapping low incentive growth last year and strong client performance.",
+   "ev_start": 21210,
+   "ev_end": 21358,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "Consumer payments revenue was driven by strong payments volume, cross border volume, and processed transaction growth.",
+   "ev_start": 21392,
+   "ev_end": 21510,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_and_money_movement_solutions"
+   ],
+   "home": "commercial_and_money_movement_solutions",
+   "fact_ids": [
+    "V_2026_3-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "Commercial and money movement solutions revenue grew 17% year over year in constant dollars.",
+   "ev_start": 21511,
+   "ev_end": 21603,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "grew",
+     "up 13"
+    ],
+    "performance": [
+     "volume",
+     "grew",
+     "accelerating",
+     "acceleration",
+     "growth"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "Commercial payment volume grew faster than Visa's overall payments volume, up 13% in constant dollars and accelerating two points from Q2 driven by a point of acceleration from both U.S. and international volume growth.",
+   "ev_start": 21767,
+   "ev_end": 21986,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "Visa Direct transactions grew 21% year over year with continued strength in both domestic and cross border.",
+   "ev_start": 22262,
+   "ev_end": 22369,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S075",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [
+    "V_2026_3-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grew"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.31,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Value-added services revenue grew 34% year over year in constant dollars to $3.8 billion, primarily due to three factors: 1) underlying business drivers which included strength in marketing services engagements related to FIFA, 2) pricing, and 3) the acquisition of Pismo.",
+   "ev_start": 22370,
+   "ev_end": 22642,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "While we had strong growth in all of our portfolios, value-added services revenue was higher than expected, primarily due to greater utilization of our network products in issuing solutions and acceptance solutions.",
+   "ev_start": 22643,
+   "ev_end": 22858,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "For our advisory and other portfolio, in addition to the strong marketing services revenue growth, we have also increased the velocity of our consulting projects through the help of AI.",
+   "ev_start": 23384,
+   "ev_end": 23569,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect",
+     "future"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "Advisory and other continues to grow the fastest of the VAST portfolios and we expect it to continue to do so well into the future, driven by a focus to better serve our clients.",
+   "ev_start": 23760,
+   "ev_end": 23938,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "In our GAAP results, we had $563 million in severance costs related to changes to our workforce including those that Ryan discussed as we continue to focus on driving efficiency across the company and reinvest those savings in our highest-potential growth opportunities.",
+   "ev_start": 24348,
+   "ev_end": 24618,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S080",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Non-operating expense was $35 million better than our expectations, primarily due to the investment income from the deferred compensation mark-to-market impact I just mentioned.",
+   "ev_start": 24619,
+   "ev_end": 24796,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S081",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-016"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "In Q3, we bought back $4.9 billion in stock and distributed $1.3 billion in dividends to our shareholders.",
+   "ev_start": 25187,
+   "ev_end": 25293,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S082",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 66,
+   "sentence": "In May, we settled our previously announced exchange offer for Class B-1 and Class B-2 common stock.",
+   "ev_start": 25294,
+   "ev_end": 25394,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "buyback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "We also funded the litigation escrow account with $250 million which has the same effect as a stock buyback.",
+   "ev_start": 25395,
+   "ev_end": 25503,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S084",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "buyback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "At the end of June, we had $28.4 billion remaining in our buyback authorization.",
+   "ev_start": 25504,
+   "ev_end": 25584,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 18",
+     "up 12"
+    ],
+    "performance": [
+     "volume",
+     "grew"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "For cross border volume, excluding transactions within Europe, total volume grew 14% year over year, with e-commerce up 18% and travel up 12%.",
+   "ev_start": 26000,
+   "ev_end": 26142,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Processed transactions grew 9% year over year.",
+   "ev_start": 26143,
+   "ev_end": 26189,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S087",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 74,
+   "sentence": "As we move to our guidance, let me remind you that it is on an adjusted growth basis defined as non-GAAP results in constant dollars and excluding acquisition impacts.",
+   "ev_start": 26190,
+   "ev_end": 26357,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S088",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 75,
+   "sentence": "You can review these disclosures in our earnings presentation for more detail.",
+   "ev_start": 26358,
+   "ev_end": 26436,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S089",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-017"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low double digits",
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "We expect Q4 net revenue growth in the high end of low double digits, similar to Q3 on an adjusted basis.",
+   "ev_start": 26496,
+   "ev_end": 26601,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S090",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "by the end of"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 80,
+   "sentence": "On incentives, we expect to have renewed about 20% of our payments volume by the end of the fiscal year, and when we combine that with some new business we have won, this puts Q4 incentive growth slightly above Q3 on a nominal basis.",
+   "ev_start": 26917,
+   "ev_end": 27150,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S091",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-018"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "We expect Q4 operating expense growth in the low double digits, which includes some Q3 expenses shifting to Q4.",
+   "ev_start": 27151,
+   "ev_end": 27262,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S092",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-021"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     15.0
+    ],
+    "position": "low_end",
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 83,
+   "sentence": "As a result, we expect fourth quarter EPS growth to be in the low end of mid-teens.",
+   "ev_start": 27390,
+   "ev_end": 27473,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S093",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-022"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low teens",
+    "band": [
+     10.0,
+     11.5
+    ],
+    "position": "low_end",
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "for the full year",
+     "expect",
+     "full-year"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 85,
+   "sentence": "Pulling it all together for the full year, we expect full-year net revenue growth to now be in the low end of low teens.",
+   "ev_start": 27682,
+   "ev_end": 27802,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-023"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low teens",
+    "band": [
+     10.0,
+     11.5
+    ],
+    "position": "low_end",
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect",
+     "full-year"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 86,
+   "sentence": "We expect full-year operating expense growth in the low end of low teens.",
+   "ev_start": 27803,
+   "ev_end": 27876,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S095",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "V_2026_3-026"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     15.0
+    ],
+    "position": "low_end",
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect",
+     "full-year"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 89,
+   "sentence": "As a result, we expect full-year EPS growth to now be in the low end of mid-teens.",
+   "ev_start": 28028,
+   "ev_end": 28110,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_and_money_movement_solutions",
+    "value_added_services"
+   ],
+   "home": "commercial_and_money_movement_solutions",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 93,
+   "sentence": "We have conviction in our strategy and our ability to continue to deliver strong results across consumer payments, commercial and money movement solutions, and value-added services.",
+   "ev_start": 28653,
+   "ev_end": 28834,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S097",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 95,
+   "sentence": "As the leading hyperscaler of payments globally, we are excited about the opportunities ahead, the investment decisions we are making, and our ability to drive Visa's future revenue growth.",
+   "ev_start": 28910,
+   "ev_end": 29099,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S098",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "confident": [
+     "enthusiasm"
+    ]
+   },
+   "score": 1.39,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "So while there is good enthusiasm around FIFA, and that was great to see, the overall underlying health of travel and e-commerce continues to be healthy, and that is something that we anticipate will continue into Q4.",
+   "ev_start": 30791,
+   "ev_end": 31008,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S099",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 1.92,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 3,
+   "sentence": "When I first described the Pismo acquisition to investors, I explained that it was based on, for the last several years, hearing from our clients around the world that there were two important priorities: one is modernizing their stacks, moving to the cloud, moving to API-based services, and the second was helping clients move more quickly into more geographies - a cloud-based issuer processing stack would help them do that.",
+   "ev_start": 33665,
+   "ev_end": 34093,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S100",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 4,
+   "sentence": "As you fast forward to today, we are seeing product-market fit broadly in those areas, and we believe over time that will help us deepen our relationships with clients, generate more revenue, and strengthen our partnership with our clients by helping them meet these needs.",
+   "ev_start": 34094,
+   "ev_end": 34367,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S101",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "integrated",
+     "innovation"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 12,
+   "sentence": "It provides processing for all payment products whether debit, credit, commercial, DDAs, current accounts, and increasingly in the U.S. smaller banks and midsized banks as well as fintechs are looking for an integrated debit and credit processing solution that will help them simplify their operations and accelerate product innovation.",
+   "ev_start": 34843,
+   "ev_end": 35179,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S102",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched",
+     "new platform",
+     "integrated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 16,
+   "sentence": "So we launched the new platform in the U.S. which combines Visa DPS and Pismo capabilities into an integrated issuer processing solution that we can put to work.",
+   "ev_start": 35507,
+   "ev_end": 35668,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S103",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying",
+     "announced"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 18,
+   "sentence": "We are also, to your question, deploying Pismo in the U.S. to help banks of all sizes migrate their core bank platforms to the cloud - and as you referenced, we announced Wells Fargo in that space.",
+   "ev_start": 35748,
+   "ev_end": 35945,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S104",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 19,
+   "sentence": "Outside the U.S., our single go-to-market platform is Pismo, and we have entered 19 new markets since the acquisition.",
+   "ev_start": 35946,
+   "ev_end": 36064,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S105",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.22,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 2,
+   "sentence": "We are obviously very pleased with how the year has played out across value-added services and CMS.",
+   "ev_start": 37320,
+   "ev_end": 37419,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "value_added_services"
+   ],
+   "home": "value_added_services",
+   "fact_ids": [
+    "V_2026_3-027"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "growing"
+    ],
+    "performance": [
+     "grew",
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 3,
+   "sentence": "Value-added services grew very strongly this year - almost a third of our revenue growing at 34% - which is an awesome result.",
+   "ev_start": 37420,
+   "ev_end": 37546,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 5,
+   "sentence": "That is what we are focused on: running the company, executing our strategy, driving product innovation, delivering for our clients, and taking all the steps I talked about to continue to run the company better and position us for sustained long-term growth.",
+   "ev_start": 37646,
+   "ev_end": 37904,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ],
+    "confident": [
+     "enthusiasm"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 8,
+   "sentence": "The contributors to the acceleration we saw in Q3 include higher tax refunds, the cost of fuel, retail which included the timing of promotional shopping events, strengthened Visa Direct, and of course the enthusiasm around FIFA.",
+   "ev_start": 38901,
+   "ev_end": 39129,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S109",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 2,
+   "sentence": "Our role is to help clients connect to the stablecoin ecosystem securely and at scale regardless of which stablecoin, which network, or which infrastructure ultimately gains adoption.",
+   "ev_start": 39922,
+   "ev_end": 40105,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S110",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 4,
+   "sentence": "While we talk about stablecoins often, stablecoins have yet to scale beyond a few use cases like stablecoin-linked cards that we have issued in various places around the world.",
+   "ev_start": 40243,
+   "ev_end": 40419,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S111",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 5,
+   "sentence": "We are proud to be a partner of OpenUSD.",
+   "ev_start": 40420,
+   "ev_end": 40460,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 2,
+   "sentence": "The key point is all four portfolios are growing faster over the past 12 months compared to the growth rates that we shared at Investor Day.",
+   "ev_start": 41727,
+   "ev_end": 41867,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S113",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ],
+    "confident": [
+     "enthusiasm"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 3,
+   "sentence": "Marketing services is having a great year with enthusiasm around FIFA, but the other three portfolios - issuing solutions, acceptance solutions, and risk and security - are also collectively growing north of 20%.",
+   "ev_start": 41868,
+   "ev_end": 42080,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S114",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 9,
+   "sentence": "We manage those investments to deliver attractive returns and we track the economics closely.",
+   "ev_start": 42508,
+   "ev_end": 42601,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S115",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 1,
+   "sentence": "The investments in front of us are enormous.",
+   "ev_start": 43034,
+   "ev_end": 43078,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S116",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 2,
+   "sentence": "We have shown over the last couple of years that we can drive efficiencies, take the savings, and invest those savings against the strategic levers we laid out at Investor Day to deliver accelerated performance.",
+   "ev_start": 43079,
+   "ev_end": 43290,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S117",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 3,
+   "sentence": "We continue to feel good about the opportunities ahead.",
+   "ev_start": 43291,
+   "ev_end": 43346,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S118",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning",
+     "expanding"
+    ],
+    "competition": [
+     "differentiated",
+     "winning in"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "You look at consumer payments opportunities - expanding acceptance in cash-rich markets around the world, strengthening differentiated affluent value propositions, winning in cross border and e-commerce - and then you add VAS, risk and security, marketing services, scaling Pismo and feature space in CMS, unified B2B payments and acceptance, embedded finance, Visa Direct, stablecoins, agentic commerce, brand and advertising in emerging markets.",
+   "ev_start": 43347,
+   "ev_end": 43794,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S119",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 5,
+   "sentence": "These are continual investments.",
+   "ev_start": 43795,
+   "ev_end": 43827,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S120",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "record"
+    ],
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 6,
+   "sentence": "We have identified return-on-investment expectations for redirecting those savings and the track record is what it is - we feel really good about it.",
+   "ev_start": 43828,
+   "ev_end": 43977,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S121",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "improvements"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 7,
+   "sentence": "The timing is continual; we continue to drive improvements and invest in areas with the highest potential.",
+   "ev_start": 43978,
+   "ev_end": 44084,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 1,
+   "sentence": "We have had strong revenue growth every quarter this year.",
+   "ev_start": 45033,
+   "ev_end": 45091,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "Underlying that is strong drivers: strong VAS growth, continued CMS strength, and resilient consumer payments.",
+   "ev_start": 45181,
+   "ev_end": 45291,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S124",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 5,
+   "sentence": "Throughout this year we've taken the opportunity from a position of strength to lean into our investments to fuel future growth: increased velocity of product innovation, deeper client engagement, and securing our industry leadership position.",
+   "ev_start": 45541,
+   "ev_end": 45784,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect",
+     "well positioned"
+    ],
+    "product": [
+     "launching"
+    ],
+    "confident": [
+     "feel great about"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 6,
+   "sentence": "We expect a strong Q4, feel great about that as a launching point, and believe we are well positioned for FY27 as well.",
+   "ev_start": 45785,
+   "ev_end": 45904,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S126",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 0,
+   "sentence": "It is tough to say what inning we are in, but I feel really good about the progress we've made in the post-generative-AI world.",
+   "ev_start": 46392,
+   "ev_end": 46519,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S127",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 2,
+   "sentence": "Today we are seeing fantastic results: the metrics I mentioned in my prepared remarks show very strong deployment across the company, especially in product and engineering.",
+   "ev_start": 46582,
+   "ev_end": 46754,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 3,
+   "sentence": "We are getting good adoption in other parts of the company and still have enormous opportunity ahead of us.",
+   "ev_start": 46755,
+   "ev_end": 46862,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S129",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 4,
+   "sentence": "We will continue to lean into these tools to drive efficiency and effectiveness, ship products better and faster, and ultimately better serve our clients in the ecosystem.",
+   "ev_start": 46863,
+   "ev_end": 47034,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S130",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.99,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 1,
+   "sentence": "Issuers - whether fintechs or banks - need innovation, reliability, resilience, and access to products like Visa Flex, Visa Direct, affluent propositions, and sophisticated virtual card propositions.",
+   "ev_start": 47432,
+   "ev_end": 47631,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S131",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 2,
+   "sentence": "Those are areas we've invested in for years and deployed globally, and it's hard for many domestic schemes to keep up.",
+   "ev_start": 47632,
+   "ev_end": 47750,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S132",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 4,
+   "sentence": "We feel good about our track record and our ability to win.",
+   "ev_start": 47813,
+   "ev_end": 47872,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S133",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 5,
+   "sentence": "I mentioned approximately 30 million cards we expect to convert from wins over the coming years in Europe and we are excited about that.",
+   "ev_start": 47873,
+   "ev_end": 48009,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S134",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 1,
+   "sentence": "We did see cross border e-commerce at 16% and it accelerated through the quarter, hitting a higher level in June.",
+   "ev_start": 48477,
+   "ev_end": 48590,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Suh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 2,
+   "sentence": "The July number you point out is a moderation from the June peak and the acceleration intra-quarter was mainly driven by retail including the timing of promotional shopping events.",
+   "ev_start": 48591,
+   "ev_end": 48771,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S136",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 3,
+   "sentence": "We are in the very early stages of a major adoption curve in payments.",
+   "ev_start": 49949,
+   "ev_end": 50019,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S137",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcing",
+     "shipping",
+     "new products",
+     "adoption"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 4,
+   "sentence": "It's instructive to look at prior cycles - e-commerce, mobile commerce, tokenization, tap-to-pay - which followed a similar pattern: early period establishing standards, announcing and shipping new products, then early adoption and ultimately broad scale.",
+   "ev_start": 50020,
+   "ev_end": 50275,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerator"
+    ],
+    "performance": [
+     "accelerator"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 8,
+   "sentence": "The ultimate accelerator will be trust - that the payment is secure, that the agent is authorized, that the transaction reflects the consumer's intent, and that protections exist if something goes wrong.",
+   "ev_start": 50532,
+   "ev_end": 50735,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S139",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 5.1,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 9,
+   "sentence": "The products we've announced are intended to address that trust and ensure users have confidence using Visa credentials for agentic commerce transactions.",
+   "ev_start": 50736,
+   "ev_end": 50890,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "V_2026_3-S140",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "hedge": [
+     "difficult to predict"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ryan McInerney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 10,
+   "sentence": "The timing is difficult to predict but our view is simple: agentic commerce is a when, not an if.",
+   "ev_start": 50891,
+   "ev_end": 50988,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "V_2026_3-S022",
+  "V_2026_3-S023",
+  "V_2026_3-S036",
+  "V_2026_3-S038",
+  "V_2026_3-S066",
+  "V_2026_3-S067",
+  "V_2026_3-S068",
+  "V_2026_3-S006",
+  "V_2026_3-S072",
+  "V_2026_3-S096",
+  "V_2026_3-S034",
+  "V_2026_3-S044",
+  "V_2026_3-S045",
+  "V_2026_3-S069",
+  "V_2026_3-S075",
+  "V_2026_3-S106",
+  "V_2026_3-S001",
+  "V_2026_3-S013",
+  "V_2026_3-S024",
+  "V_2026_3-S032",
+  "V_2026_3-S042",
+  "V_2026_3-S046",
+  "V_2026_3-S080",
+  "V_2026_3-S081",
+  "V_2026_3-S097",
+  "V_2026_3-S108",
+  "V_2026_3-S113",
+  "V_2026_3-S118",
+  "V_2026_3-S125",
+  "V_2026_3-S139",
+  "V_2026_3-S140"
+ ],
+ "surfaced_signal_ids": [
+  "V_2026_3-S022",
+  "V_2026_3-S023",
+  "V_2026_3-S036",
+  "V_2026_3-S038",
+  "V_2026_3-S066",
+  "V_2026_3-S067",
+  "V_2026_3-S068",
+  "V_2026_3-S006",
+  "V_2026_3-S072",
+  "V_2026_3-S096",
+  "V_2026_3-S034",
+  "V_2026_3-S044",
+  "V_2026_3-S045",
+  "V_2026_3-S069",
+  "V_2026_3-S075",
+  "V_2026_3-S106",
+  "V_2026_3-S001",
+  "V_2026_3-S013",
+  "V_2026_3-S024",
+  "V_2026_3-S032",
+  "V_2026_3-S042",
+  "V_2026_3-S046",
+  "V_2026_3-S080",
+  "V_2026_3-S081",
+  "V_2026_3-S097",
+  "V_2026_3-S108",
+  "V_2026_3-S113",
+  "V_2026_3-S118",
+  "V_2026_3-S125",
+  "V_2026_3-S139",
+  "V_2026_3-S140",
+  "V_2026_3-S043"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "service",
+   "data_processing",
+   "international_transaction",
+   "commercial_and_money_movement_solutions",
+   "value_added_services"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {
+   "other": 1
+  },
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "warn",
+   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'other': 1}"
+  }
+ ],
+ "stats": {
+  "signals": 140,
+  "signals_usable": 140,
+  "selected": 31,
+  "by_topic": {
+   "momentum": 62,
+   "product": 51,
+   "strategy": 23,
+   "competition": 1,
+   "pressure": 1
+  },
+  "by_horizon": {
+   "current": 116,
+   "forward": 24
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 5,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

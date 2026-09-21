@@ -26,6 +26,155 @@
    "detail": "",
    "stem": "HESM_2026Q2",
    "processed": "2026-09-21T14:56:09"
+  },
+  "JPM": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "JPM_2026Q2",
+   "processed": "2026-09-21T15:34:33"
+  },
+  "V": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q3",
+   "status": "ok",
+   "detail": "",
+   "stem": "V_2026Q3",
+   "processed": "2026-09-21T15:34:35"
+  },
+  "UNH": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "UNH_2026Q2",
+   "processed": "2026-09-21T15:34:37"
+  },
+  "LLY": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "LLY_2026Q2",
+   "processed": "2026-09-21T15:34:39"
+  },
+  "PFE": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "PFE_2026Q2",
+   "processed": "2026-09-21T15:34:41"
+  },
+  "WMT": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2027Q2",
+   "status": "no_transcript",
+   "detail": "No transcript returned for WMT 2027Q2."
+  },
+  "HD": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "no_transcript",
+   "detail": "No transcript returned for HD 2026Q2."
+  },
+  "COST": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q3",
+   "status": "ok",
+   "detail": "",
+   "stem": "COST_2026Q3",
+   "processed": "2026-09-21T15:34:47"
+  },
+  "PG": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q4",
+   "status": "ok",
+   "detail": "",
+   "stem": "PG_2026Q4",
+   "processed": "2026-09-21T15:34:49"
+  },
+  "MCD": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "MCD_2026Q2",
+   "processed": "2026-09-21T15:34:51"
+  },
+  "NKE": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q4",
+   "status": "ok",
+   "detail": "",
+   "stem": "NKE_2026Q4",
+   "processed": "2026-09-21T15:34:54"
+  },
+  "XOM": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "XOM_2026Q2",
+   "processed": "2026-09-21T15:34:56"
+  },
+  "CAT": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "CAT_2026Q2",
+   "processed": "2026-09-21T15:34:58"
+  },
+  "GE": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "GE_2026Q2",
+   "processed": "2026-09-21T15:35:01"
+  },
+  "DAL": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "DAL_2026Q2",
+   "processed": "2026-09-21T15:35:03"
+  },
+  "NEE": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "NEE_2026Q2",
+   "processed": "2026-09-21T15:35:05"
+  },
+  "PLD": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "PLD_2026Q2",
+   "processed": "2026-09-21T15:35:07"
   }
  }
 }

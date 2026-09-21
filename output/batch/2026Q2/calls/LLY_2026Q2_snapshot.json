@@ -1,0 +1,4894 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "LLY",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "LLY",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 7,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Mike Czapar",
+    "role": "ir"
+   },
+   {
+    "name": "David Ricks",
+    "role": "management"
+   },
+   {
+    "name": "Lucas Montarce",
+    "role": "management"
+   },
+   {
+    "name": "Daniel Skovronsky",
+    "role": "management"
+   },
+   {
+    "name": "Seamus Fernandez",
+    "role": "analyst"
+   },
+   {
+    "name": "Ilya Yuffa",
+    "role": "management"
+   },
+   {
+    "name": "Patrik Jonsson",
+    "role": "management"
+   },
+   {
+    "name": "Asad Haider",
+    "role": "analyst"
+   },
+   {
+    "name": "Courtney Breen",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Schott",
+    "role": "analyst"
+   },
+   {
+    "name": "Geoffrey Meacham",
+    "role": "analyst"
+   },
+   {
+    "name": "Kenneth Custer",
+    "role": "management"
+   },
+   {
+    "name": "Mohit Bansal",
+    "role": "analyst"
+   },
+   {
+    "name": "Jacob Van Naarden",
+    "role": "management"
+   },
+   {
+    "name": "Akash Tewari",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Yee",
+    "role": "analyst"
+   },
+   {
+    "name": "Terence Flynn",
+    "role": "analyst"
+   },
+   {
+    "name": "Umer Raffat",
+    "role": "analyst"
+   },
+   {
+    "name": "Jason Gerberry",
+    "role": "analyst"
+   },
+   {
+    "name": "Louise Chen",
+    "role": "analyst"
+   },
+   {
+    "name": "David Risinger",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Q2 2026",
+   "detail": "the call says 'Q2 2026', matching 2026Q2"
+  },
+  "reported_period_label": "q2",
+  "source_file": "LLY_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $3B (+48% yoy), q2",
+   "fact_ids": [
+    "LLY_2026_2-014",
+    "LLY_2026_2-001"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $8.38/sh",
+   "fact_ids": [
+    "LLY_2026_2-005"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.67, qa +0.47",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 3000000000.0,
+    "fact_id": "LLY_2026_2-014"
+   },
+   "growth": {
+    "value": 48.0,
+    "period": "q2",
+    "fact_id": "LLY_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "u_s",
+   "name": "U.S.",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 33.0,
+    "period": "q2",
+    "fact_id": "LLY_2026_2-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "europe",
+   "name": "Europe",
+   "depth": 0,
+   "revenue": {
+    "value": 250000000.0,
+    "fact_id": "LLY_2026_2-009"
+   },
+   "growth": {
+    "value": 55.0,
+    "period": "q2",
+    "fact_id": "LLY_2026_2-008",
+    "basis": "yoy",
+    "currency_basis": "constant",
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "japan",
+   "name": "Japan",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 30.0,
+    "period": "q2",
+    "fact_id": "LLY_2026_2-010",
+    "basis": "yoy",
+    "currency_basis": "constant",
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "china",
+   "name": "China",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "full_year",
+   "name": "Full-Year",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 3
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "LLY_2026_2-001",
+   "LLY_2026_2-004",
+   "LLY_2026_2-014",
+   "LLY_2026_2-005",
+   "LLY_2026_2-006",
+   "LLY_2026_2-002",
+   "LLY_2026_2-003",
+   "LLY_2026_2-016"
+  ],
+  "signal_ids": [
+   "LLY_2026_2-S004",
+   "LLY_2026_2-S005",
+   "LLY_2026_2-S008",
+   "LLY_2026_2-S009",
+   "LLY_2026_2-S010",
+   "LLY_2026_2-S013",
+   "LLY_2026_2-S036",
+   "LLY_2026_2-S048",
+   "LLY_2026_2-S049",
+   "LLY_2026_2-S052",
+   "LLY_2026_2-S056",
+   "LLY_2026_2-S058",
+   "LLY_2026_2-S059",
+   "LLY_2026_2-S068",
+   "LLY_2026_2-S070",
+   "LLY_2026_2-S080",
+   "LLY_2026_2-S108"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "u_s",
+   "name": "U.S.",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "LLY_2026_2-007"
+   ],
+   "signal_ids": [
+    "LLY_2026_2-S023"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "europe",
+   "name": "Europe",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "LLY_2026_2-008",
+    "LLY_2026_2-009"
+   ],
+   "signal_ids": [
+    "LLY_2026_2-S026"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "japan",
+   "name": "Japan",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "LLY_2026_2-010"
+   ],
+   "signal_ids": [
+    "LLY_2026_2-S027"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "china",
+   "name": "China",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "LLY_2026_2-S035",
+    "LLY_2026_2-S041",
+    "LLY_2026_2-S042",
+    "LLY_2026_2-S043"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "full_year",
+   "name": "Full-Year",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "LLY_2026_2-015"
+   ],
+   "signal_ids": [
+    "LLY_2026_2-S003",
+    "LLY_2026_2-S050"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.67
+   },
+   "qa": {
+    "confident": 14,
+    "cautious": 5,
+    "mixed": 1,
+    "withheld": 0,
+    "index": 0.47
+   }
+  },
+  "speakers": {
+   "Lucas Montarce": {
+    "confident": 3
+   },
+   "Daniel Skovronsky": {
+    "cautious": 1,
+    "confident": 6,
+    "mixed": 1
+   },
+   "David Ricks": {
+    "confident": 3
+   },
+   "Patrik Jonsson": {
+    "confident": 2,
+    "cautious": 2
+   },
+   "Ilya Yuffa": {
+    "confident": 1,
+    "cautious": 2
+   },
+   "Kenneth Custer": {
+    "cautious": 1,
+    "confident": 1
+   },
+   "Jacob Van Naarden": {
+    "confident": 3
+   }
+  },
+  "notable_confident": [
+   "LLY_2026_2-S053",
+   "LLY_2026_2-S112",
+   "LLY_2026_2-S096",
+   "LLY_2026_2-S094"
+  ],
+  "notable_cautious": [
+   "LLY_2026_2-S056",
+   "LLY_2026_2-S118",
+   "LLY_2026_2-S090",
+   "LLY_2026_2-S092",
+   "LLY_2026_2-S091"
+  ],
+  "withheld": [],
+  "revisions": [
+   "LLY_2026_2-S050",
+   "LLY_2026_2-S051",
+   "LLY_2026_2-S052"
+  ]
+ },
+ "signals": [
+  {
+   "id": "LLY_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "Q2 continued Lilly's strong momentum.",
+   "ev_start": 1643,
+   "ev_end": 1680,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "We delivered robust revenue growth across all key products and major geographies.",
+   "ev_start": 1681,
+   "ev_end": 1762,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S003",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "full_year"
+   ],
+   "home": "full_year",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full-year",
+     "guidance"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "We raised our full-year annual guidance.",
+   "ev_start": 1763,
+   "ev_end": 1803,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Revenue grew 48% compared to Q2 of 2025, and our Key Products increased by almost $6.8 billion.",
+   "ev_start": 2030,
+   "ev_end": 2125,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "expand"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Within Key Products, our Oncology, Immunology, and Neuroscience medicines collectively grew 121% compared to the same quarter last year, as we continue to expand our presence across the portfolio.",
+   "ev_start": 2126,
+   "ev_end": 2322,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "The number of people taking incretins grew, and Lilly's portfolio of medicines extended its leadership position.",
+   "ev_start": 2323,
+   "ev_end": 2435,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S007",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "product": [
+     "launch"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Foundayo launch continued to build momentum.",
+   "ev_start": 2445,
+   "ev_end": 2489,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S008",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "later this year"
+    ],
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "We completed the U.S. submission of Foundayo for type 2 diabetes and expect regulatory action later this year.",
+   "ev_start": 2658,
+   "ev_end": 2768,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We launched Foundayo for obesity in the UAE, and we recently received approval in Saudi Arabia for obesity and in Mexico for obesity and type 2 diabetes.",
+   "ev_start": 2769,
+   "ev_end": 2922,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S010",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "later this year"
+    ],
+    "product": [
+     "review"
+    ],
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Foundayo is under regulatory review in over 40 additional countries, and we look forward to additional approvals later this year.",
+   "ev_start": 3049,
+   "ev_end": 3178,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S011",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "We also achieved several key pipeline and regulatory milestones since our last call, including the U.S.",
+   "ev_start": 3179,
+   "ev_end": 3282,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S012",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expand"
+    ],
+    "product": [
+     "announcing"
+    ],
+    "strategy": [
+     "acquire",
+     "acquired"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "We added to our strong internal pipeline through business development, announcing agreements to acquire multiple companies to expand our presence in emerging therapeutic areas, including: Curevo, LimmaTech Biologics, and Vaccine Company, building a platform of potential new medicines to prevent infectious disease and their downstream complications; and we acquired AtaiBeckley, a company developing novel treatments for treatment-resistant depression and other mental health conditions.",
+   "ev_start": 3619,
+   "ev_end": 4107,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-002",
+    "LLY_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "We distributed $1.5 billion in dividends in the second quarter and executed $1.6 billion of share repurchases.",
+   "ev_start": 4349,
+   "ev_end": 4459,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "Lastly, in partnership with the U.S. government, we reached an important milestone to improve Medicare access to anti-obesity medicines.",
+   "ev_start": 4460,
+   "ev_end": 4596,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "As shown on Slide 6, the Medicare GLP-1 Bridge program launched on July 1, granting 20 million eligible Americans insurance coverage for GLP-1s for obesity at the low out-of-pocket price of $50 per month.",
+   "ev_start": 4597,
+   "ev_end": 4801,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S016",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "While still early, feedback from patients and physicians has been quite positive.",
+   "ev_start": 4905,
+   "ev_end": 4986,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S017",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "later this year"
+    ],
+    "strategy": [
+     "commitment"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "We are now developing a new commitment to address the growing burden of diabetes and obesity in resource-limited settings worldwide and will share more details about this plan later this year.",
+   "ev_start": 5289,
+   "ev_end": 5481,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "momentum"
+    ]
+   },
+   "score": 4.24,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Revenue grew 48% compared to Q2 2025, driven by Zepbound and Mounjaro, with strong momentum across all therapeutic areas and geographies.",
+   "ev_start": 5654,
+   "ev_end": 5791,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S019",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launches"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Marketing, selling, and administrative expenses increased 25%, as we invested in promotional activities to support current and planned product launches.",
+   "ev_start": 6025,
+   "ev_end": 6177,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S020",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d",
+     "investments"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "R&D expenses increased 14%, driven by continued investments in our pipeline, including more than 40 active Phase 3 programs.",
+   "ev_start": 6178,
+   "ev_end": 6302,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S021",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Non-GAAP earnings per share were $8.38, including acquired IPR&D charges of $3.03.",
+   "ev_start": 6421,
+   "ev_end": 6503,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S022",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "This compares to earnings per share of $6.31 in Q2 2025, inclusive of $0.14 of acquired IPR&D charges.",
+   "ev_start": 6504,
+   "ev_end": 6606,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "u_s"
+   ],
+   "home": "u_s",
+   "fact_ids": [
+    "LLY_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 33"
+    ],
+    "performance": [
+     "revenue",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "U.S. revenue increased 33% in Q2, primarily driven by volume growth from Zepbound and Mounjaro, as well as contributions from our Immunology, Oncology, and Neuroscience portfolio.",
+   "ev_start": 6688,
+   "ev_end": 6867,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.24,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "U.S. price declined by 3%, driven by Zepbound and Mounjaro.",
+   "ev_start": 6868,
+   "ev_end": 6927,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Excluding these adjustments, U.S. price declined by 9%.",
+   "ev_start": 7010,
+   "ev_end": 7065,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "europe"
+   ],
+   "home": "europe",
+   "fact_ids": [
+    "LLY_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Europe revenue grew 55% in constant currency, driven by sustained strong volume growth of Mounjaro.",
+   "ev_start": 7066,
+   "ev_end": 7165,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "japan"
+   ],
+   "home": "japan",
+   "fact_ids": [
+    "LLY_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "In Japan, revenue grew 30% in constant currency, driven by Mounjaro and Kisunla.",
+   "ev_start": 7245,
+   "ev_end": 7325,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "china"
+   ],
+   "home": "china",
+   "fact_ids": [
+    "LLY_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.18,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "In China, revenue grew by 93% in constant currency, driven by the uptake of Mounjaro.",
+   "ev_start": 7326,
+   "ev_end": 7411,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "And in the rest of world, revenue grew 136% in constant currency, driven by Mounjaro, primarily in Latin America and Asia.",
+   "ev_start": 7412,
+   "ev_end": 7534,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Within Immunology, Ebglyss worldwide sales more than doubled compared to Q2 2025.",
+   "ev_start": 7608,
+   "ev_end": 7689,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S031",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "gain share"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "In the U.S., Ebglyss continued to gain share of new prescriptions, increasing by approximately 4 percentage points in the specialty dermatology market since last year.",
+   "ev_start": 7690,
+   "ev_end": 7857,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 56"
+    ],
+    "performance": [
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "In Oncology, Jaypirca had another strong quarter of growth, and worldwide sales increased 56% compared to Q2 2025.",
+   "ev_start": 7858,
+   "ev_end": 7972,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expanding"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "In Neuroscience, Kisunla posted strong revenue growth, expanding its leadership position in the U.S. anti-amyloid targeted therapy market.",
+   "ev_start": 8492,
+   "ev_end": 8630,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "doubled"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Diagnostic testing momentum also continues to build, and the number of P-tau217 blood tests more than doubled compared to Q2 2025.",
+   "ev_start": 8631,
+   "ev_end": 8761,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "china",
+    "japan"
+   ],
+   "home": "china",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Outside the U.S., solid performance in China and Japan contributed to growth as well.",
+   "ev_start": 8863,
+   "ev_end": 8948,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.24,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Finally, in Cardiometabolic Health, Mounjaro and Zepbound had another strong quarter, combining for $14.9 billion of revenue, and contributing $6.3 billion of growth compared to Q2 2025.",
+   "ev_start": 8949,
+   "ev_end": 9135,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "As seen on Slide 10, total prescriptions in the U.S. incretin analogs market grew 31% compared to Q2 2025.",
+   "ev_start": 9136,
+   "ev_end": 9242,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Within the U.S. incretin analogs obesity market, total prescriptions grew by 78% in Q2, and the Lilly anti-obesity portfolio continues to lead.",
+   "ev_start": 9493,
+   "ev_end": 9636,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "In the U.S. type 2 diabetes incretin analogs market, total prescriptions grew 9% compared to Q2 2025, reflecting a more mature market compared to obesity.",
+   "ev_start": 9960,
+   "ev_end": 10114,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 74"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "Slide 11 shows aggregate trends in the international incretin analogs market, which has increased by 74% since the same period last year, as measured by IQVIA gross sales.",
+   "ev_start": 10344,
+   "ev_end": 10515,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "china"
+   ],
+   "home": "china",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "Mounjaro Q2 revenue growth was robust, driven by China, Korea, Germany, the U.K., and Mexico.",
+   "ev_start": 10679,
+   "ev_end": 10772,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S042",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "china"
+   ],
+   "home": "china",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expansion"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "We expect continued strong performance outside the U.S., but with market share leadership already established, market expansion will be key to driving sustainable growth.",
+   "ev_start": 10773,
+   "ev_end": 10943,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S043",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "china"
+   ],
+   "home": "china",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "Slide 12 provides an update on the Foundayo launch and the cadence of anticipated upcoming catalysts.",
+   "ev_start": 11086,
+   "ev_end": 11187,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "The U.S. launch is progressing well.",
+   "ev_start": 11188,
+   "ev_end": 11224,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S045",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Total prescriptions and share of new patients continue to grow, as we're increasing our investments to drive brand awareness among physicians and consumers.",
+   "ev_start": 11225,
+   "ev_end": 11381,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S046",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "The recent launch of the Medicare GLP-1 Bridge program is an opportunity to expand the oral market, unlocking access for eligible seniors with a low out-of-pocket cost.",
+   "ev_start": 11382,
+   "ev_end": 11550,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S047",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "We're pleased to receive the first international approvals for obesity in UAE and Saudi Arabia, and in Mexico for obesity and type 2 diabetes.",
+   "ev_start": 11551,
+   "ev_end": 11693,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S048",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "review",
+     "rollout"
+    ],
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "With more than 40 markets currently under regulatory review, we expect a global rollout in all major markets in 2027.",
+   "ev_start": 11766,
+   "ev_end": 11883,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "We have increased the low end of our revenue range by $3 billion, and the high end by $2 billion, reflecting strong underlying performance of our Key Products in the first half of 2026.",
+   "ev_start": 12304,
+   "ev_end": 12489,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S050",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "full_year"
+   ],
+   "home": "full_year",
+   "fact_ids": [
+    "LLY_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full-year"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "We now expect full-year revenue to be between $85 billion and $87 billion.",
+   "ev_start": 12490,
+   "ev_end": 12564,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S051",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Based on higher revenue, we now expect our non-GAAP performance margin to be between 49% and 50.5%, an increase of 2 percentage points at the low and high end of the performance margin range.",
+   "ev_start": 12565,
+   "ev_end": 12756,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S052",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "LLY_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "guidance"
+    ],
+    "strategy": [
+     "acquired"
+    ],
+    "revision": [
+     "revised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 6.72,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "We now expect non-GAAP earnings per share of $35.50 to $36.50, an increase of $2.78 per share at the midpoint of our range before updating our guidance for the $3.03 impact of Q2 acquired IPR&D charges.",
+   "ev_start": 12757,
+   "ev_end": 12959,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S053",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "full_year"
+   ],
+   "home": "full_year",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased",
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 62,
+   "sentence": "We are pleased with our Q2 results and confident in our ability to deliver another year of industry-leading growth.",
+   "ev_start": 12960,
+   "ev_end": 13075,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 1,
+   "sentence": "Since our last earnings call, we've made significant progress across R&D, with advances in each major therapeutic area.",
+   "ev_start": 13181,
+   "ev_end": 13300,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S055",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "Starting with retatrutide, we announced positive results from three Phase 3 trials: TRIUMPH-1 in people with obesity or overweight; TRIUMPH-2 in people with type 2 diabetes, and obesity or overweight; and TRIUMPH-3 in people with severe obesity and established cardiovascular disease with or without type 2 diabetes.",
+   "ev_start": 13341,
+   "ev_end": 13657,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S056",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulators"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "We look forward to working with regulators as they evaluate this important new medicine and plan to submit in the U.S. in quarter 1 2027 under the BLA pathway.",
+   "ev_start": 14454,
+   "ev_end": 14613,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S057",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "acquire"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 21,
+   "sentence": "Moving to Neuroscience, we announced an agreement to acquire AtaiBeckley, which is advancing a pipeline of rapid-acting neuroplastogens for treatment-resistant depression and other mental health conditions.",
+   "ev_start": 16248,
+   "ev_end": 16454,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S058",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "With the Centessa acquisition now complete, we added cleminorexton to the pipeline in Phase 2.",
+   "ev_start": 16748,
+   "ev_end": 16842,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S059",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "Orexin biology plays an important role in regulating the sleep-wake cycle, and sleep disorders are associated with many neurological, neurodegenerative, and neuropsychiatric conditions.",
+   "ev_start": 16972,
+   "ev_end": 17157,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S060",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 33,
+   "sentence": "We believe this study has the potential to establish a new standard of care in this population, and we've submitted these data to global regulatory authorities.",
+   "ev_start": 17966,
+   "ev_end": 18126,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S061",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 37,
+   "sentence": "We were also excited by the encouraging data presented at medical meetings from two recently acquired hematology programs: AJ1-11095, a type II JAK inhibitor from Ajax Therapeutics, and KLN-1010, an in vivo CAR-T therapy from Kelonia Therapeutics.",
+   "ev_start": 18660,
+   "ev_end": 18907,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 41,
+   "sentence": "With our partner, Almirall, we're exploring even less frequent dosing, once every 12 weeks.",
+   "ev_start": 19488,
+   "ev_end": 19579,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 49,
+   "sentence": "Finally, we announced efforts to address global morbidity.",
+   "ev_start": 20543,
+   "ev_end": 20601,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S064",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ],
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 52,
+   "sentence": "The acquisitions include Curevo, adding amezosvatein, a potential next-generation varicella zoster virus vaccine for the prevention of shingles.",
+   "ev_start": 20870,
+   "ev_end": 21014,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "negative": [
+     "reduced"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 54,
+   "sentence": "With growing evidence linking shingles to elevated stroke risk, and shingles vaccination to reduced dementia risk, a better-tolerated vaccine could extend the reach of shingles prevention and reduce long-term risks of dementia and stroke.",
+   "ev_start": 21175,
+   "ev_end": 21413,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "grows"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 58,
+   "sentence": "Vaccines to prevent bacterial infection could play an important role as antimicrobial resistance grows globally.",
+   "ev_start": 21749,
+   "ev_end": 21861,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S067",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisitions",
+     "r&d"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 62,
+   "sentence": "As highlighted by all the new molecules we added to our pipeline through acquisitions, business development is an important component of our R&D strategy.",
+   "ev_start": 22201,
+   "ev_end": 22355,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S068",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "acquire"
+    ]
+   },
+   "score": 5.28,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 63,
+   "sentence": "In the first half of 2026, we made strong progress and announced deals to acquire potential new medicines across established and emerging areas at Lilly.",
+   "ev_start": 22356,
+   "ev_end": 22509,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 65,
+   "sentence": "The pace and average deal size have also continued to increase, reflecting our strategy to grow within our core therapeutic areas and create new opportunities through emerging science.",
+   "ev_start": 22596,
+   "ev_end": 22780,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S070",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely"
+    ],
+    "competition": [
+     "uniquely"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 66,
+   "sentence": "Lilly is uniquely positioned to pursue diseases where there is significant unmet need, exciting early science, and the need for Lilly's development, regulatory, and manufacturing scale to create value.",
+   "ev_start": 22781,
+   "ev_end": 22982,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S071",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 69,
+   "sentence": "It was another productive quarter in Lilly R&D, and we have an ambitious agenda for the second half of the year.",
+   "ev_start": 23223,
+   "ev_end": 23335,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S072",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 3,
+   "sentence": "While we're pleased with our progress this year so far, we're not satisfied.",
+   "ev_start": 23667,
+   "ev_end": 23743,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S073",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 4,
+   "sentence": "We remain focused on executing the three components of our strategy to deliver sustained long-term growth, broaden our impact on cardiometabolic health, expand our presence in other therapeutic areas, and invest to drive future growth.",
+   "ev_start": 23744,
+   "ev_end": 23979,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S074",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 4,
+   "sentence": "And we have launched versions of LillyDirect outside of the U.S.",
+   "ev_start": 26544,
+   "ev_end": 26608,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S075",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "pressure": [
+     "regulations"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "However, it's important to take into account that regulations outside the U.S. differ and so will the different models that we will apply, but we will move quickly in this space.",
+   "ev_start": 26609,
+   "ev_end": 26787,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S076",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 5.17,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 10,
+   "sentence": "We've - obviously you've seen the launch of Bridge happening July 1, and we started the launch of our full DTC promotion campaign for Foundayo to build out consumer and physician awareness.",
+   "ev_start": 28836,
+   "ev_end": 29025,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubling"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 12,
+   "sentence": "So we're almost doubling the volume that we had just a month ago.",
+   "ev_start": 29147,
+   "ev_end": 29212,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S078",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 14,
+   "sentence": "So we're starting to see an inflection point on Foundayo now and with continued access growth and overall HCP adoption, we believe that we'll continue to see growth in Foundayo over the coming quarters.",
+   "ev_start": 29312,
+   "ev_end": 29514,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S079",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "strong",
+     "expanding"
+    ],
+    "product": [
+     "launch",
+     "launched"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 0,
+   "sentence": "And outside the U.S., when we look at the first launch, we launched in UAE early May, and we actually had a strong start and with early signals showing that orals are expanding the market.",
+   "ev_start": 29532,
+   "ev_end": 29720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 3,
+   "sentence": "When we look ahead, we have the approval in Mexico and Saudi, and those are the markets where we will launch next.",
+   "ev_start": 29981,
+   "ev_end": 30095,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S081",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 4,
+   "sentence": "And most of the launches will come in 2027.",
+   "ev_start": 30096,
+   "ev_end": 30139,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S082",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well positioned"
+    ],
+    "confident": [
+     "extremely well"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 5,
+   "sentence": "But I think we are extremely well positioned here in terms of supply.",
+   "ev_start": 30140,
+   "ev_end": 30209,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S083",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 6,
+   "sentence": "So there will be no gating of launches either.",
+   "ev_start": 30210,
+   "ev_end": 30256,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S084",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 9,
+   "sentence": "But on our side, very pleased with the start of the launch of Foundayo outside the U.S.",
+   "ev_start": 30517,
+   "ev_end": 30604,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S085",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 6,
+   "sentence": "As you may know, we have announced at the end of our clinical program that we have all the clinical data we need to submit, but we do need to gather a little bit more on the CMC side.",
+   "ev_start": 31875,
+   "ev_end": 32058,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S086",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 8,
+   "sentence": "But super exciting data package.",
+   "ev_start": 32236,
+   "ev_end": 32268,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S087",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "triple"
+    ],
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 10,
+   "sentence": "We have a pretty large lead over any competitors with a triple-acting medicine.",
+   "ev_start": 32351,
+   "ev_end": 32430,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S088",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Ricks",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 12,
+   "sentence": "So very excited about the program and look forward to the submission by Q1 next year.",
+   "ev_start": 32586,
+   "ev_end": 32671,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S089",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 2,
+   "sentence": "We're really excited about, one, expanding access for seniors in the U.S., as David mentioned in the early part of the call that it's increasing access to about 35% more Americans being able to access obesity therapy.",
+   "ev_start": 33335,
+   "ev_end": 33552,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S090",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 3,
+   "sentence": "If you think about the start, it's still early days.",
+   "ev_start": 33553,
+   "ev_end": 33605,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S091",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 0.28,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 13,
+   "sentence": "So it's still early days, but we're encouraged by the inflection point over the last few weeks, and we'll continue to work on educating consumers and stakeholders on the benefit of the Bridge program.",
+   "ev_start": 34633,
+   "ev_end": 34833,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S092",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Kenneth Custer",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 6,
+   "sentence": "But we're also evaluating several additional indication opportunities here internally and may have more to say in the future on that.",
+   "ev_start": 36536,
+   "ev_end": 36669,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S093",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Kenneth Custer",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 9,
+   "sentence": "So overall, a very exciting medicine that we think can do a lot of work in the treatment of obesity, both on the high end with bariatric surgery-like weight loss and on the low end with just the simplicity of a single titration step.",
+   "ev_start": 36813,
+   "ev_end": 37046,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jacob Van Naarden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "We're really excited about the presence that we have in breast cancer historically and going forward.",
+   "ev_start": 37719,
+   "ev_end": 37820,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S095",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Jacob Van Naarden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 9,
+   "sentence": "So we're really excited about the potential for that all-oral combination in a variety of settings down the road.",
+   "ev_start": 38615,
+   "ev_end": 38728,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S096",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "for the full year"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 3,
+   "sentence": "Very pleased, by the way, to continue to see the strong performance that we see, not only in the first half of the year, but also upgrading the guide by $2.5 billion for the full year.",
+   "ev_start": 39343,
+   "ev_end": 39527,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S097",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 4.46,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 8,
+   "sentence": "What is important, if you look at the base period, the 2025 period, remember that in the second part of the year, basically, we had all the bolus of the launches of Mounjaro in outside-the-U.S. markets that was basically adding a lot of new countries and volume into the second part of the year.",
+   "ev_start": 40097,
+   "ev_end": 40392,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S098",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 9,
+   "sentence": "When you look at actually the growth that we expect to see in dollars, not in percentage of growth, we expect to continue to drive significant growth in the second part of the year as well.",
+   "ev_start": 40393,
+   "ev_end": 40582,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S099",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "future"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 11,
+   "sentence": "And as Patrik alluded as well, the growth that we expect to see in the future is more driven by the penetration in the outside-the-U.S. market.",
+   "ev_start": 40706,
+   "ev_end": 40849,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S100",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 5,
+   "sentence": "And in many markets, we have a market share today that is similar to the level of the U.S. or even above.",
+   "ev_start": 42566,
+   "ev_end": 42671,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S101",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.46,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 6,
+   "sentence": "In terms of learnings from the launch of generic semaglutide, if we look specifically at India and even Brazil, we continue to see TRx growth for Mounjaro even after the launch of generic semaglutide.",
+   "ev_start": 42672,
+   "ev_end": 42872,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S102",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 7,
+   "sentence": "And I think that's driven by the strong differentiation we have with the superiority data, and I think that's the first line of defense.",
+   "ev_start": 42873,
+   "ev_end": 43009,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 8,
+   "sentence": "But we have also been pleasantly surprised with what we see in Canada, where actually the tirzepatide TRx continue to grow with the same pace as total market TRx.",
+   "ev_start": 43010,
+   "ev_end": 43172,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S104",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "supply constraints"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 9,
+   "sentence": "And we have also seen the generic companies actually having significant supply constraints.",
+   "ev_start": 43173,
+   "ev_end": 43264,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S105",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 10,
+   "sentence": "So I think that's something that we need to monitor very closely.",
+   "ev_start": 43265,
+   "ev_end": 43330,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S106",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 12,
+   "sentence": "And so far, the differentiation of tirzepatide seems to be a strong line of defense.",
+   "ev_start": 43403,
+   "ev_end": 43487,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S107",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Ilya Yuffa",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 7,
+   "sentence": "And so we continue to see week-on-week and continued progress on the adoption, awareness and the improved perception of Foundayo profile for people living with overweight and obesity.",
+   "ev_start": 44901,
+   "ev_end": 45084,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S108",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "sentence_index": 11,
+   "sentence": "Starting in Q4 it will drive basically, as you know, since last year when CVS moved, there were three options basically for the patients back then - one was to move to the competitor product.",
+   "ev_start": 47046,
+   "ev_end": 47237,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S109",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "sentence_index": 15,
+   "sentence": "So expect that price will actually go down for sure because of this, but it's very much embedded in our guide and it's basically reset on, again, our expectations.",
+   "ev_start": 47557,
+   "ev_end": 47720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S110",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we are going to"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Lucas Montarce",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "sentence_index": 16,
+   "sentence": "And of course, we are going to more than offset that with volume growth.",
+   "ev_start": 47721,
+   "ev_end": 47793,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S111",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquire",
+     "disciplined"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Jacob Van Naarden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 4,
+   "sentence": "So in this case, we saw an opportunity to acquire technology and medicines that we think have the potential to be really impactful and at prices that allow us to remain disciplined and create value long term for Lilly shareholders.",
+   "ev_start": 48715,
+   "ev_end": 48946,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S112",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see that"
+    ],
+    "product": [
+     "partnering"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jacob Van Naarden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 6,
+   "sentence": "Whether we continue to build more around infectious diseases and psychiatry specifically to your question, I don't want to forward-look too much on that because we'll be opportunistic based on what we see that's available for acquisition and partnering, but very excited about those two areas and the specific things that we purchased there.",
+   "ev_start": 49096,
+   "ev_end": 49437,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S113",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "beyond the"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 8,
+   "sentence": "In neuroscience, beyond the psych expansion, we're excited about sleep-wake disorders with Centessa and then diseases like addiction, major depressive disorder, which may be addressable with incretin science as well.",
+   "ev_start": 50473,
+   "ev_end": 50689,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S114",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 10,
+   "sentence": "And then come to oncology, I highlighted some of the exciting readouts.",
+   "ev_start": 50743,
+   "ev_end": 50814,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S115",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 12,
+   "sentence": "Excited about a number of those molecules, including the two recent deals that we announced, Kelonia in vivo CAR-T, ideal for multiple myeloma, that I think has a huge potential against a large unmet medical need as well as the novel JAK inhibitor.",
+   "ev_start": 50932,
+   "ev_end": 51180,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S116",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "mixed",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "excited"
+    ],
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 14,
+   "sentence": "It's still early days, I think, in watching what this drug can do, excited to see it grow in the marketplace and then new indications coming and new opportunities to continue to grow there in one of the largest segments of immunology right now.",
+   "ev_start": 51285,
+   "ev_end": 51529,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S117",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Daniel Skovronsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 17,
+   "sentence": "If you eliminated kind of the incretin stuff, this would be a really strong and large pipeline to be proud of.",
+   "ev_start": 51711,
+   "ev_end": 51821,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S118",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 1.32,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 1,
+   "sentence": "As I shared earlier, we are encouraged by the start in UAE, but also we need to consider that it's very early days, and there is a lot of noise in the data.",
+   "ev_start": 53011,
+   "ev_end": 53167,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 2,
+   "sentence": "And as always, when you launch a new medicine, there is an inventory build in the beginning as well, although there is a lot of demand created as well.",
+   "ev_start": 53168,
+   "ev_end": 53319,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S120",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rollout",
+     "launches"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 6,
+   "sentence": "The major rollout for us outside the U.S. will happen in the beginning of 2027 with major launches.",
+   "ev_start": 53569,
+   "ev_end": 53668,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "LLY_2026_2-S121",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Patrik Jonsson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 10,
+   "sentence": "So the focus at the time of launch will be on chronic weight management and building up on the experiences we have had so far in the U.S. and UAE.",
+   "ev_start": 53987,
+   "ev_end": 54133,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "LLY_2026_2-S023",
+  "LLY_2026_2-S026",
+  "LLY_2026_2-S027",
+  "LLY_2026_2-S035",
+  "LLY_2026_2-S041",
+  "LLY_2026_2-S042",
+  "LLY_2026_2-S043",
+  "LLY_2026_2-S003",
+  "LLY_2026_2-S050",
+  "LLY_2026_2-S004",
+  "LLY_2026_2-S005",
+  "LLY_2026_2-S008",
+  "LLY_2026_2-S009",
+  "LLY_2026_2-S010",
+  "LLY_2026_2-S013",
+  "LLY_2026_2-S036",
+  "LLY_2026_2-S048",
+  "LLY_2026_2-S049",
+  "LLY_2026_2-S052",
+  "LLY_2026_2-S056",
+  "LLY_2026_2-S058",
+  "LLY_2026_2-S059",
+  "LLY_2026_2-S068",
+  "LLY_2026_2-S070",
+  "LLY_2026_2-S080",
+  "LLY_2026_2-S108"
+ ],
+ "surfaced_signal_ids": [
+  "LLY_2026_2-S023",
+  "LLY_2026_2-S026",
+  "LLY_2026_2-S027",
+  "LLY_2026_2-S035",
+  "LLY_2026_2-S041",
+  "LLY_2026_2-S042",
+  "LLY_2026_2-S043",
+  "LLY_2026_2-S003",
+  "LLY_2026_2-S050",
+  "LLY_2026_2-S004",
+  "LLY_2026_2-S005",
+  "LLY_2026_2-S008",
+  "LLY_2026_2-S009",
+  "LLY_2026_2-S010",
+  "LLY_2026_2-S013",
+  "LLY_2026_2-S036",
+  "LLY_2026_2-S048",
+  "LLY_2026_2-S049",
+  "LLY_2026_2-S052",
+  "LLY_2026_2-S056",
+  "LLY_2026_2-S058",
+  "LLY_2026_2-S059",
+  "LLY_2026_2-S068",
+  "LLY_2026_2-S070",
+  "LLY_2026_2-S080",
+  "LLY_2026_2-S108",
+  "LLY_2026_2-S053",
+  "LLY_2026_2-S112",
+  "LLY_2026_2-S096",
+  "LLY_2026_2-S094",
+  "LLY_2026_2-S118",
+  "LLY_2026_2-S090",
+  "LLY_2026_2-S092",
+  "LLY_2026_2-S091",
+  "LLY_2026_2-S051"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "u_s",
+   "europe",
+   "japan",
+   "china",
+   "full_year"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "china"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "LLY_2026_2-011",
+   "LLY_2026_2-012",
+   "LLY_2026_2-013"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "3 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 121,
+  "signals_usable": 121,
+  "selected": 26,
+  "by_topic": {
+   "momentum": 37,
+   "product": 36,
+   "pressure": 9,
+   "strategy": 20,
+   "competition": 8
+  },
+  "by_horizon": {
+   "current": 95,
+   "forward": 26
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 5,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

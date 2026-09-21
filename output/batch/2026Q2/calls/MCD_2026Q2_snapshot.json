@@ -1,0 +1,4300 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "MCD",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "MCD",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 6,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Dexter Congbalay",
+    "role": "ir"
+   },
+   {
+    "name": "Christopher Kempczinski",
+    "role": "management"
+   },
+   {
+    "name": "Ian Borden",
+    "role": "management"
+   },
+   {
+    "name": "David Palmer",
+    "role": "analyst"
+   },
+   {
+    "name": "Dennis Geiger",
+    "role": "analyst"
+   },
+   {
+    "name": "Brian Harbour",
+    "role": "analyst"
+   },
+   {
+    "name": "John Ivankoe",
+    "role": "analyst"
+   },
+   {
+    "name": "Sara Senatore",
+    "role": "analyst"
+   },
+   {
+    "name": "David Tarantino",
+    "role": "analyst"
+   },
+   {
+    "name": "Jon Tower",
+    "role": "analyst"
+   },
+   {
+    "name": "Lauren Silberman",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "MCD_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $3.38/sh",
+   "fact_ids": [
+    "MCD_2026_2-008"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is accelerating: guided up",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.75, qa +0.75",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "MCD_2026_2-S002",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "business_slowed_significantly_posting",
+   "name": "Business Slowed Significantly, Posting",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "constant_currency",
+   "name": "Constant Currency",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "u_s",
+   "name": "U S",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "international_operated_markets",
+   "name": "International Operated Markets",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "international_developmental_licensed_markets",
+   "name": "International Developmental Licensed Markets",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "i_m",
+   "name": "I'M",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "MCD_2026_2-S069",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 2
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "MCD_2026_2-001",
+   "MCD_2026_2-008",
+   "MCD_2026_2-002",
+   "MCD_2026_2-010",
+   "MCD_2026_2-009"
+  ],
+  "signal_ids": [
+   "MCD_2026_2-S002",
+   "MCD_2026_2-S003",
+   "MCD_2026_2-S005",
+   "MCD_2026_2-S006",
+   "MCD_2026_2-S010",
+   "MCD_2026_2-S015",
+   "MCD_2026_2-S016",
+   "MCD_2026_2-S019",
+   "MCD_2026_2-S020",
+   "MCD_2026_2-S022",
+   "MCD_2026_2-S027",
+   "MCD_2026_2-S034",
+   "MCD_2026_2-S049",
+   "MCD_2026_2-S071",
+   "MCD_2026_2-S072",
+   "MCD_2026_2-S101",
+   "MCD_2026_2-S102"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "business_slowed_significantly_posting",
+   "name": "Business Slowed Significantly, Posting",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-003"
+   ],
+   "signal_ids": [
+    "MCD_2026_2-S012"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "constant_currency",
+   "name": "Constant Currency",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-004"
+   ],
+   "signal_ids": [
+    "MCD_2026_2-S009",
+    "MCD_2026_2-S011",
+    "MCD_2026_2-S014",
+    "MCD_2026_2-S017"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "u_s",
+   "name": "U S",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-005"
+   ],
+   "signal_ids": [
+    "MCD_2026_2-S018"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "international_operated_markets",
+   "name": "International Operated Markets",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-006"
+   ],
+   "signal_ids": [
+    "MCD_2026_2-S025"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "international_developmental_licensed_markets",
+   "name": "International Developmental Licensed Markets",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-007"
+   ],
+   "signal_ids": [
+    "MCD_2026_2-S032"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "year_to_date",
+   "name": "Year-To-Date",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-011"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "restaurants_drove",
+   "name": "Restaurants, Drove",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-012"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "i_m",
+   "name": "I'M",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MCD_2026_2-013"
+   ],
+   "signal_ids": [
+    "MCD_2026_2-S008",
+    "MCD_2026_2-S069"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": [
+    "i_m:revenue"
+   ]
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "MCD_2026_2-S002",
+    "direction_word": "up",
+    "text": "Almost six years ago, we unveiled our Accelerating the Arches strategy to drive our next chapter of growth and build the foundation for our digital-first future.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  },
+  {
+   "key": "i_m:revenue",
+   "node": "i_m",
+   "name": "I'M",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "MCD_2026_2-S069",
+    "direction_word": "up",
+    "text": "I'm also going to touch quickly on IOM and IDL because I think we certainly expect in both segments that our comp sales growth will accelerate sequentially in Q3 from the 1.5% and 1.9% comps in Q2, respectively.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 7,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.75
+   },
+   "qa": {
+    "confident": 7,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.75
+   }
+  },
+  "speakers": {
+   "Ian Borden": {
+    "confident": 5,
+    "cautious": 2
+   },
+   "Christopher Kempczinski": {
+    "confident": 9
+   }
+  },
+  "notable_confident": [
+   "MCD_2026_2-S076",
+   "MCD_2026_2-S054",
+   "MCD_2026_2-S091",
+   "MCD_2026_2-S041"
+  ],
+  "notable_cautious": [
+   "MCD_2026_2-S103",
+   "MCD_2026_2-S037"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "MCD_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 2.46,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "Before Ian gets into the detailed results for the quarter, I want to do two things: recap our progress under our Accelerating the Arches strategy and highlight how McDonald's remains positioned for long-term value creation and provide a snapshot of the quarter, what worked, what didn't and what we're doing to address our opportunities.",
+   "ev_start": 1224,
+   "ev_end": 1561,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S002",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "unveiled",
+     "accelerating"
+    ],
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "unveiled"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 7.1,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "Almost six years ago, we unveiled our Accelerating the Arches strategy to drive our next chapter of growth and build the foundation for our digital-first future.",
+   "ev_start": 1853,
+   "ev_end": 2014,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S003",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage",
+     "competitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Gen Z consumer has increased, and we now hold a significant advantage versus our primary competitor.",
+   "ev_start": 2434,
+   "ev_end": 2534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S004",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We created a global category structure to increase our pace of innovation, and we're already seeing significant benefits from this focus, most notably in beverages.",
+   "ev_start": 2794,
+   "ev_end": 2958,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "negative": [
+     "reduced"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "In drive-thru, we've modernized operations and invested in technologies that have improved accuracy and reduced service times.",
+   "ev_start": 3325,
+   "ev_end": 3451,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S006",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "integrate"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "As we've executed against these growth pillars, we've also done the hard work behind the scenes to integrate our systems for a digital-first future.",
+   "ev_start": 3679,
+   "ev_end": 3827,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S007",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "This will drive cost savings, accelerate innovation, harden security and enhance stability.",
+   "ev_start": 3967,
+   "ev_end": 4058,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "i_m"
+   ],
+   "home": "i_m",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 3.1,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "Now that I've recapped the progress under Accelerating the Arches and highlighted our continuing efforts towards long-term value creation, I'm going to provide a snapshot of our second quarter.",
+   "ev_start": 4305,
+   "ev_end": 4498,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "growing"
+    ],
+    "performance": [
+     "sales",
+     "grew",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "McDonald's system-wide sales grew 4% in constant currency, reflecting the growing contribution from new unit openings.",
+   "ev_start": 4499,
+   "ev_end": 4617,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MCD_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Global comparable sales grew 1.3% with positive comparable sales growth across each of our operating segments.",
+   "ev_start": 4618,
+   "ev_end": 4728,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S011",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "resonate"
+    ],
+    "product": [
+     "innovation",
+     "resonate"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Strong execution in value offerings, menu innovation and creative marketing across many of our international markets continue to resonate with customers and supported results that were broadly in line with our expectations.",
+   "ev_start": 4888,
+   "ev_end": 5111,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "business_slowed_significantly_posting"
+   ],
+   "home": "business_slowed_significantly_posting",
+   "fact_ids": [
+    "MCD_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "growth of 0"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "After a solid start to the year, the business slowed significantly, posting comparable sales growth of 0.8% in the quarter.",
+   "ev_start": 5132,
+   "ev_end": 5255,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "Second, our restaurant teams were overwhelmed by too many deployments in the quarter, which led to less efficient restaurant operations.",
+   "ev_start": 5889,
+   "ev_end": 6025,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "In the second quarter, McDonald's system-wide sales grew 4% in constant currency.",
+   "ev_start": 6368,
+   "ev_end": 6449,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "negative": [
+     "challenging"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Global comparable sales grew 1.3%, reflecting a challenging consumer environment that saw QSR industry traffic in several of our largest markets continue to be flat to negative.",
+   "ev_start": 6450,
+   "ev_end": 6627,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Global comparable sales were also impacted by execution that was below our expectations in the U.S. business, as Chris just highlighted.",
+   "ev_start": 6628,
+   "ev_end": 6764,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MCD_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "increased 2.5"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "For the first half of the year, system-wide sales grew 5% in constant currency and global comparable sales increased 2.5%.",
+   "ev_start": 6765,
+   "ev_end": 6887,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "u_s"
+   ],
+   "home": "u_s",
+   "fact_ids": [
+    "MCD_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Comparable sales grew 0.8% for the quarter and 2.3% for the first half.",
+   "ev_start": 6911,
+   "ev_end": 6982,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slow"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "As we discussed on our Q1 call, we had a slow start to the quarter with comparable sales slightly negative in April as we lapped last year's highly successful Minecraft campaign.",
+   "ev_start": 7068,
+   "ev_end": 7246,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S020",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "At the same time, the business pulled back on digital offers and removed our Buy One, Add One for $1 feature to offset the investment behind McValue.",
+   "ev_start": 7637,
+   "ev_end": 7786,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S021",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excitement"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "While the campaign provided a lift to the business and generated excellent system excitement, the campaign underperformed versus our expectations.",
+   "ev_start": 8149,
+   "ev_end": 8295,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next week"
+    ],
+    "product": [
+     "launching"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "For instance, starting next week, we're launching more national digital flash offers to reenergize our high-frequency customers.",
+   "ev_start": 8379,
+   "ev_end": 8507,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S023",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "While we've been pleased to see our value and affordability scores improve significantly since last year, we remain ready to adjust as needed.",
+   "ev_start": 8771,
+   "ev_end": 8913,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S024",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "As Chris noted, operations metrics worsened in the quarter as restaurant teams were overwhelmed with too many complicated deployments.",
+   "ev_start": 8972,
+   "ev_end": 9106,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international_operated_markets"
+   ],
+   "home": "international_operated_markets",
+   "fact_ids": [
+    "MCD_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 1.5"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.04,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Comparable sales increased 1.5%, driven by Germany, Australia and the U.K. again this quarter.",
+   "ev_start": 9533,
+   "ev_end": 9627,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "After recording slightly negative comparable sales in April, as we mentioned in our Q1 call, IOM's performance improved as expected over the balance of the quarter, with comparable sales returning towards more normalized levels in May and June, and this has largely continued into July.",
+   "ev_start": 9802,
+   "ev_end": 10088,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S027",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining"
+    ],
+    "competition": [
+     "gaining chicken share"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.04,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Menu innovation behind chicken continued to drive growth across these markets, with Australia and Germany both gaining chicken share in the quarter.",
+   "ev_start": 10254,
+   "ev_end": 10402,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strongest"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "Australia generated momentum with its Korean Barbecue McCrispy limited time offering, one of the market's strongest chicken LTOs in recent years, while Germany continued its successful Chicken for Every Moment campaign featuring a mix of core products and LTOs.",
+   "ev_start": 10403,
+   "ev_end": 10664,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S029",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Germany also successfully launched our new specialty beverage platform in early May with an assortment of crafted sodas, refreshers, cold coffee and Red Bull Energizers.",
+   "ev_start": 10665,
+   "ev_end": 10834,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S030",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "We're excited about the performance to date and our strong position in a category in its early stages of development.",
+   "ev_start": 10835,
+   "ev_end": 10952,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S031",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "product": [
+     "resonating"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "The market recently extended their EUR 4 Happy Meal component and reintroduced nationally price-pointed meal deals that are resonating with consumers.",
+   "ev_start": 11917,
+   "ev_end": 12067,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international_developmental_licensed_markets"
+   ],
+   "home": "international_developmental_licensed_markets",
+   "fact_ids": [
+    "MCD_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 1.9"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Comparable sales increased 1.9%.",
+   "ev_start": 12129,
+   "ev_end": 12161,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "This reflects strong execution behind our loyalty platform, which launched less than a year ago and already has nearly 20 million 90-day active users who are visiting us more often.",
+   "ev_start": 12273,
+   "ev_end": 12454,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenging"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "The segment's comparable sales growth was tempered by results in China, where we expect the macro environment and the consumer backdrop to remain challenging in the near term.",
+   "ev_start": 12455,
+   "ev_end": 12630,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S035",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "We remain on track for G&A to be about 2.2% of system-wide sales for the full year.",
+   "ev_start": 13635,
+   "ev_end": 13718,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "We've made investments over the last couple of years to consolidate and upgrade our global systems and processes, with a clear goal of delivering future efficiency.",
+   "ev_start": 13786,
+   "ev_end": 13950,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S037",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "As we mentioned last quarter, in relation to margin performance at our U.S. company-operated restaurants, we continue to evaluate the optimal franchisee versus company ownership balance to maximize system value.",
+   "ev_start": 14072,
+   "ev_end": 14283,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S038",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "divestitures"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "As part of this ongoing work across both the U.S. and international markets, we expect incremental company-owned restaurant divestitures, some of which occurred in the second quarter to continue in 2026 and beyond.",
+   "ev_start": 14284,
+   "ev_end": 14498,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "We continue to be highly disciplined allocators of capital towards new restaurants based on our ability to generate attractive returns.",
+   "ev_start": 14613,
+   "ev_end": 14748,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S040",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "on track to",
+     "by the end of"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "Yet, even with this change, this continues to be the fastest period of restaurant growth in McDonald's history, and we remain on track to open about 2,600 gross restaurants by the end of this year.",
+   "ev_start": 15115,
+   "ev_end": 15312,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S041",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.32,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "As we look ahead, Chris and I remain very confident about our pathway to enhancing shareholder value.",
+   "ev_start": 15313,
+   "ev_end": 15414,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S042",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantages"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "At the same time, we're equally focused on driving sustainable long-term growth and strengthening our competitive advantages.",
+   "ev_start": 15899,
+   "ev_end": 16024,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S043",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "That's why at our worldwide convention in June, we introduced McDonald's > NEXT, our new growth strategy with a clear ambition to be more customers' first choice.",
+   "ev_start": 16025,
+   "ev_end": 16187,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S044",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "improving"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "We'll do this by improving the taste and quality of our food, engaging and co-creating with our fans in exciting new ways and simplifying our restaurants so our crew can deliver great hospitality for our guests to what they do best.",
+   "ev_start": 16188,
+   "ev_end": 16420,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S045",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 6,
+   "sentence": "And while this plan will require system investment, we expect it will also be meaningfully self-funded by the many productivity opportunities that we see in our company and franchisee restaurant P&Ls, along with the strong top line growth that it will deliver.",
+   "ev_start": 16517,
+   "ev_end": 16777,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S046",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "And they're energized by the growth and productivity opportunities available to us and confident in our system's ability to execute against them.",
+   "ev_start": 16920,
+   "ev_end": 17065,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S047",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch",
+     "new beverage platform"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 14,
+   "sentence": "The launch of our new beverage platform in May was an important part of upgrading our taste and quality.",
+   "ev_start": 17458,
+   "ev_end": 17562,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "in the coming"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 19,
+   "sentence": "The addition of Red Bull Energizers in the U.S. in the coming weeks will only further this momentum.",
+   "ev_start": 17843,
+   "ev_end": 17943,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S049",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "None of that happens without our people, which is why on October 5, we'll officially launch a program to retrain the two million-plus restaurant crew, company employees and supplier partners who work under the Golden Arches on gold standard taste, quality and hospitality.",
+   "ev_start": 18174,
+   "ev_end": 18446,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S050",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 26,
+   "sentence": "We announced this morning that Skye Anderson is the new President of McDonald's U.S., effective today.",
+   "ev_start": 18680,
+   "ev_end": 18782,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S051",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 35,
+   "sentence": "She was a key partner to me in the success we achieved through our Bigger, Bolder Vision 2020 program and a leader who could innately connect strategies to execution.",
+   "ev_start": 19868,
+   "ev_end": 20034,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S052",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new capabilities"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 37,
+   "sentence": "The talented team and the new capabilities that she put in place will help deliver much of the enhanced productivity that will be central to McDonald's > NEXT.",
+   "ev_start": 20245,
+   "ev_end": 20404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S053",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "strong"
+    ],
+    "product": [
+     "partner"
+    ],
+    "performance": [
+     "accelerating",
+     "sales"
+    ]
+   },
+   "score": 4.1,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 46,
+   "sentence": "Joe has been a key partner in the success we've enjoyed with the Accelerating the Arches strategy, delivering strong sales and operating income performance.",
+   "ev_start": 21374,
+   "ev_end": 21530,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S054",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 52,
+   "sentence": "We're confident in the path ahead, and I look forward to seeing all of you at our Investor Day on September 23 in Chicago.",
+   "ev_start": 22024,
+   "ev_end": 22146,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S055",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "ahead of competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "Our base menu pricing in many places has gotten ahead of competition.",
+   "ev_start": 23690,
+   "ev_end": 23759,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S056",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 8,
+   "sentence": "And the good news I can say in the U.S. is now if you look at our base menu pricing, beef, chicken, beverages, we are below our nearest competitors in each one of those categories when we look at that on a U.S. basis.",
+   "ev_start": 23848,
+   "ev_end": 24065,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S057",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 9,
+   "sentence": "So base menu pricing, we feel very good about where we are with that.",
+   "ev_start": 24066,
+   "ev_end": 24135,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S058",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 11,
+   "sentence": "And as you know, we introduced the $5 Meal Deals.",
+   "ev_start": 24230,
+   "ev_end": 24279,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S059",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 14,
+   "sentence": "So we feel really good about where we are with the meal deal.",
+   "ev_start": 24402,
+   "ev_end": 24463,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S060",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 19,
+   "sentence": "So you take each of those base menu pricing, meal deal, EVM, a lot of progress on that, and I feel really good about where we are.",
+   "ev_start": 25052,
+   "ev_end": 25182,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 27,
+   "sentence": "That's what we introduced in April of this year.",
+   "ev_start": 25941,
+   "ev_end": 25989,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 30,
+   "sentence": "And the other thing that was an issue is we didn't get the awareness that we needed when we launched that 10 items for under $3.",
+   "ev_start": 26331,
+   "ev_end": 26459,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S063",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 34,
+   "sentence": "We compounded that unintentionally by our system pulling back on digital offers and removing the Buy One, Add One program to offset investment in McValue.",
+   "ev_start": 26731,
+   "ev_end": 26885,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S064",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 42,
+   "sentence": "So at a high level, I feel really good about the progress that we've made around getting value and affordability leadership back in the U.S.",
+   "ev_start": 27606,
+   "ev_end": 27746,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S065",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "And it's going to start with really looking at the balance of the year calendar, looking at the balance of the year deployments that we're pushing into the restaurants and making sure that we've got a cadence there that we can actually go execute at a high level.",
+   "ev_start": 28646,
+   "ev_end": 28909,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 14,
+   "sentence": "We're seeing that we had a miss when we launched the EDAP menu and the fact that it came at the expense of what we were doing with our loyalty program was a bad trade.",
+   "ev_start": 30059,
+   "ev_end": 30226,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 4,
+   "sentence": "I mean I think I just would emphasize, as you heard us say upfront that we're already taking action, getting digital national offers back in place, getting more targeted digital interaction with our most frequent consumers that I think have been a little disengaged with some of the changes that Chris talked about, plus as you heard me say upfront, we are reallocating some of our marketing dollars over the next several months to put behind proven value components like Extra Value Meals that continue to grow and are continuing to perform really strongly.",
+   "ev_start": 31187,
+   "ev_end": 31745,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "stronger"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 9,
+   "sentence": "And I think the main thing for us is that the focus is on ensuring that we get our execution to the level we expect and that our baseline momentum is in a stronger position as we exit 2026 in the U.S. business.",
+   "ev_start": 32316,
+   "ev_end": 32526,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "i_m"
+   ],
+   "home": "i_m",
+   "fact_ids": [
+    "MCD_2026_2-013"
+   ],
+   "guided": {
+    "node": "i_m",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "accelerate"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 10,
+   "sentence": "I'm also going to touch quickly on IOM and IDL because I think we certainly expect in both segments that our comp sales growth will accelerate sequentially in Q3 from the 1.5% and 1.9% comps in Q2, respectively.",
+   "ev_start": 32527,
+   "ev_end": 32738,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "accelerate"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 11,
+   "sentence": "Also expect that comp sales in both of those segments will accelerate on a two-year stack basis.",
+   "ev_start": 32739,
+   "ev_end": 32835,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S071",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 1,
+   "sentence": "Well, as you would imagine, when we launch something like the EDAP menu, which we did in April, we provide recommended guidance to our franchisees.",
+   "ev_start": 33527,
+   "ev_end": 33674,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S072",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softer"
+    ],
+    "pressure": [
+     "softer"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 11,
+   "sentence": "Now what we're doing about that, obviously, with those folks that are not complying, as you would imagine, their business results are a lot softer than those who have complied.",
+   "ev_start": 35021,
+   "ev_end": 35197,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S073",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced",
+     "review"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 15,
+   "sentence": "I think the other part is, as you know, we've introduced previously, one of the things that we've changed as part of our business review process with franchisees is we now have a discussion around pricing and pricing execution.",
+   "ev_start": 35517,
+   "ev_end": 35744,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S074",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "reviews"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 16,
+   "sentence": "And so as we're now doing our business reviews with franchisees, which affects things like growth and eligibility from a franchisee standpoint, pricing and pricing noncompliance in certain cases is part of those conversations.",
+   "ev_start": 35745,
+   "ev_end": 35971,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S075",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "product": [
+     "reviews"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 17,
+   "sentence": "So I think the two of those things combined, the actual performance, and it's obvious what should happen out of that as well as this being something that is going to be happening in business reviews, those will be the things that get this fixed.",
+   "ev_start": 35972,
+   "ev_end": 36217,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S076",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 20,
+   "sentence": "So that for me is what gives me confidence because there absolutely is commitment and support for that.",
+   "ev_start": 36488,
+   "ev_end": 36591,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S077",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "customer satisfaction"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 0,
+   "sentence": "I think the survey that you're referencing was around customer satisfaction.",
+   "ev_start": 38113,
+   "ev_end": 38189,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S078",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 3,
+   "sentence": "We have a survey that we do with our actual customers who are visiting our restaurants who then give us feedback on performance.",
+   "ev_start": 38496,
+   "ev_end": 38624,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S079",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "customer satisfaction"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 12,
+   "sentence": "It's much better to be actually using survey data based on known customers who actually visited the restaurant, which is the data that we use when we track our customer satisfaction.",
+   "ev_start": 39431,
+   "ev_end": 39613,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "product": [
+     "customer satisfaction"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "I would just say we're always looking at putting our restaurants in the hands of the best operators, whether that's company, franchise or within franchise because we know clearly that if we're delivering better customer satisfaction across all elements of the metric, we deliver better operating performance and better financial results.",
+   "ev_start": 39802,
+   "ev_end": 40139,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S081",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we continue to believe"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 2,
+   "sentence": "I think we've been pretty consistently clear that, obviously, we continue to believe there is significant opportunity for us to continue to grow the brand and add more restaurant locations.",
+   "ev_start": 41998,
+   "ev_end": 42187,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S082",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 5,
+   "sentence": "We did the review over the last several months.",
+   "ev_start": 42364,
+   "ev_end": 42411,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S083",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 6,
+   "sentence": "And I think as you heard me talk about upfront, I think the cumulative inflation that has been disproportionate and significant that we've seen over the last few years, plus the more constrained consumer environment, just simply meant we felt we needed to slightly adjust our pace to make sure that we were going to deliver the right level of returns, which is ultimately, as you've heard Chris and I talk about pretty consistently how we make our decisions on new openings.",
+   "ev_start": 42412,
+   "ev_end": 42886,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S084",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 8,
+   "sentence": "We've simply adjusted our pace to reflect the significant changes in the external environment that have happened over the last several years since we announced the original goal.",
+   "ev_start": 42998,
+   "ev_end": 43176,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S085",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we are going to"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 13,
+   "sentence": "I think we are going to continue to get a decent contribution from new store growth.",
+   "ev_start": 43409,
+   "ev_end": 43493,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S086",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "taking share"
+    ],
+    "competition": [
+     "taking share",
+     "competition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 15,
+   "sentence": "And that's the right formula, I think, to ensure because ultimately, our measure that we're guided by is are we taking share in each of the markets relative to the competition around us.",
+   "ev_start": 43559,
+   "ev_end": 43745,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S087",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 16,
+   "sentence": "And I think we certainly feel confident as we look forward in our ability to continue to do that.",
+   "ev_start": 43746,
+   "ev_end": 43843,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S088",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 23,
+   "sentence": "So I think there's an opportunity for us in terms of emphasis of making sure that we're really emphasizing in our marketing communication, the elements that are going to drive long-term baseline volume growth.",
+   "ev_start": 46617,
+   "ev_end": 46826,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 6,
+   "sentence": "So as you think about the investment that's required, I think what we've been really thoughtful about on this is there's an investment that happens as part of the regular cadence of remodel activity.",
+   "ev_start": 48048,
+   "ev_end": 48247,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S090",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "sales"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 12,
+   "sentence": "So as we're doing that normal remodel cycle, we're also thinking about are there things that we can do on top of that, that can drive additional opportunities to grow sales and simplify operations.",
+   "ev_start": 48590,
+   "ev_end": 48787,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S091",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "improvement"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 14,
+   "sentence": "And so net-net, when you look at the combination of the financial health of our franchisees in the U.S., which is still quite healthy when we look at their balance sheets, they've got a lot of borrowing capacity still, when you look at the fact that we're entering into a normal remodel cycle where these investments would have to be made anyway, and we're going to be able to self-fund much of the sales growth improvement ideas through productivity opportunities, I feel very confident that we'll be able to get this thing done.",
+   "ev_start": 48916,
+   "ev_end": 49446,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S092",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressures"
+    ],
+    "pressure": [
+     "pressures"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 1,
+   "sentence": "But I just would say, in the environment we're in where there's certainly continued inflationary pressures on things like food and paper and labor, I think that is top of mind for our system and our franchisees.",
+   "ev_start": 49659,
+   "ev_end": 49870,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "profitable",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "We have to do that in ways that are driving baseline momentum, which I think everybody is fully aligned on, and we have to do that in ways that drive profitable growth over time.",
+   "ev_start": 50040,
+   "ev_end": 50218,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 7,
+   "sentence": "But I think we have a good track record there.",
+   "ev_start": 50572,
+   "ev_end": 50618,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S095",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.16,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "So imagine you're running a restaurant and you enter into Q2 and we launched K-Pop Demon Hunters.",
+   "ev_start": 51526,
+   "ev_end": 51623,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S096",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 3.66,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "So there's a bunch of work that needs to happen to get ready to launch K-Pop Demon Hunters.",
+   "ev_start": 51624,
+   "ev_end": 51715,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S097",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launching"
+    ]
+   },
+   "score": 3.66,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 7,
+   "sentence": "So you're launching K-Pop Demon Hunters.",
+   "ev_start": 51865,
+   "ev_end": 51905,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S098",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introducing"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 8,
+   "sentence": "Then three weeks later, we're asking you to go execute a change to the McValue program, introducing the EDAP menu, and at the same time, a lot of the digital offers that were there aren't there anymore.",
+   "ev_start": 51906,
+   "ev_end": 52108,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S099",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 13,
+   "sentence": "And then we launched the beverage platform in early May, which is a whole new range of product.",
+   "ev_start": 52457,
+   "ev_end": 52552,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S100",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Kempczinski",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 17,
+   "sentence": "And then we're on that for a few weeks before you launch FIFA.",
+   "ev_start": 52695,
+   "ev_end": 52757,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S101",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched",
+     "new platform",
+     "launch"
+    ]
+   },
+   "score": 5.04,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 1,
+   "sentence": "I would say a few things because during Q2 we had three markets that had launched our new platform: U.S., Canada and Germany, and we've had Australia launch in mid-July.",
+   "ev_start": 54385,
+   "ev_end": 54554,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S102",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "lower volume"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 4,
+   "sentence": "That's really compelling for us because it's at parts of the day where we have lower volume, more capacity.",
+   "ev_start": 54817,
+   "ev_end": 54924,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S103",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 0.82,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 9,
+   "sentence": "We're seeing in Germany, obviously early days still, but meaningful incrementality to the contribution to overall comp guest counts and comp sales and meaningful impact to average restaurant level cash flow.",
+   "ev_start": 55352,
+   "ev_end": 55559,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MCD_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ian Borden",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 11,
+   "sentence": "Beverages go back to how do we get baseline growing platforms in place that give us multiple years of growth opportunity, and that's certainly how we think about our beverage platform and why we're going to continue to extend it to other markets.",
+   "ev_start": 55610,
+   "ev_end": 55856,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "MCD_2026_2-S012",
+  "MCD_2026_2-S009",
+  "MCD_2026_2-S011",
+  "MCD_2026_2-S014",
+  "MCD_2026_2-S017",
+  "MCD_2026_2-S018",
+  "MCD_2026_2-S025",
+  "MCD_2026_2-S032",
+  "MCD_2026_2-S008",
+  "MCD_2026_2-S069",
+  "MCD_2026_2-S002",
+  "MCD_2026_2-S003",
+  "MCD_2026_2-S005",
+  "MCD_2026_2-S006",
+  "MCD_2026_2-S010",
+  "MCD_2026_2-S015",
+  "MCD_2026_2-S016",
+  "MCD_2026_2-S019",
+  "MCD_2026_2-S020",
+  "MCD_2026_2-S022",
+  "MCD_2026_2-S027",
+  "MCD_2026_2-S034",
+  "MCD_2026_2-S049",
+  "MCD_2026_2-S071",
+  "MCD_2026_2-S072",
+  "MCD_2026_2-S101",
+  "MCD_2026_2-S102"
+ ],
+ "surfaced_signal_ids": [
+  "MCD_2026_2-S012",
+  "MCD_2026_2-S009",
+  "MCD_2026_2-S011",
+  "MCD_2026_2-S014",
+  "MCD_2026_2-S017",
+  "MCD_2026_2-S018",
+  "MCD_2026_2-S025",
+  "MCD_2026_2-S032",
+  "MCD_2026_2-S008",
+  "MCD_2026_2-S069",
+  "MCD_2026_2-S002",
+  "MCD_2026_2-S003",
+  "MCD_2026_2-S005",
+  "MCD_2026_2-S006",
+  "MCD_2026_2-S010",
+  "MCD_2026_2-S015",
+  "MCD_2026_2-S016",
+  "MCD_2026_2-S019",
+  "MCD_2026_2-S020",
+  "MCD_2026_2-S022",
+  "MCD_2026_2-S027",
+  "MCD_2026_2-S034",
+  "MCD_2026_2-S049",
+  "MCD_2026_2-S071",
+  "MCD_2026_2-S072",
+  "MCD_2026_2-S101",
+  "MCD_2026_2-S102",
+  "MCD_2026_2-S076",
+  "MCD_2026_2-S054",
+  "MCD_2026_2-S091",
+  "MCD_2026_2-S041",
+  "MCD_2026_2-S103",
+  "MCD_2026_2-S037"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "business_slowed_significantly_posting",
+   "constant_currency",
+   "u_s",
+   "international_operated_markets",
+   "international_developmental_licensed_markets",
+   "year_to_date",
+   "restaurants_drove",
+   "i_m"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "year_to_date",
+   "restaurants_drove"
+  ],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 104,
+  "signals_usable": 104,
+  "selected": 27,
+  "by_topic": {
+   "momentum": 33,
+   "product": 41,
+   "competition": 6,
+   "strategy": 10,
+   "pressure": 4
+  },
+  "by_horizon": {
+   "current": 86,
+   "forward": 18
+  },
+  "trajectory_rows": 2,
+  "blocks_with_content": 8,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

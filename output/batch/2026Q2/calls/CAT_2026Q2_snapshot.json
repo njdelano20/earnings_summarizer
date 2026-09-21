@@ -1,0 +1,7452 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "CAT",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "CAT",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Alex Kapper",
+    "role": "ir"
+   },
+   {
+    "name": "Joseph Creed",
+    "role": "management"
+   },
+   {
+    "name": "Kyle Epley",
+    "role": "management"
+   },
+   {
+    "name": "Michael Feniger",
+    "role": "analyst"
+   },
+   {
+    "name": "Tami Zakaria",
+    "role": "analyst"
+   },
+   {
+    "name": "David Raso",
+    "role": "analyst"
+   },
+   {
+    "name": "Jamie Cook",
+    "role": "analyst"
+   },
+   {
+    "name": "Robert Wertheimer",
+    "role": "analyst"
+   },
+   {
+    "name": "Stephen Volkmann",
+    "role": "analyst"
+   },
+   {
+    "name": "Kristen Owen",
+    "role": "analyst"
+   },
+   {
+    "name": "Mircea Dobre",
+    "role": "analyst"
+   },
+   {
+    "name": "Angel Castillo Malpica",
+    "role": "analyst"
+   },
+   {
+    "name": "Kyle Menges",
+    "role": "analyst"
+   },
+   {
+    "name": "Jerry Revich",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "CAT_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Operating margin 21.9%",
+   "fact_ids": [
+    "CAT_2026_2-004"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $5.10B",
+   "fact_ids": [
+    "CAT_2026_2-002"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.20, qa +0.71",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "mentioned_sales",
+   "name": "Mentioned, Sales",
+   "depth": 0,
+   "revenue": {
+    "value": 20500000000.0,
+    "fact_id": "CAT_2026_2-003"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "sales",
+   "name": "Sales",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 62
+  },
+  {
+   "node": "financial_products",
+   "name": "Financial Products",
+   "depth": 0,
+   "revenue": {
+    "value": 1100000000.0,
+    "fact_id": "CAT_2026_2-014"
+   },
+   "growth": {
+    "value": 10.0,
+    "period": "second quarter",
+    "fact_id": "CAT_2026_2-013",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "CAT_2026_2-008",
+   "CAT_2026_2-009",
+   "CAT_2026_2-010",
+   "CAT_2026_2-004",
+   "CAT_2026_2-002",
+   "CAT_2026_2-001",
+   "CAT_2026_2-018",
+   "CAT_2026_2-017",
+   "CAT_2026_2-016",
+   "CAT_2026_2-012",
+   "CAT_2026_2-020",
+   "CAT_2026_2-011",
+   "CAT_2026_2-022",
+   "CAT_2026_2-015",
+   "CAT_2026_2-021",
+   "CAT_2026_2-005"
+  ],
+  "signal_ids": [
+   "CAT_2026_2-S005",
+   "CAT_2026_2-S018",
+   "CAT_2026_2-S021",
+   "CAT_2026_2-S027",
+   "CAT_2026_2-S056",
+   "CAT_2026_2-S064",
+   "CAT_2026_2-S072",
+   "CAT_2026_2-S084",
+   "CAT_2026_2-S085",
+   "CAT_2026_2-S088",
+   "CAT_2026_2-S103",
+   "CAT_2026_2-S104",
+   "CAT_2026_2-S116",
+   "CAT_2026_2-S134",
+   "CAT_2026_2-S137"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "mentioned_sales",
+   "name": "Mentioned, Sales",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CAT_2026_2-003"
+   ],
+   "signal_ids": [
+    "CAT_2026_2-S006"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "sales",
+   "name": "Sales",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CAT_2026_2-007",
+    "CAT_2026_2-019"
+   ],
+   "signal_ids": [
+    "CAT_2026_2-S009",
+    "CAT_2026_2-S012",
+    "CAT_2026_2-S019",
+    "CAT_2026_2-S020",
+    "CAT_2026_2-S023",
+    "CAT_2026_2-S080",
+    "CAT_2026_2-S124",
+    "CAT_2026_2-S129",
+    "CAT_2026_2-S133",
+    "CAT_2026_2-S138",
+    "CAT_2026_2-S184"
+   ],
+   "n_home_signals": 61,
+   "n_mentions": 62,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "financial_products",
+   "name": "Financial Products",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CAT_2026_2-013",
+    "CAT_2026_2-014"
+   ],
+   "signal_ids": [
+    "CAT_2026_2-S096"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 3,
+    "cautious": 2,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.2
+   },
+   "qa": {
+    "confident": 6,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.71
+   }
+  },
+  "speakers": {
+   "Joseph Creed": {
+    "confident": 9,
+    "cautious": 2
+   },
+   "Kyle Epley": {
+    "cautious": 1
+   }
+  },
+  "notable_confident": [
+   "CAT_2026_2-S174",
+   "CAT_2026_2-S027",
+   "CAT_2026_2-S041",
+   "CAT_2026_2-S179"
+  ],
+  "notable_cautious": [
+   "CAT_2026_2-S029",
+   "CAT_2026_2-S163",
+   "CAT_2026_2-S105"
+  ],
+  "withheld": [],
+  "revisions": [
+   "CAT_2026_2-S051",
+   "CAT_2026_2-S124",
+   "CAT_2026_2-S134",
+   "CAT_2026_2-S137",
+   "CAT_2026_2-S138",
+   "CAT_2026_2-S141"
+  ]
+ },
+ "signals": [
+  {
+   "id": "CAT_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "strong",
+     "up 24"
+    ],
+    "performance": [
+     "sales",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "In the second quarter, sales and revenues were better than expected at $20.5 billion, up 24% versus the prior year, driven by strong end market demand in all three of our primary segments.",
+   "ev_start": 2479,
+   "ev_end": 2667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenges"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "This milestone underscores both the essential work our customers do every day and the dedication of Caterpillar employees worldwide to solving our customers' toughest challenges.",
+   "ev_start": 2788,
+   "ev_end": 2966,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "backlog",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Our backlog grew sequentially by $9 billion to $72 billion.",
+   "ev_start": 3053,
+   "ev_end": 3112,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum",
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "backlog",
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Strong order rates and a growing backlog reflect broadening momentum across our business.",
+   "ev_start": 3304,
+   "ev_end": 3393,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S005",
+   "topics": [
+    "momentum",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "product": [
+     "deployed"
+    ],
+    "strategy": [
+     "repurchases",
+     "dividends"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 4.86,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "In the quarter, we generated robust MP&E free cash flow of $5.1 billion and deployed $2.2 billion to shareholders through share repurchases and dividends.",
+   "ev_start": 3394,
+   "ev_end": 3548,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "mentioned_sales",
+    "sales"
+   ],
+   "home": "mentioned_sales",
+   "fact_ids": [
+    "CAT_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "favorable"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "As I mentioned, sales and revenues were $20.5 billion, and the increase versus prior year was primarily driven by strong growth in sales volume from higher sales to users in all three primary segments and favorable price realization.",
+   "ev_start": 3605,
+   "ev_end": 3838,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Second quarter sales and revenues were better than expected due to strong sales volume growth in Construction Industries and Resource Industries, while Power & Energy was broadly in line with our expectations.",
+   "ev_start": 3839,
+   "ev_end": 4048,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "performance": [
+     "profit",
+     "margin"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Second quarter adjusted operating profit margin was better than we anticipated, primarily due to IEEPA tariff recoveries of $392 million and lower-than-expected tariff costs.",
+   "ev_start": 4093,
+   "ev_end": 4267,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S009",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.31,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "The margin benefit from better-than-expected sales volume was mostly offset by higher SG&A and R&D expense.",
+   "ev_start": 4268,
+   "ev_end": 4375,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S010",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 5.44,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "For tariffs introduced since the beginning of 2025, excluding IEEPA recoveries, costs were about $400 million in the quarter.",
+   "ev_start": 4376,
+   "ev_end": 4501,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "Sales to users grew in all three of our primary segments.",
+   "ev_start": 4770,
+   "ev_end": 4827,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "In Power & Energy, sales to users grew a robust 33%.",
+   "ev_start": 4828,
+   "ev_end": 4880,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "Power generation grew 72%, driven by very strong demand for large gensets and turbines used in data center applications.",
+   "ev_start": 4881,
+   "ev_end": 5001,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 6"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Sales to users in oil and gas increased 6% and were driven by reciprocating engines, turbines and turbine-related services sold into gas compression applications.",
+   "ev_start": 5002,
+   "ev_end": 5164,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "sales",
+     "decline"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Industrial sales to users were down due to a decline in engines sold in the marine application.",
+   "ev_start": 5165,
+   "ev_end": 5260,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 22"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.62,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Construction Industries total sales to users grew for the sixth consecutive quarter, up 22%.",
+   "ev_start": 5261,
+   "ev_end": 5353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.24,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Increases in North America were better than we anticipated as the growth was driven by very strong rental fleet loading and equipment sold into nonresidential and residential construction.",
+   "ev_start": 5354,
+   "ev_end": 5542,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S018",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ]
+   },
+   "score": 3.74,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Dealers' rental revenue continues to grow in North America, requiring more investment in their equipment fleets.",
+   "ev_start": 5543,
+   "ev_end": 5655,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S019",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "This quarter, rental loading was a positive contributor to sales to user growth as compared to second quarter last year when rental loading was a headwind.",
+   "ev_start": 5656,
+   "ev_end": 5811,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S020",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "sales",
+     "softness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Sales to users increased in EAME due to strength in Europe and Africa, but were lower than we anticipated due to softness in the Middle East.",
+   "ev_start": 5812,
+   "ev_end": 5953,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S021",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "growth",
+     "softness"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "In Asia Pacific, growth was driven by China, but softness outside of China kept the overall region below our expectations.",
+   "ev_start": 5954,
+   "ev_end": 6076,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.92,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "Latin America grew as we anticipated.",
+   "ev_start": 6077,
+   "ev_end": 6114,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 17"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "For Resource Industries, second quarter sales to users increased 17%, which was in line with our expectations.",
+   "ev_start": 6115,
+   "ev_end": 6225,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S024",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "To support the demand growth in power generation and oil and gas applications, we're excited to resume production of our 10-megawatt medium-speed gas reciprocating engine platform.",
+   "ev_start": 6506,
+   "ev_end": 6686,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S025",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "And now without significant investment, we're able to restart production by leveraging our existing supply base along with our internal capacity and capability.",
+   "ev_start": 7021,
+   "ev_end": 7181,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S026",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "And finally, Resource Industries completed the acquisition of Skycatch in July, further enhancing our capabilities following the recent acquisition of RPMGlobal.",
+   "ev_start": 8240,
+   "ev_end": 8401,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S027",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "negative": [
+     "reduced",
+     "delays"
+    ],
+    "pressure": [
+     "delays"
+    ],
+    "performance": [
+     "customers"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "That allows customers to identify, measure and interact with the data, resulting in improved decision-making, reduced delays and greater confidence in daily operations.",
+   "ev_start": 8536,
+   "ev_end": 8704,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S028",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "This is another example of investment in technology-enabled growth that will help our mining customers operate more efficiently and achieve better outcomes.",
+   "ev_start": 8705,
+   "ev_end": 8861,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "We continue to see strong momentum in our end markets despite ongoing uncertainty due to geopolitical events.",
+   "ev_start": 8917,
+   "ev_end": 9026,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": {
+    "node": "sales",
+    "metric": "revenue",
+    "descriptor": "high-teens",
+    "band": [
+     17.0,
+     19.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high-teens",
+     "healthy"
+    ],
+    "forward": [
+     "full year"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "demand"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "We are increasing our full year 2026 sales and revenues expectations to mid- to high-teens growth based on the healthy demand we are seeing across all three of our primary segments.",
+   "ev_start": 9027,
+   "ev_end": 9208,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "anticipate",
+     "full year",
+     "outlook"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "As a result, we anticipate stronger full year growth across all three primary segments compared to the outlook we gave in April.",
+   "ev_start": 9339,
+   "ev_end": 9467,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expected to",
+     "for the full year",
+     "outlook"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "Services revenues are also expected to grow at a higher rate for the full year compared to our previous outlook.",
+   "ev_start": 9468,
+   "ev_end": 9580,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "improved"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "record",
+     "backlog"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "The improved outlook is also supported by the breadth and duration of our record backlog.",
+   "ev_start": 9581,
+   "ev_end": 9670,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S034",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Currently, 59% of our $72 billion backlog is expected to be delivered over the next 12 months.",
+   "ev_start": 9889,
+   "ev_end": 9983,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "This percentage has been fairly stable over the past three quarters, which demonstrates the momentum in all three primary segments.",
+   "ev_start": 9984,
+   "ev_end": 10115,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "forward": [
+     "expect",
+     "full year",
+     "outlook"
+    ],
+    "performance": [
+     "profit",
+     "margin",
+     "earnings",
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "We expect the full year adjusted operating profit margin to be higher than we expected during our last earnings call, reflecting the improved sales and revenues outlook.",
+   "ev_start": 10163,
+   "ev_end": 10332,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "performance": [
+     "profit",
+     "margin"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "Excluding the favorable impact from our IEEPA tariff recoveries in the second quarter, we expect full year adjusted operating profit margin to be near the bottom of the target range.",
+   "ev_start": 10333,
+   "ev_end": 10515,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S038",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ],
+    "pressure": [
+     "tariffs"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "Our full year margin expectation reflects the strategic investments we are making to execute our growth strategy as well as the ongoing impact of tariffs.",
+   "ev_start": 10516,
+   "ev_end": 10670,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S039",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "While the situation around tariffs remains fluid, we continue to execute our mitigation plans.",
+   "ev_start": 10671,
+   "ev_end": 10765,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S040",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "Kyle will provide more detail on our revised full year estimate for tariffs in a moment.",
+   "ev_start": 10766,
+   "ev_end": 10854,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S041",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "I'm confident that we'll manage the impact of tariffs over time as we aim to operate around the midpoint of our adjusted operating profit margin target range.",
+   "ev_start": 10855,
+   "ev_end": 11013,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "We are also increasing our MP&E free cash flow expectations to be in the top half of our annual target range, reflecting our improved outlook.",
+   "ev_start": 11014,
+   "ev_end": 11156,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "strong"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "Our positive outlook for 2026 continues to reflect strong demand in power generation and oil and gas.",
+   "ev_start": 11225,
+   "ev_end": 11326,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "solid"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "Strong second quarter performance has set a solid foundation for continued growth for the remainder of the year.",
+   "ev_start": 11327,
+   "ev_end": 11439,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S045",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate",
+     "full year"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 76,
+   "sentence": "We continue to anticipate full year growth in power generation for both Cat reciprocating engines and Solar Turbines driven by increasing energy demand to support data center build-out related to cloud computing and generative AI.",
+   "ev_start": 11440,
+   "ev_end": 11670,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "grow"
+    ],
+    "forward": [
+     "is expected"
+    ],
+    "performance": [
+     "record",
+     "sales",
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "After a record year for sales in 2025, oil and gas is expected to grow moderately again this year.",
+   "ev_start": 11863,
+   "ev_end": 11961,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Reciprocating engine sales are anticipated to increase driven by strong demand in gas compression applications.",
+   "ev_start": 11962,
+   "ev_end": 12073,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "We also see continued momentum in demand for reciprocating engine aftermarket parts.",
+   "ev_start": 12074,
+   "ev_end": 12158,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "solid",
+     "grow"
+    ],
+    "forward": [
+     "are expected"
+    ],
+    "performance": [
+     "sales",
+     "grow",
+     "backlog"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "Solar Turbines oil and gas sales are expected to grow while the backlog remains healthy, as we continue to see solid order and inquiry activity.",
+   "ev_start": 12159,
+   "ev_end": 12303,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "is expected"
+    ],
+    "performance": [
+     "demand",
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "Demand for products in industrial applications is expected to grow moderately in 2026.",
+   "ev_start": 12304,
+   "ev_end": 12390,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 83,
+   "sentence": "For Construction Industries, we continue to expect full year sales to users growth, supported by strong order rates.",
+   "ev_start": 12391,
+   "ev_end": 12507,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "grow"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "sales",
+     "grow"
+    ]
+   },
+   "score": 4.24,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "Overall, the outlook for North America remains positive as sales to users are anticipated to grow versus last year.",
+   "ev_start": 12508,
+   "ev_end": 12623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S053",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "Nonresidential investment in critical infrastructure programs, heavy construction and data centers is contributing to overall construction spending levels.",
+   "ev_start": 12757,
+   "ev_end": 12912,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.18,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 87,
+   "sentence": "We expect dealer rental fleet loading will continue to grow including additional fleet loading for Major Projects in the third quarter.",
+   "ev_start": 12913,
+   "ev_end": 13048,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenged"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 89,
+   "sentence": "While the Middle East continues to be challenged, we currently anticipate only a limited impact on EAME sales to users.",
+   "ev_start": 13204,
+   "ev_end": 13323,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S056",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softer"
+    ],
+    "forward": [
+     "are expected"
+    ],
+    "pressure": [
+     "softer"
+    ]
+   },
+   "score": 5.78,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 90,
+   "sentence": "In Asia Pacific outside of China, softer economic conditions are expected.",
+   "ev_start": 13324,
+   "ev_end": 13398,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S057",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate",
+     "full year"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 91,
+   "sentence": "In China, we anticipate moderate conditions with full year growth in the above 10-ton excavator industry off of low levels of activity.",
+   "ev_start": 13399,
+   "ev_end": 13534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S058",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ]
+   },
+   "score": 1.92,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 92,
+   "sentence": "We expect full year growth in Latin America.",
+   "ev_start": 13535,
+   "ev_end": 13579,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "momentum",
+     "robust",
+     "strong"
+    ],
+    "performance": [
+     "momentum",
+     "backlog",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 93,
+   "sentence": "We're seeing continued positive momentum in Resource Industries with robust order rates and strong backlog growth.",
+   "ev_start": 13580,
+   "ev_end": 13694,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "are expected"
+    ],
+    "performance": [
+     "sales",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 94,
+   "sentence": "For 2026, sales to users are expected to increase, primarily driven by rising demand for copper and gold and positive dynamics in heavy construction and quarry and aggregates.",
+   "ev_start": 13695,
+   "ev_end": 13870,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S061",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 95,
+   "sentence": "Most key commodities remain above investment thresholds.",
+   "ev_start": 13871,
+   "ev_end": 13927,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "for the year"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 99,
+   "sentence": "Rail services and locomotive deliveries are both anticipated to grow for the year.",
+   "ev_start": 14181,
+   "ev_end": 14263,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S063",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "grow"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "customers",
+     "grow",
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 102,
+   "sentence": "As we invest in our capacity to meet customers' increasing needs, we're finding creative ways to reallocate resources and optimize our operations as we grow to record levels.",
+   "ev_start": 14498,
+   "ev_end": 14672,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 104,
+   "sentence": "Last November, we announced an increase in our new turbine capacity of 2.5x 2024 levels.",
+   "ev_start": 14698,
+   "ev_end": 14786,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S065",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "growing",
+     "installed base"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 105,
+   "sentence": "This capacity will serve oil and gas and power generation applications and be leveraged to provide rebuild and services for our growing installed base for decades to come.",
+   "ev_start": 14787,
+   "ev_end": 14958,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "popular"
+    ],
+    "product": [
+     "ship",
+     "popular"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 108,
+   "sentence": "From Wamego, we now package and ship our PGM130, a product that is popular for data center power generation.",
+   "ev_start": 15259,
+   "ev_end": 15367,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "customers",
+     "grow",
+     "profitably"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 109,
+   "sentence": "This is one of many examples of how we are continuing to manage our business with discipline and maximize the use of our existing footprint to serve our customers and grow profitably.",
+   "ev_start": 15368,
+   "ev_end": 15551,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [
+    "CAT_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "up 24"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Sales and revenues were $20.5 billion, up 24% versus the prior year, which was better than our expectations.",
+   "ev_start": 15985,
+   "ev_end": 16093,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [
+    "CAT_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "performance": [
+     "profit",
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Adjusted operating profit was $4.5 billion, and our adjusted operating profit margin was 21.9%, both better than we anticipated.",
+   "ev_start": 16094,
+   "ev_end": 16222,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "favorable"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "The 24% increase in sales and revenues compared to the second quarter of 2025 was primarily driven by strong growth in sales volume and favorable price realization.",
+   "ev_start": 16242,
+   "ev_end": 16406,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "The stronger sales volume was mainly driven by higher sales of equipment to end users across all three primary segments.",
+   "ev_start": 16407,
+   "ev_end": 16527,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "decrease"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Dealer inventory increased by $400 million in Construction Industries compared to a decrease in the second quarter of 2025.",
+   "ev_start": 16528,
+   "ev_end": 16651,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "The increase was higher than we originally anticipated, supported by our expectation of stronger sales to users for the rest of the year, which reflects strong end market demand.",
+   "ev_start": 16652,
+   "ev_end": 16830,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "Sales and revenues were above our expectations, mainly driven by stronger-than-expected sales volume in Construction Industries and Resource Industries.",
+   "ev_start": 16831,
+   "ev_end": 16983,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-008",
+    "CAT_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 50"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Operating profit in the second quarter increased by 50% to $4.3 billion.",
+   "ev_start": 17079,
+   "ev_end": 17151,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [
+    "CAT_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 54"
+    ],
+    "performance": [
+     "profit",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "Adjusted operating profit of $4.5 billion increased by 54% versus the prior year, mainly due to the profit impact of higher sales volume.",
+   "ev_start": 17152,
+   "ev_end": 17289,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "Margin was better than we anticipated, primarily due to expected IEEPA tariff recoveries and lower-than-expected tariff costs.",
+   "ev_start": 17403,
+   "ev_end": 17529,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.31,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "The margin benefit from better-than-expected sales volume was mostly offset by higher SG&A and R&D expense.",
+   "ev_start": 17530,
+   "ev_end": 17637,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S079",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "In the quarter, we recognized $392 million in expected IEEPA tariff recoveries with the majority of this amount reflected in corporate items.",
+   "ev_start": 17638,
+   "ev_end": 17779,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S080",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ],
+    "pressure": [
+     "tariffs",
+     "tariff"
+    ]
+   },
+   "score": 5.44,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "For the tariffs introduced since the beginning of 2025, excluding IEEPA recoveries, the second quarter tariff costs were approximately $400 million.",
+   "ev_start": 17780,
+   "ev_end": 17928,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S081",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "This favorability was primarily driven by adjustments to the computation of tariffs previously incurred.",
+   "ev_start": 18012,
+   "ev_end": 18116,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S082",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "The $400 million of tariff costs were recognized within the segments and corporate items.",
+   "ev_start": 18117,
+   "ev_end": 18206,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "restructuring"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Restructuring costs in the quarter were $0.40 versus $0.10 last year.",
+   "ev_start": 18572,
+   "ev_end": 18641,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S084",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "negative": [
+     "reduction"
+    ],
+    "strategy": [
+     "repurchases"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Finally, the year-over-year impact from the reduction in the average number of shares outstanding due to share repurchases resulted in a favorable impact on adjusted profit per share of approximately $0.15 compared to the second quarter of 2025.",
+   "ev_start": 18790,
+   "ev_end": 19035,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S085",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "product": [
+     "review"
+    ]
+   },
+   "score": 5.46,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "On Slide 11, I will now review the second quarter performance of the segments, starting with Power & Energy.",
+   "ev_start": 19036,
+   "ev_end": 19144,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 17"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "For Power & Energy, sales of $8.2 billion increased by 17% versus the prior year, which was generally in line with our expectations.",
+   "ev_start": 19145,
+   "ev_end": 19277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "The sales increase versus the prior year was mainly due to higher sales volume and favorable price realization.",
+   "ev_start": 19278,
+   "ev_end": 19389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 30"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Second quarter profit for Power & Energy increased by 30% versus the prior year to $2 billion.",
+   "ev_start": 19390,
+   "ev_end": 19484,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": [
+     "profit",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "The increase was mainly due to the profit impact of higher sales volume and favorable price realization, which was partially offset by unfavorable manufacturing costs.",
+   "ev_start": 19574,
+   "ev_end": 19741,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S090",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Segment margin was higher than anticipated, primarily due to lower-than-expected manufacturing costs, including tariffs.",
+   "ev_start": 19860,
+   "ev_end": 19980,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "increased by 35"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 3.62,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "Construction Industries sales increased by 35% in the second quarter to $8.3 billion, primarily due to higher sales volume and favorable price realization.",
+   "ev_start": 20005,
+   "ev_end": 20160,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "The $400 million of dealer inventory increase and services revenue growth resulted in sales volume to be better than we expected.",
+   "ev_start": 20242,
+   "ev_end": 20371,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 20"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 3.62,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "Resource Industries sales increased by 20% in the second quarter to $4.6 billion, primarily driven by higher sales volume.",
+   "ev_start": 20853,
+   "ev_end": 20975,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "favorable"
+    ],
+    "performance": [
+     "sales",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Sales were better than we anticipated due to higher sales volume, driven by favorable services revenues growth.",
+   "ev_start": 21024,
+   "ev_end": 21135,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 23"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "Second quarter profit for Resource Industries increased by 23% versus the prior year to $693 million.",
+   "ev_start": 21136,
+   "ev_end": 21237,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financial_products"
+   ],
+   "home": "financial_products",
+   "fact_ids": [
+    "CAT_2026_2-013",
+    "CAT_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 10"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "Financial Products revenues increased by 10% versus the prior year to $1.1 billion, mainly due to higher average earning assets across all regions.",
+   "ev_start": 21553,
+   "ev_end": 21700,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S097",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 32"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "Segment profit increased by 32% to $328 million.",
+   "ev_start": 21701,
+   "ev_end": 21749,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Our customers' financial health remains strong.",
+   "ev_start": 21968,
+   "ev_end": 22015,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "volume",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "Retail new business volume grew by 9% versus the prior year.",
+   "ev_start": 22303,
+   "ev_end": 22363,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S100",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "cash flow",
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "MP&E free cash flow was a record at $5.1 billion in the second quarter.",
+   "ev_start": 22608,
+   "ev_end": 22679,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "This was about $2.8 billion increase versus the prior year, mainly driven by stronger profit.",
+   "ev_start": 22680,
+   "ev_end": 22773,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S102",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "We deployed $2.2 billion to shareholders in the second quarter.",
+   "ev_start": 22855,
+   "ev_end": 22918,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S103",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchases",
+     "dividend"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Share repurchases accounted for about $1.5 billion, with the remainder reflecting our quarterly dividend payment.",
+   "ev_start": 22919,
+   "ev_end": 23032,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S104",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CAT_2026_2-017"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "dividend"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 74,
+   "sentence": "In June, we announced an 8% dividend increase, our sixth consecutive year with a high single-digit quarterly increase.",
+   "ev_start": 23033,
+   "ev_end": 23151,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S105",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "We are continuing to monitor the environment as geopolitical conditions remain fluid and complex.",
+   "ev_start": 23484,
+   "ev_end": 23581,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 82,
+   "sentence": "Based on what we see today for the third quarter, we anticipate another strong quarter of sales growth versus the prior year.",
+   "ev_start": 23582,
+   "ev_end": 23707,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S107",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 83,
+   "sentence": "We expect volume increases and favorable price realization in each of our three primary segments.",
+   "ev_start": 23708,
+   "ev_end": 23805,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S108",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "We anticipate volume growth will be driven by higher sales to users across all three primary segments versus the prior year.",
+   "ev_start": 23806,
+   "ev_end": 23930,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength",
+     "favorable"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 85,
+   "sentence": "If we look at the segments, we anticipate strong sales growth in Power & Energy in the third quarter versus the prior year, driven by continued strength in power generation and in oil and gas, modest growth in industrial applications as it continues to recover and favorable price realization.",
+   "ev_start": 23931,
+   "ev_end": 24224,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "favorable"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 86,
+   "sentence": "In Construction Industries, we expect strong sales growth in the third quarter versus the prior year mainly due to higher sales volume on strong sales to users and favorable price realization.",
+   "ev_start": 24225,
+   "ev_end": 24417,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S111",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "is expected"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "As a result, the year-over-year impact from dealer inventory is expected to be a modest headwind to sales volume in the quarter.",
+   "ev_start": 24523,
+   "ev_end": 24651,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 89,
+   "sentence": "In Resource Industries, we also expect strong sales growth in the third quarter versus the prior year primarily due to higher sales to users and services growth.",
+   "ev_start": 24652,
+   "ev_end": 24813,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S113",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 91,
+   "sentence": "Now I will provide some color on our third quarter margin expectations versus the prior year.",
+   "ev_start": 24910,
+   "ev_end": 25003,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S114",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "rolled out"
+    ],
+    "strategy": [
+     "r&d",
+     "investment",
+     "investments"
+    ],
+    "performance": [
+     "profit",
+     "margin",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 6.31,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 92,
+   "sentence": "We expect higher adjusted operating profit margin at the enterprise level versus prior year, primarily due to favorable price realization and higher sales volume, partially offset by unfavorable manufacturing cost including depreciation expense and freight, along with higher SG&A and R&D expenses due to the continued investment in strategic investments aligned with our 2030 goals that we rolled out at our last year's Investor Day.",
+   "ev_start": 25004,
+   "ev_end": 25438,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S115",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 93,
+   "sentence": "We anticipate tariff costs of around $600 million, which is similar to what we incurred in the third quarter of 2025.",
+   "ev_start": 25439,
+   "ev_end": 25556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S116",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 94,
+   "sentence": "We expect about 50% of the tariffs to be incurred in Construction Industries and 25% in both Power & Energy and Resource Industries.",
+   "ev_start": 25557,
+   "ev_end": 25689,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S117",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "favorable"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "margin",
+     "volume"
+    ]
+   },
+   "score": 4.46,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 96,
+   "sentence": "In Power & Energy, we anticipate a higher margin percentage compared to the prior year on stronger volume and favorable price realization.",
+   "ev_start": 25734,
+   "ev_end": 25872,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S118",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expected to"
+    ],
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 98,
+   "sentence": "SG&A and R&D expenses are also expected to be higher.",
+   "ev_start": 26008,
+   "ev_end": 26061,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "margin",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 99,
+   "sentence": "In Construction Industries, we anticipate a higher margin percentage compared to the prior year, primarily due to favorable price realization and higher sales volume.",
+   "ev_start": 26062,
+   "ev_end": 26228,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S120",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 100,
+   "sentence": "This is partially offset by higher manufacturing costs, including tariff and freight costs.",
+   "ev_start": 26229,
+   "ev_end": 26320,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S121",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are expected"
+    ],
+    "strategy": [
+     "investments",
+     "r&d"
+    ]
+   },
+   "score": 4.31,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 101,
+   "sentence": "Strategic investments related to technology are expected to increase SG&A and R&D expenses versus prior year.",
+   "ev_start": 26321,
+   "ev_end": 26430,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S122",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "strategy": [
+     "r&d"
+    ],
+    "performance": [
+     "margin",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 102,
+   "sentence": "In Resource Industries, we anticipate a similar margin percentage compared to the prior year due to higher sales volume and favorable price realization, partially offset by higher manufacturing costs, including tariff costs and SG&A and R&D expenses.",
+   "ev_start": 26431,
+   "ev_end": 26681,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S123",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments",
+     "r&d"
+    ]
+   },
+   "score": 3.31,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 103,
+   "sentence": "Higher compensation expense and strategic investments related to technology, including autonomy, are driving the higher SG&A and R&D expenses versus prior year.",
+   "ev_start": 26682,
+   "ev_end": 26842,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [
+    "CAT_2026_2-019"
+   ],
+   "guided": {
+    "node": "sales",
+    "metric": "revenue",
+    "descriptor": "high-teens",
+    "band": [
+     17.0,
+     19.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high-teens"
+    ],
+    "forward": [
+     "anticipate",
+     "for the full year"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 6.72,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 106,
+   "sentence": "As Joe mentioned, we now anticipate sales and revenues growth in the mid- to high-teens for the full year of 2026.",
+   "ev_start": 26908,
+   "ev_end": 27022,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "healthy",
+     "expansion"
+    ],
+    "forward": [
+     "full year",
+     "second half"
+    ],
+    "performance": [
+     "sales",
+     "revenue",
+     "growth",
+     "backlog"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 108,
+   "sentence": "The increase in our full year sales and revenue expectations is supported by strong sales to users growth across all three primary segments driven by healthy end markets, strong order rates across all three primary segments driving backlog growth and increased throughput from our capacity expansion plans in the second half.",
+   "ev_start": 27086,
+   "ev_end": 27411,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 109,
+   "sentence": "We expect strong sales growth across each of our primary segments, mainly driven by volume and price.",
+   "ev_start": 27412,
+   "ev_end": 27513,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S127",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half",
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 110,
+   "sentence": "For the enterprise, we typically see higher sales and revenues in the second half as compared to the first, and we expect to follow that trend this year.",
+   "ev_start": 27514,
+   "ev_end": 27667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S128",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we plan",
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 112,
+   "sentence": "We plan to end the year higher than last year in anticipation of future end market growth.",
+   "ev_start": 27794,
+   "ev_end": 27884,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S129",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "is expected",
+     "second half"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 7.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 113,
+   "sentence": "As a result, the year-over-year impact from dealer inventory is expected to be a headwind to Construction Industries sales volume in the second half of the year.",
+   "ev_start": 27885,
+   "ev_end": 28046,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S130",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 114,
+   "sentence": "Now on to adjusted operating profit margin for the full year.",
+   "ev_start": 28047,
+   "ev_end": 28108,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S131",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "full year"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 115,
+   "sentence": "Due to the increased sales and revenues outlook, full year adjusted operating profit margin will be higher than we expected in April.",
+   "ev_start": 28109,
+   "ev_end": 28242,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S132",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 116,
+   "sentence": "Excluding the expected IEEPA tariff recoveries, our full year adjusted operating margin would be near the bottom of the range at the higher sales level.",
+   "ev_start": 28243,
+   "ev_end": 28395,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S133",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "strategy": [
+     "r&d",
+     "investments"
+    ],
+    "performance": [
+     "profit",
+     "margin",
+     "sales",
+     "volume"
+    ]
+   },
+   "score": 2.81,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 117,
+   "sentence": "Compared to last year, higher adjusted operating profit margin will reflect favorable price realization, higher sales volume, partially offset by higher manufacturing costs, including tariffs, depreciation expense and freight and higher SG&A and R&D, driven by compensation expense and strategic investments spend.",
+   "ev_start": 28396,
+   "ev_end": 28710,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S134",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "pressure": [
+     "tariff"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.44,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 118,
+   "sentence": "Excluding the expected IEEPA tariff recoveries of approximately $400 million reported in the second quarter, we now expect full year 2026 tariff costs of around $2.2 billion or at the low end of the range we previously provided.",
+   "ev_start": 28711,
+   "ev_end": 28939,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S135",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "second half"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 119,
+   "sentence": "Our outlook does not include any additional IEEPA tariff recoveries in the second half of the year.",
+   "ev_start": 28940,
+   "ev_end": 29039,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S136",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half",
+     "expected to"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 120,
+   "sentence": "As we lap incremental tariff costs, the tariff impact to the second half adjusted operating profit and margins is not expected to be significant.",
+   "ev_start": 29040,
+   "ev_end": 29185,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S137",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "restructuring"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 122,
+   "sentence": "We continue to expect restructuring costs of approximately $300 million to $350 million in 2026.",
+   "ev_start": 29197,
+   "ev_end": 29293,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [
+    "CAT_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "forward": [
+     "outlook",
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "margin",
+     "cash flow"
+    ],
+    "revision": [
+     "revised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 7.36,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 124,
+   "sentence": "With the improved sales and revenues and adjusted operating margin outlook, we now expect MP&E free cash flow to be in the top half of our annual target range of $6 billion to $15 billion.",
+   "ev_start": 29402,
+   "ev_end": 29590,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S139",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ]
+   },
+   "score": 1.86,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 125,
+   "sentence": "We expect second half MP&E free cash flow to be slightly higher than the first half despite higher CapEx spend.",
+   "ev_start": 29591,
+   "ev_end": 29702,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S140",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "earnings"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 129,
+   "sentence": "We delivered a strong first half with better-than-expected sales and revenues and earnings.",
+   "ev_start": 29853,
+   "ev_end": 29944,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S141",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": {
+    "node": "sales",
+    "metric": "revenue",
+    "descriptor": "high-teens",
+    "band": [
+     17.0,
+     19.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high-teens",
+     "better than"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "profit",
+     "margin",
+     "cash flow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.86,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 130,
+   "sentence": "In this dynamic operating environment, we now anticipate mid- to high-teens sales and revenues growth in 2026 and anticipate adjusted operating profit margin and MP&E free cash flow to be better than we had previously expected.",
+   "ev_start": 29945,
+   "ev_end": 30172,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S142",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 131,
+   "sentence": "We remain disciplined and committed to operational excellence and the O&E model.",
+   "ev_start": 30173,
+   "ev_end": 30253,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S143",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 132,
+   "sentence": "We will continue to look for ways to optimize our footprint and invest efficiently.",
+   "ev_start": 30254,
+   "ev_end": 30337,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S144",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 133,
+   "sentence": "We are maintaining a strong balance sheet, and we will continue to return substantially all of our MP&E free cash flow to our shareholders through dividends and share repurchases over time.",
+   "ev_start": 30338,
+   "ev_end": 30527,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S145",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 134,
+   "sentence": "Finally, we will continue to execute our strategy for profitable growth.",
+   "ev_start": 30528,
+   "ev_end": 30600,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S146",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "lower volume"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 5,
+   "sentence": "But again, it's a lower volume.",
+   "ev_start": 31939,
+   "ev_end": 31970,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S147",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "growth",
+     "growing",
+     "installed base"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 17,
+   "sentence": "That's obviously a big driver of it, but we have aftermarket growth objectives to take care of our growing installed base on large engines and turbines.",
+   "ev_start": 32964,
+   "ev_end": 33116,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S148",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 19,
+   "sentence": "And remember, oil and gas had a record year last year, and we expect it to be - we're on track for another increase this year.",
+   "ev_start": 33174,
+   "ev_end": 33300,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S149",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 1,
+   "sentence": "I think - we expect STU growth momentum, and I think that's reflected by both strong orders in Resource Industries and Construction Industries.",
+   "ev_start": 34331,
+   "ev_end": 34474,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S150",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "And also in the second quarter, we mentioned dealer inventory was a little higher than we expected, and that's really due to the momentum we continue to see in STU growth.",
+   "ev_start": 34475,
+   "ev_end": 34646,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S151",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 14,
+   "sentence": "And I think that's a good thing as long as we continue to see positive sales to users.",
+   "ev_start": 35665,
+   "ev_end": 35751,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S152",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "bullish"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 15,
+   "sentence": "So we're pretty bullish on the back half of this year.",
+   "ev_start": 35752,
+   "ev_end": 35806,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S153",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 4,
+   "sentence": "Right now, our planning assumption is that we'll end this year higher than it ended last year because as you point out, we have strong momentum here, but the base keeps getting higher on the growth.",
+   "ev_start": 36863,
+   "ev_end": 37061,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S154",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 7,
+   "sentence": "I'm really pleased with the way that teams continue to get more production out of our existing asset base as well as bringing the capacity online.",
+   "ev_start": 37126,
+   "ev_end": 37272,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S155",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "backlog"
+    ]
+   },
+   "score": 3.46,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 7,
+   "sentence": "As I mentioned, inside Power & Energy as well, we saw continued strong demand for oil and gas come in, in orders that are also contributing to the backlog.",
+   "ev_start": 39169,
+   "ev_end": 39324,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S156",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 16,
+   "sentence": "We might see a little pressure on freight in the back half and some of the costs, just everything going on in the world.",
+   "ev_start": 40185,
+   "ev_end": 40305,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S157",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 17,
+   "sentence": "But we're also installing capacity that puts pressure on depreciation and maybe some of the efficiencies we see, but we are seeing great operating leverage and the Power & Energy team continues to perform really well.",
+   "ev_start": 40306,
+   "ev_end": 40523,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S158",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we plan"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 8,
+   "sentence": "And again, one of the things I think that we've been able to do is the closer we plan with customers, getting them the power they need when they need it and making sure we schedule deliveries appropriately, allows us to take care of the maximum number of customers.",
+   "ev_start": 41593,
+   "ev_end": 41858,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S159",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 1,
+   "sentence": "And this has been the momentum we've had for, I think, the sixth quarter in a row of really strong STUs for Construction Industries.",
+   "ev_start": 42823,
+   "ev_end": 42955,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S160",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 2,
+   "sentence": "So I'm really pleased with the way that team is performing and our dealers are performing in Construction Industries, particularly in North America, but we have other regions we're doing really well as well.",
+   "ev_start": 42956,
+   "ev_end": 43163,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S161",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 4,
+   "sentence": "So it was a stronger portion of our STU growth in the second quarter.",
+   "ev_start": 43245,
+   "ev_end": 43314,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S162",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.46,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 5,
+   "sentence": "I expect it to be a pretty healthy piece of STU growth in the third quarter as we really just started loading the Major Projects fleet.",
+   "ev_start": 43315,
+   "ev_end": 43450,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S163",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 2.68,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 6,
+   "sentence": "And that will continue to grow, and we'll see how many projects we can get lined up with that - with the new dealer JV and Major Projects.",
+   "ev_start": 43451,
+   "ev_end": 43589,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S164",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 8,
+   "sentence": "But we have great momentum.",
+   "ev_start": 43679,
+   "ev_end": 43706,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S165",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperform",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 9,
+   "sentence": "Started early last year when we put the merchandising programs in, we've been able to outperform the industry, and we just carried that momentum through the first half of this year.",
+   "ev_start": 43707,
+   "ev_end": 43888,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S166",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rolled out"
+    ]
+   },
+   "score": 3.68,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "And as you said, you have a little bit of line of sight to Major Projects as they get rolled out.",
+   "ev_start": 44626,
+   "ev_end": 44723,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S167",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 0,
+   "sentence": "Kristen, just to add some color, it's Kyle, just by region, we talked about North America continues to be strong and Joe talked about it from a construction spend standpoint and nonresidential investment.",
+   "ev_start": 45078,
+   "ev_end": 45282,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S168",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "we continue to see growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.19,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "And even in other parts of the globe, Latin America has been strong and even in China off low levels, but China, we continue to see growth now for quite a few quarters in China above the 10-ton excavator off low levels.",
+   "ev_start": 45392,
+   "ev_end": 45611,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S169",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kyle Epley",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 4,
+   "sentence": "So really, as Joe mentioned, a really positive across the board from a Construction Industries perspective on sales to users growth.",
+   "ev_start": 45612,
+   "ev_end": 45744,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S170",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 0,
+   "sentence": "Yes, I think - Power & Energy generally has had a stronger services component to it than maybe Construction Industries where we have a lot of opportunity to grow services and continue to work on it.",
+   "ev_start": 46249,
+   "ev_end": 46447,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S171",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beyond 2030"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "By the time those get in place, you go through top end overhauls, you get to in-frames and overhauls and major overhauls, that's going to be mostly 2030, beyond 2030 growth opportunities for us in services.",
+   "ev_start": 46622,
+   "ev_end": 46828,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S172",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "grow",
+     "installed base",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 5,
+   "sentence": "So as we grow the installed base, it definitely gives us great services growth opportunities.",
+   "ev_start": 47085,
+   "ev_end": 47178,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S173",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 8,
+   "sentence": "A lot of that capacity goes into supply base as well as our internal component manufacturing and machining that allows us to support that aftermarket growth that we expect.",
+   "ev_start": 47425,
+   "ev_end": 47597,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S174",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "in the next"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "confident": [
+     "confident",
+     "excited"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 5,
+   "sentence": "But we're pretty confident that we're going to have the orders in those, at least in the next couple of years or we wouldn't have made the decision to bring it back online and the investment to do it given we are supporting customers in the aftermarket, key components we've had available, the supply base is available, and we've been able to use our existing internal capability and capacity to get that product back online, which I'm really excited about.",
+   "ev_start": 48810,
+   "ev_end": 49267,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S175",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 6,
+   "sentence": "So pretty minimal investment really in the rounding to do that, which has sort of made it an easy decision once customers were willing to commit.",
+   "ev_start": 49268,
+   "ev_end": 49413,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S176",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 3,
+   "sentence": "In fact, when it comes to diesel standby, we're actually seeing some customers ask us to inquire about moving down to the C32 platform, which is a bit of a smaller unit just because of the - we have product availability there.",
+   "ev_start": 50359,
+   "ev_end": 50585,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S177",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "demand",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 7,
+   "sentence": "Demand continues to grow for that.",
+   "ev_start": 50948,
+   "ev_end": 50982,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S178",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 2,
+   "sentence": "I think our dealers are a great asset and great partners for us to help grow in the rental business.",
+   "ev_start": 51990,
+   "ev_end": 52090,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S179",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "Our dealers' rental revenues continue to grow, and we're confident they can continue to grow that.",
+   "ev_start": 52257,
+   "ev_end": 52355,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S180",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 7,
+   "sentence": "Customers, I don't think, are going to rush to Cat dealers for our equipment if they can't also get the other rental equipment that they need.",
+   "ev_start": 52519,
+   "ev_end": 52661,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S181",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.86,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 9,
+   "sentence": "Major Projects fleet really allows us - it's a national fleet and allows us to move that fleet around to really supplement dealers where if a dealer has a major infrastructure project in their territory for a couple of years or three years, it's tough for them to invest in the fleet that size to keep up at that scale or knowing that that job may be somewhere else a few years from now.",
+   "ev_start": 52754,
+   "ev_end": 53141,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S182",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.68,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 10,
+   "sentence": "That Major Projects fleet is going to really help us supplement the dealers, which should allow them also to grow because they'll be the ones that are working on that project in a local territory, and then we'll use the Major Projects fleet to supplement their existing fleet.",
+   "ev_start": 53142,
+   "ev_end": 53418,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S183",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 13,
+   "sentence": "I'm really proud of our team and the record performance this quarter.",
+   "ev_start": 53607,
+   "ev_end": 53676,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S184",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sales"
+   ],
+   "home": "sales",
+   "fact_ids": [
+    "CAT_2026_2-023"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 14,
+   "sentence": "In particular, the sales and revenues milestone we achieved - the first time in our company history to exceed $20 billion in the quarter.",
+   "ev_start": 53677,
+   "ev_end": 53814,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CAT_2026_2-S185",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joseph Creed",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 15,
+   "sentence": "With broadening momentum across all three of our primary segments, we'll remain focused on operational excellence and delivering for our customers to create long-term value for our shareholders.",
+   "ev_start": 53815,
+   "ev_end": 54009,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "CAT_2026_2-S006",
+  "CAT_2026_2-S009",
+  "CAT_2026_2-S012",
+  "CAT_2026_2-S019",
+  "CAT_2026_2-S020",
+  "CAT_2026_2-S023",
+  "CAT_2026_2-S080",
+  "CAT_2026_2-S124",
+  "CAT_2026_2-S129",
+  "CAT_2026_2-S133",
+  "CAT_2026_2-S138",
+  "CAT_2026_2-S184",
+  "CAT_2026_2-S096",
+  "CAT_2026_2-S005",
+  "CAT_2026_2-S018",
+  "CAT_2026_2-S021",
+  "CAT_2026_2-S027",
+  "CAT_2026_2-S056",
+  "CAT_2026_2-S064",
+  "CAT_2026_2-S072",
+  "CAT_2026_2-S084",
+  "CAT_2026_2-S085",
+  "CAT_2026_2-S088",
+  "CAT_2026_2-S103",
+  "CAT_2026_2-S104",
+  "CAT_2026_2-S116",
+  "CAT_2026_2-S134",
+  "CAT_2026_2-S137"
+ ],
+ "surfaced_signal_ids": [
+  "CAT_2026_2-S006",
+  "CAT_2026_2-S009",
+  "CAT_2026_2-S012",
+  "CAT_2026_2-S019",
+  "CAT_2026_2-S020",
+  "CAT_2026_2-S023",
+  "CAT_2026_2-S080",
+  "CAT_2026_2-S124",
+  "CAT_2026_2-S129",
+  "CAT_2026_2-S133",
+  "CAT_2026_2-S138",
+  "CAT_2026_2-S184",
+  "CAT_2026_2-S096",
+  "CAT_2026_2-S005",
+  "CAT_2026_2-S018",
+  "CAT_2026_2-S021",
+  "CAT_2026_2-S027",
+  "CAT_2026_2-S056",
+  "CAT_2026_2-S064",
+  "CAT_2026_2-S072",
+  "CAT_2026_2-S084",
+  "CAT_2026_2-S085",
+  "CAT_2026_2-S088",
+  "CAT_2026_2-S103",
+  "CAT_2026_2-S104",
+  "CAT_2026_2-S116",
+  "CAT_2026_2-S134",
+  "CAT_2026_2-S137",
+  "CAT_2026_2-S174",
+  "CAT_2026_2-S041",
+  "CAT_2026_2-S179",
+  "CAT_2026_2-S029",
+  "CAT_2026_2-S163",
+  "CAT_2026_2-S105",
+  "CAT_2026_2-S051",
+  "CAT_2026_2-S141"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "mentioned_sales",
+   "sales",
+   "financial_products"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "CAT_2026_2-006",
+   "CAT_2026_2-023"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 185,
+  "signals_usable": 185,
+  "selected": 28,
+  "by_topic": {
+   "momentum": 117,
+   "product": 14,
+   "strategy": 29,
+   "pressure": 27
+  },
+  "by_horizon": {
+   "current": 115,
+   "forward": 70
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 3,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

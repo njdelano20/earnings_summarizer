@@ -1,0 +1,883 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "PLD",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "PLD",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Justin Meng",
+    "role": "ir"
+   },
+   {
+    "name": "Dan Letter",
+    "role": "management"
+   },
+   {
+    "name": "Tim Arndt",
+    "role": "management"
+   },
+   {
+    "name": "Tom Catherwood",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Griffin",
+    "role": "analyst"
+   },
+   {
+    "name": "Chris Caton",
+    "role": "management"
+   },
+   {
+    "name": "Jon Petersen",
+    "role": "analyst"
+   },
+   {
+    "name": "Vikram Malhotra",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Goldsmith",
+    "role": "analyst"
+   },
+   {
+    "name": "Caitlin Burrows",
+    "role": "analyst"
+   },
+   {
+    "name": "Vince Tibone",
+    "role": "analyst"
+   },
+   {
+    "name": "Eric (on behalf of John Kim)",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Carroll",
+    "role": "analyst"
+   },
+   {
+    "name": "Nicholas Yulico",
+    "role": "analyst"
+   },
+   {
+    "name": "Dave Rodgers",
+    "role": "analyst"
+   },
+   {
+    "name": "Todd Thomas",
+    "role": "analyst"
+   },
+   {
+    "name": "Jamie Feldman (on behalf of Blaine Heck)",
+    "role": "analyst"
+   },
+   {
+    "name": "Nick Thillman",
+    "role": "analyst"
+   },
+   {
+    "name": "Brendan Lynch",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "PLD_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "facts": [
+  {
+   "kind": "guidance",
+   "metric": "revenue",
+   "segment": "strategic capital",
+   "stat": "level",
+   "value": 660000000.0,
+   "value_high": 680000000.0,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": null,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "Strategic capital revenue, excluding promotes, remains unchanged at $660 million-$680 million, while net promote income is now expected to be flat on the year.",
+   "ev_start": 11235,
+   "ev_end": 11394,
+   "figure_text": "$660 million-$680 million",
+   "confidence": "medium",
+   "flags": [
+    "period_unresolved"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "PLD_2026_2-001"
+  },
+  {
+   "kind": "guidance",
+   "metric": "net_income",
+   "segment": "total",
+   "stat": "level",
+   "value": 4.4,
+   "value_high": 4.55,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": null,
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "Putting it all together, we are raising our net earnings guidance to $4.40-$4.55 per share.",
+   "ev_start": 11945,
+   "ev_end": 12036,
+   "figure_text": "$4.40-$4.55",
+   "confidence": "medium",
+   "flags": [
+    "period_unresolved"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "PLD_2026_2-002"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "$1.6 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "During the quarter, we started $1.6 billion of new projects.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 2419
+  },
+  {
+   "figure_text": "$17 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Our power pipeline has expanded to approximately 5.8 GW, representing about $17 billion of powered shell investment potential or up to $87 billion on a turnkey basis.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 2793
+  },
+  {
+   "figure_text": "$87 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Our power pipeline has expanded to approximately 5.8 GW, representing about $17 billion of powered shell investment potential or up to $87 billion on a turnkey basis.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 2793
+  },
+  {
+   "figure_text": "1%",
+   "reason": "no_metric_phrase",
+   "sentence": "Importantly, the projects in our current power pipeline represent less than 1% of our global portfolio, underscoring the runway ahead.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 3058
+  },
+  {
+   "figure_text": "$1.2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "During the quarter, we closed our $1.2 billion European joint venture with La Caisse, further expanding that long-standing relationship and reflecting strong demand for high quality logistics assets.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 3654
+  },
+  {
+   "figure_text": "$1.63",
+   "reason": "no_metric_phrase",
+   "sentence": "We delivered an excellent quarter with Core FFO of $1.63 per share, including net promote income, and $1.60 per share without, each ahead of our expectations.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4296
+  },
+  {
+   "figure_text": "$1.60",
+   "reason": "no_metric_phrase",
+   "sentence": "We delivered an excellent quarter with Core FFO of $1.63 per share, including net promote income, and $1.60 per share without, each ahead of our expectations.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4296
+  },
+  {
+   "figure_text": "$83 million",
+   "reason": "not_tied_to_metric",
+   "sentence": "We generated $83 million of promote revenue in the quarter, driven by outperformance from three vehicles, underscoring the performance-driven nature within our strategic capital business.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4455
+  },
+  {
+   "figure_text": "95.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "We ended the quarter with 95.5% occupancy, a 20 basis point improvement over the first quarter.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4643
+  },
+  {
+   "figure_text": "20 basis point",
+   "reason": "no_metric_phrase",
+   "sentence": "We ended the quarter with 95.5% occupancy, a 20 basis point improvement over the first quarter.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4643
+  },
+  {
+   "figure_text": "36%",
+   "reason": "no_metric_phrase",
+   "sentence": "Rent change on rollover exceeded 36% on a net effective basis, realizing $60 million of incremental NOI, and rent change on a cash basis was 22%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4739
+  },
+  {
+   "figure_text": "$60 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Rent change on rollover exceeded 36% on a net effective basis, realizing $60 million of incremental NOI, and rent change on a cash basis was 22%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4739
+  },
+  {
+   "figure_text": "22%",
+   "reason": "no_metric_phrase",
+   "sentence": "Rent change on rollover exceeded 36% on a net effective basis, realizing $60 million of incremental NOI, and rent change on a cash basis was 22%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4739
+  },
+  {
+   "figure_text": "17%",
+   "reason": "no_metric_phrase",
+   "sentence": "Notably, our portfolio lease mark-to-market remained unchanged from the prior quarter at 17% on a net effective basis, fully replenishing our embedded NOI opportunity of nearly $800 million available without any further market rent growth.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4885
+  },
+  {
+   "figure_text": "$800 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Notably, our portfolio lease mark-to-market remained unchanged from the prior quarter at 17% on a net effective basis, fully replenishing our embedded NOI opportunity of nearly $800 million available without any further market rent growth.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 4885
+  },
+  {
+   "figure_text": "6.4%",
+   "reason": "no_metric_phrase",
+   "sentence": "In the end, we delivered same-store NOI growth for the quarter of 6.4% on a net effective basis and 8.5% on cash.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 5125
+  },
+  {
+   "figure_text": "8.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "In the end, we delivered same-store NOI growth for the quarter of 6.4% on a net effective basis and 8.5% on cash.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 5125
+  },
+  {
+   "figure_text": "$1.6 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Turning to capital deployment, as Dan mentioned, we started over $1.6 billion in new development during the quarter, including approximately $800 million in logistics properties.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 5366
+  },
+  {
+   "figure_text": "$800 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Turning to capital deployment, as Dan mentioned, we started over $1.6 billion in new development during the quarter, including approximately $800 million in logistics properties.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 5366
+  },
+  {
+   "figure_text": "$1.8 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We acquired $1.8 billion of real estate during the quarter at an estimated discount to replacement cost of approximately 20%, executing on our strategy to go deeper within our existing markets.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 5840
+  },
+  {
+   "figure_text": "20%",
+   "reason": "no_metric_phrase",
+   "sentence": "We acquired $1.8 billion of real estate during the quarter at an estimated discount to replacement cost of approximately 20%, executing on our strategy to go deeper within our existing markets.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 5840
+  },
+  {
+   "figure_text": "$800 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Our disposition activity totaled $800 million during the quarter.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 6168
+  },
+  {
+   "figure_text": "140 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "Stepping back, the underwritten IRRs on our acquisitions have exceeded the IRRs on our dispositions by 140 basis points year to date, achieving both ongoing portfolio optimization while enhancing long-term returns.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 6234
+  },
+  {
+   "figure_text": "$500 million",
+   "reason": "not_tied_to_metric",
+   "sentence": "Finally, contributions totaled $500 million for the quarter, demonstrating continued execution of our business model, which crystallizes value creation, recycles capital, and grows AUM and revenues within our strategic capital business.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 6449
+  },
+  {
+   "figure_text": "$800 million",
+   "reason": "no_metric_phrase",
+   "sentence": "We started a 260 MW build-to-suit campus with total expected investment of approximately $800 million.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 6822
+  },
+  {
+   "figure_text": "$2.1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Our year-to-date data center starts now total $2.1 billion, exceeding our full year guidance.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 6925
+  },
+  {
+   "figure_text": "$4 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We've now commenced nearly $4 billion of data center development, all build-to-suit for the highest quality digital infrastructure customers, with more than 50% of this capital invested in turnkey projects.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 7019
+  },
+  {
+   "figure_text": "50%",
+   "reason": "no_metric_phrase",
+   "sentence": "We've now commenced nearly $4 billion of data center development, all build-to-suit for the highest quality digital infrastructure customers, with more than 50% of this capital invested in turnkey projects.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 7019
+  },
+  {
+   "figure_text": "82%",
+   "reason": "no_metric_phrase",
+   "sentence": "During the quarter, we also completed a 100 MW power land sale, generating an 82% margin and illustrating our disciplined approach to maximizing risk-adjusted returns by monetizing projects at the stage where we see the greatest profit margin.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 7226
+  },
+  {
+   "figure_text": "85%",
+   "reason": "no_metric_phrase",
+   "sentence": "Approximately 85% of this pipeline is positioned to support development starts through 2030.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 7591
+  },
+  {
+   "figure_text": "7.2%",
+   "reason": "no_metric_phrase",
+   "sentence": "This contributed to vacancy declining to 7.2%, while market rents increased approximately 70 basis points.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8230
+  },
+  {
+   "figure_text": "70 basis points",
+   "reason": "change_without_metric",
+   "sentence": "This contributed to vacancy declining to 7.2%, while market rents increased approximately 70 basis points.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8230
+  },
+  {
+   "figure_text": "$1 trillion",
+   "reason": "not_tied_to_metric",
+   "sentence": "Our research estimates that each $1 trillion of data center CapEx will generate 30 million sq ft-40 million sq ft of incremental logistics demand, creating a durable multiyear source of growth.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8523
+  },
+  {
+   "figure_text": "5.2%",
+   "reason": "no_metric_phrase",
+   "sentence": "Demand remains robust, and vacancy has been stable and relatively tight at 5.2%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 9200
+  },
+  {
+   "figure_text": "60 basis points",
+   "reason": "change_without_metric",
+   "sentence": "This has been translating to rent growth, which increased approximately 60 basis points during the quarter and 160 basis points from the trough last year.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 9281
+  },
+  {
+   "figure_text": "160 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "This has been translating to rent growth, which increased approximately 60 basis points during the quarter and 160 basis points from the trough last year.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 9281
+  },
+  {
+   "figure_text": "1%",
+   "reason": "change_without_metric",
+   "sentence": "Appraised values across our strategic capital platform increased approximately 1% quarter-over-quarter.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10222
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "Market cap rates remain around 5%, with in-place cap rates in the mid-fours and unlevered IRRs stable in the mid sevens.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10326
+  },
+  {
+   "figure_text": "$3.4 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Turning to the balance sheet, during the quarter, we completed approximately $3.4 billion of financing activity, accessing capital across the U.S., Europe, and Asia in multiple currencies.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10447
+  },
+  {
+   "figure_text": "95.25%-95.75%",
+   "reason": "no_metric_phrase",
+   "sentence": "We are increasing our forecast for average occupancy to a range of 95.25%-95.75%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10972
+  },
+  {
+   "figure_text": "5.25%-5.75%",
+   "reason": "change_without_metric",
+   "sentence": "This increase, together with our second quarter outperformance, drives our expectation for net effect of same-store growth of 5.25%-5.75% and cash same-store growth of 6.75%-7.25%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11054
+  },
+  {
+   "figure_text": "6.75%-7.25%",
+   "reason": "change_without_metric",
+   "sentence": "This increase, together with our second quarter outperformance, drives our expectation for net effect of same-store growth of 5.25%-5.75% and cash same-store growth of 6.75%-7.25%.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11054
+  },
+  {
+   "figure_text": "$510 million-$525 million",
+   "reason": "no_metric_phrase",
+   "sentence": "G&A is expected to remain in the range of $510 million-$525 million.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11395
+  },
+  {
+   "figure_text": "$5.5 billion-$6.5 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We are increasing development starts, and this on an owned and managed basis, to a range of $5.5 billion-$6.5 billion, reflecting strong demand and expanding opportunities.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11464
+  },
+  {
+   "figure_text": "$2.1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "This incorporates the $2.1 billion of data center starts in the first half.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11637
+  },
+  {
+   "figure_text": "$1.5 billion-$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We are also increasing acquisitions to $1.5 billion-$2 billion and expect contributions and dispositions to range from $4.25 billion-$5.25 billion, consistent with our strategy of recycling capital and optimizing portfolio returns.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11713
+  },
+  {
+   "figure_text": "$4.25 billion-$5.25 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We are also increasing acquisitions to $1.5 billion-$2 billion and expect contributions and dispositions to range from $4.25 billion-$5.25 billion, consistent with our strategy of recycling capital and optimizing portfolio returns.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11713
+  },
+  {
+   "figure_text": "$6.22 and $6.30",
+   "reason": "no_metric_phrase",
+   "sentence": "Core FFO is now expected to range between $6.22 and $6.30 per share, including and excluding promotes, representing a 100 basis point increase at the midpoint of our prior guidance.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 12037
+  },
+  {
+   "figure_text": "100 basis point",
+   "reason": "no_metric_phrase",
+   "sentence": "Core FFO is now expected to range between $6.22 and $6.30 per share, including and excluding promotes, representing a 100 basis point increase at the midpoint of our prior guidance.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 12037
+  },
+  {
+   "figure_text": "$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Last quarter, if you unpack the components of our guidance, it had predicted $2 billion of data center starts, which we have now achieved.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "ev_start": 20085
+  },
+  {
+   "figure_text": "10%",
+   "reason": "change_without_metric",
+   "sentence": "It's up about 10%, 12% quarter-to-quarter.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "ev_start": 20606
+  },
+  {
+   "figure_text": "12%",
+   "reason": "change_without_metric",
+   "sentence": "It's up about 10%, 12% quarter-to-quarter.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "ev_start": 20606
+  },
+  {
+   "figure_text": "30 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "For completions, we anticipate 195 million sq ft this year, and that should allow market occupancies to rise a total of, let's say, 30 basis points this year.",
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "ev_start": 21974
+  },
+  {
+   "figure_text": "70 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "In terms of rent growth in the quarter, the United States was 70 basis points.",
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "ev_start": 22321
+  },
+  {
+   "figure_text": "30 basis points",
+   "reason": "change_without_metric",
+   "sentence": "Vacancies were down 30 basis points quarter-on-quarter and are now below 7% in that geography.",
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "ev_start": 23665
+  },
+  {
+   "figure_text": "7%",
+   "reason": "no_metric_phrase",
+   "sentence": "Vacancies were down 30 basis points quarter-on-quarter and are now below 7% in that geography.",
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "ev_start": 23665
+  },
+  {
+   "figure_text": "40%-50%",
+   "reason": "no_metric_phrase",
+   "sentence": "We always have to look back and see where that percentage shakes out, and it's usually somewhere between 40%-50% of the overall volume.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "ev_start": 25714
+  },
+  {
+   "figure_text": "$17 billion-$87 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "The numbers that I quoted in the script from $17 billion-$87 billion worth of opportunity.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "ev_start": 26868
+  },
+  {
+   "figure_text": "82%",
+   "reason": "no_metric_phrase",
+   "sentence": "You saw us actually sell powered land this last quarter as well because the risk-adjusted return at that point was so attractive to us to not have to spend any more capital, yet to get an 82% margin on that was so significant.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "ev_start": 27365
+  },
+  {
+   "figure_text": "$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "In the meantime, as is, I think, very evident from the growth in the business and even the year-to-date starts you now see over $2 billion, we're very capable of handling this on our balance sheet.",
+   "speaker": "Tim Arndt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "ev_start": 32908
+  },
+  {
+   "figure_text": "17%",
+   "reason": "no_metric_phrase",
+   "sentence": "Look at the rent growth opportunity we have between the lease mark-to-market of 17%, then there's another 19%, 20% to hit those replacement cost rents.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "ev_start": 38346
+  },
+  {
+   "figure_text": "19%",
+   "reason": "no_metric_phrase",
+   "sentence": "Look at the rent growth opportunity we have between the lease mark-to-market of 17%, then there's another 19%, 20% to hit those replacement cost rents.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "ev_start": 38346
+  },
+  {
+   "figure_text": "20%",
+   "reason": "no_metric_phrase",
+   "sentence": "Look at the rent growth opportunity we have between the lease mark-to-market of 17%, then there's another 19%, 20% to hit those replacement cost rents.",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "ev_start": 38346
+  },
+  {
+   "figure_text": "8%",
+   "reason": "no_metric_phrase",
+   "sentence": "1.3 GW of power that we have on top of our roofs with only 8% of our roofs covered, right?",
+   "speaker": "Dan Letter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "ev_start": 39578
+  },
+  {
+   "figure_text": "70 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "In terms of market rents, yes, it's 70 basis points quarter-on-quarter.",
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 79,
+   "ev_start": 46011
+  },
+  {
+   "figure_text": "20 basis point",
+   "reason": "no_metric_phrase",
+   "sentence": "20 basis point improvement in the market vacancy.",
+   "speaker": "Chris Caton",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 79,
+   "ev_start": 46478
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 2,
+  "by_kind": {
+   "guidance": 2
+  },
+  "by_confidence": {
+   "medium": 2
+  },
+  "verified": 2,
+  "unverified": 0,
+  "unclaimed_figures": 66,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

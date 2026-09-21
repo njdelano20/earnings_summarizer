@@ -1,0 +1,4898 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "COST",
+  "fiscal_quarter": 3,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q3",
+  "symbol": "COST",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q3",
+  "period_end": "2026-05",
+  "fye_month": 8,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Abby",
+    "role": "management"
+   },
+   {
+    "name": "Gary Millerchip",
+    "role": "management"
+   },
+   {
+    "name": "Ron Vachris",
+    "role": "management"
+   },
+   {
+    "name": "Michael Lasser",
+    "role": "analyst"
+   },
+   {
+    "name": "Pedro Gill (for Simeon Gutman)",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Horvers",
+    "role": "analyst"
+   },
+   {
+    "name": "Oliver Chen",
+    "role": "analyst"
+   },
+   {
+    "name": "Chuck Grom",
+    "role": "analyst"
+   },
+   {
+    "name": "Scot Ciccarelli",
+    "role": "analyst"
+   },
+   {
+    "name": "Zihan Ma",
+    "role": "analyst"
+   },
+   {
+    "name": "Peter Benedict",
+    "role": "analyst"
+   },
+   {
+    "name": "Rupesh Parikh",
+    "role": "analyst"
+   },
+   {
+    "name": "Gregory Melich",
+    "role": "analyst"
+   },
+   {
+    "name": "John Heinbockel",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Nardone",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Third Quarter 2026",
+   "detail": "the call says 'Third Quarter 2026', matching 2026Q3"
+  },
+  "reported_period_label": "q3",
+  "source_file": "COST_2026Q3.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $69.20B (+11.6%), third quarter",
+   "fact_ids": [
+    "COST_2026_3-002"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.11, qa +0.07",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 69200000000.0,
+    "fact_id": "COST_2026_3-002"
+   },
+   "growth": {
+    "value": 11.6,
+    "period": "third quarter",
+    "fact_id": "COST_2026_3-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "digitally_enabled",
+   "name": "Digitally Enabled",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "ancillary_and_other_businesses",
+   "name": "Ancillary And Other Businesses",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "COST_2026_3-002",
+   "COST_2026_3-007",
+   "COST_2026_3-008",
+   "COST_2026_3-001",
+   "COST_2026_3-013",
+   "COST_2026_3-015",
+   "COST_2026_3-014"
+  ],
+  "signal_ids": [
+   "COST_2026_3-S019",
+   "COST_2026_3-S023",
+   "COST_2026_3-S028",
+   "COST_2026_3-S029",
+   "COST_2026_3-S048",
+   "COST_2026_3-S054",
+   "COST_2026_3-S058",
+   "COST_2026_3-S064",
+   "COST_2026_3-S073",
+   "COST_2026_3-S077",
+   "COST_2026_3-S081",
+   "COST_2026_3-S084",
+   "COST_2026_3-S092",
+   "COST_2026_3-S098",
+   "COST_2026_3-S106",
+   "COST_2026_3-S110",
+   "COST_2026_3-S120"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "digitally_enabled",
+   "name": "Digitally Enabled",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "COST_2026_3-S021"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ancillary_and_other_businesses",
+   "name": "Ancillary And Other Businesses",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "COST_2026_3-009",
+    "COST_2026_3-011",
+    "COST_2026_3-012"
+   ],
+   "signal_ids": [
+    "COST_2026_3-S034"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "quarter_s",
+   "name": "Quarter'S",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "COST_2026_3-010"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 4,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.11
+   },
+   "qa": {
+    "confident": 8,
+    "cautious": 7,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.07
+   }
+  },
+  "speakers": {
+   "Gary Millerchip": {
+    "cautious": 6,
+    "confident": 10
+   },
+   "Ron Vachris": {
+    "cautious": 5,
+    "confident": 3
+   }
+  },
+  "notable_confident": [
+   "COST_2026_3-S072",
+   "COST_2026_3-S111",
+   "COST_2026_3-S042",
+   "COST_2026_3-S124"
+  ],
+  "notable_cautious": [
+   "COST_2026_3-S003",
+   "COST_2026_3-S007",
+   "COST_2026_3-S095",
+   "COST_2026_3-S001",
+   "COST_2026_3-S056"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "COST_2026_3-S001",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainties"
+    ],
+    "pressure": [
+     "uncertainties"
+    ],
+    "hedge": [
+     "uncertainties"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 4,
+   "sentence": "The risks and uncertainties include, but are not limited to, those outlined in today's call, as well as other risks identified from time to time in the company's public statements and reports filed with the SEC.",
+   "ev_start": 1139,
+   "ev_end": 1350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S002",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "delighted"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 7,
+   "sentence": "Before we dive into our financial results, I am delighted to say that Ron Vachris is once again joining me for today's call.",
+   "ev_start": 1732,
+   "ev_end": 1856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S003",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonate"
+    ],
+    "negative": [
+     "uncertainty"
+    ],
+    "product": [
+     "resonate"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Against the backdrop of ongoing macro uncertainty, our focus on providing quality goods and services at the lowest possible price continues to resonate strongly with our members.",
+   "ev_start": 2149,
+   "ev_end": 2327,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "The result was record-breaking volumes.",
+   "ev_start": 2600,
+   "ev_end": 2639,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "records"
+    ],
+    "performance": [
+     "all-time",
+     "volume",
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "All three 4-week fiscal periods of the quarter set successive all-time company volume sales records, with the final 5 weeks of the quarter becoming our top five volume weeks ever.",
+   "ev_start": 2640,
+   "ev_end": 2819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "The high consumer price sensitivity, which fueled these record volumes, also drove many members to use our gas stations for the very first time in the third quarter.",
+   "ev_start": 2963,
+   "ev_end": 3128,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S007",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "pressure": [
+     "tariffs"
+    ],
+    "hedge": [
+     "monitoring"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "We are closely monitoring the longer-term inflationary impact of higher oil prices as well as the future impacts of tariffs.",
+   "ev_start": 3293,
+   "ev_end": 3417,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S008",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We are also able to bring greater value to our members through many exciting new Signature items in the third quarter.",
+   "ev_start": 3744,
+   "ev_end": 3862,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S009",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "On the topic of tariffs, we started submitting our refund claims for the Section 301 tariffs.",
+   "ev_start": 3863,
+   "ev_end": 3956,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S010",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "As we have mentioned before, our plan is to return to our members in some form the portion of tariffs that were passed on to them.",
+   "ev_start": 4268,
+   "ev_end": 4398,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "with growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Turning to progress with growth priorities: our real estate operations team continues to focus on increasing our pipeline of new warehouses both domestically and internationally.",
+   "ev_start": 4619,
+   "ev_end": 4797,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "So far this year, we have also completed two relocations with one more planned in Q4 as we continue to relocate select high-volume warehouses to larger locations with more parking and expanded gas stations to provide a better member experience and drive more volumes in these warehouses.",
+   "ev_start": 5228,
+   "ev_end": 5515,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "strategy": [
+     "investments",
+     "commitment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "As a result of our investments in technology and the commitment from our employees to use this technology to deliver a great member experience, we are seeing a significant improvement in the speed of checkout.",
+   "ev_start": 5663,
+   "ev_end": 5872,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "product": [
+     "introduction",
+     "rollout"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "The enhancements we have made include improvements to the mobile wallet, the introduction of a digital membership card with quick access on the Costco app, and the rollout of our shopping cart prescan tool internationally.",
+   "ev_start": 5873,
+   "ev_end": 6095,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rolled out"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "We are also enhancing the e-commerce experience for members and recently rolled out same-day delivery services in Spain and France.",
+   "ev_start": 6275,
+   "ev_end": 6406,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "highest",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "This part of our business is growing at an even faster rate than our digital business overall, and is a strong driver of loyalty, as it is often our highest-spending members who are using the service.",
+   "ev_start": 6671,
+   "ev_end": 6871,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "In today's press release, we reported operating results for the third quarter of fiscal year 2026, the 12 weeks ending May 10.",
+   "ev_start": 7441,
+   "ev_end": 7567,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "As usual, we published a slide deck under Events and Presentations on our investor website with supplemental information to support today's press release.",
+   "ev_start": 7568,
+   "ev_end": 7722,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S019",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "COST_2026_3-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 9.8"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Comparable sales were up 9.8%, and 6.6% adjusted for gas price inflation and foreign exchange.",
+   "ev_start": 7974,
+   "ev_end": 8068,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "COST_2026_3-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 6.6"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Excluding gas sales entirely, and adjusting for the impact of foreign exchange, comparable sales were also up 6.6%.",
+   "ev_start": 8069,
+   "ev_end": 8184,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "digitally_enabled"
+   ],
+   "home": "digitally_enabled",
+   "fact_ids": [
+    "COST_2026_3-005",
+    "COST_2026_3-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 21.5"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Digitally enabled comparable sales were up 21.5%, 20.8% adjusting for foreign exchange.",
+   "ev_start": 8185,
+   "ev_end": 8272,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Our segment breakout of comparable sales is disclosed in both our earnings release and the supplemental slide deck.",
+   "ev_start": 8273,
+   "ev_end": 8388,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S023",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "In terms of Q3 comp sales metrics, foreign exchange positively impacted sales by approximately 1% while gas price inflation positively impacted sales by approximately 2.2%.",
+   "ev_start": 8389,
+   "ev_end": 8561,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S024",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 7.3"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "Our average transaction or ticket was up 7.3% worldwide, and 4.2% excluding gas price inflation and changes in foreign exchange.",
+   "ev_start": 8618,
+   "ev_end": 8746,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Excluding the membership fee increase and foreign exchange, membership income grew 7% year over year.",
+   "ev_start": 9099,
+   "ev_end": 9200,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S026",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "strong"
+    ],
+    "product": [
+     "launched",
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "This quarter, we launched our executive member program in China and have seen strong early adoption in the market.",
+   "ev_start": 9384,
+   "ev_end": 9498,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S027",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "As this population has grown as a percentage of our total base, this creates some downward pressure on the overall renewal rate.",
+   "ev_start": 9936,
+   "ev_end": 10064,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "COST_2026_3-007"
+   ],
+   "guided": null,
+   "cues": {
+    "comparison": [
+     "negative"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Turning to gross margin: our reported rate was lower year over year by 21 basis points, coming in at 11.04% compared to 11.25% last year.",
+   "ev_start": 10306,
+   "ev_end": 10443,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S029",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "COST_2026_3-008"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Excluding gas inflation, the gross margin rate was higher by 1 basis point.",
+   "ev_start": 10444,
+   "ev_end": 10519,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S030",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "Core was lower by 46 basis points and lower by 29 basis points excluding gas inflation.",
+   "ev_start": 10520,
+   "ev_end": 10607,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S031",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "decrease"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "This decrease was due to slightly lower margins in fresh and food and sundries where we invested in lower prices for our members on several everyday items, such as eggs and beef.",
+   "ev_start": 10708,
+   "ev_end": 10886,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S032",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Transportation costs were also a headwind in the quarter due to higher gas prices.",
+   "ev_start": 10887,
+   "ev_end": 10969,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "sales",
+     "grow"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "The significant difference between reported core margins and core-on-core margins was primarily due to mix changes as we saw gas, e-commerce and pharmacy sales grow at a faster pace than core merchandising sales.",
+   "ev_start": 10970,
+   "ev_end": 11182,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S034",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ancillary_and_other_businesses"
+   ],
+   "home": "ancillary_and_other_businesses",
+   "fact_ids": [
+    "COST_2026_3-009"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Ancillary and other businesses gross margin was higher by 9 basis points and 14 basis points excluding gas inflation.",
+   "ev_start": 11183,
+   "ev_end": 11300,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S035",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "LIFO positively impacted the rate by 14 basis points both with and without gas inflation.",
+   "ev_start": 11427,
+   "ev_end": 11516,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S036",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Excluding gas inflation, SG&A was lower or better by 2 basis points year over year.",
+   "ev_start": 11961,
+   "ev_end": 12044,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S037",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "negative": [
+     "worse",
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "The operations component of SG&A was lower or better by 12 basis points, but worse or higher by 3 basis points excluding the impact of gas inflation, as underlying improvements in productivity were offset by higher healthcare costs.",
+   "ev_start": 12045,
+   "ev_end": 12277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S038",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Central was lower or better by 3 basis points and lower by 1 basis point excluding the impact of gas inflation.",
+   "ev_start": 12278,
+   "ev_end": 12389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S039",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "COST_2026_3-015"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "forward": [
+     "for the full year"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "We estimate CapEx for the full year will be approximately $6.5 billion as we continue to invest in building a larger pipeline of new warehouses, remodeling our existing warehouses to drive continued growth in high-volume buildings, expanding our depot network to support operational efficiency, and in enhancing the member digital experience.",
+   "ev_start": 13149,
+   "ev_end": 13491,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S040",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "resonate"
+    ],
+    "product": [
+     "resonate"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "At the same time, we saw very robust comp sales results excluding gas, as our combination of merchandising quality, value and newness continues to resonate with members.",
+   "ev_start": 13696,
+   "ev_end": 13865,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Fresh comparable sales were up in the high single digits in the quarter, led by meat and bakery.",
+   "ev_start": 13866,
+   "ev_end": 13962,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "In bakery, we continue to see success with the launch of exciting new items including a variety of seasonal pastries and cookies.",
+   "ev_start": 14074,
+   "ev_end": 14203,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Non-foods comp sales were up in the high single digits in Q3.",
+   "ev_start": 14204,
+   "ev_end": 14265,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S044",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "extremely well"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "Self-care and wellness items performed extremely well during the quarter, including fragrances and hair and skin products in the health and beauty and small appliances departments.",
+   "ev_start": 14389,
+   "ev_end": 14569,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "In food and sundries, comp sales grew in the mid-single digits led by packaged foods and candy.",
+   "ev_start": 14785,
+   "ev_end": 14880,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S046",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "While egg price deflation was a headwind to sales, this was partially offset by significant growth in other items such as protein snacks and protein bars.",
+   "ev_start": 14881,
+   "ev_end": 15035,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S047",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "We continue to innovate with new KS items, offering savings of at least 15% to 20% to the national brand equivalent with equal or better quality.",
+   "ev_start": 15100,
+   "ev_end": 15245,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S048",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Q3 launches included our KS energy drink, KS ultra-filtered milk, KS sea salt popcorn, and KS oven roasted chicken dog food.",
+   "ev_start": 15246,
+   "ev_end": 15370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S049",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "Pharmacy led the way and saw significant market share gains in the quarter.",
+   "ev_start": 15725,
+   "ev_end": 15800,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 66,
+   "sentence": "These include increased GLP-1 demand and inclusion of Wegovy and Ozempic in our Member Prescription Program, great value on pet medications, acceptance of Medicare Part D over-the-counter flex cards, and expansion of our mail order and specialty pharmacy offerings.",
+   "ev_start": 15931,
+   "ev_end": 16196,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "Gas comps were in the positive high twenties, driven by a price per gallon increase year over year as well as an acceleration in volumes.",
+   "ev_start": 16197,
+   "ev_end": 16334,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S052",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "Turning now to inflation: overall, inflation increased slightly in Q3, largely because of higher gas prices.",
+   "ev_start": 16335,
+   "ev_end": 16443,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S053",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "This was offset by lower inflation in food and sundries and fresh, primarily due to deflation in produce, eggs, and dairy.",
+   "ev_start": 16444,
+   "ev_end": 16566,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S054",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "forward": [
+     "anticipating"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "Inflation increased slightly in nonfoods, and we are anticipating further inflation in a number of nonfood categories as higher resin costs start to flow into cost of goods.",
+   "ev_start": 16567,
+   "ev_end": 16740,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S055",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "The supply chain is generally stable, and our merchants feel good about our inventory position heading into the summer.",
+   "ev_start": 16822,
+   "ev_end": 16941,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S056",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipping"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "We have relatively low inventory exposure to shipping issues stemming from the situation in the Middle East, but we continue to monitor the situation closely.",
+   "ev_start": 16942,
+   "ev_end": 17100,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 75,
+   "sentence": "Pharmacy, gold and jewelry, home furnishings, tires, special events, housewares, and majors all grew double digits year over year.",
+   "ev_start": 17186,
+   "ev_end": 17316,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "In Q3, our personalized product recommendation carousels delivered conversion rates three times better than our typical conversion rates, and contributed just under $5 billion of e-commerce sales.",
+   "ev_start": 17438,
+   "ev_end": 17634,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S059",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 78,
+   "sentence": "As Ron shared earlier on the call, with consumers increasingly using AI to research products and services, we believe this has the potential to be a significant sales opportunity for Costco.",
+   "ev_start": 17635,
+   "ev_end": 17825,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "triple",
+     "highest"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 80,
+   "sentence": "While the volume of traffic generated from AI search is still low, we saw triple-digit growth in Q3, and this activity had the highest conversion rate of all traffic coming to our site.",
+   "ev_start": 17958,
+   "ev_end": 18143,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "Finally, as we accelerate our digital capabilities, we are also broadening our reach in retail media.",
+   "ev_start": 18144,
+   "ev_end": 18245,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch",
+     "collaboration"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 82,
+   "sentence": "Q3 marked the launch of a new collaboration with Google Commerce and Media and YouTube.",
+   "ev_start": 18246,
+   "ev_end": 18333,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launching",
+     "partnership",
+     "collaborate"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 83,
+   "sentence": "Launching this partnership will make it easier for brands and agencies to collaborate with Costco retail media, and is a significant milestone on our journey towards increasing our share of retail media revenue.",
+   "ev_start": 18334,
+   "ev_end": 18545,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "releases",
+     "announce"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 85,
+   "sentence": "In terms of upcoming releases, we will announce our May sales results for the 4 weeks ending Sunday, May 31 on Wednesday, June 3 after market close.",
+   "ev_start": 18583,
+   "ev_end": 18731,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S065",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "First, taking a step back on membership and what we are seeing there in terms of growth: overall, we were pleased with the results in the quarter.",
+   "ev_start": 20136,
+   "ev_end": 20282,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 7"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 4,
+   "sentence": "As we noted in the prepared remarks, when we look at membership growth and back out the fee increase and foreign exchange, we were up 7% overall.",
+   "ev_start": 20283,
+   "ev_end": 20428,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "up over 9"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 5,
+   "sentence": "A big part of that was due to the continued engagement we see with executive members growing, and that was up over 9% during the quarter.",
+   "ev_start": 20429,
+   "ev_end": 20566,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 6,
+   "sentence": "When we see members who are at an executive level, they generally spend more with us and visit more frequently, so that is a positive dynamic in terms of impact and potential for future health and growth in terms of membership spending.",
+   "ev_start": 20567,
+   "ev_end": 20803,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S069",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 8,
+   "sentence": "We were also pleased to see the renewal rate has normalized as the mix of digital members has matured and as we implemented targeted marketing and retention strategies, which helped level that membership renewal rate.",
+   "ev_start": 20929,
+   "ev_end": 21146,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slowing"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 10,
+   "sentence": "As you mentioned, we have seen some slowing in year-over-year membership growth in recent quarters.",
+   "ev_start": 21257,
+   "ev_end": 21356,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 14,
+   "sentence": "We have not had a major new opening in a new international market for a while, which definitely has an impact, and we are cycling some stronger growth from sign-ups a year ago as well.",
+   "ev_start": 21745,
+   "ev_end": 21929,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S072",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 16,
+   "sentence": "Overall, with the renewal rate leveling out and year-over-year growth in new member sign-ups, we feel good about the health of membership and believe there is opportunity for continued growth in the future.",
+   "ev_start": 22103,
+   "ev_end": 22309,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S073",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 2,
+   "sentence": "We do expect to continue to grow our market share as we deliver great value for members and continue to provide great quality items.",
+   "ev_start": 22622,
+   "ev_end": 22754,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S074",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "product": [
+     "resonating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "Our value proposition seems to be resonating well.",
+   "ev_start": 22956,
+   "ev_end": 23006,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S075",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 2,
+   "sentence": "When we talk about the rate year over year, we focus on gross margin overall excluding gas inflation or deflation.",
+   "ev_start": 24097,
+   "ev_end": 24211,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S076",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest",
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 6,
+   "sentence": "In terms of core-on-core, we knew we were cycling a fairly large LIFO charge from last year and saw an opportunity, recognizing members were dealing with higher gas prices, to invest in increasing value to the member - partly by widening our value gap in gas to drive volume growth and more gallons and traffic to our gas stations, and also by investing in everyday prices such as eggs and meat.",
+   "ev_start": 24582,
+   "ev_end": 24977,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S077",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 8,
+   "sentence": "Generally, we view ourselves as our toughest competitor, and the majority of the price investments we make are because we want to ensure we are delivering great value for our members.",
+   "ev_start": 25176,
+   "ev_end": 25359,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 9,
+   "sentence": "If we have opportunities to invest to drive top-line growth while sustaining gross margins, we will take those opportunities.",
+   "ev_start": 25360,
+   "ev_end": 25485,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S079",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 1,
+   "sentence": "We are seeing an increased number of items in the basket and some inflation in the basket.",
+   "ev_start": 25864,
+   "ev_end": 25954,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S080",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "Part of the inflation is moving to larger-sized items or better-quality items or higher-value items.",
+   "ev_start": 25955,
+   "ev_end": 26055,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S081",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 1,
+   "sentence": "Taking a step back on the competitive landscape, we think the market is very rational currently.",
+   "ev_start": 26772,
+   "ev_end": 26868,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S082",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 2,
+   "sentence": "We tend to be our own biggest competitor with the goal of maintaining pricing authority and being there for our members.",
+   "ev_start": 26869,
+   "ev_end": 26989,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 5,
+   "sentence": "This quarter, we invested more in some everyday items like beef and eggs because we had the opportunity to do so while cycling a LIFO charge from last year, and we also widened our gaps in gas.",
+   "ev_start": 27228,
+   "ev_end": 27421,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S084",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 6,
+   "sentence": "Over the last 12 to 24 months, the gross margin rate excluding gas inflation or deflation has generally been stable with a slight improvement, and Q3 was in line with that trajectory.",
+   "ev_start": 27422,
+   "ev_end": 27605,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S085",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 7,
+   "sentence": "We had the capacity to invest more in value for our members given the impacts we were seeing on gas prices.",
+   "ev_start": 27606,
+   "ev_end": 27713,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S086",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "We've also introduced some media activity on third-party sites to build the capability and show CPG partners what's possible with Costco and retail media.",
+   "ev_start": 30336,
+   "ev_end": 30490,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S087",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "We expect retail media to ramp up through the lens of member experience and member value, and a large portion of that value will be reinvested to deliver more value for members and better pricing to drive top-line sales.",
+   "ev_start": 30731,
+   "ev_end": 30951,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 1,
+   "sentence": "The investments in e-commerce and AI have costs, but they are being offset by greater sales and leverage.",
+   "ev_start": 31078,
+   "ev_end": 31183,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "accretive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 2,
+   "sentence": "On the operations side, the technology we're using at the front end has been accretive to higher productivity.",
+   "ev_start": 31184,
+   "ev_end": 31294,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 1,
+   "sentence": "On capital and financial strategy, our number one priority is to keep investing in the business to drive growth.",
+   "ev_start": 31872,
+   "ev_end": 31984,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S091",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "expand",
+     "expanding"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 2,
+   "sentence": "We are focused on accelerating new warehouses, remodeling warehouses where we can expand capacity and support continued growth, expanding the depot network, investing in manufacturing capabilities to support Kirkland Signature growth (things like expanding hot dog capacity and coffee roasting), and investing in digital member engagement.",
+   "ev_start": 31985,
+   "ev_end": 32324,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S092",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "investments",
+     "dividend"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 3,
+   "sentence": "As we make those investments, we are also growing the regular dividend over time and continue to buy back stock at a level that avoids dilution from executive stock grants.",
+   "ev_start": 32325,
+   "ev_end": 32497,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S093",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividend",
+     "invest"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 4,
+   "sentence": "We generate excess cash beyond those priorities, and at our current valuation a special dividend is often the most effective way to return excess cash without giving up flexibility to invest in growth.",
+   "ev_start": 32498,
+   "ev_end": 32699,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 5,
+   "sentence": "We will evaluate the timing and approach with our board but have no plan to share at this time.",
+   "ev_start": 32700,
+   "ev_end": 32795,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S095",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "pressure": [
+     "tariff"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 6,
+   "sentence": "Regarding the tariff refunds, we will evaluate how much we receive and timing and then determine the appropriate action, which could include returning some portion to members as we've discussed previously.",
+   "ev_start": 32796,
+   "ev_end": 33001,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S096",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "It's a moving target and we evaluate each opportunity strategically.",
+   "ev_start": 33764,
+   "ev_end": 33832,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S097",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 0,
+   "sentence": "We will continue to evaluate.",
+   "ev_start": 34464,
+   "ev_end": 34493,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S098",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 1,
+   "sentence": "In 2020, we made an acquisition to get into big-and-bulky delivery because we saw an opportunity to shorten delivery times; that has been productive for the company.",
+   "ev_start": 34494,
+   "ev_end": 34659,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S099",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "integration"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "We are currently happy with the partners we have but will continue to evaluate whether further vertical integration makes sense to improve delivery times globally.",
+   "ev_start": 34846,
+   "ev_end": 35009,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S100",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 3,
+   "sentence": "Since then, basket size has increased and traffic has continued to grow but more modestly.",
+   "ev_start": 35939,
+   "ev_end": 36029,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S101",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 5,
+   "sentence": "We have undertaken initiatives to create opportunities for more frequent visits: extended operating hours for gas stations and warehouses, remodeling and expanding warehouses to create more parking and gas capacity, technology to speed checkout, and infill real estate to relieve pressure on high-volume locations.",
+   "ev_start": 36167,
+   "ev_end": 36481,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S102",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 6,
+   "sentence": "All these measures help maintain traffic growth, but month-to-month dynamics will vary with factors such as members' stocking behavior and concerns about tariffs.",
+   "ev_start": 36482,
+   "ev_end": 36644,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S103",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 7,
+   "sentence": "Overall, we feel good about traffic growth on a two-year and year-over-year basis.",
+   "ev_start": 36645,
+   "ev_end": 36727,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S104",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded",
+     "improves"
+    ],
+    "strategy": [
+     "investments",
+     "acquiring"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 0,
+   "sentence": "To add: investments in capital expenditures and acquiring adjacent properties for expanded parking, along with technology that improves throughput and turns parking spaces faster, drive better traffic in high-volume warehouses.",
+   "ev_start": 36742,
+   "ev_end": 36969,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S105",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 1,
+   "sentence": "Strategic infill builds also relieve pressure and lead to build-back of traffic in relieved warehouses.",
+   "ev_start": 36970,
+   "ev_end": 37073,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S106",
+   "topics": [
+    "product",
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "higher prices"
+    ],
+    "forward": [
+     "next week"
+    ],
+    "product": [
+     "release"
+    ],
+    "pressure": [
+     "higher prices"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 7.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 1,
+   "sentence": "I won't preview next week's sales release, but generally we are not seeing major changes in member behavior except around gas, which has had a major impact on total spend because of higher prices.",
+   "ev_start": 38219,
+   "ev_end": 38415,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "product": [
+     "resonating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 2,
+   "sentence": "Core merchandising remains consistent: quality, value, and newness are very important and are resonating.",
+   "ev_start": 38416,
+   "ev_end": 38521,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S108",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excitement"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 3,
+   "sentence": "Everyday value performs well in tires, majors, and health and beauty, while newness and excitement do well in special events and certain self-care items.",
+   "ev_start": 38522,
+   "ev_end": 38675,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 4,
+   "sentence": "In fresh, premium meat remains strong because of value and quality, and unit growth is strong in ground beef and poultry with everyday value.",
+   "ev_start": 38676,
+   "ev_end": 38817,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S110",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "strong"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 6,
+   "sentence": "In food and sundries, we're leaning into protein-related items - protein snacks, bars, and beef sticks - and we launched a Kirkland Signature Beef Stick that has seen strong volume.",
+   "ev_start": 38921,
+   "ev_end": 39102,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S111",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "confident": [
+     "extremely well"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 2,
+   "sentence": "We launched Kirkland Signature Ultra-filtered protein milk which is performing extremely well.",
+   "ev_start": 39382,
+   "ev_end": 39476,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S112",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 0,
+   "sentence": "It's fairly broad-based but still early days.",
+   "ev_start": 39915,
+   "ev_end": 39960,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S113",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "resonate"
+    ],
+    "product": [
+     "reviews",
+     "resonate"
+    ],
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 1,
+   "sentence": "As we update product pages to better translate through large language models, the commitment to value and quality, member reviews, and positive comparisons to alternatives tend to resonate with the models.",
+   "ev_start": 39961,
+   "ev_end": 40166,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S114",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "bullish"
+    ]
+   },
+   "score": 0.82,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 2,
+   "sentence": "Large language models can represent the entire value proposition - such as tires where installation, road hazard coverage, and nitrogen may be included - so we are bullish on AI search and the ability to tell the whole Costco value story.",
+   "ev_start": 40591,
+   "ev_end": 40829,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S115",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "hedge": [
+     "difficult to predict"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 0,
+   "sentence": "It's difficult to predict gas prices, but by widening our price gaps and delivering value, members who engage with our fuel business tend to visit more frequently, shop more, and renew at higher rates.",
+   "ev_start": 41111,
+   "ev_end": 41312,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S116",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "Overall, we believe gas engagement drives loyalty and long-term growth.",
+   "ev_start": 41610,
+   "ev_end": 41681,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S117",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single-digit"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 0,
+   "sentence": "We have shared low to mid-single-digit inflation in the past, but most of the increase in the inflation rate this quarter was driven by gas.",
+   "ev_start": 42044,
+   "ev_end": 42184,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S118",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 2,
+   "sentence": "We still see inflation in beef, deli, and items like candy.",
+   "ev_start": 42324,
+   "ev_end": 42383,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S119",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "higher costs"
+    ],
+    "pressure": [
+     "higher costs"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 3,
+   "sentence": "Non-foods were a bit higher in the quarter; one driver is higher costs in components such as memory chips affecting majors.",
+   "ev_start": 42384,
+   "ev_end": 42507,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S120",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 5,
+   "sentence": "If oil prices remain elevated, we would expect inflation to flow into categories with plastic components, polyester, or cotton due to higher resin costs.",
+   "ev_start": 42595,
+   "ev_end": 42748,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 0,
+   "sentence": "In Canada, we see a lot of upside potential and have a multi-year plan charted out for the next three to five years with consistent strong growth in Canada for at least that period.",
+   "ev_start": 43642,
+   "ev_end": 43823,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Ron Vachris",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 3,
+   "sentence": "In Europe, we are still young in France and see growth ahead there; Spain has a shorter runway but significant growth potential over the next three years, and the U.K. has been very strong for us over the last three years.",
+   "ev_start": 43989,
+   "ev_end": 44211,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 3,
+   "sentence": "I would not attribute it to a single factor, but the momentum in new sign-ups is encouraging.",
+   "ev_start": 45131,
+   "ev_end": 45224,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S124",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rollout"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 4,
+   "sentence": "Regarding the executive membership rollout in China, overall we have been very pleased and it is ahead of our expectations.",
+   "ev_start": 45225,
+   "ev_end": 45348,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 5,
+   "sentence": "We launched with the expectation it would be a great value for members and have seen higher activity than anticipated.",
+   "ev_start": 45349,
+   "ev_end": 45467,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "COST_2026_3-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows",
+     "expand"
+    ],
+    "performance": [
+     "grows"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gary Millerchip",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 7,
+   "sentence": "There are individual countries where we do not offer Executive today, and over time, as our presence grows, it may make sense to expand it.",
+   "ev_start": 45562,
+   "ev_end": 45701,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "COST_2026_3-S021",
+  "COST_2026_3-S034",
+  "COST_2026_3-S019",
+  "COST_2026_3-S023",
+  "COST_2026_3-S028",
+  "COST_2026_3-S029",
+  "COST_2026_3-S048",
+  "COST_2026_3-S054",
+  "COST_2026_3-S058",
+  "COST_2026_3-S064",
+  "COST_2026_3-S073",
+  "COST_2026_3-S077",
+  "COST_2026_3-S081",
+  "COST_2026_3-S084",
+  "COST_2026_3-S092",
+  "COST_2026_3-S098",
+  "COST_2026_3-S106",
+  "COST_2026_3-S110",
+  "COST_2026_3-S120"
+ ],
+ "surfaced_signal_ids": [
+  "COST_2026_3-S021",
+  "COST_2026_3-S034",
+  "COST_2026_3-S019",
+  "COST_2026_3-S023",
+  "COST_2026_3-S028",
+  "COST_2026_3-S029",
+  "COST_2026_3-S048",
+  "COST_2026_3-S054",
+  "COST_2026_3-S058",
+  "COST_2026_3-S064",
+  "COST_2026_3-S073",
+  "COST_2026_3-S077",
+  "COST_2026_3-S081",
+  "COST_2026_3-S084",
+  "COST_2026_3-S092",
+  "COST_2026_3-S098",
+  "COST_2026_3-S106",
+  "COST_2026_3-S110",
+  "COST_2026_3-S120",
+  "COST_2026_3-S072",
+  "COST_2026_3-S111",
+  "COST_2026_3-S042",
+  "COST_2026_3-S124",
+  "COST_2026_3-S003",
+  "COST_2026_3-S007",
+  "COST_2026_3-S095",
+  "COST_2026_3-S001",
+  "COST_2026_3-S056"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "digitally_enabled",
+   "ancillary_and_other_businesses",
+   "quarter_s"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "quarter_s"
+  ],
+  "commentary_without_facts": [
+   "digitally_enabled"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "COST_2026_3-003",
+   "COST_2026_3-004",
+   "COST_2026_3-005",
+   "COST_2026_3-006"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "4 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 126,
+  "signals_usable": 126,
+  "selected": 19,
+  "by_topic": {
+   "pressure": 35,
+   "product": 25,
+   "momentum": 49,
+   "strategy": 17,
+   "competition": 5
+  },
+  "by_horizon": {
+   "current": 110,
+   "forward": 16
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 3,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

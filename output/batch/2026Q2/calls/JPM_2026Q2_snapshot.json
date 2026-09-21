@@ -1,0 +1,3399 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "JPM",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "JPM",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 2,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jeremy Barnum",
+    "role": "management"
+   },
+   {
+    "name": "Ken Usdin",
+    "role": "analyst"
+   },
+   {
+    "name": "Jamie Dimon",
+    "role": "management"
+   },
+   {
+    "name": "Chris McGratty",
+    "role": "analyst"
+   },
+   {
+    "name": "John McDonald",
+    "role": "analyst"
+   },
+   {
+    "name": "Erika Najarian",
+    "role": "analyst"
+   },
+   {
+    "name": "James Mitchell",
+    "role": "analyst"
+   },
+   {
+    "name": "Matt O'Connor",
+    "role": "analyst"
+   },
+   {
+    "name": "Mike Mayo",
+    "role": "analyst"
+   },
+   {
+    "name": "Saul Martinez",
+    "role": "analyst"
+   },
+   {
+    "name": "Ebrahim Poonawala",
+    "role": "analyst"
+   },
+   {
+    "name": "Glenn Schorr",
+    "role": "analyst"
+   },
+   {
+    "name": "Gerard Cassidy",
+    "role": "analyst"
+   },
+   {
+    "name": "Manan Gosalia",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "third quarter",
+  "source_file": "JPM_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $6.14/sh",
+   "fact_ids": [
+    "JPM_2026_2-002"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): qa +0.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [],
+ "company": {
+  "fact_ids": [
+   "JPM_2026_2-002",
+   "JPM_2026_2-004",
+   "JPM_2026_2-013"
+  ],
+  "signal_ids": [
+   "JPM_2026_2-S001",
+   "JPM_2026_2-S002",
+   "JPM_2026_2-S003",
+   "JPM_2026_2-S011",
+   "JPM_2026_2-S013",
+   "JPM_2026_2-S014",
+   "JPM_2026_2-S022",
+   "JPM_2026_2-S026",
+   "JPM_2026_2-S027",
+   "JPM_2026_2-S029",
+   "JPM_2026_2-S032",
+   "JPM_2026_2-S034",
+   "JPM_2026_2-S053",
+   "JPM_2026_2-S057",
+   "JPM_2026_2-S061",
+   "JPM_2026_2-S062",
+   "JPM_2026_2-S082"
+  ],
+  "trajectory": []
+ },
+ "blocks": [],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 0,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": null
+   },
+   "qa": {
+    "confident": 6,
+    "cautious": 6,
+    "mixed": 0,
+    "withheld": 1,
+    "index": 0.0
+   }
+  },
+  "speakers": {
+   "Jeremy Barnum": {
+    "cautious": 4,
+    "confident": 3
+   },
+   "Jamie Dimon": {
+    "confident": 3,
+    "cautious": 2
+   }
+  },
+  "notable_confident": [
+   "JPM_2026_2-S025",
+   "JPM_2026_2-S024",
+   "JPM_2026_2-S046",
+   "JPM_2026_2-S048"
+  ],
+  "notable_cautious": [
+   "JPM_2026_2-S086",
+   "JPM_2026_2-S034",
+   "JPM_2026_2-S028",
+   "JPM_2026_2-S018",
+   "JPM_2026_2-S019"
+  ],
+  "withheld": [
+   "JPM_2026_2-S086"
+  ],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "JPM_2026_2-S001",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 15"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 2,
+   "sentence": "Excluding the significant items, revenue was up 15% year-on-year, predominantly driven by markets revenue, higher asset management fees in AWM and CCB, higher investment banking revenue, and higher deposit and loan balances, partially offset by the impact of lower rates.",
+   "ev_start": 853,
+   "ev_end": 1124,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S002",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "volume",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 3,
+   "sentence": "Expenses of $27.3 billion were up 15% year-on-year, largely driven by volume and revenue-related expense, as well as growth in front office hiring and labor inflation.",
+   "ev_start": 1125,
+   "ev_end": 1292,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S003",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ],
+    "strategy": [
+     "dividend"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 7,
+   "sentence": "As you saw in our CCAR press release in June, the board intends to increase the quarterly dividend to $1.65 per share, effective in the third quarter.",
+   "ev_start": 1805,
+   "ev_end": 1955,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 8"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 10,
+   "sentence": "Revenue of $20.3 billion was up 8% year-on-year, predominantly driven by higher card NII, largely on higher revolving balances, as well as higher operating lease income in auto and asset management fees in wealth management.",
+   "ev_start": 2023,
+   "ev_end": 2247,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 3"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 13,
+   "sentence": "In banking and wealth management, average deposits were up 3% year-on-year and 2% quarter-on-quarter, driven by strong net new checking account growth of over 500,000 accounts this quarter.",
+   "ev_start": 2463,
+   "ev_end": 2652,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S006",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 21"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 14,
+   "sentence": "Client investment assets were up 21% year-on-year, driven by market performance along with strong flows.",
+   "ev_start": 2653,
+   "ev_end": 2757,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 27"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 17,
+   "sentence": "Revenue of $24.9 billion was up 27% year-on-year, driven by strong performance across the businesses.",
+   "ev_start": 2955,
+   "ev_end": 3056,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "strong",
+     "up 30"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 18,
+   "sentence": "IB fees were up 30% year-on-year, reflecting double-digit growth across all products, with particularly strong performance in equity underwriting.",
+   "ev_start": 3057,
+   "ev_end": 3203,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S009",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "robust"
+    ],
+    "strategy": [
+     "m&a"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 19,
+   "sentence": "While this quarter's performance was supported by both some large ECM deals and the acceleration of the closure of some M&A transactions, the pipeline remains quite robust, and the current activity levels seem to be encouraging more activity.",
+   "ev_start": 3204,
+   "ev_end": 3446,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "up 6"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 21,
+   "sentence": "In markets, fixed income was up 6% year-on-year, with solid performance in credit, currencies in emerging markets, and rates, partially offset by lower revenue in commodities.",
+   "ev_start": 3572,
+   "ev_end": 3747,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 86"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 22,
+   "sentence": "The equities business delivered an exceptionally strong quarter, with revenue up 86% year-on-year, reflecting the highly dynamic market conditions.",
+   "ev_start": 3748,
+   "ev_end": 3895,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S012",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 19"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 26,
+   "sentence": "Revenue of $6.9 billion was up 19% year-on-year, driven by growth in management fees on higher average market levels and strong net inflows, as well as investment valuation gains, higher loan balances, and higher brokerage activity.",
+   "ev_start": 4185,
+   "ev_end": 4417,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S013",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "JPM_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 29,
+   "sentence": "Before turning to the outlook, corporate reported net income of $4.2 billion on revenue of $6 billion, which includes the significant items noted in the presentation.",
+   "ev_start": 4679,
+   "ev_end": 4845,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "volume",
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 31,
+   "sentence": "The new adjusted expense outlook is about $107.5 billion, with the increase primarily due to higher volume and revenue-related expenses driven by the activity levels and associated revenue outperformance.",
+   "ev_start": 5052,
+   "ev_end": 5256,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 4,
+   "sentence_index": 0,
+   "sentence": "It's exactly, I think we try to be totally clear on the press release, which is, look, Marianne is an exceptional individual as a human being, as a leader, and is obviously an executive.",
+   "ev_start": 6347,
+   "ev_end": 6533,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S016",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 1,
+   "sentence": "I would actually bifurcate that a little bit between investment banking and markets, in the sense that by historical standards, investment banking fees were fine, but they weren't at sort of super peak level.",
+   "ev_start": 7317,
+   "ev_end": 7525,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 11,
+   "sentence": "Clearly, markets revenues in general have been quite elevated and strong for some time, although, as we pointed out, that also is associated with much more financial resource deployment in support of our clients.",
+   "ev_start": 8752,
+   "ev_end": 8964,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S018",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 14,
+   "sentence": "We'll see what happens.",
+   "ev_start": 9145,
+   "ev_end": 9168,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S019",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "cautious"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 20,
+   "sentence": "We're trying to strike the right balance between supporting all our clients and being appropriately cautious in an environment that has some complicated dynamics in it.",
+   "ev_start": 9557,
+   "ev_end": 9725,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "Wholesale deposit growth was quite strong this quarter, actually, and has been for the first half of the year.",
+   "ev_start": 10364,
+   "ev_end": 10474,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S021",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "winning",
+     "taking share"
+    ],
+    "competition": [
+     "winning deals and taking share"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 7,
+   "sentence": "Obviously, a lot of that is the strength of the franchise and winning deals and taking share, but some of it is also the kind of lending environment, particularly the sort of BFI space and a lot of the data center stuff.",
+   "ev_start": 10688,
+   "ev_end": 10908,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low single-digit",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "low single-digit"
+    ],
+    "forward": [
+     "expecting"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "On consumer, we talked about expecting low single-digit growth this year, that expectation is still in effect.",
+   "ev_start": 11117,
+   "ev_end": 11227,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 12,
+   "sentence": "If you look at what those pieces were, it was fundamentally the balance between ongoing very robust net new checking account growth and the question of yield-seeking flows and the impact that that was having or not having on average balances per account.",
+   "ev_start": 11378,
+   "ev_end": 11632,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S024",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel great about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 17,
+   "sentence": "What I would say about that is, we feel great about the franchise, and we feel great about how everything is going, and there's no change to that sort of hope or aspiration.",
+   "ev_start": 11997,
+   "ev_end": 12170,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S025",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 20,
+   "sentence": "The view is that the 15% will be an outcome of that, and we still feel good about it.",
+   "ev_start": 12433,
+   "ev_end": 12518,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S026",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing",
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "In the end, we're investing, we're always going to invest.",
+   "ev_start": 13175,
+   "ev_end": 13233,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S027",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "I think the thing that we've been saying for a long time is that the power of this franchise is such that we are able to aggressively invest for the future for the sake of generating future returns and to solidify the competitive position of the franchise while still delivering exceptional current returns.",
+   "ev_start": 13305,
+   "ev_end": 13612,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S028",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "hedge": [
+     "plays out"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "If you sort of do that math, it does suggest a higher exit run rate, which, in the central case, assuming the yield curve plays out as the forwards currently forecast and the deposit and other drivers are in line with our current expectations, that's what we would expect.",
+   "ev_start": 14433,
+   "ev_end": 14705,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S029",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 9,
+   "sentence": "You want it across the whole company, not weighted to investment banking or trading or just big CEOs, but also weighted to the fact that we've got 300,000 employees around the world.",
+   "ev_start": 19652,
+   "ev_end": 19834,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 12,
+   "sentence": "You have to be a flexible mind to deal with this new growing complex world.",
+   "ev_start": 19956,
+   "ev_end": 20031,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S031",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 15,
+   "sentence": "It's a great team of people, which I am fully confident if I was hit by a truck, which is not my preference, we would be fine.",
+   "ev_start": 20242,
+   "ev_end": 20368,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slowdown"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 6,
+   "sentence": "I do think you might actually see a slowdown in growth, maybe a slowdown in 2027 or 2028.",
+   "ev_start": 22063,
+   "ev_end": 22152,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S033",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 10,
+   "sentence": "I've also pointed out over and continuously that some expenses, if you accounted for them as investments, that they have very good returns, but they're expensive in the short run.",
+   "ev_start": 22438,
+   "ev_end": 22617,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S034",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "uniquely"
+    ],
+    "hedge": [
+     "remains to be seen"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 11,
+   "sentence": "AI still remains to be seen because the other thing I think about AI, which is a little bit different than everybody else, is you don't uniquely benefit from AI.",
+   "ev_start": 22618,
+   "ev_end": 22779,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S035",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 13,
+   "sentence": "In a competitive capitalist world, we always use AI to do a better job for the customers, and we can't just say, \"Oh, it's going to increase our margins and we're going to keep that.\"",
+   "ev_start": 22834,
+   "ev_end": 23017,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing",
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "In the end, we're investing, we're always going to invest.",
+   "ev_start": 23272,
+   "ev_end": 23330,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S037",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 4,
+   "sentence": "I think the thing that we've been saying for a long time is that the power of this franchise is such that we are able to aggressively invest for the future for the sake of generating future returns and to solidify the competitive position of the franchise while still delivering exceptional current returns.",
+   "ev_start": 23402,
+   "ev_end": 23709,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S038",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 1,
+   "sentence": "Just to briefly add on short-term wholesale funding, I think there's an important point there in terms of the competitive dynamics that we were really quite explicit about in our comment letter, which I would encourage everyone to read because it's a nuanced thing, but I think if you go through it makes the point very clearly.",
+   "ev_start": 25422,
+   "ev_end": 25750,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S039",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 2,
+   "sentence": "What they've wound up doing with this change to the short-term wholesale funding is essentially increase the burden on banks like us and Bank of America that have both markets and banking businesses as well as traditional consumer businesses, disproportionately relative to our former investment bank competitors who have a different business mix.",
+   "ev_start": 25751,
+   "ev_end": 26098,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchase"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 8,
+   "sentence": "Obviously that wouldn't be true if you had to do a massive repurchase of the deposit franchise in order to protect it, essentially.",
+   "ev_start": 29259,
+   "ev_end": 29390,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S041",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 3,
+   "sentence": "The question is when, and obviously there's the larger question of the competitive dynamics and the full value proposition of the deposit franchise especially.",
+   "ev_start": 29543,
+   "ev_end": 29702,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S042",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 10,
+   "sentence": "We were in a moment where coming out of the back of the rate hiking cycle and relatively modest deposit growth, et cetera, the NII was still working its way out of the headwinds.",
+   "ev_start": 32099,
+   "ev_end": 32277,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S043",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 11,
+   "sentence": "In the meantime, we had inflation and investment and the usual stuff driving the expense base.",
+   "ev_start": 32278,
+   "ev_end": 32372,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S044",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 2,
+   "sentence": "First of all, like I mentioned, how you evaluate people is their analytics, it's their brain power, it's their EQ, it's their heart, their soul, their culture carrier.",
+   "ev_start": 34836,
+   "ev_end": 35003,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S045",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 4,
+   "sentence": "He's exhibited that in markets, in investment banking.",
+   "ev_start": 35034,
+   "ev_end": 35088,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S046",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 6,
+   "sentence": "We're completely comfortable with that.",
+   "ev_start": 35231,
+   "ev_end": 35270,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S047",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 8,
+   "sentence": "When I've seen investment banks, big banks taken over by someone only from the investment bank who only cares about the investment bank Believe me, the rest of the franchise can suffer.",
+   "ev_start": 35350,
+   "ev_end": 35535,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S048",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 12,
+   "sentence": "He's already excited.",
+   "ev_start": 35640,
+   "ev_end": 35661,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "sentence_index": 1,
+   "sentence": "Troy, with no offense intended to my old good friends who are foreign exchange spot traders, but Troy was actually an options trader, which is also where I started, so I think he would want me to correct the record on that.",
+   "ev_start": 35804,
+   "ev_end": 36027,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S050",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 8,
+   "sentence": "I think there's almost 1,000 use cases today, though we'd say that the really important ones are 50 across risk, fraud, marketing, hedging, prospecting, note-taking, idea generation, document reading.",
+   "ev_start": 37443,
+   "ev_end": 37643,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 11,
+   "sentence": "I think you have to put in the back of your mind that there are areas where we may just accelerate what we do that we'd want to get done anyway.",
+   "ev_start": 37691,
+   "ev_end": 37835,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S052",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 16,
+   "sentence": "I also think that over time, remember, this will be offered to smaller competitors too, through Fiserv and FIS and other fintech companies.",
+   "ev_start": 38106,
+   "ev_end": 38245,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 27,
+   "sentence": "If we had a 50% ROE and growing at 10% a year, we'd probably have, in 50 or 60 years, you'd probably be 100% of the GDP of the United States of America.",
+   "ev_start": 39182,
+   "ev_end": 39334,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S054",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 71,
+   "sentence_index": 25,
+   "sentence": "You're not going to hear anything from me that's new or differentiated about the labor market.",
+   "ev_start": 44474,
+   "ev_end": 44568,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S055",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 73,
+   "sentence_index": 8,
+   "sentence": "I think we now think we actually deployed it over time.",
+   "ev_start": 45689,
+   "ev_end": 45744,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S056",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "restructuring"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 73,
+   "sentence_index": 14,
+   "sentence": "You're talking about global infrastructure, the remilitarization of the world, the restructuring of trade is taking place, the enormous need of governments.",
+   "ev_start": 45930,
+   "ev_end": 46086,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S057",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 73,
+   "sentence_index": 15,
+   "sentence": "You have global deficits are almost 4.5% or 5%, which is a very big number competing for the same capital.",
+   "ev_start": 46087,
+   "ev_end": 46193,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S058",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 73,
+   "sentence_index": 16,
+   "sentence": "We do think it'll deploy and that has consequences.",
+   "ev_start": 46194,
+   "ev_end": 46245,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 73,
+   "sentence_index": 18,
+   "sentence": "If we think we can deploy, it's very different than buying back stock.",
+   "ev_start": 46338,
+   "ev_end": 46408,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S060",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 0,
+   "sentence": "You're making an investment decision.",
+   "ev_start": 46626,
+   "ev_end": 46663,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 17,
+   "sentence": "The goal is to deploy our capital at a 17% return.",
+   "ev_start": 47699,
+   "ev_end": 47749,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S062",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weakness"
+    ],
+    "pressure": [
+     "weakness"
+    ],
+    "performance": [
+     "weakness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 21,
+   "sentence": "What we don't want to do is look at inorganic as a sign of weakness over organic, which I think companies do sometimes.",
+   "ev_start": 47846,
+   "ev_end": 47965,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S063",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 22,
+   "sentence": "They exaggerate about M&A when they should be focusing on why they're not doing particularly well in an area or something like that.",
+   "ev_start": 47966,
+   "ev_end": 48098,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S064",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 23,
+   "sentence": "We have a lot of competition, by the way, and we've pointed out before.",
+   "ev_start": 48099,
+   "ev_end": 48170,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S065",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 24,
+   "sentence": "Very good competition.",
+   "ev_start": 48171,
+   "ev_end": 48193,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S066",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 74,
+   "sentence_index": 26,
+   "sentence": "We have to make certain investments to keep up with them, or to hopefully do a better job than some of them.",
+   "ev_start": 48407,
+   "ev_end": 48515,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S067",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 79,
+   "sentence_index": 5,
+   "sentence": "They relate to a narrow segment of accounts and where you're competing for their investment business and their deposit business.",
+   "ev_start": 50193,
+   "ev_end": 50321,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S068",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 83,
+   "sentence_index": 1,
+   "sentence": "When we were talking about just bricks and mortar, we weren't going to try to compete because we couldn't have with local banks, their brands, their capabilities.",
+   "ev_start": 51129,
+   "ev_end": 51291,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S069",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 83,
+   "sentence_index": 2,
+   "sentence": "Unlike the U.S., over there, we'd have to add all the overhead and different languages and different regulatory regimes, et cetera.",
+   "ev_start": 51292,
+   "ev_end": 51423,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S070",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 83,
+   "sentence_index": 11,
+   "sentence": "We've added the investment products in the U.K.",
+   "ev_start": 52070,
+   "ev_end": 52117,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S071",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonates"
+    ],
+    "product": [
+     "resonates"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 87,
+   "sentence_index": 2,
+   "sentence": "For whatever reason, I think the data center underwriting space is one that resonates with me as a kind of bellwether for what people are doing.",
+   "ev_start": 53561,
+   "ev_end": 53705,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S072",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 87,
+   "sentence_index": 8,
+   "sentence": "It's competitive, and people are eager to be involved.",
+   "ev_start": 54159,
+   "ev_end": 54213,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S073",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressures"
+    ],
+    "pressure": [
+     "pressures"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 87,
+   "sentence_index": 11,
+   "sentence": "I don't think we're screaming from the rooftops that underwriting center is such a class, but I think you see normal pressures, and we're navigating those in the way that we do, which is we do flex in some moments for particularly important clients in situations where we feel like it's the right thing to do.",
+   "ev_start": 54443,
+   "ev_end": 54752,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S074",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weakness"
+    ],
+    "pressure": [
+     "weakness"
+    ],
+    "performance": [
+     "weakness"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 88,
+   "sentence_index": 5,
+   "sentence": "It is across that spectrum, you've seen a little bit of weakness.",
+   "ev_start": 55466,
+   "ev_end": 55531,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S075",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 92,
+   "sentence_index": 1,
+   "sentence": "On the question of stability, I don't think it's Pollyannish to say that regulatory stability is a desirable thing.",
+   "ev_start": 56727,
+   "ev_end": 56842,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreasing"
+    ],
+    "performance": [
+     "decreasing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 92,
+   "sentence_index": 3,
+   "sentence": "I think it's understandable and correct that there would've been a big reaction to the crisis then maybe a reaction to the reaction, and that the sort of amplitude of those oscillations might be decreasing and we get to a place where we've got it about right.",
+   "ev_start": 56896,
+   "ev_end": 57155,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S077",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "regulatory",
+     "constraints"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 92,
+   "sentence_index": 4,
+   "sentence": "Frankly, we get to a point where banks are primarily focused not on complying with regulatory constraints of various types, which should probably, in general, operate as backstops, but rather thinking about what their own standards are and what their own risk appetite is and have that be kind of the true north of any given set of decisions.",
+   "ev_start": 57156,
+   "ev_end": 57498,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S078",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "convinced"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 92,
+   "sentence_index": 7,
+   "sentence": "At least I think for banks like us, I'm not convinced that that's a major drag right now, to be honest, or that it has been in the recent past.",
+   "ev_start": 57684,
+   "ev_end": 57827,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S079",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulations"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 93,
+   "sentence_index": 2,
+   "sentence": "I'm hoping what really should happen now is when they write legislation, they could be more clear about their intent and what they want because they could have written it and said, \"We want this independent,\" or, \"You can only replace so many,\" or, \"We don't want flip-flopping regulations.\"",
+   "ev_start": 58030,
+   "ev_end": 58321,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S080",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulators"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 93,
+   "sentence_index": 10,
+   "sentence": "Some of the regulators said that from now on, they're going to focus on safety and soundness.",
+   "ev_start": 58783,
+   "ev_end": 58876,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S081",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulators"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Dimon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 97,
+   "sentence_index": 0,
+   "sentence": "You guys are the guys who know so much about this that should be making some of these recommendations to the regulators.",
+   "ev_start": 59759,
+   "ev_end": 59879,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 101,
+   "sentence_index": 5,
+   "sentence": "We are forecasting some meaningful acceleration in that number for the second half of the year.",
+   "ev_start": 61278,
+   "ev_end": 61373,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 101,
+   "sentence_index": 7,
+   "sentence": "Obviously, when you listen to the Frontier Labs talk, they talk about the exponential and the acceleration of usage, which is obviously driving their revenues and someone's paying those bills.",
+   "ev_start": 61592,
+   "ev_end": 61784,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S084",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 101,
+   "sentence_index": 8,
+   "sentence": "We're, in a sense, like a representation of the economy as a whole, that we're probably lagging a little bit some of the cutting edge adoption and usage as we should given who we are as a company.",
+   "ev_start": 61785,
+   "ev_end": 61981,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S085",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 101,
+   "sentence_index": 14,
+   "sentence": "In the end, either we're going to have a lot more capacity or we're going to have a lot more efficiency or both, or we're going to have better revenue outcomes, or we're going to compete more effectively, and we just need to be disciplined about how we handle that.",
+   "ev_start": 62877,
+   "ev_end": 63142,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S086",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": true,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "withheld": [
+     "not going to get into"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 103,
+   "sentence_index": 0,
+   "sentence": "I'm definitely not going to get into discussions with you about internal limit management.",
+   "ev_start": 63567,
+   "ev_end": 63657,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S087",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "capital allocation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 103,
+   "sentence_index": 2,
+   "sentence": "Sometimes people think about capital allocation almost as if it's a hedge fund where you're giving a pot of people some capital and telling them to go use it.",
+   "ev_start": 63846,
+   "ev_end": 64004,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S088",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 103,
+   "sentence_index": 9,
+   "sentence": "Obviously we've got a ton of excess as a company, and as Jamie said, our primary goal is to deploy that organically.",
+   "ev_start": 64504,
+   "ev_end": 64620,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S089",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 103,
+   "sentence_index": 12,
+   "sentence": "Sometimes there are other financial resource constraints, and that's part of what we do for a living is try to manage that stuff.",
+   "ev_start": 64820,
+   "ev_end": 64949,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "JPM_2026_2-S090",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeremy Barnum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 103,
+   "sentence_index": 15,
+   "sentence": "You really need to reduce bank demand for reserves to get that done, that in turn probably requires some adjustment to liquidity regulation.",
+   "ev_start": 65259,
+   "ev_end": 65399,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "JPM_2026_2-S001",
+  "JPM_2026_2-S002",
+  "JPM_2026_2-S003",
+  "JPM_2026_2-S011",
+  "JPM_2026_2-S013",
+  "JPM_2026_2-S014",
+  "JPM_2026_2-S022",
+  "JPM_2026_2-S026",
+  "JPM_2026_2-S027",
+  "JPM_2026_2-S029",
+  "JPM_2026_2-S032",
+  "JPM_2026_2-S034",
+  "JPM_2026_2-S053",
+  "JPM_2026_2-S057",
+  "JPM_2026_2-S061",
+  "JPM_2026_2-S062",
+  "JPM_2026_2-S082"
+ ],
+ "surfaced_signal_ids": [
+  "JPM_2026_2-S001",
+  "JPM_2026_2-S002",
+  "JPM_2026_2-S003",
+  "JPM_2026_2-S011",
+  "JPM_2026_2-S013",
+  "JPM_2026_2-S014",
+  "JPM_2026_2-S022",
+  "JPM_2026_2-S026",
+  "JPM_2026_2-S027",
+  "JPM_2026_2-S029",
+  "JPM_2026_2-S032",
+  "JPM_2026_2-S034",
+  "JPM_2026_2-S053",
+  "JPM_2026_2-S057",
+  "JPM_2026_2-S061",
+  "JPM_2026_2-S062",
+  "JPM_2026_2-S082",
+  "JPM_2026_2-S025",
+  "JPM_2026_2-S024",
+  "JPM_2026_2-S046",
+  "JPM_2026_2-S048",
+  "JPM_2026_2-S086",
+  "JPM_2026_2-S028",
+  "JPM_2026_2-S018",
+  "JPM_2026_2-S019"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "JPM_2026_2-001",
+   "JPM_2026_2-003",
+   "JPM_2026_2-005",
+   "JPM_2026_2-006",
+   "JPM_2026_2-007",
+   "JPM_2026_2-008",
+   "JPM_2026_2-009",
+   "JPM_2026_2-010",
+   "JPM_2026_2-011",
+   "JPM_2026_2-012"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "warn",
+   "detail": "the ledger flagged conflicting total-company revenue figures ['JPM_2026_2-003', 'JPM_2026_2-006', 'JPM_2026_2-008', 'JPM_2026_2-009', 'JPM_2026_2-011']: a segment figure may be filed as the company total (sentences like 'Revenue was...' inside a segment paragraph). Check the source sentences before quoting total revenue from this call."
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "10 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 90,
+  "signals_usable": 90,
+  "selected": 17,
+  "by_topic": {
+   "momentum": 25,
+   "strategy": 25,
+   "pressure": 14,
+   "product": 11,
+   "competition": 17
+  },
+  "by_horizon": {
+   "current": 83,
+   "forward": 7
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 0,
+  "checks_failed": 0,
+  "checks_warn": 3
+ }
+}

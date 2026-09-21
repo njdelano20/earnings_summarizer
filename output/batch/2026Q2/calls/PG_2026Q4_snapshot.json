@@ -1,0 +1,8850 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "PG",
+  "fiscal_quarter": 4,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q4",
+  "symbol": "PG",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q4",
+  "period_end": "2026-06",
+  "fye_month": 6,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 6,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Shailesh Jejurikar",
+    "role": "management"
+   },
+   {
+    "name": "Andre Schulten",
+    "role": "management"
+   },
+   {
+    "name": "Dara Mohsenian",
+    "role": "analyst"
+   },
+   {
+    "name": "Lauren Lieberman",
+    "role": "analyst"
+   },
+   {
+    "name": "Steve Powers",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrea Teixeira",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Carey",
+    "role": "analyst"
+   },
+   {
+    "name": "Peter Grom",
+    "role": "analyst"
+   },
+   {
+    "name": "Filippo Falorni",
+    "role": "analyst"
+   },
+   {
+    "name": "Bonnie Herzog",
+    "role": "analyst"
+   },
+   {
+    "name": "Peter Galbo",
+    "role": "analyst"
+   },
+   {
+    "name": "Robert Ottenstein",
+    "role": "analyst"
+   },
+   {
+    "name": "Kevin Grundy",
+    "role": "analyst"
+   },
+   {
+    "name": "Kaumil Gajrawala",
+    "role": "analyst"
+   },
+   {
+    "name": "Robert Moskow",
+    "role": "analyst"
+   },
+   {
+    "name": "Olivia Tong",
+    "role": "analyst"
+   },
+   {
+    "name": "Edward Lewis",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Lavery",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "fourth quarter",
+   "detail": "the call says 'fourth quarter', matching 2026Q4"
+  },
+  "reported_period_label": "fourth quarter",
+  "source_file": "PG_2026Q4.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $6.89/sh (+1%)",
+   "fact_ids": [
+    "PG_2026_4-001"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is accelerating: guided up",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.71, qa +0.88",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "PG_2026_4-S042",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "core",
+   "name": "Core",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "PG_2026_4-S094",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 23
+  },
+  {
+   "node": "currency_neutral_core",
+   "name": "Currency Neutral Core",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "PG_2026_4-015",
+   "PG_2026_4-001",
+   "PG_2026_4-010",
+   "PG_2026_4-011",
+   "PG_2026_4-012",
+   "PG_2026_4-017",
+   "PG_2026_4-020",
+   "PG_2026_4-021",
+   "PG_2026_4-005",
+   "PG_2026_4-018",
+   "PG_2026_4-019",
+   "PG_2026_4-016"
+  ],
+  "signal_ids": [
+   "PG_2026_4-S005",
+   "PG_2026_4-S028",
+   "PG_2026_4-S030",
+   "PG_2026_4-S033",
+   "PG_2026_4-S034",
+   "PG_2026_4-S041",
+   "PG_2026_4-S073",
+   "PG_2026_4-S074",
+   "PG_2026_4-S086",
+   "PG_2026_4-S090",
+   "PG_2026_4-S097",
+   "PG_2026_4-S127",
+   "PG_2026_4-S132",
+   "PG_2026_4-S140",
+   "PG_2026_4-S161",
+   "PG_2026_4-S173",
+   "PG_2026_4-S219"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "core",
+   "name": "Core",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PG_2026_4-002",
+    "PG_2026_4-003",
+    "PG_2026_4-004",
+    "PG_2026_4-008"
+   ],
+   "signal_ids": [
+    "PG_2026_4-S002",
+    "PG_2026_4-S020",
+    "PG_2026_4-S035",
+    "PG_2026_4-S036",
+    "PG_2026_4-S039",
+    "PG_2026_4-S071",
+    "PG_2026_4-S072",
+    "PG_2026_4-S094",
+    "PG_2026_4-S098",
+    "PG_2026_4-S107"
+   ],
+   "n_home_signals": 22,
+   "n_mentions": 23,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": [
+    "core:revenue"
+   ]
+  },
+  {
+   "id": "currency_neutral_core",
+   "name": "Currency Neutral Core",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PG_2026_4-009"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "PG_2026_4-S042",
+    "direction_word": "up",
+    "text": "In summary, a year of progress, and foundational work to enable accelerated future growth.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  },
+  {
+   "key": "core:revenue",
+   "node": "core",
+   "name": "Core",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "PG_2026_4-S094",
+    "direction_word": "flat",
+    "text": "Our bottom line outlook is broadly consistent with top-line, with core EPS growth of 0% to 3% versus 2026 core EPS of $6.89 - this guidance equates to a range of $6.89 to $7.11 per share, $7 at the center of the range.",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 6,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.71
+   },
+   "qa": {
+    "confident": 15,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.88
+   }
+  },
+  "speakers": {
+   "Shailesh Jejurikar": {
+    "confident": 17
+   },
+   "Andre Schulten": {
+    "cautious": 2,
+    "confident": 4
+   }
+  },
+  "notable_confident": [
+   "PG_2026_4-S085",
+   "PG_2026_4-S048",
+   "PG_2026_4-S075",
+   "PG_2026_4-S138"
+  ],
+  "notable_cautious": [
+   "PG_2026_4-S161",
+   "PG_2026_4-S087"
+  ],
+  "withheld": [],
+  "revisions": [
+   "PG_2026_4-S086"
+  ]
+ },
+ "signals": [
+  {
+   "id": "PG_2026_4-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release",
+     "announcing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 2,
+   "sentence": "Before I hand over the call to Andre to begin the earnings portion of this call, I want to make a few comments on the second press release we issued this morning announcing Jon Moeller's upcoming retirement from the board of directors and The Procter & Gamble Company.",
+   "ev_start": 1099,
+   "ev_end": 1367,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S002",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 1.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "We managed through a very volatile environment and delivered organic sales, core EPS and cash return to shareowners within our initial guidance ranges.",
+   "ev_start": 2558,
+   "ev_end": 2709,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S003",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We built plans to return the business to consistent growth across all categories and regions, we stabilized global market share, and we identified and are deploying the capabilities needed to create the CPG company of the future, to generate long-term growth and value creation.",
+   "ev_start": 2710,
+   "ev_end": 2988,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "up about 1"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Looking closer at fiscal 2026 on a semester basis, we delivered an acceleration in top-line results, up about 1 point in the first half and 2 points in the second half.",
+   "ev_start": 3027,
+   "ev_end": 3195,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S005",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "We also saw improvement in market share in the second half despite some softening in underlying market growth as inflation increased.",
+   "ev_start": 3196,
+   "ev_end": 3329,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Organic sales grew more than 1%.",
+   "ev_start": 3403,
+   "ev_end": 3435,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S007",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "This includes around 40 basis points of headwinds from product form and go-to-market portfolio choices.",
+   "ev_start": 3503,
+   "ev_end": 3606,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "forward": [
+     "for the year"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "Nine of ten product categories held or grew organic sales for the year.",
+   "ev_start": 3661,
+   "ev_end": 3732,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "Hair Care and Skin and Personal Care each grew mid-single digits.",
+   "ev_start": 3733,
+   "ev_end": 3798,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "All seven regions held or grew organic sales.",
+   "ev_start": 3967,
+   "ev_end": 4012,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 1"
+    ],
+    "forward": [
+     "for the year"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "Focus market organic sales were up 1% for the year.",
+   "ev_start": 4013,
+   "ev_end": 4064,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.25,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "North America and Europe focus markets each grew modestly.",
+   "ev_start": 4065,
+   "ev_end": 4123,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 4"
+    ],
+    "forward": [
+     "for the year"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "Greater China organic sales were up 4% for the year.",
+   "ev_start": 4124,
+   "ev_end": 4176,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 4"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.61,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Enterprise markets were up 4%, led by Latin America, with 6% organic sales growth.",
+   "ev_start": 4177,
+   "ev_end": 4259,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 6"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "E-commerce sales increased 6%, now representing 20% of total company sales.",
+   "ev_start": 4260,
+   "ev_end": 4335,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Twenty-six of our top 50 category-country combinations held or grew share for the fiscal year.",
+   "ev_start": 4336,
+   "ev_end": 4430,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Five of ten product categories held or grew share globally.",
+   "ev_start": 4431,
+   "ev_end": 4490,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "In aggregate, global value and volume share trends improved in the back half, exiting the year flat.",
+   "ev_start": 4491,
+   "ev_end": 4591,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 1"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "Core earnings per share were $6.89, up 1% in fiscal 2026.",
+   "ev_start": 4592,
+   "ev_end": 4649,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-002",
+    "PG_2026_4-003"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "decreased"
+    ],
+    "performance": [
+     "margin",
+     "declined",
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Core gross margin declined 40 basis points and core operating margin decreased 70 basis points.",
+   "ev_start": 4650,
+   "ev_end": 4745,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S021",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "$2.8 billion before tax of productivity improvement across cost of goods sold and SG&A enabled an increase in investment in superior products, packages and brand communication to drive market growth.",
+   "ev_start": 4746,
+   "ev_end": 4945,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-004"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "margin",
+     "decreased"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "On a currency neutral basis, core EPS was in line with prior year, and core operating margin decreased 60 basis points.",
+   "ev_start": 4946,
+   "ev_end": 5065,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S023",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PG_2026_4-005"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "strategy": [
+     "dividend",
+     "dividends",
+     "repurchases"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "We increased our dividend by 3% and returned over $15 billion of value to shareholders: over $10 billion in dividends and $5 billion in share repurchases, consistent with our guidance at the start of the year.",
+   "ev_start": 5113,
+   "ev_end": 5322,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S024",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 2"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "restructuring"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "Adjusting for brand, product and go-to-market restructuring impacts, organic sales for the ongoing business were around 1% for the quarter, 2% when adjusting for 1 point of pull-forward into Q3, consistent structural growth of 2% across the second half of the year.",
+   "ev_start": 5578,
+   "ev_end": 5843,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Personal Health Care, hair care, skin and personal care each grew mid-singles.",
+   "ev_start": 6104,
+   "ev_end": 6182,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "Five of seven regions held or grew organic sales.",
+   "ev_start": 6335,
+   "ev_end": 6384,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "Organic sales in North America were down 1% versus prior year.",
+   "ev_start": 6429,
+   "ev_end": 6491,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S028",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "While consumption and market share of P&G brands improved through the quarter, there was a notable disconnect between sell-out and sell-in, with sell-out or consumption at +2% and sell-in at -1%.",
+   "ev_start": 6492,
+   "ev_end": 6687,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "European focus markets organic sales were down 1%.",
+   "ev_start": 6963,
+   "ev_end": 7013,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "Like the U.S., P&G sales were impacted by trade consumption dynamics and value interventions.",
+   "ev_start": 7014,
+   "ev_end": 7107,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew",
+     "momentum"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "Greater China organic sales grew 4%, another quarter of positive momentum heading into fiscal 2027.",
+   "ev_start": 7108,
+   "ev_end": 7207,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "Enterprise markets grew 4% for the quarter.",
+   "ev_start": 7208,
+   "ev_end": 7251,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 4"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "Europe enterprise markets grew 5%, Latin America organic sales were up 4% and the Asia Pacific Middle East Africa enterprise region grew 3%.",
+   "ev_start": 7252,
+   "ev_end": 7392,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S034",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Global aggregate market share was in line with prior year, 23 of our top 50 category-country combinations held or grew share for the quarter.",
+   "ev_start": 7393,
+   "ev_end": 7534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-006"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 3"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "On the bottom line, core earnings per share were $1.43, down 3% versus prior year.",
+   "ev_start": 7535,
+   "ev_end": 7617,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-007"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "On a currency neutral basis, core EPS decreased 5%.",
+   "ev_start": 7618,
+   "ev_end": 7669,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S037",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "higher costs"
+    ],
+    "pressure": [
+     "higher costs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "These results include approximately $0.06 of higher costs, driven by spike in energy, transportation and material costs, which were mostly offset by tariff refund receipts.",
+   "ev_start": 7670,
+   "ev_end": 7842,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-008"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "margin",
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "Core gross margin was in line versus prior year, and core operating margin decreased 130 basis points.",
+   "ev_start": 7843,
+   "ev_end": 7945,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S039",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "healthy",
+     "improvement"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "Very strong productivity improvement of 460 basis points with healthy reinvestment in innovation and demand creation.",
+   "ev_start": 7946,
+   "ev_end": 8063,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "currency_neutral_core",
+    "core"
+   ],
+   "home": "currency_neutral_core",
+   "fact_ids": [
+    "PG_2026_4-009"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "margin",
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "Currency neutral core operating margin decreased 130 basis points.",
+   "ev_start": 8064,
+   "ev_end": 8130,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S041",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PG_2026_4-010",
+    "PG_2026_4-011",
+    "PG_2026_4-012"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "We returned $3.5 billion of cash to shareholders in this quarter - $2.6 billion in dividends and roughly $900 million in share repurchases.",
+   "ev_start": 8178,
+   "ev_end": 8317,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "accelerated",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "In summary, a year of progress, and foundational work to enable accelerated future growth.",
+   "ev_start": 8318,
+   "ev_end": 8408,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "improving"
+    ],
+    "negative": [
+     "challenging"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "Momentum with consumers is improving, results within guidance in a challenging macroeconomic and geopolitical environment, progress, but more work to do.",
+   "ev_start": 8409,
+   "ev_end": 8562,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing",
+     "sales"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "It is encouraging that growth was broad-based with all seven regions and nine of ten categories growing or holding organic sales.",
+   "ev_start": 8886,
+   "ev_end": 9015,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "customers",
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "This was visible in our largest market, the U.S., as we measured the percentage of top customers growing or holding share.",
+   "ev_start": 9098,
+   "ev_end": 9220,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "improved"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "We had less than 10% holding or growing share in the first half of the fiscal year and improved in the second half to around 50%.",
+   "ev_start": 9221,
+   "ev_end": 9350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "improvement"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "accelerate",
+     "growth",
+     "profitable"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "We will build on the improvement to further accelerate growth in the U.S., our largest and most profitable market.",
+   "ev_start": 9351,
+   "ev_end": 9465,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "pleased",
+     "confident"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "I am pleased with the progress we are making and confident the plans in place will continue to drive the momentum.",
+   "ev_start": 9466,
+   "ev_end": 9580,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S049",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated",
+     "roadmap"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "We remain committed to the integrated growth strategy as the roadmap for growth and value creation.",
+   "ev_start": 9718,
+   "ev_end": 9817,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S050",
+   "topics": [
+    "product",
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "Continue to drive productivity with multi-year visibility to fund innovation and demand creation and to mitigate cost headwinds.",
+   "ev_start": 10041,
+   "ev_end": 10169,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S051",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Finally, an organization that is fully engaged, enabled and excited to serve consumers and to win in the marketplace.",
+   "ev_start": 10297,
+   "ev_end": 10414,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S052",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipating"
+    ],
+    "competition": [
+     "competitive",
+     "advantage"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "P&G's point of difference - our competitive advantage - comes from outstanding integrated execution of these strategies across all activity systems in the company and from anticipating what capabilities are needed next to delight our consumers.",
+   "ev_start": 10415,
+   "ev_end": 10659,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S053",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "These include media fragmentation, the changing retailer landscape, and inflation.",
+   "ev_start": 10866,
+   "ev_end": 10948,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S054",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "The next is building holistic partnerships with retailers across the entire value chain, not just in their traditional role as merchants.",
+   "ev_start": 11343,
+   "ev_end": 11480,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "And finally, we need a stronger core and a bigger 'more.'",
+   "ev_start": 11648,
+   "ev_end": 11705,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S056",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "growing"
+    ],
+    "product": [
+     "innovations"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "The core of our business - we need to make sure this core is healthy and growing through impactful innovations that elevate the superiority of the brand and represent a good holistic value for consumers.",
+   "ev_start": 11773,
+   "ev_end": 11976,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "We know we are winning the consumer value equation when we are growing users of our brands.",
+   "ev_start": 12084,
+   "ev_end": 12175,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S058",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "growing"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "accelerate",
+     "growth",
+     "growing",
+     "sales",
+     "profit"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "When we get the equation right, we accelerate growth, growing users, leading market growth, and growing market share, sales and profit.",
+   "ev_start": 12339,
+   "ev_end": 12474,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.71,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Greater China Baby Care continues to lead the growth of the premium and super-premium segments behind consumer insight-driven innovation.",
+   "ev_start": 12500,
+   "ev_end": 12637,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S060",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "softness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "Chinese parents want only the best for their baby: softness, comfort, and dryness.",
+   "ev_start": 12638,
+   "ev_end": 12720,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "The result is double-digit organic sales growth in each of the past six quarters and nearly five points of value share over this period.",
+   "ev_start": 12913,
+   "ev_end": 13049,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 3.11,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Result: Vicks became the number one cough and cold brand in Latin America, with mid-teen organic sales growth and over one point of share growth while growing the category this year.",
+   "ev_start": 13506,
+   "ev_end": 13688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "Germany Pantene is a great example of a brand team responding to media landscape shifts to transform brand building and accelerate growth.",
+   "ev_start": 13689,
+   "ev_end": 13827,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S064",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "The team increased investments in social media and influencer partnerships, including top German beauty opinion leaders and hair experts, and culturally relevant brand events including Oktoberfest and Berlin Fashion Week, to meaningfully improve brand superiority awareness.",
+   "ev_start": 13828,
+   "ev_end": 14102,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 50"
+    ],
+    "performance": [
+     "grew",
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Pantene grew new users, resulting in value sales growth of 14% with value share up 50 basis points versus year ago.",
+   "ev_start": 14180,
+   "ev_end": 14295,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Over the past year, SK-II's facial essence treatment led discussion volume on a top social commerce platform improving the brand discussion ranking by five spots to third place.",
+   "ev_start": 14783,
+   "ev_end": 14960,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S067",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "P&G Mexico elevated its strategic partnerships with retailers by transitioning from short-term tactical planning to longer-term joint business planning.",
+   "ev_start": 15057,
+   "ev_end": 15209,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "customers",
+     "record",
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "As a result, P&G strengthens its position as a preferred supplier to these customers achieving record levels of in-store visibility and support behind our joint priority growth initiatives.",
+   "ev_start": 15401,
+   "ev_end": 15590,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high-single-digits",
+     "gained",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "P&G Mexico grew organic sales high-single-digits and gained over one point of value share in fiscal 2026.",
+   "ev_start": 15689,
+   "ev_end": 15794,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S070",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "Mr. Clean continues to innovate on its core proposition and solve more cleaning jobs across the home.",
+   "ev_start": 15795,
+   "ev_end": 15896,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S071",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "improve"
+    ],
+    "product": [
+     "launched",
+     "innovations"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "The brand has launched new innovations on the Magic Eraser platform that improve the longevity with a denser form and a wider micro-scrubbing structure that now lasts two times longer.",
+   "ev_start": 15897,
+   "ev_end": 16081,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S072",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "At the same time, we launched Mr. Clean shower and tub scrubber to address consumers' number one most disliked cleaning chore.",
+   "ev_start": 16149,
+   "ev_end": 16275,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S073",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "product": [
+     "launch"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "The result: Mr. Clean is winning consumers and driving category growth, delivering 18x its fair share of the bath cleaning category growth since launch.",
+   "ev_start": 16477,
+   "ev_end": 16629,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S074",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high-single-digit"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "product": [
+     "launch"
+    ],
+    "performance": [
+     "declining",
+     "growth"
+    ]
+   },
+   "score": 5.64,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "Since launch, Tide Original Liquid has gone from declining to high-single-digit growth.",
+   "ev_start": 16892,
+   "ev_end": 16979,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S075",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous",
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "On this size of the business, to get that inflection is simply amazing and gives me tremendous confidence of what can happen if we activate the core much better.",
+   "ev_start": 16980,
+   "ev_end": 17141,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": []
+   },
+   "score": 2.92,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 66,
+   "sentence": "Tide's biggest strength is Tide, so this is a very powerful example of strengthening the core.",
+   "ev_start": 17142,
+   "ev_end": 17236,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S077",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "Tide Evo represents the biggest innovation in laundry crafted by concentrating active surfactant ingredients into a mixture that is spun into individual fibers.",
+   "ev_start": 17285,
+   "ev_end": 17445,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S078",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.69,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "National expansion of Tide Evo is on track, with full-scale launch support planned this fiscal year.",
+   "ev_start": 17830,
+   "ev_end": 17930,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S079",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "innovations"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "To further accelerate scale and fund innovations, campaign ideas and executions like the ones we just shared, we are creating our vision of the CPG company of the future.",
+   "ev_start": 17931,
+   "ev_end": 18101,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "integrating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "We are scaling AI-enabled tools and integrating workflows from creative development to media activation to continuously improve content effectiveness and always-on consumer engagement.",
+   "ev_start": 18479,
+   "ev_end": 18663,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S081",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 80,
+   "sentence": "We are using integrated data platforms, AI capabilities, and programmatic shelf tools built on top of our fully stocked data lake to work faster and deliver better outcomes.",
+   "ev_start": 19062,
+   "ev_end": 19235,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S082",
+   "topics": [
+    "competition",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 83,
+   "sentence": "Third, taking our existing R&D advantages to a new level by leveraging our unique set of innovation capabilities - substrate technologies, formulaic chemistry, devices, and biology - to deliver breakthrough solutions in every part of the business.",
+   "ev_start": 19513,
+   "ev_end": 19760,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S083",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "product": [
+     "integration",
+     "innovation"
+    ],
+    "performance": [
+     "acceleration",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "New technologies like AI-enabled molecular discovery will drive acceleration and more powerful integration of innovation capabilities leading to faster growth.",
+   "ev_start": 19761,
+   "ev_end": 19920,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S084",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 87,
+   "sentence": "We know how to digitize and automate our operations and more importantly, we have qualified a financial framework to generate strong returns on these investments.",
+   "ev_start": 20155,
+   "ev_end": 20317,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S085",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "set us apart"
+    ],
+    "competition": [
+     "set us apart"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confident",
+     "excited"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "Full activation of these advanced capabilities will enable speed and execution, smaller teams and a stronger connection to the consumer to enable the next S-curve of growth and value creation for P&G. We are confident in the short-term progress we are making and excited about the mid- to long-term as we leverage our strengths and unique capabilities to set us apart from the industry.",
+   "ev_start": 20318,
+   "ev_end": 20704,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S086",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenging"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "competitor"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 7.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 1,
+   "sentence": "As we enter fiscal 2027, we continue to expect the environment around us to remain volatile and challenging - from costs to currencies to consumer, competitor, retailer and geopolitical dynamics.",
+   "ev_start": 20782,
+   "ev_end": 20977,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S087",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe",
+     "guidance"
+    ],
+    "hedge": [
+     "prudently"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "We believe our going-in guidance for fiscal 2027 prudently reflects these current market realities.",
+   "ev_start": 20978,
+   "ev_end": 21077,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S088",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "for the year"
+    ],
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "On the top-line, we currently expect the markets in which we compete to deliver local currency value growth in the range of 1% to 3% for the year, with the current run rate roughly in the middle of this range.",
+   "ev_start": 21078,
+   "ev_end": 21287,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "Our objective is to grow organic sales modestly ahead of the growth in these markets.",
+   "ev_start": 21288,
+   "ev_end": 21373,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S090",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "strategy": [
+     "restructuring"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 5,
+   "sentence": "However, recall, our guidance includes a 30- to 50-basis-point headwind from brand, product form and go-to-market restructuring.",
+   "ev_start": 21374,
+   "ev_end": 21502,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 1"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 6,
+   "sentence": "Taken together, our guidance range is for organic sales growth of 1% to 3% versus prior year.",
+   "ev_start": 21503,
+   "ev_end": 21596,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S092",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "softness",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 7,
+   "sentence": "The low end of the range protects for additional softness in underlying market growth rates.",
+   "ev_start": 21597,
+   "ev_end": 21689,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S093",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "acceleration",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "The high end would require acceleration in underlying market growth rates and market share gains.",
+   "ev_start": 21690,
+   "ev_end": 21787,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "PG_2026_4-013",
+    "PG_2026_4-014"
+   ],
+   "guided": {
+    "node": "core",
+    "metric": "revenue",
+    "descriptor": "broadly consistent with top-line, with core eps growth of 0% to 3% versus 2026 core eps of $6",
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "growth of 0"
+    ],
+    "forward": [
+     "outlook",
+     "guidance"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.39,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "Our bottom line outlook is broadly consistent with top-line, with core EPS growth of 0% to 3% versus 2026 core EPS of $6.89 - this guidance equates to a range of $6.89 to $7.11 per share, $7 at the center of the range.",
+   "ev_start": 21788,
+   "ev_end": 22006,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S095",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 5.1,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 10,
+   "sentence": "This outlook includes a cost headwind of approximately $1 billion after tax, driven by higher raw materials, energy, transportation costs, and other premiums resulting from the conflict in the Middle East.",
+   "ev_start": 22007,
+   "ev_end": 22212,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S096",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 14,
+   "sentence": "This is due to a larger impact from the non-commodity elements of the supply chain, like ocean freight and trucking surcharges, supplier inflation and force majeure premiums.",
+   "ev_start": 22654,
+   "ev_end": 22828,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S097",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PG_2026_4-016"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 17,
+   "sentence": "We expect the foreign exchange headwind of approximately $50 million after tax and approximately $150 million of higher net interest expense after tax.",
+   "ev_start": 23126,
+   "ev_end": 23277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S098",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 20,
+   "sentence": "Combined, input costs, foreign exchange rate items, and items below the operating line, will be roughly a $1.4 billion after-tax earnings headwind in fiscal 2027, or $0.56 per share, 8% of fiscal 2026 core EPS.",
+   "ev_start": 23452,
+   "ev_end": 23662,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S099",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 21,
+   "sentence": "We expect capital spending will be 4.5% to 5.5% of sales.",
+   "ev_start": 23663,
+   "ev_end": 23720,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S100",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the year"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "And we are forecasting adjusted free cash flow productivity at 85% to 90% for the year.",
+   "ev_start": 23721,
+   "ev_end": 23808,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S101",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PG_2026_4-018",
+    "PG_2026_4-019"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "dividends",
+     "repurchase"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 23,
+   "sentence": "We expect to pay over $10 billion in dividends, and to repurchase approximately $5 billion in common stock combined, a plan to return $15 billion of cash to shareowners in fiscal 2027.",
+   "ev_start": 23809,
+   "ev_end": 23993,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 24,
+   "sentence": "The guidance range reflects the continued acceleration of our long-term algorithm.",
+   "ev_start": 23994,
+   "ev_end": 24076,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S103",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "It is a balanced outlook between top-line and bottom-line despite significant cost pressure early in the year, reflecting current market realities for consumer demand.",
+   "ev_start": 24077,
+   "ev_end": 24244,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S104",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "improve"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 26,
+   "sentence": "We will maintain strong investment in the business, balanced by a strong productivity program with an intent to improve results semester by semester and year by year.",
+   "ev_start": 24245,
+   "ev_end": 24411,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S105",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weakness"
+    ],
+    "forward": [
+     "outlook",
+     "guidance"
+    ],
+    "pressure": [
+     "weakness",
+     "tariffs"
+    ],
+    "performance": [
+     "growth",
+     "weakness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "This outlook is based on current market growth rate estimates, commodity prices and foreign exchange rates; significant additional currency weakness, commodity cost increases, geopolitical disruptions, tariffs, major supply chain disruptions, or store closures are not anticipated within the guidance ranges.",
+   "ev_start": 24412,
+   "ev_end": 24720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "negative": [
+     "challenging"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "record"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 2,
+   "sentence": "The operating environment was even more challenging than expected, but we delivered another year of organic sales and core EPS growth and we continued a long-term record of returning high levels of cash to shareowners.",
+   "ev_start": 24856,
+   "ev_end": 25074,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S107",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "double",
+     "stronger"
+    ],
+    "forward": [
+     "we continue to believe"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 4,
+   "sentence": "We continue to believe the best path to sustainable balanced growth is to double down on the strategy: stronger integrated execution to delight consumers with superior products, at a superior value.",
+   "ev_start": 25255,
+   "ev_end": 25453,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S108",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 6,
+   "sentence": "Our investments for growth will be balanced and funded with a strong productivity program.",
+   "ev_start": 25617,
+   "ev_end": 25707,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S109",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 7,
+   "sentence": "We are pleased with the progress we are making.",
+   "ev_start": 25708,
+   "ev_end": 25755,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 9,
+   "sentence": "We are building momentum with consumers and we are excited about the long-term opportunities ahead.",
+   "ev_start": 25824,
+   "ev_end": 25923,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S111",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "forward": [
+     "on track to"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 7,
+   "sentence": "So from that point of view, we feel very pleased that we are getting on track to winning with consumers, which is the most important.",
+   "ev_start": 27716,
+   "ev_end": 27849,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S112",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 8,
+   "sentence": "Now when I then break it down and we see when we started interventions and whether that progress has happened we feel that is what gives us confidence.",
+   "ev_start": 27850,
+   "ev_end": 28001,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S113",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 9,
+   "sentence": "So if I start with China, where you know, coming out of COVID, it was a depressed market and it was a tough competitive environment and the results were not great, we are now growing share in China for the first time in 15 quarters driven by fundamental changes we made similar to what we are doing in the company.",
+   "ev_start": 28002,
+   "ev_end": 28316,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S114",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 12,
+   "sentence": "We changed the kind of innovation we were doing because we knew we were in a lower growth market that needed us to drive market growth.",
+   "ev_start": 28413,
+   "ev_end": 28548,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 17,
+   "sentence": "But probably most exciting, three years back, less than 10% of that business was growing users.",
+   "ev_start": 28901,
+   "ev_end": 28996,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S116",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 18,
+   "sentence": "Today, over 55% of that business is growing users.",
+   "ev_start": 28997,
+   "ev_end": 29047,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S117",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 22,
+   "sentence": "Even a market like Gulf, which has had a very tough four- to five-month period with disruptions, we are growing share across all time periods.",
+   "ev_start": 29285,
+   "ev_end": 29427,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 23,
+   "sentence": "That market had less than 5% of the business growing users last year; they are now at 60% of the business growing users.",
+   "ev_start": 29428,
+   "ev_end": 29548,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S119",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 26,
+   "sentence": "Europe-focused, the market has been depressed, but we have been growing share even in very difficult situations there.",
+   "ev_start": 29643,
+   "ev_end": 29761,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S120",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 30,
+   "sentence": "So we feel good about the progress we are making in the U.S. as well.",
+   "ev_start": 30049,
+   "ev_end": 30118,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S121",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation",
+     "partnerships"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 32,
+   "sentence": "So they depend on innovation and retail partnerships.",
+   "ev_start": 30267,
+   "ev_end": 30320,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 34,
+   "sentence": "So we expect that momentum in the U.S. to pick up during the semester behind some of these interventions.",
+   "ev_start": 30471,
+   "ev_end": 30576,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S123",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 35,
+   "sentence": "So overall, long-winded answer, but I feel good about the progress we are making.",
+   "ev_start": 30577,
+   "ev_end": 30658,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S124",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 36,
+   "sentence": "I feel confident based on the interventions we made and the timelines we have that we are on track.",
+   "ev_start": 30659,
+   "ev_end": 30758,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S125",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 37,
+   "sentence": "And which is why even though our sell-in, sell-out was mismatched, I feel good, because as long as the consumption is strong, I am very confident that we will have strong sales.",
+   "ev_start": 30759,
+   "ev_end": 30936,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid single-digits"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "If you look at enterprise markets growth, consistently mid single-digits.",
+   "ev_start": 32031,
+   "ev_end": 32104,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S127",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "restructuring"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.1,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "If you exclude the market restructuring, Asia, Middle East, Africa is growing 6%.",
+   "ev_start": 32145,
+   "ev_end": 32226,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S128",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 6,
+   "sentence": "Latin America continuously growing share across categories over time periods.",
+   "ev_start": 32227,
+   "ev_end": 32304,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S129",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 7,
+   "sentence": "Europe enterprise market is growing 5%.",
+   "ev_start": 32305,
+   "ev_end": 32344,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S130",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 12,
+   "sentence": "We are leading; we are growing share on Feminine Care.",
+   "ev_start": 32654,
+   "ev_end": 32708,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S131",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 13,
+   "sentence": "We are growing share on Fabric Care.",
+   "ev_start": 32709,
+   "ev_end": 32745,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S132",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "up 20"
+    ],
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 18,
+   "sentence": "Europe continues to grow modest value share in a very difficult environment, up 20 basis points of value share.",
+   "ev_start": 32968,
+   "ev_end": 33079,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S133",
+   "topics": [
+    "competition",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "competition": [
+     "competition"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 3.75,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 19,
+   "sentence": "And the more impacted categories from a headwind standpoint, if you want to go there, Fabric Care, for example, is one where competition has increased and we are reestablishing competitiveness in Europe, so that is a big priority for the European focus market team.",
+   "ev_start": 33080,
+   "ev_end": 33345,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S134",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 21,
+   "sentence": "We quoted in the script that we had 10% of the top customer-brand combinations growing in the front half; we are now up to 50%.",
+   "ev_start": 33442,
+   "ev_end": 33569,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 22,
+   "sentence": "And we expect that to continue to accelerate over the next six months, which will solidify the share growth that we are seeing early signs of in the U.S. as well.",
+   "ev_start": 33570,
+   "ev_end": 33732,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S136",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 25,
+   "sentence": "That is where the innovation plan is focused, and you'll see the next wave of innovation coming here over the next couple of months.",
+   "ev_start": 34053,
+   "ev_end": 34185,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S137",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 28,
+   "sentence": "I feel very good about where family care is going.",
+   "ev_start": 34268,
+   "ev_end": 34318,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S138",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "future"
+    ],
+    "product": [
+     "innovation",
+     "launches"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 29,
+   "sentence": "Again, we will not be talking about future innovation and launches in detail now, but it gives me confidence that we have a very clear view of where we lost users, and, most importantly, very clear data on how to regain those users over the next six months.",
+   "ev_start": 34319,
+   "ev_end": 34576,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S139",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 2,
+   "sentence": "And we are building further momentum there.",
+   "ev_start": 35050,
+   "ev_end": 35093,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S140",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slow"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.25,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 1,
+   "sentence": "Fundamentally, these two markets - North America and Focus Europe - have seen market growth slow by one to two points over the past 12 to 18 months.",
+   "ev_start": 36098,
+   "ev_end": 36246,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S141",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "in the next"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 3,
+   "sentence": "At the same time, we actually think there is much bigger opportunity in the next three to five years for growth in these two markets.",
+   "ev_start": 36346,
+   "ev_end": 36479,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S142",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 7,
+   "sentence": "A lot of this will require a higher level of innovation, and that is what I was referring to when I was talking about China.",
+   "ev_start": 37012,
+   "ev_end": 37136,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S143",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 10,
+   "sentence": "And I think in the U.S. and Europe, we are modifying and adjusting our innovation plans to ensure that they are capable of lifting the category growth rates.",
+   "ev_start": 37234,
+   "ev_end": 37391,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S144",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 4.41,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 11,
+   "sentence": "Tide Evo is an obvious example, but I would take the combination of Tide Evo and Tide Liquids work because Tide Evo is going to get some of the new growth and get some of that new performance and innovation-driven growth.",
+   "ev_start": 37392,
+   "ev_end": 37613,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S145",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 12,
+   "sentence": "Improving significantly the performance of our existing propositions has a lot of market growth and share growth opportunity for us.",
+   "ev_start": 37614,
+   "ev_end": 37746,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S146",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "grows"
+    ]
+   },
+   "score": 2.64,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 13,
+   "sentence": "So when something like Tide Liquids grows it is still a 50-plus percent premium to the market average.",
+   "ev_start": 37747,
+   "ev_end": 37849,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S147",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.14,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 14,
+   "sentence": "So when Tide Liquid starts growing, the market gets lifted.",
+   "ev_start": 37850,
+   "ev_end": 37909,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S148",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 15,
+   "sentence": "Tide Liquids will grow if we can really strengthen the value proposition, which is what we have done.",
+   "ev_start": 37910,
+   "ev_end": 38011,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S149",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "moving forward"
+    ]
+   },
+   "score": 0.86,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 16,
+   "sentence": "So I think our biggest growth opportunities moving forward are still in the U.S. and some of the Europe focus markets.",
+   "ev_start": 38012,
+   "ev_end": 38130,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S150",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 17,
+   "sentence": "It does require a higher bar on innovation.",
+   "ev_start": 38131,
+   "ev_end": 38174,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S151",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "I will level up a second here, but we are very diligent in telling the categories to remain fully invested in the business.",
+   "ev_start": 39155,
+   "ev_end": 39278,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S152",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 2,
+   "sentence": "And I think that is what is allowing with the right interventions, the turn of business that you see in many parts of the world, and what is driving and fueling the share and volume share growth we see now in the U.S. and the increasing number of customer-brand combinations that are winning.",
+   "ev_start": 39279,
+   "ev_end": 39571,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S153",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "How that investment is structured really depends on the specifics of the business.",
+   "ev_start": 39572,
+   "ev_end": 39654,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S154",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation",
+     "launching"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "Making that intervention, while painful, is absolutely necessary so that the innovation that is launching and the brand communication can be effective and you see the results on taped diapers.",
+   "ev_start": 39774,
+   "ev_end": 39966,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S155",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 7,
+   "sentence": "That requires correction and is being invested in.",
+   "ev_start": 40141,
+   "ev_end": 40191,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S156",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 9,
+   "sentence": "All these interventions are very targeted and very carefully constructed, and embedded in the guidance range that we have given you.",
+   "ev_start": 40356,
+   "ev_end": 40488,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S157",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we also will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 10,
+   "sentence": "We also will continue to invest in media.",
+   "ev_start": 40489,
+   "ev_end": 40530,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S158",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 12,
+   "sentence": "I do not think we are at 100% effectiveness potential, and that is the investment we are making in media capabilities.",
+   "ev_start": 40676,
+   "ev_end": 40794,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S159",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 13,
+   "sentence": "So maybe a bit broader answer, but it is the combination of these interventions that are required to get to sustainable share growth and therefore back to the algorithm that are embedded in the guidance ranges that we have given you.",
+   "ev_start": 40795,
+   "ev_end": 41028,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S160",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 1.1,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 14,
+   "sentence": "And if oil and the Middle East situation holds at the assumption, we feel comfortable with the midpoint of the guidance range because we are very certain that the interventions and the execution that we control will deliver.",
+   "ev_start": 41029,
+   "ev_end": 41253,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S161",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "negative": [
+     "uncertainty"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 6.32,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 15,
+   "sentence": "The uncertainty in the guidance range in our mind entirely results from Middle Eastern oil and underlying consumer strength.",
+   "ev_start": 41254,
+   "ev_end": 41378,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S162",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "restructuring"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 5,
+   "sentence": "The major market restructuring has been executed.",
+   "ev_start": 42739,
+   "ev_end": 42788,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S163",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 7,
+   "sentence": "We have remained fully invested in the business.",
+   "ev_start": 42882,
+   "ev_end": 42930,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S164",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 14,
+   "sentence": "We have delivered record cost-of-goods productivity in the fiscal we just closed.",
+   "ev_start": 43612,
+   "ev_end": 43693,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S165",
+   "topics": [
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 16,
+   "sentence": "And that is our path to get to a reasonable EPS outcome with the cost headwinds we talked about while maintaining investment in the business and providing the value balance that consumers need to give us the share growth that we want.",
+   "ev_start": 43734,
+   "ev_end": 43968,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S166",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 0,
+   "sentence": "Just add one point to that, Christopher: when we are looking at investment depending on the brand, the country, and the category, there are a few different buckets.",
+   "ev_start": 43990,
+   "ev_end": 44154,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S167",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 1,
+   "sentence": "So there is investment in brand building, which shows up as advertising cost.",
+   "ev_start": 44155,
+   "ev_end": 44232,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S168",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.92,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 2,
+   "sentence": "There is investment in product, very often like we did on Tide, to significantly improve value.",
+   "ev_start": 44233,
+   "ev_end": 44328,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S169",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined",
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "So we are very choiceful and disciplined about where we are investing for that brand in that country to get the maximum lift.",
+   "ev_start": 44329,
+   "ev_end": 44454,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S170",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 4,
+   "sentence": "We have gotten much better in our learnings over the past 12 months on what is the right mix of spending across these different investment buckets to get the biggest lift on the business.",
+   "ev_start": 44455,
+   "ev_end": 44642,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S171",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 6,
+   "sentence": "In some, it may be strengthening the product investment.",
+   "ev_start": 44748,
+   "ev_end": 44804,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S172",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 2,
+   "sentence": "If I dissect the guidance on the top-line range, the base assumption is category growth at the current levels we are seeing in the market, which is 2% - that is a global number.",
+   "ev_start": 45723,
+   "ev_end": 45900,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S173",
+   "topics": [
+    "momentum",
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PG_2026_4-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "strategy": [
+     "restructuring"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 4,
+   "sentence": "To deliver 2% organic sales growth within that would require us to grow about 2.5 points because we have about a 40 to 50 basis points headwind from the market restructuring on the top-line that is still carrying into this year.",
+   "ev_start": 45940,
+   "ev_end": 46168,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S174",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "growth of 2"
+    ],
+    "performance": [
+     "grow",
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 5,
+   "sentence": "So this would mean if the categories grow at 2 and we have underlying growth of 2.5, that would require share growth but would leave us at the midpoint of the range from an organic sales growth standpoint.",
+   "ev_start": 46169,
+   "ev_end": 46374,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S175",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 6,
+   "sentence": "Our objective, as you can tell from the commentary both Shailesh and I are making, is to remain fully invested in the business and to drive share growth and drive market growth.",
+   "ev_start": 46375,
+   "ev_end": 46552,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S176",
+   "topics": [
+    "momentum",
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PG_2026_4-021"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "strategy": [
+     "restructuring"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 8,
+   "sentence": "But the construct assumes 2 points, which means in the middle, 2.5 points of growth for us net of 50 basis points of headwind from restructuring would mean share growth at a minimum.",
+   "ev_start": 46634,
+   "ev_end": 46816,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S177",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 10,
+   "sentence": "The simple answer is we need to get to stronger growth in both regions so those dynamics do not impact us as much.",
+   "ev_start": 46908,
+   "ev_end": 47022,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S178",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 12,
+   "sentence": "We have to deliver stronger growth, and that is what they are working on.",
+   "ev_start": 47073,
+   "ev_end": 47146,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S179",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 14,
+   "sentence": "It is truly pull-forward of inventory quarter to quarter, which sometimes happens very late in the year, and then a shift of big events like Prime Day, which changes the way we have to recognize the trade investment.",
+   "ev_start": 47195,
+   "ev_end": 47411,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S180",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 21,
+   "sentence": "There are different negotiation windows with retailers, and if you are a retailer, you apply some pressure in the negotiation period which then shifts inventories.",
+   "ev_start": 47804,
+   "ev_end": 47967,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S181",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 25,
+   "sentence": "We have to accelerate growth in Europe.",
+   "ev_start": 48055,
+   "ev_end": 48094,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S182",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 9,
+   "sentence": "Our plan assumes that we continue to price with innovation.",
+   "ev_start": 49430,
+   "ev_end": 49489,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S183",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 11,
+   "sentence": "We use innovation to drive regimen from high-penetration categories into low-penetration categories by co-promoting.",
+   "ev_start": 49530,
+   "ev_end": 49646,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S184",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquire"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 13,
+   "sentence": "But we do not believe that promotion is a way to build the business or to acquire users on a sustainable basis.",
+   "ev_start": 49819,
+   "ev_end": 49930,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S185",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe",
+     "we will"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 0,
+   "sentence": "I would add to what Andre said that with innovation, we believe we will be able to have consistent price-mix and a more balanced volume, price and mix growth composition of sales.",
+   "ev_start": 50268,
+   "ev_end": 50447,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S186",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 2,
+   "sentence": "But fundamentally, we have an innovation plan that will allow us to price while still delivering great value to the consumer.",
+   "ev_start": 50523,
+   "ev_end": 50648,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S187",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 0,
+   "sentence": "Given where the consumer is, we are definitely raising the bar on innovation.",
+   "ev_start": 51169,
+   "ev_end": 51246,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S188",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected",
+     "moving forward"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "So we continue to raise the bar on what is expected out of innovation because not only is the consumer more discerning on value, which has been critical, but moving forward, it is also a multiplier to the brand-building effort.",
+   "ev_start": 51608,
+   "ev_end": 51835,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S189",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "competition": [
+     "winning in"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 5,
+   "sentence": "So we are winning in the physical store and on online, both on pure plays as well as social platforms.",
+   "ev_start": 52923,
+   "ev_end": 53025,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S190",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 10,
+   "sentence": "There is a lower tier, Rejoice, that we are still working through but the core propositions are growing.",
+   "ev_start": 53557,
+   "ev_end": 53661,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S191",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 15,
+   "sentence": "So broad-based progress with opportunities still in a couple of areas: I mentioned the low tier of hair care, work to be done on oral care and Crest, where we are actively deciding what we want to do in that space, and mass skin where Olay is strong but we have to find a way to grow the category and grow the Olay mass brand.",
+   "ev_start": 53957,
+   "ev_end": 54283,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S192",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 5,
+   "sentence": "What we are focused on is growing consumption high enough that these variations do not make a material difference.",
+   "ev_start": 56159,
+   "ev_end": 56273,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S193",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 9,
+   "sentence": "Also, our portfolio is vertically integrated in a way that helps; for example, in grooming, we have a vertical set of products and devices which can perform strongly even through tougher consumer times.",
+   "ev_start": 56756,
+   "ev_end": 56958,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S194",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth",
+     "accelerate"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 1,
+   "sentence": "We do see demographic shifts and behavioral shifts that create higher growth segments in categories like beauty and health, and we expect to accelerate those parts of the portfolio.",
+   "ev_start": 57824,
+   "ev_end": 58005,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S195",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expandable"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 3,
+   "sentence": "A second piece is adjacencies with expandable consumption - that is a big growth driver.",
+   "ev_start": 58078,
+   "ev_end": 58166,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S196",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 4,
+   "sentence": "For example, FabricCare has seen strong long-term growth with fabric enhancers growing much faster than laundry overall.",
+   "ev_start": 58167,
+   "ev_end": 58287,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S197",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "strategy": [
+     "disciplined",
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 6,
+   "sentence": "We are disciplined about identifying adjacencies that expand consumption and will invest accordingly.",
+   "ev_start": 58380,
+   "ev_end": 58481,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S198",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high-single-digits",
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "growth"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 7,
+   "sentence": "Our base propositions, which are already at a premium to the market, when activated - like Tide Liquid - can grow mid- to high-single-digits and lift category growth.",
+   "ev_start": 58482,
+   "ev_end": 58648,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S199",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 9,
+   "sentence": "When we innovate well against the right growth opportunities, we can return to higher growth rates.",
+   "ev_start": 58793,
+   "ev_end": 58892,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S200",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 2,
+   "sentence": "Our job is to drive innovation in our categories, drive interest in the categories, and drive traffic.",
+   "ev_start": 59760,
+   "ev_end": 59862,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S201",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "grows"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 3,
+   "sentence": "When we do that successfully, that generally grows the category because we are somewhat premium versus the category average and we attract new users.",
+   "ev_start": 59863,
+   "ev_end": 60012,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S202",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 5,
+   "sentence": "It won't happen every time in that exact sequence - for example, in baby care, we reacted to a value component in the market that needed to be addressed and we grew share because we returned to value competitiveness.",
+   "ev_start": 60047,
+   "ev_end": 60263,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S203",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 6,
+   "sentence": "But from there, we will continue to innovate and drive category growth.",
+   "ev_start": 60264,
+   "ev_end": 60335,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S204",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 0,
+   "sentence": "Building on that, we are clear on short-term interventions and on innovation interventions.",
+   "ev_start": 60498,
+   "ev_end": 60589,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S205",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 1,
+   "sentence": "We know when some innovations go in they will lift the category; the timing may differ.",
+   "ev_start": 60590,
+   "ev_end": 60677,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S206",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 2,
+   "sentence": "On baby care, fixing a value gap might not show immediate category impact, but in parallel we are working on innovations that will lift the category.",
+   "ev_start": 60678,
+   "ev_end": 60827,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S207",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 4,
+   "sentence": "It will not always happen in tandem, but generally if we are growing, the category should benefit because of our portfolio.",
+   "ev_start": 60886,
+   "ev_end": 61009,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S208",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 5,
+   "sentence": "We focus on innovations that can step-change category growth - Evo and other examples are such innovations.",
+   "ev_start": 61010,
+   "ev_end": 61117,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S209",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 6,
+   "sentence": "The message to our organization is clear: grow the market and you will grow share sustainably, enabling a balanced top-line and bottom-line performance.",
+   "ev_start": 61118,
+   "ev_end": 61270,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S210",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 1,
+   "sentence": "Family Care is a category where we have a large technological advantage.",
+   "ev_start": 61829,
+   "ev_end": 61901,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S211",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "We have innovations such as soft rolls that have lifted the category historically.",
+   "ev_start": 61949,
+   "ev_end": 62031,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S212",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 6,
+   "sentence": "You will see better activation of the vertical portfolio and strong innovation on both Bounty and Charmin to maintain pricing premium where appropriate.",
+   "ev_start": 62350,
+   "ev_end": 62502,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S213",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows",
+     "grow"
+    ],
+    "performance": [
+     "grows",
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 3,
+   "sentence": "So I feel there is a clear path forward in that category, but it needs to be done correctly because the category only grows if Charmin and Bounty grow.",
+   "ev_start": 62913,
+   "ev_end": 63064,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S214",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beyond the"
+    ],
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 1,
+   "sentence": "The landscape has changed in terms of differentiation among retailers and what they offer beyond the classical merchant role.",
+   "ev_start": 63748,
+   "ev_end": 63873,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S215",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ],
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 2,
+   "sentence": "There are tremendous synergies on media and mutual gains on demand creation and category growth by leveraging retail platforms.",
+   "ev_start": 63874,
+   "ev_end": 64001,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S216",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 3,
+   "sentence": "We are focused on building holistic partnerships across the value chain, improving demand signal generation, linking marketing content to retail actions, and closing the loop to shorten the path to purchase with big retail partners.",
+   "ev_start": 64002,
+   "ev_end": 64234,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S217",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 4,
+   "sentence": "Size helps here - as one of the largest media spenders, we become a natural partner for retailers that are also building media capabilities.",
+   "ev_start": 64235,
+   "ev_end": 64375,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S218",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 5,
+   "sentence": "We see a lot of opportunity and progress in partnerships on brand building and demand creation, and this trend should continue to favor us long-term.",
+   "ev_start": 64376,
+   "ev_end": 64525,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S219",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 2,
+   "sentence": "When you put a massive investment in product performance on such a large part of the business, it is difficult to estimate the exact impact.",
+   "ev_start": 65234,
+   "ev_end": 65374,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S220",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "innovating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 8,
+   "sentence": "Take Head & Shoulders: a large portion of the user base is on the base product, so improving the base proposition while still innovating will be our approach across many brands.",
+   "ev_start": 65827,
+   "ev_end": 66004,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S221",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 1,
+   "sentence": "We will return to a more balanced model where both price and volume drive top-line growth.",
+   "ev_start": 66265,
+   "ev_end": 66355,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S222",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 2,
+   "sentence": "Innovation on the core, if catching up on value, might not come with pricing, but broader innovation will come with pricing to drive trade-up and price-mix as part of the growth model.",
+   "ev_start": 66356,
+   "ev_end": 66540,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S223",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "sentence_index": 1,
+   "sentence": "You will see greater momentum in the back half as those capabilities are scaled up, and we will be much more in the implementation and application stage of many capabilities.",
+   "ev_start": 67232,
+   "ev_end": 67406,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S224",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "sentence_index": 2,
+   "sentence": "There is no big-bang date; some of it is already playing out and gives us confidence to move faster.",
+   "ev_start": 67407,
+   "ev_end": 67507,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S225",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 61,
+   "sentence_index": 0,
+   "sentence": "I would just close by saying we are pleased that consumption is growing and we are stabilizing our value share, which puts us on a good foundation to get back to better growth.",
+   "ev_start": 67829,
+   "ev_end": 68005,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S226",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "improvements"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andre Schulten",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 61,
+   "sentence_index": 1,
+   "sentence": "We will continue with a robust productivity plan so we can invest in the business and make sequential improvements semester by semester.",
+   "ev_start": 68006,
+   "ev_end": 68142,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S227",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 0,
+   "sentence": "We generally feel good about the state of where we are and how it positions us for achieving future growth and getting back to the long-term algorithm.",
+   "ev_start": 68164,
+   "ev_end": 68315,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PG_2026_4-S228",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Shailesh Jejurikar",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 3,
+   "sentence": "We are excited to have you all here.",
+   "ev_start": 68474,
+   "ev_end": 68510,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "PG_2026_4-S002",
+  "PG_2026_4-S020",
+  "PG_2026_4-S035",
+  "PG_2026_4-S036",
+  "PG_2026_4-S039",
+  "PG_2026_4-S071",
+  "PG_2026_4-S072",
+  "PG_2026_4-S094",
+  "PG_2026_4-S098",
+  "PG_2026_4-S107",
+  "PG_2026_4-S005",
+  "PG_2026_4-S028",
+  "PG_2026_4-S030",
+  "PG_2026_4-S033",
+  "PG_2026_4-S034",
+  "PG_2026_4-S041",
+  "PG_2026_4-S073",
+  "PG_2026_4-S074",
+  "PG_2026_4-S086",
+  "PG_2026_4-S090",
+  "PG_2026_4-S097",
+  "PG_2026_4-S127",
+  "PG_2026_4-S132",
+  "PG_2026_4-S140",
+  "PG_2026_4-S161",
+  "PG_2026_4-S173",
+  "PG_2026_4-S219"
+ ],
+ "surfaced_signal_ids": [
+  "PG_2026_4-S002",
+  "PG_2026_4-S020",
+  "PG_2026_4-S035",
+  "PG_2026_4-S036",
+  "PG_2026_4-S039",
+  "PG_2026_4-S071",
+  "PG_2026_4-S072",
+  "PG_2026_4-S094",
+  "PG_2026_4-S098",
+  "PG_2026_4-S107",
+  "PG_2026_4-S005",
+  "PG_2026_4-S028",
+  "PG_2026_4-S030",
+  "PG_2026_4-S033",
+  "PG_2026_4-S034",
+  "PG_2026_4-S041",
+  "PG_2026_4-S073",
+  "PG_2026_4-S074",
+  "PG_2026_4-S086",
+  "PG_2026_4-S090",
+  "PG_2026_4-S097",
+  "PG_2026_4-S127",
+  "PG_2026_4-S132",
+  "PG_2026_4-S140",
+  "PG_2026_4-S161",
+  "PG_2026_4-S173",
+  "PG_2026_4-S219",
+  "PG_2026_4-S085",
+  "PG_2026_4-S048",
+  "PG_2026_4-S075",
+  "PG_2026_4-S138",
+  "PG_2026_4-S087"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "core",
+   "currency_neutral_core"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "PG_2026_4-006",
+   "PG_2026_4-007",
+   "PG_2026_4-013",
+   "PG_2026_4-014"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "4 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 228,
+  "signals_usable": 228,
+  "selected": 27,
+  "by_topic": {
+   "product": 56,
+   "competition": 16,
+   "momentum": 116,
+   "pressure": 21,
+   "strategy": 35
+  },
+  "by_horizon": {
+   "current": 173,
+   "forward": 55
+  },
+  "trajectory_rows": 2,
+  "blocks_with_content": 2,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

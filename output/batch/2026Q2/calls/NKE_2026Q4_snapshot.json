@@ -1,0 +1,6189 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "NKE",
+  "fiscal_quarter": 4,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q4",
+  "symbol": "NKE",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q4",
+  "period_end": "2026-05",
+  "fye_month": 5,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Paul Trussell",
+    "role": "management"
+   },
+   {
+    "name": "Elliott J. Hill",
+    "role": "management"
+   },
+   {
+    "name": "Matthew Friend",
+    "role": "management"
+   },
+   {
+    "name": "Adrienne Yih-Tennant",
+    "role": "analyst"
+   },
+   {
+    "name": "Bob Drbul",
+    "role": "analyst"
+   },
+   {
+    "name": "Matthew Boss",
+    "role": "analyst"
+   },
+   {
+    "name": "Lorraine Hutchinson",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Binetti",
+    "role": "analyst"
+   },
+   {
+    "name": "Aneesha Sherman",
+    "role": "analyst"
+   },
+   {
+    "name": "Ike Boruchow",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Fourth Quarter",
+   "detail": "the call says 'Fourth Quarter', matching 2026Q4"
+  },
+  "reported_period_label": "fourth quarter",
+  "source_file": "NKE_2026Q4.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue growth -1%, fourth quarter",
+   "fact_ids": [
+    "NKE_2026_4-003"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $0.72/sh",
+   "fact_ids": [
+    "NKE_2026_4-007"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is accelerating: guided 4% to 6% vs -1% reported",
+   "fact_ids": [
+    "NKE_2026_4-019",
+    "NKE_2026_4-003"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.09, qa +0.82",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -1.0,
+    "period": "fourth quarter",
+    "fact_id": "NKE_2026_4-003",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "NKE_2026_4-019",
+    "delta_pp": 6.0,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid single digits"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "wholesale",
+   "name": "Wholesale",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 4.0,
+    "period": "fourth quarter",
+    "fact_id": "NKE_2026_4-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "NKE_2026_4-S094",
+    "delta_pp": 1.0,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid single digits"
+   },
+   "stance": {},
+   "n_mentions": 11
+  },
+  {
+   "node": "north_america_q4",
+   "name": "North America, Q4",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 3.0,
+    "period": "q4",
+    "fact_id": "NKE_2026_4-014",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "emea_q4",
+   "name": "Emea, Q4",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -6.0,
+    "period": "q4",
+    "fact_id": "NKE_2026_4-015",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "although_digital",
+   "name": "Although Digital",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -50.0,
+    "period": "fourth quarter",
+    "fact_id": "NKE_2026_4-016",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "greater_china_q4",
+   "name": "Greater China, Q4",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -7.0,
+    "period": "q4",
+    "fact_id": "NKE_2026_4-017",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "apla_q4",
+   "name": "Apla, Q4",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -1.0,
+    "period": "q4",
+    "fact_id": "NKE_2026_4-018",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "NKE_2026_4-003",
+   "NKE_2026_4-008",
+   "NKE_2026_4-007",
+   "NKE_2026_4-006",
+   "NKE_2026_4-002",
+   "NKE_2026_4-020",
+   "NKE_2026_4-019",
+   "NKE_2026_4-022",
+   "NKE_2026_4-021"
+  ],
+  "signal_ids": [
+   "NKE_2026_4-S010",
+   "NKE_2026_4-S016",
+   "NKE_2026_4-S031",
+   "NKE_2026_4-S033",
+   "NKE_2026_4-S037",
+   "NKE_2026_4-S049",
+   "NKE_2026_4-S050",
+   "NKE_2026_4-S053",
+   "NKE_2026_4-S055",
+   "NKE_2026_4-S057",
+   "NKE_2026_4-S059",
+   "NKE_2026_4-S064",
+   "NKE_2026_4-S099",
+   "NKE_2026_4-S100",
+   "NKE_2026_4-S116",
+   "NKE_2026_4-S121",
+   "NKE_2026_4-S136"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "wholesale",
+   "name": "Wholesale",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "NKE_2026_4-001"
+   ],
+   "signal_ids": [
+    "NKE_2026_4-S013",
+    "NKE_2026_4-S014",
+    "NKE_2026_4-S072",
+    "NKE_2026_4-S079",
+    "NKE_2026_4-S094",
+    "NKE_2026_4-S126"
+   ],
+   "n_home_signals": 11,
+   "n_mentions": 11,
+   "stance": {},
+   "trajectory": [
+    "wholesale:revenue"
+   ]
+  },
+  {
+   "id": "north_america_q4",
+   "name": "North America, Q4",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "NKE_2026_4-014"
+   ],
+   "signal_ids": [
+    "NKE_2026_4-S062"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "emea_q4",
+   "name": "Emea, Q4",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "NKE_2026_4-015"
+   ],
+   "signal_ids": [
+    "NKE_2026_4-S070"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "although_digital",
+   "name": "Although Digital",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "NKE_2026_4-016"
+   ],
+   "signal_ids": [
+    "NKE_2026_4-S074"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "greater_china_q4",
+   "name": "Greater China, Q4",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "NKE_2026_4-017"
+   ],
+   "signal_ids": [
+    "NKE_2026_4-S077"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "apla_q4",
+   "name": "Apla, Q4",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "NKE_2026_4-018"
+   ],
+   "signal_ids": [
+    "NKE_2026_4-S083"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": -1.0,
+    "period": "fourth quarter",
+    "fact_id": "NKE_2026_4-003",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid single digits",
+    "period": "q1",
+    "source": "ledger",
+    "id": "NKE_2026_4-019",
+    "direction_word": null,
+    "text": "mid single digits",
+    "confidence": "high"
+   },
+   "direction": "up",
+   "delta_pp": 6.0,
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "key": "wholesale:revenue",
+   "node": "wholesale",
+   "name": "Wholesale",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 4.0,
+    "period": "fourth quarter",
+    "fact_id": "NKE_2026_4-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid single digits",
+    "period": null,
+    "source": "signal_text",
+    "id": "NKE_2026_4-S094",
+    "direction_word": null,
+    "text": "We now expect revenue to be down low to mid single digits, with Q2 having a sequential deceleration from Q1 due to some unique factors equating to a multipoint headwind, including higher digital promotions in the prior year in EMEA and timing of North America wholesale shipments.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": 1.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 6,
+    "cautious": 5,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.09
+   },
+   "qa": {
+    "confident": 10,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.82
+   }
+  },
+  "speakers": {
+   "Paul Trussell": {
+    "cautious": 1
+   },
+   "Elliott J. Hill": {
+    "confident": 11,
+    "cautious": 2
+   },
+   "Matthew Friend": {
+    "confident": 5,
+    "cautious": 3
+   }
+  },
+  "notable_confident": [
+   "NKE_2026_4-S131",
+   "NKE_2026_4-S112",
+   "NKE_2026_4-S007",
+   "NKE_2026_4-S119"
+  ],
+  "notable_cautious": [
+   "NKE_2026_4-S045",
+   "NKE_2026_4-S099",
+   "NKE_2026_4-S066",
+   "NKE_2026_4-S001",
+   "NKE_2026_4-S022"
+  ],
+  "withheld": [],
+  "revisions": [
+   "NKE_2026_4-S094",
+   "NKE_2026_4-S095"
+  ]
+ },
+ "signals": [
+  {
+   "id": "NKE_2026_4-S001",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainties"
+    ],
+    "pressure": [
+     "uncertainties"
+    ],
+    "hedge": [
+     "uncertainties"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Paul Trussell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 4,
+   "sentence": "These risks and uncertainties are detailed in Nike's reports filed with the SEC.",
+   "ev_start": 876,
+   "ev_end": 956,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S002",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "I am proud of the progress our team made in fiscal year 2026.",
+   "ev_start": 1738,
+   "ev_end": 1799,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S003",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Through our Win Now priorities, we are elevating the fundamentals of our business across our team culture, innovative product, brand strength, and how we serve consumers in our countries and cities.",
+   "ev_start": 1947,
+   "ev_end": 2145,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S004",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "new operating model"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "And importantly, it is what enabled us to move about 8,000 teammates into vertical sport teams under our new operating model, the sport offense, while also taking meaningful steps to simplify and accelerate our supply chain and technology.",
+   "ev_start": 2253,
+   "ev_end": 2492,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "mid single digits",
+     "grew"
+    ],
+    "performance": [
+     "momentum",
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Our renewed obsession with sport and the success of our athletes is fueling energy for our brand and building momentum in our performance business, which grew mid single digits this fiscal year.",
+   "ev_start": 2569,
+   "ev_end": 2763,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S006",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "We are operating in a more complex macro environment, where we are seeing added pressure on traffic and discretionary spending across our geographies.",
+   "ev_start": 3009,
+   "ev_end": 3159,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S007",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next quarter"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.57,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "That is why I am confident we are building Nike the right way - not for the next quarter, but for the next decade.",
+   "ev_start": 3448,
+   "ev_end": 3562,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S008",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely"
+    ],
+    "competition": [
+     "uniquely"
+    ]
+   },
+   "score": 3.07,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "And through those networks, we brought energy and a uniquely Nike point of view to sports moments, both big and small.",
+   "ev_start": 4010,
+   "ev_end": 4128,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "Our focus now is translating that brand strength into healthier demand, cleaner marketplaces, and sustainable growth.",
+   "ev_start": 4249,
+   "ev_end": 4366,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S010",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gained"
+    ],
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "In FY 26, across Western Europe and North America, we gained five points of running market share in statement footwear, more than any other top-five brand.",
+   "ev_start": 4599,
+   "ev_end": 4754,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S011",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "The integrated marketplace is one of our most important areas of transformation.",
+   "ev_start": 4755,
+   "ev_end": 4835,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding",
+     "improving"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "We have been rebuilding our wholesale relationships, expanding our outreach, and improving how we show up across channels.",
+   "ev_start": 4836,
+   "ev_end": 4958,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [
+    "NKE_2026_4-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "For the fiscal year, wholesale revenue grew 4%, led by double-digit growth in North America.",
+   "ev_start": 4959,
+   "ev_end": 5051,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "And we have also made significant investment in the physical marketplace, refreshing more than 15,000 spaces in wholesale doors around the world.",
+   "ev_start": 5052,
+   "ev_end": 5197,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S015",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ],
+    "strategy": [
+     "investments",
+     "dividends"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We are not finished yet, but I am confident our investments in the integrated marketplace will pay dividends for years to come.",
+   "ev_start": 5624,
+   "ev_end": 5751,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S016",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "accelerate",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We are also investing in experiences in our key countries and cities to accelerate demand.",
+   "ev_start": 5752,
+   "ev_end": 5842,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S017",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "In basketball, we continue to invest globally from our partnerships with the Chinese High School Basketball League and its 600 teams, to Jordan's The 1 tournament in 20 cities around the world.",
+   "ev_start": 5956,
+   "ev_end": 6149,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "forward": [
+     "this fall"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "In running, we launched the After Dark Tour in Shanghai; it will reach seven cities this fall.",
+   "ev_start": 6150,
+   "ev_end": 6244,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S019",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "we plan"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "And we are investing in advanced tools and capabilities to improve speed, precision, and reliability in everything we create, from air manufacturing and materials innovation to how we plan, make, and move product to the marketplace.",
+   "ev_start": 6838,
+   "ev_end": 7070,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "That is especially important in Greater China, a critical long-term growth market for Nike where we are fully committed to winning.",
+   "ev_start": 7168,
+   "ev_end": 7299,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "Our teams in China are executing a comprehensive reset: returning to sport and innovation, taking a more local approach to product creation, and building a territory-level offense.",
+   "ev_start": 7300,
+   "ev_end": 7480,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ],
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "We are working with partners in evaluating new ways to accelerate our return to growth so we can be more premium, more culturally connected, and move at the speed of the Chinese consumer, with seamless journeys across digital and physical retail.",
+   "ev_start": 7553,
+   "ev_end": 7799,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S023",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "strategy": [
+     "investing",
+     "invest"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "In the near term, we are executing cleanup of inventory, investing in must-win doors, and where we invest, we are seeing sales increase high single digits.",
+   "ev_start": 7800,
+   "ev_end": 7955,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S024",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.77,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "I am confident in our leaders and our plans to restore long-term marketplace health in Greater China.",
+   "ev_start": 7956,
+   "ev_end": 8057,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.07,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "It is getting clearer on the role it plays within Nike Inc. and where it will grow, especially with the Chuck Taylor and Jack Purcell franchises.",
+   "ev_start": 8104,
+   "ev_end": 8249,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.57,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "As part of that focus, we announced that Shai Gilgeous-Alexander has joined the Nike Basketball family.",
+   "ev_start": 8250,
+   "ev_end": 8353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "beyond the"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "We are using it to reshape our business, telling a connected story over time, engaging different communities in relevant ways, and building momentum that carries well beyond the tournament.",
+   "ev_start": 8792,
+   "ev_end": 8981,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S028",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "unveils"
+    ],
+    "product": [
+     "collaborator",
+     "innovation",
+     "unveils"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "An epic film called Rip the Script followed, branching off into individual athlete stories, collaborator collections, innovation unveils, retail experiences, and local tournaments.",
+   "ev_start": 9097,
+   "ev_end": 9277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S029",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next generation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "We have built it this way because the next generation wants to engage with sport on their terms - discovering, sharing, and participating in the story as it unfolds.",
+   "ev_start": 9278,
+   "ev_end": 9443,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S030",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "This is about deeply understanding today's consumers and building modern, meaningful, and innovative connections with them.",
+   "ev_start": 9671,
+   "ev_end": 9794,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S031",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "competition": [
+     "compete"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 77,
+   "sentence": "We launched AeroFit in our national team kits to help athletes compete in extreme conditions.",
+   "ev_start": 9956,
+   "ev_end": 10049,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Earlier in the year, we redesigned our Tiempo and Phantom franchises, and before the tournament we launched our new Mercurial in two expressions of speed.",
+   "ev_start": 10178,
+   "ev_end": 10332,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "At launch, the Mercurial became the fastest-selling 24-hour launch for cleated footwear in the history of Nike Direct.",
+   "ev_start": 10333,
+   "ev_end": 10451,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S034",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.57,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "We also connected Nike By You to the tournament and team colors to fuel our new innovation.",
+   "ev_start": 10452,
+   "ev_end": 10543,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 87,
+   "sentence": "As we move into fiscal year 2027, we are focused on building on that momentum.",
+   "ev_start": 11114,
+   "ev_end": 11192,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "Here's what you can expect from our teams: As we scale the sport offense across more sports, we expect growth to expand beyond running into training, basketball, and ACG.",
+   "ev_start": 11193,
+   "ev_end": 11363,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "product": [
+     "introduce"
+    ]
+   },
+   "score": 5.57,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 93,
+   "sentence": "In the second half, Nike Sportswear will introduce more than a dozen new footwear styles, each with distinct consumer journeys.",
+   "ev_start": 11753,
+   "ev_end": 11880,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S038",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "by the end of"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 96,
+   "sentence": "And we will continue to invest in how we show up as a premium brand in both digital and physical retail, including a plan to elevate 50% of our Nike Direct owned fleet by the end of the fiscal year.",
+   "ev_start": 12083,
+   "ev_end": 12281,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S039",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 100,
+   "sentence": "Matthew helped guide the company through a demanding stretch, and he has been a trusted partner to me and to this team.",
+   "ev_start": 12721,
+   "ev_end": 12840,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S040",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "I have truly valued the partnership with you and this team, and I am proud of the progress that we have made together.",
+   "ev_start": 13099,
+   "ev_end": 13217,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "momentum",
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "As we close fiscal 2026, we made meaningful progress across the business: rebalancing the product portfolio, driving momentum and growth in performance while reducing classic footwear franchises by more than $2 billion; keeping revenue flat on a reported basis versus the prior year; stabilizing gross margins excluding the impact of incremental tariffs; taking initial steps to reset our cost base and improve operating efficiency and effectiveness; and our balance sheet is strong with substantial liquidity and flexibility to operate as we go forward.",
+   "ev_start": 13218,
+   "ev_end": 13772,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "negative": [
+     "deceleration"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "After a stronger start in March, especially in North America, by mid-April we began to see a deceleration in retail sales trends.",
+   "ev_start": 13946,
+   "ev_end": 14075,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S043",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure",
+     "declined",
+     "decline"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "declined",
+     "decline",
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Our consumer is under pressure around the world, and we can particularly see it having a larger impact on sportswear, which declined double digits in the quarter with a similar decline in retail sales.",
+   "ev_start": 14076,
+   "ev_end": 14277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "mid single digits",
+     "positive",
+     "growing"
+    ],
+    "performance": [
+     "momentum",
+     "growing",
+     "sales"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "At the same time, momentum in performance sports continued to build, growing mid single digits and delivering positive year-over-year retail sales comps across running, training, and global football as well as other sports.",
+   "ev_start": 14278,
+   "ev_end": 14501,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "demand",
+     "sales"
+    ],
+    "hedge": [
+     "monitoring"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "We are monitoring marketplace inventory and promotions closely and adjusting buy plans to manage future supply and sell-in with demand and improvement in full-price sales.",
+   "ev_start": 14502,
+   "ev_end": 14673,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S046",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "Before I turn to our results, I want to address an unplanned benefit related to tariffs, which was recognized in the quarter and was not included in our previous financial guidance.",
+   "ev_start": 14674,
+   "ev_end": 14855,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S047",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "In the fourth quarter, we determined that the financial recovery of claims related to incremental tariffs paid under IEPAA had become probable.",
+   "ev_start": 14856,
+   "ev_end": 14999,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S048",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-002"
+   ],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "This resulted in the recognition of a one-time benefit of $986 million, offsetting the IEPAA tariffs embedded within cost of sales that had been expensed through the income statement throughout fiscal 2026.",
+   "ev_start": 15000,
+   "ev_end": 15206,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-003"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1",
+     "down 4"
+    ],
+    "performance": [
+     "growth",
+     "declines"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "For the quarter, revenues were down 1% on a reported basis and down 4% on a currency-neutral basis, reflecting modest growth in North America more than offset by expected declines in Greater China, EMEA, and Converse.",
+   "ev_start": 15587,
+   "ev_end": 15804,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 9",
+     "declining",
+     "down 7"
+    ],
+    "performance": [
+     "declining"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "Nike Direct was down 9%, with Nike Digital declining 12% and Nike Stores down 7%.",
+   "ev_start": 15805,
+   "ev_end": 15886,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "Wholesale grew 1%.",
+   "ev_start": 15887,
+   "ev_end": 15905,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 890"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "Gross margin was 49.2%, up 890 basis points versus the prior year, driven by a 900-basis-point benefit related to recovery of IEPAA tariffs.",
+   "ev_start": 15906,
+   "ev_end": 16046,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-005"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 10"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Excluding this benefit, gross margin would have been 40.2%, down 10 basis points versus the prior year, which included additional severance costs related to supply chain actions in North America and EMEA we highlighted last quarter.",
+   "ev_start": 16047,
+   "ev_end": 16279,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "We expect these actions will deliver positive operating leverage and gross margin in fiscal 2027.",
+   "ev_start": 16280,
+   "ev_end": 16377,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S055",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "negative": [
+     "down 2"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "SG&A was down 2% on a reported basis versus the prior year, reflecting continued discipline managing expenses while accelerating investment for the World Cup.",
+   "ev_start": 16378,
+   "ev_end": 16536,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S056",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-007"
+   ],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "Earnings per share for the quarter was $0.72, and excluding the benefit on tariff recovery was $0.20.",
+   "ev_start": 16571,
+   "ev_end": 16672,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-008"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 2"
+    ],
+    "forward": [
+     "for the full year"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "For the full year, revenue was flat on a reported basis and down 2% on a currency-neutral basis.",
+   "ev_start": 16788,
+   "ev_end": 16884,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "Gross margin was 42.9%, up 20 basis points versus the prior year, including a 210-basis-point benefit related to recovery of IEPAA tariffs.",
+   "ev_start": 16885,
+   "ev_end": 17024,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-011"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 3"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Diluted earnings per share was $2.10, down 3% versus the prior year.",
+   "ev_start": 17084,
+   "ev_end": 17152,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S060",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-012"
+   ],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Excluding the benefit on tariff recovery, earnings per share would have been $1.58.",
+   "ev_start": 17153,
+   "ev_end": 17236,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S061",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "negative": [
+     "declined"
+    ],
+    "forward": [
+     "full year"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "margin",
+     "earnings",
+     "declined"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Looking at our reported full year results for fiscal 2026, you can clearly see that our gross margin slightly expanded while earnings per share modestly declined despite significant investment and nearly $400 million of severance charges made to reposition and create a healthier foundation for our business.",
+   "ev_start": 17237,
+   "ev_end": 17545,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "north_america_q4"
+   ],
+   "home": "north_america_q4",
+   "fact_ids": [
+    "NKE_2026_4-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "In North America, Q4 revenue grew 3%.",
+   "ev_start": 17597,
+   "ev_end": 17634,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Wholesale grew 10%.",
+   "ev_start": 17716,
+   "ev_end": 17735,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S064",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "pressure": [
+     "tariff"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "Excluding the tariff refund benefit, EBIT would have declined 1%.",
+   "ev_start": 17776,
+   "ev_end": 17841,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong",
+     "double-digit"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.01,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "North America continues to drive momentum in performance, including strong double-digit growth in global football and running, as well as growth in kids and golf.",
+   "ev_start": 17842,
+   "ev_end": 18004,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "negative": [
+     "deceleration"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Retail sales grew over the first six weeks of the quarter; however, we did see a deceleration in late April which we continue to monitor closely, particularly in sportswear and Jordan streetwear.",
+   "ev_start": 18045,
+   "ev_end": 18240,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "One highlight I would like to note is that our revenue growth and retail sales comp with Foot Locker was positive for the first time in four years.",
+   "ev_start": 18311,
+   "ev_end": 18458,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "healthy",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "Inventory grew mid-single digits in line with our plans, with a healthy closeout mix.",
+   "ev_start": 18510,
+   "ev_end": 18595,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "margin",
+     "profitability"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Importantly, excluding the tariff refund benefit, underlying gross margin profitability continued to improve year over year.",
+   "ev_start": 18596,
+   "ev_end": 18720,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "emea_q4"
+   ],
+   "home": "emea_q4",
+   "fact_ids": [
+    "NKE_2026_4-015"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 6"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "In EMEA, Q4 revenue was down 6%.",
+   "ev_start": 18721,
+   "ev_end": 18753,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "down 24",
+     "down 9"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "Nike Direct declined 16% with Nike Digital down 24% and Nike Stores down 9%.",
+   "ev_start": 18754,
+   "ev_end": 18830,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "Wholesale was down 1%.",
+   "ev_start": 18831,
+   "ev_end": 18853,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "grew"
+    ],
+    "performance": [
+     "momentum",
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "We had continued momentum in performance through running, global football, and golf, all of which grew double digits versus the prior year.",
+   "ev_start": 19066,
+   "ev_end": 19205,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "although_digital"
+   ],
+   "home": "although_digital",
+   "fact_ids": [
+    "NKE_2026_4-016"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "down over 50"
+    ],
+    "performance": [
+     "revenue",
+     "declined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Although digital revenue declined, off-price was down over 50% following aggressive actions to reduce promotions.",
+   "ev_start": 19206,
+   "ev_end": 19319,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S075",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "challenging",
+     "tightened"
+    ],
+    "pressure": [
+     "tightened"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "Sportswear declined double digits and sell-through continues to be challenging, so we have tightened buys and moderated selling plans for the near term.",
+   "ev_start": 19382,
+   "ev_end": 19534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "improve"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "Total inventory dollars were up low double digits, with actions in place to reduce supply and accelerate liquidation to improve marketplace health.",
+   "ev_start": 19535,
+   "ev_end": 19682,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "greater_china_q4"
+   ],
+   "home": "greater_china_q4",
+   "fact_ids": [
+    "NKE_2026_4-017"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "revenue",
+     "declined"
+    ]
+   },
+   "score": 4.77,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "In Greater China, Q4 revenue declined 7%.",
+   "ev_start": 19683,
+   "ev_end": 19724,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "down 25",
+     "down 9"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "Nike Direct declined 14%, with Nike Digital down 25% and Nike Stores down 9%.",
+   "ev_start": 19725,
+   "ev_end": 19802,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "Wholesale declined 19%.",
+   "ev_start": 19803,
+   "ev_end": 19826,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid single digits",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "Running grew mid single digits, and global football and tennis were up double digits.",
+   "ev_start": 20212,
+   "ev_end": 20297,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S081",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "Our pinnacle retail expression, the House of Innovation in Shanghai, posted double-digit growth for the quarter.",
+   "ev_start": 20298,
+   "ev_end": 20410,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S082",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 3.27,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "We continue to take actions with partners to clean up the marketplace and expect revenue trends in Greater China over the near term to be in line with recent performance.",
+   "ev_start": 20604,
+   "ev_end": 20774,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apla_q4"
+   ],
+   "home": "apla_q4",
+   "fact_ids": [
+    "NKE_2026_4-018"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "In APLA, Q4 revenue was down 1%.",
+   "ev_start": 20775,
+   "ev_end": 20807,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 2"
+    ],
+    "negative": [
+     "declined",
+     "down 8"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "Nike Direct declined 3%, with Nike Digital down 8% and Nike Stores up 2%.",
+   "ev_start": 20808,
+   "ev_end": 20881,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 1"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "Wholesale was up 1%.",
+   "ev_start": 20882,
+   "ev_end": 20902,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "EBIT declined 1% on a reported basis.",
+   "ev_start": 20903,
+   "ev_end": 20940,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Running and global football grew double digits, with high single-digit growth in tennis and ACG.",
+   "ev_start": 21101,
+   "ev_end": 21197,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S088",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 75,
+   "sentence": "Where we have invested in elevated retail we are seeing a strong increase in comp sales growth.",
+   "ev_start": 21270,
+   "ev_end": 21365,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits",
+     "grew",
+     "improvement"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "Inventory grew high single digits versus the prior year, with a sequential improvement in closeout mix as inventory actions continue across the geography.",
+   "ev_start": 21440,
+   "ev_end": 21594,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S090",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "The environment around us continues to be volatile, including evolving tariff policies, ongoing disruption in the Middle East, oil prices, and other factors that could impact operating costs, consumer behavior, and store traffic and retail sales.",
+   "ev_start": 21627,
+   "ev_end": 21873,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single digits",
+     "positive"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "Last quarter, we provided guidance that cumulatively included the fourth quarter of fiscal 2026 through the first two quarters of fiscal 2027 with revenues to be down low single digits, gross margins to inflect positive in Q2, and earnings to be flattish over this period.",
+   "ev_start": 22033,
+   "ev_end": 22305,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S092",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 82,
+   "sentence": "We reiterate our expectation for earnings to be flattish over that time period excluding the benefit from tariff recovery.",
+   "ev_start": 22306,
+   "ev_end": 22428,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S093",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "tighten"
+    ],
+    "forward": [
+     "future"
+    ],
+    "pressure": [
+     "tighten"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "Considering the current macro environment as well as recent sell-through trends, we are taking actions to tighten buys, reduce future sell-in, and manage inventory.",
+   "ev_start": 22467,
+   "ev_end": 22631,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S094",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [
+    "NKE_2026_4-019"
+   ],
+   "guided": {
+    "node": "wholesale",
+    "metric": "revenue",
+    "descriptor": "mid single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid single digits"
+    ],
+    "negative": [
+     "deceleration",
+     "headwind"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "revenue"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 9.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 86,
+   "sentence": "We now expect revenue to be down low to mid single digits, with Q2 having a sequential deceleration from Q1 due to some unique factors equating to a multipoint headwind, including higher digital promotions in the prior year in EMEA and timing of North America wholesale shipments.",
+   "ev_start": 22702,
+   "ev_end": 22982,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "expect",
+     "beginning in"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 87,
+   "sentence": "We now expect gross margin expansion earlier, beginning in Q1.",
+   "ev_start": 22983,
+   "ev_end": 23045,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S096",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "beginning in"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "We will continue to be disciplined with SG&A management, driving productivity benefits and operating overhead reductions beginning in Q1.",
+   "ev_start": 23046,
+   "ev_end": 23183,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S097",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NKE_2026_4-020"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid single digits"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 89,
+   "sentence": "Specifically for the first quarter, we expect reported revenues to be down low to mid single digits with no expected benefit from foreign exchange, and currency-neutral revenue growth consistent with recent performance.",
+   "ev_start": 23184,
+   "ev_end": 23403,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 90,
+   "sentence": "We expect gross margin in Q1 to be slightly positive.",
+   "ev_start": 23404,
+   "ev_end": 23457,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S099",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertain"
+    ],
+    "pressure": [
+     "tariff",
+     "uncertain"
+    ],
+    "hedge": [
+     "uncertain"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 91,
+   "sentence": "The tariff environment continues to be uncertain; our forecast is based on incremental tariff rates of 10% continuing through the end of July and then increasing to 15% thereafter, as we communicated last quarter.",
+   "ev_start": 23458,
+   "ev_end": 23671,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S100",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits",
+     "grows"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "declining",
+     "demand",
+     "grows"
+    ]
+   },
+   "score": 6.44,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 92,
+   "sentence": "We expect Q1 SG&A dollars to be flat with operating overhead declining while demand creation grows high single digits as we invest into the World Cup.",
+   "ev_start": 23672,
+   "ev_end": 23822,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "cash flow"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 94,
+   "sentence": "While the environment remains volatile and it is taking more time for the top line to inflect positively, we remain confident in the actions we control to improve EBIT margins and increase cash flow from operations.",
+   "ev_start": 23884,
+   "ev_end": 24099,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S102",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressures"
+    ],
+    "pressure": [
+     "pressures"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 1,
+   "sentence": "We spent a lot of time this quarter talking about sport - the highs, the setbacks, the pressures that define teams.",
+   "ev_start": 24472,
+   "ev_end": 24587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S103",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 4.07,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 3,
+   "sentence": "With that said, our point of differentiation - what creates authenticity for Nike - is our sport business, and that creates a halo over both of those brands.",
+   "ev_start": 27584,
+   "ev_end": 27741,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S104",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiates"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 4,
+   "sentence": "It is also what differentiates us from fashion brands.",
+   "ev_start": 27742,
+   "ev_end": 27796,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S105",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 7,
+   "sentence": "Nike Running led the way, and as you heard in the prepared remarks, we have had great response with a sharp focus on the consumer, whether it is the product or the investments we have made on the ground in retail with our tech reps, and the results are clear.",
+   "ev_start": 28044,
+   "ev_end": 28303,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S106",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gained",
+     "grew"
+    ],
+    "competition": [
+     "gained five market share"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "Running grew $1 billion over the last five quarters, and we gained five market share points.",
+   "ev_start": 28304,
+   "ev_end": 28396,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S107",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 15,
+   "sentence": "We see momentum in training, tennis, golf, and outdoor.",
+   "ev_start": 28931,
+   "ev_end": 28986,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S108",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 16,
+   "sentence": "I'll use one example: Serena wore the Radical Air today; that is performance product, and that innovation will start to show up in some of our sportswear as well.",
+   "ev_start": 28987,
+   "ev_end": 29149,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S109",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "product": [
+     "introduce"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 20,
+   "sentence": "In the second half of FY 2027, Sportswear will introduce more than a dozen new footwear styles.",
+   "ev_start": 29396,
+   "ev_end": 29491,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S110",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 21,
+   "sentence": "It is not just going back to the vault and doing old retro shoes; it is leveraging innovation and bringing newness and freshness in new silhouettes.",
+   "ev_start": 29492,
+   "ev_end": 29640,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S111",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 23,
+   "sentence": "We are investing and accelerating our local product creation as well.",
+   "ev_start": 29826,
+   "ev_end": 29895,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S112",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 25,
+   "sentence": "In the end, it is going to take time to scale, but I am confident in the work the teams are doing.",
+   "ev_start": 29949,
+   "ev_end": 30047,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S113",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 2,
+   "sentence": "We now have small cross-functional teams against each sport obsessing over the consumer, taking insights and translating them into a relentless flow of innovative, beautiful, coveted product across footwear, apparel, and accessories.",
+   "ev_start": 30820,
+   "ev_end": 31053,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S114",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 6,
+   "sentence": "Nevertheless, I am excited about what the team continues to do in running, where they set it up.",
+   "ev_start": 31342,
+   "ev_end": 31438,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S115",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 7,
+   "sentence": "This quarter alone we launched the Pegasus 42 with a full-length encapsulated Zoom Air unit and it sold through well.",
+   "ev_start": 31439,
+   "ev_end": 31556,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S116",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 8,
+   "sentence": "Looking forward in running, the AeroFit product that we launched in football is going to show up in running apparel in Fall 2026.",
+   "ev_start": 31557,
+   "ev_end": 31686,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S117",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 11,
+   "sentence": "You will see us leverage that innovation across multiple sport categories.",
+   "ev_start": 31871,
+   "ev_end": 31945,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S118",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ],
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 13,
+   "sentence": "We connected with retailers in New York and have had tremendous feedback on product across sport and culture.",
+   "ev_start": 32040,
+   "ev_end": 32149,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launching"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 14,
+   "sentence": "In basketball, the team is bringing exciting dimensions with Caitlin Clark launching in Holiday 2026.",
+   "ev_start": 32150,
+   "ev_end": 32251,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S120",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 16,
+   "sentence": "Free Metcon and other performance innovations are doing well.",
+   "ev_start": 32368,
+   "ev_end": 32429,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S121",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "deceleration",
+     "pressure"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 3,
+   "sentence": "By mid-April we began to see a deceleration in retail sales trends, which we believe coincided with our consumer being under more pressure, impacting traffic and discretionary spend.",
+   "ev_start": 33488,
+   "ev_end": 33670,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 5,
+   "sentence": "We are seeing a strong bounce back with the World Cup momentum right now, so as we moved into June we are seeing a halo being created by the World Cup.",
+   "ev_start": 33717,
+   "ev_end": 33868,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S123",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 6,
+   "sentence": "We will continue to monitor sell-through every week and make necessary adjustments on forward orders.",
+   "ev_start": 33869,
+   "ev_end": 33970,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid single digits"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 0,
+   "sentence": "Matthew, on the revenue guide, we provided specificity on the first quarter where we expect revenue to be down low to mid single digits.",
+   "ev_start": 34245,
+   "ev_end": 34381,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 1,
+   "sentence": "The biggest driver in Q1 versus Q4 is the fact that foreign exchange will no longer be a tailwind to revenue.",
+   "ev_start": 34382,
+   "ev_end": 34491,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S126",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 5,
+   "sentence": "The two largest that equate to a multipoint headwind are much higher levels of digital promotions in EMEA last year in the second quarter - and we have taken a massive turn on promotional activity on nike.com and our digital platforms in Europe - and extraordinarily high wholesale growth in North America in Q2 last year related to timing anomalies.",
+   "ev_start": 34745,
+   "ev_end": 35095,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S127",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid single digits",
+     "growing"
+    ],
+    "product": [
+     "launch"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 4,
+   "sentence": "In sport, proof points include running growing mid single digits this quarter and a great launch of the Pegasus 42.",
+   "ev_start": 35966,
+   "ev_end": 36081,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "strong"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 6,
+   "sentence": "Global football was up double digits and we launched the Mercurial with strong storytelling both digitally and physically.",
+   "ev_start": 36210,
+   "ev_end": 36332,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S129",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 8,
+   "sentence": "We have the After Dark Tour for running and investments in basketball.",
+   "ev_start": 36441,
+   "ev_end": 36511,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S130",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 11,
+   "sentence": "We will continue to clean up and elevate the marketplace, invest in elevating online and offline storefronts so there is a consistent consumer experience, and deepen local partnerships.",
+   "ev_start": 36694,
+   "ev_end": 36879,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S131",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous",
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 13,
+   "sentence": "Kathy Sparks is leading that team and I have a tremendous amount of confidence in her and the team.",
+   "ev_start": 37085,
+   "ev_end": 37184,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S132",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.42,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 15,
+   "sentence": "Overall, I am pleased with the progress we are making in China.",
+   "ev_start": 37261,
+   "ev_end": 37324,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S133",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 2,
+   "sentence": "Our pinnacle retail store, the House of Innovation in Shanghai, grew double digits in the quarter, reflecting elevating retail and focusing on sport in the market.",
+   "ev_start": 37676,
+   "ev_end": 37839,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S134",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect",
+     "we continue to believe"
+    ]
+   },
+   "score": 2.77,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "As we look forward, we expect revenue trends in Greater China over the near term to be in line with recent performance, and we continue to believe profitability will bottom before sales in this market.",
+   "ev_start": 38216,
+   "ev_end": 38417,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S135",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 1,
+   "sentence": "We reiterate that we expect earnings to be flattish over the three-quarter period we guided.",
+   "ev_start": 39157,
+   "ev_end": 39249,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S136",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.07,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 1,
+   "sentence": "In December 2024 we launched the Win Now actions, which helped us rebuild the foundation of Nike.",
+   "ev_start": 40674,
+   "ev_end": 40771,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S137",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 3,
+   "sentence": "The sequence of actions was intentional: start with culture to get the team refocused on sport and growth, reignite the brand to be more emotional and inspiring with consumer connections, then focus on product portfolio to drive a steady flow of innovative, coveted products, and now execute out into countries and cities that matter to us.",
+   "ev_start": 40855,
+   "ev_end": 41195,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 0,
+   "sentence": "On margins, Aneesha, our performance this quarter has given us increasing confidence that our margins are stabilizing and that we are starting to see a pathway back toward gross margin expansion.",
+   "ev_start": 41550,
+   "ev_end": 41745,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S139",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "negative": [
+     "down 10",
+     "down 25"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 1,
+   "sentence": "In the fourth quarter, our margins, excluding the tariff benefit, were down 10 basis points versus the prior year and that was better than how we guided; we had guided down 25 to 75 basis points.",
+   "ev_start": 41746,
+   "ev_end": 41941,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S140",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": [
+     "sales"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 2,
+   "sentence": "The biggest driver was discount improvement we are seeing in North America, lower sales-related reserves in North America, lower cancellations, and lower discounts, which gives us confidence that margins are coming back.",
+   "ev_start": 41942,
+   "ev_end": 42162,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S141",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 6,
+   "sentence": "While those were costs largely in fiscal 2026, we expect them to drive margin improvement in fiscal 2027 and contribute to the trajectory toward double-digit margins.",
+   "ev_start": 42579,
+   "ev_end": 42745,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S142",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "tightening"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "tightening"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 7,
+   "sentence": "Additionally, as we continue tightening buys and reducing the order book, we expect a more full-price business and healthier margins in geographies outside the US that are still depressed relative to prior levels.",
+   "ev_start": 42746,
+   "ev_end": 42959,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S143",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 2,
+   "sentence": "When we elevate, we see better sell-through and stronger results in both our doors and partner doors.",
+   "ev_start": 43771,
+   "ev_end": 43872,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S144",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "bullish"
+    ]
+   },
+   "score": 2.51,
+   "speaker": "Elliott J. Hill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "They have found a strong rhythm and I remain very bullish on North America's ability to continue to drive sustainable growth.",
+   "ev_start": 44039,
+   "ev_end": 44164,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S145",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wholesale"
+   ],
+   "home": "wholesale",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 10"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 0,
+   "sentence": "Ike, to add context, in Q4 North America wholesale growth was reported up 10%.",
+   "ev_start": 44182,
+   "ev_end": 44260,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S146",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "lower returns and sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 1,
+   "sentence": "I want to make the point that we did not sell in up 10%; a meaningful amount of that revenue growth was associated with lower returns and sales-related reserves, lower discounts, and lower cancellations.",
+   "ev_start": 44261,
+   "ev_end": 44464,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S147",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 6,
+   "sentence": "We have noted fluctuations in retail sales related to factors like gas prices, but overall the progress in North America is furthest along, including improvements in Nike Direct in North America and in digital.",
+   "ev_start": 44772,
+   "ev_end": 44982,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S148",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "grew",
+     "revenue",
+     "sales"
+    ]
+   },
+   "score": 4.07,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 7,
+   "sentence": "We are encouraged by partnerships such as Foot Locker where, this quarter, we grew both Nike revenue and Nike retail sales in Foot Locker for the first time in over four years.",
+   "ev_start": 44983,
+   "ev_end": 45159,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NKE_2026_4-S149",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matthew Friend",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 8,
+   "sentence": "We remain confident in the path forward for North America.",
+   "ev_start": 45160,
+   "ev_end": 45218,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "NKE_2026_4-S013",
+  "NKE_2026_4-S014",
+  "NKE_2026_4-S072",
+  "NKE_2026_4-S079",
+  "NKE_2026_4-S094",
+  "NKE_2026_4-S126",
+  "NKE_2026_4-S062",
+  "NKE_2026_4-S070",
+  "NKE_2026_4-S074",
+  "NKE_2026_4-S077",
+  "NKE_2026_4-S083",
+  "NKE_2026_4-S010",
+  "NKE_2026_4-S016",
+  "NKE_2026_4-S031",
+  "NKE_2026_4-S033",
+  "NKE_2026_4-S037",
+  "NKE_2026_4-S049",
+  "NKE_2026_4-S050",
+  "NKE_2026_4-S053",
+  "NKE_2026_4-S055",
+  "NKE_2026_4-S057",
+  "NKE_2026_4-S059",
+  "NKE_2026_4-S064",
+  "NKE_2026_4-S099",
+  "NKE_2026_4-S100",
+  "NKE_2026_4-S116",
+  "NKE_2026_4-S121",
+  "NKE_2026_4-S136"
+ ],
+ "surfaced_signal_ids": [
+  "NKE_2026_4-S013",
+  "NKE_2026_4-S014",
+  "NKE_2026_4-S072",
+  "NKE_2026_4-S079",
+  "NKE_2026_4-S094",
+  "NKE_2026_4-S126",
+  "NKE_2026_4-S062",
+  "NKE_2026_4-S070",
+  "NKE_2026_4-S074",
+  "NKE_2026_4-S077",
+  "NKE_2026_4-S083",
+  "NKE_2026_4-S010",
+  "NKE_2026_4-S016",
+  "NKE_2026_4-S031",
+  "NKE_2026_4-S033",
+  "NKE_2026_4-S037",
+  "NKE_2026_4-S049",
+  "NKE_2026_4-S050",
+  "NKE_2026_4-S053",
+  "NKE_2026_4-S055",
+  "NKE_2026_4-S057",
+  "NKE_2026_4-S059",
+  "NKE_2026_4-S064",
+  "NKE_2026_4-S099",
+  "NKE_2026_4-S100",
+  "NKE_2026_4-S116",
+  "NKE_2026_4-S121",
+  "NKE_2026_4-S136",
+  "NKE_2026_4-S131",
+  "NKE_2026_4-S112",
+  "NKE_2026_4-S007",
+  "NKE_2026_4-S119",
+  "NKE_2026_4-S045",
+  "NKE_2026_4-S066",
+  "NKE_2026_4-S001",
+  "NKE_2026_4-S022",
+  "NKE_2026_4-S095"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "wholesale",
+   "north_america_q4",
+   "emea_q4",
+   "although_digital",
+   "greater_china_q4",
+   "apla_q4"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "NKE_2026_4-004",
+   "NKE_2026_4-005",
+   "NKE_2026_4-009",
+   "NKE_2026_4-010",
+   "NKE_2026_4-011",
+   "NKE_2026_4-012",
+   "NKE_2026_4-013"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "7 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 149,
+  "signals_usable": 149,
+  "selected": 28,
+  "by_topic": {
+   "pressure": 21,
+   "product": 39,
+   "momentum": 80,
+   "competition": 6,
+   "strategy": 16
+  },
+  "by_horizon": {
+   "current": 117,
+   "forward": 32
+  },
+  "trajectory_rows": 2,
+  "blocks_with_content": 6,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

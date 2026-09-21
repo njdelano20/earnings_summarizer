@@ -1,0 +1,462 @@
+{
+ "symbol": "UNH",
+ "quarter": "2026Q2",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Good morning, and welcome to the UnitedHealth Group second quarter 2026 earnings conference call. A question and answer session will follow UnitedHealth Group's prepared remarks. As a reminder, this call is being recorded. Here is some important introductory information. This call contains forward-looking statements under U.S. federal securities laws. These statements are subject to risks and uncertainties that could cause actual results to differ materially from historical experience or present expectations. A description of some of the risks and uncertainties can be found in the reports we file with the Securities and Exchange Commission, including the cautionary statements included in our current and periodic filings. This call will also reference non-GAAP amounts. A reconciliation of the non-GAAP to GAAP amount is available on the Financial and Earnings Reports section of the company's investor relations page at www.unitedhealthgroup.com. Information presented on this call is contained in the earnings release we issued this morning and in our Form 8-K dated July 16th, 2026, which may be accessed from the investor relations page of the company's website. I will now turn the conference over to the Chairman and Chief Executive Officer of UnitedHealth Group, Stephen Hemsley.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thank you. Good morning, everyone, and thank you for joining us. Our second quarter results and updated full year 2026 outlook demonstrate continuing progress toward delivering more consistent and dependable performance. They are a sign of stronger broad-based performance disciplines taking hold in each of our businesses and a restless desire to drive mission-aligned change across the enterprise and advance our social impact. UnitedHealthcare has improved performance in its Medicare businesses through thoughtful benefit planning and design, all while remaining respectful of persistently elevated medical costs. Our Medicaid business is in line with expectations as we continue to work with states on ensuring appropriate rates. Our commercial benefits business, consistent with the broader and more diverse commercial market it serves, continues to experience higher than expected cost trends due to factors Tim Noel will discuss shortly. At Optum, we're seeing building momentum from Optum Health as the business re-centers back to its integrated value-based care delivery model. This resulted in another quarter of improved care management and greater operating discipline. Optum Rx continues to perform to plan as transparency initiatives we announced early this year resonate well in the marketplace. Optum Insight, also on plan, remains on a multi-year path of reinvestment and innovation as we bring modern intelligent technologies and services to the areas of greatest need in the health system. We believe Optum Insight is exceptionally well positioned to help modernize and simplify the health system as it brings AI-enabled tools and services to market. Across the enterprise, we're focused on serving consumers and care providers in ways that are reliable, affordable, and transparent. That requires us to pay close attention to areas where the system isn't working well enough. Areas include care approvals, accuracy of information and speed of response, access and scheduling, digital services, care path navigation, and more. We are committed to making the health system work better for all stakeholders by simplifying processes, by being clearer, more consistent, and faster in the experience we offer, and by redesigning and modernizing that experience altogether. AI technology is helping us move faster. We're using it to improve service interactions, reduce administrative burden, and support better decision-making, always in service of improved experiences and outcomes for both patients and care providers. UnitedHealth Group has a long history of evolving to meet the needs of a constantly changing U.S. health system. That evolution today includes a tech-forward view actively and appropriately embracing an AI paradigm for our businesses, a management team with skills and vision to help in building a more advanced health system, and an ever-evolving organizational structure and culture aligned to that system. Our operating structure today broadly reflects a set of highly regulated benefit businesses and a complementary set of products and services for patients, care providers, and customers. We will continue to look to build and evolve ahead of the health system itself. We're making solid early progress, both in how we better approach those we serve and in our results. We have much more work ahead and need to continue to get better by focusing on what matters most with solid management and execution disciplines aligned to our mission to better serve people and the health system itself. With that, I'll turn it over to Tim Noel.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Tim Noel",
+   "title": "President, UnitedHealthcare",
+   "content": "Thanks, Steve. The pricing, benefit design, and market actions we've taken over the past year have been central in supporting our second quarter results and improved full-year outlook. As you have seen, UnitedHealthcare's overall performance in the second quarter exceeded expectations, driven by better results in Medicare Advantage, while commercial benefits remain pressured. I'll start with medical costs. Through the first half of the year, we are seeing divergence within our portfolio. Medical cost trends in Medicare are still running well above historical levels, but below our expectations so far in 2026. A primary reason for trend being below our expectations in Medicare is our own initiatives, including benefit design, care management models, and network curation. Other factors have an influence as well, including prior year development, a more favorable respiratory season, and weather patterns. We expect the 2026 Medicare medical cost trend to come in below our initial estimate of around 10%. Commercial costs are stubbornly high, rising above expectations, which we believe is consistent with what is being experienced across the sector. Turning to the overall performance of our individual benefit offerings. Medicare delivered a strong second quarter. Membership retention was better than previously anticipated. We now expect full-year Medicare Advantage enrollment to decline by approximately 1.1 million and Medicare margins to finish 2026 above 3%. Looking to our 2027 bids, our benefit planning remains disciplined and grounded in the current trend environment. We will continue to support program and margin stability through actions including benefit adjustments and selective changes in market participation. In Medicaid, overall performance during the quarter, including cost trend, was broadly in line with expectations. We are beginning to see early signs of improvement from initiatives including those targeting elevated behavioral health cost trends, but we expect Medicaid margins to remain pressured for 2026. Our focus is on closing the gap between lagging reimbursement rates and underlying medical cost trends while continuing to partner closely with states to support the long-term sustainability of Medicaid benefits and support them in identifying and reducing fraud, waste, and abuse. Within our commercial offerings, as I noted, we are not yet seeing evidence of cost trend moderation. In fact, it is the opposite, with medical cost trends modestly above the 11% level we previously saw. The primary drivers of pressure are the independent resolution process under the No Surprises Act, which applies only to commercial plans, and more aggressive billing practices among providers, especially higher service and coding intensity and higher cost per encounter that result from the more fee-for-service orientation of commercial plans. At this distance, commercial margin recovery will remain a focus area longer than originally anticipated. Returning to UnitedHealthcare as a whole, we are confident in being able to deliver meaningful earnings growth in 2026 and into 2027 with the reinvestments we are making in the business to build a stronger, more durable foundation for 2027 and beyond. Of equal, if not more, importance, we remain intent on modernizing essential healthcare experiences to improve how consumers and care providers experience the health system. For example, in the quarter, we committed to eliminating, by the end of this year, 30% of prior authorization volume and nearly two-thirds of prior authorization requirements for pediatric care. We continue to take concrete steps to reduce complexity and increase speed by further simplifying prior authorization, increasing consumer-responsive digital experiences, providing greater support to rural hospitals and care providers, offering more consumer-centered product innovation, and much more. AI is both an enabler and accelerant to this effort. We're early in this work, but clearly on the path to improve the healthcare experience and strengthen relationships with our stakeholders, starting with consumers and care providers. We're confident these efforts will bolster UnitedHealthcare's long-term performance and market position. Now let me hand it to Patrick Conway.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Patrick Conway",
+   "title": "Chief Executive Officer, Optum",
+   "content": "Thanks, Tim. As Steve noted, we are seeing positive momentum across Optum, with all three business segments performing in line or ahead of plan through the first half of the year. Optum Health is intently focused on improving its clinical care and operational experience to better serve the 20 million people we care for through primary and specialist care, ambulatory surgery, and home health. Over the last year, we have made significant changes in how we operate this business locally and nationally and are seeing the initial benefits of this approach. We are steadfast in our intent to optimize an integrated value-based care system that benefits patients, care providers, and taxpayers. On the clinical side, we're advancing approaches that better support care providers and drive measurable improvements to patient care at lower cost. I'll offer a few examples. First, enhanced support for patients during key transitions of care has resulted in approximately a 10% reduction in hospitalizations since implementation late last year in the Western and Southern regions of Optum Health. Second, home health initiatives to better support patients as they return home, where they can be managed more comfortably and effectively, have reduced readmissions. In pilots, the effort has driven a more than 20% improvement in timely care delivery alongside reductions in acute care utilization and shorter skilled nursing facility stays. Third, in rural health, we've expanded access to care by integrating house calls and home-based care capabilities coupled with treat-in-place offerings for patients with complex chronic and behavioral health conditions. Today, Optum Health reaches nearly 90% of U.S. counties and conducts approximately 2.5 million rural patient home visits. We will expand these programs across our Optum Health footprint by the end of 2026. On the operational side of Optum Health, we have established a clear regional and national management focus. This gives us greater and more timely visibility into performance, driving consistent, best-in-class standards across the portfolio, and deploying technologies to support clinicians in the important work they do. There is real progress on the rollout of AI-based ambient listening capabilities, available to 70% of our employed providers today and on track to exceed 90% by year-end. Collectively, these actions are yielding tangible results. Patient experience in our care delivery sites is up approximately 5% year-over-year, and patient access has expanded by nearly 200,000 more patient-facing hours. We are in the early stages of these efforts. Optum Health will build upon this foundation with additional investments in clinical workflow improvements and network performance, more deeply embedding AI and automation to further improve operational performance and clinician experience. Additionally, we entered the 2027 benefit planning season very differently than years past, starting with much earlier proactive collaboration with all our payer partners. This will translate to greater care coordination for patients while more appropriately aligning rates and risk. As our plans and initiatives begin to mature and scale, with disciplined execution, we expect margins to continue to steadily improve. Turning to Optum Rx. For a few years now, we have been leading an industry-wide shift towards transparency and fee-based services, where we are delivering affordability and better outcomes regardless of pricing structure. That's why we continue to win new customers and retain existing ones, with retention rates in the high 90s. In May, we announced a new pharmacy care approach based on monthly per-member fees with full PBM and GPO fee transparency and enhanced consumer tools. Client feedback has been positive and focused on how greater transparency and clinical alignment can address trend challenges, shifting the conversation to affordable health outcomes versus economic guarantees. This all builds on our industry-leading commitment last year to pass through 100% of manufacturer rebates to customers by the end of 2027. We are well on our way, as we expect to end 2026 with more than 95% of clients on 100% pass-through. Moving to Optum Insight. AI-enabled approaches continue to gain traction as more payer and provider customers seek differentiated capabilities to drive better performance. The emerging suite of products includes solutions such as AI-enabled coding, real-time payer and provider interfaces, and clinical quality and safety support. These products are driving real impact for customers, making healthcare simpler, faster, better, and more affordable. For example, Value Connect is an AI-driven insights platform integrated into provider workflows and electronic health records to improve value-based care performance. Early client results include a 17% reduction in pharmacy costs. Bringing this all together, halfway through the year, we have made steady progress in each of our Optum businesses and will continue to find ways to better serve patients, providers, and customers. I'll now turn it over to Wayne DeVeydt.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Wayne DeVeydt",
+   "title": "Chief Financial Officer",
+   "content": "Thank you, Patrick, and good morning, everyone. I will briefly review second quarter results, discuss expectations for the remainder of the year as we refresh our 2026 guidance. Overall, the quarter and full-year outlook reflect improved performance across our businesses, with notable improvements in UnitedHealthcare and Optum Health. UnitedHealth Group reported adjusted earnings per share of $6.38, compared to $4.08 in the prior year. Total revenues were $112 billion, largely consistent with the prior year, while operating earnings of $8 billion grew 55% year-over-year. This improvement reflects product and portfolio actions taken over the past 12 months, along with more focused and consistent management disciplines. Turning to medical costs. Our reported medical care ratio of 86.7% includes $860 million of net favorable prior period medical development, the majority of which is in-year development. This compares to 89.4% in 2Q 2025. Days claims payable was 47 days, up approximately 2.5 days from a year ago. The operating cost ratio was 12.7% for the quarter, compared to 12.3% a year ago, as we continue to focus on operating discipline while making targeted investments across technology, AI, care delivery enhancements, customer experience, and advancing healthier communities through the United Health Foundation. Moving to cash flows and our balance sheet. Operating cash flows in the quarter were approximately $11 billion, or 1.9 times net income, reflecting timing of substantial government payments and strong earnings. This provides capital to strengthen the balance sheet, invest in growth, and return value to shareholders. Through mid-July, we have deployed $4 billion for repurchases of 11.4 million shares. We now expect to complete total share repurchases of at least $5 billion in 2026, compared to initial guidance of $2.5 billion. During the quarter, we returned $2.1 billion to shareholders through our dividend, which our board increased to $9.28 per share on an annualized basis. Lastly, on July 2nd, we successfully closed the previously announced combination with Alegeus. Our debt to capital ratio was 41.2% at the end of the quarter, compared to 44.1% one year ago, and 170 basis point sequential improvement from the first quarter of this year. We remain on track to reduce our debt to capital ratio to approximately 40% by the end of 2026. As you saw earlier this morning, we have updated our full year 2026 guidance to reflect performance through the first half of the year and a more mature understanding of expected membership mix and utilization patterns for the remaining six months. We continue to be respectful of medical trend, and we believe this refreshed outlook appropriately balances risk and investments with durable run rate earnings. A few areas of this outlook to highlight. We're providing new adjusted earnings per share guidance range of $19.50 to $20, with slightly more earnings in 3Q relative to 4Q. We are increasing the full-year operating earnings outlook for UnitedHealthcare to at least $12 billion and for Optum Health to at least $2.2 billion. These changes reflect operational improvement underway across the enterprise. We now expect a full-year medical care ratio of 88.1% ± 25 basis points. We expect the operating cost ratio to come in at the higher end of our previously discussed range as a result of investments in our people, communities, and AI. The overall earnings cadence for the year remains consistent with prior expectations. UnitedHealthcare earnings continue to be weighted approximately 75% to the first half of the year. Similarly, we expect nearly all of Optum Health's earnings to be recognized in the first half, with modest profit in Q3, offset by modest losses in the fourth quarter due to the seasonality of the risk-based businesses. In contrast, Optum Insight and Optum Rx remain more heavily weighted towards the second half of the year, with each expected to generate approximately 55% of their full-year earnings during the back half as client implementations, growth investments, and normal business seasonality progress through the year. Overall, we're seeing a two-thirds, one-third first half to back half mix. Steve, back to you.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thanks, Wayne. Over the last few quarters, this enterprise has undertaken a broad-based effort to improve how consumers and care providers experience the health system while addressing the chronic cost trend issues driving the everyday challenges of access, affordability, and complexity. Our press release this morning has a sampling of these initiatives. Our efforts focus on essential themes: affordability, transparency, modernization, simplicity, and convenience. As the U.S. health system continues to evolve, we will evolve our approaches and our businesses as a scaled and diverse enterprise, driving integrated value-based care anchored in the first principles of the right care at the right time and in the right setting. A system where incentives are aligned to those first principles and the better health and the better cost trends that drive. Value-based care approaches are a key component of the effort to make healthcare more affordable by bending the cost trend by better aligning incentives for both consumers and care providers. Artificial intelligence technologies applied in practical ways that help people can be an accelerator to achieving that goal as we use them to literally reimagine our enterprise. You should expect us to continue along that path and pick up momentum as we better fulfill our mission with accountability to you and all stakeholders in the health system. Now we'll go to questions. Thank you, operator.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The floor is now open for questions. At this time, if you have a question or comment, please press star one on your touch-tone phone. You may remove yourself from the queue by pressing star two on your touch-tone phone. We ask you to limit yourself to one question. If you ask multiple questions, we will only be answering the first question so that we can respond to everyone in the queue this morning. We'll take our first question from Justin Lake with Wolfe Research.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Justin Lake",
+   "title": "Analyst, Wolfe Research",
+   "content": "Thanks. Good morning. Just wanted to touch on a couple of numbers. First, on Medicaid, you had talked to, -1.1%, a -1.7% margin previously. Curious, sounds like you're seeing some improvement there. Maybe you can give us some color on what you expect the year to end up. Then on commercial, can you talk about the magnitude of the cost trend pressure you're seeing here versus that 11% expectation and maybe update us on how we should think about commercial margins this year and the trajectory versus the previous assumption? I think you assumed you were going to get back to target in 2027. Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Sure. Thanks, Justin. Mike, do you want to take the first one, Medicaid?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Wayne DeVeydt",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, Justin. Yes. Our Q2 Medicaid performance was in line with expectations. The first half of the year has benefited from execution on affordability actions, including network curations, payment integrity actions, fraud, waste, and abuse, and identification of operating cost disciplines. Trend remains elevated versus pre-pandemic levels, but stable with continued pressure in specialty pharmacy, home and community-based services, and behavioral healthcare services. We're also seeing a bit of an increase in trend in inpatient SNF costs as well for our complex populations.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Bobby",
+   "title": "President, Medicare & Medicaid",
+   "content": "On an aggregate year-to-date, rate actions through 7/1, accounting for approximately 80% of our annual revenue, we're within our expected forecast. We continue to work with our state partners on on-cycle and off-cycle rate actions, and are in active conversations for our 9/1 and 10/1 rates. We continue to believe annualized 2026 rate impacts will be in the zone of around 6%-7%, and still lagging elevated medical trend. Overall, our 2026 margins will be within our previously communicated range, as you've indicated, -1% to -1.7%, and we expect to hit that expectation for the year. Thank you for the question.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thanks, Mike. Dan Kueter, do you want to comment on commercial?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Dan Kueter",
+   "title": "CEO, UnitedHealthcare Commercial",
+   "content": "Yeah. Thanks, Steve. Hi, Justin. Thanks for the question. Let me unpack a little bit for you what's going on in the commercial business, as obviously trend and margin are tied together. I think it's pretty straightforward. First on trend, modestly above the 11% that we were expecting, as Tim shared. There are multiple drivers. First, the ineffective independent dispute resolution process associated with the No Surprises Act is being exploited by select providers and in select geographies. It's contributing roughly 50 basis points or so of incremental trend in 2026, now totaling at least 100 basis points of total cost. Additionally, provider coding intensity with office visits, emergency departments, and selective other care sites being the primary drivers is also contributing incremental trend relative to last year and to our expectations. Some consistent drivers continue to be pharmacy costs. I'd highlight specialty drugs reflecting both higher net costs and growth of newly covered indications. Anti-inflammatory drugs and GLP-1s are part of that mix, as you would expect. Lastly, on utilization and care patterns, we're not seeing any other areas of meaningful offset or pullback in those categories. Now the impact of that trend environment on our margins. We came into 2026 planning for margin expansion, and simply put, we're not yielding the full margin expansion for which we'd planned in 2026. I see 2026 as a delay to that margin recovery trajectory, not a setback. The sticky nature of the persistent and elevated trend is extending the timeframe for full margin recovery past 2027, as we've previously discussed and you highlighted. We remain on a multi-year journey. We remain confident that that journey will result in a return to our historic margin performance of 7% or greater for the commercial group business. That recovery is built on a few things: improved administrative cost efficiency, AI-enhanced fraud, waste, and abuse efforts, and diligent focus, as always, on medical cost affordability. Thanks for the question.",
+   "sentiment": "-0.2"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thanks, Dan. It's an area we're clearly focusing on going forward. Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Our next question comes from A.J. Rice with UBS.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "A.J. Rice",
+   "title": "Analyst, UBS",
+   "content": "Thanks. Hi, everybody. Obviously, the turnaround from a year ago when you came back, Steve, and restructured the team has progressed very nicely. As you sort of assess here a year into all of this, maybe just broadly, where is the turnaround pretty much done? Where are there still, in your mind, opportunities? Because I have to ask you a numbers question: how about the thought of getting back to the 13%-16% earnings growth trajectory? I know the goal had been to do that by 2028. Do you feel like you're going to do obviously better than that this year? Do you think you're on a sustainable track now to have that 13%-16% growth going forward?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Yeah. I would say basically two things in that. I will say we'll remain restless. We are never going to stop improving. I don't see this approach really changing. I think everybody is aligned with that, and we have a great deal of work to do in front of us. This is not just about returning to a growth rate. This is also about making this company perform at levels and in areas consistent with its mission, and to really provide a positive impact to all those we serve and across the health system. That broader mission is a restless one. It's a journey, and it's not going to stop. The second, in terms of the growth rate, I never doubted the 13%-16% long-term growth rate. We will have moments along the way when we don't perform to our potential. If you take a look at this business approach and the challenges in the healthcare system, I think that we can grow in that range, particularly recognizing that it includes productivity gains and use of capital. The opportunities, especially on the technology side, are even greater than before. We continue to be in that mindset of 13%-16% and believe we can perform in that range. We did have challenges in the last couple of years, but we are addressing those challenges and returning to form. Is that enough of a response?",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Bobby",
+   "title": "President, Medicare & Medicaid",
+   "content": "That's great. Thanks a lot.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Okay. Thank you. Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll go next to Stephen Baxter with Wells Fargo.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Baxter",
+   "title": "Analyst, Wells Fargo",
+   "content": "Hi, thanks. I wanted to ask about cost trend in the Medicare Advantage business. You bid for 2026 cost trends to be 100 basis points above 2025 levels. I heard you in the prepared remarks saying that trend is coming in below where you bid to, but trying to understand where you see trends sitting versus 2025, at least in the first half of the year. Then just as we think about what you assumed in the bids that you finalized a month or so ago, was that closer to the first half experience for trend or something closer to what you saw in 2025 or expected to see going into 2026? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Sure. Tim Noel, can you comment on that?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Tim Noel",
+   "title": "President, UnitedHealthcare",
+   "content": "Yes. Good morning, Stephen. Thanks for the question. I'll start with a high-level view across UnitedHealthcare and then turn it to Bobby for more detail on Medicare. Trend remains very high across the board within UnitedHealthcare, all product lines, when you compare to historical levels. In our benefit planning, pricing, and forecasting, we broadly plan for a continuation of what we saw last year. As noted in my opening remarks, how this is playing out across the businesses is a little different when you think about commercial, Medicare, and Medicaid. Dan highlighted some of the drivers leading us modestly above the 11% in commercial. Medicaid is largely in line with expectations. For Medicare, trend is coming in lower than our planning assumptions. However, it's important to note this does not represent an inflection point in trend. We're continuing at those high levels, but it's coming in lower than our benefit planning assumptions. One other key point is on our exchange business. Our exchange business is coming in better than our planning expectations as well. However, it has no financial impact inside of the quarter or the full year because we've made the pledge to return our profits to consumers for 2026. That is separate from the commercial trends we've been discussing. We'll wait to provide a new point estimate around 2026 trend at the next call when we've seen more of the year develop. For now, the bottom line is trend is a little lower than our planning expectations in Medicare, and we feel good about our ability to influence and manage that through benefit planning and other initiatives.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Bobby",
+   "title": "President, Medicare & Medicaid",
+   "content": "Maybe to go one click deeper on Medicare. Important to remember how we built up the 2026 medical trend. I'll frame it in three ways. First, we saw elevated levels of core utilization in 2025; we assumed that would continue into 2026 and that was the foundation. Second, we adjusted for known year-over-year increases like fee schedule changes and calendar impacts. Third, we accommodated for some level of potential unknown risk elements. There are a few reasons trends to date are a bit lower than our original expectation. First, we've had some positive claims experience as well as in-year benefit from a lighter flu and respiratory season and winter storm impacts. We've also not seen the full emergence of material unknown elements at this stage. Importantly, the improvement is also the result of targeted actions we've taken through benefit design, product positioning resulting in a more favorable membership mix, network curation focused on high-quality, low-cost providers, broad affordability initiatives, and continued investment in aligned provider models like value-based care. Overall, I feel good about our assumptions for 2026 and remain intensely focused on affordability given the still elevated levels of medical trend versus the historical baseline. As for 2027, it's a little early to talk specifics, but we planned reflective of our current experience with adjustments for fee schedule updates and other year-over-year changes. Foundationally, we're not expecting a meaningful deviation from the still elevated underlying core trends. Thanks for the question.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thank you. Next question.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll move to our next question from Kevin Fischbeck with Bank of America.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Kevin Fischbeck",
+   "title": "Analyst, Bank of America",
+   "content": "Great. Thanks. Maybe just kind of following back up on an earlier question about the growth rates. As we think about 13%-16% as a North Star growth rate for you, the outperformance this year is pretty dramatic. Just want to make sure there's not something that we should be adjusting out of this baseline. Is this a good baseline to be thinking about for 2027 if you kind of assume normal growth from here, or is there anything we should be thinking about, either prior period development or outperformance in MA that gets rebid to next year? How should we be thinking about that?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "I think the quality of earnings is exceptional. Wayne, maybe you want to comment?",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Wayne DeVeydt",
+   "title": "Chief Financial Officer",
+   "content": "Good morning, Kevin. Let me start by saying the earnings are quite durable, and we do think the $19.50 to $20 is the right stepping-off point, albeit it reflects prior period development. As Steve commented on the 13%-16% growth algorithm, we personally have never deviated from that view, and we believe that is the right starting point as you think about our stepping-off point.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll go next to Lisa Gill with JPMorgan.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Lisa Gill",
+   "title": "Analyst, JPMorgan",
+   "content": "Thanks very much. Following up on prepared comments, you've talked about investment spending and SG&A in the quarter. How much of that is potentially one-time, and where could you see a benefit to that going into 2027? How should I think about the investments you're making and the benefits you could see? Is there anything that's one-time in nature?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Wayne DeVeydt",
+   "title": "Chief Financial Officer",
+   "content": "Hey, Lisa. Good morning. Similar to the prior period development, while that benefited us in one direction, we continue to invest in our foundation, which some might view as one-time. We don't believe that's one-time. One of the things we are targeting as a team is continuing to build that foundation over time. We are now up to $1 billion in the foundation, which is an important part of our commitment to our communities. That being said, Lisa, we have a number of positive momentum items, and the durability of the underlying run rate is strong, as you can see in our cash flows. I don't think there's anything you should be carving out in either direction. I think the $19.50 to $20 is the right baseline, and you should be thinking about the growth algorithm from that point forward. Recovery on commercial is going to be a little longer than we'd anticipated, but that should be a tailwind we reflect in the future along with many of our other businesses that are still not at optimal margins.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll go next to Andrew Mok with Barclays.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Andrew Mok",
+   "title": "Analyst, Barclays",
+   "content": "Hi, good morning. Wanted to follow up on the commercial market comments. The independent dispute resolution process has been in place for a number of years. Can you help us understand why costs are accelerating now? Is that a function of win rates, dispute volume, or resolution timing? Is IDR something you have confidence you can price for, or are there idiosyncratic considerations that make it harder to incorporate in pricing? Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Dan.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Dan Kueter",
+   "title": "CEO, UnitedHealthcare Commercial",
+   "content": "Hi, Andrew. Thanks for the question. As I said earlier, the IDR process, as part of the No Surprises Act, is ineffective. We think there are multiple reasons behind it. It has existed for some time, and it continues to accelerate in the volume of disputes, which highlights the deficiencies of the IDR process. A few points to consider: upwards of 40% of all claims that enter the IDR process are ineligible for one reason or another. As volume has increased, this creates cost and delay for all involved. Roughly 60% of all arbitration cases are brought by just five entities, indicating a recent concentration of disputes among a narrow set of providers. When arbiters side with out-of-network providers, the average payout is now about 11 times what Medicare would pay, with some decisions ranging up to 30 times Medicare rates. These numbers have accelerated. There are geographic variations, and in certain states, state processes supersede the federal process for insured business. The aggregate trends apply to the federal IDR process. This is not working as Congress intended and needs reform. Those are some of the internal numbers and why this has changed this year. Thanks for the question.",
+   "sentiment": "-0.4"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thanks, Dan. Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll go next to Ann Hynes with Mizuho Securities.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ann Hynes",
+   "title": "Analyst, Mizuho Securities",
+   "content": "Great, thank you. I just want to circle back on Medicare. In original guidance you said trend was 10%. If you break out the levels, I believe elevated core utilization was around 7.5%, regulatory changes like the doc fix added 1.5%, and you had maybe 100 basis points of unknown risk. I think you said the unknown risk is not happening, which is probably a tailwind. I just want to focus on that first part, the 7.5% versus 2025. Can you give us what that's tracking after the first half of 2026? What does the new guidance assume? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Tim, do you want to start?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Tim Noel",
+   "title": "President, UnitedHealthcare",
+   "content": "Thanks for the question, Ann. Anchoring to the 7.5% we saw in 2025, that has been somewhat favorable so far. Bobby noted we had accommodated for some unknowns when planning for 2026, and we haven't needed the full accommodation to date. We're only about halfway through the year, so we'll wait to provide a new point estimate around 2026 trend at the next call when we've seen more of the year develop. The bottom line is we're seeing trend a little lower than planning expectations in Medicare, and we feel good about our ability to influence that through benefit planning and other measures. More to come on specific point estimates as we pace through the year.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll go to Lance Wilkes with Bernstein.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Lance Wilkes",
+   "title": "Analyst, Bernstein",
+   "content": "Great. Thanks so much. Wanted to talk about Optum Health. Could you talk about where you're seeing margins for your capitated or value-based care portion of the business as a run rate this year? Is that a trough, or is it up a little from last year? What actions are you taking as you move into the second half and into 2027 to improve that, such as changes in contracting, changes in risk-taking, or footprint? How are you refining the model, and are you seeing different demand for services from the employer segment or other payers? Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Krista?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Krista",
+   "title": "Chief Executive Officer, Optum Health",
+   "content": "Thanks for the question, Lance. A couple things. First, our value-based care risk margins in the first half of the year have been strong and slightly better than we expected. Key drivers include improved medical performance from care management and clinical management initiatives we launched in the West and have scaled and expanded to other regions. Those efforts include enhanced support during transitions of care, which has driven about a 10% reduction in inpatient admissions in pilot regions, and home health initiatives that have reduced readmissions and improved timely care delivery by more than 20% in pilots. On operations, we're improving provider productivity, scheduling, and access to care. We've expanded patient-facing hours by about 200,000 hours and improved patient satisfaction by roughly 5%. Engagement with high-risk patients is up about 6%. These initiatives will continue in the second half of the year. Regarding contracting with payers, that's going very well. We had much earlier collaboration for 2027 benefit planning, so we're aligned on footprint, rates, and benefit designs. The vast majority of addressable contracting for 2027 is complete, and the second half will focus on post-bid strategies and how we go to market for 2027. Overall, value-based care margins are performing in line or slightly better than expected, driven by medical performance and operating discipline, and we expect continued improvement.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thank you, Krista. Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Up next is George Hill with Deutsche Bank.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "George Hill",
+   "title": "Analyst, Deutsche Bank",
+   "content": "Good morning, and thanks for taking the question. I have two quick ones. First, could you talk about outpatient surgical volumes? That's a trend concerning investors across the space. Second, a quick follow-up on the Optum Insight business, which beat expectations in the quarter but guidance didn't increase commensurate with the beat. Could you comment on cadence as it relates to Optum Insight?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Krista, you want to take the first?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Krista",
+   "title": "Chief Executive Officer, Optum Health",
+   "content": "On surgical volumes, those are pacing in line with our expectations. The operating performance improvements I described apply to our fee-for-service businesses as well. Our fee-for-service operations are oriented toward higher-value sites of care like ambulatory surgery centers, which generally cost about a third of hospital-based procedures. Inside the ASC business, earnings are growing in line with expectations, volumes are in line, and physician recruitment, provider productivity, and service mix are all in line to slightly better than expected.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thank you. Sandeep?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Sandeep",
+   "title": "Chief Executive Officer, Optum Insight",
+   "content": "You're right. At Optum Insight, we are slightly ahead of expectations for Q2. Overall, we remain on track for our full year guidance. Q2 performance was driven by strong operational execution, some of which was due to early AI investments that delivered efficiency gains. Also, some client transaction volume moved earlier into the year from the second half to the first half, more than we expected. We continue to invest in new AI products and services in the back half of this year where we see early positive customer momentum. The combination leaves us confident in our full year guidance. Optum Insight remains on a multi-year path of reinvestment and innovation.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Next question, please.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll go next to Erin Wright with Morgan Stanley.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Erin Wright",
+   "title": "Analyst, Morgan Stanley",
+   "content": "Great. Thanks so much. Can you speak more specifically on AI? Can some of your AI initiatives accelerate or drive upside to long-term margin targets, especially across Optum Health? Are these benefits near-term or more material in 2028 and beyond? How should we think about AI efforts driving upside relative to your long-term targets?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Sure. We'll take this as a team activity because AI is a core initiative for us. We think of it as the operating infrastructure of the future. It's occurring across the spectrum of our businesses and will have compounding effects as we make investments. It is also a significant catalyst for Optum Insight to commercialize internal capabilities. Tim, could you start with UnitedHealthcare examples?",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Tim Noel",
+   "title": "President, UnitedHealthcare",
+   "content": "Deployment of AI and other advanced technologies is a critical focus across UnitedHealthcare and a big enabler of our modernization agenda. It's unlocking opportunities to improve consumer and care provider experiences and make the system much more efficient. We're infusing AI across administrative activities. Examples include: virtually every provider and consumer interaction uses AI to empower our advocates with predictive insights and real-time data, leading to more productive interactions and enabling translation of some interactions into digital experiences with improved satisfaction. AI helps us proactively identify members in distress and reach out with concierge-like service models. Second, AI provides step-function enhancements in core operations, such as automating very complex claims with higher accuracy, reducing cost and improving turnaround times. Third, AI facilitates interoperability with health systems and care providers, enabling real-time information sharing and our commitment to process 80% of prior authorizations in real time by the end of 2027. This creates a touchless environment that eliminates a lot of back-and-forth and unlocks operational efficiencies. Lastly, AI provides better real-time data insights, improving our understanding of business performance and enabling near real-time underwriting. As we modernize, one focus is identifying outlier activity and customizing utilization management programs so we can reduce prior authorizations for the broader population. Clinicians will always be involved in decisions, and contact centers will be more efficient but not fully automated. We will invest some savings in enhanced, more concierge service models while maintaining options for human interactions.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Patrick Conway",
+   "title": "Chief Executive Officer, Optum",
+   "content": "On Optum, AI is transformational and durable. Importantly, in the modernization frame it delivers better patient experience, better customer and clinician experience, and better outcomes. A few examples: administrative efficiency where AI summarizes cases and makes care managers about 40% faster and more efficient, allowing them to spend more time with patients. Digital prior authorization powered by AI has produced 96% first-pass approval while enabling human review when something isn't approved. In clinical support, ambient clinical documentation has been rolled out to 70% of employed Optum Health clinicians, on track to exceed 90% by year-end, and reduces cognitive burnout significantly for clinicians. We're also using AI to improve scheduling so patients get timely access to specialists. These are real operational and clinical improvements.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Sandeep",
+   "title": "Chief Executive Officer, Optum Insight",
+   "content": "One quick example that connects these points: about a third of our investments this year are going into commercializing internal use cases. The prior authorization example has been converted into a digital prior authorization product launched under the Optum Real family of products. Year to date, external to UnitedHealth Group, it has processed about 69,000 prior authorizations, which, across broader processing, saved 69,000 administrative hours. This internal use case is being converted into a commercial product to improve the system for everyone.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "At the corporate level, every function — HR, finance, legal, and more — is being reimagined with AI, which we expect will drive greater precision, efficiencies, and responsiveness. There are significant opportunities across the enterprise. Thank you for the question. Next question, please.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Our next question is from Whit Mayo with Leerink Partners.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Whit Mayo",
+   "title": "Analyst, Leerink Partners",
+   "content": "Thanks. I wanted to take your temperature on Stars. Can you comment on expectations or what you know at this point in time or any thoughts on the recent industry lawsuits? Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Bobby.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Bobby",
+   "title": "President, Medicare & Medicaid",
+   "content": "Hey, Whit, thanks for the question. We view quality as absolutely critical and never take anything for granted with Stars. Given where we sit in the current cycle and ongoing industry activity, it wouldn't be appropriate to speculate on final Star year 26 results or future years. It's worth noting the Stars program has gotten more challenging in recent years, with 2026 industry scores at the lowest level in about a decade. As we navigate the next few months, our approach is to continue partnering with CMS to identify solutions that ensure program stability, clarity for the industry, and the best outcomes for beneficiaries. We believe there are solutions that can meet those objectives. All that said, we remain fully committed to our quality agenda and will continue investing in quality in the second half of the year to support members and providers.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thank you. We have time for one more question.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Our last question will come from David Windley with Jefferies.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "David Windley",
+   "title": "Analyst, Jefferies",
+   "content": "Great. Good morning. I wanted to ask about Optum Health profitability and the progress you're making there. The margins were comparable sequentially, but well ahead of what the market expected. There was some expectation margins would seasonally decline through the year. Could you comment on what happened in 2Q to allow margins to hold up? As part of that, I noticed the subtraction in your reported-to-adjusted margin bridge for PDR appeared to decline; did that influence margin in the quarter? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Krista?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Krista",
+   "title": "Chief Executive Officer, Optum Health",
+   "content": "A couple things are different this year. First, the seasonality mirrors a risk business where most earnings are in the first half. Timing of restructuring efforts shifted; we had planned for significant restructuring to complete in the first half, but one significant item is shifting into the second half, which affects the second half versus first half cadence. Second, we are investing in the business as we launch new clinical and operational initiatives and invest in technology workflow enhancements to scale and make them durable across infrastructure. Third, we're being respectful of the trend environment. While medical performance moderated a bit in the first half and performed slightly better than expected, trends are still well above historical levels, and we're being cautious.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Wayne, PDR?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Wayne DeVeydt",
+   "title": "Chief Financial Officer",
+   "content": "Hey, Dave. On the PDR, it did not impact the durable margins we're seeing. As we divest items that were in our year-end charge, we'll move the PDR associated with that item along with the benefit that would've been unwound. As we execute, you'll see that number slowly edge downward. I don't expect a material change; our adjustment is meant to show what real durable earnings are.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Stephen Hemsley",
+   "title": "Chairman and Chief Executive Officer",
+   "content": "Thanks, Wayne, and thank you all for joining us today. We appreciate your time and your trust in us as we continue to both improve our performance and modernize our company. I can assure you we will stay restless and urgent as we go forward. Thanks for joining us.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "This does conclude today's conference. We thank you for your participation.",
+   "sentiment": "0.0"
+  }
+ ]
+}

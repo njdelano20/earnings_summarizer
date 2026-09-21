@@ -1,0 +1,5807 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "DAL",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "DAL",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 7,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Julie Stewart",
+    "role": "ir"
+   },
+   {
+    "name": "Edward H. Bastian",
+    "role": "management"
+   },
+   {
+    "name": "Daniel Charles Janki",
+    "role": "management"
+   },
+   {
+    "name": "Joe Esposito",
+    "role": "management"
+   },
+   {
+    "name": "Erik Storey Snell",
+    "role": "management"
+   },
+   {
+    "name": "Conor Cunningham",
+    "role": "analyst"
+   },
+   {
+    "name": "Mike Linenberg",
+    "role": "analyst"
+   },
+   {
+    "name": "David Vernon",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrew Didora",
+    "role": "analyst"
+   },
+   {
+    "name": "Tom Fitzgerald",
+    "role": "analyst"
+   },
+   {
+    "name": "Jamie Baker",
+    "role": "analyst"
+   },
+   {
+    "name": "Brandon Oglenski",
+    "role": "analyst"
+   },
+   {
+    "name": "Ravi Shanker",
+    "role": "analyst"
+   },
+   {
+    "name": "Duane Pfennigwerth",
+    "role": "analyst"
+   },
+   {
+    "name": "Catherine O'Brien",
+    "role": "analyst"
+   },
+   {
+    "name": "John Godyn",
+    "role": "analyst"
+   },
+   {
+    "name": "Savanthi Syth",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "unknown",
+   "found": null,
+   "detail": "the call does not name its quarter near the start"
+  },
+  "reported_period_label": "june quarter",
+  "source_file": "DAL_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $17.70B (+14%, +12.4%), june quarter",
+   "fact_ids": [
+    "DAL_2026_2-007"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $3B to $4B",
+   "fact_ids": [
+    "DAL_2026_2-005"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $4B",
+   "fact_ids": [
+    "DAL_2026_2-014"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided 14% to 16% vs 14% reported",
+   "fact_ids": [
+    "DAL_2026_2-012",
+    "DAL_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.75",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 17700000000.0,
+    "fact_id": "DAL_2026_2-007"
+   },
+   "growth": {
+    "value": 14.0,
+    "period": "june quarter",
+    "fact_id": "DAL_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "DAL_2026_2-012",
+    "delta_pp": 1.0,
+    "guided_lo": 14.0,
+    "guided_hi": 16.0,
+    "guided_descriptor": "mid-teens"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "continued",
+   "name": "Continued",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 8
+  },
+  {
+   "node": "domestic_led_unit",
+   "name": "Domestic-Led Unit",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 12.4,
+    "period": "june quarter",
+    "fact_id": "DAL_2026_2-008",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "premium_and_loyalty",
+   "name": "Premium And Loyalty",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 20.0,
+    "period": "june quarter",
+    "fact_id": "DAL_2026_2-009",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "cargo",
+   "name": "Cargo",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 39.0,
+    "period": "june quarter",
+    "fact_id": "DAL_2026_2-010",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "q3",
+   "name": "Q3",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 3
+  },
+  {
+   "node": "pacific_and_unit",
+   "name": "Pacific And Unit",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 8.0,
+    "period": "full year",
+    "fact_id": "DAL_2026_2-018",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "premium",
+   "name": "Premium",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 17.0,
+    "period": "june quarter",
+    "fact_id": "DAL_2026_2-019",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 14
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "DAL_2026_2-001",
+   "DAL_2026_2-007",
+   "DAL_2026_2-003",
+   "DAL_2026_2-005",
+   "DAL_2026_2-014",
+   "DAL_2026_2-015",
+   "DAL_2026_2-012",
+   "DAL_2026_2-017"
+  ],
+  "signal_ids": [
+   "DAL_2026_2-S003",
+   "DAL_2026_2-S004",
+   "DAL_2026_2-S008",
+   "DAL_2026_2-S016",
+   "DAL_2026_2-S017",
+   "DAL_2026_2-S020",
+   "DAL_2026_2-S025",
+   "DAL_2026_2-S028",
+   "DAL_2026_2-S039",
+   "DAL_2026_2-S042",
+   "DAL_2026_2-S062",
+   "DAL_2026_2-S064",
+   "DAL_2026_2-S089",
+   "DAL_2026_2-S093",
+   "DAL_2026_2-S094",
+   "DAL_2026_2-S115",
+   "DAL_2026_2-S127"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "continued",
+   "name": "Continued",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-004"
+   ],
+   "signal_ids": [
+    "DAL_2026_2-S014",
+    "DAL_2026_2-S018",
+    "DAL_2026_2-S019",
+    "DAL_2026_2-S031",
+    "DAL_2026_2-S034",
+    "DAL_2026_2-S037",
+    "DAL_2026_2-S134"
+   ],
+   "n_home_signals": 8,
+   "n_mentions": 8,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "domestic_led_unit",
+   "name": "Domestic-Led Unit",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-008"
+   ],
+   "signal_ids": [
+    "DAL_2026_2-S044"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "premium_and_loyalty",
+   "name": "Premium And Loyalty",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-009"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "cargo",
+   "name": "Cargo",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-010",
+    "DAL_2026_2-011"
+   ],
+   "signal_ids": [
+    "DAL_2026_2-S049",
+    "DAL_2026_2-S081",
+    "DAL_2026_2-S098",
+    "DAL_2026_2-S099",
+    "DAL_2026_2-S100",
+    "DAL_2026_2-S101"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "q3",
+   "name": "Q3",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-016"
+   ],
+   "signal_ids": [
+    "DAL_2026_2-S069",
+    "DAL_2026_2-S071",
+    "DAL_2026_2-S118"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "pacific_and_unit",
+   "name": "Pacific And Unit",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-018"
+   ],
+   "signal_ids": [
+    "DAL_2026_2-S091",
+    "DAL_2026_2-S092"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "premium",
+   "name": "Premium",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DAL_2026_2-019"
+   ],
+   "signal_ids": [
+    "DAL_2026_2-S013",
+    "DAL_2026_2-S055",
+    "DAL_2026_2-S056",
+    "DAL_2026_2-S058",
+    "DAL_2026_2-S095",
+    "DAL_2026_2-S117",
+    "DAL_2026_2-S130",
+    "DAL_2026_2-S131",
+    "DAL_2026_2-S137"
+   ],
+   "n_home_signals": 14,
+   "n_mentions": 14,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 14.0,
+    "period": "june quarter",
+    "fact_id": "DAL_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 14.0,
+    "hi": 16.0,
+    "descriptor": "mid-teens",
+    "period": "september quarter",
+    "source": "ledger",
+    "id": "DAL_2026_2-012",
+    "direction_word": null,
+    "text": "mid-teens",
+    "confidence": "high"
+   },
+   "direction": "flat",
+   "delta_pp": 1.0,
+   "confidence": "high",
+   "note": ""
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 7,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.75
+   }
+  },
+  "speakers": {
+   "Edward H. Bastian": {
+    "confident": 2,
+    "cautious": 1
+   },
+   "Daniel Charles Janki": {
+    "confident": 1
+   },
+   "Joe Esposito": {
+    "confident": 7
+   },
+   "Erik Storey Snell": {
+    "confident": 2
+   }
+  },
+  "notable_confident": [
+   "DAL_2026_2-S023",
+   "DAL_2026_2-S074",
+   "DAL_2026_2-S029",
+   "DAL_2026_2-S071"
+  ],
+  "notable_cautious": [
+   "DAL_2026_2-S105"
+  ],
+  "withheld": [],
+  "revisions": [
+   "DAL_2026_2-S118"
+  ]
+ },
+ "signals": [
+  {
+   "id": "DAL_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "grew"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "We generated record revenue, which grew 14%, increasing more than $2 billion over last year.",
+   "ev_start": 2217,
+   "ev_end": 2309,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "momentum"
+    ],
+    "performance": [
+     "demand",
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "This reflects sustained strength in demand and momentum across our diverse business.",
+   "ev_start": 2310,
+   "ev_end": 2394,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S003",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Return on invested capital was 11%, well above our cost of capital.",
+   "ev_start": 2580,
+   "ev_end": 2647,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S004",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "investment",
+     "dividend"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "Through the first half, we generated $1.4 billion of free cash flow, fortified our investment-grade balance sheet, and announced a 15% increase to the dividend.",
+   "ev_start": 2648,
+   "ev_end": 2808,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Most importantly, we kept investing to make travel safer, easier, and more enjoyable for our customers.",
+   "ev_start": 2809,
+   "ev_end": 2912,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S006",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "set delta apart"
+    ],
+    "competition": [
+     "set delta apart"
+    ]
+   },
+   "score": 4.01,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Our people are what truly set Delta apart.",
+   "ev_start": 2913,
+   "ev_end": 2955,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S007",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantage"
+    ],
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 4.01,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "Our people are our number one competitive advantage, and I want to thank the Delta team for their commitment to delivering for our customers every day, particularly during the busy summer travel season.",
+   "ev_start": 3153,
+   "ev_end": 3355,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S008",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "In May, we announced a 4% pay increase.",
+   "ev_start": 3356,
+   "ev_end": 3395,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S009",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We have accrued nearly $500 million towards next year's profit sharing payout for the first half of the year.",
+   "ev_start": 3396,
+   "ev_end": 3505,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S010",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Both reflect our long-standing commitment to sharing success with the people who drive it.",
+   "ev_start": 3506,
+   "ev_end": 3596,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S011",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "customers",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "Our customers are prioritizing experiences, investing in the moments and connections that matter most to them, driving sustained strength and demand for air travel.",
+   "ev_start": 3764,
+   "ev_end": 3928,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.73,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Our Delta American Express partnership is a clear example of the strength of our loyalty ecosystem.",
+   "ev_start": 4141,
+   "ev_end": 4240,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Card spend has grown double digits for the past seven quarters with particular strength among our premium Reserve cardholders.",
+   "ev_start": 4241,
+   "ev_end": 4367,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S014",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "up 10"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "acquisitions"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "With continued momentum in both new card acquisitions and spend, we expect remuneration of $9 billion this year, up 10% over 2025.",
+   "ev_start": 4368,
+   "ev_end": 4498,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S015",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "Coming into the recent fuel spike, most U.S. carriers were already struggling to earn their cost of capital against a backdrop where industry airfares have meaningfully lagged inflation, costs have reset higher, and consumer preferences have evolved.",
+   "ev_start": 4660,
+   "ev_end": 4910,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S016",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "As we predicted, structural change has accelerated, enabling the industry to recapture this year's fuel cost inflation at the fastest pace of any recent cycle.",
+   "ev_start": 4911,
+   "ev_end": 5070,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S017",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Even after recent fare increases, airfares remain 10 to 15 percentage points below overall inflation since COVID.",
+   "ev_start": 5071,
+   "ev_end": 5184,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "revenue",
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "With continued fuel volatility, and much of the industry still earning returns below its cost of capital, we believe current revenue momentum should remain sustainable even if fuel prices moderate.",
+   "ev_start": 5185,
+   "ev_end": 5382,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [
+    "DAL_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "double-digit"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "revenue",
+     "momentum",
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "With continued revenue momentum, measured capacity, and a more stable fuel environment, we expect to return to earnings growth on double-digit operating margins in the second half of this year.",
+   "ev_start": 5574,
+   "ev_end": 5767,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S020",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "for the full year",
+     "guidance"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "For the full year, we are affirming the guidance that we set at the start of the year even with a multibillion-dollar fuel headwind.",
+   "ev_start": 5768,
+   "ev_end": 5900,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S021",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "Our outlook for earnings of $6.50 to $7.50 per share represents growth of 20% year over year.",
+   "ev_start": 5901,
+   "ev_end": 5994,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S022",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "And our free cash flow outlook of $3 billion to $4 billion brings our three-year cumulative total to over $11 billion.",
+   "ev_start": 5995,
+   "ev_end": 6113,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S023",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "forward": [
+     "beyond 2026"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "Looking beyond 2026, we are confident in our long-term financial framework and path to mid-teens margins and return on invested capital.",
+   "ev_start": 6114,
+   "ev_end": 6250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S024",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "product": [
+     "innovating"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "The strength and consistency of our results give us the ability to keep investing and innovating to extend Delta's lead, elevating the experience and creating a more seamless and personalized travel journey.",
+   "ev_start": 6251,
+   "ev_end": 6458,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S025",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "customers",
+     "grow"
+    ]
+   },
+   "score": 3.51,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "As we invest in the areas that customers value the most, loyalty to Delta continues to grow.",
+   "ev_start": 6459,
+   "ev_end": 6551,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rollout"
+    ]
+   },
+   "score": 4.51,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "Our AI-powered digital assistant is now available to more than half of Fly Delta app users with a full rollout later this month.",
+   "ev_start": 6991,
+   "ev_end": 7119,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S027",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next generation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "Starting in 2028, Amazon Leo will unlock the next generation of onboard connectivity, reach, and personalization.",
+   "ev_start": 7377,
+   "ev_end": 7490,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S028",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiation"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.51,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "In closing, our performance now reinforces the durability and the differentiation of the Delta business model and our investment thesis.",
+   "ev_start": 7491,
+   "ev_end": 7627,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S029",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "Looking ahead, I am incredibly optimistic about Delta's future and our opportunities to deliver even better performance for our employees, our customers, and our owners.",
+   "ev_start": 7628,
+   "ev_end": 7797,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S030",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.01,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Operational excellence is core to the Delta brand, and it is the experience our customers expect.",
+   "ev_start": 8000,
+   "ev_end": 8097,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S031",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "This, combined with the continued investment in technology and data, better positions our people to run a great operation, improving reliability and efficiency.",
+   "ev_start": 8206,
+   "ev_end": 8366,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "traction"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "We expect continued progress into the second half as targeted actions we have taken to improve resilience gain further traction.",
+   "ev_start": 8575,
+   "ev_end": 8703,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "improved"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "We delivered record baggage performance led by our largest hub in Atlanta, where performance has improved meaningfully from last year's strong baseline.",
+   "ev_start": 8704,
+   "ev_end": 8856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Delta continued to lead large U.S. carriers in domestic net promoter scores, improving over last year.",
+   "ev_start": 8977,
+   "ev_end": 9079,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-time records"
+    ],
+    "performance": [
+     "all-time"
+    ]
+   },
+   "score": 2.01,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "This was driven by outstanding service of the Delta team, with people-interaction scores reaching all-time records across our global system.",
+   "ev_start": 9080,
+   "ev_end": 9220,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "We are continuing to invest in technology while empowering our people to deliver more proactive communication directly to customers.",
+   "ev_start": 9488,
+   "ev_end": 9620,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "rollout"
+    ]
+   },
+   "score": 4.51,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "We are also enhancing digital tools with a simplified rebooking process, expanded self-service, and continued rollout of Delta Sync Concierge.",
+   "ev_start": 9621,
+   "ev_end": 9763,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S038",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "negative": [
+     "delays"
+    ],
+    "pressure": [
+     "delays"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "Key fleet reliability metrics, including aircraft out-of-service levels, maintenance-related delays, and cancellations, all improved versus prior year, benefiting from predictive maintenance capabilities and the investments we have made in fleet resilience over the last few years.",
+   "ev_start": 10001,
+   "ev_end": 10282,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "revenue",
+     "growing"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Beyond supporting our own operation, TechOps represents an exciting opportunity to further diversify our revenue through growing our third-party MRO business.",
+   "ev_start": 10283,
+   "ev_end": 10441,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "forward": [
+     "on track to"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "This year, we remain on track to generate approximately $1.2 billion in revenue, up nearly 50% from last year, with low double-digit margins.",
+   "ev_start": 10442,
+   "ev_end": 10583,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "record",
+     "double",
+     "expanding"
+    ],
+    "performance": [
+     "record",
+     "backlog",
+     "revenue"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "Over the next several years, our technical capabilities, coupled with our strong customer relationships and record backlog, position us to more than double MRO revenue while expanding margins.",
+   "ev_start": 10584,
+   "ev_end": 10776,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 14"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "Total revenue of $17.7 billion was at the high end of our expectations, up 14% over prior year on approximately 1% capacity growth, driving total unit revenue growth of 12.4%.",
+   "ev_start": 10987,
+   "ev_end": 11162,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S043",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "revenue",
+     "momentum"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "We are focused on continuing this revenue momentum to fully recover this year's fuel cost pressure and improve margins as we move through the back half of the year.",
+   "ev_start": 11163,
+   "ev_end": 11327,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "domestic_led_unit"
+   ],
+   "home": "domestic_led_unit",
+   "fact_ids": [
+    "DAL_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 12.4"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "Domestic-led unit revenue growth was up 12.4%, driven by higher yield.",
+   "ev_start": 11328,
+   "ev_end": 11398,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 5,
+   "sentence": "International grew 8% over prior year, led by Latin America.",
+   "ev_start": 11399,
+   "ev_end": 11459,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "improved",
+     "growing"
+    ],
+    "performance": [
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 6,
+   "sentence": "Importantly, main cabin trends improved through the quarter, with main cabin unit revenue growing mid-teens in the month of June.",
+   "ev_start": 11460,
+   "ev_end": 11589,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 7,
+   "sentence": "Across corporate sales, all sectors posted double-digit growth.",
+   "ev_start": 11590,
+   "ev_end": 11653,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "Performance was strong across core and coastal hubs, where sales rose more than 20% versus prior year.",
+   "ev_start": 11654,
+   "ev_end": 11756,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cargo"
+   ],
+   "home": "cargo",
+   "fact_ids": [
+    "DAL_2026_2-010",
+    "DAL_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 10,
+   "sentence": "Cargo revenue grew 39%, primarily on volume, and MRO delivered revenue growth of more than 30% year-over-year driven by legacy engine platforms.",
+   "ev_start": 11913,
+   "ev_end": 12057,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": [
+     "sales",
+     "booking"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 12,
+   "sentence": "Cash sales improved through the quarter across the entire booking curve, in both premium and main cabin products.",
+   "ev_start": 12121,
+   "ev_end": 12234,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 13,
+   "sentence": "These trends, combined with our measured approach to capacity growth, support the sustainability of yield strength.",
+   "ev_start": 12235,
+   "ev_end": 12350,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-012"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 14,
+   "sentence": "We expect the September quarter revenue to grow mid-teens versus last year.",
+   "ev_start": 12351,
+   "ev_end": 12426,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "negative": [
+     "challenging"
+    ],
+    "forward": [
+     "is expected"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 15,
+   "sentence": "Total unit revenue growth is expected to improve sequentially even against more challenging prior-year comparisons.",
+   "ev_start": 12427,
+   "ev_end": 12542,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "performance": [
+     "bookings",
+     "revenue"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "And while it remains early, December quarter bookings are coming in strong, giving us confidence that this revenue strength will extend through the fourth quarter.",
+   "ev_start": 12543,
+   "ev_end": 12706,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S055",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 18,
+   "sentence": "Our integrated commercial strategy is how we will continue to deliver a revenue and margin premium to the industry.",
+   "ev_start": 12812,
+   "ev_end": 12927,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S056",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding",
+     "grow"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "grow",
+     "profitably"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 19,
+   "sentence": "We are expanding our global network through new routes and joint venture partnerships while continuing to renew our fleet, enabling us to grow the network more profitably.",
+   "ev_start": 12928,
+   "ev_end": 13099,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 20,
+   "sentence": "We are also improving the product and giving customers more choice.",
+   "ev_start": 13100,
+   "ev_end": 13167,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S058",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "rollout"
+    ]
+   },
+   "score": 4.51,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 21,
+   "sentence": "The rollout of basic, classic, and extra offerings in Delta Comfort+ is now complete and will be expanded across all premium cabins this quarter.",
+   "ev_start": 13168,
+   "ev_end": 13313,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": [
+     "customers",
+     "revenue"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "These offerings increase flexibility for customers while driving improved revenue performance.",
+   "ev_start": 13314,
+   "ev_end": 13408,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 24,
+   "sentence": "SkyMiles membership growth is outpacing capacity, led by double-digit gains among Gen Z members.",
+   "ev_start": 13462,
+   "ev_end": 13558,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "That engagement is translating into durable revenue, best illustrated by our industry-leading co-brand performance.",
+   "ev_start": 13559,
+   "ev_end": 13674,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S062",
+   "topics": [
+    "competition",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "expand"
+    ],
+    "competition": [
+     "competitive",
+     "advantage"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "grow",
+     "revenue"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 26,
+   "sentence": "In closing, these investments reinforce our competitive advantage and give us more ways to grow revenue, deepen loyalty, and expand margins over time.",
+   "ev_start": 13675,
+   "ev_end": 13825,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S063",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DAL_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 2,
+   "sentence": "We generated $1.4 billion of pretax profit with an 8.8% operating margin despite the highest fuel costs in our history, reflecting the structural advantages we have built in the business.",
+   "ev_start": 14007,
+   "ev_end": 14194,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S064",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 5.51,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 6,
+   "sentence": "The refinery is a strategic advantage for Delta, providing a meaningful offset in a high-crack environment, and we expect 2026 to be one of its most profitable years.",
+   "ev_start": 14502,
+   "ev_end": 14668,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S065",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 9,
+   "sentence": "The investments we are making are further compounding our advantages.",
+   "ev_start": 14990,
+   "ev_end": 15059,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S066",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 10,
+   "sentence": "The durability of our performance allows us to invest year after year in our employees and in elevating the customer experience, all while continuing to pay down debt.",
+   "ev_start": 15060,
+   "ev_end": 15227,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S067",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "growing"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 11,
+   "sentence": "Our balance sheet is the best in Delta's history: investment-grade ratings from all three major credit agencies and a substantial and growing base of unencumbered assets and secured borrowing capacity.",
+   "ev_start": 15228,
+   "ev_end": 15429,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S068",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "expect"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 15,
+   "sentence": "Turning to our outlook, we expect September quarter nonfuel unit cost performance to improve modestly, with further progress in the December quarter as operational investments continue to gain traction and capacity growth begins to normalize.",
+   "ev_start": 15759,
+   "ev_end": 16001,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [
+    "DAL_2026_2-016",
+    "DAL_2026_2-017"
+   ],
+   "guided": {
+    "node": "q3",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "forward": [
+     "outlook",
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "margin",
+     "earnings"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 7.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 19,
+   "sentence": "Combined with our mid-teens revenue growth outlook, we expect a Q3 operating margin of 11% to 13% and earnings per share of $2.20 to $2.50, up meaningfully from $1.70 last year.",
+   "ev_start": 16281,
+   "ev_end": 16458,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "full-year",
+     "outlook"
+    ],
+    "performance": [
+     "grow",
+     "earnings"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 20,
+   "sentence": "In closing, the affirmation of our full-year outlook from the start of the year and our ability to grow earnings despite a nearly $4 billion increase in fuel cost reinforces that Delta's durability continues to improve relative to prior cycles and to the industry.",
+   "ev_start": 16459,
+   "ev_end": 16723,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S071",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 5,
+   "sentence_index": 21,
+   "sentence": "Delta's differentiated strategy and consistent execution across dynamic environments give us confidence in delivering our long-term financial framework and creating sustained value for our owners.",
+   "ev_start": 16724,
+   "ev_end": 16920,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S072",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 1,
+   "sentence": "It is one of the things that gives us confidence as we go into the back half and especially the third quarter.",
+   "ev_start": 18234,
+   "ev_end": 18344,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S073",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 5,
+   "sentence": "So it was significantly higher as the exit rate for both premium and main cabin, and that is what gives us confidence toward our guide for the third quarter and the back half of the year.",
+   "ev_start": 18632,
+   "ev_end": 18819,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "we are going to"
+    ],
+    "performance": [
+     "revenue",
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 0,
+   "sentence": "I think it gives us a lot of confidence that we are going to hold on to the pricing environment and the revenue momentum.",
+   "ev_start": 19224,
+   "ev_end": 19345,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S075",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 1,
+   "sentence": "The industry has no other choice: inflation is going through both fuel and nonfuel and costs are significant, and fuel prices are still elevated.",
+   "ev_start": 19346,
+   "ev_end": 19491,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S076",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 2,
+   "sentence": "That is why we have confidence in holding on to the revenue with a modest capacity increase as well.",
+   "ev_start": 19492,
+   "ev_end": 19592,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S077",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 4,
+   "sentence": "That is what we want to see when we think about confidence for the back half, especially for bookings greater than 90 or 120 days.",
+   "ev_start": 19681,
+   "ev_end": 19811,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S078",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 6,
+   "sentence": "That is where our confidence comes from in the back half.",
+   "ev_start": 19959,
+   "ev_end": 20016,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S079",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "competition": [
+     "competitive",
+     "advantage"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 3,
+   "sentence": "They had the highest margins and growth rates and looked at fuel as a competitive advantage.",
+   "ev_start": 20929,
+   "ev_end": 21021,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S080",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "take market share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "Some, such as Southwest, had fuel hedges, which they used to try to take market share.",
+   "ev_start": 21022,
+   "ev_end": 21108,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S081",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cargo"
+   ],
+   "home": "cargo",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 2.54,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 12,
+   "sentence": "That is why our American Express relationship is so important, why our long-standing leadership in business travel is important, why international growth matters, and why MRO and cargo matter - all are growing double digits.",
+   "ev_start": 21549,
+   "ev_end": 21773,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S082",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gained",
+     "grow"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 18,
+   "sentence": "There is nothing to be gained by trying to grow in that environment; the opportunity is in finding ways to secure higher revenues, not higher market share.",
+   "ev_start": 22428,
+   "ev_end": 22583,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Daniel Charles Janki",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 1,
+   "sentence": "On the fleet elements, you have to be systematic across the board about continuing to invest and put resiliency in it.",
+   "ev_start": 22906,
+   "ev_end": 23024,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 8,
+   "sentence": "We have taken a holiday from upgauging over the last couple years with some fleet resets, but with deliveries of the MAX 10 and other narrowbody opportunities, we will ramp up gauge, which is an efficient way to grow.",
+   "ev_start": 25028,
+   "ev_end": 25245,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 9,
+   "sentence": "International growth will focus on markets like Riyadh, bringing Tel Aviv back, and expanding in Asia.",
+   "ev_start": 25246,
+   "ev_end": 25348,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S086",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "next year"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 10,
+   "sentence": "That is the outlook for growth as I see it for the next year or so.",
+   "ev_start": 25349,
+   "ev_end": 25416,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S087",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "Aircraft availability has dramatically changed, and it's not just Airbus and Boeing production capacity but engine production and the quality and durability issues we've seen with new engine technology compared to legacy engines.",
+   "ev_start": 25790,
+   "ev_end": 26019,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S088",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraint"
+    ],
+    "product": [
+     "availability"
+    ],
+    "pressure": [
+     "constraint"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "Availability of aircraft is a significant constraint.",
+   "ev_start": 26020,
+   "ev_end": 26073,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S089",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ],
+    "product": [
+     "release"
+    ]
+   },
+   "score": 6.01,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 4,
+   "sentence": "For us, we look forward to getting the MAX 10 in Delta colors next year, which will enable us to release some older narrowbodies like 717s and 757s.",
+   "ev_start": 26074,
+   "ev_end": 26222,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S090",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "negative": [
+     "softer"
+    ],
+    "pressure": [
+     "softer"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 7,
+   "sentence": "Point-of-sale has been a little softer in some foreign markets, but we have transitioned to more U.S. point-of-sale: we are over 80% U.S. point-of-sale in the Transatlantic, which leverages our brand strength and higher fares.",
+   "ev_start": 27365,
+   "ev_end": 27591,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "pacific_and_unit"
+   ],
+   "home": "pacific_and_unit",
+   "fact_ids": [
+    "DAL_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "up about 8"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 8,
+   "sentence": "The Pacific has kept up with capacity; we are growing the Pacific and unit revenues were up about 8% on similar capacity, and we added new markets this year like Hong Kong.",
+   "ev_start": 27592,
+   "ev_end": 27764,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S092",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "pacific_and_unit"
+   ],
+   "home": "pacific_and_unit",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 9,
+   "sentence": "Latin America is two stories: South America has been very strong for 18 months and forwards look good based on our LATAM partnership.",
+   "ev_start": 27765,
+   "ev_end": 27898,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S093",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "negative": [
+     "weaker",
+     "softer"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "softer"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 10,
+   "sentence": "Mexico has been a little weaker due to incidents of violence earlier this year, and short haul has been softer, but we expect improvements into Q4.",
+   "ev_start": 27899,
+   "ev_end": 28046,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 7"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 11,
+   "sentence": "Capacity reflects that: we were down 7% in Latin America, mostly short haul, and we'll bring capacity back as demand recovers.",
+   "ev_start": 28047,
+   "ev_end": 28173,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S095",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "rolled out",
+     "launching"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 1,
+   "sentence": "We rolled out segmentation in main cabin years ago, expanded into Comfort+, and now are launching into premium products.",
+   "ev_start": 28601,
+   "ev_end": 28721,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "Over time, you can see us retailing products in those categories more effectively and rewarding our best customers with better products in these categories.",
+   "ev_start": 28828,
+   "ev_end": 28984,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S097",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 5,
+   "sentence": "Today it looks like typical revenue management merchandising, but with our brands and data we will merge retailing with merchandising more tightly for the future.",
+   "ev_start": 28985,
+   "ev_end": 29147,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cargo"
+   ],
+   "home": "cargo",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 1,
+   "sentence": "We captured some rerouting of cargo that typically goes through the Middle East and other areas, and we have made structural improvements internally which have increased our capability and efficiency.",
+   "ev_start": 29617,
+   "ev_end": 29817,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S099",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cargo"
+   ],
+   "home": "cargo",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 2,
+   "sentence": "Asia is one of the largest cargo markets from the U.S., and we've been expanding there and investing in airplane capability.",
+   "ev_start": 29818,
+   "ev_end": 29942,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cargo"
+   ],
+   "home": "cargo",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "restructuring"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "We also made internal restructuring to prioritize cargo.",
+   "ev_start": 29943,
+   "ev_end": 29999,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S101",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cargo"
+   ],
+   "home": "cargo",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "strong"
+    ],
+    "forward": [
+     "expect",
+     "throughout the year"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "profitability"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "We expect strength throughout the year - probably not 39% but we expect a really strong back half in cargo, and it will play a bigger role as we continue to invest internationally because cargo contributes to international profitability.",
+   "ev_start": 30000,
+   "ev_end": 30237,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 1,
+   "sentence": "Our target is mid-teens margin for MRO.",
+   "ev_start": 30553,
+   "ev_end": 30592,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "strong",
+     "improvement"
+    ],
+    "performance": [
+     "volume",
+     "revenue",
+     "growth",
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 3,
+   "sentence": "The first half was better than that given strong volume leverage; we expected a lot of revenue growth and that drove margin improvement.",
+   "ev_start": 30661,
+   "ev_end": 30797,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "mid-teens",
+     "grows",
+     "grow"
+    ],
+    "performance": [
+     "revenue",
+     "grows",
+     "grow"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 4,
+   "sentence": "Think of the business moving from low double-digit margins to mid-teens as revenue grows; the progression would be about a couple hundred basis points a year as we grow top line and capture operating leverage.",
+   "ev_start": 30798,
+   "ev_end": 31007,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S105",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "not sure"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 1,
+   "sentence": "I'm not sure what peak looks like; we are not there yet.",
+   "ev_start": 31564,
+   "ev_end": 31620,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S106",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 3,
+   "sentence": "The key elements are structural change in the industry - discipline in the face of high costs (fuel, labor, aircraft availability, and airport costs) - and the value proposition we are building for consumers.",
+   "ev_start": 31734,
+   "ev_end": 31942,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S107",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ]
+   },
+   "score": 4.01,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 4,
+   "sentence": "We are competing on value and experience, where Delta wins.",
+   "ev_start": 31943,
+   "ev_end": 32002,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "profitably"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 5,
+   "sentence": "Efficiency opportunities like upgauging remain important; replacing smaller aircraft with larger, more efficient ones helps grow capacity profitably, which matters in a congested domestic system.",
+   "ev_start": 32003,
+   "ev_end": 32198,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S109",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 2,
+   "sentence": "Not every fare will be allowed on every flight; we will use these tools based on demand by flight and market.",
+   "ev_start": 33215,
+   "ev_end": 33324,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S110",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 2,
+   "sentence": "We saw exit-rate improvements in the quarter, and we feel good about modest progress into the fourth quarter.",
+   "ev_start": 34225,
+   "ev_end": 34334,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S111",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low single-digit",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 3,
+   "sentence": "Once capacity growth normalizes and operational improvements continue to gain traction, we expect to return to our long-term framework of low single-digit unit cost growth.",
+   "ev_start": 34335,
+   "ev_end": 34507,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S112",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 5,
+   "sentence": "Also, we already have many costs built into our baseline: our pay scales are competitive in the industry, and we've accounted for significant airport investments.",
+   "ev_start": 34586,
+   "ev_end": 34748,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S113",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low-single-digit",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "outperform",
+     "strong",
+     "low-single-digit"
+    ],
+    "forward": [
+     "going forward"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 6,
+   "sentence": "Our ability to outperform on unit cost going forward will be strong when we return to low-single-digit CASM growth.",
+   "ev_start": 34749,
+   "ev_end": 34864,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "with growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 4,
+   "sentence": "In the second quarter, with growth below plan, our resources were roughly flat versus growth.",
+   "ev_start": 35263,
+   "ev_end": 35356,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S115",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerates"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth",
+     "accelerates"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 5,
+   "sentence": "Once growth accelerates, you start to see real leverage, and I would expect a couple points of leverage from better utilization of resources and investments under the growth we expect.",
+   "ev_start": 35357,
+   "ev_end": 35541,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S116",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 1,
+   "sentence": "If you break it down by premium versus main cabin, our paid premium load factor has been very strong and growing.",
+   "ev_start": 35940,
+   "ev_end": 36053,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S117",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single digits"
+    ],
+    "negative": [
+     "down 2"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 3,
+   "sentence": "Our capacity decisions reflect this: premium capacity is up low single digits while main cabin capacity is down 2% to 3%.",
+   "ev_start": 36102,
+   "ev_end": 36223,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S118",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Erik Storey Snell",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 2,
+   "sentence": "Net of that, we still expect the refinery to provide roughly a $0.05 benefit in Q3 based on current forwards, and that benefit would increase into the fourth quarter.",
+   "ev_start": 36970,
+   "ev_end": 37136,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 2,
+   "sentence": "It did not significantly change how we deployed capacity this year; any additions for World Cup were small in the grand scheme of things.",
+   "ev_start": 37825,
+   "ev_end": 37962,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S120",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 0,
+   "sentence": "American Express is a great partner and strategically aligned with us on growth.",
+   "ev_start": 38564,
+   "ev_end": 38644,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 1,
+   "sentence": "The growth in cards and spend is complementary to how we are expanding, both domestically and internationally.",
+   "ev_start": 38645,
+   "ev_end": 38755,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S122",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 2,
+   "sentence": "It is not just transactional; it's a strategic commercial partnership.",
+   "ev_start": 38756,
+   "ev_end": 38826,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S123",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 5,
+   "sentence": "It is a tight, high-value partnership.",
+   "ev_start": 39028,
+   "ev_end": 39066,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 1,
+   "sentence": "We are among their largest and fastest-growing partners, and we constantly look for ways to enhance value through benefits, lounges, and other joint offerings.",
+   "ev_start": 39239,
+   "ev_end": 39398,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 2,
+   "sentence": "The partnership compoundingly builds value year after year.",
+   "ev_start": 39399,
+   "ev_end": 39458,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed",
+     "improved"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 0,
+   "sentence": "In the second quarter, main cabin unit revenue did exceed premium because main cabin capacity was down and the quality of seat exposure improved.",
+   "ev_start": 40780,
+   "ev_end": 40925,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S127",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down about 30"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 1,
+   "sentence": "The ultra-low-cost carrier category is down about 30% capacity, which has materially improved main cabin unit revenue.",
+   "ev_start": 40926,
+   "ev_end": 41044,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S128",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 2,
+   "sentence": "We haven't grown main cabin seats for several years and will not grow them next year either.",
+   "ev_start": 41045,
+   "ev_end": 41137,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S129",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [
+    "DAL_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits",
+     "up 17",
+     "improving"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "margin"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 3,
+   "sentence": "Premium revenue was up 17% and unit revenue in premium is below main cabin this quarter, but premium capacity growth has been restrained and premium revenue growth is still high single digits, so the balance between main cabin and premium is improving in favor of margin and revenue quality.",
+   "ev_start": 41138,
+   "ev_end": 41429,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S130",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 1,
+   "sentence": "The results and the forecast into the back half are consistent with what we've been previewing to investors for some time: a pathway out of the commodity cycle toward a differentiated, premium strategy.",
+   "ev_start": 42034,
+   "ev_end": 42236,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S131",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 3,
+   "sentence": "The structural changes in the industry plus our investments in product, loyalty, and fleet efficiency have built durable advantages.",
+   "ev_start": 42370,
+   "ev_end": 42502,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S132",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 5,
+   "sentence": "Over time, competing on value and experience rather than price becomes more durable.",
+   "ev_start": 42610,
+   "ev_end": 42694,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S133",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 6,
+   "sentence": "We continue to invest in the balance sheet, pay down debt, and be in a position to play offense when opportunities arise.",
+   "ev_start": 42695,
+   "ev_end": 42816,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S134",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "continued"
+   ],
+   "home": "continued",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward H. Bastian",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 7,
+   "sentence": "So I see continued growth and durable improvements.",
+   "ev_start": 42817,
+   "ev_end": 42868,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 67,
+   "sentence_index": 0,
+   "sentence": "Longer term, domestic capacity tends to move with the U.S. economy; international will grow faster for us because there are many economies we still don't serve.",
+   "ev_start": 43393,
+   "ev_end": 43553,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 67,
+   "sentence_index": 1,
+   "sentence": "Domestic growth will include efficiency improvements and upgauging to make us more efficient without adding many additional flights.",
+   "ev_start": 43554,
+   "ev_end": 43686,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DAL_2026_2-S137",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premium"
+   ],
+   "home": "premium",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Joe Esposito",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 67,
+   "sentence_index": 3,
+   "sentence": "Europe, in our view, is more of an efficiency story - replacing older widebodies with more efficient 787s improves margins and premium capacity.",
+   "ev_start": 43797,
+   "ev_end": 43941,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "DAL_2026_2-S014",
+  "DAL_2026_2-S018",
+  "DAL_2026_2-S019",
+  "DAL_2026_2-S031",
+  "DAL_2026_2-S034",
+  "DAL_2026_2-S037",
+  "DAL_2026_2-S134",
+  "DAL_2026_2-S044",
+  "DAL_2026_2-S049",
+  "DAL_2026_2-S081",
+  "DAL_2026_2-S098",
+  "DAL_2026_2-S099",
+  "DAL_2026_2-S100",
+  "DAL_2026_2-S101",
+  "DAL_2026_2-S069",
+  "DAL_2026_2-S071",
+  "DAL_2026_2-S118",
+  "DAL_2026_2-S091",
+  "DAL_2026_2-S092",
+  "DAL_2026_2-S013",
+  "DAL_2026_2-S055",
+  "DAL_2026_2-S056",
+  "DAL_2026_2-S058",
+  "DAL_2026_2-S095",
+  "DAL_2026_2-S117",
+  "DAL_2026_2-S130",
+  "DAL_2026_2-S131",
+  "DAL_2026_2-S137",
+  "DAL_2026_2-S003",
+  "DAL_2026_2-S004",
+  "DAL_2026_2-S008",
+  "DAL_2026_2-S016",
+  "DAL_2026_2-S017",
+  "DAL_2026_2-S020",
+  "DAL_2026_2-S025",
+  "DAL_2026_2-S028",
+  "DAL_2026_2-S039",
+  "DAL_2026_2-S042",
+  "DAL_2026_2-S062",
+  "DAL_2026_2-S064",
+  "DAL_2026_2-S089",
+  "DAL_2026_2-S093",
+  "DAL_2026_2-S094",
+  "DAL_2026_2-S115",
+  "DAL_2026_2-S127"
+ ],
+ "surfaced_signal_ids": [
+  "DAL_2026_2-S014",
+  "DAL_2026_2-S018",
+  "DAL_2026_2-S019",
+  "DAL_2026_2-S031",
+  "DAL_2026_2-S034",
+  "DAL_2026_2-S037",
+  "DAL_2026_2-S134",
+  "DAL_2026_2-S044",
+  "DAL_2026_2-S049",
+  "DAL_2026_2-S081",
+  "DAL_2026_2-S098",
+  "DAL_2026_2-S099",
+  "DAL_2026_2-S100",
+  "DAL_2026_2-S101",
+  "DAL_2026_2-S069",
+  "DAL_2026_2-S071",
+  "DAL_2026_2-S118",
+  "DAL_2026_2-S091",
+  "DAL_2026_2-S092",
+  "DAL_2026_2-S013",
+  "DAL_2026_2-S055",
+  "DAL_2026_2-S056",
+  "DAL_2026_2-S058",
+  "DAL_2026_2-S095",
+  "DAL_2026_2-S117",
+  "DAL_2026_2-S130",
+  "DAL_2026_2-S131",
+  "DAL_2026_2-S137",
+  "DAL_2026_2-S003",
+  "DAL_2026_2-S004",
+  "DAL_2026_2-S008",
+  "DAL_2026_2-S016",
+  "DAL_2026_2-S017",
+  "DAL_2026_2-S020",
+  "DAL_2026_2-S025",
+  "DAL_2026_2-S028",
+  "DAL_2026_2-S039",
+  "DAL_2026_2-S042",
+  "DAL_2026_2-S062",
+  "DAL_2026_2-S064",
+  "DAL_2026_2-S089",
+  "DAL_2026_2-S093",
+  "DAL_2026_2-S094",
+  "DAL_2026_2-S115",
+  "DAL_2026_2-S127",
+  "DAL_2026_2-S023",
+  "DAL_2026_2-S074",
+  "DAL_2026_2-S029",
+  "DAL_2026_2-S105"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "continued",
+   "domestic_led_unit",
+   "premium_and_loyalty",
+   "cargo",
+   "q3",
+   "pacific_and_unit",
+   "premium"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "premium_and_loyalty"
+  ],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "DAL_2026_2-002",
+   "DAL_2026_2-006",
+   "DAL_2026_2-013"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "3 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 137,
+  "signals_usable": 137,
+  "selected": 45,
+  "by_topic": {
+   "momentum": 69,
+   "strategy": 27,
+   "product": 21,
+   "competition": 16,
+   "pressure": 10
+  },
+  "by_horizon": {
+   "current": 105,
+   "forward": 32
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 7,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

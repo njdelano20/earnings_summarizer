@@ -1,0 +1,6520 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "GE",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "GE",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 46,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator (Liz)",
+    "role": "management"
+   },
+   {
+    "name": "Blaire Shoor",
+    "role": "ir"
+   },
+   {
+    "name": "Larry Culp",
+    "role": "management"
+   },
+   {
+    "name": "Rahul Ghai",
+    "role": "management"
+   },
+   {
+    "name": "Sheila Kahyaoglu",
+    "role": "analyst"
+   },
+   {
+    "name": "Myles Walton",
+    "role": "analyst"
+   },
+   {
+    "name": "Seth Seifman",
+    "role": "analyst"
+   },
+   {
+    "name": "John Godyn",
+    "role": "analyst"
+   },
+   {
+    "name": "David Strauss",
+    "role": "analyst"
+   },
+   {
+    "name": "Ronald Epstein",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Mikus",
+    "role": "analyst"
+   },
+   {
+    "name": "Kristine Liwag",
+    "role": "analyst"
+   },
+   {
+    "name": "Ken Herbert",
+    "role": "analyst"
+   },
+   {
+    "name": "Gautam Khanna",
+    "role": "analyst"
+   },
+   {
+    "name": "Robert Stallard",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "GE_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue growth 24%, second quarter",
+   "fact_ids": [
+    "GE_2026_2-001"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $2.02/sh (+22%)",
+   "fact_ids": [
+    "GE_2026_2-013"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $3B (+43%)",
+   "fact_ids": [
+    "GE_2026_2-014"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is decelerating: guided 14% to 16% vs 24% reported",
+   "fact_ids": [
+    "GE_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.37, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 24.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "GE_2026_2-S115",
+    "delta_pp": -9.0,
+    "guided_lo": 14.0,
+    "guided_hi": 16.0,
+    "guided_descriptor": "mid-teens"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "half_commercial_services",
+   "name": "Half, Commercial Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 32.0,
+    "period": "first half",
+    "fact_id": "GE_2026_2-008",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "supported_commercial_services",
+   "name": "Supported Commercial Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 32.0,
+    "period": "first half",
+    "fact_id": "GE_2026_2-010",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "commercial_services",
+   "name": "Commercial Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 9
+  },
+  {
+   "node": "year_to_date",
+   "name": "Year-To-Date",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 27.0,
+    "period": "year to date",
+    "fact_id": "GE_2026_2-015",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "ces",
+   "name": "Ces",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 27.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-020",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "GE_2026_2-S059",
+    "delta_pp": -12.0,
+    "guided_lo": 14.0,
+    "guided_hi": 16.0,
+    "guided_descriptor": "mid-teens"
+   },
+   "stance": {},
+   "n_mentions": 12
+  },
+  {
+   "node": "internal_shop_visit",
+   "name": "Internal Shop Visit",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 25.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-021",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "equipment",
+   "name": "Equipment",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 30.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-022",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "GE_2026_2-S062",
+    "delta_pp": -12.0,
+    "guided_lo": 17.0,
+    "guided_hi": 19.0,
+    "guided_descriptor": "high teens"
+   },
+   "stance": {},
+   "n_mentions": 7
+  },
+  {
+   "node": "dpt",
+   "name": "Dpt",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 16.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-026",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 8
+  },
+  {
+   "node": "defense_and_systems",
+   "name": "Defense And Systems",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 12.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-027",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "high_teens",
+   "name": "High Teens",
+   "depth": 0,
+   "revenue": {
+    "value": 1500000000.0,
+    "fact_id": "GE_2026_2-036"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "GE_2026_2-005",
+   "GE_2026_2-001",
+   "GE_2026_2-016",
+   "GE_2026_2-002",
+   "GE_2026_2-006",
+   "GE_2026_2-003",
+   "GE_2026_2-013",
+   "GE_2026_2-017",
+   "GE_2026_2-007",
+   "GE_2026_2-004",
+   "GE_2026_2-014",
+   "GE_2026_2-019",
+   "GE_2026_2-033",
+   "GE_2026_2-035",
+   "GE_2026_2-034"
+  ],
+  "signal_ids": [
+   "GE_2026_2-S001",
+   "GE_2026_2-S009",
+   "GE_2026_2-S022",
+   "GE_2026_2-S027",
+   "GE_2026_2-S034",
+   "GE_2026_2-S035",
+   "GE_2026_2-S039",
+   "GE_2026_2-S040",
+   "GE_2026_2-S056",
+   "GE_2026_2-S073",
+   "GE_2026_2-S080",
+   "GE_2026_2-S083",
+   "GE_2026_2-S103",
+   "GE_2026_2-S111",
+   "GE_2026_2-S115",
+   "GE_2026_2-S131",
+   "GE_2026_2-S137"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "half_commercial_services",
+   "name": "Half, Commercial Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-008"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S007"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "supported_commercial_services",
+   "name": "Supported Commercial Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-010"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S017"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "commercial_services",
+   "name": "Commercial Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-031",
+    "GE_2026_2-030",
+    "GE_2026_2-011"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S002",
+    "GE_2026_2-S018",
+    "GE_2026_2-S060",
+    "GE_2026_2-S064",
+    "GE_2026_2-S066",
+    "GE_2026_2-S104"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 9,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "year_to_date",
+   "name": "Year-To-Date",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-015"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S036",
+    "GE_2026_2-S051"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ces",
+   "name": "Ces",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-020",
+    "GE_2026_2-032"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S003",
+    "GE_2026_2-S029",
+    "GE_2026_2-S033",
+    "GE_2026_2-S043",
+    "GE_2026_2-S086",
+    "GE_2026_2-S133",
+    "GE_2026_2-S134",
+    "GE_2026_2-S138"
+   ],
+   "n_home_signals": 11,
+   "n_mentions": 12,
+   "stance": {},
+   "trajectory": [
+    "ces:revenue"
+   ]
+  },
+  {
+   "id": "internal_shop_visit",
+   "name": "Internal Shop Visit",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-021"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S045",
+    "GE_2026_2-S046",
+    "GE_2026_2-S047"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "equipment",
+   "name": "Equipment",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-023",
+    "GE_2026_2-022",
+    "GE_2026_2-024"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S042",
+    "GE_2026_2-S048",
+    "GE_2026_2-S062"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 7,
+   "stance": {},
+   "trajectory": [
+    "equipment:revenue"
+   ]
+  },
+  {
+   "id": "dpt",
+   "name": "Dpt",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-026",
+    "GE_2026_2-025"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S052",
+    "GE_2026_2-S053",
+    "GE_2026_2-S063",
+    "GE_2026_2-S067"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 8,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "defense_and_systems",
+   "name": "Defense And Systems",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-028",
+    "GE_2026_2-027",
+    "GE_2026_2-029"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S054"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "high_teens",
+   "name": "High Teens",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GE_2026_2-036"
+   ],
+   "signal_ids": [
+    "GE_2026_2-S004",
+    "GE_2026_2-S058",
+    "GE_2026_2-S070"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 24.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 14.0,
+    "hi": 16.0,
+    "descriptor": "mid-teens",
+    "period": null,
+    "source": "signal_text",
+    "id": "GE_2026_2-S115",
+    "direction_word": null,
+    "text": "Our external channel has gone from sub 10% of our overall LEAP services portfolio to call it mid-teens right now, and we expect that to grow to, say, 30% by the time we get to 2030.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -9.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "ces:revenue",
+   "node": "ces",
+   "name": "Ces",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 27.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-020",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "guided": {
+    "lo": 14.0,
+    "hi": 16.0,
+    "descriptor": "mid-teens",
+    "period": null,
+    "source": "signal_text",
+    "id": "GE_2026_2-S059",
+    "direction_word": null,
+    "text": "We expect CES growth of around 20%, up from prior outlook of mid-teens.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -12.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "equipment:revenue",
+   "node": "equipment",
+   "name": "Equipment",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 30.0,
+    "period": "second quarter",
+    "fact_id": "GE_2026_2-022",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 17.0,
+    "hi": 19.0,
+    "descriptor": "high teens",
+    "period": null,
+    "source": "signal_text",
+    "id": "GE_2026_2-S062",
+    "direction_word": null,
+    "text": "We now expect commercial equipment to grow around 20%, up from mid to high teens, with LEAP deliveries up high teens from 15% previously.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -12.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 13,
+    "cautious": 6,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.37
+   },
+   "qa": {
+    "confident": 1,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "Larry Culp": {
+    "confident": 10,
+    "cautious": 6
+   },
+   "Rahul Ghai": {
+    "confident": 4
+   }
+  },
+  "notable_confident": [
+   "GE_2026_2-S095",
+   "GE_2026_2-S026",
+   "GE_2026_2-S110",
+   "GE_2026_2-S145"
+  ],
+  "notable_cautious": [
+   "GE_2026_2-S083",
+   "GE_2026_2-S107",
+   "GE_2026_2-S108",
+   "GE_2026_2-S106",
+   "GE_2026_2-S124"
+  ],
+  "withheld": [],
+  "revisions": [
+   "GE_2026_2-S060",
+   "GE_2026_2-S062",
+   "GE_2026_2-S068"
+  ]
+ },
+ "signals": [
+  {
+   "id": "GE_2026_2-S001",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "delays"
+    ],
+    "pressure": [
+     "delays"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Operator (Liz)",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 0,
+   "sentence_index": 3,
+   "sentence": "If you experience issues with the webcast slides refreshing, or there appears to be delays in the slide advancement, please hit F5 on your keyboard to refresh.",
+   "ev_start": 245,
+   "ev_end": 404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_services"
+   ],
+   "home": "commercial_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "The second quarter marked another quarter of significant growth driven by robust commercial services.",
+   "ev_start": 1716,
+   "ev_end": 1817,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces",
+    "dpt"
+   ],
+   "home": "ces",
+   "fact_ids": [
+    "GE_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 24",
+     "up 27",
+     "up 16"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Revenue increased 24%, with CES up 27% and DPT up 16%.",
+   "ev_start": 1896,
+   "ev_end": 1950,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "high_teens"
+   ],
+   "home": "high_teens",
+   "fact_ids": [
+    "GE_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high teens",
+     "grew"
+    ],
+    "performance": [
+     "profit",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "Operating profit grew 18%, with both segments up at least high teens.",
+   "ev_start": 1951,
+   "ev_end": 2020,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-003",
+    "GE_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 22",
+     "grew"
+    ],
+    "performance": [
+     "cash flow",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "EPS increased 22%, and free cash flow grew 43%, with conversion over 140%.",
+   "ev_start": 2021,
+   "ev_end": 2095,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-005",
+    "GE_2026_2-006",
+    "GE_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 49",
+     "up 27",
+     "growing",
+     "increasing 31"
+    ],
+    "performance": [
+     "revenue",
+     "growing",
+     "cash flow"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "These results close out an exceptional first half, with orders up 49%, revenue up 27%, EPS growing 24%, and free cash flow increasing 31%, with 115% conversion.",
+   "ev_start": 2096,
+   "ev_end": 2256,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "half_commercial_services",
+    "commercial_services"
+   ],
+   "home": "half_commercial_services",
+   "fact_ids": [
+    "GE_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 32",
+     "up 31"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "With the first half, commercial services revenue up 32% and total engine deliveries up 31%.",
+   "ev_start": 2368,
+   "ev_end": 2459,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S008",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "customers",
+     "demand",
+     "backlog"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "We remain focused on advancing what matters most to our customers, delivering on robust demand and our backlog of over $210 billion while investing in both current and next-gen technologies to improve time on wing and cost of ownership.",
+   "ev_start": 2460,
+   "ev_end": 2696,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "momentum"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Given the strength of our first half results and momentum for the remainder of the year, this morning, we're raising our 2026 guidance across the board.",
+   "ev_start": 2697,
+   "ev_end": 2849,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "This supported F110 deliveries growing over 50% year-over-year in the second quarter.",
+   "ev_start": 3398,
+   "ev_end": 3483,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S011",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "Just last week, we held three Kaizens with GKN, a top supplier of fan cases and other key components, to break constraints tied to rate performance.",
+   "ev_start": 3761,
+   "ev_end": 3909,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "product": [
+     "collaboratively"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "We worked collaboratively together to create detailed visual work instructions, increase capacity, and implemented a 3D inspection technology, which led to a 90% improvement in inspection time.",
+   "ev_start": 3910,
+   "ev_end": 4103,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Work is now underway to sustain these results and build further momentum.",
+   "ev_start": 4104,
+   "ev_end": 4177,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Across our turbine airfoils team, for example, we recently ran several Kaizens to improve the demand signal process.",
+   "ev_start": 4238,
+   "ev_end": 4354,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "performance": [
+     "demand"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Standardizing and reducing demand signals strengthens supplier confidence, and then using AI to automate the process, we cut the number of demand signals in half and reduced processing time by nearly 90% across 190 parts.",
+   "ev_start": 4355,
+   "ev_end": 4576,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supported_commercial_services",
+    "commercial_services",
+    "internal_shop_visit"
+   ],
+   "home": "supported_commercial_services",
+   "fact_ids": [
+    "GE_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "up 32",
+     "up 31",
+     "up 41"
+    ],
+    "performance": [
+     "revenue",
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "This supported commercial services revenue up 32% in the first half, including record internal shop visit output in the second quarter and first half total engine deliveries up 31%, including LEAP engines up 41%.",
+   "ev_start": 4794,
+   "ev_end": 5006,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S017",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supported_commercial_services"
+   ],
+   "home": "supported_commercial_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double",
+     "expanding",
+     "growing"
+    ],
+    "forward": [
+     "is expected"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "growing",
+     "demand",
+     "installed base"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "We're also expanding capacity to meet growing aftermarket demand for LEAP as the installed base is expected to more than double between now and 2030.",
+   "ev_start": 5007,
+   "ev_end": 5156,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S018",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_services"
+   ],
+   "home": "commercial_services",
+   "fact_ids": [
+    "GE_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half",
+     "well-positioned"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We expect a gradual return to modest departures growth in the second half, and combined with our commercial services backlog of roughly $170 billion, we remain well-positioned for services growth in 2026 and beyond.",
+   "ev_start": 5723,
+   "ev_end": 5938,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "growing"
+    ],
+    "performance": [
+     "demand",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Demand continues to be robust for LEAP, our fastest-growing platform, as demonstrated by Copa Airlines recently selecting up to 120 LEAP-1B engines to power their growing fleet of 737 MAX aircraft.",
+   "ev_start": 5939,
+   "ev_end": 6136,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S020",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "beta"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "We've also expanded our relationship with BETA Technologies, who joined the EPFD project last year to advance the modification of the EPFD aircraft.",
+   "ev_start": 7196,
+   "ev_end": 7344,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "Within defense, we continue to support robust demand for our services and products, both domestically and with allied partners, while advancing next-gen technologies.",
+   "ev_start": 7452,
+   "ev_end": 7618,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.78,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "We announced an agreement with Turkish Aerospace Industries to provide F404 engines for its HÜRJET advanced jet trainer program, and our CT7 engines were selected to power the U.K.",
+   "ev_start": 7619,
+   "ev_end": 7799,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "We completed an assembly readiness review for the XA102 adaptive cycle engine, a critical milestone that moves the program from design into assembly and test.",
+   "ev_start": 7853,
+   "ev_end": 8011,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S024",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "collaborative"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "We continue to strengthen our position in the fast-growing collaborative combat aircraft, or CCA market, with our suite of products.",
+   "ev_start": 8170,
+   "ev_end": 8302,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Both the GEK1500 and the GE426 achieved significant milestones to move to preliminary design review, bringing them closer to eventual flight on small and medium-thrust CCAs respectively.",
+   "ev_start": 8303,
+   "ev_end": 8489,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S026",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next week"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "We look forward to sharing more exciting wins and updates at the Farnborough Airshow next week.",
+   "ev_start": 8490,
+   "ev_end": 8585,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S027",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "Stepping back, we're focused on translating our unmatched experience and investments into value for our customers while driving long-term growth.",
+   "ev_start": 8586,
+   "ev_end": 8731,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "GE Aerospace delivered another strong quarter, marked by double-digit growth across all key metrics.",
+   "ev_start": 8811,
+   "ev_end": 8911,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces",
+    "dpt"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 17",
+     "up 18",
+     "up 12"
+    ],
+    "performance": []
+   },
+   "score": 3.78,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Orders were up 17%, with CES up 18% and DPT up 12%.",
+   "ev_start": 8912,
+   "ev_end": 8963,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 24"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Revenue increased 24%, marking our fifth consecutive quarter of at least 20% growth.",
+   "ev_start": 8964,
+   "ev_end": 9048,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces",
+    "dpt"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 27",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "CES was up 27% and DPT grew 16%.",
+   "ev_start": 9049,
+   "ev_end": 9081,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 18"
+    ],
+    "performance": [
+     "profit",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Operating profit was $2.7 billion, up 18%, driven by services volume and price.",
+   "ev_start": 9082,
+   "ev_end": 9161,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S033",
+   "topics": [
+    "product",
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased",
+     "inflation"
+    ],
+    "product": [
+     "installed"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "decreased",
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "As expected, margins decreased 130 basis points to 21.7% from installed engine growth, investments, and inflation.",
+   "ev_start": 9162,
+   "ev_end": 9276,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 22"
+    ],
+    "negative": [
+     "reduced"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "EPS was $2.02, up 22%, from increased operating profit, a lower tax rate, and a reduced share count.",
+   "ev_start": 9277,
+   "ev_end": 9377,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S035",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 43"
+    ],
+    "negative": [
+     "reduction"
+    ],
+    "pressure": [
+     "tariffs"
+    ],
+    "performance": [
+     "cash flow",
+     "earnings"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Free cash flow was $3 billion, up 43%, from higher earnings and nearly a $200 million reduction in working capital and AD&A, including year-over-year favorability from tariffs.",
+   "ev_start": 9378,
+   "ev_end": 9554,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "year_to_date",
+    "commercial_services"
+   ],
+   "home": "year_to_date",
+   "fact_ids": [
+    "GE_2026_2-015",
+    "GE_2026_2-016",
+    "GE_2026_2-017"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 27"
+    ],
+    "performance": [
+     "revenue",
+     "profit",
+     "growth",
+     "cash flow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Our results build on the strong first quarter, with year-to-date revenue up 27%, operating profit up nearly $800 million, largely driven by strong growth in commercial services, and free cash flow up over $1 billion.",
+   "ev_start": 9592,
+   "ev_end": 9808,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "Increase in operating profit drove $0.31 or over 85% of the improvement in EPS.",
+   "ev_start": 9858,
+   "ev_end": 9937,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduction"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "The remainder of the EPS growth was driven by lower tax rate and reduction in share count.",
+   "ev_start": 10075,
+   "ev_end": 10165,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Tax rate decreased two points to 16.7%, primarily from tax planning and benefit from recent tax legislation.",
+   "ev_start": 10166,
+   "ev_end": 10274,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S040",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 24"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "capital allocation"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "Share count was down 24 million from 2%, or 2% from our previously announced capital allocation actions.",
+   "ev_start": 10275,
+   "ev_end": 10379,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "In the second quarter, orders grew 18%.",
+   "ev_start": 10396,
+   "ev_end": 10435,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "equipment",
+    "year_to_date"
+   ],
+   "home": "equipment",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubling",
+     "up 7"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Equipment was up 7% as some orders shifted to second half, while nearly doubling year-to-date.",
+   "ev_start": 10487,
+   "ev_end": 10581,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [
+    "GE_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 27"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Revenue increased 27%.",
+   "ev_start": 10582,
+   "ev_end": 10604,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "Services grew 26%.",
+   "ev_start": 10605,
+   "ev_end": 10623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "internal_shop_visit"
+   ],
+   "home": "internal_shop_visit",
+   "fact_ids": [
+    "GE_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up over 50"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "volume"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "Internal shop visit revenue grew 25% from higher volume, including LEAP internal shop visits up over 50% and widebody mix.",
+   "ev_start": 10624,
+   "ev_end": 10746,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S046",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "internal_shop_visit"
+   ],
+   "home": "internal_shop_visit",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased over 25",
+     "improved"
+    ],
+    "product": [
+     "availability"
+    ],
+    "performance": [
+     "sales",
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "Spare parts sales increased over 25% from improved material availability that helped us fulfill strong customer demand, growth in LEAP external channel, and price.",
+   "ev_start": 10747,
+   "ev_end": 10910,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S047",
+   "topics": [
+    "product",
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "internal_shop_visit"
+   ],
+   "home": "internal_shop_visit",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "robust",
+     "grew"
+    ],
+    "negative": [
+     "delayed",
+     "constraints"
+    ],
+    "product": [
+     "availability"
+    ],
+    "pressure": [
+     "delayed",
+     "constraints"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "grew"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Even with strong revenue growth, given robust orders, spare parts delinquencies, which represents shipments that have been delayed due to material availability constraints, grew 20% sequentially in the second quarter.",
+   "ev_start": 10911,
+   "ev_end": 11128,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "equipment"
+   ],
+   "home": "equipment",
+   "fact_ids": [
+    "GE_2026_2-022"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 26",
+     "up 24"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "Equipment revenue grew 30%, with engine deliveries up 26%, including LEAP up 24%.",
+   "ev_start": 11229,
+   "ev_end": 11310,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "performance": [
+     "profit",
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Profit was $2.7 billion, up 20% from higher services volume and price.",
+   "ev_start": 11381,
+   "ev_end": 11451,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S050",
+   "topics": [
+    "product",
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "equipment"
+   ],
+   "home": "equipment",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 160",
+     "inflation"
+    ],
+    "product": [
+     "installed"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "As expected, margins were down 160 basis points to 27.3% from installed engine growth, including GE9X investments and inflation.",
+   "ev_start": 11452,
+   "ev_end": 11580,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "year_to_date",
+    "ces",
+    "equipment"
+   ],
+   "home": "year_to_date",
+   "fact_ids": [
+    "GE_2026_2-023",
+    "GE_2026_2-024"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 32"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "profit"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Year-to-date, CES has delivered a very strong first half, with orders growth of over 50%, revenue growth of 30%, including services up 32%, and operating profit of $5 billion, up approximately $900 million year-over-year.",
+   "ev_start": 11581,
+   "ev_end": 11802,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "dpt"
+   ],
+   "home": "dpt",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 12"
+    ],
+    "performance": []
+   },
+   "score": 3.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "In DPT, orders increased 12%.",
+   "ev_start": 11803,
+   "ev_end": 11832,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "dpt"
+   ],
+   "home": "dpt",
+   "fact_ids": [
+    "GE_2026_2-026"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Revenue grew 16%.",
+   "ev_start": 11995,
+   "ev_end": 12012,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "defense_and_systems",
+    "equipment"
+   ],
+   "home": "defense_and_systems",
+   "fact_ids": [
+    "GE_2026_2-027"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 12",
+     "up 7"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Defense and systems revenue was up 12%, driven by growth in both services and equipment, with engine deliveries up 7%.",
+   "ev_start": 12013,
+   "ev_end": 12131,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "with growth"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "Propulsion and adaptive technologies grew 23%, with growth led by Avio Aero.",
+   "ev_start": 12132,
+   "ev_end": 12208,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S056",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 30"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "profit",
+     "grew",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Profit grew 18%, and margins were up 30 basis points to 13.8% from increased volume and price, partially offset by mix investments and inflation.",
+   "ev_start": 12209,
+   "ev_end": 12354,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "dpt",
+    "defense_and_systems"
+   ],
+   "home": "dpt",
+   "fact_ids": [
+    "GE_2026_2-028",
+    "GE_2026_2-029"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "up 17"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "profit"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "In the first half, DPT delivered solid results with orders growth of 40%, revenue growth of 17%, and operating profit of around $900 million, up 17%.",
+   "ev_start": 12355,
+   "ev_end": 12504,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "high_teens"
+   ],
+   "home": "high_teens",
+   "fact_ids": [],
+   "guided": {
+    "node": "high_teens",
+    "metric": "revenue",
+    "descriptor": "high teens",
+    "band": [
+     17.0,
+     19.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high teens",
+     "grow"
+    ],
+    "forward": [
+     "expecting",
+     "outlook"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "We're expecting overall revenue to grow high teens, up from prior outlook of low double digits.",
+   "ev_start": 12697,
+   "ev_end": 12792,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S059",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": {
+    "node": "ces",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect",
+     "outlook"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "We expect CES growth of around 20%, up from prior outlook of mid-teens.",
+   "ev_start": 12793,
+   "ev_end": 12864,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "commercial_services"
+   ],
+   "home": "commercial_services",
+   "fact_ids": [],
+   "guided": {
+    "node": "commercial_services",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "We now expect commercial services to grow low 20s, up from mid-teens.",
+   "ev_start": 12865,
+   "ev_end": 12934,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S061",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "This provides us with ample visibility into demand to fulfill our outlook for 2026.",
+   "ev_start": 13350,
+   "ev_end": 13433,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "equipment",
+    "high_teens"
+   ],
+   "home": "equipment",
+   "fact_ids": [],
+   "guided": {
+    "node": "equipment",
+    "metric": "revenue",
+    "descriptor": "high teens",
+    "band": [
+     17.0,
+     19.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high teens",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "We now expect commercial equipment to grow around 20%, up from mid to high teens, with LEAP deliveries up high teens from 15% previously.",
+   "ev_start": 13434,
+   "ev_end": 13571,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "dpt"
+   ],
+   "home": "dpt",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "We expect DPT growth of low double digits, up from mid to high single digits.",
+   "ev_start": 13572,
+   "ev_end": 13649,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_services"
+   ],
+   "home": "commercial_services",
+   "fact_ids": [
+    "GE_2026_2-031"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "Operating profit is now projected to be in a range of $10.55 billion-$10.75 billion, with improvement in both segments.",
+   "ev_start": 13650,
+   "ev_end": 13769,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S065",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [
+    "GE_2026_2-032"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expected to"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "CES operating profit is now expected to be in a range of $10.25 billion-$10.35 billion, up $400 million versus the high end of the prior guide.",
+   "ev_start": 13770,
+   "ev_end": 13913,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_services",
+    "equipment"
+   ],
+   "home": "commercial_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "This reflects the drop-through of around $1 billion of improvement in commercial services revenue, partially offset by higher equipment growth.",
+   "ev_start": 13914,
+   "ev_end": 14057,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S067",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "dpt"
+   ],
+   "home": "dpt",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "We expect DPT profit to be in the range of $1.6 billion-$1.7 billion, up $50 million at the midpoint versus the prior guide, reflecting drop-through from higher revenue.",
+   "ev_start": 14058,
+   "ev_end": 14227,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S068",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-034"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "for the year"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "This reflects higher profit combined with a lower tax rate, which we now expect to be below 16.5% for the year.",
+   "ev_start": 14463,
+   "ev_end": 14574,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S069",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-035"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "We are also raising our free cash flow guidance to $8.9 billion-$9.2 billion, up $650 million from the high end of the prior guide, reflecting higher earnings and better working capital performance.",
+   "ev_start": 14575,
+   "ev_end": 14773,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "high_teens"
+   ],
+   "home": "high_teens",
+   "fact_ids": [
+    "GE_2026_2-036"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "high teens",
+     "momentum"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "profit",
+     "cash flow",
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Overall, 2026 is shaping up to be another strong year with high teens revenue growth and around $1.5 billion of profit and free cash flow growth, building on the momentum the business has had in the last few years.",
+   "ev_start": 14774,
+   "ev_end": 14988,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S071",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 1,
+   "sentence": "We're proud of the progress we've made in the first half.",
+   "ev_start": 15048,
+   "ev_end": 15105,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "It reflects the strength of our leadership positions across commercial and defense, and the continued focus of the GE Aerospace team to deliver for our customers.",
+   "ev_start": 15106,
+   "ev_end": 15268,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S073",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantages"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "Our performance is underpinned by our sustained competitive advantages.",
+   "ev_start": 15269,
+   "ev_end": 15340,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "With the industry's largest fleet, 80,000 engines and growing, and more than 2.3 billion flight hours, we operate across decades-long life cycles.",
+   "ev_start": 15341,
+   "ev_end": 15487,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S075",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 5,
+   "sentence": "That unmatched scale keeps us close to our customers, making us the partner of choice.",
+   "ev_start": 15488,
+   "ev_end": 15574,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 7,
+   "sentence": "We offer the best-performing products under wing across narrow body, wide body, regional, and defense, supported by deep technology expertise and a growing services network.",
+   "ev_start": 15708,
+   "ev_end": 15881,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S077",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "innovative",
+     "partnering"
+    ],
+    "strategy": [
+     "r&d",
+     "investments"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "With roughly $3 billion in annual R&D spend and CapEx investments of over a billion dollars, our world-class engineering and manufacturing teams are advancing next-gen technologies to improve durability, efficiency, and turnaround times while building additional capabilities for our defense customers through developing innovative technologies and partnering with disruptors to move at pace.",
+   "ev_start": 15882,
+   "ev_end": 16274,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S078",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 10,
+   "sentence": "Overall, we're confident in our path ahead as the GE Aerospace team is poised to deliver exceptional value to our customers and our shareholders.",
+   "ev_start": 16407,
+   "ev_end": 16552,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S079",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 2,
+   "sentence": "As we look at where we are, as we said in our prepared remarks, I think we feel very good about our position here, largely on the back of customer behavior, which hasn't changed.",
+   "ev_start": 17596,
+   "ev_end": 17774,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "Parked aircraft, particularly the CFM56, has actually declined since the beginning of March.",
+   "ev_start": 17824,
+   "ev_end": 17916,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S081",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "As much as we're pleased with the delivery increases, our spare parts delinquencies are up, unfortunately.",
+   "ev_start": 18043,
+   "ev_end": 18149,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S082",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 7,
+   "sentence": "I think on the back of that, and I don't suspect we'll hear much different in Farnborough, we do expect a return to more modest departure growth in the second half.",
+   "ev_start": 18150,
+   "ev_end": 18314,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S083",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 8,
+   "sentence": "We saw a relatively flattish performance, a little bit of the uncertainty that kept us holding the guide 90 days ago.",
+   "ev_start": 18315,
+   "ev_end": 18432,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 1,
+   "sentence": "Sheila, to your second question on the first half to second half, as you said, that very strong first half for services, both on orders and revenue.",
+   "ev_start": 19222,
+   "ev_end": 19370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S085",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full-year",
+     "expecting"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 2,
+   "sentence": "We raised our full-year guide to the low 20% growth, and now we're expecting services to be up $5 billion year-over-year.",
+   "ev_start": 19371,
+   "ev_end": 19492,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 3,
+   "sentence": "This is up about $1 billion from where we were just back in April, which is what led to us improving the CES profit outlook by, call it, say, $400 million from the high end of the prior guide.",
+   "ev_start": 19493,
+   "ev_end": 19685,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S087",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 5,
+   "sentence": "Even with that, there is sequential growth from first half to second half of 2026.",
+   "ev_start": 19791,
+   "ev_end": 19873,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "strong"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 6,
+   "sentence": "On a year-over-year basis, the second half services revenue in our current guide is up low double-digit from a very strong second half last year.",
+   "ev_start": 19874,
+   "ev_end": 20019,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S089",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 8,
+   "sentence": "As Larry Culp said, we feel very comfortable with where we are with the current guide, and as I said in my prepared remarks, 95% of our spare parts are in the backlog for third quarter.",
+   "ev_start": 20130,
+   "ev_end": 20315,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S090",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 10,
+   "sentence": "All in all, we feel very good, and it's great that we're driving double-digit growth for services in the second half, and that momentum should carry us into 2027, as Larry Culp said a minute ago.",
+   "ev_start": 20509,
+   "ev_end": 20704,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S091",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 3,
+   "sentence": "We're really pleased with how we performed in the second quarter.",
+   "ev_start": 21522,
+   "ev_end": 21587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 43"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "Cash flow of $3 billion, up 43% year-over-year.",
+   "ev_start": 21588,
+   "ev_end": 21635,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 5,
+   "sentence": "The best part for all of us was that we were able to reduce our working capital in the quarter, even with 24% earnings growth.",
+   "ev_start": 21636,
+   "ev_end": 21762,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S094",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 9,
+   "sentence": "A little bit of help from tariffs, which we got $100 million of refund from tariffs in the quarter, but in the grand scheme of things, that's not extremely material.",
+   "ev_start": 21931,
+   "ev_end": 22096,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "cash flow",
+     "grow",
+     "earnings"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 15,
+   "sentence": "I think we feel good about our working capital performance, and there's no huge one-time items in nature, so we do expect cash flow to grow here with earnings, but the conversion should normalize.",
+   "ev_start": 22640,
+   "ev_end": 22836,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth",
+     "earnings",
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 17,
+   "sentence": "Conversion should normalize, but even with that, we expect significant cash growth as our earnings grow.",
+   "ev_start": 22906,
+   "ev_end": 23010,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S097",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "product": [
+     "collaboration"
+    ],
+    "confident": [
+     "thrilled"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 3,
+   "sentence": "Thrilled to see not only nine consecutive quarters with double-digit increases from our critical suppliers, but maybe more importantly, the underlying work, the deep technical collaboration and joint problem-solving that we see underway.",
+   "ev_start": 23909,
+   "ev_end": 24146,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S098",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 6,
+   "sentence": "Hopefully, we're a better partner, we're a better customer, and that is just unlocking, unleashing capacity.",
+   "ev_start": 24296,
+   "ev_end": 24404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenge"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 8,
+   "sentence": "I won't recite some of the demand numbers that we've shared, as we think about the back half, as we think about 2027, frankly, beyond, it's much more a supply-side challenge than it is demand.",
+   "ev_start": 24465,
+   "ev_end": 24657,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S100",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 9,
+   "sentence": "Not that we would ever take the demand environment for granted, we know, despite this morning's news, we need to have a bigger, better second half.",
+   "ev_start": 24658,
+   "ev_end": 24805,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S101",
+   "topics": [
+    "momentum",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GE_2026_2-037"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single-digit",
+     "grow"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "backlog",
+     "installed base",
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 13,
+   "sentence": "I think if we just focus on services for a moment, we no longer term that in addition to that backlog that we've talked about, $170 billion commercially, the installed base should continue to grow gradually every year at a low to mid-single-digit rate.",
+   "ev_start": 24952,
+   "ev_end": 25204,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S102",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubling",
+     "grow"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "installed base",
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 19,
+   "sentence": "We know with LEAP becoming a larger part of the installed base, eclipsing the CFM56, we know we'll get the GEnx doubling between now or really between 2024 and 2030, that that installed base with our growth platforms is definitely going to grow.",
+   "ev_start": 25727,
+   "ev_end": 25972,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S103",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "installed base"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 20,
+   "sentence": "Work scope, we believe, is a structural tailwind, largely as a function of the natural aging of the installed base.",
+   "ev_start": 25973,
+   "ev_end": 26088,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_services"
+   ],
+   "home": "commercial_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "forward": [
+     "outlook",
+     "next year"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 22,
+   "sentence": "I think we said earlier, this spring, this summer, no reason 2027 should diverge from that double-digit commercial services growth medium-term outlook, even as we go into next year, what will clearly be a higher trimming off point than we imagined.",
+   "ev_start": 26156,
+   "ev_end": 26404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S105",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 24,
+   "sentence": "We're mindful of that, but with our backlog, with that framework, that algorithm in place, and just the overall tone we're hearing from customers, I think we feel very good about where we are at this point.",
+   "ev_start": 26440,
+   "ev_end": 26646,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S106",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 4,
+   "sentence": "Perhaps we know more definitively that that lesson from the pandemic that we've touched on a few times over the last several months, which was certainly in the air at Rio, at IATA, that we need to make sure we are prepared for the other side of the uncertainty, has really played out.",
+   "ev_start": 27815,
+   "ev_end": 28099,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S107",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 6,
+   "sentence": "There's just no way, I think, in the moment, given the uncertainty, just given the headlines, that we would have been well-served with investors to get out with an early bump in the guide.",
+   "ev_start": 28215,
+   "ev_end": 28403,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S108",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 8,
+   "sentence": "We know how the market has responded to the uncertainty, to the dynamic conditions that are clearly out there.",
+   "ev_start": 28426,
+   "ev_end": 28536,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S109",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "backlog",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 9,
+   "sentence": "All the while, we continue to do what we do from an execution perspective, not taking anything for granted, but also knowing that with the backlog, with demand remaining robust, that we needed to continue to invest, we need to continue to procure, we need to continue with our FLIGHT DECK work.",
+   "ev_start": 28537,
+   "ev_end": 28831,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S110",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "confident": [
+     "thrilled"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 10,
+   "sentence": "I think we'd play it the same way all over again and are thrilled to see the resiliency and demand and expect that that helps give us a little bit of a lens on how the second half is likely to evolve.",
+   "ev_start": 28832,
+   "ev_end": 29032,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S111",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expecting"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "grow",
+     "installed base"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 1,
+   "sentence": "I think on shop visits, as you said, we are expecting the shop visits to probably grow at kind of a 25% CAGR from now till 2030, and it's all a function of the installed base that's largely out there and will continue to grow over the next couple of years.",
+   "ev_start": 29956,
+   "ev_end": 30212,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S112",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipping"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 2,
+   "sentence": "Most of the engines that we are shipping now are probably not going to come in for a shop visit between now and 2030.",
+   "ev_start": 30213,
+   "ev_end": 30330,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S113",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 3,
+   "sentence": "It's largely a function of the installed base that exists in the globe today.",
+   "ev_start": 30331,
+   "ev_end": 30408,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we are going to",
+     "is going to"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 4,
+   "sentence": "With that, the big change that we are going to see is that our external channel is going to continue to grow.",
+   "ev_start": 30409,
+   "ev_end": 30518,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 5,
+   "sentence": "Our external channel has gone from sub 10% of our overall LEAP services portfolio to call it mid-teens right now, and we expect that to grow to, say, 30% by the time we get to 2030.",
+   "ev_start": 30519,
+   "ev_end": 30700,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S116",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 9,
+   "sentence": "That will continue to build, and all we are doing on our side is continuing to invest, to build more capacity, and then we are adding more channel partners.",
+   "ev_start": 30929,
+   "ev_end": 31085,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S117",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 11,
+   "sentence": "One, the fact is that we will be leveraging our fixed cost investments more as volume continues to grow.",
+   "ev_start": 31206,
+   "ev_end": 31310,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S118",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 25,
+   "sentence_index": 14,
+   "sentence": "We're investing in repairs to bring that shop visit cost down because, as you know, repairs help both with the turnaround time and the cost.",
+   "ev_start": 31423,
+   "ev_end": 31563,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 26,
+   "sentence_index": 0,
+   "sentence": "David, I would just maybe step back on the durability kit, for a moment, whether it be at IATA a few weeks ago, whether it's a recent customer survey that we've done, I think we're encouraged with some of the feedback we're getting.",
+   "ev_start": 31717,
+   "ev_end": 31949,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S120",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the year"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 26,
+   "sentence_index": 1,
+   "sentence": "Internally, we've said one of our priorities for the year is to be more customer driven, to really see ourselves as our customers do.",
+   "ev_start": 31950,
+   "ev_end": 32083,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 26,
+   "sentence_index": 7,
+   "sentence": "It really won't be something that will trigger an acceleration of work.",
+   "ev_start": 32797,
+   "ev_end": 32868,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S122",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 29,
+   "sentence_index": 1,
+   "sentence": "Well, again, in many respects, be it on the wide body side, be it on the narrow body side, it really is a function of the natural aging of the installed base.",
+   "ev_start": 33610,
+   "ev_end": 33768,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S123",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "Even with some of the older platforms, you look at the GE90, for example, 70% of that installed base has yet to see shop visit two, which has a significant step up in work scope.",
+   "ev_start": 33976,
+   "ev_end": 34154,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S124",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 29,
+   "sentence_index": 13,
+   "sentence": "As we work through the next several years, I think we'll see those engines come back, and again, that structural support, that tailwind will be helpful.",
+   "ev_start": 34814,
+   "ev_end": 34966,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 30,
+   "sentence_index": 2,
+   "sentence": "The growth largely is coming from better volume, better price, and higher material availability.",
+   "ev_start": 35114,
+   "ev_end": 35210,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S126",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 30,
+   "sentence_index": 5,
+   "sentence": "The material availability is what's driving the growth in CFM56 in a big way.",
+   "ev_start": 35420,
+   "ev_end": 35497,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S127",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 32,
+   "sentence_index": 5,
+   "sentence": "We'll see you there.",
+   "ev_start": 36803,
+   "ev_end": 36823,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S128",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 2,
+   "sentence": "The way we think about our own pricing is that we make significant investments, and we add a lot of capability to our customers, and we want to be rewarded for that.",
+   "ev_start": 37488,
+   "ev_end": 37653,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S129",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 4,
+   "sentence": "At the same time, we are facing inflationary headwinds as well.",
+   "ev_start": 37688,
+   "ev_end": 37751,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S130",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 7,
+   "sentence": "Then obviously longer term, we continue to get incremental pricing as we kind of moving away from those initial launch phases of LEAP, NG, NX pricing, the dollar per shop visit on those platforms has grown over the years, that we've discussed previously.",
+   "ev_start": 37924,
+   "ev_end": 38178,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S131",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 5,
+   "sentence": "Strong installed engine growth both last year, this year, I'd expect that to continue.",
+   "ev_start": 39633,
+   "ev_end": 39719,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S132",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "expecting",
+     "full-year"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 7,
+   "sentence": "Margins are getting better this year, both in the first half and expecting full-year margin expansion on LEAP.",
+   "ev_start": 39821,
+   "ev_end": 39931,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S133",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": []
+   },
+   "score": 6.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 8,
+   "sentence": "Overall, we expect, still below overall CES service margins, and that is putting a little bit of pressure on our margins.",
+   "ev_start": 39932,
+   "ev_end": 40053,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S134",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "product": [
+     "shipping"
+    ],
+    "performance": [
+     "units"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 11,
+   "sentence": "The third, and perhaps the biggest, is GE9X. Initial units, highest cost units, we started shipping those out last year, more this year.",
+   "ev_start": 40214,
+   "ev_end": 40350,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "volume",
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 12,
+   "sentence": "That volume will grow.",
+   "ev_start": 40351,
+   "ev_end": 40373,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "margin",
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 19,
+   "sentence": "That is because our services portfolio is the biggest part of the portfolio, it's the highest margin, and it drives the highest dollar growth.",
+   "ev_start": 40778,
+   "ev_end": 40920,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S137",
+   "topics": [
+    "competition",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "competition": [
+     "advantage"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 20,
+   "sentence": "As those headwinds abate, the inherent mix advantage that we have in our business continues.",
+   "ev_start": 40921,
+   "ev_end": 41013,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ces"
+   ],
+   "home": "ces",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 38,
+   "sentence_index": 21,
+   "sentence": "Overall, both for CES and for the total company, we would expect margin expansion in 2028 and beyond.",
+   "ev_start": 41014,
+   "ev_end": 41115,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S139",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 41,
+   "sentence_index": 2,
+   "sentence": "I think what I was encouraged by in IATA, and also in some of the recent customer feedback that we've got, is I think people see us here in the short term doing all that we can to support them.",
+   "ev_start": 42017,
+   "ev_end": 42210,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S140",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 41,
+   "sentence_index": 3,
+   "sentence": "We've got LEAP AOGs, Aircraft On the Ground, down to near zero at the moment, despite the fact that the durability kit is not fully installed.",
+   "ev_start": 42211,
+   "ev_end": 42353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S141",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 44,
+   "sentence_index": 9,
+   "sentence": "That 34% for first half this year is actually an acceleration from what we saw in the first half of last year on a year-over-year basis, and even the second half of last year.",
+   "ev_start": 44486,
+   "ev_end": 44661,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S142",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "growth",
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 44,
+   "sentence_index": 10,
+   "sentence": "We've seen continued sequential growth, continued acceleration of trends in service orders.",
+   "ev_start": 44662,
+   "ev_end": 44753,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S143",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 44,
+   "sentence_index": 11,
+   "sentence": "I think the momentum is very strong.",
+   "ev_start": 44754,
+   "ev_end": 44790,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S144",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 44,
+   "sentence_index": 12,
+   "sentence": "Obviously, we spoke about the delinquency being up even with the 34% growth in spare parts orders for the first half, and delinquency is up 20%.",
+   "ev_start": 44791,
+   "ev_end": 44935,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S145",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 44,
+   "sentence_index": 15,
+   "sentence": "Overall, I think we feel very comfortable with the outlook.",
+   "ev_start": 44991,
+   "ev_end": 45050,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S146",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "shipping"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 1,
+   "sentence": "On spares, Rob, overall, listen, we are seeing some normalization, but the number of spare engines that we are shipping, they continue to grow up.",
+   "ev_start": 46339,
+   "ev_end": 46485,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S147",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rahul Ghai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 2,
+   "sentence": "They continue to grow.",
+   "ev_start": 46486,
+   "ev_end": 46508,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GE_2026_2-S148",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Larry Culp",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 3,
+   "sentence": "We have more to do, but are confident in our path ahead in the long-term value creation for both our customers and our shareholders.",
+   "ev_start": 47343,
+   "ev_end": 47475,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "GE_2026_2-S007",
+  "GE_2026_2-S017",
+  "GE_2026_2-S002",
+  "GE_2026_2-S018",
+  "GE_2026_2-S060",
+  "GE_2026_2-S064",
+  "GE_2026_2-S066",
+  "GE_2026_2-S104",
+  "GE_2026_2-S036",
+  "GE_2026_2-S051",
+  "GE_2026_2-S003",
+  "GE_2026_2-S029",
+  "GE_2026_2-S033",
+  "GE_2026_2-S043",
+  "GE_2026_2-S086",
+  "GE_2026_2-S133",
+  "GE_2026_2-S134",
+  "GE_2026_2-S138",
+  "GE_2026_2-S045",
+  "GE_2026_2-S046",
+  "GE_2026_2-S047",
+  "GE_2026_2-S042",
+  "GE_2026_2-S048",
+  "GE_2026_2-S062",
+  "GE_2026_2-S052",
+  "GE_2026_2-S053",
+  "GE_2026_2-S063",
+  "GE_2026_2-S067",
+  "GE_2026_2-S054",
+  "GE_2026_2-S004",
+  "GE_2026_2-S058",
+  "GE_2026_2-S070",
+  "GE_2026_2-S001",
+  "GE_2026_2-S009",
+  "GE_2026_2-S022",
+  "GE_2026_2-S027",
+  "GE_2026_2-S034",
+  "GE_2026_2-S035",
+  "GE_2026_2-S039",
+  "GE_2026_2-S040",
+  "GE_2026_2-S056",
+  "GE_2026_2-S073",
+  "GE_2026_2-S080",
+  "GE_2026_2-S083",
+  "GE_2026_2-S103",
+  "GE_2026_2-S111",
+  "GE_2026_2-S115",
+  "GE_2026_2-S131",
+  "GE_2026_2-S137"
+ ],
+ "surfaced_signal_ids": [
+  "GE_2026_2-S007",
+  "GE_2026_2-S017",
+  "GE_2026_2-S002",
+  "GE_2026_2-S018",
+  "GE_2026_2-S060",
+  "GE_2026_2-S064",
+  "GE_2026_2-S066",
+  "GE_2026_2-S104",
+  "GE_2026_2-S036",
+  "GE_2026_2-S051",
+  "GE_2026_2-S003",
+  "GE_2026_2-S029",
+  "GE_2026_2-S033",
+  "GE_2026_2-S043",
+  "GE_2026_2-S086",
+  "GE_2026_2-S133",
+  "GE_2026_2-S134",
+  "GE_2026_2-S138",
+  "GE_2026_2-S045",
+  "GE_2026_2-S046",
+  "GE_2026_2-S047",
+  "GE_2026_2-S042",
+  "GE_2026_2-S048",
+  "GE_2026_2-S062",
+  "GE_2026_2-S052",
+  "GE_2026_2-S053",
+  "GE_2026_2-S063",
+  "GE_2026_2-S067",
+  "GE_2026_2-S054",
+  "GE_2026_2-S004",
+  "GE_2026_2-S058",
+  "GE_2026_2-S070",
+  "GE_2026_2-S001",
+  "GE_2026_2-S009",
+  "GE_2026_2-S022",
+  "GE_2026_2-S027",
+  "GE_2026_2-S034",
+  "GE_2026_2-S035",
+  "GE_2026_2-S039",
+  "GE_2026_2-S040",
+  "GE_2026_2-S056",
+  "GE_2026_2-S073",
+  "GE_2026_2-S080",
+  "GE_2026_2-S083",
+  "GE_2026_2-S103",
+  "GE_2026_2-S111",
+  "GE_2026_2-S115",
+  "GE_2026_2-S131",
+  "GE_2026_2-S137",
+  "GE_2026_2-S095",
+  "GE_2026_2-S026",
+  "GE_2026_2-S110",
+  "GE_2026_2-S145",
+  "GE_2026_2-S107",
+  "GE_2026_2-S108",
+  "GE_2026_2-S106",
+  "GE_2026_2-S124",
+  "GE_2026_2-S068"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "half_commercial_services",
+   "supported_commercial_services",
+   "commercial_services",
+   "year_to_date",
+   "ces",
+   "internal_shop_visit",
+   "equipment",
+   "dpt",
+   "defense_and_systems",
+   "high_teens"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "GE_2026_2-009",
+   "GE_2026_2-012",
+   "GE_2026_2-018",
+   "GE_2026_2-037"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "4 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 148,
+  "signals_usable": 148,
+  "selected": 49,
+  "by_topic": {
+   "pressure": 14,
+   "momentum": 89,
+   "strategy": 12,
+   "product": 33,
+   "competition": 2
+  },
+  "by_horizon": {
+   "current": 109,
+   "forward": 39
+  },
+  "trajectory_rows": 3,
+  "blocks_with_content": 10,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

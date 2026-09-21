@@ -1,0 +1,3644 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "NEE",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "NEE",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Michael Dowling",
+    "role": "ir"
+   },
+   {
+    "name": "John Ketchum",
+    "role": "management"
+   },
+   {
+    "name": "Michael Dunne",
+    "role": "management"
+   },
+   {
+    "name": "Steven Fleishman",
+    "role": "analyst"
+   },
+   {
+    "name": "Julien Dumoulin-Smith",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Bores",
+    "role": "management"
+   },
+   {
+    "name": "Nicholas Campanella",
+    "role": "analyst"
+   },
+   {
+    "name": "Brian Bolster",
+    "role": "management"
+   },
+   {
+    "name": "Jeremy Tonet",
+    "role": "analyst"
+   },
+   {
+    "name": "Carly Davenport",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "NEE_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.33, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [],
+ "company": {
+  "fact_ids": [
+   "NEE_2026_2-005",
+   "NEE_2026_2-002",
+   "NEE_2026_2-004",
+   "NEE_2026_2-008",
+   "NEE_2026_2-003",
+   "NEE_2026_2-006"
+  ],
+  "signal_ids": [
+   "NEE_2026_2-S001",
+   "NEE_2026_2-S002",
+   "NEE_2026_2-S003",
+   "NEE_2026_2-S007",
+   "NEE_2026_2-S015",
+   "NEE_2026_2-S019",
+   "NEE_2026_2-S020",
+   "NEE_2026_2-S027",
+   "NEE_2026_2-S028",
+   "NEE_2026_2-S029",
+   "NEE_2026_2-S037",
+   "NEE_2026_2-S041",
+   "NEE_2026_2-S045",
+   "NEE_2026_2-S047",
+   "NEE_2026_2-S050",
+   "NEE_2026_2-S054",
+   "NEE_2026_2-S087"
+  ],
+  "trajectory": []
+ },
+ "blocks": [],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 2,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.33
+   },
+   "qa": {
+    "confident": 6,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "John Ketchum": {
+    "cautious": 1,
+    "confident": 5
+   },
+   "Scott Bores": {
+    "confident": 3
+   }
+  },
+  "notable_confident": [
+   "NEE_2026_2-S040",
+   "NEE_2026_2-S064",
+   "NEE_2026_2-S070",
+   "NEE_2026_2-S046"
+  ],
+  "notable_cautious": [
+   "NEE_2026_2-S039"
+  ],
+  "withheld": [],
+  "revisions": [
+   "NEE_2026_2-S062"
+  ]
+ },
+ "signals": [
+  {
+   "id": "NEE_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NEE_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "NextEra Energy delivered a strong second quarter with adjusted earnings per share of $1.15, reflecting continued operational and financial execution across both FPL and Energy Resources.",
+   "ev_start": 2114,
+   "ev_end": 2300,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NEE_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 9.8"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Through the first 6 months of the year, our adjusted earnings per share increased 9.8% year-over-year.",
+   "ev_start": 2301,
+   "ev_end": 2403,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S003",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well positioned"
+    ],
+    "pressure": [
+     "regulated"
+    ]
+   },
+   "score": 5.03,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "NextEra Energy continues to be well positioned to deliver on its growth opportunities in its regulated and long-term contracted businesses in 2026 and beyond.",
+   "ev_start": 2404,
+   "ev_end": 2562,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "demand",
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "Power demand continues to accelerate.",
+   "ev_start": 2563,
+   "ev_end": 2600,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S005",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely",
+     "strength"
+    ],
+    "competition": [
+     "uniquely"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "NextEra Energy is uniquely positioned to meet the power demand needs of our customers because we have the scale, financial strength, supply chain, development expertise and technology to build all forms of energy.",
+   "ev_start": 2601,
+   "ev_end": 2814,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S006",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Customers can't afford to wait for an energy partner to secure equipment, land or financing.",
+   "ev_start": 2815,
+   "ev_end": 2907,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "This is exactly what FPL and Energy Resources consistently do as we execute against our 12 ways to grow.",
+   "ev_start": 3041,
+   "ev_end": 3145,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "We believe FPL continues to be one of the best examples of how to serve rapid growth while keeping customer bills low and reliability high.",
+   "ev_start": 3285,
+   "ev_end": 3424,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S009",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "The state remains one of the fastest growing in the nation supported by a large and increasingly diverse economy, continued net in migration, job creation and business investment.",
+   "ev_start": 3425,
+   "ev_end": 3604,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S010",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely"
+    ],
+    "competition": [
+     "uniquely"
+    ],
+    "performance": [
+     "growth",
+     "demand"
+    ]
+   },
+   "score": 3.46,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "That growth translates directly into electricity demand across our service area, including the Space Coast, and FPL is uniquely positioned to meet it.",
+   "ev_start": 3733,
+   "ev_end": 3883,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S011",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiates"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "What differentiates FPL is that we don't choose between affordability, reliability and serving growth.",
+   "ev_start": 3990,
+   "ev_end": 4092,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S012",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "disciplined",
+     "investment"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "This performance is the direct result of a proven long-term strategy centered on sustained, disciplined capital investment; scale; a strong balance sheet and credit rating; a highly efficient operating model; and a diverse generation fleet.",
+   "ev_start": 4620,
+   "ev_end": 4860,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.46,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Importantly, FPL is positioned to develop new cost-effective solar and storage for the benefit of its customers because approximately 90% of our generation mix is anchored in baseload gas-fired and nuclear generation, the result of sustained investments over the last 25 years to modernize our power plant fleet while meeting power demand from significant population growth.",
+   "ev_start": 5219,
+   "ev_end": 5593,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S014",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "We continue to see very strong interest from hyperscalers and other large load customers that value speed to market, reliability and competitive power pricing.",
+   "ev_start": 5594,
+   "ev_end": 5753,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S015",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "As part of FPL's new 4-year rate agreement, we designed our large load tariff to protect our existing customers.",
+   "ev_start": 5857,
+   "ev_end": 5969,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S016",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "We believe our large load tariff is industry-leading.",
+   "ev_start": 5970,
+   "ev_end": 6023,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S017",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "In fact, in May, Florida's governor signed a bill that codified many aspects of FPL's large load tariff into law.",
+   "ev_start": 6024,
+   "ev_end": 6137,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 3.25,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "And yesterday, along with Dominion Energy and certain other utilities, we announced our support for the White House's Ratepayer Protection Pledge, which reinforces this principle of large load customers paying their fair share.",
+   "ev_start": 6138,
+   "ev_end": 6365,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S019",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "by the end of"
+    ],
+    "product": [
+     "announce"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 5.92,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "FPL is advancing negotiations with large load customers and continues to expect to announce at least one large load transaction under FPL's tariff by the end of the year.",
+   "ev_start": 6667,
+   "ev_end": 6837,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S020",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NEE_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "tariff"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 6.38,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "Initially, we expect every gigawatt of large load under FPL's approved tariff to be equivalent to roughly $2 billion of CapEx and to earn the same return on equity as other FPL investments.",
+   "ev_start": 6838,
+   "ev_end": 7027,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S021",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "growing"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "disciplined",
+     "investment"
+    ],
+    "performance": [
+     "growing",
+     "customers"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Bottom line, we believe FPL's opportunity set has never been clearer, a rapidly growing service area, a disciplined and constructive regulatory framework, scale complemented by a best-in-class operating model and a long runway of investment opportunities, all while continuing to do what matters most, which is delivering reliable, affordable electricity for our customers every single day.",
+   "ev_start": 7028,
+   "ev_end": 7418,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "During the quarter, it energized a new transmission line in New Mexico to strengthen the grid in a growing part of the state, demonstrating why it is one of America's leading independent electric transmission companies.",
+   "ev_start": 7459,
+   "ev_end": 7678,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S023",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "This project is projected to reduce typical residential electric bills in 2031 by approximately $13 per month based on an independent study performed by the Southwest Power Pool, providing a clear and tangible example of how smart transmission investments can directly improve affordability for customers.",
+   "ev_start": 7757,
+   "ev_end": 8062,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S024",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "competition": [
+     "differentiator"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "This reinforces what we believe is a core differentiator for Energy Resources, our ability to consistently execute and bring critical infrastructure online at a time when speed matters most for customers.",
+   "ev_start": 8238,
+   "ev_end": 8442,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S025",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "NextEra Energy Transmission also continues to win new competitive transmission projects across the United States.",
+   "ev_start": 8443,
+   "ev_end": 8556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S026",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "NextEra Energy Transmission would have 43% ownership of the approximately $1.6 billion project, which aims to serve as a backbone system to deliver reliable, cost-competitive energy across the Midwest.",
+   "ev_start": 8710,
+   "ev_end": 8911,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S027",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "Including both transmission and generation, Energy Resources has one of the strongest and differentiated energy infrastructure platforms in the country.",
+   "ev_start": 9202,
+   "ev_end": 9354,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S028",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely"
+    ],
+    "competition": [
+     "uniquely"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.94,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "At a time when customers need tailored solutions, more capacity and speed to market, Energy Resources is uniquely positioned to deliver.",
+   "ev_start": 9355,
+   "ev_end": 9491,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "backlog",
+     "record"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "For the quarter, Energy Resources added 3.6 gigawatts of renewables and storage projects to its backlog, its second largest quarter of additions coming on the heels of last quarter's record 4 gigawatts.",
+   "ev_start": 9492,
+   "ev_end": 9694,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S030",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe",
+     "well positioned"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Battery storage remains an important growth driver, and we believe we are exceptionally well positioned to deliver this capacity solution for customers.",
+   "ev_start": 9762,
+   "ev_end": 9914,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S031",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator"
+    ],
+    "competition": [
+     "differentiator"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "And because of the size and diversity of our asset portfolio, co-located storage is a meaningful differentiator for us.",
+   "ev_start": 10264,
+   "ev_end": 10383,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S032",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "More broadly, our backlog provides meaningful visibility into future growth and underscores the value of our long-term contracted business.",
+   "ev_start": 10514,
+   "ev_end": 10653,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "And we have also locked in contracts for approximately 15 years on average, reflecting the strong electricity demand environment we're seeing today.",
+   "ev_start": 11098,
+   "ev_end": 11246,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S034",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.94,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "We believe Energy Resources is one of the few companies in the country that can support these customers with a full suite of solutions from renewables and battery storage in the near term to gas-fired generation and potentially nuclear over time.",
+   "ev_start": 11623,
+   "ev_end": 11869,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S035",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new generation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "We also have 4 origination channels feeding into our base case goal of securing 15 gigawatts of new generation to serve large load by 2035.",
+   "ev_start": 12009,
+   "ev_end": 12148,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S036",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonates"
+    ],
+    "product": [
+     "resonates"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Our bring-your-own generation approach with hyperscalers resonates because it provides a way to meet incremental demand either in front of the meter or behind the meter, while helping protect affordability for existing retail customers.",
+   "ev_start": 12556,
+   "ev_end": 12792,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S037",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "announced"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "We believe FERC's Section 206 show cause orders that were announced in June will create yet another market shift and generate strong demand for the ability to match load with generation.",
+   "ev_start": 12793,
+   "ev_end": 12979,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S038",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "Since our last call, the Iowa Utilities Commission approved a generating certificate for the plant, and we also successfully closed on the acquisition of the final 30% minority interest in the plant held by our 2 cooperative partners, making us the sole owner.",
+   "ev_start": 13284,
+   "ev_end": 13544,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S039",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate",
+     "evaluating"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "We also continue to evaluate advanced nuclear, closely evaluating the capabilities of various SMR OEMs.",
+   "ev_start": 13899,
+   "ev_end": 14002,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grow"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "confident",
+     "excited"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 91,
+   "sentence": "In short, we're off to a strong first half of the year, and I'm as confident and as excited as ever about our prospects to deliver on our 12 ways to grow in the second half of 2026 and beyond.",
+   "ev_start": 14302,
+   "ev_end": 14494,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 94,
+   "sentence": "The Virginia filing initiated the state's statutory 6-month review process.",
+   "ev_start": 14752,
+   "ev_end": 14827,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S042",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 95,
+   "sentence": "The company has also filed for merger approval with the Federal Energy Regulatory Commission and the Nuclear Regulatory Commission.",
+   "ev_start": 14828,
+   "ev_end": 14959,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S043",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 106,
+   "sentence": "The increased scale and enhanced operating platform of the two companies will help maintain affordability at a time when power demand requires more investment in generation and transmission.",
+   "ev_start": 16493,
+   "ev_end": 16683,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 112,
+   "sentence": "In addition, the fabric of a well-run utility is a company that's strongly embedded in the community it serves.",
+   "ev_start": 17389,
+   "ev_end": 17500,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S045",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 3.25,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 114,
+   "sentence": "We also have a retention commitment for Dominion Energy employees, but that just scratches the surface.",
+   "ev_start": 17686,
+   "ev_end": 17789,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "negative": [
+     "challenges"
+    ],
+    "performance": [
+     "customers"
+    ],
+    "confident": [
+     "never been more"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 127,
+   "sentence": "Scale matters because it creates efficiencies that compound over time into lower cost, better experience and stronger outcomes for customers, which has never been more important given the challenges being faced today.",
+   "ev_start": 19041,
+   "ev_end": 19258,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S047",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NEE_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected"
+    ],
+    "pressure": [
+     "regulatory"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 128,
+   "sentence": "As we discussed in May, the combined company is expected to support approximately 11% annual growth in regulatory capital employed through 2032 and 9% plus adjusted EPS growth through 2032 with a 9% plus target through 2035, all off a 2025 base.",
+   "ev_start": 19259,
+   "ev_end": 19504,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S048",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Regulatory capital employed growth of approximately 9.3% was a significant driver of FPL's earnings per share growth versus the prior year comparable quarter.",
+   "ev_start": 19853,
+   "ev_end": 20011,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S049",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NEE_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.92,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "FPL's capital expenditures were approximately $2.8 billion for the quarter, and we expect FPL's full year capital investments to be between $12 billion and $13 billion.",
+   "ev_start": 20012,
+   "ev_end": 20180,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S050",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "For the 12 months ending June 2026, FPL's reported return on equity for regulatory purposes will be approximately 11.7%.",
+   "ev_start": 20181,
+   "ev_end": 20301,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Florida continues to be one of the fastest-growing states in the nation and is currently ranked number one in GDP growth and number one in net migration by U.S. News.",
+   "ev_start": 20534,
+   "ev_end": 20700,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth",
+     "customers"
+    ]
+   },
+   "score": 2.68,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "And as John mentioned, FPL had a strong quarter of customer growth with the average number of customers increasing by over 90,000 from the comparable prior year period.",
+   "ev_start": 20701,
+   "ev_end": 20869,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "After taking weather into account, second quarter retail sales increased by roughly 0.6% on a weather-normalized basis from the comparable prior year period, driven primarily by continued favorable underlying population growth.",
+   "ev_start": 20952,
+   "ev_end": 21179,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S054",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "reflecting continued growth"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Contributions from new investments increased $0.09 per share year-over-year, primarily reflecting continued growth in our power generation portfolio.",
+   "ev_start": 21293,
+   "ev_end": 21442,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S055",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitively"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "We're also well protected for battery storage with competitively priced domestic supply also secured through 2029.",
+   "ev_start": 22055,
+   "ev_end": 22169,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "backlog"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "Energy Resources had a strong quarter of new renewables and storage origination with 3.6 gigawatts added to the backlog.",
+   "ev_start": 22382,
+   "ev_end": 22502,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "This highlights the continued strong demand for renewables and storage.",
+   "ev_start": 22683,
+   "ev_end": 22754,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S058",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well positioned"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Overall, we are well positioned with approximately two years to add 18.6 gigawatts to our backlog to be at the midpoint of those expectations.",
+   "ev_start": 22884,
+   "ev_end": 23026,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "earnings",
+     "decreased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "Adjusted earnings from Corporate and Other decreased by $0.04 per share year-over-year.",
+   "ev_start": 23088,
+   "ev_end": 23175,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "NEE_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow",
+     "earnings",
+     "growth"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "We expect to grow adjusted earnings per share at a compound annual growth rate of 8% plus through 2032 and are targeting the same from 2032 through 2035, all off the 2025 base of $3.71 of adjusted earnings per share.",
+   "ev_start": 23318,
+   "ev_end": 23534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S061",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "From 2025 to 2032, we expect that our average annual growth in operating cash flow will be at or above our adjusted earnings per share compound annual growth rate range.",
+   "ev_start": 23535,
+   "ev_end": 23704,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S062",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "dividends"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "And we also continue to expect to grow our dividends per share roughly 10% per year through 2026 off a 2024 base and 6% per year from year-end 2026 through 2028.",
+   "ev_start": 23705,
+   "ev_end": 23866,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S063",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 0.46,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 18,
+   "sentence": "So the bottom line is things are continuing to track well and we feel good about where we are, and also at FPL.",
+   "ev_start": 28588,
+   "ev_end": 28699,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "by the end of"
+    ],
+    "product": [
+     "announce"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 4.82,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 19,
+   "sentence": "That's why we took our forecast up from 6 to 8 gigawatts, continue to see a lot of interest in Florida and feel good about our ability to announce a large load transaction there by the end of the year, which is the expectation we continue to express to investors.",
+   "ev_start": 28700,
+   "ev_end": 28963,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S065",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 9,
+   "sentence": "And now if you look at FERC show cause order matching load with generation and making sure large load pays their own way, I mean, it's really going to, I think, shift the scales to creating a level playing field where people are going to have to compete on cost.",
+   "ev_start": 30313,
+   "ev_end": 30575,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "And I think that makes Florida very compelling because of the execution track record that we have been able to demonstrate at FPL over a number of years.",
+   "ev_start": 30576,
+   "ev_end": 30729,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S067",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Scott Bores",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 2,
+   "sentence": "I think the only other point I would add to this, Julien, is number one, having that legislation come in place in May allows for a lot of certainty for these customers that are going to make multibillion-dollar investments in the state of Florida.",
+   "ev_start": 30857,
+   "ev_end": 31104,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S068",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrate"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Scott Bores",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 4,
+   "sentence": "I think the other thing that's important is what John mentioned in his prepared remarks, having 90% of our fleet in baseload gas generation and nuclear really allows us to quickly and easily integrate additional generation to provide the speed to market that all these customers are looking at.",
+   "ev_start": 31163,
+   "ev_end": 31457,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S069",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Scott Bores",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 5,
+   "sentence": "And so we feel really good about the 12 gigawatts that we have in advanced discussions.",
+   "ev_start": 31458,
+   "ev_end": 31545,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S070",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcement"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Scott Bores",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 6,
+   "sentence": "And as John said, we feel really confident about making a large load announcement before the end of the year.",
+   "ev_start": 31546,
+   "ev_end": 31655,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S071",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 2,
+   "sentence": "When I think strategically about the business, we have put a big priority on vertical integration.",
+   "ev_start": 32492,
+   "ev_end": 32590,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S072",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 3,
+   "sentence": "And if I think you look at the vertical integration that we have at NextEra across the board, which really translates into our operating platform, we have all the pieces.",
+   "ev_start": 32591,
+   "ev_end": 32761,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S073",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "integration"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 6,
+   "sentence": "The Symmetry acquisition is a good example of improving vertical integration - being the third largest gas marketer now in the country.",
+   "ev_start": 33381,
+   "ev_end": 33516,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S074",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration",
+     "new generation",
+     "integrated"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 9,
+   "sentence": "And there's really - when I look across the board and you think about that vertical integration skill set and then you couple that with who is really out there building, there really aren't that many folks out there building, right, new generation solutions because it takes experience and it takes the ability to have all those vertically integrated skill sets come together.",
+   "ev_start": 33707,
+   "ev_end": 34083,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S075",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "unique position"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 10,
+   "sentence": "And that is what puts us in a unique position.",
+   "ev_start": 34084,
+   "ev_end": 34130,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S076",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 12,
+   "sentence": "And a lot of the opportunities that we've put forward and a lot of the work we'd done over the 18 months as we anticipated the shift to BYG being the right answer rather than recontracting existing assets, I think we have a definite first-mover advantage and very excited about the market potential that we see across the board.",
+   "ev_start": 34219,
+   "ev_end": 34547,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S077",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 14,
+   "sentence": "Because we have those vertically integrated skill sets, and we have them at scale.",
+   "ev_start": 34666,
+   "ev_end": 34748,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "So first of all, when you think about renewables and contracting, we've always said that there's immense option value that translates in the terminal value on all the investments that we make.",
+   "ev_start": 36316,
+   "ev_end": 36508,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S079",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "And so when you look at the investment footprint we have across the board on renewables, it translates into a couple - two or three different opportunities.",
+   "ev_start": 36509,
+   "ev_end": 36665,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 5,
+   "sentence": "And obviously, we benefit from the fact that we have substantial energy demand that's trying to be met by generation solutions, but supply is not matching demand today, which is resulting in higher pricing across the board, and that's creating significant opportunities that is really improving the terminal value of our entire portfolio.",
+   "ev_start": 36688,
+   "ev_end": 37026,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S081",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 6,
+   "sentence": "Then you think about the option value embedded in everything that we've built.",
+   "ev_start": 37027,
+   "ev_end": 37105,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 11,
+   "sentence": "And then when you think about bringing these hubs together and you think about speed to power and you think about long-term solutions as you ramp with your hyperscale customer as they grow into their compute capacity at a site, that speed to power solution, many times we're finding is starting with a renewable solution because we can get that on the market in 12 to 18 months quickly, then we're moving to gas, then we're moving to more battery storage to provide that redundancy behind the meter.",
+   "ev_start": 37818,
+   "ev_end": 38317,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S083",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 14,
+   "sentence": "And I think as you - we move forward with these scale solutions around hubs, those command because of the ability to provide a comprehensive solution across generation types and to bring other benefits to bear through our vertical integration strategy and our operating platform, there's a premium to be paid because it's a unique skill set that nobody has, and the market is willing to pay you for that.",
+   "ev_start": 38452,
+   "ev_end": 38856,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "And our whole philosophy and approach is much like the approach we've taken at Florida Power & Light and the track record that we have in Florida Power & Light.",
+   "ev_start": 40085,
+   "ev_end": 40245,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating",
+     "demand"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "And what we've been able to explain local leadership is when we look at this opportunity, we really look at an opportunity to help the customer and help the customer at a time when there is accelerating power demand.",
+   "ev_start": 40282,
+   "ev_end": 40498,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 7,
+   "sentence": "Our track record on customer service as well.",
+   "ev_start": 40793,
+   "ev_end": 40838,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S087",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new generation"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 12,
+   "sentence": "We faced significant growth in Florida for 20 straight years and have been able to do it by investing in new generation while keeping bills affordable.",
+   "ev_start": 41508,
+   "ev_end": 41659,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 13,
+   "sentence": "That track record speaks volumes for what the potential could be here.",
+   "ev_start": 41660,
+   "ev_end": 41730,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "strong",
+     "record"
+    ],
+    "performance": [
+     "record",
+     "customers"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 16,
+   "sentence": "We're going to leverage what Dominion does best locally and its strong track record of operations, the cross learnings that we'll be able to have, but be able to support that local leadership with the scale and the operating platform that comes with the NextEra business, which just translates into affordability for customers across the board.",
+   "ev_start": 42089,
+   "ev_end": 42433,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S090",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 19,
+   "sentence": "And then the economic development partnership that comes for all three states.",
+   "ev_start": 42651,
+   "ev_end": 42729,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "are going to"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 3,
+   "sentence": "Obviously, there's a lot of expansion needs around the Southeast as you start thinking about accommodating a lot of the large load demand here and the need that the states in the Southeast are going to have, the expansion opportunities off of MVP.",
+   "ev_start": 46308,
+   "ev_end": 46555,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S092",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Ketchum",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "And then as we look at our hub strategy, the need for additional gas supply, whether it comes from laterals or actual gas pipeline development connected with that build, that's encouraging in terms of what the investment opportunity might look like there.",
+   "ev_start": 46556,
+   "ev_end": 46811,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Dunne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 4,
+   "sentence": "This is all about how do we provide solutions that allow us to grow our company and to help our customers.",
+   "ev_start": 48280,
+   "ev_end": 48386,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "NEE_2026_2-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Scott Bores",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 5,
+   "sentence": "And so I think as we've said a few times on this call, we're very confident, and that's why we increased our development expectations to 8 gigawatts by 2032.",
+   "ev_start": 49357,
+   "ev_end": 49514,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "NEE_2026_2-S001",
+  "NEE_2026_2-S002",
+  "NEE_2026_2-S003",
+  "NEE_2026_2-S007",
+  "NEE_2026_2-S015",
+  "NEE_2026_2-S019",
+  "NEE_2026_2-S020",
+  "NEE_2026_2-S027",
+  "NEE_2026_2-S028",
+  "NEE_2026_2-S029",
+  "NEE_2026_2-S037",
+  "NEE_2026_2-S041",
+  "NEE_2026_2-S045",
+  "NEE_2026_2-S047",
+  "NEE_2026_2-S050",
+  "NEE_2026_2-S054",
+  "NEE_2026_2-S087"
+ ],
+ "surfaced_signal_ids": [
+  "NEE_2026_2-S001",
+  "NEE_2026_2-S002",
+  "NEE_2026_2-S003",
+  "NEE_2026_2-S007",
+  "NEE_2026_2-S015",
+  "NEE_2026_2-S019",
+  "NEE_2026_2-S020",
+  "NEE_2026_2-S027",
+  "NEE_2026_2-S028",
+  "NEE_2026_2-S029",
+  "NEE_2026_2-S037",
+  "NEE_2026_2-S041",
+  "NEE_2026_2-S045",
+  "NEE_2026_2-S047",
+  "NEE_2026_2-S050",
+  "NEE_2026_2-S054",
+  "NEE_2026_2-S087",
+  "NEE_2026_2-S040",
+  "NEE_2026_2-S064",
+  "NEE_2026_2-S070",
+  "NEE_2026_2-S046",
+  "NEE_2026_2-S039",
+  "NEE_2026_2-S062"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "NEE_2026_2-001",
+   "NEE_2026_2-007"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 94,
+  "signals_usable": 94,
+  "selected": 17,
+  "by_topic": {
+   "momentum": 39,
+   "pressure": 10,
+   "competition": 14,
+   "product": 20,
+   "strategy": 18
+  },
+  "by_horizon": {
+   "current": 72,
+   "forward": 22
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 0,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

@@ -1,0 +1,1029 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "UNH",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "UNH",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 6,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Stephen Hemsley",
+    "role": "management"
+   },
+   {
+    "name": "Tim Noel",
+    "role": "management"
+   },
+   {
+    "name": "Patrick Conway",
+    "role": "management"
+   },
+   {
+    "name": "Wayne DeVeydt",
+    "role": "management"
+   },
+   {
+    "name": "Justin Lake",
+    "role": "analyst"
+   },
+   {
+    "name": "Bobby",
+    "role": "management"
+   },
+   {
+    "name": "Dan Kueter",
+    "role": "management"
+   },
+   {
+    "name": "A.J. Rice",
+    "role": "analyst"
+   },
+   {
+    "name": "Stephen Baxter",
+    "role": "analyst"
+   },
+   {
+    "name": "Kevin Fischbeck",
+    "role": "analyst"
+   },
+   {
+    "name": "Lisa Gill",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrew Mok",
+    "role": "analyst"
+   },
+   {
+    "name": "Ann Hynes",
+    "role": "analyst"
+   },
+   {
+    "name": "Lance Wilkes",
+    "role": "analyst"
+   },
+   {
+    "name": "Krista",
+    "role": "management"
+   },
+   {
+    "name": "George Hill",
+    "role": "analyst"
+   },
+   {
+    "name": "Sandeep",
+    "role": "management"
+   },
+   {
+    "name": "Erin Wright",
+    "role": "analyst"
+   },
+   {
+    "name": "Whit Mayo",
+    "role": "analyst"
+   },
+   {
+    "name": "David Windley",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "UNH_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "facts": [
+  {
+   "kind": "reported",
+   "metric": "eps",
+   "segment": "total",
+   "stat": "level",
+   "value": 6.38,
+   "value_high": null,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "UnitedHealth Group reported adjusted earnings per share of $6.38, compared to $4.08 in the prior year.",
+   "ev_start": 14701,
+   "ev_end": 14803,
+   "figure_text": "$6.38",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-001"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "total",
+   "stat": "level",
+   "value": 112000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [
+    {
+     "value": 55.0,
+     "value_high": null,
+     "unit": "pct",
+     "basis": "yoy",
+     "constant_currency": false,
+     "text": "55%",
+     "ev_start": 14804,
+     "ev_end": 14941
+    }
+   ],
+   "period": "second quarter",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "Total revenues were $112 billion, largely consistent with the prior year, while operating earnings of $8 billion grew 55% year-over-year.",
+   "ev_start": 14804,
+   "ev_end": 14941,
+   "figure_text": "$112 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-002"
+  },
+  {
+   "kind": "reported",
+   "metric": "operating_cash_flow",
+   "segment": "total",
+   "stat": "level",
+   "value": 11000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "approximately",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 12,
+   "sentence": "Operating cash flows in the quarter were approximately $11 billion, or 1.9 times net income, reflecting timing of substantial government payments and strong earnings.",
+   "ev_start": 15743,
+   "ev_end": 15909,
+   "figure_text": "$11 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-003"
+  },
+  {
+   "kind": "reported",
+   "metric": "share_repurchases",
+   "segment": "total",
+   "stat": "level",
+   "value": 4000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 14,
+   "sentence": "Through mid-July, we have deployed $4 billion for repurchases of 11.4 million shares.",
+   "ev_start": 16017,
+   "ev_end": 16102,
+   "figure_text": "$4 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-004"
+  },
+  {
+   "kind": "guidance",
+   "metric": "share_repurchases",
+   "segment": "total",
+   "stat": "level",
+   "value": 5000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "at least",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "2026",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 15,
+   "sentence": "We now expect to complete total share repurchases of at least $5 billion in 2026, compared to initial guidance of $2.5 billion.",
+   "ev_start": 16103,
+   "ev_end": 16230,
+   "figure_text": "$5 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-005"
+  },
+  {
+   "kind": "reported",
+   "metric": "capital_returned",
+   "segment": "total",
+   "stat": "level",
+   "value": 2100000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "During the quarter, we returned $2.1 billion to shareholders through our dividend, which our board increased to $9.28 per share on an annualized basis.",
+   "ev_start": 16231,
+   "ev_end": 16382,
+   "figure_text": "$2.1 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-006"
+  },
+  {
+   "kind": "reported",
+   "metric": "dividends",
+   "segment": "total",
+   "stat": "level",
+   "value": 9.28,
+   "value_high": null,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "During the quarter, we returned $2.1 billion to shareholders through our dividend, which our board increased to $9.28 per share on an annualized basis.",
+   "ev_start": 16231,
+   "ev_end": 16382,
+   "figure_text": "$9.28",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-007"
+  },
+  {
+   "kind": "reported",
+   "metric": "eps",
+   "segment": "total",
+   "stat": "level",
+   "value": 19.5,
+   "value_high": 20.0,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "full year",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 23,
+   "sentence": "We're providing new adjusted earnings per share guidance range of $19.50 to $20, with slightly more earnings in 3Q relative to 4Q. We are increasing the full-year operating earnings outlook for UnitedHealthcare to at least $12 billion and for Optum Health to at least $2.2 billion.",
+   "ev_start": 17201,
+   "ev_end": 17482,
+   "figure_text": "$19.50 to $20",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "UNH_2026_2-008"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "10%",
+   "reason": "no_metric_phrase",
+   "sentence": "We expect the 2026 Medicare medical cost trend to come in below our initial estimate of around 10%.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5824
+  },
+  {
+   "figure_text": "3%",
+   "reason": "no_metric_phrase",
+   "sentence": "We now expect full-year Medicare Advantage enrollment to decline by approximately 1.1 million and Medicare margins to finish 2026 above 3%.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 6247
+  },
+  {
+   "figure_text": "11%",
+   "reason": "no_metric_phrase",
+   "sentence": "In fact, it is the opposite, with medical cost trends modestly above the 11% level we previously saw.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 7344
+  },
+  {
+   "figure_text": "30%",
+   "reason": "no_metric_phrase",
+   "sentence": "For example, in the quarter, we committed to eliminating, by the end of this year, 30% of prior authorization volume and nearly two-thirds of prior authorization requirements for pediatric care.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 8324
+  },
+  {
+   "figure_text": "10%",
+   "reason": "no_metric_phrase",
+   "sentence": "First, enhanced support for patients during key transitions of care has resulted in approximately a 10% reduction in hospitalizations since implementation late last year in the Western and Southern regions of Optum Health.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10087
+  },
+  {
+   "figure_text": "20%",
+   "reason": "no_metric_phrase",
+   "sentence": "In pilots, the effort has driven a more than 20% improvement in timely care delivery alongside reductions in acute care utilization and shorter skilled nursing facility stays.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10477
+  },
+  {
+   "figure_text": "90%",
+   "reason": "no_metric_phrase",
+   "sentence": "Today, Optum Health reaches nearly 90% of U.S. counties and conducts approximately 2.5 million rural patient home visits.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10873
+  },
+  {
+   "figure_text": "70%",
+   "reason": "no_metric_phrase",
+   "sentence": "There is real progress on the rollout of AI-based ambient listening capabilities, available to 70% of our employed providers today and on track to exceed 90% by year-end.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11401
+  },
+  {
+   "figure_text": "90%",
+   "reason": "no_metric_phrase",
+   "sentence": "There is real progress on the rollout of AI-based ambient listening capabilities, available to 70% of our employed providers today and on track to exceed 90% by year-end.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11401
+  },
+  {
+   "figure_text": "5%",
+   "reason": "change_without_metric",
+   "sentence": "Patient experience in our care delivery sites is up approximately 5% year-over-year, and patient access has expanded by nearly 200,000 more patient-facing hours.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11631
+  },
+  {
+   "figure_text": "100%",
+   "reason": "no_metric_phrase",
+   "sentence": "This all builds on our industry-leading commitment last year to pass through 100% of manufacturer rebates to customers by the end of 2027.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 13190
+  },
+  {
+   "figure_text": "95%",
+   "reason": "no_metric_phrase",
+   "sentence": "We are well on our way, as we expect to end 2026 with more than 95% of clients on 100% pass-through.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 13329
+  },
+  {
+   "figure_text": "100%",
+   "reason": "no_metric_phrase",
+   "sentence": "We are well on our way, as we expect to end 2026 with more than 95% of clients on 100% pass-through.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 13329
+  },
+  {
+   "figure_text": "17%",
+   "reason": "no_metric_phrase",
+   "sentence": "Early client results include a 17% reduction in pharmacy costs.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 14046
+  },
+  {
+   "figure_text": "$4.08",
+   "reason": "prior_period_comparator",
+   "sentence": "UnitedHealth Group reported adjusted earnings per share of $6.38, compared to $4.08 in the prior year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 14701
+  },
+  {
+   "figure_text": "$8 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "Total revenues were $112 billion, largely consistent with the prior year, while operating earnings of $8 billion grew 55% year-over-year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 14804
+  },
+  {
+   "figure_text": "86.7%",
+   "reason": "no_metric_phrase",
+   "sentence": "Our reported medical care ratio of 86.7% includes $860 million of net favorable prior period medical development, the majority of which is in-year development.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 15118
+  },
+  {
+   "figure_text": "$860 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Our reported medical care ratio of 86.7% includes $860 million of net favorable prior period medical development, the majority of which is in-year development.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 15118
+  },
+  {
+   "figure_text": "89.4%",
+   "reason": "no_metric_phrase",
+   "sentence": "This compares to 89.4% in 2Q 2025.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 15278
+  },
+  {
+   "figure_text": "12.7%",
+   "reason": "no_metric_phrase",
+   "sentence": "The operating cost ratio was 12.7% for the quarter, compared to 12.3% a year ago, as we continue to focus on operating discipline while making targeted investments across technology, AI, care delivery enhancements, customer experience, and advancing healthier communities through the United Health Foundation.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 15389
+  },
+  {
+   "figure_text": "12.3%",
+   "reason": "prior_period_comparator",
+   "sentence": "The operating cost ratio was 12.7% for the quarter, compared to 12.3% a year ago, as we continue to focus on operating discipline while making targeted investments across technology, AI, care delivery enhancements, customer experience, and advancing healthier communities through the United Health Foundation.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 15389
+  },
+  {
+   "figure_text": "$2.5 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "We now expect to complete total share repurchases of at least $5 billion in 2026, compared to initial guidance of $2.5 billion.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 16103
+  },
+  {
+   "figure_text": "41.2%",
+   "reason": "no_metric_phrase",
+   "sentence": "Our debt to capital ratio was 41.2% at the end of the quarter, compared to 44.1% one year ago, and 170 basis point sequential improvement from the first quarter of this year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 16478
+  },
+  {
+   "figure_text": "44.1%",
+   "reason": "no_metric_phrase",
+   "sentence": "Our debt to capital ratio was 41.2% at the end of the quarter, compared to 44.1% one year ago, and 170 basis point sequential improvement from the first quarter of this year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 16478
+  },
+  {
+   "figure_text": "170 basis point",
+   "reason": "no_metric_phrase",
+   "sentence": "Our debt to capital ratio was 41.2% at the end of the quarter, compared to 44.1% one year ago, and 170 basis point sequential improvement from the first quarter of this year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 16478
+  },
+  {
+   "figure_text": "40%",
+   "reason": "no_metric_phrase",
+   "sentence": "We remain on track to reduce our debt to capital ratio to approximately 40% by the end of 2026.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 16653
+  },
+  {
+   "figure_text": "$12 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "We're providing new adjusted earnings per share guidance range of $19.50 to $20, with slightly more earnings in 3Q relative to 4Q. We are increasing the full-year operating earnings outlook for UnitedHealthcare to at least $12 billion and for Optum Health to at least $2.2 billion.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 17201
+  },
+  {
+   "figure_text": "$2.2 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "We're providing new adjusted earnings per share guidance range of $19.50 to $20, with slightly more earnings in 3Q relative to 4Q. We are increasing the full-year operating earnings outlook for UnitedHealthcare to at least $12 billion and for Optum Health to at least $2.2 billion.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 17201
+  },
+  {
+   "figure_text": "88.1%",
+   "reason": "no_metric_phrase",
+   "sentence": "We now expect a full-year medical care ratio of 88.1% ± 25 basis points.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 17561
+  },
+  {
+   "figure_text": "25 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "We now expect a full-year medical care ratio of 88.1% ± 25 basis points.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 17561
+  },
+  {
+   "figure_text": "75%",
+   "reason": "no_metric_phrase",
+   "sentence": "UnitedHealthcare earnings continue to be weighted approximately 75% to the first half of the year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 17881
+  },
+  {
+   "figure_text": "55%",
+   "reason": "no_metric_phrase",
+   "sentence": "In contrast, Optum Insight and Optum Rx remain more heavily weighted towards the second half of the year, with each expected to generate approximately 55% of their full-year earnings during the back half as client implementations, growth investments, and normal business seasonality progress through the year.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 18200
+  },
+  {
+   "figure_text": "80%",
+   "reason": "pct_without_growth_cue",
+   "sentence": "On an aggregate year-to-date, rate actions through 7/1, accounting for approximately 80% of our annual revenue, we're within our expected forecast.",
+   "speaker": "Bobby",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 21866
+  },
+  {
+   "figure_text": "6%-7%",
+   "reason": "no_metric_phrase",
+   "sentence": "We continue to believe annualized 2026 rate impacts will be in the zone of around 6%-7%, and still lagging elevated medical trend.",
+   "speaker": "Bobby",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 22158
+  },
+  {
+   "figure_text": "1%",
+   "reason": "no_metric_phrase",
+   "sentence": "Overall, our 2026 margins will be within our previously communicated range, as you've indicated, -1% to -1.7%, and we expect to hit that expectation for the year.",
+   "speaker": "Bobby",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 22289
+  },
+  {
+   "figure_text": "1.7%",
+   "reason": "no_metric_phrase",
+   "sentence": "Overall, our 2026 margins will be within our previously communicated range, as you've indicated, -1% to -1.7%, and we expect to hit that expectation for the year.",
+   "speaker": "Bobby",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "ev_start": 22289
+  },
+  {
+   "figure_text": "11%",
+   "reason": "no_metric_phrase",
+   "sentence": "First on trend, modestly above the 11% that we were expecting, as Tim shared.",
+   "speaker": "Dan Kueter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "ev_start": 22798
+  },
+  {
+   "figure_text": "50 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "It's contributing roughly 50 basis points or so of incremental trend in 2026, now totaling at least 100 basis points of total cost.",
+   "speaker": "Dan Kueter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "ev_start": 23069
+  },
+  {
+   "figure_text": "100 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "It's contributing roughly 50 basis points or so of incremental trend in 2026, now totaling at least 100 basis points of total cost.",
+   "speaker": "Dan Kueter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "ev_start": 23069
+  },
+  {
+   "figure_text": "7%",
+   "reason": "no_metric_phrase",
+   "sentence": "We remain confident that that journey will result in a return to our historic margin performance of 7% or greater for the commercial group business.",
+   "speaker": "Dan Kueter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "ev_start": 24269
+  },
+  {
+   "figure_text": "13%-16%",
+   "reason": "pct_without_growth_cue",
+   "sentence": "The second, in terms of the growth rate, I never doubted the 13%-16% long-term growth rate.",
+   "speaker": "Stephen Hemsley",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "ev_start": 26061
+  },
+  {
+   "figure_text": "13%-16%",
+   "reason": "no_metric_phrase",
+   "sentence": "We continue to be in that mindset of 13%-16% and believe we can perform in that range.",
+   "speaker": "Stephen Hemsley",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "ev_start": 26523
+  },
+  {
+   "figure_text": "11%",
+   "reason": "no_metric_phrase",
+   "sentence": "Dan highlighted some of the drivers leading us modestly above the 11% in commercial.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "ev_start": 28146
+  },
+  {
+   "figure_text": "$19.50 to $20",
+   "reason": "no_metric_phrase",
+   "sentence": "Let me start by saying the earnings are quite durable, and we do think the $19.50 to $20 is the right stepping-off point, albeit it reflects prior period development.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "ev_start": 31670
+  },
+  {
+   "figure_text": "13%-16%",
+   "reason": "no_metric_phrase",
+   "sentence": "As Steve commented on the 13%-16% growth algorithm, we personally have never deviated from that view, and we believe that is the right starting point as you think about our stepping-off point.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "ev_start": 31837
+  },
+  {
+   "figure_text": "$1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We are now up to $1 billion in the foundation, which is an important part of our commitment to our communities.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "ev_start": 32816
+  },
+  {
+   "figure_text": "$19.50 to $20",
+   "reason": "no_metric_phrase",
+   "sentence": "I think the $19.50 to $20 is the right baseline, and you should be thinking about the growth algorithm from that point forward.",
+   "speaker": "Wayne DeVeydt",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "ev_start": 33165
+  },
+  {
+   "figure_text": "40%",
+   "reason": "no_metric_phrase",
+   "sentence": "A few points to consider: upwards of 40% of all claims that enter the IDR process are ineligible for one reason or another.",
+   "speaker": "Dan Kueter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "ev_start": 34399
+  },
+  {
+   "figure_text": "60%",
+   "reason": "no_metric_phrase",
+   "sentence": "Roughly 60% of all arbitration cases are brought by just five entities, indicating a recent concentration of disputes among a narrow set of providers.",
+   "speaker": "Dan Kueter",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "ev_start": 34594
+  },
+  {
+   "figure_text": "7.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "Anchoring to the 7.5% we saw in 2025, that has been somewhat favorable so far.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "ev_start": 36047
+  },
+  {
+   "figure_text": "10%",
+   "reason": "no_metric_phrase",
+   "sentence": "Those efforts include enhanced support during transitions of care, which has driven about a 10% reduction in inpatient admissions in pilot regions, and home health initiatives that have reduced readmissions and improved timely care delivery by more than 20% in pilots.",
+   "speaker": "Krista",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "ev_start": 37708
+  },
+  {
+   "figure_text": "20%",
+   "reason": "no_metric_phrase",
+   "sentence": "Those efforts include enhanced support during transitions of care, which has driven about a 10% reduction in inpatient admissions in pilot regions, and home health initiatives that have reduced readmissions and improved timely care delivery by more than 20% in pilots.",
+   "speaker": "Krista",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "ev_start": 37708
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "We've expanded patient-facing hours by about 200,000 hours and improved patient satisfaction by roughly 5%.",
+   "speaker": "Krista",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "ev_start": 38063
+  },
+  {
+   "figure_text": "6%",
+   "reason": "change_without_metric",
+   "sentence": "Engagement with high-risk patients is up about 6%.",
+   "speaker": "Krista",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "ev_start": 38171
+  },
+  {
+   "figure_text": "80%",
+   "reason": "no_metric_phrase",
+   "sentence": "Third, AI facilitates interoperability with health systems and care providers, enabling real-time information sharing and our commitment to process 80% of prior authorizations in real time by the end of 2027.",
+   "speaker": "Tim Noel",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "ev_start": 42419
+  },
+  {
+   "figure_text": "40%",
+   "reason": "no_metric_phrase",
+   "sentence": "A few examples: administrative efficiency where AI summarizes cases and makes care managers about 40% faster and more efficient, allowing them to spend more time with patients.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "ev_start": 43505
+  },
+  {
+   "figure_text": "96%",
+   "reason": "no_metric_phrase",
+   "sentence": "Digital prior authorization powered by AI has produced 96% first-pass approval while enabling human review when something isn't approved.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "ev_start": 43682
+  },
+  {
+   "figure_text": "70%",
+   "reason": "no_metric_phrase",
+   "sentence": "In clinical support, ambient clinical documentation has been rolled out to 70% of employed Optum Health clinicians, on track to exceed 90% by year-end, and reduces cognitive burnout significantly for clinicians.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "ev_start": 43820
+  },
+  {
+   "figure_text": "90%",
+   "reason": "no_metric_phrase",
+   "sentence": "In clinical support, ambient clinical documentation has been rolled out to 70% of employed Optum Health clinicians, on track to exceed 90% by year-end, and reduces cognitive burnout significantly for clinicians.",
+   "speaker": "Patrick Conway",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "ev_start": 43820
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 8,
+  "by_kind": {
+   "reported": 7,
+   "guidance": 1
+  },
+  "by_confidence": {
+   "high": 8
+  },
+  "verified": 8,
+  "unverified": 0,
+  "unclaimed_figures": 59,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

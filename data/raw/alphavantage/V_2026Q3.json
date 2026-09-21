@@ -1,0 +1,288 @@
+{
+ "symbol": "V",
+ "quarter": "2026Q3",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Welcome to Visa's fiscal third quarter 26 earnings conference call. All participants are in a listen-only mode until the question-and-answer session. Today's conference is being recorded. If you have any objections, you may disconnect at this time. I would now like to turn the conference over to your host, Ms. Jennifer Como, Senior Vice President, Global Head of Investor Relations. Ms. Como, you may begin.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jennifer Como",
+   "title": "SVP, Global Head of Investor Relations",
+   "content": "Thank you. Good afternoon, everyone. And welcome to Visa's fiscal third quarter 26 earnings call. Joining us today are Ryan McInerney, Visa's chief executive officer, and Chris Suh, our chief financial officer. This call is being webcast on the investor relations section of our website at investor.visa.com. A replay will be archived on our site for 30 days. A slide deck containing financial and statistical highlights has been posted on our IR website. Let me also remind you that this presentation includes forward-looking statements. These statements are not guarantees of future performance and our actual results, outcomes, or timing could differ materially as a result of many factors. Additional information concerning those factors is available in our most recent annual report on Form 10-K and any subsequent reports on Forms 10-Q and 8-K, which you can find on the SEC's website and the investor relations section of our website. Except as required by law, we do not undertake any responsibility to update these forward-looking statements. Our comments today regarding our financial results will reflect revenue on a GAAP basis, and all other results on a non-GAAP nominal basis unless otherwise noted. The related GAAP measures and reconciliation are available in today's earnings release and related materials available on our IR website. And with that, let me turn the call over to Ryan.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "Thanks, Jennifer. In our fiscal third quarter, net revenue was up 14% year over year to $11.6 billion and EPS was up 11%, both ahead of expectations. Quarterly payments volume grew 10% year over year in constant dollars to cross $4 trillion for the first time in Visa's history, and processed transactions grew 10% year over year to 72 billion reflecting strong and resilient consumer spending. After record-setting net revenue growth in our second quarter, we continue to build on our momentum in the third quarter in three important ways: 1) through our wins in consumer payments, commercial payments, and money movement, with a focus on serving our clients; 2) with product innovation and development across our business, both what we are building and how we are building it; and 3) in continuing to position our value-added services as a key driver of our growth, not just this year, but for years to come. I will cover all three starting with our wins across the business. Our Visa-as-a-Service stack is rooted in serving our clients. We remain obsessed with helping our clients in the payments ecosystem scale and grow. A tangible sign of the trust our clients have in Visa and our capabilities is our Net Promoter Score. For the third consecutive year, we received a score of 76 in our annual global client engagement survey — an enviable number in any industry. Most notably, the NPS from both sellers and fintechs each increased several points with respondents valuing our strong brand, trusted partner relationships, global network strength, reliability, and innovation. We see the strength of these relationships in our consumer and commercial and money movement solutions business, with our credentials growing 8% year over year in the third quarter and our tokenized penetration nearing 60% of our e-commerce transactions globally. Let me provide some specific examples. First, in Europe, through portfolio migrations and organic expansion, we have grown credentials by more than 40 million in the last 12 months, which is over 70% faster than the annualized credentials growth we saw in the region from fiscal year 2019 to 2024. And in the next several years, we expect over 30 million more credentials from wins alone in Europe. An example from this quarter is NatWest, where we have won the entire consumer credit portfolio of their retail bank, demonstrating the strength of our strategic partnership that has been restored over the past five years. In Latin America, we have continued to bring our innovation and strong relationship management to drive processing penetration and value-added services. We recently renewed our 55-year relationship with Bradesco in Brazil across consumer credit and debit, commercial credit and debit, and several value-added services. In Colombia, we signed an agreement with Grupo Aval, representing four banks in the country, to drive domestic processing, enable Visa Direct cross-border transactions, and support commercial card issuance in small business. Our processing penetration in the country, which was in the single digits five years ago, is now above 90%. In the U.S., we won the consumer debit portfolio of a large Southeast community institution, Colony Bank, which is a testament to our clear strategic alignment with our clients and the strength of Visa's debit network and value-added services. Our commercial and money movement solutions revenue grew 17% year over year, with 13% year over year commercial payment volume growth, both in constant dollars, as our product development continued to help us win business. For example, in Europe, we signed an agreement with Corpay to bring our Fleet 2.0 solution to their fleet card platform supporting new opportunities across the region with capabilities such as EMV chips, digital wallet provisioning, contactless payments, rich transaction data, and global acceptance. In our CEMEA region, we signed an inaugural B2B travel portfolio in Saudi Arabia with Al Rajhi Bank, one of the largest banks in the region, for our Visa Commercial Choice Travel product providing flexible interchange automation, controls, and reconciliation for their OTA clients. And in the U.S. and across six countries in Europe and Asia Pacific, we renewed with Nuvei, a fast-growing B2B travel issuer for virtual cards. In money movement, Visa Direct transactions grew 21% year over year this quarter to 4 billion. Expanding relationships to activate new use cases is one key way we enable growth for Visa Direct. For years, DoorDash, the largest food and grocery delivery platform in North America, has been utilizing Visa Direct for Dasher payouts in the U.S., Australia, and Canada as well as Visa virtual commercial cards to enable Dashers to pay for customer orders at physical locations. This past quarter, we enabled Visa Direct to card for DoorDash's Pismo platform, a dedicated personal banking and rewards program built specifically for Dashers who receive a Visa debit card when they sign up. With all of these examples, it is clear that our people, products, and technology are resonating and building trust with our clients globally, positioning us for the future. Now I will turn to product innovation at Visa. Technology and commerce are evolving faster than ever. As the leading hyperscaler of payments globally, Visa is at the center of this transformation, bringing trust to whatever form commerce takes next. This is showing up in our product development in two ways: in both what we are building and how we are building it. Let me start with the how. AI is changing how work gets done at Visa. With the dawn of the generative AI era, we moved quickly to deploy AI across our enterprise to assist us in areas like engineering, client service, and model orchestration. Now as we enter the era of agentic AI, we are going beyond AI assistance and harnessing the power of AI to execute work and tasks with our supervision. We have progressed materially in product development and engineering, deploying new tools, plug-ins, agent skills, and persistent sessions to create an end-to-end pipeline with human oversight and autonomous capability. As a result of the unlocks we can realize with this new tooling, we are reforming our product development teams that used to be 10 or more into smaller, more nimble agentic squads of two to four. And the results are meaningful for those teams that are using the agentic toolchain, with 80% more code commits and an 80% plus improvement in requirement definition, from 30 days to 5 days, which has translated to 65% plus faster feature development. Now to the what. As a result of this new way of working, we are able to design, build, and ship products at an increased velocity with continuous innovation and improvement. I want to touch on two areas where we are deploying our new way of working with great impact: stablecoin and agentic commerce. We are active and investing in each layer of the stablecoin stack from blockchain to issuance, wallets, infrastructure and orchestration, and applications. This quarter, we have made progress in both the issuance and application layers. We recently joined Open Standard alongside a strong group of partners. Open Standard plans to issue OpenUSD, a new stablecoin designed for global money movement. We look forward to helping connect OpenUSD to real-world payments. And in the application layer, we launched the Visa Stablecoin Platform for stablecoin minting, movement, and management. It is designed to enable our partners to settle with Visa and stablecoins, provide on-chain wallet-as-a-service infrastructure, and move money between fiat and stablecoins beginning with OpenUSD across a wide variety of use cases. Furthermore, the Visa Stablecoin Platform's infrastructure will be integrated with Pismo, which can enable tokenized deposits for financial institutions, and Pismo plans to add third-party tokenized deposit infrastructure providers in the future. There is much more to come in this space, and Visa is participating and will continue to participate in all of these layers whether through building Visa products and services, integrating with partners, investing, or acquiring. If stablecoins are reshaping the back end of commerce, we see AI as transforming the front end. We believe agentic commerce will expand our addressable market and drive future growth for Visa. This quarter, we continued to work across the ecosystem by enabling new seller capabilities such as our agent score and agent directory, and building infrastructure such as our token assurance framework to ensure agent-initiated transactions are transparent and trusted. Across payments, partnerships are critical in driving adoption and AI is no different. We are excited to be partnering with OpenAI to enable secure Visa payments within agentic commerce. Through the partnership, Visa will provide its global network, credentialing capabilities, and security infrastructure to support agentic commerce experiences, helping consumers and businesses interact and transact with confidence. And as part of our partnership with Meta, Visa is enabling new ways to pay across Facebook and Instagram, powered by Visa Intelligent Commerce, allowing consumers to transact seamlessly and securely with Visa tokens. All of this progress across stablecoin and agentic demonstrates that we have fundamentally shifted the what and how in our product development life cycle. We now have more than 150 AI-powered applications, and over the last 12 months, we have shipped more than 300 major product releases. Changes in the way we work and where we invest also impact how we operate the company. Today, we announced that we are eliminating roles with the majority being in our technology and product teams, to ensure that we are continuing to position Visa for future growth. Another important area of product development has been in our value-added services, which grew revenue by 34% in constant dollars in Q3 with the vast majority of the revenue linked to transactions, cards, and accounts. In issuing solutions, our network products continue to be key drivers of growth, creating valuable customer experiences. For example, two of our most popular network products, Subscription Manager and Stop Payment services, which help cardholders view and decide where their card is on file for a subscription or recurring payment, now have 2 billion credentials enrolled. And we continue to develop new products including our AI Financial Assistant, enabling banks to white-label our AI-powered financial insights from their data and Visa's network data for their cardholders right in the bank's own app and website. We are also expanding our issuer processing with DPS Full-Service Credit, bringing the best of Visa, DPS, and Pismo into an integrated credit issuer processing solution designed for fintechs and small to midsized banks. We will be piloting it in Q4 with our first client secured in the U.S. and it will be generally available next year. In Acceptance Solutions, I just mentioned our new agentic tools for sellers and enhanced tokens, but this portfolio includes many other capabilities that are driven by both carded and non-carded transactions. Within CyberSource, for example, some of the largest bank acquirers and sellers globally access the latest solutions such as Unified Checkout that launched globally in March. Unified Checkout acts as a seamless orchestrator across multiple payment types with Visa hosting and securing the experience so sellers do not have to rebuild every time commerce evolves. Over 4.5 thousand sellers and acquirers globally have enabled this with more to come including one of our largest acquirers in the UK. In risk and security solutions, we continue to deliver capabilities to the entire ecosystem leveraging the latest in AI to help clients protect themselves in an increasingly complex threat environment. We built the Visa Vulnerability Agentic Harness, an orchestration layer that allows us to use models like Mythos to find and fix issues at AI speed. It is available now on GitHub to our clients, along with the technical blueprint, remediation, and validation agents, and we can provide consulting and solutions to help. In Advisory and Other, this quarter marked significant engagement for the FIFA World Cup. In marketing services, over the last 12 months, we delivered more than 300 FIFA engagements to more than 140 unique clients with about 20% of our clients utilizing our services for the first time with far-reaching impact in our regions across 70 markets. In the U.S., you likely saw some of our largest clients, such as Chase, Bank of America, Wells Fargo, and Marriott, activate our FIFA offerings and promotions for their customers to drive acquisition and loyalty. In Latin America, we also saw great engagement. Two examples I would highlight: in Brazil, a leading bank worked with Visa to launch multiple campaigns including a promotion entering cardholders for a chance to win tickets for every 100 reais spent, with more chances for new cardholders. From February to June, this campaign had a million cardholder participants with an 8% lift in card activation and $400 million in incremental payments volume. In Mexico, the launch of a new FIFA card helped drive significant card issuance for one issuer, with nearly 400 thousand new debit cards and more than 250 thousand new credit cards. In five joint Visa campaigns, which included rewards bonuses on Team Mexico game days that multiplied upon a win, we drove a more than 5x increase in average transaction size. With all of the enthusiasm around FIFA, we are very pleased to have extended our long-standing global partnership agreement as the official payment technology partner for FIFA tournaments. It is unique sponsorship assets like these that make Visa a partner of choice for our value-added services. In our first three quarters of 26, I have seen the momentum across our business continue to build through the Net Promoter Score from our clients, through the rate of client renewals and wins, through the accelerated rollout of innovative products and solutions, through the increasing engagement in our value-added services and by consistently delivering strong financial results to our investors. The opportunity ahead is significant, and I am confident that we have significantly shifted our ability to build and grow the future of payments faster and better than ever before. Now, over to Christopher to discuss our financial performance.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, Ryan. Good afternoon, everyone. We delivered a strong quarter, a reflection of resilient consumer spending, improved key business drivers and effective execution of our strategy. In constant dollars, global payments volume was up 10% year over year. Cross border volume, excluding intra-Europe, was up 12%. And total processed transactions grew 10%. Fiscal third quarter net revenue was up 14% year over year, better than our expectations, primarily due to stronger-than-expected key business drivers, higher-than-expected value-added services revenue, and better-than-expected FX. Third quarter net revenue was up 13% in constant dollars. EPS was up 11% year over year in both nominal and constant dollars, better than expected primarily due to stronger-than-expected net revenue growth. Let's go into the details. U.S. payment volume grew 10% year over year, up about two points from Q2, a growth rate not seen since fiscal '19 excluding the COVID recovery, with both card-present and card-not-present growth accelerating strongly. U.S. payment volume growth was the result of several factors including higher tax refunds, the cost of fuel, retail including the timing of promotional shopping events, strong Visa Direct growth, and FIFA-related spend. U.S. credit rose 11% year over year, up more than a point from Q2. Debit accelerated by more than two points from Q2 to grow 9% year over year. Growth across consumer spend bands saw incremental improvement from Q2, with the highest spend band continuing to grow the fastest. Across our volumes, both discretionary and nondiscretionary spend remains strong. We do not see signs of the lower-spend consumer weakening in our volumes. Third quarter total international payments volume was up 10% year over year in constant dollars, generally consistent with the growth we have seen over the past several quarters. Now to cross border volume which I will speak to in constant dollars and excluding intra-Europe transactions. Q3 total cross border volume grew 12% year over year, up more than a point from Q2. Cross border e-commerce volume was up 16%, three points above Q2, primarily driven by retail including the timing of promotional shopping events. Travel-related cross border volume was up 10%, consistent with Q2. While the conflict continued to be an offsetting factor, commercial and U.S. inbound continued to improve. And in June, the FIFA World Cup boosted inbound North America and Latin America volume. I want to zoom in on the tournament's impact on our key business drivers. As we all know, the FIFA World Cup brought many visitors to the U.S. From the first whistle on June 11 through the round of 32 matches on June 30, we saw both host cities as well as destination cities benefit from the influx of fans. A few highlights: total card-present spend in the U.S. accelerated with card-present transactions up as much as 20% in select host cities on match days. We saw acceleration in tap-to-pay, with weekly tapped transit transactions reaching a peak of nearly 40% year over year growth in U.S. host cities. Tap-to-pay transit transactions in Boston were up more than 50% for the June tournament period. Focusing on inbound cross border card-present spend, U.S. host cities increased by nearly 25% year over year from June 11 to June 30, with the most significant increases driven by fans from Norway, Uruguay, and Ecuador. By spend categories in host cities, entertainment and restaurants saw the highest growth in cross border spend. Match days drove spikes in host cities, Kansas City topping out at 1,000% year over year cross border card-present transaction growth. For destinations like DC Metro and Las Vegas, we saw a pickup in spend prior to the knockout matches. And the U.S. was not the only beneficiary, as Mexico and Canada saw inbound cross border card-present volume growth of more than 70% and 35% year over year respectively from fans from countries with matches there. With that as a backdrop, I will move to discuss our financial results, starting with the revenue components. Service revenue grew 14% year over year versus 9% growth in Q2. Constant-dollar payments volume growth was primarily due to pricing and card benefits. Data processing revenue grew 17%, above the 10% growth in processed transactions, primarily due to pricing, strong value-added services performance, and higher cross border transaction mix. International transaction revenue was up 6%, below the 12% increase in constant-dollar cross border volume growth excluding intra-Europe, primarily due to lapping the currency volatility peak last year and mix. Other revenue grew 45%, primarily driven by growth in advisory and other value-added services, especially marketing services revenue, as well as pricing. Client incentives grew 18%, a step up of four points from Q2, primarily due to lapping low incentive growth last year and strong client performance. Now to our three growth engines. Consumer payments revenue was driven by strong payments volume, cross border volume, and processed transaction growth. Commercial and money movement solutions revenue grew 17% year over year in constant dollars. CMS revenue stepped down from Q2 due to the absence of performance adjustment benefits that helped Q2 and lapping pricing impacts that started in Q3 of fiscal 25. Commercial payment volume grew faster than Visa's overall payments volume, up 13% in constant dollars and accelerating two points from Q2 driven by a point of acceleration from both U.S. and international volume growth. While we have a handful of client wins that have helped us since Q4 of fiscal 25, the bulk of the strength in our commercial payments volumes has been from our underlying business in both domestic and cross border portfolios which we expect to continue well into the future. Visa Direct transactions grew 21% year over year with continued strength in both domestic and cross border. Value-added services revenue grew 34% year over year in constant dollars to $3.8 billion, primarily due to three factors: 1) underlying business drivers which included strength in marketing services engagements related to FIFA, 2) pricing, and 3) the acquisition of Pismo. While we had strong growth in all of our portfolios, value-added services revenue was higher than expected, primarily due to greater utilization of our network products in issuing solutions and acceptance solutions. In fact, if you look at VAST results over the past 12 months, all four of our VAST portfolios have individually grown faster than their respective historical growth rates disclosed at Investor Day. Looking collectively at issuing solutions, acceptance solutions, and risk and security solutions, revenue has grown more than 20% year over year every quarter over the last 12 months in constant dollars. This is faster than the fiscal 2021 to 2020 CAGR for total VAS revenue that we disclosed at Investor Day in February 2025. For our advisory and other portfolio, in addition to the strong marketing services revenue growth, we have also increased the velocity of our consulting projects through the help of AI. Just this past quarter alone, for over 700 clients across 100-plus countries and territories, we delivered 1.2 thousand consulting projects, which is more than we delivered for all of 2019. Advisory and other continues to grow the fastest of the VAST portfolios and we expect it to continue to do so well into the future, driven by a focus to better serve our clients. Operating expenses grew 17%, primarily driven by marketing and personnel expenses. This was above our expectations, primarily due to larger-than-expected FX impact from balance sheet remeasurement and higher-than-expected personnel expense as a result of deferred compensation mark-to-market, which as a reminder is EPS neutral. This was partially offset by the timing of some marketing that shifted into Q4. In our GAAP results, we had $563 million in severance costs related to changes to our workforce including those that Ryan discussed as we continue to focus on driving efficiency across the company and reinvest those savings in our highest-potential growth opportunities. Non-operating expense was $35 million better than our expectations, primarily due to the investment income from the deferred compensation mark-to-market impact I just mentioned. Our tax rate for the quarter was 18.4%, consistent with our expectations. EPS was $3.32, up 11% year over year, better than expected, with an approximately 0.5-point benefit from exchange rates. For our non-GAAP results, Pismo and Newpay added a little under 1.5 points to net revenue growth, approximately two points to operating expense growth, and approximately 0.5 point to EPS growth. In Q3, we bought back $4.9 billion in stock and distributed $1.3 billion in dividends to our shareholders. In May, we settled our previously announced exchange offer for Class B-1 and Class B-2 common stock. We also funded the litigation escrow account with $250 million which has the same effect as a stock buyback. At the end of June, we had $28.4 billion remaining in our buyback authorization. And in July, we expanded our commercial paper capacity to $7 billion. Now let's look at drivers through July 21 with volume growth in constant dollars. U.S. payments volume was up 9%, with both credit and debit up 9% year over year, a step down from June primarily due to retail including the timing of promotional shopping events, a lack of a days-mix benefit that helped June, and the change in the cost of fuel. For cross border volume, excluding transactions within Europe, total volume grew 14% year over year, with e-commerce up 18% and travel up 12%. Processed transactions grew 9% year over year. As we move to our guidance, let me remind you that it is on an adjusted growth basis defined as non-GAAP results in constant dollars and excluding acquisition impacts. You can review these disclosures in our earnings presentation for more detail. Now moving to Q4 and the full-year financial expectations. We expect Q4 net revenue growth in the high end of low double digits, similar to Q3 on an adjusted basis. For drivers, we are assuming that the broader consumer spend stability continues from a macro perspective and our overall drivers remain resilient and strong. On volatility, we are assuming that current levels, which are generally in line with Q1, persist, implying more of a drag than was incorporated previously. On incentives, we expect to have renewed about 20% of our payments volume by the end of the fiscal year, and when we combine that with some new business we have won, this puts Q4 incentive growth slightly above Q3 on a nominal basis. We expect Q4 operating expense growth in the low double digits, which includes some Q3 expenses shifting to Q4. Non-operating expense is expected to be about $80 million and our tax rate in the fourth quarter is expected to be around 19%. As a result, we expect fourth quarter EPS growth to be in the low end of mid-teens. For our non-GAAP nominal Q4 financials, Pismo and Newpay will add approximately 1 point to net revenue growth, approximately 1.5 points to operating expense growth, and approximately 0.5 point to EPS growth. Pulling it all together for the full year, we expect full-year net revenue growth to now be in the low end of low teens. We expect full-year operating expense growth in the low end of low teens. Non-operating expense for the full year is expected to be about $165 million. Our tax rate for the full year is expected to be between 18% and 18.25%. As a result, we expect full-year EPS growth to now be in the low end of mid-teens. In closing, we are already several weeks into our fourth quarter and engaging in our strategic and financial planning work for 2027, and I wanted to make a few comments. As we do every year, we are running a number of scenarios to arrive at our assumptions for the macroeconomic environment, key business drivers, and volatility. We have clear line of sight into our expected renewals, product pipeline, and the expected pricing impact across our solutions which, as you know, has tended to be similar in its contribution the past few years. We have conviction in our strategy and our ability to continue to deliver strong results across consumer payments, commercial and money movement solutions, and value-added services. All of this will result in our guidance that we will provide next quarter. As the leading hyperscaler of payments globally, we are excited about the opportunities ahead, the investment decisions we are making, and our ability to drive Visa's future revenue growth. And now, Jennifer, hand it back to you.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Jennifer Como",
+   "title": "SVP, Global Head of Investor Relations",
+   "content": "Thanks, Christopher. And with that, we are ready to take questions.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "As a reminder, please limit yourself to only one question. If you would like to ask a question, please press 1 and clearly record your name. You will be announced prior to asking your question. To ensure all questioners are heard, we ask that you please limit yourself to one question. Once again, to ask a question, please press 1. Withdraw your question, press 2. Our first question comes from Will Nance with Goldman Sachs. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Will Nance",
+   "title": "Analyst",
+   "content": "Hey, thank you for taking the questions. Obviously, strong result. Christopher, I wanted to maybe double click on some of the cross border trends that you called out around U.S. inbound and the World Cup. Maybe I missed it, but it sounded like some very strong impacts in specific cities. Do you have any color or quantification on the degree to which that boosted the cross border travel numbers in aggregate in June and July and just how we should be thinking about normalizing for that as we look for the remainder of the quarter? Appreciate it. Thank you.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Sure. I will. Thanks for the question. Overall, it was a very good quarter for cross border across both travel and e-commerce. Now you were specifically asking about inbound and the relationship with FIFA. We did see inbound into the U.S. continue to improve this quarter, and FIFA did help both North America and Latin America in the month of June. The thing that I would point out also is that as we have spoken about many times, our cross border volumes are very well distributed. No region comprises more than 25%. So while there is good enthusiasm around FIFA, and that was great to see, the overall underlying health of travel and e-commerce continues to be healthy, and that is something that we anticipate will continue into Q4.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. James Friedman with Susquehanna. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "James Friedman",
+   "title": "Analyst",
+   "content": "Thank you. I wanted to ask about the delta between cross border volume and international transaction revenue, the volume versus revenue mix. I think you alluded to some of this, Christopher, in your prepared remarks, but if you could elaborate on that it would be helpful. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Happy to do so. Hey, James. Building on the question Will asked, first, we start with the fact that our cross border business remains healthy. We saw strong underlying health and stability across both travel and e-commerce — that is the first place I would start. The difference that you point out between international transaction revenue and cross border volume is really related to two things, and they are similar things that I have spoken about in previous quarters. One is volatility, primarily related to the fact that last year in Q3 we are lapping the peak of the year. The highest volatility quarter was Q3 of last year, and we are lapping that in this quarter. The second factor is mix of the business. The composition of our yields within international transaction revenue can and does vary across our business. For example, different clients or different products, like Visa Direct, typically has a lower yield than our card transactions. Different regions and occurrences can also contribute to that mix difference. So those are the two primary factors. But the main message I would send is that the underlying cross border business remains quite healthy.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Timothy Chiodo with UBS. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Timothy Chiodo",
+   "title": "Analyst",
+   "content": "Great, thanks a lot. I want to touch a little bit on Pismo, DPS, and the broader core banking and issuer processing business that you are combining here. Often investors have two big questions about these initiatives: one is around strategy and one is around bank size. On the strategy side the topic is usually: is this about new revenue streams, expanding the pie, or deepening relationships with issuers? And on the bank-size focus, is it about large banks like the big names we have seen announced, or is it about smaller banks and fintechs? I am hoping you could elaborate on those two topics, the strategy and then the bank size, and really for the bank size, what are the different things that you are doing for the different sizes of banks? Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "Thanks. It is Ryan. Stepping back at the broadest level, the Pismo strategy is about identifying and understanding client needs and then bringing solutions to help solve those client needs. When I first described the Pismo acquisition to investors, I explained that it was based on, for the last several years, hearing from our clients around the world that there were two important priorities: one is modernizing their stacks, moving to the cloud, moving to API-based services, and the second was helping clients move more quickly into more geographies — a cloud-based issuer processing stack would help them do that. As you fast forward to today, we are seeing product-market fit broadly in those areas, and we believe over time that will help us deepen our relationships with clients, generate more revenue, and strengthen our partnership with our clients by helping them meet these needs. To the second part of your question, let me put it in the context of our overall issuer processing and core bank strategy. I will start in the U.S. In the U.S., we have two assets: DPS and Pismo. I will try to go through this systematically. DPS is and has been the leading debit issuer processing platform in the U.S. DPS services banks of all sizes, big and small, and will continue to do so. Pismo is a cloud-native, API-based issuer processing and core banking platform. It provides processing for all payment products whether debit, credit, commercial, DDAs, current accounts, and increasingly in the U.S. smaller banks and midsized banks as well as fintechs are looking for an integrated debit and credit processing solution that will help them simplify their operations and accelerate product innovation. That is the market need that has led us to the DPS-Pismo solution we have talked about. It is not a market need we have seen from large issuers; we expect large issuers will continue to run their highly customized debit and credit platforms separately. But we do see a market need with small and midsized issuers and fintechs. So we launched the new platform in the U.S. which combines Visa DPS and Pismo capabilities into an integrated issuer processing solution that we can put to work. As I said in my prepared remarks, we have already had success with one client. We are also, to your question, deploying Pismo in the U.S. to help banks of all sizes migrate their core bank platforms to the cloud — and as you referenced, we announced Wells Fargo in that space. Outside the U.S., our single go-to-market platform is Pismo, and we have entered 19 new markets since the acquisition. We are seeing market demand from a range of different clients both for issuer processing and for core banking.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Fahed Kunwar with Rothschild & Co Redburn. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Fahed Kunwar",
+   "title": "Analyst",
+   "content": "Hi there, thanks for all the detail today. I just wanted to ask about the revenue algorithm. Christopher, I think you talked about this around VAS and CMS. The memory is kind of 9% to 11% net revenue growth, VAS at 15% to 17% for CMS and VAS, and 5% to 7% for consumer payments. It does now appear for probably the best two years that this has been quite different with CMS and VAS growing probably close to the mid-twenties and consumer payments probably growing more like low-double, low-single digit. And obviously the 13%–14% revenue growth is well ahead of 9% to 11%. I think about that algorithm now going out kind of beyond this year into the long term — I am not asking for long-term guidance, but in general is there something that will change this algorithm or do you see this as more sustainable and this mix between the three growth areas being more like what we have had in the last couple of years versus what we identified at Investor Day? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Got it. Yes, thanks for the question. We are obviously very pleased with how the year has played out across value-added services and CMS. Value-added services grew very strongly this year — almost a third of our revenue growing at 34% — which is an awesome result. It really reflects the strong execution against the strategy that we laid out at our Investor Day. That is what we are focused on: running the company, executing our strategy, driving product innovation, delivering for our clients, and taking all the steps I talked about to continue to run the company better and position us for sustained long-term growth. We will continue to focus on that as we close out FY 2026.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Tien-Tsin Huang with JPMorgan. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Tien-Tsin Huang",
+   "title": "Analyst",
+   "content": "Hi. Thanks. Great results. On the U.S. side, it looks like volume up 10%. You called out that is the highest in quite a bit of time. Can you unpack the growth a little bit more across the items you called out? I heard tax refunds, fuel prices, Visa Direct, timing and World Cup. Just trying to separate the event-driven spend versus the strong underlying trends and maybe some wins in there as well. Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Sure. Happy to do so. Hi, Tien-Tsin. It was a great quarter for the U.S. The consumer spend environment remains strong and resilient. The strength is pretty broad based. We're seeing improvements around credit and debit, discretionary and nondiscretionary spend, card-present and card-not-present, and across spend bands. We did not see any signs of weakening across lower parts of the spend band. The contributors to the acceleration we saw in Q3 include higher tax refunds, the cost of fuel, retail which included the timing of promotional shopping events, strengthened Visa Direct, and of course the enthusiasm around FIFA. Those are all contributors. All in all, when you put that together, it was a great quarter for the U.S. in Q3.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Jeff Cantwell with Seaport Research. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeff Cantwell",
+   "title": "Analyst",
+   "content": "Hey, thank you. Just on the OpenUSD initiative, Ryan, this question is for you since it seemed to me like you would be the kind of person who would never back down in a good old skirmish, verbally, of course. So in your opinion, is OpenUSD going after USDC and Tether and the established players in the stablecoin realm? Is this the one that is ultimately going to be the winner? Would love to hear your thoughts there. Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "Well, let me start with Visa going forward: Visa will remain multi-coin, multi-chain. Our role is not to pick winners. Our role is to help clients connect to the stablecoin ecosystem securely and at scale regardless of which stablecoin, which network, or which infrastructure ultimately gains adoption. Regarding the Open Standard, it is designed with neutral governance and shared economics in mind to help scale stablecoins for payments. While we talk about stablecoins often, stablecoins have yet to scale beyond a few use cases like stablecoin-linked cards that we have issued in various places around the world. We are proud to be a partner of OpenUSD. We think OpenUSD has the chance to scale as a payment-based stablecoin and is designed in a way that creates incentives for players in our ecosystem to drive it and use it. But as I said, our view of the future is multi-chain, multi-coin; we are not here to pick winners and losers. We are here to enable our clients to be successful and that will be our strategy going forward.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Andrew Schmidt with KeyBanc Capital Markets. Your line is open, sir.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Andrew Schmidt",
+   "title": "Analyst",
+   "content": "Hi, Ryan. Hi, Christopher. Thanks for taking the questions this evening. I just want to ask about value-added services growth. Christopher, you did a great job illustrating the durability of the growth drivers beyond just the marketing services. Could you dimensionalize the go-forward growth profile a bit? I know some things may not recur, but the portfolio is getting larger and other components are accelerating. Also on the expense side, remind us of the expenses attached with some of these marketing-related revenues — I know there is a little bit of linkage there — a reminder would be helpful. Thanks so much.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Thanks for the question, Andrew. VAS is having an outstanding year and that strength is broadly across all portfolios. The key point is all four portfolios are growing faster over the past 12 months compared to the growth rates that we shared at Investor Day. Marketing services is having a great year with enthusiasm around FIFA, but the other three portfolios — issuing solutions, acceptance solutions, and risk and security — are also collectively growing north of 20%. That indicates the breadth of the strength of the business. It reflects our strong execution against our strategy. Directionally, it's a big opportunity in front of us and we continue to execute really well. We anticipate those businesses will continue to be strong. Regarding marketing-related revenues, there is some linkage to expenses for marketing campaigns and associated client incentives, which can vary by engagement. We manage those investments to deliver attractive returns and we track the economics closely.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Sanjay Sakhrani with KBW. Your line is open, sir.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Sanjay Sakhrani",
+   "title": "Analyst",
+   "content": "Thank you. I wanted to just touch on the workforce reductions and the associated cost savings. Is the expectation to reinvest all of those savings or to drop some of those down to the bottom line? And over what period of time do you anticipate a return on the reinvestment? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "Hey, it is Ryan. The investments in front of us are enormous. We have shown over the last couple of years that we can drive efficiencies, take the savings, and invest those savings against the strategic levers we laid out at Investor Day to deliver accelerated performance. We continue to feel good about the opportunities ahead. You look at consumer payments opportunities — expanding acceptance in cash-rich markets around the world, strengthening differentiated affluent value propositions, winning in cross border and e-commerce — and then you add VAS, risk and security, marketing services, scaling Pismo and feature space in CMS, unified B2B payments and acceptance, embedded finance, Visa Direct, stablecoins, agentic commerce, brand and advertising in emerging markets. These are continual investments. We have identified return-on-investment expectations for redirecting those savings and the track record is what it is — we feel really good about it. The timing is continual; we continue to drive improvements and invest in areas with the highest potential.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "I'll just add that the flywheel is working. Over the past several years we've grown and diversified our business while maintaining industry-leading operating margins. Looking forward, we expect to continue to deliver strong margins into the future as well.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Darrin Peller with Wolfe Research. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Darrin Peller",
+   "title": "Analyst",
+   "content": "Hey, thanks, guys. Your guidance for fiscal fourth quarter calls for low double-digit to low teens, including M&A, and that is incorporating tough levels of FX while you mentioned it also likely incorporates uncertainty around the Middle East and less FIFA revenue. We are trying to reconcile the strength we are seeing in that guide despite those headwinds. Maybe help us understand what is driving conviction on the strength exiting the year and are any of those drivers unsustainable as we look forward?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Thanks for the question, Darrin. We have had strong revenue growth every quarter this year. In Q3, we expect Q4 to be strong as well; Q4 to be in line with Q3 on an adjusted basis. Underlying that is strong drivers: strong VAS growth, continued CMS strength, and resilient consumer payments. From a technical perspective there are two offsetting factors as you think about the models: one is volatility — which as we exit Q3 we think Q4 will be closer to Q1 levels — and the second is incentives, which reflect our new and renewal business. Throughout this year we've taken the opportunity from a position of strength to lean into our investments to fuel future growth: increased velocity of product innovation, deeper client engagement, and securing our industry leadership position. We expect a strong Q4, feel great about that as a launching point, and believe we are well positioned for FY27 as well.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Dan Dolev with Mizuho. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Paul Cory",
+   "title": "Analyst",
+   "content": "Hi. I just wanted to ask around AI. It seems like it is factoring in more prominently or in a tangible way in the business. We heard the comments around product development and the advisory project turnaround cadence. What inning would you say we are in terms of penetration across the enterprise of AI solutions that are helping accelerate the business? Thanks so much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "It is tough to say what inning we are in, but I feel really good about the progress we've made in the post-generative-AI world. We have a long history of AI at Visa and were early adopters. Today we are seeing fantastic results: the metrics I mentioned in my prepared remarks show very strong deployment across the company, especially in product and engineering. We are getting good adoption in other parts of the company and still have enormous opportunity ahead of us. We will continue to lean into these tools to drive efficiency and effectiveness, ship products better and faster, and ultimately better serve our clients in the ecosystem.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. David Koning with Loop Capital. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Dominic Gabriel",
+   "title": "Analyst",
+   "content": "I was just wondering, Ryan, if you could talk about your ability to capture market share against local European schemes and how that competition has changed over time? Thanks so much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "In Europe, we continue to win across a number of players including local schemes. Issuers — whether fintechs or banks — need innovation, reliability, resilience, and access to products like Visa Flex, Visa Direct, affluent propositions, and sophisticated virtual card propositions. Those are areas we've invested in for years and deployed globally, and it's hard for many domestic schemes to keep up. That presents opportunities for us in service of our clients. We feel good about our track record and our ability to win. I mentioned approximately 30 million cards we expect to convert from wins over the coming years in Europe and we are excited about that.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Next question, please. Thank you. Our next caller is Dominic Gabriel with Loop Capital. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "David Koning",
+   "title": "Analyst",
+   "content": "Yeah, hey guys, thank you. You called out cross-border e-commerce being very strong last quarter. I think you said promotions, FIFA, etc. It stayed really high in July. Are those factors influencing July too and should we expect a little bit of a falloff in the next couple months?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Suh",
+   "title": "Chief Financial Officer",
+   "content": "Let me go through that in detail. We did see cross border e-commerce at 16% and it accelerated through the quarter, hitting a higher level in June. The July number you point out is a moderation from the June peak and the acceleration intra-quarter was mainly driven by retail including the timing of promotional shopping events. June benefited from days mix and that retail timing. Through the first three weeks of July, it was slightly lower than the month of June, the inverse of the things that helped June. Days mix and the reversal of the retail timing were the factors. When I zoom out, I do think June and July were unusually high and I would anticipate it settles back to a more typical relationship relative to travel.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "And last question, please. Thank you. Harshita Rawat with Bernstein. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Harshita Rawat",
+   "title": "Analyst",
+   "content": "Hi, good afternoon. Ryan, I want to ask about your updated thinking related to agentic commerce and Visa. There were quite a few announcements coming out of your payment forum on the OpenAI partnership and new capabilities. Can you tell us more about how you see Visa's opportunity within agentic commerce, not just with regards to capturing and tokenizing those volumes, but also creating an opportunity for you to sell more of your services and expand your addressable market into new economic contracts like agent-to-agent? Thank you.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Ryan McInerney",
+   "title": "Chief Executive Officer",
+   "content": "Sure. Let me start at a high level. We believe AI and agentic commerce will expand our addressable market. We are in the very early stages of a major adoption curve in payments. It's instructive to look at prior cycles — e-commerce, mobile commerce, tokenization, tap-to-pay — which followed a similar pattern: early period establishing standards, announcing and shipping new products, then early adoption and ultimately broad scale. We do not think agentic commerce will be different but we are in the early stages. Consumers are already using AI to shop and the next phase will be enabling agents to transact on their behalf, with or without them in the loop. That's where Visa comes in. The ultimate accelerator will be trust — that the payment is secure, that the agent is authorized, that the transaction reflects the consumer's intent, and that protections exist if something goes wrong. The products we've announced are intended to address that trust and ensure users have confidence using Visa credentials for agentic commerce transactions. The timing is difficult to predict but our view is simple: agentic commerce is a when, not an if. We are building the products, services, and protocols and ensuring the ecosystem has what it takes. This will happen and will be a positive tailwind for Visa once we get through the steps of the journey.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Jennifer Como",
+   "title": "SVP, Global Head of Investor Relations",
+   "content": "And with that, we would like to thank you for joining us today. If you have additional questions, please feel free to call or email our Investor Relations team. Thanks again, and have a great day.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you all for participating in Visa's fiscal third quarter 26 earnings conference call. That concludes today's call. You may disconnect at this time, and please enjoy the rest of your day.",
+   "sentiment": "0.0"
+  }
+ ]
+}

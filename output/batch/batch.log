@@ -13,3 +13,20 @@
 2026-09-21T14:56:09  Done: 3 of 3 symbols scored (0 fetched this run); review queue 90 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md
 2026-09-21T14:56:10  CPRT: ok (cache) 2026Q3: 18 facts, 42 unclaimed, period pass, ATTENTION: many_unclaimed_figures; gold_fail
 2026-09-21T14:56:10  Done: 1 of 1 symbols scored (0 fetched this run); review queue 50 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q1\summary.md
+2026-09-21T15:34:33  JPM: ok (fetched) 2026Q2: 13 facts, 59 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:34:35  V: ok (fetched) 2026Q3: 27 facts, 52 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T15:34:37  UNH: ok (fetched) 2026Q2: 8 facts, 59 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:34:39  LLY: ok (fetched) 2026Q2: 16 facts, 44 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:34:41  PFE: ok (fetched) 2026Q2: 15 facts, 50 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:34:43  WMT: no transcript for 2027Q2 yet (No transcript returned for WMT 2027Q2.)
+2026-09-21T15:34:45  HD: no transcript for 2026Q2 yet (No transcript returned for HD 2026Q2.)
+2026-09-21T15:34:47  COST: ok (fetched) 2026Q3: 15 facts, 58 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T15:34:49  PG: ok (fetched) 2026Q4: 21 facts, 68 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T15:34:51  MCD: ok (fetched) 2026Q2: 13 facts, 32 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:34:54  NKE: ok (fetched) 2026Q4: 22 facts, 41 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T15:34:56  XOM: ok (fetched) 2026Q2: 4 facts, 21 unclaimed, period pass, ATTENTION: few_facts; many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:34:58  CAT: ok (fetched) 2026Q2: 23 facts, 63 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:35:01  GE: ok (fetched) 2026Q2: 37 facts, 90 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:35:03  DAL: ok (fetched) 2026Q2: 19 facts, 48 unclaimed, period unknown, ATTENTION: period_unchecked; many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:35:05  NEE: ok (fetched) 2026Q2: 8 facts, 40 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:35:07  PLD: ok (fetched) 2026Q2: 2 facts, 66 unclaimed, period pass, ATTENTION: few_facts; many_unclaimed_figures; no_segment_map; assumed_calendar_year

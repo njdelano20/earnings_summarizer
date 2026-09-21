@@ -1,0 +1,4054 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "XOM",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "XOM",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "assumed calendar year (no fiscal calendar on file)",
+  "qa_start_turn": 2,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "James Chapman",
+    "role": "ir"
+   },
+   {
+    "name": "Darren Woods",
+    "role": "management"
+   },
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Stephen Richardson",
+    "role": "analyst"
+   },
+   {
+    "name": "Neil Hansen",
+    "role": "management"
+   },
+   {
+    "name": "Neil Mehta",
+    "role": "analyst"
+   },
+   {
+    "name": "Arun Jayaram",
+    "role": "analyst"
+   },
+   {
+    "name": "Devin McDermott",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas George Blyth Leggate",
+    "role": "analyst"
+   },
+   {
+    "name": "Wei Jiang",
+    "role": "analyst"
+   },
+   {
+    "name": "Bob Brackett",
+    "role": "analyst"
+   },
+   {
+    "name": "Biraj Borkhataria",
+    "role": "analyst"
+   },
+   {
+    "name": "Jean Ann Salisbury",
+    "role": "analyst"
+   },
+   {
+    "name": "Jason Gabelman",
+    "role": "analyst"
+   },
+   {
+    "name": "Manav Gupta",
+    "role": "analyst"
+   },
+   {
+    "name": "Sam Margolin",
+    "role": "analyst"
+   },
+   {
+    "name": "John Royall",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter",
+   "detail": "the call says 'second quarter', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "XOM_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Free cash flow more than $17B",
+   "fact_ids": [
+    "XOM_2026_2-002"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $23.60B",
+   "fact_ids": [
+    "XOM_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared -1.00, qa +0.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [],
+ "company": {
+  "fact_ids": [
+   "XOM_2026_2-002",
+   "XOM_2026_2-001",
+   "XOM_2026_2-004",
+   "XOM_2026_2-003"
+  ],
+  "signal_ids": [
+   "XOM_2026_2-S002",
+   "XOM_2026_2-S003",
+   "XOM_2026_2-S005",
+   "XOM_2026_2-S008",
+   "XOM_2026_2-S015",
+   "XOM_2026_2-S017",
+   "XOM_2026_2-S030",
+   "XOM_2026_2-S036",
+   "XOM_2026_2-S044",
+   "XOM_2026_2-S059",
+   "XOM_2026_2-S061",
+   "XOM_2026_2-S067",
+   "XOM_2026_2-S080",
+   "XOM_2026_2-S083",
+   "XOM_2026_2-S084",
+   "XOM_2026_2-S087",
+   "XOM_2026_2-S095"
+  ],
+  "trajectory": []
+ },
+ "blocks": [],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 0,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": -1.0
+   },
+   "qa": {
+    "confident": 9,
+    "cautious": 9,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.0
+   }
+  },
+  "speakers": {
+   "Darren Woods": {
+    "cautious": 9,
+    "confident": 5
+   },
+   "Neil Hansen": {
+    "confident": 4,
+    "cautious": 1
+   }
+  },
+  "notable_confident": [
+   "XOM_2026_2-S039",
+   "XOM_2026_2-S044",
+   "XOM_2026_2-S045",
+   "XOM_2026_2-S028"
+  ],
+  "notable_cautious": [
+   "XOM_2026_2-S079",
+   "XOM_2026_2-S008",
+   "XOM_2026_2-S037",
+   "XOM_2026_2-S041",
+   "XOM_2026_2-S021"
+  ],
+  "withheld": [],
+  "revisions": [
+   "XOM_2026_2-S049"
+  ]
+ },
+ "signals": [
+  {
+   "id": "XOM_2026_2-S001",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 7,
+   "sentence": "Establishing globally diverse production at scale across value chains built on a foundation of durable advantages provides a robust platform for creating value through price cycles and market disruptions.",
+   "ev_start": 1792,
+   "ev_end": 1996,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.58,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 12,
+   "sentence": "In Energy Products, our integrated U.S.",
+   "ev_start": 2437,
+   "ev_end": 2476,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S003",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "tightened"
+    ],
+    "pressure": [
+     "tightened"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 13,
+   "sentence": "Gulf Coast refining operations ran reliably as global diesel supply tightened.",
+   "ev_start": 2477,
+   "ev_end": 2555,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 14,
+   "sentence": "The business delivered record second quarter diesel production, helping meet market needs.",
+   "ev_start": 2556,
+   "ev_end": 2646,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S005",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged",
+     "record"
+    ],
+    "negative": [
+     "shortfall"
+    ],
+    "competition": [
+     "advantaged"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 15,
+   "sentence": "In Chemical products, our North American facilities with advantaged feed and record first half reliability helped meet the shortfall in supply caused by disruptions in the Middle East, driving a roughly 180% increase in chemical product margins versus the first quarter.",
+   "ev_start": 2647,
+   "ev_end": 2917,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S006",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "record",
+     "earnings"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 16,
+   "sentence": "In Specialty Products, our integrated approach down the value chain, reformulation capabilities, global footprint and strong execution helped meet customer needs despite significant supply challenges, delivering best ever basestock margins and record quarterly and first half adjusted earnings.",
+   "ev_start": 2918,
+   "ev_end": 3212,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S007",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged"
+    ],
+    "competition": [
+     "advantaged"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 17,
+   "sentence": "Guyana remains one of the clearest examples of our advantaged growth.",
+   "ev_start": 3213,
+   "ev_end": 3282,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S008",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ],
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 21,
+   "sentence": "Longtail is on the path toward final investment decision, and we are evaluating the potential for a ninth FPSO.",
+   "ev_start": 3556,
+   "ev_end": 3667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 28,
+   "sentence": "This quarter, we set another production record of more than 1.8 million oil equivalent barrels per day.",
+   "ev_start": 4209,
+   "ev_end": 4312,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "deployed at scale"
+    ],
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 29,
+   "sentence": "More importantly, we continue to improve recovery and lower capital cost through new technologies deployed at scale.",
+   "ev_start": 4313,
+   "ev_end": 4429,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S011",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new operating model"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 34,
+   "sentence": "Our global trading and supply chain organization put our new operating model to work, optimizing feedstock and product placement, balancing supply across regions and responding to localized disruptions.",
+   "ev_start": 4942,
+   "ev_end": 5144,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 37,
+   "sentence": "On July 1, we integrated upstream operations into our global operations organization, bringing together approximately 31,000 employees across more than 150 sites in 48 countries.",
+   "ev_start": 5445,
+   "ev_end": 5623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 43,
+   "sentence": "Early deployments have gone well, building a strong foundation for larger rollouts in 2027.",
+   "ev_start": 6259,
+   "ev_end": 6350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S014",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "accelerate",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 45,
+   "sentence": "As it progresses, it will help us learn and act faster, better leverage our scale and accelerate the adoption and value of AI.",
+   "ev_start": 6491,
+   "ev_end": 6617,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "XOM_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "reduction"
+    ],
+    "performance": [
+     "earnings",
+     "cash flow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 48,
+   "sentence": "Financially, this was a strong quarter with more than $14 billion of earnings, more than $17 billion of free cash flow and a more than $7 billion reduction in net debt.",
+   "ev_start": 6845,
+   "ev_end": 7013,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S016",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "advantaged",
+     "strongest"
+    ],
+    "competition": [
+     "advantaged"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 49,
+   "sentence": "That strength allows us to keep investing in advantaged opportunities, return surplus cash to shareholders and maintain one of the strongest balance sheets in the industry.",
+   "ev_start": 7014,
+   "ev_end": 7186,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S017",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "XOM_2026_2-003",
+    "XOM_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 50,
+   "sentence": "Cash capital expenditures were roughly $7 billion, and we returned more than $9 billion to shareholders through dividends and share repurchases.",
+   "ev_start": 7187,
+   "ev_end": 7331,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 55,
+   "sentence": "The market benefit was real, and so was the value created by the choices we have made over many years to strengthen the portfolio, lower our cost structure and improve how we operate through deeper integration and technology-enabled execution.",
+   "ev_start": 7939,
+   "ev_end": 8182,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S019",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 2,
+   "sentence": "I think as you point out, it's a real success story in what we've achieved in Guyana, delivering, frankly, the production units faster than we had originally anticipated at a lower cost, running those assets above the investment basis.",
+   "ev_start": 9834,
+   "ev_end": 10069,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "units",
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 6,
+   "sentence": "And I would say we - that was a moving target as prices manifest themselves as we delivered those units and continue to grow production, we kept updating it.",
+   "ev_start": 10376,
+   "ev_end": 10533,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S021",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 10,
+   "sentence": "We obviously have a large chunk of acreage, which is in force majeure waiting for the ultimate ruling from the International Court of Justice on the Venezuela dispute and we'll see what happens there.",
+   "ev_start": 10813,
+   "ev_end": 11013,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S022",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 14,
+   "sentence": "So we're optimistic there.",
+   "ev_start": 11629,
+   "ev_end": 11655,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 1,
+   "sentence": "I think this reinforces why we are the partner of choice, especially for developments of this scale.",
+   "ev_start": 11888,
+   "ev_end": 11988,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S024",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "But even if you took out that price impact, we saw a 2-year acceleration of our investment recovery.",
+   "ev_start": 12065,
+   "ev_end": 12165,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S025",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 5,
+   "sentence": "The ability to execute these projects at industry-leading cost and schedule, running the FPSOs at above 98% reliability, optimizing, being able to produce at 100,000 barrels a day above the investment basis.",
+   "ev_start": 12217,
+   "ev_end": 12424,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S026",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 6,
+   "sentence": "So even without the price impact, we're seeing accelerated recovery of our investment.",
+   "ev_start": 12425,
+   "ev_end": 12511,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S027",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 8,
+   "sentence": "And going forward, we're going to see 2x the level of free cash flow in 2030 than we saw in 2025.",
+   "ev_start": 12593,
+   "ev_end": 12690,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S028",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 0.28,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 9,
+   "sentence": "So again, just speaks to the tremendous success that we're seeing in Guyana.",
+   "ev_start": 12691,
+   "ev_end": 12767,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S029",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "divesting",
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 5,
+   "sentence": "Over the last 10 years we have focused on optimizing that portfolio, divesting refineries that we didn't feel could move to the left of the cost of supply curve and investing in those refineries that we felt had long-term strategic value, while high-grading the yield on those assets.",
+   "ev_start": 13824,
+   "ev_end": 14108,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S030",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 7,
+   "sentence": "The organization is now very focused, in the short term, on maximizing production given the significant constraints in product flow and getting the most needed products to market to meet customer demand, which is a critical need today that's not being met.",
+   "ev_start": 14260,
+   "ev_end": 14516,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S031",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "competition": [
+     "advantage"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 2,
+   "sentence": "And you look at what we've done over time in terms of investments in our refining capacity, improving the complexity and taking advantage of the scale of our footprint.",
+   "ev_start": 16013,
+   "ev_end": 16181,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "earnings"
+    ]
+   },
+   "score": 2.58,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 3,
+   "sentence": "The portfolio high-grading that we've done and then the day-to-day efforts that we put into place to optimize throughput and capacity and all those things, combined with the growing capability in trading really has resulted in a step change in earnings in that business in Energy Products.",
+   "ev_start": 16182,
+   "ev_end": 16471,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S033",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 5,
+   "sentence": "So that increase just speaks to the investments we made.",
+   "ev_start": 16631,
+   "ev_end": 16687,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S034",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 10,
+   "sentence": "So again, we feel really good about what we've done to strengthen that business over time and how we operated in the second quarter.",
+   "ev_start": 16922,
+   "ev_end": 17054,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S035",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.58,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 12,
+   "sentence": "So I think that has an impact on projecting some of those refining margins, but no underlying concerns with how that business has performed, and we're benefiting from the investments and how we're operating in Energy Products.",
+   "ev_start": 17268,
+   "ev_end": 17494,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S036",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "product": [
+     "shipping"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 5,
+   "sentence": "I will say, as a big supplier in the marketplace, it is ultimately down to the shipping companies and the crews on those ships to make those transits.",
+   "ev_start": 18452,
+   "ev_end": 18602,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S037",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 6,
+   "sentence": "And I think the more volatility there is, the more back and forth with respect to disruptions and attacks, you create more uncertainty, more concern and therefore, less willingness to transit.",
+   "ev_start": 18603,
+   "ev_end": 18795,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S038",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 7,
+   "sentence": "So I think there's going to be a continued inhibition for movement, which will - even once we get things cleared up, I think it will take some time for folks to gain some confidence there to continue to ramp things back up to a very high level.",
+   "ev_start": 18796,
+   "ev_end": 19040,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S039",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "convinced"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 10,
+   "sentence": "And so we're convinced that, that will come to be at some point in the future.",
+   "ev_start": 19427,
+   "ev_end": 19505,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S040",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 16,
+   "sentence": "We value the partnerships we have.",
+   "ev_start": 19835,
+   "ev_end": 19869,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S041",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainties"
+    ],
+    "pressure": [
+     "uncertainties"
+    ],
+    "hedge": [
+     "uncertainties"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 8,
+   "sentence": "And when you risk it for all the uncertainties associated with that portfolio, we're getting really close to that objective.",
+   "ev_start": 21983,
+   "ev_end": 22107,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 9,
+   "sentence": "And it's just a function of continuing to deploy those technologies and getting it to a critical mass to where it's transparent to the rest of the market as we continue to bring into new production, new wells.",
+   "ev_start": 22108,
+   "ev_end": 22317,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S043",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 10,
+   "sentence": "So I feel really good about that.",
+   "ev_start": 22318,
+   "ev_end": 22351,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 11,
+   "sentence": "I'm really confident in what the team is doing, a lot of energy and motivation by the technology organization and our Permian organization to deploy the technology and to see the benefits of that.",
+   "ev_start": 22352,
+   "ev_end": 22548,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S045",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ],
+    "confident": [
+     "excitement"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 2,
+   "sentence": "I mean, there is a lot of excitement around the technology that's being developed and will be deployed.",
+   "ev_start": 22640,
+   "ev_end": 22743,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S046",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 8,
+   "sentence": "I think our nearest competitor is around 400.",
+   "ev_start": 23198,
+   "ev_end": 23243,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S047",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 9,
+   "sentence": "And you would have to go to the next 6 competitors to get to that same level of 1,200.",
+   "ev_start": 23244,
+   "ev_end": 23330,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S048",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 10,
+   "sentence": "So you look at the extended reach laterals, surfactants, AI, machine learning, all of that is contributing to very strong performance even before we start to deploy some of these other technologies.",
+   "ev_start": 23331,
+   "ev_end": 23529,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S049",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage",
+     "advantages"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 5,
+   "sentence": "And indeed, one of the things that we now see an opportunity for is this ninth FPSO and really take advantage of what we've done with Longtail to replicate that and get some significant capital advantages to apply.",
+   "ev_start": 24684,
+   "ev_end": 24898,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S050",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 9,
+   "sentence": "As I mentioned one of the earlier - responding to one of the earlier questions, there's a lot of acreage yet to fully take advantage of.",
+   "ev_start": 25094,
+   "ev_end": 25230,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S051",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 13,
+   "sentence": "So I would tell you this thing, the tape hasn't run out on this play yet, and we're going to continue to evaluate that and see what we can get from it.",
+   "ev_start": 25507,
+   "ev_end": 25658,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S052",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "So again, as we mentioned, at this point, we fully recovered the $55 billion of investment along with all the operating costs.",
+   "ev_start": 26014,
+   "ev_end": 26140,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S053",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "And the way the contractor agreement works is we can recover that investment up to 75%.",
+   "ev_start": 26141,
+   "ev_end": 26228,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 5,
+   "sentence": "And so if you think about - if you just stop today and there's no additional investment, then more of your production and revenue is going to flow towards cash flow, again, shared between us and the government of Guyana.",
+   "ev_start": 26323,
+   "ev_end": 26543,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S055",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 6,
+   "sentence": "The reality is we have more investment.",
+   "ev_start": 26544,
+   "ev_end": 26583,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S056",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 7,
+   "sentence": "To the extent we have the investment come in and operating costs, it will still go into the cost bank.",
+   "ev_start": 26584,
+   "ev_end": 26686,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 8,
+   "sentence": "We'll still recover that at that 75% cap, but there's much less investment to recover.",
+   "ev_start": 26687,
+   "ev_end": 26773,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S058",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 10,
+   "sentence": "And so you'll just have more cash flow above your investment and above the operating cost.",
+   "ev_start": 26886,
+   "ev_end": 26976,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S059",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to",
+     "going forward"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 11,
+   "sentence": "Now that obviously is a question of what you think price is going to do going forward in addition to the investment and cost that we'll be putting into the cost bank.",
+   "ev_start": 26977,
+   "ev_end": 27143,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S060",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 13,
+   "sentence": "But we would anticipate, and I think we showed that in the slides that now that we've reached full recovery of that significant investment, more of our revenues will go towards cash flow - free cash flow versus recovering cost and investment.",
+   "ev_start": 27170,
+   "ev_end": 27412,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline",
+     "volume"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "Even though there's a slight decline in the entitled volume, the focus we have is on the value that we've created for ourselves and for the government of Guyana.",
+   "ev_start": 27844,
+   "ev_end": 28005,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S062",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 6,
+   "sentence": "It is - it's a very positive, exciting story.",
+   "ev_start": 28124,
+   "ev_end": 28169,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S063",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 2,
+   "sentence": "So I'd come back to the fundamental investment thesis that we have across all of our businesses is the projects that we pursue and ultimately advanced have to have an advantage versus what others in the industry can do.",
+   "ev_start": 28807,
+   "ev_end": 29026,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S064",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 3,
+   "sentence": "It has to - we have to be able to drive the cost of supply to the far left of the cost curve so that the supply cost curve so that we know irrespective of where the market goes and the ups and downs in prices and margins that we'll have investments that generate above-industry returns.",
+   "ev_start": 29027,
+   "ev_end": 29313,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S065",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "And that's been the philosophy across every business that we have and all the projects that we evaluate.",
+   "ev_start": 29314,
+   "ev_end": 29418,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S066",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 5,
+   "sentence": "And results of that are manifesting themselves today and all the investments we made over the last 10 years, that's not going to change going forward.",
+   "ev_start": 29419,
+   "ev_end": 29569,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S067",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 12,
+   "sentence": "And so our view is we will generate projects that realize the risk premium associated with any projects in some of those areas consistent with the rest of the market, and then we'll add to that with our advantages.",
+   "ev_start": 30080,
+   "ev_end": 30294,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S068",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 14,
+   "sentence": "One of the advantages of being large and having a very diversified portfolio is we can diversify out of specific risk.",
+   "ev_start": 30377,
+   "ev_end": 30495,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S069",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 17,
+   "sentence": "And as we make investments, is that portfolio risk changing significantly or not.",
+   "ev_start": 30672,
+   "ev_end": 30753,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S070",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "product": [
+     "partner"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 1,
+   "sentence": "I think our track record and a recognition of our capabilities certainly is leading us to being the clear partner of choice.",
+   "ev_start": 31081,
+   "ev_end": 31205,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 4,
+   "sentence": "So I think it's - when you look at resource owners, I think there's absolute recognition of that capability, that track record of being able to do those 3 things really well.",
+   "ev_start": 31683,
+   "ev_end": 31857,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S072",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantages"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 6,
+   "sentence": "Can we leverage those competitive advantages to provide an outsized returns for our shareholders.",
+   "ev_start": 32032,
+   "ev_end": 32129,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S073",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 2,
+   "sentence": "So if you look at what we've been doing over the last 10 years with investments in Antwerp, investments in Rotterdam, the investments that we've made in Singapore to upgrade these low-value molecules and as a result, get more distillate out, that is a continuing focus.",
+   "ev_start": 33225,
+   "ev_end": 33494,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 3,
+   "sentence": "And in fact, we have a number of projects in development and slated for what we're doing in the Gulf Coast to continue that trend and to continue to grow distillate, jet, and basestock production.",
+   "ev_start": 33495,
+   "ev_end": 33691,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S075",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "not sure"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 0,
+   "sentence": "And Bob, I'm not sure what time frame you're looking at.",
+   "ev_start": 34078,
+   "ev_end": 34134,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 4,
+   "sentence": "And so any time you get into an environment where demand spikes and there is a shortage of supply versus demand and it's trying to be met, that refinery margins will rise and those who stayed in that business and tried to improve that business to be successful across the cycle will make money.",
+   "ev_start": 36401,
+   "ev_end": 36695,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S077",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 6,
+   "sentence": "And leads us from the past windfall profit tax to invest even less.",
+   "ev_start": 36816,
+   "ev_end": 36883,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 7,
+   "sentence": "So we canceled investments that we had planned for Europe based on the last time they passed the windfall profit tax.",
+   "ev_start": 36884,
+   "ev_end": 37001,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S079",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulation"
+    ],
+    "hedge": [
+     "not sure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 11,
+   "sentence": "I'm not sure that's going to keep them from trying to address concerns of their base, but we'll have to see if any of that actually manifests itself in real policy and regulation.",
+   "ev_start": 37303,
+   "ev_end": 37482,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S080",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "higher cost"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "pressure": [
+     "higher cost"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 12,
+   "sentence": "If it is, it's just another great example of misguided policy that ultimately is going to inflict more - higher cost and lower standards of living on their population.",
+   "ev_start": 37483,
+   "ev_end": 37650,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S081",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 2,
+   "sentence": "I think that's been, I'd say, a general trend within the industry as you look at economically maximizing the value of every well, you want more oil and less gas given the constraints in the gas market.",
+   "ev_start": 38704,
+   "ev_end": 38905,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenges"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 2,
+   "sentence": "The specialty business is facing the same issues as other sectors: significant supply disruptions and real challenges meeting base demand, with base stocks clearly at the root of it, especially given the importance of Middle Eastern crude for base stock production.",
+   "ev_start": 41774,
+   "ev_end": 42039,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S083",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 3,
+   "sentence": "One advantage for us is the investments we've made in Singapore and Rotterdam.",
+   "ev_start": 42040,
+   "ev_end": 42118,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 6,
+   "sentence": "We are pushing hard on base stock production and are seeing the benefits in the strong earnings in Specialty Products.",
+   "ev_start": 42392,
+   "ev_end": 42510,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S085",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged"
+    ],
+    "competition": [
+     "advantaged"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 7,
+   "sentence": "We're also advantaged by participating across the value chain: running the refineries and base stock production, marketing base stocks down to finished lubes, and having a technology organization focused on reformulation to use the available molecules to meet customer needs.",
+   "ev_start": 42511,
+   "ev_end": 42786,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S086",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 8,
+   "sentence": "That ability to respond to constraints and find better ways to meet demand is paying off.",
+   "ev_start": 42787,
+   "ev_end": 42876,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S087",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see the",
+     "expect"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 9,
+   "sentence": "We see the business we've built and our integrated participation along the value chain delivering good results this quarter, and as the strait remains constrained we expect continued benefit to our specialty businesses from that integrated approach.",
+   "ev_start": 42877,
+   "ev_end": 43126,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 10,
+   "sentence": "On Proxxima, we are progressing investments to expand capacity.",
+   "ev_start": 43127,
+   "ev_end": 43190,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 12,
+   "sentence": "We brought a 35 kiloton expansion online and earlier this year made a final investment decision on the next large step in our Proxxima blending plant.",
+   "ev_start": 43288,
+   "ev_end": 43438,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S090",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "feedback"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 14,
+   "sentence": "Customer feedback indicates strong demand; it will just take time to penetrate, and we see long-term attractive potential.",
+   "ev_start": 43578,
+   "ev_end": 43700,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S091",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 1,
+   "sentence": "I think for the reasons side of the investments that we've made, including the Resid Upgrade project in Singapore last year, which allows us to continue to grow high-value products.",
+   "ev_start": 43761,
+   "ev_end": 43942,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record",
+     "earnings"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 2,
+   "sentence": "For that business, Specialty Products, it was a record earnings for the quarter, and it's also record earnings for the first half of this year.",
+   "ev_start": 43943,
+   "ev_end": 44086,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S093",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged"
+    ],
+    "competition": [
+     "advantaged"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 3,
+   "sentence": "So again, that just demonstrates prices certainly were supportive, but it's all about those advantaged investments we're making.",
+   "ev_start": 44087,
+   "ev_end": 44215,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Neil Hansen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 4,
+   "sentence": "The focus on growing high-value products is clearly yielding very strong results for Specialty.",
+   "ev_start": 44216,
+   "ev_end": 44311,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 3,
+   "sentence": "I would just say maybe just step back and talk a little bit about the philosophy that we started back in 2018, which was we knew we wanted to grow the business.",
+   "ev_start": 45078,
+   "ev_end": 45238,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S096",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 4,
+   "sentence": "We wanted to make these investments and recognize that as we did that, that as you start new facilities, bring new projects online that you incur more operating expense.",
+   "ev_start": 45239,
+   "ev_end": 45408,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S097",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new products"
+    ],
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 5,
+   "sentence": "And as you develop new products to go into new markets, you're spending money on R&D and basically incurring more operating expense.",
+   "ev_start": 45409,
+   "ev_end": 45541,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenge"
+    ],
+    "performance": [
+     "grow",
+     "earnings",
+     "cash flow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 7,
+   "sentence": "And the challenge that we gave ourselves in the organization was to recognizing we needed to do that to grow earnings and cash flow that we had to find a way to offset that cost, and we weren't going to let our expenses rise.",
+   "ev_start": 45614,
+   "ev_end": 45839,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S099",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "accretive"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 8,
+   "sentence": "And the only way to do that is start figuring out structural cost savings and driving structural cost out of the business to make room for the additional spend that we knew would come for doing high-value accretive projects and product development.",
+   "ev_start": 45840,
+   "ev_end": 46088,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 12,
+   "sentence": "The synergies that we're capturing through the consolidations that we're making in the centralized organizations are driving huge value and cost reductions.",
+   "ev_start": 46438,
+   "ev_end": 46594,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S101",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 13,
+   "sentence": "And I would tell you, we just announced on July 1, the formation or the completion of our global operations organization, where for the first time in the company's history, we have all of our operations in one organization, which, again, will open up opportunities to identify efficiencies that have been implemented in some parts of our portfolio, but haven't been spread across the whole.",
+   "ev_start": 46595,
+   "ev_end": 46985,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S102",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "play out"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 18,
+   "sentence": "We have a very clear and separate objective on growth and a focus on cost and cost efficiency, and that continues, I think, to play out very well.",
+   "ev_start": 47452,
+   "ev_end": 47598,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S103",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 20,
+   "sentence": "So we're basically offsetting the inflation that's out there and that's the objective here.",
+   "ev_start": 47756,
+   "ev_end": 47847,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 2,
+   "sentence": "I would say, obviously, a huge opportunity, we think, in Kazakhstan to optimize what's been going on there and to help the government achieve its objectives of growing production, growing the benefit of their natural resources for the benefit of the Kazakh government and the people of Kazakhstan.",
+   "ev_start": 49188,
+   "ev_end": 49485,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 5,
+   "sentence": "We've got some hurdles to clear and some short-term issues with the government and then continuing to look longer term around the different options available to the industry broadly and more specifically to ExxonMobil in terms of what we can bring to bear to help achieve ultimately the government's ambition of growing production there and growing their revenues.",
+   "ev_start": 49620,
+   "ev_end": 49984,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "XOM_2026_2-S106",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "too early"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Darren Woods",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 6,
+   "sentence": "But I would say it's - we're too early in that process to give you much detail on that.",
+   "ev_start": 49985,
+   "ev_end": 50072,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "XOM_2026_2-S002",
+  "XOM_2026_2-S003",
+  "XOM_2026_2-S005",
+  "XOM_2026_2-S008",
+  "XOM_2026_2-S015",
+  "XOM_2026_2-S017",
+  "XOM_2026_2-S030",
+  "XOM_2026_2-S036",
+  "XOM_2026_2-S044",
+  "XOM_2026_2-S059",
+  "XOM_2026_2-S061",
+  "XOM_2026_2-S067",
+  "XOM_2026_2-S080",
+  "XOM_2026_2-S083",
+  "XOM_2026_2-S084",
+  "XOM_2026_2-S087",
+  "XOM_2026_2-S095"
+ ],
+ "surfaced_signal_ids": [
+  "XOM_2026_2-S002",
+  "XOM_2026_2-S003",
+  "XOM_2026_2-S005",
+  "XOM_2026_2-S008",
+  "XOM_2026_2-S015",
+  "XOM_2026_2-S017",
+  "XOM_2026_2-S030",
+  "XOM_2026_2-S036",
+  "XOM_2026_2-S044",
+  "XOM_2026_2-S059",
+  "XOM_2026_2-S061",
+  "XOM_2026_2-S067",
+  "XOM_2026_2-S080",
+  "XOM_2026_2-S083",
+  "XOM_2026_2-S084",
+  "XOM_2026_2-S087",
+  "XOM_2026_2-S095",
+  "XOM_2026_2-S039",
+  "XOM_2026_2-S045",
+  "XOM_2026_2-S028",
+  "XOM_2026_2-S079",
+  "XOM_2026_2-S037",
+  "XOM_2026_2-S041",
+  "XOM_2026_2-S021",
+  "XOM_2026_2-S049"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 106,
+  "signals_usable": 106,
+  "selected": 17,
+  "by_topic": {
+   "competition": 16,
+   "product": 20,
+   "pressure": 9,
+   "momentum": 28,
+   "strategy": 36
+  },
+  "by_horizon": {
+   "current": 96,
+   "forward": 10
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 0,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

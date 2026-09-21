@@ -25,6 +25,7 @@
     "PG":   {"fye_month": 6,  "naming": "end",   "source": "seed"},
     "SBUX": {"fye_month": 9,  "naming": "end",   "source": "seed"},
     "TGT":  {"fye_month": 1,  "naming": "start", "source": "seed"},
+    "V":    {"fye_month": 9,  "naming": "end",   "source": "seed"},
     "VICI": {"fye_month": 12, "naming": "end",   "source": "seed: calendar-year company"},
     "WMT":  {"fye_month": 1,  "naming": "end",   "source": "seed"}
   }

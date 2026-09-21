@@ -1,0 +1,39 @@
+# Bundle 1: twenty companies chosen for VARIETY, not similarity. Nothing here has been used to tune the extractor.
+# One line per ticker (comments after # are ignored). Edit freely before running.
+#
+#   py batch.py --season 2026q2 --symbols-file watchlists\bundle1.txt
+#
+# Each ticker costs one Alpha Vantage request (the free tier is about 25 a day; the runner stops at 20 new fetches per run).
+# Anything not yet reported for that quarter is retried on the next run. Nothing is written to any database.
+
+# Banks and payments: no "revenue by segment"; net interest income, credit metrics
+JPM     # money-center bank
+V       # payments; fiscal year ends in September
+
+# Insurance and health
+UNH     # managed care: medical cost ratio, membership
+LLY     # pharma: product-level revenue, operational vs reported growth
+PFE     # pharma
+
+# Retail and consumer: comparable sales, off-cycle fiscal years
+WMT     # fiscal year ends in January
+HD      # ends in January, year named for the year it STARTS
+COST    # ends in late August
+PG      # ends in June
+MCD     # restaurants: systemwide sales, franchise mix
+NKE     # ends in May
+
+# Energy, industrials, transport, utilities
+XOM     # production volumes, upstream/downstream
+CAT     # backlog, orders, segments
+GE      # segments, orders, backlog
+DAL     # airline: unit revenue and cost, capacity
+NEE     # utility: regulated vs renewables
+
+# Real estate and telecom
+PLD     # a second REIT (FFO, occupancy): tests the REIT vocabulary pack on a company it was not built for
+VZ      # telecom: subscribers, ARPU
+
+# Technology with off-cycle years (already-familiar territory, for contrast)
+MSFT    # ends in June
+NVDA    # ends in January

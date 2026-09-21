@@ -109,11 +109,12 @@ _PP = re.compile(
 _CHANGE_PRE = re.compile(
     r"\b(?P<verb>up|down|grew|grow|growing|grows|growth\s+of|increased|increasing|increase\s+of|"
     r"decreased|decreasing|decrease\s+of|declined|declining|decline\s+of|higher|lower|"
+    r"rose|rising|rises|fell|falling|dropped|dropping|climbed|jumped|surged|slipped|edged|"
     r"expand(?:ed|ing)?|contract(?:ed|ing)?)\s+"
     r"(?:(?:by|about|approximately|around|roughly|nearly|almost|over|more\s+than|between)\s+)*"
     r"(?:an?\s+)?(?:(?:strong|solid|impressive|healthy|modest|slight|significant|substantial|robust|sharp)\s+)?$",
     re.I)
-_NEGATIVE_VERB = re.compile(r"(?:down|decreas|declin|lower|contract)", re.I)
+_NEGATIVE_VERB = re.compile(r"(?:down|decreas|declin|lower|contract|fell|falling|dropp|slipp)", re.I)
 _BASIS = re.compile(
     r"^\s*,?\s*(?:(?P<yoy>year[- ]over[- ]year|yoy|y/y|from\s+(?:a\s+year\s+ago|the\s+prior[- ]year(?:\s+quarter)?|"
     r"last\s+year|the\s+year[- ]ago\s+(?:quarter|period)|the\s+same\s+quarter\s+last\s+year)|"
@@ -948,6 +949,8 @@ def _rel_descriptor(text: str, f: _Fig, trig: _Trig | None) -> str | None:
     return re.sub(r"\s+", " ", found[-1].group(0).lower()) if found else None
 
 
+_NOUN_CHANGE_BEFORE = re.compile(
+    r"\b(decline|decrease|drop|reduction|fall|increase|rise|growth|improvement|gain)\s+in\s+(?:[\w-]+\s+){0,3}$", re.I)
 _OR_A_BEFORE = re.compile(r"\bor\s+(?:an?\s+)?(?:approximately\s+|about\s+)?$", re.I)
 _RATE_NOUN_AFTER = re.compile(r"\s*(?:increase|decrease|growth|decline)\b", re.I)
 _TARGET_BEFORE = re.compile(r"\b(?:our|the|its)\s+(?:\w+\s+)?$", re.I)
@@ -991,7 +994,10 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
         if t is None:
             # The lead-in changes sit between the metric and the level ("revenue increased 50% ... to $11.5 billion")
             # and would otherwise block the metric from reaching it.
-            t = _left_trigger(f, trigs, [o for o in others if not any(o is c for c in pre_ch)], text, allow_used=is_target)
+            blockers = [o for o in others if not any(o is c for c in pre_ch)]
+            if is_target:                       # the result named just before ("85%, above our 75% target") is no blocker
+                blockers = [o for o in blockers if not o.consumed]
+            t = _left_trigger(f, trigs, blockers, text, allow_used=is_target)
             how = "left"
             growth_cue = False
         coord_prev = None
@@ -1003,16 +1009,31 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
                                and r.fig.end <= f.start), None)
             if coord_prev is not None:
                 t, how, growth_cue = coord_prev.trig, "left", True
+        if t is None and f.kind == "money" and f.per_share:
+            # "AFFO ... between $2.675 billion and $2.695 billion, or between $2.45 and $2.47 per diluted common share":
+            # the per-share range restates the metric before it in per-share form
+            prev = next((r for r in reversed(recs) if r.trig is not None and r.fig is not None and r.fig.end <= f.start
+                         and r.metric in _V.per_share_of), None)
+            if prev is not None:
+                t = replace(prev.trig, metric=_V.per_share_of[prev.metric], used=True)
+                how, growth_cue, coord_prev = "left", False, prev
         if t is None:
             continue
 
         unit = {"money": _money_unit(f, t.metric), "pct": "pct", "bps": "bps", "pp": "pp"}[f.kind]
         stat = "level"
         basis = None
-        if f.kind == "pct" and t.metric not in PCT_LEVEL_METRICS:
+        sign_flip = 1
+        if f.kind == "pct" and t.metric not in _V.pct_level:
             gap = text[t.end:f.start] if how == "left" else ""
+            noun = _NOUN_CHANGE_BEFORE.search(text[:t.start]) if how == "left" else None
             if growth_cue or (how == "left" and (_GROWTH_GAP.search(gap) or f.basis)):
                 stat, basis = "growth", f.basis
+            elif noun and re.fullmatch(r"\s*(?:of|by)\s*", gap):
+                # "a modest decline in unit volumes of 2.4%": the direction is a noun in front of the metric
+                stat, basis = "growth", f.basis
+                if noun.group(1).lower() in ("decline", "decrease", "drop", "reduction", "fall"):
+                    sign_flip = -1
             else:
                 unclaimed_reasons[id(f)] = "pct_without_growth_cue"
                 continue
@@ -1033,7 +1054,8 @@ def _process_sentence(text: str, is_guidance: bool, section_seg: str | None = No
             gap_seg = _gap_segment(text[t.end:f.start])          # "On revenue, the U.S. segment was flat, down 0.4%"
             if gap_seg:                                           # (named in the clause: beats anything remembered)
                 segment, seg_source = gap_seg, "gap"
-        rec = _Rec(metric=t.metric, segment=segment, stat=stat, unit=unit, lo=f.lo, hi=f.hi,
+        rec = _Rec(metric=t.metric, segment=segment, stat=stat, unit=unit, lo=sign_flip * f.lo,
+                   hi=(sign_flip * f.hi if f.hi is not None else None),
                    fig=f, trig=t, how=how, qualifier=f.qualifier, basis=basis,
                    accounting=_accounting_basis(text, t), growth_inferred=t.growth_rate or coord_prev is not None,
                    segment_source=seg_source, figure_text=f.raw, order=f.start, after_ok=True,
@@ -1250,6 +1272,19 @@ def _confidence(rec: _Rec, turn: Turn) -> str:
 
 
 def extract_facts(transcript: Transcript) -> dict:
+    """Facts for one call: the core vocabulary plus the industry packs assigned to its ticker (vocabulary/tickers.json)."""
+    global _V
+    vocabulary = _vocab.build(_TRIGGER_RES, SEGMENTED_METRICS, PCT_LEVEL_METRICS, transcript.meta.get("ticker"))
+    _V = vocabulary
+    try:
+        result = _extract_facts(transcript)
+    finally:
+        _V = _CORE_VOCAB
+    result["meta"]["vocabulary_packs"] = vocabulary.packs
+    return result
+
+
+def _extract_facts(transcript: Transcript) -> dict:
     call_label = _call_period_label(transcript)
     facts: list[Fact] = []
     unclaimed: list[dict] = []

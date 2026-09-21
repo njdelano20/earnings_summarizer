@@ -57,28 +57,31 @@
    "detail": "the call says 'Third Quarter Fiscal 2026', matching 2026Q3"
   },
   "reported_period_label": "third quarter",
-  "source_file": "CPRT_2026Q3.json"
+  "source_file": "CPRT_2026Q3.json",
+  "vocabulary_packs": [
+   "marketplace"
+  ]
  },
  "headline": [
   {
    "kind": "result",
    "text": "Revenue $1.24B (+2.1% yoy), third quarter",
    "fact_ids": [
-    "CPRT_2026_3-001"
+    "CPRT_2026_3-005"
    ]
   },
   {
    "kind": "result",
    "text": "EPS $0.43/sh (+2.4%)",
    "fact_ids": [
-    "CPRT_2026_3-008"
+    "CPRT_2026_3-017"
    ]
   },
   {
    "kind": "result",
-   "text": "Gross margin 48.3%",
+   "text": "Gross margin 46.3% (+71 bps)",
    "fact_ids": [
-    "CPRT_2026_3-010"
+    "CPRT_2026_3-012"
    ]
   },
   {
@@ -94,20 +97,20 @@
    "depth": 0,
    "revenue": {
     "value": 1240000000.0,
-    "fact_id": "CPRT_2026_3-001"
+    "fact_id": "CPRT_2026_3-005"
    },
    "growth": {
     "value": 2.1,
     "period": "third quarter",
-    "fact_id": "CPRT_2026_3-001",
+    "fact_id": "CPRT_2026_3-005",
     "basis": "yoy",
     "currency_basis": null,
     "confidence": "high"
    },
    "gross_margin": {
-    "value": 48.3,
+    "value": 46.3,
     "period": "third quarter",
-    "fact_id": "CPRT_2026_3-010",
+    "fact_id": "CPRT_2026_3-012",
     "confidence": "high"
    },
    "outlook": null,
@@ -119,11 +122,23 @@
    "name": "U.S. segment",
    "depth": 0,
    "revenue": null,
-   "growth": null,
-   "gross_margin": null,
+   "growth": {
+    "value": -0.4,
+    "period": "third quarter",
+    "fact_id": "CPRT_2026_3-022",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": {
+    "value": 48.3,
+    "period": "third quarter",
+    "fact_id": "CPRT_2026_3-027",
+    "confidence": "high"
+   },
    "outlook": null,
    "stance": {},
-   "n_mentions": 9
+   "n_mentions": 8
   },
   {
    "node": "purple_wave",
@@ -142,11 +157,14 @@
    "node": "international",
    "name": "International segment",
    "depth": 0,
-   "revenue": null,
+   "revenue": {
+    "value": 234200000.0,
+    "fact_id": "CPRT_2026_3-035"
+   },
    "growth": {
     "value": 14.1,
     "period": "third quarter",
-    "fact_id": "CPRT_2026_3-013",
+    "fact_id": "CPRT_2026_3-033",
     "basis": "yoy",
     "currency_basis": null,
     "confidence": "medium"
@@ -154,26 +172,34 @@
    "gross_margin": null,
    "outlook": null,
    "stance": {},
-   "n_mentions": 9
+   "n_mentions": 10
   }
  ],
  "company": {
   "fact_ids": [
-   "CPRT_2026_3-001",
+   "CPRT_2026_3-005",
+   "CPRT_2026_3-012",
    "CPRT_2026_3-010",
-   "CPRT_2026_3-003",
+   "CPRT_2026_3-011",
+   "CPRT_2026_3-013",
+   "CPRT_2026_3-014",
+   "CPRT_2026_3-015",
+   "CPRT_2026_3-016",
+   "CPRT_2026_3-017",
+   "CPRT_2026_3-043",
+   "CPRT_2026_3-042",
+   "CPRT_2026_3-044",
    "CPRT_2026_3-006",
    "CPRT_2026_3-007",
-   "CPRT_2026_3-008",
-   "CPRT_2026_3-018"
+   "CPRT_2026_3-021"
   ],
   "signal_ids": [
    "CPRT_2026_3-S011",
+   "CPRT_2026_3-S019",
    "CPRT_2026_3-S020",
-   "CPRT_2026_3-S021",
-   "CPRT_2026_3-S023",
+   "CPRT_2026_3-S022",
+   "CPRT_2026_3-S024",
    "CPRT_2026_3-S025",
-   "CPRT_2026_3-S026",
    "CPRT_2026_3-S075"
   ],
   "trajectory": []
@@ -186,19 +212,21 @@
    "parent": null,
    "depth": 0,
    "fact_ids": [
-    "CPRT_2026_3-009",
-    "CPRT_2026_3-004",
-    "CPRT_2026_3-005"
+    "CPRT_2026_3-022",
+    "CPRT_2026_3-027",
+    "CPRT_2026_3-026",
+    "CPRT_2026_3-028",
+    "CPRT_2026_3-029"
    ],
    "signal_ids": [
+    "CPRT_2026_3-S003",
     "CPRT_2026_3-S017",
-    "CPRT_2026_3-S019",
-    "CPRT_2026_3-S027",
-    "CPRT_2026_3-S035",
-    "CPRT_2026_3-S038"
+    "CPRT_2026_3-S026",
+    "CPRT_2026_3-S038",
+    "CPRT_2026_3-S040"
    ],
-   "n_home_signals": 9,
-   "n_mentions": 9,
+   "n_home_signals": 8,
+   "n_mentions": 8,
    "stance": {},
    "trajectory": []
   },
@@ -228,16 +256,22 @@
    "parent": null,
    "depth": 0,
    "fact_ids": [
-    "CPRT_2026_3-013"
+    "CPRT_2026_3-033",
+    "CPRT_2026_3-034",
+    "CPRT_2026_3-035",
+    "CPRT_2026_3-039",
+    "CPRT_2026_3-040",
+    "CPRT_2026_3-041",
+    "CPRT_2026_3-030"
    ],
    "signal_ids": [
+    "CPRT_2026_3-S042",
     "CPRT_2026_3-S045",
-    "CPRT_2026_3-S046",
     "CPRT_2026_3-S057",
     "CPRT_2026_3-S058"
    ],
-   "n_home_signals": 8,
-   "n_mentions": 9,
+   "n_home_signals": 10,
+   "n_mentions": 10,
    "stance": {},
    "trajectory": []
   },
@@ -254,12 +288,12 @@
     "CPRT_2026_3-S006",
     "CPRT_2026_3-S008",
     "CPRT_2026_3-S009",
-    "CPRT_2026_3-S022",
-    "CPRT_2026_3-S050",
+    "CPRT_2026_3-S021",
+    "CPRT_2026_3-S047",
     "CPRT_2026_3-S060",
     "CPRT_2026_3-S061"
    ],
-   "n_home_signals": 16,
+   "n_home_signals": 15,
    "n_mentions": 21,
    "stance": {
     "mixed": 1,
@@ -332,10 +366,11 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
+    "CPRT_2026_3-S027",
     "CPRT_2026_3-S051",
     "CPRT_2026_3-S052"
    ],
-   "n_home_signals": 2,
+   "n_home_signals": 3,
    "n_mentions": 3,
    "stance": {
     "confident": 1
@@ -461,7 +496,10 @@
     "insurance"
    ],
    "home": "insurance",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-001",
+    "CPRT_2026_3-002"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -473,7 +511,7 @@
      "volume"
     ]
    },
-   "score": 3.5,
+   "score": 4.0,
    "speaker": "Jeffrey Liaw",
    "role": "management",
    "section": "prepared",
@@ -501,7 +539,9 @@
     "insurance"
    ],
    "home": "us",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-003"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -513,7 +553,7 @@
      "units"
     ]
    },
-   "score": 3.5,
+   "score": 4.0,
    "speaker": "Jeffrey Liaw",
    "role": "management",
    "section": "prepared",
@@ -914,7 +954,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 1,
-   "sentence_index": 30,
+   "sentence_index": 31,
    "sentence": "For example, given recent conflicts, direct participation in U.S. auctions from certain Middle Eastern markets has declined year-over-year.",
    "ev_start": 5700,
    "ev_end": 5839,
@@ -951,7 +991,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 1,
-   "sentence_index": 38,
+   "sentence_index": 39,
    "sentence": "Looking back over the past three years, of the more than 30,000 buyers who first entered the Copart ecosystem by virtue of those noninsurance vehicles, a strong majority would bid on an insurance vehicle within the first 90 days of their engagement.",
    "ev_start": 7023,
    "ev_end": 7272,
@@ -990,7 +1030,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 1,
-   "sentence_index": 41,
+   "sentence_index": 42,
    "sentence": "They know that by virtue of Copart's buyer recruitment, product discovery and auction management practices we will yield the highest and best value the first time through our auction.",
    "ev_start": 7500,
    "ev_end": 7683,
@@ -1029,7 +1069,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 1,
-   "sentence_index": 42,
+   "sentence_index": 43,
    "sentence": "Today, for U.S. insurance sellers at Copart, the mix of pure sale units is at all-time highs.",
    "ev_start": 7684,
    "ev_end": 7777,
@@ -1068,7 +1108,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 1,
-   "sentence_index": 44,
+   "sentence_index": 45,
    "sentence": "We recently completed our 2026 Insurance Advisory Board meeting, a gathering of our largest U.S. insurance clients to discuss current and future catalysts of change in our industry, including artificial intelligence deployment.",
    "ev_start": 7919,
    "ev_end": 8146,
@@ -1108,7 +1148,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 1,
-   "sentence_index": 45,
+   "sentence_index": 46,
    "sentence": "It marks just one visible moment in our ongoing day-to-day engagement with our clients to extend and expand our commercial relationships as we handle ever more of the claims processes for them, including providing them the AI-enabled tools to make front-end total loss decisions more quickly and more accurately through to title procurement, loan settlement and ultimately, auction.",
    "ev_start": 8147,
    "ev_end": 8529,
@@ -1118,41 +1158,6 @@
   },
   {
    "id": "CPRT_2026_3-S019",
-   "topics": [
-    "product"
-   ],
-   "horizon": "current",
-   "direction": "neutral",
-   "stance": null,
-   "withheld": false,
-   "revision": null,
-   "segments": [
-    "us",
-    "international"
-   ],
-   "home": "us",
-   "fact_ids": [],
-   "guided": null,
-   "cues": {
-    "product": [
-     "review"
-    ]
-   },
-   "score": 3.0,
-   "speaker": "Leah Stearns",
-   "role": "management",
-   "section": "prepared",
-   "turn_index": 2,
-   "sentence_index": 1,
-   "sentence": "I'll begin by walking through our financial results for the quarter, beginning with our consolidated performance, followed by a review of our U.S. and international segments.",
-   "ev_start": 8658,
-   "ev_end": 8832,
-   "confidence": "high",
-   "flags": [],
-   "verified": true
-  },
-  {
-   "id": "CPRT_2026_3-S020",
    "topics": [
     "momentum"
    ],
@@ -1164,7 +1169,7 @@
    "segments": [],
    "home": null,
    "fact_ids": [
-    "CPRT_2026_3-001"
+    "CPRT_2026_3-005"
    ],
    "guided": null,
    "cues": {
@@ -1193,7 +1198,7 @@
    "verified": true
   },
   {
-   "id": "CPRT_2026_3-S021",
+   "id": "CPRT_2026_3-S020",
    "topics": [
     "momentum"
    ],
@@ -1204,7 +1209,10 @@
    "revision": null,
    "segments": [],
    "home": null,
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-006",
+    "CPRT_2026_3-007"
+   ],
    "guided": null,
    "cues": {
     "positive": [
@@ -1217,7 +1225,7 @@
      "decline"
     ]
    },
-   "score": 3.5,
+   "score": 4.0,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
@@ -1231,7 +1239,7 @@
    "verified": true
   },
   {
-   "id": "CPRT_2026_3-S022",
+   "id": "CPRT_2026_3-S021",
    "topics": [
     "momentum"
    ],
@@ -1245,7 +1253,10 @@
     "noninsurance"
    ],
    "home": "insurance",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-008",
+    "CPRT_2026_3-009"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -1257,7 +1268,7 @@
      "decreased"
     ]
    },
-   "score": 3.5,
+   "score": 4.0,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
@@ -1271,7 +1282,7 @@
    "verified": true
   },
   {
-   "id": "CPRT_2026_3-S023",
+   "id": "CPRT_2026_3-S022",
    "topics": [
     "momentum"
    ],
@@ -1310,7 +1321,7 @@
    "verified": true
   },
   {
-   "id": "CPRT_2026_3-S024",
+   "id": "CPRT_2026_3-S023",
    "topics": [
     "momentum"
    ],
@@ -1345,7 +1356,7 @@
    "verified": true
   },
   {
-   "id": "CPRT_2026_3-S025",
+   "id": "CPRT_2026_3-S024",
    "topics": [
     "momentum"
    ],
@@ -1357,8 +1368,9 @@
    "segments": [],
    "home": null,
    "fact_ids": [
-    "CPRT_2026_3-002",
-    "CPRT_2026_3-003"
+    "CPRT_2026_3-010",
+    "CPRT_2026_3-011",
+    "CPRT_2026_3-012"
    ],
    "guided": null,
    "cues": {
@@ -1384,7 +1396,7 @@
    "verified": true
   },
   {
-   "id": "CPRT_2026_3-S026",
+   "id": "CPRT_2026_3-S025",
    "topics": [
     "strategy"
    ],
@@ -1416,10 +1428,44 @@
    "verified": true
   },
   {
+   "id": "CPRT_2026_3-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us",
+    "fuel_logistics"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "This includes the recent launch of our domestic long-haul delivery services in the U.S.",
+   "ev_start": 9751,
+   "ev_end": 9838,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
    "id": "CPRT_2026_3-S027",
    "topics": [
     "momentum",
-    "product",
     "strategy"
    ],
    "horizon": "current",
@@ -1428,26 +1474,21 @@
    "withheld": false,
    "revision": null,
    "segments": [
-    "us",
-    "fuel_logistics",
     "buybacks"
    ],
-   "home": "us",
+   "home": "buybacks",
    "fact_ids": [
-    "CPRT_2026_3-004",
-    "CPRT_2026_3-005",
-    "CPRT_2026_3-006",
-    "CPRT_2026_3-007",
-    "CPRT_2026_3-008"
+    "CPRT_2026_3-013",
+    "CPRT_2026_3-014",
+    "CPRT_2026_3-015",
+    "CPRT_2026_3-016",
+    "CPRT_2026_3-017"
    ],
    "guided": null,
    "cues": {
     "positive": [
      "grew",
      "increased 2.4"
-    ],
-    "product": [
-     "launch"
     ],
     "strategy": [
      "repurchase"
@@ -1457,14 +1498,14 @@
      "earnings"
     ]
    },
-   "score": 5.0,
+   "score": 4.0,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 9,
-   "sentence": "This includes the recent launch of our domestic long-haul delivery services in the U.S. Operating income grew 2.8% to $464.3 million, net income was $402.4 million, and earnings per diluted share increased 2.4% to $0.43, benefiting in part from our ongoing share repurchase activity.",
-   "ev_start": 9751,
+   "sentence_index": 10,
+   "sentence": "Operating income grew 2.8% to $464.3 million, net income was $402.4 million, and earnings per diluted share increased 2.4% to $0.43, benefiting in part from our ongoing share repurchase activity.",
+   "ev_start": 9839,
    "ev_end": 10034,
    "confidence": "high",
    "flags": [],
@@ -1484,7 +1525,10 @@
     "noninsurance"
    ],
    "home": "noninsurance",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-018",
+    "CPRT_2026_3-019"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -1495,12 +1539,12 @@
      "declined"
     ]
    },
-   "score": 3.94,
+   "score": 4.44,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 11,
+   "sentence_index": 12,
    "sentence": "Total units declined 4.2% or 3.3% excluding Copart Direct units.",
    "ev_start": 10064,
    "ev_end": 10128,
@@ -1538,7 +1582,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 12,
+   "sentence_index": 13,
    "sentence": "Insurance volumes decreased 4.2%, which are consistent with the claims frequency trends Jeff described a few moments ago.",
    "ev_start": 10129,
    "ev_end": 10250,
@@ -1575,7 +1619,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 13,
+   "sentence_index": 14,
    "sentence": "Beyond insurance, we are seeing encouraging momentum across our diversified seller base.",
    "ev_start": 10251,
    "ev_end": 10339,
@@ -1613,7 +1657,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 14,
+   "sentence_index": 15,
    "sentence": "Our Dealer Services and powersports businesses grew units by 1%.",
    "ev_start": 10340,
    "ev_end": 10404,
@@ -1648,7 +1692,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 15,
+   "sentence_index": 16,
    "sentence": "Our BluCar commercial consignment channel expanded by over 4% over the prior year.",
    "ev_start": 10405,
    "ev_end": 10487,
@@ -1689,7 +1733,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 16,
+   "sentence_index": 17,
    "sentence": "Combined fleet and finance seller volume grew at a healthy double-digit pace, which was partially offset by the continued impact of higher repair activity we've seen among our rental customers.",
    "ev_start": 10488,
    "ev_end": 10681,
@@ -1711,7 +1755,9 @@
     "noninsurance"
    ],
    "home": "noninsurance",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-020"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -1723,12 +1769,12 @@
      "units"
     ]
    },
-   "score": 3.94,
+   "score": 4.44,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 17,
+   "sentence_index": 18,
    "sentence": "Our Copart Direct unit volume declined 26.3% as we continue to strategically shift lower-value units to our direct buy channel.",
    "ev_start": 10682,
    "ev_end": 10809,
@@ -1769,7 +1815,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 18,
+   "sentence_index": 19,
    "sentence": "On the inventory side, U.S. inventory is down 4.7% year-over-year, and U.S. assignments declined at a low single-digit pace during the quarter.",
    "ev_start": 10810,
    "ev_end": 10953,
@@ -1791,7 +1837,9 @@
     "purple_wave"
    ],
    "home": "purple_wave",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-021"
+   ],
    "guided": null,
    "cues": {
     "positive": [
@@ -1803,12 +1851,12 @@
      "growth"
     ]
    },
-   "score": 3.44,
+   "score": 3.94,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 19,
+   "sentence_index": 20,
    "sentence": "Shifting to Purple Wave, our focus on organic territory sales expansion continues to yield strong gross transaction value growth, which was more than 25% for the last 12 months.",
    "ev_start": 10954,
    "ev_end": 11131,
@@ -1846,7 +1894,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 20,
+   "sentence_index": 21,
    "sentence": "The momentum we are experiencing is being fueled by strong traction in our expansion markets and deepening relationships with select enterprise accounts, which is a real testament to the progress our team is making to scale their platform.",
    "ev_start": 11132,
    "ev_end": 11371,
@@ -1868,7 +1916,9 @@
     "us"
    ],
    "home": "us",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-022"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -1879,12 +1929,12 @@
      "volume"
     ]
    },
-   "score": 3.5,
+   "score": 4.0,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 21,
+   "sentence_index": 22,
    "sentence": "On revenue, the U.S. segment was essentially flat, down 0.4% as higher revenue per unit largely was offset by volume headwinds.",
    "ev_start": 11372,
    "ev_end": 11499,
@@ -1907,7 +1957,11 @@
     "noninsurance"
    ],
    "home": "insurance",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-023",
+    "CPRT_2026_3-024",
+    "CPRT_2026_3-025"
+   ],
    "guided": null,
    "cues": {
     "positive": [
@@ -1917,12 +1971,12 @@
     ],
     "performance": []
    },
-   "score": 3.0,
+   "score": 3.5,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 22,
+   "sentence_index": 23,
    "sentence": "Insurance ASPs increased 4.1%, noninsurance ASPs increased 3.7% and purchased unit ASPs increased 23%.",
    "ev_start": 11500,
    "ev_end": 11602,
@@ -1945,8 +1999,8 @@
    ],
    "home": "us",
    "fact_ids": [
-    "CPRT_2026_3-009",
-    "CPRT_2026_3-010"
+    "CPRT_2026_3-026",
+    "CPRT_2026_3-027"
    ],
    "guided": null,
    "cues": {
@@ -1965,7 +2019,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 23,
+   "sentence_index": 24,
    "sentence": "U.S. gross profit grew to $484.1 million, up 0.9%, and gross profit margin was 48.3%.",
    "ev_start": 11603,
    "ev_end": 11688,
@@ -2002,7 +2056,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 25,
+   "sentence_index": 26,
    "sentence": "Internationally, the story is one of continued momentum.",
    "ev_start": 11763,
    "ev_end": 11819,
@@ -2022,10 +2076,15 @@
    "revision": null,
    "segments": [
     "insurance",
-    "noninsurance"
+    "noninsurance",
+    "international"
    ],
-   "home": "insurance",
-   "fact_ids": [],
+   "home": "international",
+   "fact_ids": [
+    "CPRT_2026_3-030",
+    "CPRT_2026_3-031",
+    "CPRT_2026_3-032"
+   ],
    "guided": null,
    "cues": {
     "positive": [
@@ -2038,17 +2097,19 @@
      "growing"
     ]
    },
-   "score": 3.0,
+   "score": 3.5,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 26,
+   "sentence_index": 27,
    "sentence": "Total units sold increased 5.9% with insurance units up 4.6% and noninsurance units growing 11.2% in the quarter.",
    "ev_start": 11820,
    "ev_end": 11933,
    "confidence": "high",
-   "flags": [],
+   "flags": [
+    "segment_from_fact"
+   ],
    "verified": true
   },
   {
@@ -2079,7 +2140,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 27,
+   "sentence_index": 28,
    "sentence": "Inventory in our international segment increased over 10% from a year-ago period and international assignments increased at a low-teens pace.",
    "ev_start": 11934,
    "ev_end": 12075,
@@ -2116,7 +2177,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 28,
+   "sentence_index": 29,
    "sentence": "These trends reflect the broad-based growth that we are seeing across our diversified international footprint, with particularly strong contributions from the U.K., Germany and Canada.",
    "ev_start": 12076,
    "ev_end": 12260,
@@ -2139,7 +2200,9 @@
    ],
    "home": "international",
    "fact_ids": [
-    "CPRT_2026_3-013"
+    "CPRT_2026_3-033",
+    "CPRT_2026_3-034",
+    "CPRT_2026_3-035"
    ],
    "guided": null,
    "cues": {
@@ -2157,7 +2220,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 29,
+   "sentence_index": 30,
    "sentence": "For the quarter, international revenue grew 14.1% or 7.9% excluding the positive impact of foreign currency fluctuations, to $234.2 million.",
    "ev_start": 12261,
    "ev_end": 12401,
@@ -2180,7 +2243,7 @@
    ],
    "home": "international",
    "fact_ids": [
-    "CPRT_2026_3-014"
+    "CPRT_2026_3-036"
    ],
    "guided": null,
    "cues": {
@@ -2199,7 +2262,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 30,
+   "sentence_index": 31,
    "sentence": "The primary source of growth internationally came from service revenues, which were up 17.9%, driven by a 10.5% increase in fee revenue per unit and strong volume growth.",
    "ev_start": 12402,
    "ev_end": 12572,
@@ -2222,7 +2285,10 @@
     "noninsurance"
    ],
    "home": "insurance",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-037",
+    "CPRT_2026_3-038"
+   ],
    "guided": null,
    "cues": {
     "positive": [
@@ -2239,12 +2305,12 @@
      "growing"
     ]
    },
-   "score": 3.5,
+   "score": 4.0,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 31,
+   "sentence_index": 32,
    "sentence": "Revenue per unit was positively impacted by strong ASP growth with insurance ASPs increasing 8.4% and noninsurance ASPs growing 16.7%.",
    "ev_start": 12573,
    "ev_end": 12707,
@@ -2262,12 +2328,14 @@
    "stance": null,
    "withheld": false,
    "revision": null,
-   "segments": [],
-   "home": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
    "fact_ids": [
-    "CPRT_2026_3-015",
-    "CPRT_2026_3-016",
-    "CPRT_2026_3-017"
+    "CPRT_2026_3-039",
+    "CPRT_2026_3-040",
+    "CPRT_2026_3-041"
    ],
    "guided": null,
    "cues": {
@@ -2284,12 +2352,14 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 32,
+   "sentence_index": 33,
    "sentence": "The profit picture was equally compelling, with gross profit increasing 21.9% and operating income reaching $73.8 million, representing a 31.5% operating margin.",
    "ev_start": 12708,
    "ev_end": 12869,
    "confidence": "high",
-   "flags": [],
+   "flags": [
+    "segment_from_fact"
+   ],
    "verified": true
   },
   {
@@ -2314,7 +2384,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 36,
+   "sentence_index": 37,
    "sentence": "Our balance sheet gives us tremendous flexibility to be opportunistic investors throughout business and credit cycles.",
    "ev_start": 13153,
    "ev_end": 13271,
@@ -2339,7 +2409,7 @@
    ],
    "home": "insurance",
    "fact_ids": [
-    "CPRT_2026_3-018"
+    "CPRT_2026_3-043"
    ],
    "guided": null,
    "cues": {
@@ -2361,7 +2431,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 37,
+   "sentence_index": 38,
    "sentence": "We continue to generate robust free cash flow, which has increased 12% year-to-date, supported by disciplined capital allocation into land, facilities and technology, which positions us to efficiently serve both insurance and noninsurance clients while delivering strong operating efficiency.",
    "ev_start": 13272,
    "ev_end": 13564,
@@ -2395,7 +2465,7 @@
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 38,
+   "sentence_index": 39,
    "sentence": "On the capital return front, we continue to repurchase shares during the third quarter through a combination of 10b5-1 and open market transactions.",
    "ev_start": 13565,
    "ev_end": 13713,
@@ -2417,7 +2487,9 @@
     "buybacks"
    ],
    "home": "buybacks",
-   "fact_ids": [],
+   "fact_ids": [
+    "CPRT_2026_3-044"
+   ],
    "guided": null,
    "cues": {
     "forward": [
@@ -2430,12 +2502,12 @@
      "confidence"
     ]
    },
-   "score": 4.44,
+   "score": 4.94,
    "speaker": "Leah Stearns",
    "role": "management",
    "section": "prepared",
    "turn_index": 2,
-   "sentence_index": 39,
+   "sentence_index": 40,
    "sentence": "Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business.",
    "ev_start": 13714,
    "ev_end": 13936,
@@ -3327,16 +3399,16 @@
   }
  ],
  "selected_signal_ids": [
+  "CPRT_2026_3-S003",
   "CPRT_2026_3-S017",
-  "CPRT_2026_3-S019",
-  "CPRT_2026_3-S027",
-  "CPRT_2026_3-S035",
+  "CPRT_2026_3-S026",
   "CPRT_2026_3-S038",
+  "CPRT_2026_3-S040",
   "CPRT_2026_3-S036",
   "CPRT_2026_3-S072",
   "CPRT_2026_3-S074",
+  "CPRT_2026_3-S042",
   "CPRT_2026_3-S045",
-  "CPRT_2026_3-S046",
   "CPRT_2026_3-S057",
   "CPRT_2026_3-S058",
   "CPRT_2026_3-S002",
@@ -3344,8 +3416,8 @@
   "CPRT_2026_3-S006",
   "CPRT_2026_3-S008",
   "CPRT_2026_3-S009",
-  "CPRT_2026_3-S022",
-  "CPRT_2026_3-S050",
+  "CPRT_2026_3-S021",
+  "CPRT_2026_3-S047",
   "CPRT_2026_3-S060",
   "CPRT_2026_3-S061",
   "CPRT_2026_3-S028",
@@ -3359,6 +3431,7 @@
   "CPRT_2026_3-S059",
   "CPRT_2026_3-S062",
   "CPRT_2026_3-S063",
+  "CPRT_2026_3-S027",
   "CPRT_2026_3-S051",
   "CPRT_2026_3-S052",
   "CPRT_2026_3-S005",
@@ -3366,24 +3439,24 @@
   "CPRT_2026_3-S010",
   "CPRT_2026_3-S056",
   "CPRT_2026_3-S011",
+  "CPRT_2026_3-S019",
   "CPRT_2026_3-S020",
-  "CPRT_2026_3-S021",
-  "CPRT_2026_3-S023",
+  "CPRT_2026_3-S022",
+  "CPRT_2026_3-S024",
   "CPRT_2026_3-S025",
-  "CPRT_2026_3-S026",
   "CPRT_2026_3-S075"
  ],
  "surfaced_signal_ids": [
+  "CPRT_2026_3-S003",
   "CPRT_2026_3-S017",
-  "CPRT_2026_3-S019",
-  "CPRT_2026_3-S027",
-  "CPRT_2026_3-S035",
+  "CPRT_2026_3-S026",
   "CPRT_2026_3-S038",
+  "CPRT_2026_3-S040",
   "CPRT_2026_3-S036",
   "CPRT_2026_3-S072",
   "CPRT_2026_3-S074",
+  "CPRT_2026_3-S042",
   "CPRT_2026_3-S045",
-  "CPRT_2026_3-S046",
   "CPRT_2026_3-S057",
   "CPRT_2026_3-S058",
   "CPRT_2026_3-S002",
@@ -3391,8 +3464,8 @@
   "CPRT_2026_3-S006",
   "CPRT_2026_3-S008",
   "CPRT_2026_3-S009",
-  "CPRT_2026_3-S022",
-  "CPRT_2026_3-S050",
+  "CPRT_2026_3-S021",
+  "CPRT_2026_3-S047",
   "CPRT_2026_3-S060",
   "CPRT_2026_3-S061",
   "CPRT_2026_3-S028",
@@ -3406,6 +3479,7 @@
   "CPRT_2026_3-S059",
   "CPRT_2026_3-S062",
   "CPRT_2026_3-S063",
+  "CPRT_2026_3-S027",
   "CPRT_2026_3-S051",
   "CPRT_2026_3-S052",
   "CPRT_2026_3-S005",
@@ -3413,11 +3487,11 @@
   "CPRT_2026_3-S010",
   "CPRT_2026_3-S056",
   "CPRT_2026_3-S011",
+  "CPRT_2026_3-S019",
   "CPRT_2026_3-S020",
-  "CPRT_2026_3-S021",
-  "CPRT_2026_3-S023",
+  "CPRT_2026_3-S022",
+  "CPRT_2026_3-S024",
   "CPRT_2026_3-S025",
-  "CPRT_2026_3-S026",
   "CPRT_2026_3-S075",
   "CPRT_2026_3-S001",
   "CPRT_2026_3-S076"
@@ -3449,15 +3523,26 @@
    "fuel_logistics"
   ],
   "unmapped_fact_segments": {
-   "service": 1
+   "u.s. insurance": 1,
+   "conflict, u.s. insurance": 1,
+   "insurance side": 1,
+   "copart direct": 1,
+   "purchased unit": 1,
+   "service": 1,
+   "gtv": 1
   },
   "held_back_low_confidence_facts": [
+   "CPRT_2026_3-001",
    "CPRT_2026_3-002",
-   "CPRT_2026_3-011",
-   "CPRT_2026_3-012",
-   "CPRT_2026_3-015",
-   "CPRT_2026_3-016",
-   "CPRT_2026_3-017"
+   "CPRT_2026_3-009",
+   "CPRT_2026_3-018",
+   "CPRT_2026_3-019",
+   "CPRT_2026_3-023",
+   "CPRT_2026_3-024",
+   "CPRT_2026_3-031",
+   "CPRT_2026_3-032",
+   "CPRT_2026_3-037",
+   "CPRT_2026_3-038"
   ]
  },
  "checks": [
@@ -3494,24 +3579,24 @@
   {
    "name": "fact_segments_mapped",
    "status": "warn",
-   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'service': 1}"
+   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'u.s. insurance': 1, 'conflict, u.s. insurance': 1, 'insurance side': 1, 'copart direct': 1, 'purchased unit': 1, 'service': 1, 'gtv': 1}"
   },
   {
    "name": "facts_held_back",
    "status": "warn",
-   "detail": "6 low-confidence ledger facts are not shown"
+   "detail": "11 low-confidence ledger facts are not shown"
   }
  ],
  "stats": {
   "signals": 77,
   "signals_usable": 77,
-  "selected": 45,
+  "selected": 46,
   "by_topic": {
    "momentum": 55,
    "competition": 2,
    "pressure": 3,
    "strategy": 8,
-   "product": 10
+   "product": 9
   },
   "by_horizon": {
    "current": 70,

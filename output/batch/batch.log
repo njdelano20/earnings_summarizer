@@ -38,3 +38,15 @@
 2026-09-21T15:38:50  HD: fatal: Alpha Vantage: We have detected your API key as ***REDACTED*** and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/pre
 2026-09-21T15:38:50  Done: 2 of 3 symbols scored (2 fetched this run); review queue 115 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q1\summary.md
 2026-09-21T15:38:50  Stopped early: fix the API key, then run again.
+2026-09-21T15:47:26  AMD: ok (cache) 2026Q2: 45 facts, 37 unclaimed, period pass
+2026-09-21T15:47:26  HESM: ok (cache) 2026Q2: 21 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:47:27  VICI: ok (cache) 2026Q2: 8 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:47:28  CPRT: ok (cache) 2026Q3: 45 facts, 15 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:47:28  Done: 2 of 3 symbols scored (0 fetched this run); review queue 101 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q1\summary.md
+2026-09-21T15:47:41  AMD: ok (cache) 2026Q2: 45 facts, 37 unclaimed, period pass
+2026-09-21T15:47:41  HESM: ok (cache) 2026Q2: 21 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:47:42  VICI: ok (cache) 2026Q2: 8 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:48:21  AMD: ok (cache) 2026Q2: 45 facts, 37 unclaimed, period pass
+2026-09-21T15:48:22  HESM: ok (cache) 2026Q2: 21 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:48:23  VICI: ok (cache) 2026Q2: 8 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T15:48:23  Done: 20 of 23 symbols scored (0 fetched this run); review queue 1098 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md

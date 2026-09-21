@@ -3,9 +3,9 @@
 _Call period as the call itself describes it: third quarter. Source: alphavantage. Every figure is a verified ledger fact (id shown); every statement is a verbatim management sentence (id shown). ▲ positive news, ▼ negative, ◆ mixed, ● neutral._
 
 ## At a glance
-- Revenue $1.24B (+2.1% yoy), third quarter `CPRT_2026_3-001`
-- EPS $0.43/sh (+2.4%) `CPRT_2026_3-008`
-- Gross margin 48.3% `CPRT_2026_3-010`
+- Revenue $1.24B (+2.1% yoy), third quarter `CPRT_2026_3-005`
+- EPS $0.43/sh (+2.4%) `CPRT_2026_3-017`
+- Gross margin 46.3% (+71 bps) `CPRT_2026_3-012`
 - Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +1.00
 
 ## Segment scoreboard
@@ -13,29 +13,37 @@ _One row per business segment: latest reported revenue, growth and margin, how m
 
 | Segment | Revenue | Growth (yoy) | Gross margin | Outlook | Mgmt wording | Mentions | Facts |
 |---|---|---|---|---|---|---|---|
-| Total company | $1.24B | +2.1% | 48.3% |  |  |  | `CPRT_2026_3-001`, `CPRT_2026_3-010` |
-| U.S. segment |  |  |  |  |  | 9 |  |
+| Total company | $1.24B | +2.1% | 46.3% |  |  |  | `CPRT_2026_3-005`, `CPRT_2026_3-012` |
+| U.S. segment |  | -0.4% | 48.3% |  |  | 8 | `CPRT_2026_3-022`, `CPRT_2026_3-027` |
 | ↳ Purple Wave (heavy equipment) |  |  |  |  | 2 conf. | 5 |  |
-| International segment |  | +14.1% |  |  |  | 9 | `CPRT_2026_3-013` |
+| International segment | $234.2M | +14.1% |  |  |  | 10 | `CPRT_2026_3-035`, `CPRT_2026_3-033` |
 
 ## Company-wide picture
 | Type | Metric | Period | Value | Change | Conf. | Fact |
 |---|---|---|---|---|---|---|
-| reported | revenue | third quarter | $1.24B | +2.1% yoy |  | `CPRT_2026_3-001` |
-| reported | gross margin | third quarter | 48.3% |  |  | `CPRT_2026_3-010` |
-| reported | gross profit | third quarter | $572.6M | +3.7%, +71 bps |  | `CPRT_2026_3-003` |
-| reported | net income | third quarter | $402.4M |  |  | `CPRT_2026_3-006` |
-| reported | eps growth | third quarter | 2.4% |  |  | `CPRT_2026_3-007` |
-| reported | eps | third quarter | $0.43/sh | +2.4% |  | `CPRT_2026_3-008` |
-| reported | free cash flow growth | year to date | 12% |  |  | `CPRT_2026_3-018` |
+| reported | revenue | third quarter | $1.24B | +2.1% yoy |  | `CPRT_2026_3-005` |
+| reported | gross margin | third quarter | 46.3% | +71 bps |  | `CPRT_2026_3-012` |
+| reported | gross profit growth | third quarter | 3.7% |  |  | `CPRT_2026_3-010` |
+| reported | gross profit | third quarter | $572.6M | +3.7% |  | `CPRT_2026_3-011` |
+| reported | operating income growth | third quarter | 2.8% |  |  | `CPRT_2026_3-013` |
+| reported | operating income | third quarter | $464.3M | +2.8% |  | `CPRT_2026_3-014` |
+| reported | net income | third quarter | $402.4M |  |  | `CPRT_2026_3-015` |
+| reported | eps growth | third quarter | 2.4% |  |  | `CPRT_2026_3-016` |
+| reported | eps | third quarter | $0.43/sh | +2.4% |  | `CPRT_2026_3-017` |
+| reported | free cash flow growth | year to date | 12% |  |  | `CPRT_2026_3-043` |
+| reported | cash and securities | third quarter | $4.20B |  |  | `CPRT_2026_3-042` |
+| reported | share repurchases | year to date | over $1.60B |  |  | `CPRT_2026_3-044` |
+| reported | asp growth | third quarter | 4.6% |  |  | `CPRT_2026_3-006` |
+| reported | units growth | third quarter | -2.4% |  |  | `CPRT_2026_3-007` |
+| reported | gtv growth | third quarter | more than 25% |  |  | `CPRT_2026_3-021` |
 
-- ▲ **Momentum**: "For the third quarter, consolidated revenue grew to $1.24 billion, up 2.1% year-over-year, driven by strength in both service and purchased vehicle sales." -- Leah Stearns, prepared `CPRT_2026_3-S020` facts: `CPRT_2026_3-001`
-- ◆ **Momentum**: "During the quarter, we continued to see expansion in average selling prices, which rose 4.6% and more than offset a modest decline in unit volumes of 2.4%." -- Leah Stearns, prepared `CPRT_2026_3-S021`
-- ◆ **Momentum**: "Notably, while global inventory was down 2% from the prior year, global assignment volumes grew at a low single-digit pace." -- Leah Stearns, prepared `CPRT_2026_3-S023`
-- ▲ **Momentum**: "Global gross profit increased 3.7% to $572.6 million, with global gross margins increasing 71 basis points to 46.3%." -- Leah Stearns, prepared `CPRT_2026_3-S025` facts: `CPRT_2026_3-002`, `CPRT_2026_3-003`
+- ▲ **Momentum**: "For the third quarter, consolidated revenue grew to $1.24 billion, up 2.1% year-over-year, driven by strength in both service and purchased vehicle sales." -- Leah Stearns, prepared `CPRT_2026_3-S019` facts: `CPRT_2026_3-005`
+- ◆ **Momentum**: "During the quarter, we continued to see expansion in average selling prices, which rose 4.6% and more than offset a modest decline in unit volumes of 2.4%." -- Leah Stearns, prepared `CPRT_2026_3-S020` facts: `CPRT_2026_3-006`, `CPRT_2026_3-007`
+- ◆ **Momentum**: "Notably, while global inventory was down 2% from the prior year, global assignment volumes grew at a low single-digit pace." -- Leah Stearns, prepared `CPRT_2026_3-S022`
+- ▲ **Momentum**: "Global gross profit increased 3.7% to $572.6 million, with global gross margins increasing 71 basis points to 46.3%." -- Leah Stearns, prepared `CPRT_2026_3-S024` facts: `CPRT_2026_3-010`, `CPRT_2026_3-011`, `CPRT_2026_3-012`
 - ● **Product**: "We shifted our product offering about 12 months ago and have seen rapid adoption." -- Leah Stearns, qa `CPRT_2026_3-S075`
 - ● **Competition**: "We are focused, as always, on delivering superior outcomes for our clients, first and foremost, through auction returns, but also, of course, through our differentiated service offerings from vehicle retrieval to title processing." -- Jeffrey Liaw, prepared `CPRT_2026_3-S011`
-- ● **Strategy**: "During the quarter, we continued to invest across our platform to enhance the products and services we offer to participants across our global marketplace." -- Leah Stearns, prepared `CPRT_2026_3-S026`
+- ● **Strategy**: "During the quarter, we continued to invest across our platform to enhance the products and services we offer to participants across our global marketplace." -- Leah Stearns, prepared `CPRT_2026_3-S025`
 
 ## Trajectory: where each line is versus where management says it is going
 _No reported-versus-guided pairs could be built from this call._
@@ -49,19 +57,21 @@ _Every segment, geography, customer group, initiative and cost driver the call t
 
 | Type | Metric | Period | Value | Change | Conf. | Fact |
 |---|---|---|---|---|---|---|
-| reported | gross profit | third quarter | $484.1M | +0.9% |  | `CPRT_2026_3-009` |
-| reported | operating income growth | third quarter | 2.8% |  |  | `CPRT_2026_3-004` |
-| reported | operating income | third quarter | $464.3M | +2.8% |  | `CPRT_2026_3-005` |
+| reported | revenue growth | third quarter | -0.4% |  |  | `CPRT_2026_3-022` |
+| reported | gross margin | third quarter | 48.3% |  |  | `CPRT_2026_3-027` |
+| reported | gross profit | third quarter | $484.1M | +0.9% |  | `CPRT_2026_3-026` |
+| reported | operating income | third quarter | $390.4M |  |  | `CPRT_2026_3-028` |
+| reported | operating margin | third quarter | 38.1% |  |  | `CPRT_2026_3-029` |
 
-- ▲ **Momentum**: "This includes the recent launch of our domestic long-haul delivery services in the U.S. Operating income grew 2.8% to $464.3 million, net income was $402.4 million, and earnings per diluted share increased 2.4% to $0.43, benefiting in part from our ongoing share repurchase activity." -- Leah Stearns, prepared `CPRT_2026_3-S027` facts: `CPRT_2026_3-004`, `CPRT_2026_3-005`, `CPRT_2026_3-006`, `CPRT_2026_3-007`, `CPRT_2026_3-008`
-- ◆ **Momentum**: "On the inventory side, U.S. inventory is down 4.7% year-over-year, and U.S. assignments declined at a low single-digit pace during the quarter." -- Leah Stearns, prepared `CPRT_2026_3-S035`
-- ▼ **Momentum**: "On revenue, the U.S. segment was essentially flat, down 0.4% as higher revenue per unit largely was offset by volume headwinds." -- Leah Stearns, prepared `CPRT_2026_3-S038`
-- ● **Product**: "I'll begin by walking through our financial results for the quarter, beginning with our consolidated performance, followed by a review of our U.S. and international segments." -- Leah Stearns, prepared `CPRT_2026_3-S019`
+- ▼ **Momentum**: "Our U.S. insurance unit volume for the same period declined 4.2% or just over 3%, excluding the effect of those same catastrophic units." -- Jeffrey Liaw, prepared `CPRT_2026_3-S003` facts: `CPRT_2026_3-003`
+- ▼ **Momentum**: "On revenue, the U.S. segment was essentially flat, down 0.4% as higher revenue per unit largely was offset by volume headwinds." -- Leah Stearns, prepared `CPRT_2026_3-S038` facts: `CPRT_2026_3-022`
+- ▲ **Momentum**: "U.S. gross profit grew to $484.1 million, up 0.9%, and gross profit margin was 48.3%." -- Leah Stearns, prepared `CPRT_2026_3-S040` facts: `CPRT_2026_3-026`, `CPRT_2026_3-027`
+- ● **Product**: "This includes the recent launch of our domestic long-haul delivery services in the U.S." -- Leah Stearns, prepared `CPRT_2026_3-S026`
 - ● **Outlook**: "We recently completed our 2026 Insurance Advisory Board meeting, a gathering of our largest U.S. insurance clients to discuss current and future catalysts of change in our industry, including artificial intelligence deployment." -- Jeffrey Liaw, prepared `CPRT_2026_3-S017`
 
 ##### Purple Wave (heavy equipment)
 
-- ▲ **Momentum**: "Shifting to Purple Wave, our focus on organic territory sales expansion continues to yield strong gross transaction value growth, which was more than 25% for the last 12 months." -- Leah Stearns, prepared `CPRT_2026_3-S036`
+- ▲ **Momentum**: "Shifting to Purple Wave, our focus on organic territory sales expansion continues to yield strong gross transaction value growth, which was more than 25% for the last 12 months." -- Leah Stearns, prepared `CPRT_2026_3-S036` facts: `CPRT_2026_3-021`
 - ▲ **Momentum**: "The GTV growth we are seeing is a result of the success we've had with that territory expansion and the enterprise relationships." -- Leah Stearns, qa `CPRT_2026_3-S072`
 - ● **Strategy · confident**: "The team is about 2.5 to 3 times the size it was when we acquired Purple Wave, and we still have some ways to go to achieve full nationwide coverage, but we have hit the top areas most important for Copart to penetrate and are pleased with the progress." -- Leah Stearns, qa `CPRT_2026_3-S074`
 _Management wording on this area: 2 confident statements (lexical count)._
@@ -70,10 +80,16 @@ _Management wording on this area: 2 confident statements (lexical count)._
 
 | Type | Metric | Period | Value | Change | Conf. | Fact |
 |---|---|---|---|---|---|---|
-| reported | revenue growth | third quarter | 14.1% |  | medium | `CPRT_2026_3-013` |
+| reported | revenue growth | third quarter | 14.1% |  | medium | `CPRT_2026_3-033` |
+| reported | revenue growth [const. currency] | third quarter | 7.9% |  | medium | `CPRT_2026_3-034` |
+| reported | revenue | third quarter | $234.2M | +14.1%, +7.9% cc | medium | `CPRT_2026_3-035` |
+| reported | gross profit growth | third quarter | 21.9% |  | medium | `CPRT_2026_3-039` |
+| reported | operating income | third quarter | $73.8M |  | medium | `CPRT_2026_3-040` |
+| reported | operating margin | third quarter | 31.5% |  | medium | `CPRT_2026_3-041` |
+| reported | units growth | third quarter | 5.9% |  |  | `CPRT_2026_3-030` |
 
-- ▲ **Momentum**: "For the quarter, international revenue grew 14.1% or 7.9% excluding the positive impact of foreign currency fluctuations, to $234.2 million." -- Leah Stearns, prepared `CPRT_2026_3-S045` facts: `CPRT_2026_3-013`
-- ▲ **Momentum**: "The primary source of growth internationally came from service revenues, which were up 17.9%, driven by a 10.5% increase in fee revenue per unit and strong volume growth." -- Leah Stearns, prepared `CPRT_2026_3-S046` facts: `CPRT_2026_3-014`
+- ▲ **Momentum**: "Total units sold increased 5.9% with insurance units up 4.6% and noninsurance units growing 11.2% in the quarter." -- Leah Stearns, prepared `CPRT_2026_3-S042` facts: `CPRT_2026_3-030`, `CPRT_2026_3-031`, `CPRT_2026_3-032`
+- ▲ **Momentum**: "For the quarter, international revenue grew 14.1% or 7.9% excluding the positive impact of foreign currency fluctuations, to $234.2 million." -- Leah Stearns, prepared `CPRT_2026_3-S045` facts: `CPRT_2026_3-033`, `CPRT_2026_3-034`, `CPRT_2026_3-035`
 - ▲ **Momentum**: "We've expanded globally - most notably since 2007 - and we operate profitably in the U.K., Spain, Germany, Finland, the Middle East, Canada, Brazil, etc." -- Jeffrey Liaw, qa `CPRT_2026_3-S057`
 - ▲ **Outlook**: "International expansion has historically been part of our playbook and will be relevant going forward." -- Jeffrey Liaw, qa `CPRT_2026_3-S058`
 
@@ -81,9 +97,9 @@ _Management wording on this area: 2 confident statements (lexical count)._
 
 #### Insurance sellers
 
-- ▼ **Momentum**: "First, for the third quarter 2026, our global insurance unit sales declined 2.7% or 1.9%, excluding the effect of catastrophic volume from a year ago." -- Jeffrey Liaw, prepared `CPRT_2026_3-S002`
-- ▼ **Momentum**: "On the insurance side, global units were down 2.7%, consistent with the industry dynamics Jeff outlined, while global noninsurance units decreased 1.4%." -- Leah Stearns, prepared `CPRT_2026_3-S022`
-- ▲ **Momentum**: "We continue to generate robust free cash flow, which has increased 12% year-to-date, supported by disciplined capital allocation into land, facilities and technology, which positions us to efficiently serve both insurance and noninsurance clients while delivering strong operating efficiency." -- Leah Stearns, prepared `CPRT_2026_3-S050` facts: `CPRT_2026_3-018`
+- ▼ **Momentum**: "First, for the third quarter 2026, our global insurance unit sales declined 2.7% or 1.9%, excluding the effect of catastrophic volume from a year ago." -- Jeffrey Liaw, prepared `CPRT_2026_3-S002` facts: `CPRT_2026_3-001`, `CPRT_2026_3-002`
+- ▼ **Momentum**: "On the insurance side, global units were down 2.7%, consistent with the industry dynamics Jeff outlined, while global noninsurance units decreased 1.4%." -- Leah Stearns, prepared `CPRT_2026_3-S021` facts: `CPRT_2026_3-008`, `CPRT_2026_3-009`
+- ◆ **Momentum**: "Revenue per unit was positively impacted by strong ASP growth with insurance ASPs increasing 8.4% and noninsurance ASPs growing 16.7%." -- Leah Stearns, prepared `CPRT_2026_3-S047` facts: `CPRT_2026_3-037`, `CPRT_2026_3-038`
 - ● **Product**: "We talked at length about AI - how we're deploying it at Copart to support outcomes and how we can support carriers in deploying it." -- Jeffrey Liaw, qa `CPRT_2026_3-S060`
 - ● **Product**: "Insurance companies are both excited and cautious about AI." -- Jeffrey Liaw, qa `CPRT_2026_3-S061`
 - ▼ **Pressure**: "Claims activity also remains somewhat softer as consumers continue adjusting their insurance purchasing behavior in response to rising premiums." -- Jeffrey Liaw, prepared `CPRT_2026_3-S006`
@@ -94,9 +110,9 @@ _Management wording on this area: 1 confident, 1 mixed statements (lexical count
 
 #### Non-insurance sellers (dealers, rental, fleet, finance)
 
-- ▼ **Momentum**: "Total units declined 4.2% or 3.3% excluding Copart Direct units." -- Leah Stearns, prepared `CPRT_2026_3-S028`
+- ▼ **Momentum**: "Total units declined 4.2% or 3.3% excluding Copart Direct units." -- Leah Stearns, prepared `CPRT_2026_3-S028` facts: `CPRT_2026_3-018`, `CPRT_2026_3-019`
 - ▲ **Momentum**: "Our BluCar commercial consignment channel expanded by over 4% over the prior year." -- Leah Stearns, prepared `CPRT_2026_3-S032`
-- ▼ **Momentum**: "Our Copart Direct unit volume declined 26.3% as we continue to strategically shift lower-value units to our direct buy channel." -- Leah Stearns, prepared `CPRT_2026_3-S034`
+- ▼ **Momentum**: "Our Copart Direct unit volume declined 26.3% as we continue to strategically shift lower-value units to our direct buy channel." -- Leah Stearns, prepared `CPRT_2026_3-S034` facts: `CPRT_2026_3-020`
 
 #### Buyer base
 
@@ -118,8 +134,9 @@ _Management wording on this area: 1 mixed statements (lexical count)._
 
 #### Share repurchases
 
+- ▲ **Momentum**: "Operating income grew 2.8% to $464.3 million, net income was $402.4 million, and earnings per diluted share increased 2.4% to $0.43, benefiting in part from our ongoing share repurchase activity." -- Leah Stearns, prepared `CPRT_2026_3-S027` facts: `CPRT_2026_3-013`, `CPRT_2026_3-014`, `CPRT_2026_3-015`, `CPRT_2026_3-016`, `CPRT_2026_3-017`
 - ● **Strategy**: "On the capital return front, we continue to repurchase shares during the third quarter through a combination of 10b5-1 and open market transactions." -- Leah Stearns, prepared `CPRT_2026_3-S051`
-- ● **Outlook · confident**: "Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business." -- Leah Stearns, prepared `CPRT_2026_3-S052`
+- ● **Outlook · confident**: "Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business." -- Leah Stearns, prepared `CPRT_2026_3-S052` facts: `CPRT_2026_3-044`
 _Management wording on this area: 1 confident statements (lexical count)._
 
 ### Cost, supply, currency and regulatory drivers
@@ -146,20 +163,20 @@ _lexical cue counts on management sentences; indicative of wording, not a measur
 | Leah Stearns | 6 | 0 | 0 |
 
 **Most confident**
-- ● **Outlook · confident**: "Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business." -- Leah Stearns, prepared `CPRT_2026_3-S052`
+- ● **Outlook · confident**: "Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business." -- Leah Stearns, prepared `CPRT_2026_3-S052` facts: `CPRT_2026_3-044`
 - ● **Strategy · confident**: "The team is about 2.5 to 3 times the size it was when we acquired Purple Wave, and we still have some ways to go to achieve full nationwide coverage, but we have hit the top areas most important for Copart to penetrate and are pleased with the progress." -- Leah Stearns, qa `CPRT_2026_3-S074`
 - ● **Momentum · confident**: "We're pleased to report the results of our third quarter fiscal year 2026." -- Jeffrey Liaw, prepared `CPRT_2026_3-S001`
 - ● **Momentum · confident**: "We're pleased with buyer participation in procuring long-haul delivery through the Copart Delivered product." -- Leah Stearns, qa `CPRT_2026_3-S076`
 
 ## Coverage and data quality
-- Business map: curated. 77 management statements analysed (77 usable, 45 shown above); by topic {'momentum': 55, 'competition': 2, 'pressure': 3, 'strategy': 8, 'product': 10}.
+- Business map: curated. 77 management statements analysed (77 usable, 46 shown above); by topic {'momentum': 55, 'competition': 2, 'pressure': 3, 'strategy': 8, 'product': 9}.
 - Commentary but no ledger figures: Purple Wave (heavy equipment), Insurance sellers, Non-insurance sellers (dealers, rental, fleet, finance), Buyer base, Artificial intelligence, Share repurchases, Claims, coverage and total-loss frequency, Fuel, towing and long-haul logistics
-- 6 low-confidence ledger facts were held back from this page: `CPRT_2026_3-002`, `CPRT_2026_3-011`, `CPRT_2026_3-012`, `CPRT_2026_3-015`, `CPRT_2026_3-016`, `CPRT_2026_3-017`
+- 11 low-confidence ledger facts were held back from this page: `CPRT_2026_3-001`, `CPRT_2026_3-002`, `CPRT_2026_3-009`, `CPRT_2026_3-018`, `CPRT_2026_3-019`, `CPRT_2026_3-023`, `CPRT_2026_3-024`, `CPRT_2026_3-031`, `CPRT_2026_3-032`, `CPRT_2026_3-037`, `CPRT_2026_3-038`
 - PASS `signals_verified`: every signal sentence matches the transcript at its offsets and was said by management
 - PASS `no_duplicate_quotes`: each sentence appears once in the snapshot
 - PASS `no_low_confidence_quotes`: no low-confidence signal is shown
 - PASS `trajectory_sources_exist`: every trajectory input resolves to a ledger fact or a signal
 - PASS `total_revenue_consistent`: no conflicting total-company revenue figures in the ledger
 - PASS `segment_registry`: curated business map in use
-- WARN `fact_segments_mapped`: ledger segments missing from the registry (facts not shown per-segment): {'service': 1}
-- WARN `facts_held_back`: 6 low-confidence ledger facts are not shown
+- WARN `fact_segments_mapped`: ledger segments missing from the registry (facts not shown per-segment): {'u.s. insurance': 1, 'conflict, u.s. insurance': 1, 'insurance side': 1, 'copart direct': 1, 'purchased unit': 1, 'service': 1, 'gtv': 1}
+- WARN `facts_held_back`: 11 low-confidence ledger facts are not shown

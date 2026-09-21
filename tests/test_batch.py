@@ -74,6 +74,31 @@ class Symbols(unittest.TestCase):
             self.assertEqual(batch.load_symbols(from_securities=True, securities_csv=f, offset=1, limit=1), ["B"])
 
 
+class LockedFiles(unittest.TestCase):
+    def test_a_csv_open_in_excel_does_not_crash_the_run(self):
+        real_open = Path.open
+
+        def locked(self, *a, **k):
+            if self.name == "scorecard.csv":
+                raise PermissionError(13, "Permission denied")     # what Windows says when Excel holds the file
+            return real_open(self, *a, **k)
+
+        with tempfile.TemporaryDirectory() as d:
+            target = Path(d) / "scorecard.csv"
+            out = io.StringIO()
+            with mock.patch.object(Path, "open", locked), contextlib.redirect_stdout(out):
+                written = batch._write_csv(target, ["a", "b"], [{"a": 1, "b": 2}])
+            self.assertNotEqual(written, target)
+            self.assertTrue(written.exists())
+            self.assertIn("1,2", written.read_text(encoding="utf-8-sig"))
+            self.assertIn("open in another program", out.getvalue())
+
+    def test_an_ordinary_write_returns_the_requested_path(self):
+        with tempfile.TemporaryDirectory() as d:
+            target = Path(d) / "x.csv"
+            self.assertEqual(batch._write_csv(target, ["a"], [{"a": 1}]), target)
+
+
 class AuditStatistics(unittest.TestCase):
     def test_zero_wrong_in_100_is_about_three_percent(self):
         self.assertAlmostEqual(batch.upper_error_bound(100, 0), 1 - 0.05 ** (1 / 100), places=6)      # ~2.95%

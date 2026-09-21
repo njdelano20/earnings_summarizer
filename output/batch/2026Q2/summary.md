@@ -1,10 +1,10 @@
 # Batch 2026Q2
 
-Updated 2026-09-21T15:35. 23 symbols: 20 ok, 3 no_transcript.
+Updated 2026-09-21T15:48. 23 symbols: 20 ok, 3 no_transcript.
 
 - Calls processed: 20; `db_eligible` (recommendation only, nothing is loaded anywhere): 17
-- Facts: 403 (high 260, medium 81, low 62); figures left unclaimed: 964
-- Review queue: 1107 rows in review_queue.csv
+- Facts: 413 (high 268, medium 83, low 62); figures left unclaimed: 953
+- Review queue: 1098 rows in review_queue.csv
 
 ## Needs attention
 
@@ -14,7 +14,7 @@ Updated 2026-09-21T15:35. 23 symbols: 20 ok, 3 no_transcript.
 | COST | 2026Q3 | 15 | 58 | many_unclaimed_figures; no_segment_map |
 | DAL | 2026Q2 | 19 | 48 | period_unchecked; many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 | GE | 2026Q2 | 37 | 90 | many_unclaimed_figures; no_segment_map; assumed_calendar_year |
-| HESM | 2026Q2 | 18 | 15 | gold_fail |
+| HESM | 2026Q2 | 21 | 12 | gold_fail |
 | JPM | 2026Q2 | 13 | 59 | many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 | LLY | 2026Q2 | 16 | 44 | many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 | MCD | 2026Q2 | 13 | 32 | many_unclaimed_figures; no_segment_map; assumed_calendar_year |
@@ -26,7 +26,7 @@ Updated 2026-09-21T15:35. 23 symbols: 20 ok, 3 no_transcript.
 | PLD | 2026Q2 | 2 | 66 | few_facts; many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 | UNH | 2026Q2 | 8 | 59 | many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 | V | 2026Q3 | 27 | 52 | many_unclaimed_figures; no_segment_map |
-| VICI | 2026Q2 | 1 | 20 | few_facts; many_unclaimed_figures; gold_fail |
+| VICI | 2026Q2 | 8 | 12 | gold_fail |
 | VZ | 2026Q2 | 29 | 51 | many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 | XOM | 2026Q2 | 4 | 21 | few_facts; many_unclaimed_figures; no_segment_map; assumed_calendar_year |
 

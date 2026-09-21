@@ -53,19 +53,20 @@
    "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
   },
   "reported_period_label": "second quarter of 2026",
-  "source_file": "HESM_2026Q2.json"
+  "source_file": "HESM_2026Q2.json",
+  "vocabulary_packs": []
  },
  "facts": [
   {
-   "kind": "reported",
+   "kind": "guidance",
    "metric": "free_cash_flow",
    "segment": "total",
-   "stat": "level",
-   "value": 910000000.0,
-   "value_high": 960000000.0,
-   "unit": "USD",
+   "stat": "growth",
+   "value": 20.0,
+   "value_high": null,
+   "unit": "pct",
    "qualifier": null,
-   "basis": null,
+   "basis": "yoy",
    "accounting": "non_gaap",
    "currency_basis": null,
    "descriptor": null,
@@ -74,7 +75,7 @@
    "context_metric": null,
    "context_segment": null,
    "changes": [],
-   "period": "second quarter of 2026",
+   "period": null,
    "speaker": "Jonathan Stein",
    "role": "management",
    "section": "prepared",
@@ -83,9 +84,12 @@
    "sentence": "Hess Midstream remains a leader in shareholder returns, and we reiterate our 2026 adjusted free cash flow guidance of $910 million to $960 million or a 20% increase year-over-year at the midpoint.",
    "ev_start": 2345,
    "ev_end": 2541,
-   "figure_text": "$910 million to $960 million",
-   "confidence": "high",
-   "flags": [],
+   "figure_text": "20%",
+   "confidence": "medium",
+   "flags": [
+    "metric_from_coordinated_figure",
+    "period_unresolved"
+   ],
    "mentions": 1,
    "verified": true,
    "id": "HESM_2026_2-001"
@@ -188,14 +192,14 @@
    "figure_text": "$314 million",
    "confidence": "high",
    "flags": [],
-   "mentions": 2,
+   "mentions": 1,
    "verified": true,
    "id": "HESM_2026_2-004"
   },
   {
    "kind": "reported",
    "metric": "revenue",
-   "segment": "pass-through",
+   "segment": "total",
    "stat": "change",
    "value": 10000000.0,
    "value_high": null,
@@ -220,10 +224,8 @@
    "ev_start": 4555,
    "ev_end": 4813,
    "figure_text": "$10 million",
-   "confidence": "medium",
-   "flags": [
-    "segment_lowercase_phrase"
-   ],
+   "confidence": "high",
+   "flags": [],
    "mentions": 1,
    "verified": true,
    "id": "HESM_2026_2-005"
@@ -231,7 +233,7 @@
   {
    "kind": "reported",
    "metric": "revenue",
-   "segment": "follows gathering",
+   "segment": "gathering",
    "stat": "change",
    "value": 7000000.0,
    "value_high": null,
@@ -300,8 +302,44 @@
   },
   {
    "kind": "reported",
+   "metric": "ebitda",
+   "segment": "gathering",
+   "stat": "level",
+   "value": 314000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter of 2026",
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Total cost and expenses, excluding depreciation and amortization, pass-through costs and net of our proportional share of LM4 earnings decreased by approximately $4 million, primarily due to lower operating expenses with some activity shifting into the second half of the year as well as G&A savings from lower allocations during the quarter, resulting in adjusted EBITDA for the second quarter of 2026 of $314 million.",
+   "ev_start": 4814,
+   "ev_end": 5233,
+   "figure_text": "$314 million",
+   "confidence": "high",
+   "flags": [
+    "segment_from_section"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "HESM_2026_2-008"
+  },
+  {
+   "kind": "reported",
    "metric": "ebitda_margin",
-   "segment": "gross",
+   "segment": "total",
    "stat": "level",
    "value": 85.0,
    "value_high": null,
@@ -326,13 +364,48 @@
    "ev_start": 5234,
    "ev_end": 5410,
    "figure_text": "85%",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "HESM_2026_2-009"
+  },
+  {
+   "kind": "guidance",
+   "metric": "ebitda_margin",
+   "segment": "total",
+   "stat": "level",
+   "value": 75.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": null,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Our gross adjusted EBITDA margin for the second quarter of 2026 was maintained at approximately 85%, above our 75% target, highlighting our continued strong operating leverage.",
+   "ev_start": 5234,
+   "ev_end": 5410,
+   "figure_text": "75%",
    "confidence": "medium",
    "flags": [
-    "segment_lowercase_phrase"
+    "figure_is_target",
+    "period_unresolved"
    ],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-008"
+   "id": "HESM_2026_2-010"
   },
   {
    "kind": "reported",
@@ -366,7 +439,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-009"
+   "id": "HESM_2026_2-011"
   },
   {
    "kind": "reported",
@@ -411,7 +484,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-010"
+   "id": "HESM_2026_2-012"
   },
   {
    "kind": "guidance",
@@ -445,7 +518,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-011"
+   "id": "HESM_2026_2-013"
   },
   {
    "kind": "guidance",
@@ -479,7 +552,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-012"
+   "id": "HESM_2026_2-014"
   },
   {
    "kind": "guidance",
@@ -513,7 +586,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-013"
+   "id": "HESM_2026_2-015"
   },
   {
    "kind": "guidance",
@@ -547,7 +620,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-014"
+   "id": "HESM_2026_2-016"
   },
   {
    "kind": "guidance",
@@ -577,17 +650,15 @@
    "ev_start": 6861,
    "ev_end": 7167,
    "figure_text": "$910 million and $960 million",
-   "confidence": "low",
-   "flags": [
-    "conflict_with_other_value"
-   ],
-   "mentions": 1,
+   "confidence": "high",
+   "flags": [],
+   "mentions": 2,
    "verified": true,
-   "id": "HESM_2026_2-015"
+   "id": "HESM_2026_2-017"
   },
   {
    "kind": "guidance",
-   "metric": "free_cash_flow",
+   "metric": "excess_free_cash_flow",
    "segment": "total",
    "stat": "level",
    "value": 280000000.0,
@@ -613,13 +684,11 @@
    "ev_start": 6861,
    "ev_end": 7167,
    "figure_text": "$280 million",
-   "confidence": "low",
-   "flags": [
-    "conflict_with_other_value"
-   ],
+   "confidence": "high",
+   "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-016"
+   "id": "HESM_2026_2-018"
   },
   {
    "kind": "guidance",
@@ -653,7 +722,7 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-017"
+   "id": "HESM_2026_2-019"
   },
   {
    "kind": "reported",
@@ -698,20 +767,44 @@
    "flags": [],
    "mentions": 1,
    "verified": true,
-   "id": "HESM_2026_2-018"
+   "id": "HESM_2026_2-020"
+  },
+  {
+   "kind": "reported",
+   "metric": "excess_free_cash_flow",
+   "segment": "total",
+   "stat": "level",
+   "value": 280000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "full year",
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "We've guided $280 million of excess adjusted free cash flow for this year as a target, so we have capacity left to do further shareholder returns or debt pay down.",
+   "ev_start": 15398,
+   "ev_end": 15561,
+   "figure_text": "$280 million",
+   "confidence": "medium",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "HESM_2026_2-021"
   }
  ],
  "unclaimed": [
-  {
-   "figure_text": "20%",
-   "reason": "not_tied_to_metric",
-   "sentence": "Hess Midstream remains a leader in shareholder returns, and we reiterate our 2026 adjusted free cash flow guidance of $910 million to $960 million or a 20% increase year-over-year at the midpoint.",
-   "speaker": "Jonathan Stein",
-   "role": "management",
-   "section": "prepared",
-   "turn_index": 2,
-   "ev_start": 2345
-  },
   {
    "figure_text": "$158 million",
    "reason": "not_tied_to_metric",
@@ -741,16 +834,6 @@
    "section": "prepared",
    "turn_index": 3,
    "ev_start": 4814
-  },
-  {
-   "figure_text": "75%",
-   "reason": "not_tied_to_metric",
-   "sentence": "Our gross adjusted EBITDA margin for the second quarter of 2026 was maintained at approximately 85%, above our 75% target, highlighting our continued strong operating leverage.",
-   "speaker": "Michael Chadwick",
-   "role": "management",
-   "section": "prepared",
-   "turn_index": 3,
-   "ev_start": 5234
   },
   {
    "figure_text": "$51 million",
@@ -841,16 +924,6 @@
    "section": "qa",
    "turn_index": 16,
    "ev_start": 14438
-  },
-  {
-   "figure_text": "$280 million",
-   "reason": "not_tied_to_metric",
-   "sentence": "We've guided $280 million of excess adjusted free cash flow for this year as a target, so we have capacity left to do further shareholder returns or debt pay down.",
-   "speaker": "Michael Chadwick",
-   "role": "management",
-   "section": "qa",
-   "turn_index": 18,
-   "ev_start": 15398
   }
  ],
  "checks": [
@@ -871,25 +944,24 @@
   },
   {
    "name": "no_conflicting_values",
-   "status": "warn",
-   "detail": "2 facts share a key with different values"
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
   }
  ],
  "stats": {
-  "facts": 18,
+  "facts": 21,
   "by_kind": {
-   "reported": 11,
-   "guidance": 7
+   "guidance": 9,
+   "reported": 12
   },
   "by_confidence": {
-   "high": 11,
-   "medium": 5,
-   "low": 2
+   "medium": 6,
+   "high": 15
   },
-  "verified": 18,
+  "verified": 21,
   "unverified": 0,
-  "unclaimed_figures": 15,
+  "unclaimed_figures": 12,
   "checks_failed": 0,
-  "checks_warn": 1
+  "checks_warn": 0
  }
 }

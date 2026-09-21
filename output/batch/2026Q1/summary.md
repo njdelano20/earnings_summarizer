@@ -1,16 +1,16 @@
 # Batch 2026Q1
 
-Updated 2026-09-21T15:38. 3 symbols: 2 ok, 1 error.
+Updated 2026-09-21T15:47. 3 symbols: 2 ok, 1 error.
 
 - Calls processed: 2; `db_eligible` (recommendation only, nothing is loaded anywhere): 1
-- Facts: 34 (high 19, medium 5, low 10); figures left unclaimed: 100
-- Review queue: 115 rows in review_queue.csv
+- Facts: 61 (high 33, medium 13, low 15); figures left unclaimed: 73
+- Review queue: 101 rows in review_queue.csv
 
 ## Needs attention
 
 | Symbol | Fiscal | Facts | Unclaimed | Flags |
 |---|---|---|---|---|
-| CPRT | 2026Q3 | 18 | 42 | many_unclaimed_figures; gold_fail |
+| CPRT | 2026Q3 | 45 | 15 | gold_fail |
 | WMT | 2027Q1 | 16 | 58 | many_unclaimed_figures; no_segment_map |
 
 ## Not done

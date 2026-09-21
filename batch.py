@@ -317,11 +317,24 @@ def save_state(folder: Path, state: dict) -> None:
     (folder / "state.json").write_text(json.dumps(state, indent=1, ensure_ascii=False), encoding="utf-8")
 
 
-def _write_csv(path: Path, columns: list[str], rows: list[dict]) -> None:
-    with path.open("w", encoding="utf-8-sig", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=columns, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(rows)
+def _write_csv(path: Path, columns: list[str], rows: list[dict]) -> Path:
+    """Write a CSV. If the file is open in Excel (Windows will not let a second program write it) the run must not die:
+    write a timestamped side copy, say so, and return the path actually written."""
+    def write(target: Path) -> None:
+        with target.open("w", encoding="utf-8-sig", newline="") as fh:
+            writer = csv.DictWriter(fh, fieldnames=columns, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(rows)
+
+    try:
+        write(path)
+        return path
+    except PermissionError:
+        alt = path.with_name(f"{path.stem}.{datetime.now():%H%M%S}{path.suffix}")
+        write(alt)
+        print(f"WARNING: {path.name} is open in another program (Excel?), so this run's results were saved as {alt.name} "
+              f"instead. Close the file and run again to update it.")
+        return alt
 
 
 def _read_csv(path: Path) -> list[dict]:

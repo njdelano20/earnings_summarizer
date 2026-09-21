@@ -81,7 +81,8 @@
    "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
   },
   "reported_period_label": "second quarter",
-  "source_file": "AMD_2026Q2.json"
+  "source_file": "AMD_2026Q2.json",
+  "vocabulary_packs": []
  },
  "headline": [
   {
@@ -338,7 +339,7 @@
    "stance": {
     "confident": 2
    },
-   "n_mentions": 20
+   "n_mentions": 19
   }
  ],
  "company": {
@@ -369,16 +370,16 @@
    "AMD_2026_2-S001",
    "AMD_2026_2-S002",
    "AMD_2026_2-S004",
+   "AMD_2026_2-S070",
    "AMD_2026_2-S071",
    "AMD_2026_2-S072",
-   "AMD_2026_2-S073",
-   "AMD_2026_2-S076",
-   "AMD_2026_2-S078",
+   "AMD_2026_2-S075",
+   "AMD_2026_2-S077",
+   "AMD_2026_2-S089",
    "AMD_2026_2-S090",
-   "AMD_2026_2-S091",
-   "AMD_2026_2-S111",
-   "AMD_2026_2-S143",
-   "AMD_2026_2-S149"
+   "AMD_2026_2-S110",
+   "AMD_2026_2-S142",
+   "AMD_2026_2-S148"
   ],
   "trajectory": [
    "total:revenue",
@@ -407,10 +408,10 @@
     "AMD_2026_2-S039",
     "AMD_2026_2-S043",
     "AMD_2026_2-S046",
-    "AMD_2026_2-S069",
-    "AMD_2026_2-S092",
-    "AMD_2026_2-S097",
-    "AMD_2026_2-S117"
+    "AMD_2026_2-S068",
+    "AMD_2026_2-S091",
+    "AMD_2026_2-S096",
+    "AMD_2026_2-S116"
    ],
    "n_home_signals": 21,
    "n_mentions": 18,
@@ -435,8 +436,8 @@
     "AMD_2026_2-S014",
     "AMD_2026_2-S015",
     "AMD_2026_2-S016",
-    "AMD_2026_2-S141",
-    "AMD_2026_2-S166"
+    "AMD_2026_2-S140",
+    "AMD_2026_2-S165"
    ],
    "n_home_signals": 26,
    "n_mentions": 38,
@@ -458,9 +459,9 @@
    "signal_ids": [
     "AMD_2026_2-S034",
     "AMD_2026_2-S044",
-    "AMD_2026_2-S153",
-    "AMD_2026_2-S159",
-    "AMD_2026_2-S171"
+    "AMD_2026_2-S152",
+    "AMD_2026_2-S158",
+    "AMD_2026_2-S170"
    ],
    "n_home_signals": 20,
    "n_mentions": 30,
@@ -486,8 +487,8 @@
    "signal_ids": [
     "AMD_2026_2-S047",
     "AMD_2026_2-S057",
-    "AMD_2026_2-S086",
-    "AMD_2026_2-S094"
+    "AMD_2026_2-S085",
+    "AMD_2026_2-S093"
    ],
    "n_home_signals": 6,
    "n_mentions": 5,
@@ -509,8 +510,8 @@
     "AMD_2026_2-S050",
     "AMD_2026_2-S054",
     "AMD_2026_2-S055",
-    "AMD_2026_2-S146",
-    "AMD_2026_2-S147"
+    "AMD_2026_2-S145",
+    "AMD_2026_2-S146"
    ],
    "n_home_signals": 15,
    "n_mentions": 22,
@@ -535,7 +536,7 @@
    ],
    "signal_ids": [
     "AMD_2026_2-S056",
-    "AMD_2026_2-S085"
+    "AMD_2026_2-S084"
    ],
    "n_home_signals": 3,
    "n_mentions": 7,
@@ -558,17 +559,17 @@
     "AMD_2026_2-039"
    ],
    "signal_ids": [
-    "AMD_2026_2-S058",
-    "AMD_2026_2-S059",
-    "AMD_2026_2-S061",
+    "AMD_2026_2-S060",
+    "AMD_2026_2-S063",
     "AMD_2026_2-S064",
+    "AMD_2026_2-S065",
     "AMD_2026_2-S066",
-    "AMD_2026_2-S067",
-    "AMD_2026_2-S088",
-    "AMD_2026_2-S108"
+    "AMD_2026_2-S086",
+    "AMD_2026_2-S087",
+    "AMD_2026_2-S107"
    ],
-   "n_home_signals": 14,
-   "n_mentions": 20,
+   "n_home_signals": 13,
+   "n_mentions": 19,
    "stance": {
     "confident": 2
    },
@@ -585,10 +586,10 @@
     "AMD_2026_2-S020",
     "AMD_2026_2-S021",
     "AMD_2026_2-S029",
-    "AMD_2026_2-S103",
-    "AMD_2026_2-S133",
-    "AMD_2026_2-S158",
-    "AMD_2026_2-S162"
+    "AMD_2026_2-S102",
+    "AMD_2026_2-S132",
+    "AMD_2026_2-S157",
+    "AMD_2026_2-S161"
    ],
    "n_home_signals": 14,
    "n_mentions": 21,
@@ -625,7 +626,7 @@
     "AMD_2026_2-S022",
     "AMD_2026_2-S026",
     "AMD_2026_2-S038",
-    "AMD_2026_2-S175"
+    "AMD_2026_2-S174"
    ],
    "n_home_signals": 6,
    "n_mentions": 8,
@@ -640,12 +641,12 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
-    "AMD_2026_2-S112",
-    "AMD_2026_2-S122",
+    "AMD_2026_2-S111",
+    "AMD_2026_2-S121",
+    "AMD_2026_2-S125",
     "AMD_2026_2-S126",
-    "AMD_2026_2-S127",
-    "AMD_2026_2-S161",
-    "AMD_2026_2-S170"
+    "AMD_2026_2-S160",
+    "AMD_2026_2-S169"
    ],
    "n_home_signals": 7,
    "n_mentions": 13,
@@ -663,8 +664,8 @@
    "fact_ids": [],
    "signal_ids": [
     "AMD_2026_2-S040",
-    "AMD_2026_2-S119",
-    "AMD_2026_2-S176"
+    "AMD_2026_2-S118",
+    "AMD_2026_2-S175"
    ],
    "n_home_signals": 4,
    "n_mentions": 8,
@@ -878,25 +879,25 @@
    }
   },
   "notable_confident": [
-   "AMD_2026_2-S104",
-   "AMD_2026_2-S141",
-   "AMD_2026_2-S146",
-   "AMD_2026_2-S107"
+   "AMD_2026_2-S103",
+   "AMD_2026_2-S140",
+   "AMD_2026_2-S145",
+   "AMD_2026_2-S106"
   ],
   "notable_cautious": [
-   "AMD_2026_2-S147",
-   "AMD_2026_2-S169",
-   "AMD_2026_2-S124",
-   "AMD_2026_2-S157",
-   "AMD_2026_2-S131"
+   "AMD_2026_2-S146",
+   "AMD_2026_2-S168",
+   "AMD_2026_2-S123",
+   "AMD_2026_2-S156",
+   "AMD_2026_2-S130"
   ],
   "withheld": [],
   "revisions": [
    "AMD_2026_2-S041",
    "AMD_2026_2-S045",
    "AMD_2026_2-S046",
-   "AMD_2026_2-S071",
-   "AMD_2026_2-S072"
+   "AMD_2026_2-S070",
+   "AMD_2026_2-S071"
   ]
  },
  "signals": [
@@ -3262,40 +3263,6 @@
   {
    "id": "AMD_2026_2-S058",
    "topics": [
-    "product"
-   ],
-   "horizon": "current",
-   "direction": "neutral",
-   "stance": null,
-   "withheld": false,
-   "revision": null,
-   "segments": [
-    "embedded"
-   ],
-   "home": "embedded",
-   "fact_ids": [],
-   "guided": null,
-   "cues": {
-    "product": [
-     "embedded"
-    ]
-   },
-   "score": 3.22,
-   "speaker": "Dr. Lisa Su",
-   "role": "management",
-   "section": "prepared",
-   "turn_index": 2,
-   "sentence_index": 67,
-   "sentence": "Turning to our Embedded segment.",
-   "ev_start": 12585,
-   "ev_end": 12617,
-   "confidence": "high",
-   "flags": [],
-   "verified": true
-  },
-  {
-   "id": "AMD_2026_2-S059",
-   "topics": [
     "momentum"
    ],
    "horizon": "current",
@@ -3338,7 +3305,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S060",
+   "id": "AMD_2026_2-S059",
    "topics": [
     "momentum"
    ],
@@ -3374,7 +3341,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S061",
+   "id": "AMD_2026_2-S060",
    "topics": [
     "product",
     "momentum"
@@ -3417,7 +3384,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S062",
+   "id": "AMD_2026_2-S061",
    "topics": [
     "product"
    ],
@@ -3456,7 +3423,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S063",
+   "id": "AMD_2026_2-S062",
    "topics": [
     "product"
    ],
@@ -3490,7 +3457,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S064",
+   "id": "AMD_2026_2-S063",
    "topics": [
     "competition",
     "product"
@@ -3534,7 +3501,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S065",
+   "id": "AMD_2026_2-S064",
    "topics": [
     "momentum"
    ],
@@ -3572,7 +3539,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S066",
+   "id": "AMD_2026_2-S065",
    "topics": [
     "momentum"
    ],
@@ -3611,7 +3578,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S067",
+   "id": "AMD_2026_2-S066",
    "topics": [
     "product",
     "momentum"
@@ -3660,7 +3627,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S068",
+   "id": "AMD_2026_2-S067",
    "topics": [
     "momentum"
    ],
@@ -3699,7 +3666,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S069",
+   "id": "AMD_2026_2-S068",
    "topics": [
     "competition",
     "product",
@@ -3748,7 +3715,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S070",
+   "id": "AMD_2026_2-S069",
    "topics": [
     "strategy"
    ],
@@ -3786,7 +3753,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S071",
+   "id": "AMD_2026_2-S070",
    "topics": [
     "momentum"
    ],
@@ -3830,7 +3797,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S072",
+   "id": "AMD_2026_2-S071",
    "topics": [
     "momentum"
    ],
@@ -3879,7 +3846,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S073",
+   "id": "AMD_2026_2-S072",
    "topics": [
     "product"
    ],
@@ -3911,7 +3878,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S074",
+   "id": "AMD_2026_2-S073",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -3942,7 +3909,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S075",
+   "id": "AMD_2026_2-S074",
    "topics": [
     "momentum"
    ],
@@ -3983,7 +3950,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S076",
+   "id": "AMD_2026_2-S075",
    "topics": [
     "momentum"
    ],
@@ -4022,7 +3989,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S077",
+   "id": "AMD_2026_2-S076",
    "topics": [
     "momentum"
    ],
@@ -4065,7 +4032,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S078",
+   "id": "AMD_2026_2-S077",
    "topics": [
     "strategy"
    ],
@@ -4100,7 +4067,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S079",
+   "id": "AMD_2026_2-S078",
    "topics": [
     "momentum"
    ],
@@ -4138,7 +4105,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S080",
+   "id": "AMD_2026_2-S079",
    "topics": [
     "momentum"
    ],
@@ -4179,7 +4146,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S081",
+   "id": "AMD_2026_2-S080",
    "topics": [
     "product",
     "momentum"
@@ -4222,7 +4189,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S082",
+   "id": "AMD_2026_2-S081",
    "topics": [
     "momentum"
    ],
@@ -4259,7 +4226,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S083",
+   "id": "AMD_2026_2-S082",
    "topics": [
     "momentum"
    ],
@@ -4298,7 +4265,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S084",
+   "id": "AMD_2026_2-S083",
    "topics": [
     "momentum"
    ],
@@ -4335,7 +4302,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S085",
+   "id": "AMD_2026_2-S084",
    "topics": [
     "momentum"
    ],
@@ -4375,7 +4342,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S086",
+   "id": "AMD_2026_2-S085",
    "topics": [
     "momentum",
     "strategy"
@@ -4418,7 +4385,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S087",
+   "id": "AMD_2026_2-S086",
    "topics": [
     "product",
     "momentum"
@@ -4461,7 +4428,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S088",
+   "id": "AMD_2026_2-S087",
    "topics": [
     "momentum",
     "product"
@@ -4504,7 +4471,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S089",
+   "id": "AMD_2026_2-S088",
    "topics": [
     "momentum"
    ],
@@ -4541,7 +4508,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S090",
+   "id": "AMD_2026_2-S089",
    "topics": [
     "strategy"
    ],
@@ -4575,7 +4542,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S091",
+   "id": "AMD_2026_2-S090",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -4610,7 +4577,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S092",
+   "id": "AMD_2026_2-S091",
    "topics": [
     "momentum"
    ],
@@ -4660,7 +4627,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S093",
+   "id": "AMD_2026_2-S092",
    "topics": [
     "momentum",
     "product"
@@ -4713,7 +4680,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S094",
+   "id": "AMD_2026_2-S093",
    "topics": [
     "momentum",
     "product"
@@ -4785,7 +4752,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S095",
+   "id": "AMD_2026_2-S094",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -4817,7 +4784,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S096",
+   "id": "AMD_2026_2-S095",
    "topics": [
     "momentum"
    ],
@@ -4858,7 +4825,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S097",
+   "id": "AMD_2026_2-S096",
    "topics": [
     "momentum"
    ],
@@ -4910,7 +4877,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S098",
+   "id": "AMD_2026_2-S097",
    "topics": [
     "momentum"
    ],
@@ -4950,7 +4917,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S099",
+   "id": "AMD_2026_2-S098",
    "topics": [
     "momentum"
    ],
@@ -4988,7 +4955,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S100",
+   "id": "AMD_2026_2-S099",
    "topics": [
     "momentum"
    ],
@@ -5028,7 +4995,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S101",
+   "id": "AMD_2026_2-S100",
    "topics": [
     "momentum"
    ],
@@ -5065,7 +5032,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S102",
+   "id": "AMD_2026_2-S101",
    "topics": [
     "momentum"
    ],
@@ -5103,7 +5070,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S103",
+   "id": "AMD_2026_2-S102",
    "topics": [
     "product"
    ],
@@ -5140,7 +5107,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S104",
+   "id": "AMD_2026_2-S103",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -5173,7 +5140,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S105",
+   "id": "AMD_2026_2-S104",
    "topics": [
     "strategy",
     "momentum"
@@ -5217,7 +5184,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S106",
+   "id": "AMD_2026_2-S105",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -5249,7 +5216,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S107",
+   "id": "AMD_2026_2-S106",
    "topics": [
     "product",
     "momentum"
@@ -5279,7 +5246,7 @@
      "feel good about"
     ]
    },
-   "score": 3.72,
+   "score": 3.5,
    "speaker": "Jean Hu",
    "role": "management",
    "section": "qa",
@@ -5293,7 +5260,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S108",
+   "id": "AMD_2026_2-S107",
    "topics": [
     "product",
     "momentum"
@@ -5323,7 +5290,7 @@
      "margin"
     ]
    },
-   "score": 5.22,
+   "score": 5.0,
    "speaker": "Jean Hu",
    "role": "management",
    "section": "qa",
@@ -5337,7 +5304,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S109",
+   "id": "AMD_2026_2-S108",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -5371,7 +5338,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S110",
+   "id": "AMD_2026_2-S109",
    "topics": [
     "momentum"
    ],
@@ -5412,7 +5379,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S111",
+   "id": "AMD_2026_2-S110",
    "topics": [
     "momentum"
    ],
@@ -5448,7 +5415,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S112",
+   "id": "AMD_2026_2-S111",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -5480,7 +5447,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S113",
+   "id": "AMD_2026_2-S112",
    "topics": [
     "momentum"
    ],
@@ -5517,7 +5484,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S114",
+   "id": "AMD_2026_2-S113",
    "topics": [
     "momentum"
    ],
@@ -5555,7 +5522,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S115",
+   "id": "AMD_2026_2-S114",
    "topics": [
     "product",
     "momentum"
@@ -5604,7 +5571,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S116",
+   "id": "AMD_2026_2-S115",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -5636,7 +5603,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S117",
+   "id": "AMD_2026_2-S116",
    "topics": [
     "product"
    ],
@@ -5676,7 +5643,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S118",
+   "id": "AMD_2026_2-S117",
    "topics": [
     "momentum"
    ],
@@ -5713,7 +5680,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S119",
+   "id": "AMD_2026_2-S118",
    "topics": [
     "momentum"
    ],
@@ -5754,7 +5721,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S120",
+   "id": "AMD_2026_2-S119",
    "topics": [
     "momentum"
    ],
@@ -5796,7 +5763,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S121",
+   "id": "AMD_2026_2-S120",
    "topics": [
     "momentum"
    ],
@@ -5838,7 +5805,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S122",
+   "id": "AMD_2026_2-S121",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -5870,7 +5837,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S123",
+   "id": "AMD_2026_2-S122",
    "topics": [
     "product"
    ],
@@ -5907,7 +5874,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S124",
+   "id": "AMD_2026_2-S123",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -5939,7 +5906,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S125",
+   "id": "AMD_2026_2-S124",
    "topics": [
     "momentum"
    ],
@@ -5976,7 +5943,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S126",
+   "id": "AMD_2026_2-S125",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -6008,7 +5975,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S127",
+   "id": "AMD_2026_2-S126",
    "topics": [
     "competition"
    ],
@@ -6042,7 +6009,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S128",
+   "id": "AMD_2026_2-S127",
    "topics": [
     "momentum"
    ],
@@ -6082,7 +6049,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S129",
+   "id": "AMD_2026_2-S128",
    "topics": [
     "momentum"
    ],
@@ -6117,7 +6084,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S130",
+   "id": "AMD_2026_2-S129",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -6149,7 +6116,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S131",
+   "id": "AMD_2026_2-S130",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -6181,7 +6148,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S132",
+   "id": "AMD_2026_2-S131",
    "topics": [
     "product"
    ],
@@ -6215,7 +6182,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S133",
+   "id": "AMD_2026_2-S132",
    "topics": [
     "product"
    ],
@@ -6249,7 +6216,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S134",
+   "id": "AMD_2026_2-S133",
    "topics": [
     "product"
    ],
@@ -6286,7 +6253,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S135",
+   "id": "AMD_2026_2-S134",
    "topics": [
     "momentum"
    ],
@@ -6323,7 +6290,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S136",
+   "id": "AMD_2026_2-S135",
    "topics": [
     "momentum"
    ],
@@ -6364,7 +6331,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S137",
+   "id": "AMD_2026_2-S136",
    "topics": [
     "momentum"
    ],
@@ -6402,7 +6369,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S138",
+   "id": "AMD_2026_2-S137",
    "topics": [
     "momentum"
    ],
@@ -6440,7 +6407,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S139",
+   "id": "AMD_2026_2-S138",
    "topics": [
     "momentum"
    ],
@@ -6475,7 +6442,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S140",
+   "id": "AMD_2026_2-S139",
    "topics": [
     "product"
    ],
@@ -6512,7 +6479,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S141",
+   "id": "AMD_2026_2-S140",
    "topics": [
     "competition",
     "momentum"
@@ -6558,7 +6525,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S142",
+   "id": "AMD_2026_2-S141",
    "topics": [
     "momentum"
    ],
@@ -6593,7 +6560,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S143",
+   "id": "AMD_2026_2-S142",
    "topics": [
     "momentum"
    ],
@@ -6637,7 +6604,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S144",
+   "id": "AMD_2026_2-S143",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -6670,7 +6637,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S145",
+   "id": "AMD_2026_2-S144",
    "topics": [
     "momentum"
    ],
@@ -6705,7 +6672,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S146",
+   "id": "AMD_2026_2-S145",
    "topics": [
     "competition",
     "momentum"
@@ -6749,7 +6716,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S147",
+   "id": "AMD_2026_2-S146",
    "topics": [
     "pressure"
    ],
@@ -6787,7 +6754,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S148",
+   "id": "AMD_2026_2-S147",
    "topics": [
     "momentum"
    ],
@@ -6822,7 +6789,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S149",
+   "id": "AMD_2026_2-S148",
    "topics": [
     "momentum"
    ],
@@ -6860,7 +6827,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S150",
+   "id": "AMD_2026_2-S149",
    "topics": [
     "momentum"
    ],
@@ -6910,7 +6877,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S151",
+   "id": "AMD_2026_2-S150",
    "topics": [
     "momentum"
    ],
@@ -6945,7 +6912,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S152",
+   "id": "AMD_2026_2-S151",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -6977,7 +6944,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S153",
+   "id": "AMD_2026_2-S152",
    "topics": [
     "product",
     "momentum"
@@ -7022,7 +6989,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S154",
+   "id": "AMD_2026_2-S153",
    "topics": [
     "product"
    ],
@@ -7056,7 +7023,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S155",
+   "id": "AMD_2026_2-S154",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -7086,7 +7053,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S156",
+   "id": "AMD_2026_2-S155",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -7116,7 +7083,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S157",
+   "id": "AMD_2026_2-S156",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -7148,7 +7115,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S158",
+   "id": "AMD_2026_2-S157",
    "topics": [
     "product"
    ],
@@ -7183,7 +7150,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S159",
+   "id": "AMD_2026_2-S158",
    "topics": [
     "momentum"
    ],
@@ -7221,7 +7188,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S160",
+   "id": "AMD_2026_2-S159",
    "topics": [
     "momentum"
    ],
@@ -7258,7 +7225,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S161",
+   "id": "AMD_2026_2-S160",
    "topics": [
     "momentum"
    ],
@@ -7296,7 +7263,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S162",
+   "id": "AMD_2026_2-S161",
    "topics": [
     "product",
     "momentum"
@@ -7340,7 +7307,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S163",
+   "id": "AMD_2026_2-S162",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -7372,7 +7339,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S164",
+   "id": "AMD_2026_2-S163",
    "topics": [
     "momentum"
    ],
@@ -7410,7 +7377,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S165",
+   "id": "AMD_2026_2-S164",
    "topics": [
     "product",
     "momentum"
@@ -7452,7 +7419,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S166",
+   "id": "AMD_2026_2-S165",
    "topics": [
     "pressure",
     "momentum"
@@ -7494,7 +7461,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S167",
+   "id": "AMD_2026_2-S166",
    "topics": [
     "momentum"
    ],
@@ -7533,7 +7500,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S168",
+   "id": "AMD_2026_2-S167",
    "topics": [],
    "horizon": "current",
    "direction": "neutral",
@@ -7567,7 +7534,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S169",
+   "id": "AMD_2026_2-S168",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -7604,7 +7571,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S170",
+   "id": "AMD_2026_2-S169",
    "topics": [
     "momentum"
    ],
@@ -7641,7 +7608,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S171",
+   "id": "AMD_2026_2-S170",
    "topics": [
     "momentum"
    ],
@@ -7679,7 +7646,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S172",
+   "id": "AMD_2026_2-S171",
    "topics": [
     "momentum"
    ],
@@ -7719,7 +7686,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S173",
+   "id": "AMD_2026_2-S172",
    "topics": [
     "product"
    ],
@@ -7753,7 +7720,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S174",
+   "id": "AMD_2026_2-S173",
    "topics": [
     "product"
    ],
@@ -7788,7 +7755,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S175",
+   "id": "AMD_2026_2-S174",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -7820,7 +7787,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S176",
+   "id": "AMD_2026_2-S175",
    "topics": [
     "momentum"
    ],
@@ -7858,7 +7825,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S177",
+   "id": "AMD_2026_2-S176",
    "topics": [
     "strategy"
    ],
@@ -7890,7 +7857,7 @@
    "verified": true
   },
   {
-   "id": "AMD_2026_2-S178",
+   "id": "AMD_2026_2-S177",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -7929,77 +7896,77 @@
   "AMD_2026_2-S039",
   "AMD_2026_2-S043",
   "AMD_2026_2-S046",
-  "AMD_2026_2-S069",
-  "AMD_2026_2-S092",
-  "AMD_2026_2-S097",
-  "AMD_2026_2-S117",
+  "AMD_2026_2-S068",
+  "AMD_2026_2-S091",
+  "AMD_2026_2-S096",
+  "AMD_2026_2-S116",
   "AMD_2026_2-S008",
   "AMD_2026_2-S014",
   "AMD_2026_2-S015",
   "AMD_2026_2-S016",
-  "AMD_2026_2-S141",
-  "AMD_2026_2-S166",
+  "AMD_2026_2-S140",
+  "AMD_2026_2-S165",
   "AMD_2026_2-S034",
   "AMD_2026_2-S044",
-  "AMD_2026_2-S153",
-  "AMD_2026_2-S159",
-  "AMD_2026_2-S171",
+  "AMD_2026_2-S152",
+  "AMD_2026_2-S158",
+  "AMD_2026_2-S170",
   "AMD_2026_2-S047",
   "AMD_2026_2-S057",
-  "AMD_2026_2-S086",
-  "AMD_2026_2-S094",
+  "AMD_2026_2-S085",
+  "AMD_2026_2-S093",
   "AMD_2026_2-S048",
   "AMD_2026_2-S050",
   "AMD_2026_2-S054",
   "AMD_2026_2-S055",
+  "AMD_2026_2-S145",
   "AMD_2026_2-S146",
-  "AMD_2026_2-S147",
   "AMD_2026_2-S056",
-  "AMD_2026_2-S085",
-  "AMD_2026_2-S058",
-  "AMD_2026_2-S059",
-  "AMD_2026_2-S061",
+  "AMD_2026_2-S084",
+  "AMD_2026_2-S060",
+  "AMD_2026_2-S063",
   "AMD_2026_2-S064",
+  "AMD_2026_2-S065",
   "AMD_2026_2-S066",
-  "AMD_2026_2-S067",
-  "AMD_2026_2-S088",
-  "AMD_2026_2-S108",
+  "AMD_2026_2-S086",
+  "AMD_2026_2-S087",
+  "AMD_2026_2-S107",
   "AMD_2026_2-S020",
   "AMD_2026_2-S021",
   "AMD_2026_2-S029",
-  "AMD_2026_2-S103",
-  "AMD_2026_2-S133",
-  "AMD_2026_2-S158",
-  "AMD_2026_2-S162",
+  "AMD_2026_2-S102",
+  "AMD_2026_2-S132",
+  "AMD_2026_2-S157",
+  "AMD_2026_2-S161",
   "AMD_2026_2-S033",
   "AMD_2026_2-S035",
   "AMD_2026_2-S037",
   "AMD_2026_2-S022",
   "AMD_2026_2-S026",
   "AMD_2026_2-S038",
-  "AMD_2026_2-S175",
-  "AMD_2026_2-S112",
-  "AMD_2026_2-S122",
+  "AMD_2026_2-S174",
+  "AMD_2026_2-S111",
+  "AMD_2026_2-S121",
+  "AMD_2026_2-S125",
   "AMD_2026_2-S126",
-  "AMD_2026_2-S127",
-  "AMD_2026_2-S161",
-  "AMD_2026_2-S170",
+  "AMD_2026_2-S160",
+  "AMD_2026_2-S169",
   "AMD_2026_2-S040",
-  "AMD_2026_2-S119",
-  "AMD_2026_2-S176",
+  "AMD_2026_2-S118",
+  "AMD_2026_2-S175",
   "AMD_2026_2-S001",
   "AMD_2026_2-S002",
   "AMD_2026_2-S004",
+  "AMD_2026_2-S070",
   "AMD_2026_2-S071",
   "AMD_2026_2-S072",
-  "AMD_2026_2-S073",
-  "AMD_2026_2-S076",
-  "AMD_2026_2-S078",
+  "AMD_2026_2-S075",
+  "AMD_2026_2-S077",
+  "AMD_2026_2-S089",
   "AMD_2026_2-S090",
-  "AMD_2026_2-S091",
-  "AMD_2026_2-S111",
-  "AMD_2026_2-S143",
-  "AMD_2026_2-S149"
+  "AMD_2026_2-S110",
+  "AMD_2026_2-S142",
+  "AMD_2026_2-S148"
  ],
  "surfaced_signal_ids": [
   "AMD_2026_2-S006",
@@ -8008,83 +7975,83 @@
   "AMD_2026_2-S039",
   "AMD_2026_2-S043",
   "AMD_2026_2-S046",
-  "AMD_2026_2-S069",
-  "AMD_2026_2-S092",
-  "AMD_2026_2-S097",
-  "AMD_2026_2-S117",
+  "AMD_2026_2-S068",
+  "AMD_2026_2-S091",
+  "AMD_2026_2-S096",
+  "AMD_2026_2-S116",
   "AMD_2026_2-S008",
   "AMD_2026_2-S014",
   "AMD_2026_2-S015",
   "AMD_2026_2-S016",
-  "AMD_2026_2-S141",
-  "AMD_2026_2-S166",
+  "AMD_2026_2-S140",
+  "AMD_2026_2-S165",
   "AMD_2026_2-S034",
   "AMD_2026_2-S044",
-  "AMD_2026_2-S153",
-  "AMD_2026_2-S159",
-  "AMD_2026_2-S171",
+  "AMD_2026_2-S152",
+  "AMD_2026_2-S158",
+  "AMD_2026_2-S170",
   "AMD_2026_2-S047",
   "AMD_2026_2-S057",
-  "AMD_2026_2-S086",
-  "AMD_2026_2-S094",
+  "AMD_2026_2-S085",
+  "AMD_2026_2-S093",
   "AMD_2026_2-S048",
   "AMD_2026_2-S050",
   "AMD_2026_2-S054",
   "AMD_2026_2-S055",
+  "AMD_2026_2-S145",
   "AMD_2026_2-S146",
-  "AMD_2026_2-S147",
   "AMD_2026_2-S056",
-  "AMD_2026_2-S085",
-  "AMD_2026_2-S058",
-  "AMD_2026_2-S059",
-  "AMD_2026_2-S061",
+  "AMD_2026_2-S084",
+  "AMD_2026_2-S060",
+  "AMD_2026_2-S063",
   "AMD_2026_2-S064",
+  "AMD_2026_2-S065",
   "AMD_2026_2-S066",
-  "AMD_2026_2-S067",
-  "AMD_2026_2-S088",
-  "AMD_2026_2-S108",
+  "AMD_2026_2-S086",
+  "AMD_2026_2-S087",
+  "AMD_2026_2-S107",
   "AMD_2026_2-S020",
   "AMD_2026_2-S021",
   "AMD_2026_2-S029",
-  "AMD_2026_2-S103",
-  "AMD_2026_2-S133",
-  "AMD_2026_2-S158",
-  "AMD_2026_2-S162",
+  "AMD_2026_2-S102",
+  "AMD_2026_2-S132",
+  "AMD_2026_2-S157",
+  "AMD_2026_2-S161",
   "AMD_2026_2-S033",
   "AMD_2026_2-S035",
   "AMD_2026_2-S037",
   "AMD_2026_2-S022",
   "AMD_2026_2-S026",
   "AMD_2026_2-S038",
-  "AMD_2026_2-S175",
-  "AMD_2026_2-S112",
-  "AMD_2026_2-S122",
+  "AMD_2026_2-S174",
+  "AMD_2026_2-S111",
+  "AMD_2026_2-S121",
+  "AMD_2026_2-S125",
   "AMD_2026_2-S126",
-  "AMD_2026_2-S127",
-  "AMD_2026_2-S161",
-  "AMD_2026_2-S170",
+  "AMD_2026_2-S160",
+  "AMD_2026_2-S169",
   "AMD_2026_2-S040",
-  "AMD_2026_2-S119",
-  "AMD_2026_2-S176",
+  "AMD_2026_2-S118",
+  "AMD_2026_2-S175",
   "AMD_2026_2-S001",
   "AMD_2026_2-S002",
   "AMD_2026_2-S004",
+  "AMD_2026_2-S070",
   "AMD_2026_2-S071",
   "AMD_2026_2-S072",
-  "AMD_2026_2-S073",
-  "AMD_2026_2-S076",
-  "AMD_2026_2-S078",
+  "AMD_2026_2-S075",
+  "AMD_2026_2-S077",
+  "AMD_2026_2-S089",
   "AMD_2026_2-S090",
-  "AMD_2026_2-S091",
-  "AMD_2026_2-S111",
-  "AMD_2026_2-S143",
-  "AMD_2026_2-S149",
-  "AMD_2026_2-S104",
-  "AMD_2026_2-S107",
-  "AMD_2026_2-S169",
-  "AMD_2026_2-S124",
-  "AMD_2026_2-S157",
-  "AMD_2026_2-S131",
+  "AMD_2026_2-S110",
+  "AMD_2026_2-S142",
+  "AMD_2026_2-S148",
+  "AMD_2026_2-S103",
+  "AMD_2026_2-S106",
+  "AMD_2026_2-S168",
+  "AMD_2026_2-S123",
+  "AMD_2026_2-S156",
+  "AMD_2026_2-S130",
   "AMD_2026_2-S041",
   "AMD_2026_2-S045"
  ],
@@ -8155,18 +8122,18 @@
   }
  ],
  "stats": {
-  "signals": 178,
-  "signals_usable": 178,
+  "signals": 177,
+  "signals_usable": 177,
   "selected": 77,
   "by_topic": {
-   "product": 65,
+   "product": 64,
    "momentum": 114,
    "competition": 11,
    "pressure": 5,
    "strategy": 6
   },
   "by_horizon": {
-   "current": 124,
+   "current": 123,
    "forward": 54
   },
   "trajectory_rows": 6,

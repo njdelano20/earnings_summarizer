@@ -81,7 +81,8 @@
    "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
   },
   "reported_period_label": "second quarter",
-  "source_file": "AMD_2026Q2.json"
+  "source_file": "AMD_2026Q2.json",
+  "vocabulary_packs": []
  },
  "facts": [
   {

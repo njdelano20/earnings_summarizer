@@ -53,14 +53,15 @@
    "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
   },
   "reported_period_label": "second quarter of 2026",
-  "source_file": "HESM_2026Q2.json"
+  "source_file": "HESM_2026Q2.json",
+  "vocabulary_packs": []
  },
  "headline": [
   {
    "kind": "result",
-   "text": "Free cash flow $910M to $960M",
+   "text": "Free cash flow approximately $232M (-2%)",
    "fact_ids": [
-    "HESM_2026_2-001"
+    "HESM_2026_2-012"
    ]
   },
   {
@@ -84,7 +85,7 @@
    "gross_margin": null,
    "outlook": {
     "direction": "flat",
-    "source": "HESM_2026_2-S006",
+    "source": "HESM_2026_2-S005",
     "delta_pp": null,
     "guided_lo": null,
     "guided_hi": null,
@@ -102,7 +103,7 @@
    "gross_margin": null,
    "outlook": null,
    "stance": {},
-   "n_mentions": 1
+   "n_mentions": 2
   },
   {
    "node": "processing",
@@ -118,30 +119,34 @@
  ],
  "company": {
   "fact_ids": [
+   "HESM_2026_2-005",
    "HESM_2026_2-004",
    "HESM_2026_2-003",
-   "HESM_2026_2-010",
-   "HESM_2026_2-001",
-   "HESM_2026_2-018",
+   "HESM_2026_2-012",
+   "HESM_2026_2-020",
+   "HESM_2026_2-021",
    "HESM_2026_2-002",
    "HESM_2026_2-009",
-   "HESM_2026_2-017",
+   "HESM_2026_2-011",
+   "HESM_2026_2-019",
+   "HESM_2026_2-016",
    "HESM_2026_2-014",
-   "HESM_2026_2-012",
+   "HESM_2026_2-015",
    "HESM_2026_2-013",
-   "HESM_2026_2-011"
+   "HESM_2026_2-001",
+   "HESM_2026_2-017",
+   "HESM_2026_2-010",
+   "HESM_2026_2-018"
   ],
   "signal_ids": [
-   "HESM_2026_2-S001",
-   "HESM_2026_2-S003",
-   "HESM_2026_2-S013",
-   "HESM_2026_2-S018",
-   "HESM_2026_2-S020",
-   "HESM_2026_2-S024",
+   "HESM_2026_2-S002",
+   "HESM_2026_2-S012",
+   "HESM_2026_2-S017",
+   "HESM_2026_2-S019",
+   "HESM_2026_2-S023",
+   "HESM_2026_2-S033",
    "HESM_2026_2-S034",
-   "HESM_2026_2-S035",
-   "HESM_2026_2-S036",
-   "HESM_2026_2-S037"
+   "HESM_2026_2-S035"
   ],
   "trajectory": [
    "total:revenue"
@@ -154,12 +159,15 @@
    "dimension": "segment",
    "parent": null,
    "depth": 0,
-   "fact_ids": [],
+   "fact_ids": [
+    "HESM_2026_2-006",
+    "HESM_2026_2-008"
+   ],
    "signal_ids": [
-    "HESM_2026_2-S007"
+    "HESM_2026_2-S006"
    ],
    "n_home_signals": 1,
-   "n_mentions": 1,
+   "n_mentions": 2,
    "stance": {},
    "trajectory": []
   },
@@ -173,8 +181,8 @@
     "HESM_2026_2-007"
    ],
    "signal_ids": [
-    "HESM_2026_2-S002",
-    "HESM_2026_2-S011"
+    "HESM_2026_2-S001",
+    "HESM_2026_2-S010"
    ],
    "n_home_signals": 2,
    "n_mentions": 2,
@@ -215,10 +223,10 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
-    "HESM_2026_2-S023",
-    "HESM_2026_2-S031",
-    "HESM_2026_2-S033",
-    "HESM_2026_2-S039"
+    "HESM_2026_2-S022",
+    "HESM_2026_2-S030",
+    "HESM_2026_2-S032",
+    "HESM_2026_2-S037"
    ],
    "n_home_signals": 4,
    "n_mentions": 4,
@@ -235,12 +243,12 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
+    "HESM_2026_2-S003",
     "HESM_2026_2-S004",
-    "HESM_2026_2-S005",
-    "HESM_2026_2-S009",
+    "HESM_2026_2-S008",
+    "HESM_2026_2-S036",
     "HESM_2026_2-S038",
-    "HESM_2026_2-S040",
-    "HESM_2026_2-S041"
+    "HESM_2026_2-S039"
    ],
    "n_home_signals": 7,
    "n_mentions": 8,
@@ -257,8 +265,8 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
-    "HESM_2026_2-S008",
-    "HESM_2026_2-S016"
+    "HESM_2026_2-S007",
+    "HESM_2026_2-S015"
    ],
    "n_home_signals": 2,
    "n_mentions": 3,
@@ -273,10 +281,10 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
-    "HESM_2026_2-S006",
-    "HESM_2026_2-S015",
-    "HESM_2026_2-S026",
-    "HESM_2026_2-S030"
+    "HESM_2026_2-S005",
+    "HESM_2026_2-S014",
+    "HESM_2026_2-S028",
+    "HESM_2026_2-S029"
    ],
    "n_home_signals": 6,
    "n_mentions": 9,
@@ -293,10 +301,10 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
-    "HESM_2026_2-S022",
+    "HESM_2026_2-S021",
+    "HESM_2026_2-S026",
     "HESM_2026_2-S027",
-    "HESM_2026_2-S028",
-    "HESM_2026_2-S032"
+    "HESM_2026_2-S031"
    ],
    "n_home_signals": 7,
    "n_mentions": 12,
@@ -311,9 +319,9 @@
    "depth": 0,
    "fact_ids": [],
    "signal_ids": [
-    "HESM_2026_2-S012",
-    "HESM_2026_2-S014",
-    "HESM_2026_2-S042"
+    "HESM_2026_2-S011",
+    "HESM_2026_2-S013",
+    "HESM_2026_2-S040"
    ],
    "n_home_signals": 3,
    "n_mentions": 9,
@@ -335,7 +343,7 @@
     "descriptor": null,
     "period": null,
     "source": "signal_text",
-    "id": "HESM_2026_2-S006",
+    "id": "HESM_2026_2-S005",
     "direction_word": "flat",
     "text": "Consistent with our annual guidance, we continue to expect volumes to grow in the second half of the year.",
     "confidence": "medium"
@@ -374,58 +382,22 @@
    }
   },
   "notable_confident": [
-   "HESM_2026_2-S037"
+   "HESM_2026_2-S035"
   ],
   "notable_cautious": [
-   "HESM_2026_2-S033",
-   "HESM_2026_2-S041"
+   "HESM_2026_2-S032",
+   "HESM_2026_2-S039"
   ],
   "withheld": [],
   "revisions": [
-   "HESM_2026_2-S006",
-   "HESM_2026_2-S017",
-   "HESM_2026_2-S018"
+   "HESM_2026_2-S005",
+   "HESM_2026_2-S016",
+   "HESM_2026_2-S017"
   ]
  },
  "signals": [
   {
    "id": "HESM_2026_2-S001",
-   "topics": [
-    "product"
-   ],
-   "horizon": "forward",
-   "direction": "neutral",
-   "stance": null,
-   "withheld": false,
-   "revision": null,
-   "segments": [],
-   "home": null,
-   "fact_ids": [],
-   "guided": null,
-   "cues": {
-    "forward": [
-     "i will",
-     "outlook"
-    ],
-    "product": [
-     "review"
-    ]
-   },
-   "score": 4.22,
-   "speaker": "Jonathan Stein",
-   "role": "management",
-   "section": "prepared",
-   "turn_index": 2,
-   "sentence_index": 2,
-   "sentence": "Today, I will discuss our second quarter performance and outlook for the remainder of the year, and then I'll hand the call over to Mike to review our financials.",
-   "ev_start": 1527,
-   "ev_end": 1689,
-   "confidence": "high",
-   "flags": [],
-   "verified": true
-  },
-  {
-   "id": "HESM_2026_2-S002",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -458,7 +430,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S003",
+   "id": "HESM_2026_2-S002",
    "topics": [
     "strategy"
    ],
@@ -493,7 +465,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S004",
+   "id": "HESM_2026_2-S003",
    "topics": [
     "strategy"
    ],
@@ -528,7 +500,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S005",
+   "id": "HESM_2026_2-S004",
    "topics": [
     "strategy"
    ],
@@ -551,9 +523,12 @@
     ],
     "node_topic": [
      "shareholder_returns:strategy"
+    ],
+    "guidance_figure": [
+     "ledger"
     ]
    },
-   "score": 4.5,
+   "score": 6.0,
    "speaker": "Jonathan Stein",
    "role": "management",
    "section": "prepared",
@@ -567,7 +542,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S006",
+   "id": "HESM_2026_2-S005",
    "topics": [
     "momentum"
    ],
@@ -621,7 +596,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S007",
+   "id": "HESM_2026_2-S006",
    "topics": [
     "momentum",
     "pressure"
@@ -663,7 +638,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S008",
+   "id": "HESM_2026_2-S007",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -695,7 +670,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S009",
+   "id": "HESM_2026_2-S008",
    "topics": [
     "competition",
     "strategy",
@@ -743,7 +718,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S010",
+   "id": "HESM_2026_2-S009",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -775,7 +750,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S011",
+   "id": "HESM_2026_2-S010",
    "topics": [
     "momentum"
    ],
@@ -786,10 +761,13 @@
    "revision": null,
    "segments": [
     "processing",
-    "opex_maintenance"
+    "opex_maintenance",
+    "gathering"
    ],
    "home": "processing",
-   "fact_ids": [],
+   "fact_ids": [
+    "HESM_2026_2-008"
+   ],
    "guided": null,
    "cues": {
     "negative": [
@@ -804,7 +782,7 @@
      "ebitda"
     ]
    },
-   "score": 5.11,
+   "score": 5.61,
    "speaker": "Michael Chadwick",
    "role": "management",
    "section": "prepared",
@@ -814,11 +792,13 @@
    "ev_start": 4814,
    "ev_end": 5233,
    "confidence": "high",
-   "flags": [],
+   "flags": [
+    "segment_from_fact"
+   ],
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S012",
+   "id": "HESM_2026_2-S011",
    "topics": [
     "momentum"
    ],
@@ -832,7 +812,8 @@
    ],
    "home": "leverage_debt",
    "fact_ids": [
-    "HESM_2026_2-008"
+    "HESM_2026_2-009",
+    "HESM_2026_2-010"
    ],
    "guided": null,
    "cues": {
@@ -858,7 +839,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S013",
+   "id": "HESM_2026_2-S012",
    "topics": [
     "momentum"
    ],
@@ -870,7 +851,7 @@
    "segments": [],
    "home": null,
    "fact_ids": [
-    "HESM_2026_2-010"
+    "HESM_2026_2-012"
    ],
    "guided": null,
    "cues": {
@@ -896,7 +877,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S014",
+   "id": "HESM_2026_2-S013",
    "topics": [
     "momentum"
    ],
@@ -933,7 +914,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S015",
+   "id": "HESM_2026_2-S014",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -946,8 +927,8 @@
    ],
    "home": "volumes",
    "fact_ids": [
-    "HESM_2026_2-011",
-    "HESM_2026_2-012"
+    "HESM_2026_2-013",
+    "HESM_2026_2-014"
    ],
    "guided": null,
    "cues": {
@@ -972,7 +953,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S016",
+   "id": "HESM_2026_2-S015",
    "topics": [
     "momentum"
    ],
@@ -1013,7 +994,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S017",
+   "id": "HESM_2026_2-S016",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1049,7 +1030,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S018",
+   "id": "HESM_2026_2-S017",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1059,8 +1040,8 @@
    "segments": [],
    "home": null,
    "fact_ids": [
-    "HESM_2026_2-013",
-    "HESM_2026_2-014"
+    "HESM_2026_2-015",
+    "HESM_2026_2-016"
    ],
    "guided": null,
    "cues": {
@@ -1089,7 +1070,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S019",
+   "id": "HESM_2026_2-S018",
    "topics": [
     "strategy"
    ],
@@ -1104,8 +1085,8 @@
    ],
    "home": "shareholder_returns",
    "fact_ids": [
-    "HESM_2026_2-015",
-    "HESM_2026_2-016"
+    "HESM_2026_2-017",
+    "HESM_2026_2-018"
    ],
    "guided": null,
    "cues": {
@@ -1114,9 +1095,12 @@
     ],
     "node_topic": [
      "shareholder_returns:strategy"
+    ],
+    "guidance_figure": [
+     "ledger"
     ]
    },
-   "score": 3.5,
+   "score": 5.0,
    "speaker": "Michael Chadwick",
    "role": "management",
    "section": "prepared",
@@ -1130,7 +1114,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S020",
+   "id": "HESM_2026_2-S019",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1162,7 +1146,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S021",
+   "id": "HESM_2026_2-S020",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1194,7 +1178,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S022",
+   "id": "HESM_2026_2-S021",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1227,7 +1211,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S023",
+   "id": "HESM_2026_2-S022",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1260,7 +1244,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S024",
+   "id": "HESM_2026_2-S023",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1292,7 +1276,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S025",
+   "id": "HESM_2026_2-S024",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1325,7 +1309,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S026",
+   "id": "HESM_2026_2-S025",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1343,7 +1327,7 @@
      "second half"
     ]
    },
-   "score": 2.22,
+   "score": 2.0,
    "speaker": "Jonathan Stein",
    "role": "management",
    "section": "qa",
@@ -1357,7 +1341,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S027",
+   "id": "HESM_2026_2-S026",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1375,7 +1359,7 @@
      "is going to"
     ]
    },
-   "score": 2.11,
+   "score": 1.89,
    "speaker": "Jonathan Stein",
    "role": "management",
    "section": "qa",
@@ -1389,7 +1373,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S028",
+   "id": "HESM_2026_2-S027",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1401,7 +1385,7 @@
    ],
    "home": "opex_maintenance",
    "fact_ids": [
-    "HESM_2026_2-017"
+    "HESM_2026_2-019"
    ],
    "guided": null,
    "cues": {
@@ -1425,7 +1409,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S029",
+   "id": "HESM_2026_2-S028",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1458,7 +1442,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S030",
+   "id": "HESM_2026_2-S029",
    "topics": [
     "strategy"
    ],
@@ -1492,7 +1476,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S031",
+   "id": "HESM_2026_2-S030",
    "topics": [
     "pressure",
     "momentum"
@@ -1548,7 +1532,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S032",
+   "id": "HESM_2026_2-S031",
    "topics": [
     "strategy"
    ],
@@ -1583,7 +1567,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S033",
+   "id": "HESM_2026_2-S032",
    "topics": [
     "product",
     "strategy"
@@ -1628,7 +1612,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S034",
+   "id": "HESM_2026_2-S033",
    "topics": [
     "strategy"
    ],
@@ -1660,42 +1644,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S035",
-   "topics": [
-    "momentum"
-   ],
-   "horizon": "current",
-   "direction": "positive",
-   "stance": null,
-   "withheld": false,
-   "revision": null,
-   "segments": [],
-   "home": null,
-   "fact_ids": [],
-   "guided": null,
-   "cues": {
-    "positive": [
-     "strong"
-    ],
-    "performance": [
-     "margin"
-    ]
-   },
-   "score": 2.5,
-   "speaker": "Michael Chadwick",
-   "role": "management",
-   "section": "qa",
-   "turn_index": 16,
-   "sentence_index": 0,
-   "sentence": "I'm glad you noticed the strong performance on our margin.",
-   "ev_start": 13877,
-   "ev_end": 13935,
-   "confidence": "medium",
-   "flags": [],
-   "verified": true
-  },
-  {
-   "id": "HESM_2026_2-S036",
+   "id": "HESM_2026_2-S034",
    "topics": [
     "momentum"
    ],
@@ -1733,7 +1682,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S037",
+   "id": "HESM_2026_2-S035",
    "topics": [
     "momentum"
    ],
@@ -1771,7 +1720,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S038",
+   "id": "HESM_2026_2-S036",
    "topics": [
     "strategy"
    ],
@@ -1809,7 +1758,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S039",
+   "id": "HESM_2026_2-S037",
    "topics": [
     "strategy"
    ],
@@ -1825,7 +1774,7 @@
    ],
    "home": "chevron",
    "fact_ids": [
-    "HESM_2026_2-018"
+    "HESM_2026_2-020"
    ],
    "guided": null,
    "cues": {
@@ -1847,7 +1796,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S040",
+   "id": "HESM_2026_2-S038",
    "topics": [
     "strategy"
    ],
@@ -1861,14 +1810,16 @@
     "leverage_debt"
    ],
    "home": "shareholder_returns",
-   "fact_ids": [],
+   "fact_ids": [
+    "HESM_2026_2-021"
+   ],
    "guided": null,
    "cues": {
     "node_topic": [
      "shareholder_returns:strategy"
     ]
    },
-   "score": 3.0,
+   "score": 3.5,
    "speaker": "Michael Chadwick",
    "role": "management",
    "section": "qa",
@@ -1882,7 +1833,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S041",
+   "id": "HESM_2026_2-S039",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1919,7 +1870,7 @@
    "verified": true
   },
   {
-   "id": "HESM_2026_2-S042",
+   "id": "HESM_2026_2-S040",
    "topics": [],
    "horizon": "forward",
    "direction": "neutral",
@@ -1952,81 +1903,77 @@
   }
  ],
  "selected_signal_ids": [
-  "HESM_2026_2-S007",
-  "HESM_2026_2-S002",
-  "HESM_2026_2-S011",
-  "HESM_2026_2-S023",
-  "HESM_2026_2-S031",
-  "HESM_2026_2-S033",
-  "HESM_2026_2-S039",
-  "HESM_2026_2-S004",
-  "HESM_2026_2-S005",
-  "HESM_2026_2-S009",
-  "HESM_2026_2-S038",
-  "HESM_2026_2-S040",
-  "HESM_2026_2-S041",
-  "HESM_2026_2-S008",
-  "HESM_2026_2-S016",
   "HESM_2026_2-S006",
-  "HESM_2026_2-S015",
-  "HESM_2026_2-S026",
-  "HESM_2026_2-S030",
-  "HESM_2026_2-S022",
-  "HESM_2026_2-S027",
-  "HESM_2026_2-S028",
-  "HESM_2026_2-S032",
-  "HESM_2026_2-S012",
-  "HESM_2026_2-S014",
-  "HESM_2026_2-S042",
   "HESM_2026_2-S001",
+  "HESM_2026_2-S010",
+  "HESM_2026_2-S022",
+  "HESM_2026_2-S030",
+  "HESM_2026_2-S032",
+  "HESM_2026_2-S037",
   "HESM_2026_2-S003",
-  "HESM_2026_2-S013",
-  "HESM_2026_2-S018",
-  "HESM_2026_2-S020",
-  "HESM_2026_2-S024",
-  "HESM_2026_2-S034",
-  "HESM_2026_2-S035",
+  "HESM_2026_2-S004",
+  "HESM_2026_2-S008",
   "HESM_2026_2-S036",
-  "HESM_2026_2-S037"
+  "HESM_2026_2-S038",
+  "HESM_2026_2-S039",
+  "HESM_2026_2-S007",
+  "HESM_2026_2-S015",
+  "HESM_2026_2-S005",
+  "HESM_2026_2-S014",
+  "HESM_2026_2-S028",
+  "HESM_2026_2-S029",
+  "HESM_2026_2-S021",
+  "HESM_2026_2-S026",
+  "HESM_2026_2-S027",
+  "HESM_2026_2-S031",
+  "HESM_2026_2-S011",
+  "HESM_2026_2-S013",
+  "HESM_2026_2-S040",
+  "HESM_2026_2-S002",
+  "HESM_2026_2-S012",
+  "HESM_2026_2-S017",
+  "HESM_2026_2-S019",
+  "HESM_2026_2-S023",
+  "HESM_2026_2-S033",
+  "HESM_2026_2-S034",
+  "HESM_2026_2-S035"
  ],
  "surfaced_signal_ids": [
-  "HESM_2026_2-S007",
-  "HESM_2026_2-S002",
-  "HESM_2026_2-S011",
-  "HESM_2026_2-S023",
-  "HESM_2026_2-S031",
-  "HESM_2026_2-S033",
-  "HESM_2026_2-S039",
-  "HESM_2026_2-S004",
-  "HESM_2026_2-S005",
-  "HESM_2026_2-S009",
-  "HESM_2026_2-S038",
-  "HESM_2026_2-S040",
-  "HESM_2026_2-S041",
-  "HESM_2026_2-S008",
-  "HESM_2026_2-S016",
   "HESM_2026_2-S006",
-  "HESM_2026_2-S015",
-  "HESM_2026_2-S026",
-  "HESM_2026_2-S030",
-  "HESM_2026_2-S022",
-  "HESM_2026_2-S027",
-  "HESM_2026_2-S028",
-  "HESM_2026_2-S032",
-  "HESM_2026_2-S012",
-  "HESM_2026_2-S014",
-  "HESM_2026_2-S042",
   "HESM_2026_2-S001",
+  "HESM_2026_2-S010",
+  "HESM_2026_2-S022",
+  "HESM_2026_2-S030",
+  "HESM_2026_2-S032",
+  "HESM_2026_2-S037",
   "HESM_2026_2-S003",
+  "HESM_2026_2-S004",
+  "HESM_2026_2-S008",
+  "HESM_2026_2-S036",
+  "HESM_2026_2-S038",
+  "HESM_2026_2-S039",
+  "HESM_2026_2-S007",
+  "HESM_2026_2-S015",
+  "HESM_2026_2-S005",
+  "HESM_2026_2-S014",
+  "HESM_2026_2-S028",
+  "HESM_2026_2-S029",
+  "HESM_2026_2-S021",
+  "HESM_2026_2-S026",
+  "HESM_2026_2-S027",
+  "HESM_2026_2-S031",
+  "HESM_2026_2-S011",
   "HESM_2026_2-S013",
-  "HESM_2026_2-S018",
-  "HESM_2026_2-S020",
-  "HESM_2026_2-S024",
+  "HESM_2026_2-S040",
+  "HESM_2026_2-S002",
+  "HESM_2026_2-S012",
+  "HESM_2026_2-S017",
+  "HESM_2026_2-S019",
+  "HESM_2026_2-S023",
+  "HESM_2026_2-S033",
   "HESM_2026_2-S034",
   "HESM_2026_2-S035",
-  "HESM_2026_2-S036",
-  "HESM_2026_2-S037",
-  "HESM_2026_2-S017"
+  "HESM_2026_2-S016"
  ],
  "coverage": {
   "registry": "curated",
@@ -2046,7 +1993,6 @@
   ],
   "facts_without_commentary": [],
   "commentary_without_facts": [
-   "gathering",
    "chevron",
    "shareholder_returns",
    "capital_program",
@@ -2054,15 +2000,8 @@
    "opex_maintenance",
    "leverage_debt"
   ],
-  "unmapped_fact_segments": {
-   "pass-through": 1,
-   "follows gathering": 1,
-   "gross": 1
-  },
-  "held_back_low_confidence_facts": [
-   "HESM_2026_2-015",
-   "HESM_2026_2-016"
-  ]
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
  },
  "checks": [
   {
@@ -2097,33 +2036,28 @@
   },
   {
    "name": "fact_segments_mapped",
-   "status": "warn",
-   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'pass-through': 1, 'follows gathering': 1, 'gross': 1}"
-  },
-  {
-   "name": "facts_held_back",
-   "status": "warn",
-   "detail": "2 low-confidence ledger facts are not shown"
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
   }
  ],
  "stats": {
-  "signals": 42,
-  "signals_usable": 42,
-  "selected": 36,
+  "signals": 40,
+  "signals_usable": 40,
+  "selected": 34,
   "by_topic": {
-   "product": 2,
    "strategy": 12,
-   "momentum": 12,
+   "momentum": 11,
    "pressure": 2,
-   "competition": 1
+   "competition": 1,
+   "product": 1
   },
   "by_horizon": {
-   "forward": 27,
-   "current": 15
+   "forward": 26,
+   "current": 14
   },
   "trajectory_rows": 1,
   "blocks_with_content": 8,
   "checks_failed": 0,
-  "checks_warn": 2
+  "checks_warn": 0
  }
 }

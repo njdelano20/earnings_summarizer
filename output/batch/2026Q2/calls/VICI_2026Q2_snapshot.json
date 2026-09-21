@@ -1,0 +1,3545 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "VICI",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "VICI",
+  "from_cache": true,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed: calendar-year company",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Samantha Gallagher",
+    "role": "management"
+   },
+   {
+    "name": "Edward Pitoniak",
+    "role": "management"
+   },
+   {
+    "name": "John Payne",
+    "role": "management"
+   },
+   {
+    "name": "David Kieske",
+    "role": "management"
+   },
+   {
+    "name": "Jeremy",
+    "role": "analyst"
+   },
+   {
+    "name": "Caitlin Burrows",
+    "role": "analyst"
+   },
+   {
+    "name": "Greg McGinniss",
+    "role": "analyst"
+   },
+   {
+    "name": "John DeCree",
+    "role": "analyst"
+   },
+   {
+    "name": "Chris Darling",
+    "role": "analyst"
+   },
+   {
+    "name": "Gabe Wasserman",
+    "role": "management"
+   },
+   {
+    "name": "David Katz",
+    "role": "analyst"
+   },
+   {
+    "name": "Daniel Guglielmo",
+    "role": "analyst"
+   },
+   {
+    "name": "Aaron Furey",
+    "role": "management"
+   },
+   {
+    "name": "Jenny",
+    "role": "analyst"
+   },
+   {
+    "name": "Todd Thomas",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "VICI_2026Q2.json"
+ },
+ "headline": [
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.14",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "las_vegas",
+   "name": "Las Vegas",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 8
+  },
+  {
+   "node": "regional_gaming",
+   "name": "Regional gaming",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 7
+  },
+  {
+   "node": "experiential",
+   "name": "Experiential (Club Med and other leisure)",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 19
+  },
+  {
+   "node": "credit_loans",
+   "name": "Loan book and credit quality",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "VICI_2026_2-001"
+  ],
+  "signal_ids": [
+   "VICI_2026_2-S001",
+   "VICI_2026_2-S002",
+   "VICI_2026_2-S006",
+   "VICI_2026_2-S009",
+   "VICI_2026_2-S013",
+   "VICI_2026_2-S015",
+   "VICI_2026_2-S023",
+   "VICI_2026_2-S034",
+   "VICI_2026_2-S044",
+   "VICI_2026_2-S046",
+   "VICI_2026_2-S062",
+   "VICI_2026_2-S066",
+   "VICI_2026_2-S067",
+   "VICI_2026_2-S079",
+   "VICI_2026_2-S080",
+   "VICI_2026_2-S081"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "las_vegas",
+   "name": "Las Vegas",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S030",
+    "VICI_2026_2-S031",
+    "VICI_2026_2-S032",
+    "VICI_2026_2-S041",
+    "VICI_2026_2-S048",
+    "VICI_2026_2-S049",
+    "VICI_2026_2-S053",
+    "VICI_2026_2-S054"
+   ],
+   "n_home_signals": 8,
+   "n_mentions": 8,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "regional_gaming",
+   "name": "Regional gaming",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S027",
+    "VICI_2026_2-S036",
+    "VICI_2026_2-S037",
+    "VICI_2026_2-S038",
+    "VICI_2026_2-S069",
+    "VICI_2026_2-S070"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 7,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "experiential",
+   "name": "Experiential (Club Med and other leisure)",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S007",
+    "VICI_2026_2-S010",
+    "VICI_2026_2-S014",
+    "VICI_2026_2-S017",
+    "VICI_2026_2-S018",
+    "VICI_2026_2-S019",
+    "VICI_2026_2-S024",
+    "VICI_2026_2-S025",
+    "VICI_2026_2-S028",
+    "VICI_2026_2-S051",
+    "VICI_2026_2-S074"
+   ],
+   "n_home_signals": 18,
+   "n_mentions": 19,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "credit_loans",
+   "name": "Loan book and credit quality",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S033",
+    "VICI_2026_2-S064",
+    "VICI_2026_2-S072",
+    "VICI_2026_2-S075",
+    "VICI_2026_2-S076",
+    "VICI_2026_2-S077"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "canada",
+   "name": "Canada",
+   "dimension": "geography",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S029",
+    "VICI_2026_2-S073"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "tenants",
+   "name": "Tenants and partners",
+   "dimension": "customer",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S039",
+    "VICI_2026_2-S042",
+    "VICI_2026_2-S043",
+    "VICI_2026_2-S078"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 11,
+   "stance": {
+    "confident": 1,
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "acquisitions",
+   "name": "Acquisitions and new investments",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S035"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 8,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "capital_allocation",
+   "name": "Capital allocation (buybacks vs investment)",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S052",
+    "VICI_2026_2-S055",
+    "VICI_2026_2-S058"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 5,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "sports_nba",
+   "name": "Sports infrastructure and NBA arena",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S063"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "balance_sheet",
+   "name": "Balance sheet, leverage and liquidity",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S005"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "private_operators",
+   "name": "Shift of operators to private ownership",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "VICI_2026_2-S056",
+    "VICI_2026_2-S057"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 2,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 8,
+    "cautious": 6,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.14
+   }
+  },
+  "speakers": {
+   "Edward Pitoniak": {
+    "confident": 4,
+    "cautious": 3
+   },
+   "John Payne": {
+    "confident": 6,
+    "cautious": 2
+   },
+   "Samantha Gallagher": {
+    "cautious": 1
+   }
+  },
+  "notable_confident": [
+   "VICI_2026_2-S018",
+   "VICI_2026_2-S055",
+   "VICI_2026_2-S053",
+   "VICI_2026_2-S019"
+  ],
+  "notable_cautious": [
+   "VICI_2026_2-S062",
+   "VICI_2026_2-S079",
+   "VICI_2026_2-S080",
+   "VICI_2026_2-S081",
+   "VICI_2026_2-S065"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "VICI_2026_2-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Samantha Gallagher",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 1,
+   "sentence": "Everyone should have access to the company's second quarter 2026 earnings release and supplemental information.",
+   "ev_start": 426,
+   "ev_end": 537,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Samantha Gallagher",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 2,
+   "sentence": "The release and supplemental information can be found in the Investors section of the VICI Properties website at http://www.viciproperties.com.",
+   "ev_start": 538,
+   "ev_end": 681,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S003",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Samantha Gallagher",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 9,
+   "sentence": "A reconciliation of these measures to the most directly comparable GAAP measure is available on our website, in our second quarter 2026 earnings release, in our supplemental information, and in our filings with the SEC.",
+   "ev_start": 1599,
+   "ev_end": 1818,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S004",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "releases"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "And for the analysts on the call, we are especially grateful for your presence today because we know that yesterday after market, you dealt with an absolute flood of earnings releases in your coverage areas.",
+   "ev_start": 2593,
+   "ev_end": 2800,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S005",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "balance_sheet"
+   ],
+   "home": "balance_sheet",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "in the next",
+     "outlook",
+     "guidance"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "In the next few minutes, you will hear from John Payne on our growth outlook and activities and from David Kieske on our financial results, liquidity, and updated 2026 earnings guidance.",
+   "ev_start": 2823,
+   "ev_end": 3009,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "growing"
+    ],
+    "performance": [
+     "grow",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "You have heard us say before, frequently, we grow our business by growing our relationships, by growing new relationships and growing the scale of existing relationships.",
+   "ev_start": 3143,
+   "ev_end": 3313,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S007",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential",
+    "acquisitions"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "investment",
+     "acquired"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Today, I would like to take you deeper inside our approach to relationship building, and to do that, I will tell you the story of our new relationship with Club Med, which we announced back in June with the news of our investment in St. Croix, where we have acquired the Carambola Beach Resort.",
+   "ev_start": 3314,
+   "ev_end": 3608,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S008",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 2.42,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "This is a leisure and hospitality company we have been courting for partnerships since just about the birth of VICI.",
+   "ev_start": 4207,
+   "ev_end": 4323,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S009",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "not been able"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "pressure": [
+     "not been able to"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "To date, we have not been able to find the right opportunity with them, though, to be sure, we will not stop trying.",
+   "ev_start": 4324,
+   "ev_end": 4440,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "In 2025, Club Med asked this unnamed company who they, Club Med, might partner with for financing of the St. Croix opportunity they were pursuing.",
+   "ev_start": 4559,
+   "ev_end": 4705,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S011",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "When we commence a conversation with a potential new partner, we are not in sales mode.",
+   "ev_start": 4895,
+   "ev_end": 4982,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S012",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "With Club Med, John, Aaron, Matt Perkins, and other members of the VICI team set about seeking to understand Club Med's needs - financial, strategic, and cultural needs - not only in St. Croix, but into the future that Club Med envisions for itself.",
+   "ev_start": 5008,
+   "ev_end": 5257,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest",
+     "grow"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "This is an approach that takes time, but we believe in this approach that leads to the strongest foundations upon which to grow together.",
+   "ev_start": 5258,
+   "ev_end": 5395,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S014",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential",
+    "acquisitions"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced",
+     "new partnership"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "When we first announced our new partnership with Club Med and our acquisition of the St. Croix property, the reaction from some was, sort of, a small deal.",
+   "ev_start": 5491,
+   "ev_end": 5646,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S015",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low-single-digit"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "First of all, the total projected investment of $75 million into one property is pretty meaningful by net lease standards, given that the typical net lease property tends to cost low-single-digit millions.",
+   "ev_start": 5701,
+   "ev_end": 5906,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S016",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "partner"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Secondly, and to reemphasize the point, when we make a first investment with a new partner, we are highly focused on the foundation we are building for potential future investment.",
+   "ev_start": 5907,
+   "ev_end": 6087,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Two weeks ago, a number of us on the VICI team experienced this strong foundation when we joined our Club Med partners on the North Shore of St. Croix for what Club Med calls its first-stone ceremony.",
+   "ev_start": 6088,
+   "ev_end": 6288,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "new partnership"
+    ],
+    "confident": [
+     "proud",
+     "excited"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "What I witnessed on St. Croix made me proud of the new partnership we have created with Club Med and excited for what, together, we will contribute to St. Croix's competitiveness as an experiential destination.",
+   "ev_start": 7035,
+   "ev_end": 7245,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "And with Club Med having a stated goal of growing its portfolio of destinations from 60 to 100 over the next few years, I am hopeful and excited that VICI will find ways to be supportive of and participative in that growth.",
+   "ev_start": 7380,
+   "ev_end": 7603,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "grow",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "If we do, it is because we will continue to grow our relationship with Club Med, with that growth relying on our working every day to understand and better serve their needs, which is what we strive to do with every one of our growth partners.",
+   "ev_start": 7604,
+   "ev_end": 7847,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S021",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "You just heard Edward tell the story of how our Club Med relationship came to be, and I will simply add two things.",
+   "ev_start": 7953,
+   "ev_end": 8068,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "First, for our business development team, a partnership like this one is the payoff of years of patient relationship building.",
+   "ev_start": 8069,
+   "ev_end": 8195,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "It is the way we like to grow.",
+   "ev_start": 8196,
+   "ev_end": 8226,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S024",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential",
+    "acquisitions"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment",
+     "acquisition"
+    ]
+   },
+   "score": 2.92,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Second, the transaction itself marks several firsts for VICI: our first build-to-suit investment and our first property acquisition in the Caribbean.",
+   "ev_start": 8227,
+   "ev_end": 8376,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S025",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "acquisitions",
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "At closing, we funded the $20.3 million acquisition of the Carambola Beach Resort, and we will fund Club Med's approximately $55 million redevelopment of the resort, which Club Med will operate under its premium Exclusive Collection brand following a targeted opening in the fourth quarter of 2027.",
+   "ev_start": 8377,
+   "ev_end": 8675,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "As Ed said, we look forward to growing with Club Med for years to come.",
+   "ev_start": 8676,
+   "ev_end": 8747,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S027",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "acquisitions",
+    "tenants",
+    "regional_gaming",
+    "canada"
+   ],
+   "home": "regional_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "During the quarter, we also brought several previously announced transactions across the finish line: the closing of our $1.16 billion Golden Entertainment sale-leaseback, the commencement of our new lease with Clairvest at Northfield Park, and the completion of the acquisition of the Gamehost real estate in Alberta for approximately C$200 million alongside our existing partners at PURE.",
+   "ev_start": 8748,
+   "ev_end": 9138,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S028",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants",
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnering"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 4.23,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "This tenant growth was achieved by partnering with experienced and tenured operators, from Clairvest's two decades of investing across 37 gaming assets, to Blake Sartini's more than 30 years operating in the Nevada gaming landscape, to Club Med's 75 years of all-inclusive operating experience.",
+   "ev_start": 9293,
+   "ev_end": 9587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S029",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "acquisitions",
+    "canada"
+   ],
+   "home": "canada",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "acquisitions:strategy"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "And the closing of the Gamehost transaction reflects the other side of that same discipline: our capital continuing to serve the growth of partners already on our roster.",
+   "ev_start": 9588,
+   "ev_end": 9758,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S030",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "las_vegas"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "ahead"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "On a year-to-date basis, Strip gaming revenue is running ahead of last year, with room rates continuing to demonstrate the pricing power of this market.",
+   "ev_start": 9868,
+   "ev_end": 10020,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S031",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "las_vegas"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "This is a powerful validation of the convention infrastructure our operators continue to invest in and of the nearly 6 million square feet of conference, convention, and trade show space VICI owns on the Strip.",
+   "ev_start": 10902,
+   "ev_end": 11112,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants",
+    "las_vegas",
+    "regional_gaming",
+    "experiential"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.05,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "This quarter, we got better: three tenured and experienced tenants added to our roster, a new market in Las Vegas locals, a new geography and partner in the Caribbean, and continued growth with partners we know well.",
+   "ev_start": 11185,
+   "ev_end": 11401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "balance_sheet",
+    "credit_loans"
+   ],
+   "home": "credit_loans",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "As of June 30, 2026, we have approximately $2.5 billion in total liquidity, comprising $288 million in cash and $2.2 billion of availability under our revolving credit facility.",
+   "ev_start": 12144,
+   "ev_end": 12321,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 3"
+    ],
+    "forward": [
+     "guidance",
+     "expects"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "Based on the midpoint of our raised 2026 guidance, VICI expects to deliver year-over-year AFFO-per-share growth of 3.4%.",
+   "ev_start": 12722,
+   "ev_end": 12842,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S035",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "acquisitions"
+   ],
+   "home": "acquisitions",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance",
+     "future"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "As a reminder, our guidance does not include the impact on operating results from any pending acquisitions without announced expected closing dates, possible future acquisitions or dispositions and related capital markets activity, or other nonrecurring transactions or items.",
+   "ev_start": 12843,
+   "ev_end": 13119,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S036",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "regional_gaming"
+   ],
+   "home": "regional_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "I will talk a little bit about regional gaming right now.",
+   "ev_start": 13726,
+   "ev_end": 13783,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "regional_gaming"
+   ],
+   "home": "regional_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "It is very exciting to see the innovation that is happening around slot product right now that is helping to drive growth in the regional markets.",
+   "ev_start": 14063,
+   "ev_end": 14209,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S038",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "regional_gaming"
+   ],
+   "home": "regional_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to",
+     "we will"
+    ],
+    "product": [
+     "announcement"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 9,
+   "sentence": "As it pertains to the Churchill announcement that they are going to be selling their regional gaming portfolio, there are some assets in their portfolio that I am sure we will take a look at that would be a nice addition to our portfolio.",
+   "ev_start": 14210,
+   "ev_end": 14448,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S039",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants"
+   ],
+   "home": "tenants",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 10,
+   "sentence": "I know there are some of our current tenants that are interested in those assets, and we will continue to better understand the opportunities there.",
+   "ev_start": 14449,
+   "ev_end": 14597,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S040",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 1,
+   "sentence": "It is very common across the net lease universe, and it is something that we are excited about.",
+   "ev_start": 14759,
+   "ev_end": 14854,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants",
+    "las_vegas",
+    "sports_nba"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.55,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 5,
+   "sentence": "We own, in conjunction with our partner Caesars, 50 acres of land behind the Horseshoe and Planet Hollywood, and we are working with them - Sean McBurney in particular, who runs Las Vegas - to develop a plan to house the arena that could be built for the new NBA team.",
+   "ev_start": 16764,
+   "ev_end": 17032,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S042",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants"
+   ],
+   "home": "tenants",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 7,
+   "sentence": "The other thing I will address is, in my opening remarks, I talked about having our 14th, our 15th, and our 16th tenant.",
+   "ev_start": 17100,
+   "ev_end": 17220,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants"
+   ],
+   "home": "tenants",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "triple"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 8,
+   "sentence": "We are very different from other triple nets that have hundreds of tenants.",
+   "ev_start": 17221,
+   "ev_end": 17296,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 10,
+   "sentence": "So we are constantly talking to our partners about ways we can grow together, how our assets are performing, et cetera.",
+   "ev_start": 17392,
+   "ev_end": 17511,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S045",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 0,
+   "sentence": "Well, we continue to be very excited about the market.",
+   "ev_start": 17903,
+   "ev_end": 17957,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S046",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 4,
+   "sentence": "We obviously are well invested there.",
+   "ev_start": 18270,
+   "ev_end": 18307,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S047",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants"
+   ],
+   "home": "tenants",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 8,
+   "sentence": "So we continue to be really excited, and we continue to like how our tenants are operating their businesses and being creative.",
+   "ev_start": 18575,
+   "ev_end": 18702,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S048",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants",
+    "las_vegas"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 2.04,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 0,
+   "sentence": "I will just build on what John is saying, Caitlin, by pointing out what MGM disclosed yesterday with its Q2 2026 results, and that was 93% occupancy for its Strip assets in the second quarter, which is really an outstanding amount of occupancy given the amount of inventory that MGM has on the Strip.",
+   "ev_start": 18721,
+   "ev_end": 19021,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S049",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "las_vegas"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 1,
+   "sentence": "And I think embedded within that was the very meaningful positive outcome it is getting by being promotional and offering all-inclusive packages at Luxor and Excalibur.",
+   "ev_start": 19022,
+   "ev_end": 19190,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S050",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_allocation"
+   ],
+   "home": "capital_allocation",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "capital_allocation:strategy"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 4,
+   "sentence": "That is a much more attractive use of our capital.",
+   "ev_start": 19939,
+   "ev_end": 19989,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S051",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_allocation",
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "capital_allocation:strategy"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 6,
+   "sentence": "We can find much more attractive uses of that free cash flow, and Club Med is a very attractive return.",
+   "ev_start": 20083,
+   "ev_end": 20186,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S052",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_allocation"
+   ],
+   "home": "capital_allocation",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ],
+    "strategy": [
+     "buyback",
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 8,
+   "sentence": "And the buyback for a REIT, especially a net lease REIT that is dependent - growth is dependent on deploying capital - is just not something that makes a lot of sense, especially where we are now and with the investment prospects that we have in front of us.",
+   "ev_start": 20249,
+   "ev_end": 20507,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S053",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "las_vegas"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ],
+    "confident": [
+     "tremendously"
+    ]
+   },
+   "score": 4.05,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "I do think that the competitive superiority of Las Vegas as a convention destination is so well established that I do not know that anybody is tremendously worried about new convention supply in other American cities.",
+   "ev_start": 20865,
+   "ev_end": 21082,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S054",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "las_vegas"
+   ],
+   "home": "las_vegas",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 4.05,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 6,
+   "sentence": "So, again, I really have very strong conviction around the competitive superiority of Las Vegas as a convention destination.",
+   "ev_start": 21674,
+   "ev_end": 21798,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S055",
+   "topics": [
+    "competition",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_allocation"
+   ],
+   "home": "capital_allocation",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ],
+    "product": [
+     "introduction"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 7,
+   "sentence": "As to the introduction of new supply in other cities, it could be something we would look at, but it would have to be a situation in which we can invest in it accretively, and we would also have to have very high confidence that the destination can be competitive in what is a very competitive marketplace.",
+   "ev_start": 21799,
+   "ev_end": 22105,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "private_operators"
+   ],
+   "home": "private_operators",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 3,
+   "sentence": "And I think a number of them that we talk to - and John can give you more specifics here in a moment - appreciate the fact that in the private markets, they truly can do what they believe are the right things to grow their business over the longer term.",
+   "ev_start": 23252,
+   "ev_end": 23505,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "private_operators"
+   ],
+   "home": "private_operators",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to",
+     "is going to"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 4,
+   "sentence": "An example of that is that once they go private, they tend to be not focused on what the earnings are going to be in a given quarter and more focused on, if we make any incremental investments, what the IRR on those investments is going to be.",
+   "ev_start": 23506,
+   "ev_end": 23749,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S058",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "private_operators",
+    "capital_allocation"
+   ],
+   "home": "capital_allocation",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ],
+    "node_topic": [
+     "capital_allocation:strategy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 5,
+   "sentence": "We have found, for example, that private operators are more responsive to the use of our capital through our Partner Property Growth Fund because, from an IRR point of view, that capital is very, very attractive to them.",
+   "ev_start": 23750,
+   "ev_end": 23970,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S059",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 2,
+   "sentence": "That is really not the way to think about it - to think about these businesses long term and when capital needs to be invested.",
+   "ev_start": 24410,
+   "ev_end": 24537,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S060",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new systems"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "IT is changing dramatically in this space, and the implementation of new systems and servers can be disruptive to an operation for 30, 60, or 90 days.",
+   "ev_start": 24657,
+   "ev_end": 24807,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S061",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "enthusiastic"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 8,
+   "sentence": "So I think we are enthusiastic about what we are seeing.",
+   "ev_start": 24932,
+   "ev_end": 24988,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S062",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "we will see",
+     "plays out"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 9,
+   "sentence": "We will see how this all plays out over the coming months or years, but that is my take on how it is affecting the operators' view of their business.",
+   "ev_start": 24989,
+   "ev_end": 25138,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sports_nba"
+   ],
+   "home": "sports_nba",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "I would describe the university space as just that, in that we are explaining that we are long-term investors and how we could help a university, particularly in sports, grow over the coming years.",
+   "ev_start": 25948,
+   "ev_end": 26145,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S064",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sports_nba",
+    "balance_sheet",
+    "credit_loans"
+   ],
+   "home": "credit_loans",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 33,
+   "sentence_index": 0,
+   "sentence": "And just to answer the second half of the question with any kind of structural consideration, a lot of universities want to make sure that debt and other debt-like instruments are not on their balance sheets and impacting their credit ratings.",
+   "ev_start": 26451,
+   "ev_end": 26694,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S065",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "not sure"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 0,
+   "sentence": "David, I am not sure there has been a person on the phone who has been around gaming longer than myself.",
+   "ev_start": 27838,
+   "ev_end": 27942,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S066",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 5,
+   "sentence": "What I have noticed over the past couple of years, as competition has come - whether that is through iGaming or sports betting - is watching these operators reinvigorate their offerings.",
+   "ev_start": 28158,
+   "ev_end": 28344,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S067",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 8,
+   "sentence": "In tougher times and with more competition, the great operators step up and think differently about their business - how they reward, how they incent, how they improve their service.",
+   "ev_start": 28550,
+   "ev_end": 28732,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S068",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 10,
+   "sentence": "So I am quite excited about what I am hearing from our operators, and I am quite excited, from a technology standpoint, about what I am seeing myself.",
+   "ev_start": 28844,
+   "ev_end": 28994,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S069",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "regional_gaming"
+   ],
+   "home": "regional_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 0,
+   "sentence": "I will just add on to what John says by pointing out the amount of live entertainment in America now that takes place in regional casinos, both commercial and tribal, to an extent that certainly did not exist 30 or 40 years ago.",
+   "ev_start": 29013,
+   "ev_end": 29241,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "regional_gaming"
+   ],
+   "home": "regional_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 2,
+   "sentence": "And I would actually love to hear your thoughts on what you think are the key drivers of what appears to be fundamental, foundational strength in regional gaming.",
+   "ev_start": 29401,
+   "ev_end": 29563,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S071",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants"
+   ],
+   "home": "tenants",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Samantha Gallagher",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 2,
+   "sentence": "So we are always meeting with asset management to ask what we need from a reporting perspective so that we are able to get the information that we need to monitor tenants in the same way we would with a public tenant.",
+   "ev_start": 32129,
+   "ev_end": 32346,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S072",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "credit_loans"
+   ],
+   "home": "credit_loans",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 1,
+   "sentence": "And then, as a group, we sit every quarter and go through every single lease and loan investment in the portfolio.",
+   "ev_start": 32436,
+   "ev_end": 32550,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S073",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "canada"
+   ],
+   "home": "canada",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Aaron Furey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 1,
+   "sentence": "Daniel, it has been a geography that we have looked at over the last five years, really spending a lot of time mapping and trying to understand the tax and legal structuring, as well as the financing markets that could support investments outside of the U.S. and Canada.",
+   "ev_start": 33147,
+   "ev_end": 33417,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "experiential"
+   ],
+   "home": "experiential",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": []
+   },
+   "score": 2.89,
+   "speaker": "Aaron Furey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 2,
+   "sentence": "St. Croix is a bit of a cheat because it is in the U.S. Virgin Islands, so it still is a U.S. territory, but it is a geography that we continue to look at expanding into.",
+   "ev_start": 33418,
+   "ev_end": 33588,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S075",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "credit_loans"
+   ],
+   "home": "credit_loans",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 4,
+   "sentence": "So our ability to look at every single loan and lease in our portfolio is what we focus on, and not individual investments.",
+   "ev_start": 35629,
+   "ev_end": 35752,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "balance_sheet",
+    "credit_loans"
+   ],
+   "home": "credit_loans",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 3,
+   "sentence": "During the quarter, we extended the maturity date and reduced the interest rate on that loan to right-size the yield as the asset continues to ramp.",
+   "ev_start": 36457,
+   "ev_end": 36605,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S077",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "credit_loans"
+   ],
+   "home": "credit_loans",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "sentence_index": 8,
+   "sentence": "And then, on the second half of your question, this is a separate loan from the loan we disclosed in Q4 2025, which is on nonaccrual status.",
+   "ev_start": 37014,
+   "ev_end": 37154,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S078",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tenants",
+    "acquisitions"
+   ],
+   "home": "tenants",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 3,
+   "sentence": "In the case of Caesars, they are undergoing a significant M&A transaction with many moving pieces and many stakeholders, including regulatory.",
+   "ev_start": 37842,
+   "ev_end": 37984,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S079",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "hedge": [
+     "difficult to predict"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 4,
+   "sentence": "How any conversations will fit into that, which is a fairly prolonged timescale, is difficult to predict.",
+   "ev_start": 37985,
+   "ev_end": 38090,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S080",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "hedge": [
+     "difficult to predict"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 59,
+   "sentence_index": 6,
+   "sentence": "There are many moving pieces, so it would be difficult to predict with precision a timetable for any conversations that we might have.",
+   "ev_start": 38177,
+   "ev_end": 38311,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "VICI_2026_2-S081",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "we will see"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 2,
+   "sentence": "We wish you a good rest of the summer, and we will see you again in late October.",
+   "ev_start": 38682,
+   "ev_end": 38763,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "VICI_2026_2-S030",
+  "VICI_2026_2-S031",
+  "VICI_2026_2-S032",
+  "VICI_2026_2-S041",
+  "VICI_2026_2-S048",
+  "VICI_2026_2-S049",
+  "VICI_2026_2-S053",
+  "VICI_2026_2-S054",
+  "VICI_2026_2-S027",
+  "VICI_2026_2-S036",
+  "VICI_2026_2-S037",
+  "VICI_2026_2-S038",
+  "VICI_2026_2-S069",
+  "VICI_2026_2-S070",
+  "VICI_2026_2-S007",
+  "VICI_2026_2-S010",
+  "VICI_2026_2-S014",
+  "VICI_2026_2-S017",
+  "VICI_2026_2-S018",
+  "VICI_2026_2-S019",
+  "VICI_2026_2-S024",
+  "VICI_2026_2-S025",
+  "VICI_2026_2-S028",
+  "VICI_2026_2-S051",
+  "VICI_2026_2-S074",
+  "VICI_2026_2-S033",
+  "VICI_2026_2-S064",
+  "VICI_2026_2-S072",
+  "VICI_2026_2-S075",
+  "VICI_2026_2-S076",
+  "VICI_2026_2-S077",
+  "VICI_2026_2-S029",
+  "VICI_2026_2-S073",
+  "VICI_2026_2-S039",
+  "VICI_2026_2-S042",
+  "VICI_2026_2-S043",
+  "VICI_2026_2-S078",
+  "VICI_2026_2-S035",
+  "VICI_2026_2-S052",
+  "VICI_2026_2-S055",
+  "VICI_2026_2-S058",
+  "VICI_2026_2-S063",
+  "VICI_2026_2-S005",
+  "VICI_2026_2-S056",
+  "VICI_2026_2-S057",
+  "VICI_2026_2-S001",
+  "VICI_2026_2-S002",
+  "VICI_2026_2-S006",
+  "VICI_2026_2-S009",
+  "VICI_2026_2-S013",
+  "VICI_2026_2-S015",
+  "VICI_2026_2-S023",
+  "VICI_2026_2-S034",
+  "VICI_2026_2-S044",
+  "VICI_2026_2-S046",
+  "VICI_2026_2-S062",
+  "VICI_2026_2-S066",
+  "VICI_2026_2-S067",
+  "VICI_2026_2-S079",
+  "VICI_2026_2-S080",
+  "VICI_2026_2-S081"
+ ],
+ "surfaced_signal_ids": [
+  "VICI_2026_2-S030",
+  "VICI_2026_2-S031",
+  "VICI_2026_2-S032",
+  "VICI_2026_2-S041",
+  "VICI_2026_2-S048",
+  "VICI_2026_2-S049",
+  "VICI_2026_2-S053",
+  "VICI_2026_2-S054",
+  "VICI_2026_2-S027",
+  "VICI_2026_2-S036",
+  "VICI_2026_2-S037",
+  "VICI_2026_2-S038",
+  "VICI_2026_2-S069",
+  "VICI_2026_2-S070",
+  "VICI_2026_2-S007",
+  "VICI_2026_2-S010",
+  "VICI_2026_2-S014",
+  "VICI_2026_2-S017",
+  "VICI_2026_2-S018",
+  "VICI_2026_2-S019",
+  "VICI_2026_2-S024",
+  "VICI_2026_2-S025",
+  "VICI_2026_2-S028",
+  "VICI_2026_2-S051",
+  "VICI_2026_2-S074",
+  "VICI_2026_2-S033",
+  "VICI_2026_2-S064",
+  "VICI_2026_2-S072",
+  "VICI_2026_2-S075",
+  "VICI_2026_2-S076",
+  "VICI_2026_2-S077",
+  "VICI_2026_2-S029",
+  "VICI_2026_2-S073",
+  "VICI_2026_2-S039",
+  "VICI_2026_2-S042",
+  "VICI_2026_2-S043",
+  "VICI_2026_2-S078",
+  "VICI_2026_2-S035",
+  "VICI_2026_2-S052",
+  "VICI_2026_2-S055",
+  "VICI_2026_2-S058",
+  "VICI_2026_2-S063",
+  "VICI_2026_2-S005",
+  "VICI_2026_2-S056",
+  "VICI_2026_2-S057",
+  "VICI_2026_2-S001",
+  "VICI_2026_2-S002",
+  "VICI_2026_2-S006",
+  "VICI_2026_2-S009",
+  "VICI_2026_2-S013",
+  "VICI_2026_2-S015",
+  "VICI_2026_2-S023",
+  "VICI_2026_2-S034",
+  "VICI_2026_2-S044",
+  "VICI_2026_2-S046",
+  "VICI_2026_2-S062",
+  "VICI_2026_2-S066",
+  "VICI_2026_2-S067",
+  "VICI_2026_2-S079",
+  "VICI_2026_2-S080",
+  "VICI_2026_2-S081",
+  "VICI_2026_2-S065"
+ ],
+ "coverage": {
+  "registry": "curated",
+  "discussed": [
+   "las_vegas",
+   "regional_gaming",
+   "experiential",
+   "credit_loans",
+   "canada",
+   "tenants",
+   "acquisitions",
+   "capital_allocation",
+   "sports_nba",
+   "balance_sheet",
+   "private_operators"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "las_vegas",
+   "regional_gaming",
+   "experiential",
+   "credit_loans",
+   "canada",
+   "tenants",
+   "acquisitions",
+   "capital_allocation",
+   "sports_nba",
+   "balance_sheet",
+   "private_operators"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "pass",
+   "detail": "curated business map in use"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 81,
+  "signals_usable": 81,
+  "selected": 61,
+  "by_topic": {
+   "product": 25,
+   "momentum": 15,
+   "strategy": 23,
+   "pressure": 4,
+   "competition": 5
+  },
+  "by_horizon": {
+   "current": 57,
+   "forward": 24
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 11,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

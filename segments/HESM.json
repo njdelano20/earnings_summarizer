@@ -1,0 +1,29 @@
+{
+ "ticker": "HESM",
+ "note": "Hand-maintained business map for Hess Midstream (gathering, processing, terminaling and water services for Chevron/Hess in the Bakken). `facts` = exact ledger segment strings; `text` = regexes matched (case-insensitive) against management sentences.",
+ "nodes": [
+  {"id": "gathering", "name": "Gathering", "dimension": "segment", "facts": ["gathering"],
+   "text": ["(?<!water )\\bgathering\\b"]},
+  {"id": "processing", "name": "Processing (gas plants: TGP, LM4)", "dimension": "segment", "facts": ["processing"],
+   "text": ["\\bprocessing\\b", "\\bTGP\\b", "\\bLM4\\b"]},
+  {"id": "terminaling", "name": "Terminaling and export", "dimension": "segment", "facts": ["terminaling"],
+   "text": ["\\bterminaling\\b"]},
+  {"id": "water", "name": "Water gathering", "dimension": "segment", "facts": ["water"],
+   "text": ["\\bwater gathering\\b"]},
+
+  {"id": "chevron", "name": "Chevron / Hess (sponsor and customer)", "dimension": "customer", "facts": [],
+   "text": ["\\bChevron\\b", "\\bHess\\b(?! Midstream)", "\\bsponsor\\b"]},
+
+  {"id": "shareholder_returns", "topic": "strategy", "name": "Distributions and buybacks", "dimension": "initiative", "facts": [],
+   "text": ["\\bdistributions?\\b", "\\bbuybacks?\\b", "\\brepurchase\\w*\\b", "\\bshareholder returns?\\b", "\\breturn capital\\b"]},
+  {"id": "capital_program", "name": "Capital program", "dimension": "initiative", "facts": [],
+   "text": ["\\bcapital expenditures\\b", "\\bCapEx\\b", "\\bcapital program\\b", "\\bcapital spend\\b", "\\bgreenfield\\b"]},
+
+  {"id": "volumes", "name": "Throughput volumes", "dimension": "driver", "facts": [],
+   "text": ["\\bthroughput\\b", "\\bvolumes?\\b", "\\bbarrels\\b", "\\bcubic feet\\b", "\\bproduction\\b"]},
+  {"id": "opex_maintenance", "name": "Operating expense, maintenance and weather phasing", "dimension": "driver", "facts": [],
+   "text": ["\\bmaintenance\\b", "\\bOpEx\\b", "\\boperating expenses\\b", "\\bweather\\b", "\\bphasing\\b"]},
+  {"id": "leverage_debt", "name": "Leverage and debt", "dimension": "driver", "facts": [],
+   "text": ["\\bleverage\\b", "\\bdebt\\b", "\\brevolv\\w+\\b", "\\bbalance sheet\\b"]}
+ ]
+}

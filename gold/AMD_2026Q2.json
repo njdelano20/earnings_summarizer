@@ -1,0 +1,66 @@
+{
+  "transcript": "data/raw/alphavantage/AMD_2026Q2.json",
+  "notes": "Hand-written 2026-09-21 from reading the full AMD Q2 2026 transcript (CEO + CFO prepared remarks and the CFO outlook), before looking at how the extractor treated the call. Note the call states total revenue ($11.5B) in the CEO's opening and repeats it in the CFO's; the $6.7B figure is DATA CENTER segment revenue in both places. Partial gold: market-size facts (TAMs), design wins, inventory, diluted share count and the data-center revenue mix (58%) have no metric in the extractor vocabulary yet and are covered as commentary in gold/snapshot/AMD_2026Q2.json.",
+  "expected": [
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD", "value": 11.5e9, "period": "second quarter", "change": {"value": 50, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD", "value": 11.5e9, "period": "second quarter", "change": {"value": 13, "unit": "pct", "basis": "qoq"}},
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 50, "basis": "yoy"},
+
+    {"kind": "reported", "metric": "revenue", "segment": "data center", "stat": "level", "unit": "USD", "value": 6.7e9, "period": "second quarter", "change": {"value": 107, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "data center", "stat": "level", "unit": "USD", "value": 6.7e9, "period": "second quarter", "change": {"value": 16, "unit": "pct", "basis": "qoq"}},
+    {"kind": "reported", "metric": "revenue", "segment": "data center", "stat": "growth", "unit": "pct", "value": 107, "basis": "yoy"},
+
+    {"kind": "reported", "metric": "revenue", "segment": "client and gaming", "stat": "level", "unit": "USD", "value": 3.8e9, "change": {"value": 6, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "client and gaming", "stat": "level", "unit": "USD", "value": 3.8e9, "change": {"value": 7, "unit": "pct", "basis": "qoq"}},
+    {"kind": "reported", "metric": "revenue", "segment": "client", "stat": "level", "unit": "USD", "value": 3.1e9, "change": {"value": 23, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "client", "stat": "level", "unit": "USD", "value": 3.1e9, "change": {"value": 6, "unit": "pct", "basis": "qoq"}},
+    {"kind": "reported", "metric": "revenue", "segment": "gaming", "stat": "level", "unit": "USD", "value": 779e6, "change": {"value": -31, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "gaming", "stat": "growth", "unit": "pct", "value": 8, "basis": "qoq"},
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 13, "basis": "qoq"},
+    {"kind": "reported", "metric": "revenue", "segment": "client and gaming", "stat": "growth", "unit": "pct", "value": 6, "basis": "yoy"},
+    {"kind": "reported", "metric": "revenue", "segment": "embedded", "stat": "growth", "unit": "pct", "value": 19, "basis": "yoy"},
+    {"kind": "reported", "metric": "revenue", "segment": "embedded", "stat": "level", "unit": "USD", "value": 977e6, "change": {"value": 19, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "embedded", "stat": "level", "unit": "USD", "value": 977e6, "change": {"value": 12, "unit": "pct", "basis": "qoq"}},
+
+    {"kind": "reported", "metric": "gross_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 56, "change": {"value": 200, "unit": "bps", "basis": "yoy"}},
+    {"kind": "reported", "metric": "gross_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 56, "change": {"value": 80, "unit": "bps", "basis": "qoq"}},
+    {"kind": "reported", "metric": "operating_expenses", "segment": "total", "stat": "level", "unit": "USD", "value": 3.4e9, "period": "second quarter", "change": {"value": 40, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "operating_income", "segment": "total", "stat": "level", "unit": "USD", "value": 3.1e9},
+    {"kind": "reported", "metric": "operating_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 27},
+    {"kind": "reported", "metric": "eps", "segment": "total", "stat": "growth", "unit": "pct", "value": 82, "basis": "yoy"},
+    {"kind": "reported", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 1.6e9},
+    {"kind": "reported", "metric": "operating_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 2.4e9},
+    {"kind": "reported", "metric": "cash_and_securities", "segment": "total", "stat": "level", "unit": "USD", "value": 13.1e9},
+    {"kind": "reported", "metric": "operating_income", "segment": "data center", "stat": "level", "unit": "USD", "value": 2.1e9},
+    {"kind": "reported", "metric": "operating_income", "segment": "client and gaming", "stat": "level", "unit": "USD", "value": 582e6},
+    {"kind": "reported", "metric": "operating_income", "segment": "embedded", "stat": "level", "unit": "USD", "value": 386e6},
+
+    {"kind": "guidance", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD", "value": 13e9, "period": "third quarter"},
+    {"kind": "guidance", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 41, "basis": "yoy", "period": "third quarter"},
+    {"kind": "guidance", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 13, "basis": "qoq", "period": "third quarter"},
+    {"kind": "guidance", "metric": "gross_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 56, "accounting": "non_gaap", "period": "third quarter"},
+    {"kind": "guidance", "metric": "operating_expenses", "segment": "total", "stat": "level", "unit": "USD", "value": 3.65e9, "accounting": "non_gaap", "period": "third quarter"},
+    {"kind": "guidance", "metric": "oie", "segment": "total", "stat": "level", "unit": "USD", "value": 55e6, "accounting": "non_gaap", "period": "third quarter"},
+    {"kind": "guidance", "metric": "tax_rate", "segment": "total", "stat": "level", "unit": "pct", "value": 13, "accounting": "non_gaap", "period": "third quarter"},
+    {"kind": "guidance", "metric": "revenue", "segment": "data center", "stat": "growth", "period": "third quarter", "descriptor_contains": "double-digit"},
+    {"kind": "guidance", "metric": "revenue", "segment": "embedded", "stat": "growth", "period": "third quarter", "descriptor_contains": "double-digit"},
+    {"kind": "guidance", "metric": "revenue", "segment": "gaming", "stat": "growth", "period": "third quarter", "descriptor_contains": "double-digit"},
+
+    {"kind": "guidance", "metric": "revenue", "segment": "total", "stat": "growth", "descriptor_contains": "substantially above"},
+    {"kind": "guidance", "metric": "eps", "unit": "USD_per_share", "value": 20},
+    {"kind": "guidance", "metric": "revenue", "segment": "server", "stat": "growth", "unit": "pct", "value": 80},
+    {"kind": "guidance", "metric": "revenue", "segment": "server", "stat": "growth", "unit": "pct", "value": 70, "period": "2027"},
+    {"kind": "guidance", "metric": "revenue", "segment": "data center", "stat": "growth", "unit": "pct", "value": 100, "period": "2027"}
+  ],
+  "forbidden": [
+    {"metric": "revenue", "segment": "total", "stat": "level", "value": 6.7e9},
+    {"metric": "revenue", "segment": "total", "stat": "growth", "value": 19},
+    {"metric": "revenue", "segment": "segment"},
+    {"segment": "addition"},
+    {"kind": "reported", "metric": "operating_expenses", "value": 3.65e9},
+    {"kind": "reported", "metric": "oie", "value": 55e6},
+    {"kind": "reported", "metric": "eps", "value": 20},
+    {"kind": "guidance", "metric": "revenue", "segment": "server", "stat": "growth", "value": 80, "period": "full year"},
+    {"kind": "guidance", "metric": "revenue", "segment": "total", "stat": "growth", "value": 35, "period": "2027"}
+  ]
+}

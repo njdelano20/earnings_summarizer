@@ -1,0 +1,8 @@
+{
+  "note": "Calls whose gold files are known to fail while the extractor is being generalised. The unit tests skip these; every other gold file must pass in full. Remove a call from this list the moment it passes, and never add one to hide a regression.",
+  "pending": {
+    "CPRT_2026Q3": "first unseen company: generalisation fixes in progress (started 2026-09-21)",
+    "HESM_2026Q2": "first unseen company: generalisation fixes in progress (started 2026-09-21)",
+    "VICI_2026Q2": "first unseen company: generalisation fixes in progress (started 2026-09-21)"
+  }
+}

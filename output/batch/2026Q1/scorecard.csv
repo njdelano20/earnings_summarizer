@@ -1,0 +1,2 @@
+﻿symbol,season,status,detail,fiscal_label,period_end,fiscal_calendar,source,words,facts,high,medium,low,unverified,verified_pct,unclaimed_figures,claimed_share,conflicts,checks_failed,checks_warn,period_check,signals,selected,trajectory_rows,snapshot_checks_failed,snapshot_checks_warn,registry,unmapped_segments,gold_facts,gold_snapshot,db_eligible,attention
+CPRT,2026Q1,ok,,2026Q3,2026-04,verified,cache,5043,18,10,2,6,0,100.0,42,0.3,6,0,1,pass,77,45,0,0,2,curated,1,fail,fail,False,many_unclaimed_figures; gold_fail

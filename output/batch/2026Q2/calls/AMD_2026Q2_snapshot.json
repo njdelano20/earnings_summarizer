@@ -1,0 +1,8177 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "AMD",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "AMD",
+  "from_cache": true,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "verified: calendar-year company (call says Second Quarter 2026)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Matt Ramsey",
+    "role": "ir"
+   },
+   {
+    "name": "Dr. Lisa Su",
+    "role": "management"
+   },
+   {
+    "name": "Jean Hu",
+    "role": "management"
+   },
+   {
+    "name": "Tom O'Malley",
+    "role": "analyst"
+   },
+   {
+    "name": "Timothy Arcuri",
+    "role": "analyst"
+   },
+   {
+    "name": "Vivek Arya",
+    "role": "analyst"
+   },
+   {
+    "name": "Joshua Buchalter",
+    "role": "analyst"
+   },
+   {
+    "name": "Aaron Rakers",
+    "role": "analyst"
+   },
+   {
+    "name": "Stacy Rasgon",
+    "role": "analyst"
+   },
+   {
+    "name": "Jim Schneider",
+    "role": "analyst"
+   },
+   {
+    "name": "C.J. Muse",
+    "role": "analyst"
+   },
+   {
+    "name": "Joe Moore",
+    "role": "analyst"
+   },
+   {
+    "name": "Atif Malik",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "AMD_2026Q2.json"
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $11.50B (+50% yoy, +13% qoq), second quarter",
+   "fact_ids": [
+    "AMD_2026_2-002"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Gross margin 56% (+200 bps yoy, +80 bps qoq)",
+   "fact_ids": [
+    "AMD_2026_2-021"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating margin 27%",
+   "fact_ids": [
+    "AMD_2026_2-024"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $1.60B",
+   "fact_ids": [
+    "AMD_2026_2-030"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $2.40B",
+   "fact_ids": [
+    "AMD_2026_2-029"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is decelerating: guided 41% vs 50% reported",
+   "fact_ids": [
+    "AMD_2026_2-033",
+    "AMD_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): qa +0.47",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 11500000000.0,
+    "fact_id": "AMD_2026_2-002"
+   },
+   "growth": {
+    "value": 50.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": {
+    "value": 56.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-021",
+    "confidence": "high"
+   },
+   "outlook": {
+    "direction": "down",
+    "source": "AMD_2026_2-033",
+    "delta_pp": -9.0,
+    "guided_lo": 41.0,
+    "guided_hi": 41.0,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "data_center",
+   "name": "Data Center",
+   "depth": 0,
+   "revenue": {
+    "value": 6700000000.0,
+    "fact_id": "AMD_2026_2-004"
+   },
+   "growth": {
+    "value": 107.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-003",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "AMD_2026_2-008",
+    "delta_pp": -7.0,
+    "guided_lo": 100.0,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 18
+  },
+  {
+   "node": "server_cpu",
+   "name": "Server CPU (EPYC)",
+   "depth": 1,
+   "revenue": null,
+   "growth": {
+    "value": 70.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-005",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "AMD_2026_2-006",
+    "delta_pp": 10.0,
+    "guided_lo": 80.0,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {
+    "confident": 2,
+    "cautious": 1
+   },
+   "n_mentions": 38
+  },
+  {
+   "node": "data_center_ai",
+   "name": "Data Center AI (Instinct)",
+   "depth": 1,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "AMD_2026_2-S044",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {
+    "confident": 4,
+    "cautious": 1
+   },
+   "n_mentions": 30
+  },
+  {
+   "node": "client_gaming",
+   "name": "Client and Gaming",
+   "depth": 0,
+   "revenue": {
+    "value": 3800000000.0,
+    "fact_id": "AMD_2026_2-010"
+   },
+   "growth": {
+    "value": 6.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-009",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "client",
+   "name": "Client (PC)",
+   "depth": 1,
+   "revenue": {
+    "value": 3100000000.0,
+    "fact_id": "AMD_2026_2-012"
+   },
+   "growth": {
+    "value": 23.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-011",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1,
+    "cautious": 1
+   },
+   "n_mentions": 22
+  },
+  {
+   "node": "gaming",
+   "name": "Gaming",
+   "depth": 1,
+   "revenue": {
+    "value": 779000000.0,
+    "fact_id": "AMD_2026_2-014"
+   },
+   "growth": {
+    "value": -31.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-013",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "AMD_2026_2-036",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": "significant double-digit decline"
+   },
+   "stance": {},
+   "n_mentions": 7
+  },
+  {
+   "node": "embedded",
+   "name": "Embedded",
+   "depth": 0,
+   "revenue": {
+    "value": 977000000.0,
+    "fact_id": "AMD_2026_2-016"
+   },
+   "growth": {
+    "value": 19.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-015",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 20
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "AMD_2026_2-001",
+   "AMD_2026_2-019",
+   "AMD_2026_2-002",
+   "AMD_2026_2-021",
+   "AMD_2026_2-023",
+   "AMD_2026_2-024",
+   "AMD_2026_2-022",
+   "AMD_2026_2-020",
+   "AMD_2026_2-030",
+   "AMD_2026_2-029",
+   "AMD_2026_2-031",
+   "AMD_2026_2-017",
+   "AMD_2026_2-033",
+   "AMD_2026_2-037",
+   "AMD_2026_2-032",
+   "AMD_2026_2-041",
+   "AMD_2026_2-042",
+   "AMD_2026_2-018",
+   "AMD_2026_2-045",
+   "AMD_2026_2-043",
+   "AMD_2026_2-044"
+  ],
+  "signal_ids": [
+   "AMD_2026_2-S001",
+   "AMD_2026_2-S002",
+   "AMD_2026_2-S004",
+   "AMD_2026_2-S071",
+   "AMD_2026_2-S072",
+   "AMD_2026_2-S073",
+   "AMD_2026_2-S076",
+   "AMD_2026_2-S078",
+   "AMD_2026_2-S090",
+   "AMD_2026_2-S091",
+   "AMD_2026_2-S111",
+   "AMD_2026_2-S143",
+   "AMD_2026_2-S149"
+  ],
+  "trajectory": [
+   "total:revenue",
+   "total:gross_margin"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "data_center",
+   "name": "Data Center",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMD_2026_2-003",
+    "AMD_2026_2-004",
+    "AMD_2026_2-025",
+    "AMD_2026_2-008",
+    "AMD_2026_2-034",
+    "AMD_2026_2-038"
+   ],
+   "signal_ids": [
+    "AMD_2026_2-S006",
+    "AMD_2026_2-S019",
+    "AMD_2026_2-S030",
+    "AMD_2026_2-S039",
+    "AMD_2026_2-S043",
+    "AMD_2026_2-S046",
+    "AMD_2026_2-S069",
+    "AMD_2026_2-S092",
+    "AMD_2026_2-S097",
+    "AMD_2026_2-S117"
+   ],
+   "n_home_signals": 21,
+   "n_mentions": 18,
+   "stance": {},
+   "trajectory": [
+    "data_center:revenue"
+   ]
+  },
+  {
+   "id": "server_cpu",
+   "name": "Server CPU (EPYC)",
+   "dimension": "segment",
+   "parent": "data_center",
+   "depth": 1,
+   "fact_ids": [
+    "AMD_2026_2-005",
+    "AMD_2026_2-007",
+    "AMD_2026_2-006"
+   ],
+   "signal_ids": [
+    "AMD_2026_2-S008",
+    "AMD_2026_2-S014",
+    "AMD_2026_2-S015",
+    "AMD_2026_2-S016",
+    "AMD_2026_2-S141",
+    "AMD_2026_2-S166"
+   ],
+   "n_home_signals": 26,
+   "n_mentions": 38,
+   "stance": {
+    "confident": 2,
+    "cautious": 1
+   },
+   "trajectory": [
+    "server_cpu:revenue"
+   ]
+  },
+  {
+   "id": "data_center_ai",
+   "name": "Data Center AI (Instinct)",
+   "dimension": "segment",
+   "parent": "data_center",
+   "depth": 1,
+   "fact_ids": [],
+   "signal_ids": [
+    "AMD_2026_2-S034",
+    "AMD_2026_2-S044",
+    "AMD_2026_2-S153",
+    "AMD_2026_2-S159",
+    "AMD_2026_2-S171"
+   ],
+   "n_home_signals": 20,
+   "n_mentions": 30,
+   "stance": {
+    "confident": 4,
+    "cautious": 1
+   },
+   "trajectory": [
+    "data_center_ai:revenue"
+   ]
+  },
+  {
+   "id": "client_gaming",
+   "name": "Client and Gaming",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMD_2026_2-009",
+    "AMD_2026_2-010",
+    "AMD_2026_2-027"
+   ],
+   "signal_ids": [
+    "AMD_2026_2-S047",
+    "AMD_2026_2-S057",
+    "AMD_2026_2-S086",
+    "AMD_2026_2-S094"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "client",
+   "name": "Client (PC)",
+   "dimension": "segment",
+   "parent": "client_gaming",
+   "depth": 1,
+   "fact_ids": [
+    "AMD_2026_2-011",
+    "AMD_2026_2-012"
+   ],
+   "signal_ids": [
+    "AMD_2026_2-S048",
+    "AMD_2026_2-S050",
+    "AMD_2026_2-S054",
+    "AMD_2026_2-S055",
+    "AMD_2026_2-S146",
+    "AMD_2026_2-S147"
+   ],
+   "n_home_signals": 15,
+   "n_mentions": 22,
+   "stance": {
+    "confident": 1,
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "gaming",
+   "name": "Gaming",
+   "dimension": "segment",
+   "parent": "client_gaming",
+   "depth": 1,
+   "fact_ids": [
+    "AMD_2026_2-013",
+    "AMD_2026_2-026",
+    "AMD_2026_2-014",
+    "AMD_2026_2-036",
+    "AMD_2026_2-040"
+   ],
+   "signal_ids": [
+    "AMD_2026_2-S056",
+    "AMD_2026_2-S085"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 7,
+   "stance": {},
+   "trajectory": [
+    "gaming:revenue"
+   ]
+  },
+  {
+   "id": "embedded",
+   "name": "Embedded",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMD_2026_2-015",
+    "AMD_2026_2-016",
+    "AMD_2026_2-028",
+    "AMD_2026_2-035",
+    "AMD_2026_2-039"
+   ],
+   "signal_ids": [
+    "AMD_2026_2-S058",
+    "AMD_2026_2-S059",
+    "AMD_2026_2-S061",
+    "AMD_2026_2-S064",
+    "AMD_2026_2-S066",
+    "AMD_2026_2-S067",
+    "AMD_2026_2-S088",
+    "AMD_2026_2-S108"
+   ],
+   "n_home_signals": 14,
+   "n_mentions": 20,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "helios",
+   "name": "Helios rack-scale AI platform",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "AMD_2026_2-S020",
+    "AMD_2026_2-S021",
+    "AMD_2026_2-S029",
+    "AMD_2026_2-S103",
+    "AMD_2026_2-S133",
+    "AMD_2026_2-S158",
+    "AMD_2026_2-S162"
+   ],
+   "n_home_signals": 14,
+   "n_mentions": 21,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "rocm",
+   "name": "ROCm software stack",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "AMD_2026_2-S033",
+    "AMD_2026_2-S035",
+    "AMD_2026_2-S037"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 8,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ai_customers",
+   "name": "Anchor AI customers and partners",
+   "dimension": "customer",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "AMD_2026_2-S022",
+    "AMD_2026_2-S026",
+    "AMD_2026_2-S038",
+    "AMD_2026_2-S175"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 8,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "supply_chain",
+   "name": "Supply and capacity",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "AMD_2026_2-S112",
+    "AMD_2026_2-S122",
+    "AMD_2026_2-S126",
+    "AMD_2026_2-S127",
+    "AMD_2026_2-S161",
+    "AMD_2026_2-S170"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 13,
+   "stance": {
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "tam",
+   "name": "Market size (TAM)",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "AMD_2026_2-S040",
+    "AMD_2026_2-S119",
+    "AMD_2026_2-S176"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 8,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 50.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 41.0,
+    "hi": 41.0,
+    "descriptor": null,
+    "period": "third quarter",
+    "source": "ledger",
+    "id": "AMD_2026_2-033",
+    "direction_word": null,
+    "text": "41%",
+    "qualifier": null,
+    "confidence": "high"
+   },
+   "direction": "down",
+   "delta_pp": -9.0,
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "key": "data_center:revenue",
+   "node": "data_center",
+   "name": "Data Center",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 107.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-003",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 100.0,
+    "hi": null,
+    "descriptor": null,
+    "period": "2027",
+    "source": "ledger",
+    "id": "AMD_2026_2-008",
+    "direction_word": null,
+    "text": "more than double",
+    "qualifier": "more than",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": -7.0,
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "key": "server_cpu:revenue",
+   "node": "server_cpu",
+   "name": "Server CPU (EPYC)",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 70.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-005",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 80.0,
+    "hi": null,
+    "descriptor": null,
+    "period": "second half of 2026",
+    "source": "ledger",
+    "id": "AMD_2026_2-006",
+    "direction_word": null,
+    "text": "80%",
+    "qualifier": "more than",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": 10.0,
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "key": "data_center_ai:revenue",
+   "node": "data_center_ai",
+   "name": "Data Center AI (Instinct)",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "AMD_2026_2-S044",
+    "direction_word": "up",
+    "text": "In data center AI, the growing number and scale of Helios and MI450 Series Instinct deployments position the business for significant growth in the second half of the year with growth accelerating in 2027.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  },
+  {
+   "key": "gaming:revenue",
+   "node": "gaming",
+   "name": "Gaming",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": -31.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-013",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": "significant double-digit decline",
+    "period": "third quarter",
+    "source": "ledger",
+    "id": "AMD_2026_2-036",
+    "direction_word": "down",
+    "text": "significant double-digit decline",
+    "confidence": "high"
+   },
+   "direction": "down",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "key": "total:gross_margin",
+   "node": "total",
+   "name": "Total company",
+   "metric": "gross_margin",
+   "kind": "level",
+   "reported": {
+    "value": 56.0,
+    "period": "second quarter",
+    "fact_id": "AMD_2026_2-021",
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 56.0,
+    "hi": 56.0,
+    "descriptor": null,
+    "period": "third quarter",
+    "source": "ledger",
+    "id": "AMD_2026_2-041",
+    "direction_word": null,
+    "text": "56%",
+    "confidence": "high"
+   },
+   "direction": "flat",
+   "delta_pp": 0.0,
+   "confidence": "high",
+   "note": ""
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 0,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": null
+   },
+   "qa": {
+    "confident": 14,
+    "cautious": 5,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.47
+   }
+  },
+  "speakers": {
+   "Jean Hu": {
+    "confident": 5
+   },
+   "Dr. Lisa Su": {
+    "confident": 9,
+    "cautious": 5
+   }
+  },
+  "notable_confident": [
+   "AMD_2026_2-S104",
+   "AMD_2026_2-S141",
+   "AMD_2026_2-S146",
+   "AMD_2026_2-S107"
+  ],
+  "notable_cautious": [
+   "AMD_2026_2-S147",
+   "AMD_2026_2-S169",
+   "AMD_2026_2-S124",
+   "AMD_2026_2-S157",
+   "AMD_2026_2-S131"
+  ],
+  "withheld": [],
+  "revisions": [
+   "AMD_2026_2-S041",
+   "AMD_2026_2-S045",
+   "AMD_2026_2-S046",
+   "AMD_2026_2-S071",
+   "AMD_2026_2-S072"
+  ]
+ },
+ "signals": [
+  {
+   "id": "AMD_2026_2-S001",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "expand"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "profitability",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "We delivered another outstanding quarter with record revenue and profitability as adoption of our leadership products continued to expand.",
+   "ev_start": 2352,
+   "ev_end": 2490,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S002",
+   "topics": [
+    "momentum",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "data_center_ai",
+    "client",
+    "embedded"
+   ],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-001",
+    "AMD_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 50"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "revenue",
+     "sales"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Revenue increased 50% year-over-year to $11.5 billion, driven by significantly higher sales of EPYC, Instinct, Ryzen and embedded processors.",
+   "ev_start": 2491,
+   "ev_end": 2632,
+   "confidence": "high",
+   "flags": [
+    "company_total_figure"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center",
+    "server_cpu",
+    "data_center_ai"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled",
+     "expanding"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Data center revenue more than doubled year-over-year and now represents 58% of total revenue, up from 42% a year ago, reflecting the rapidly expanding scale of our server and data center AI businesses.",
+   "ev_start": 2633,
+   "ev_end": 2834,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strength"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "Our record results mark another clear step up in AMD's financial performance and demonstrates the strength of our product portfolio and execution.",
+   "ev_start": 2835,
+   "ev_end": 2981,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S005",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "adoption",
+     "deployments"
+    ],
+    "performance": [
+     "adoption",
+     "grow",
+     "demand",
+     "revenue",
+     "growth",
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "We are still in the early stages of a multiyear AI adoption cycle as deployments grow across a broad set of markets and workloads, driving demand for more compute and creating a clear path to significant revenue growth and earnings power in the years ahead.",
+   "ev_start": 2982,
+   "ev_end": 3239,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center",
+    "server_cpu",
+    "data_center_ai"
+   ],
+   "home": "data_center",
+   "fact_ids": [
+    "AMD_2026_2-003",
+    "AMD_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "accelerators",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "record",
+     "demand",
+     "accelerators"
+    ]
+   },
+   "score": 4.41,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Data center revenue grew 107% year-over-year to a record $6.7 billion, driven by strong demand for EPYC processors and Instinct accelerators.",
+   "ev_start": 3265,
+   "ev_end": 3406,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [
+    "AMD_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeding",
+     "growing"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "sales",
+     "growing"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "In server, we delivered our fifth consecutive quarter of record server CPU revenue with cloud and enterprise sales each growing more than 70% year-over-year, exceeding the outlook we provided last quarter.",
+   "ev_start": 3407,
+   "ev_end": 3612,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S008",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gained",
+     "expanded"
+    ],
+    "competition": [
+     "gained x86 server revenue share"
+    ],
+    "product": [
+     "deployments"
+    ],
+    "performance": [
+     "revenue",
+     "customers"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "We gained x86 server revenue share year-over-year as customers expanded deployments of both fifth-gen EPYC Turin and fourth-gen EPYC Genoa families.",
+   "ev_start": 3613,
+   "ev_end": 3761,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "ai_customers"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": []
+   },
+   "score": 3.22,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "In cloud, hyperscalers continued expanding EPYC across their internal infrastructure and public cloud offerings, including AWS, Microsoft, Google, Oracle and others.",
+   "ev_start": 3762,
+   "ev_end": 3927,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S010",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding",
+     "growing"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "growing",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "That expanding footprint is translating into growing adoption of EPYC in the cloud with health care, financial services, media and technology companies adding tens of millions of instances last quarter.",
+   "ev_start": 4128,
+   "ev_end": 4330,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S011",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "accelerated"
+    ],
+    "competition": [
+     "advantages"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "record",
+     "sales",
+     "adoption",
+     "accelerated"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "In enterprise, we delivered record sales in our fourth consecutive quarter of record sell-through as on-prem adoption accelerated driven by the leadership performance and TCO advantages of our EPYC portfolio.",
+   "ev_start": 4331,
+   "ev_end": 4539,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Growth was broad-based as we won large deployments with leading financial services, manufacturing, telecom, retail, and technology companies.",
+   "ev_start": 4540,
+   "ev_end": 4681,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": []
+   },
+   "score": 3.39,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "Our sixth-gen EPYC Venice family is purpose-built for this expanding range of workloads and delivers one of the largest generational performance gains in EPYC history.",
+   "ev_start": 5024,
+   "ev_end": 5191,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-new"
+    ],
+    "product": [
+     "all-new"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "Built on our all-new Zen 6 core and 2-nanometer technology, Venice extends EPYC leadership in performance and efficiency, delivering more than twice performance per watt of leading x86 CPUs, and up to 3.3x the performance per watt of leading ARM-based CPUs.",
+   "ev_start": 5192,
+   "ev_end": 5449,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "on track to",
+     "beginning later"
+    ],
+    "product": [
+     "launch",
+     "deployments"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Venice is in production now with every major OEM on track to launch platforms and the leading cloud providers planning deployments beginning later this year.",
+   "ev_start": 5762,
+   "ev_end": 5919,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S016",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "growing"
+    ],
+    "forward": [
+     "expect",
+     "in the coming"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "demand",
+     "growing"
+    ]
+   },
+   "score": 5.89,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Customer demand for Venice is stronger than for any prior EPYC generation, and we expect to continue growing market share across cloud and enterprise in the coming quarters.",
+   "ev_start": 5920,
+   "ev_end": 6093,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled",
+     "strong",
+     "accelerators"
+    ],
+    "performance": [
+     "revenue",
+     "demand",
+     "accelerators"
+    ]
+   },
+   "score": 2.92,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "Revenue more than doubled year-over-year driven by strong demand for Instinct accelerators.",
+   "ev_start": 6134,
+   "ev_end": 6225,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S018",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "expanded"
+    ],
+    "product": [
+     "adoption",
+     "deployments",
+     "availability"
+    ],
+    "performance": [
+     "adoption",
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "MI355x adoption continued to broaden as leading AI companies scale deployments across a growing range of inferencing and training workloads and cloud providers expanded MI350-series availability.",
+   "ev_start": 6226,
+   "ev_end": 6421,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S019",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios",
+    "server_cpu",
+    "data_center_ai",
+    "rocm"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "At our Advanced AI event, we launched Helios, our rack-scale AI platform combining EPYC Venice CPUs, MI450-Series GPUs, Pensando networking and ROCm software.",
+   "ev_start": 6422,
+   "ev_end": 6580,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S020",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 5.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Across a broad range of inferencing workloads, Helios delivers up to 15% more throughput at the same rack power and up to 30% more tokens per dollar than the competition.",
+   "ev_start": 6581,
+   "ev_end": 6751,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S021",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 4.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Customer pull for Helios is very strong and tracking ahead of our initial forecast.",
+   "ev_start": 6752,
+   "ev_end": 6835,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers"
+   ],
+   "home": "ai_customers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strategic partnership"
+    ],
+    "product": [
+     "deployments",
+     "announced",
+     "new strategic partnership"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "In addition to our multi-generation gigawatt scale deployments with OpenAI and Meta, we announced a new strategic partnership with Anthropic.",
+   "ev_start": 6836,
+   "ev_end": 6977,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers",
+    "data_center_ai",
+    "helios"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beginning in"
+    ],
+    "product": [
+     "deploy",
+     "deployment"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Anthropic will deploy up to 2 gigawatts of MI450 series GPUs in Helios with deployment of the first gigawatt beginning in the first half of 2027.",
+   "ev_start": 6978,
+   "ev_end": 7123,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S024",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai",
+    "rocm"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "partnership",
+     "collaboration"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "The partnership includes a multiyear joint engineering collaboration using Claude to optimize workloads for Instinct GPUs and accelerate ROCm software development.",
+   "ev_start": 7124,
+   "ev_end": 7287,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers"
+   ],
+   "home": "ai_customers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded our long-standing partnership",
+     "expanded"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "We also expanded our long-standing partnership with Microsoft.",
+   "ev_start": 7288,
+   "ev_end": 7350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S026",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers",
+    "helios"
+   ],
+   "home": "ai_customers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "deploy helios at scale"
+    ],
+    "product": [
+     "deploy"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.31,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "Microsoft will deploy Helios at scale on Azure for frontier model inferencing across Microsoft, its AI customers and Azure AI services.",
+   "ev_start": 7351,
+   "ev_end": 7486,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S027",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "Together, these commitments broaden the group of leading AI companies and cloud providers building their next-generation infrastructure on AMD.",
+   "ev_start": 7487,
+   "ev_end": 7630,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S028",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "on track to"
+    ],
+    "performance": [
+     "demand"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "Helios is now in production with initial shipments on track to begin later this quarter and ramp through the fourth quarter and into 2027 to meet very strong customer demand.",
+   "ev_start": 7631,
+   "ev_end": 7805,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S029",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we plan"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 5.59,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "Looking beyond Helios, we plan to launch a new rack-scale AI platform every year with each generation delivering significant performance, efficiency and TCO gains.",
+   "ev_start": 7806,
+   "ev_end": 7969,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S030",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai",
+    "server_cpu"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 4.43,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "In 2027, our next-generation platform combines MI500 series GPUs, Verano CPUs and Pensando networking with expanded scale-up domains in both copper and optical-based interconnects.",
+   "ev_start": 7970,
+   "ev_end": 8150,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S031",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "next-generation"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "Customer engagement on MI500 is very strong with multiple customers working closely with us as they plan their next-generation AI infrastructure.",
+   "ev_start": 8151,
+   "ev_end": 8296,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S032",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "on track to"
+    ]
+   },
+   "score": 2.64,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We expect MI500 to deliver the largest generational leap in Instinct history putting us on track to increase inferencing performance more than 2,000 times in just 4 years.",
+   "ev_start": 8297,
+   "ev_end": 8468,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "rocm"
+   ],
+   "home": "rocm",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "ROCm has reached an important inflection point with the performance, capabilities and developer experience customers need to deploy AI in production at scale.",
+   "ev_start": 8503,
+   "ev_end": 8661,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S034",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai",
+    "rocm"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "More than 3 million models now run out of the box on AMD, the leading open models launched with day 0 support for Instinct and open source contributions to ROCm have increased more than tenfold over the past year.",
+   "ev_start": 8717,
+   "ev_end": 8930,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S035",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "rocm"
+   ],
+   "home": "rocm",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "We introduced ROCm.ai, our new AI-assisted development platform for AMD GPUs last month.",
+   "ev_start": 8931,
+   "ev_end": 9019,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S036",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "rocm",
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new models"
+    ]
+   },
+   "score": 3.31,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "ROCm.ai lets developers use today's leading coding agents, including Claude, Codex and Cursor to create, port and optimize code for Instinct, making it significantly faster and easier to bring new models and workloads to AMD.",
+   "ev_start": 9020,
+   "ev_end": 9245,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "rocm"
+   ],
+   "home": "rocm",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "rocm:product"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "ROCm.ai delivers more than twice the training performance and won 3x the inferencing performance of ROCm 7 across a broad range of models.",
+   "ev_start": 9246,
+   "ev_end": 9384,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S038",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers",
+    "rocm"
+   ],
+   "home": "ai_customers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [],
+    "node_topic": [
+     "rocm:product"
+    ]
+   },
+   "score": 4.25,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "We are also working closely with the leading AI labs, including OpenAI, Anthropic, Meta and others to co-optimize ROCm for their models with the improvements benefiting the entire AMD ecosystem.",
+   "ev_start": 9385,
+   "ev_end": 9579,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center",
+    "tam"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "Taking a step back, the overall data center market opportunity is expanding far more rapidly than we projected just 6 months ago.",
+   "ev_start": 9580,
+   "ev_end": 9709,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tam"
+   ],
+   "home": "tam",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerators",
+     "growing"
+    ],
+    "performance": [
+     "demand",
+     "accelerators",
+     "growing"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "As AI moves into production across a broader range of applications and workloads demand for both accelerators and CPUs is growing well above our prior expectations.",
+   "ev_start": 9710,
+   "ev_end": 9874,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "data_center_ai",
+    "tam"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerator",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "accelerator",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "We now expect the data center AI accelerator market to grow more than 45% annually to approximately $1.4 trillion by 2030.",
+   "ev_start": 9875,
+   "ev_end": 9997,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "tam"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "And we expect the server CPU market to grow more than 50% annually to approximately $220 billion by 2030.",
+   "ev_start": 9998,
+   "ev_end": 10103,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "For AMD, this larger opportunity, combined with the strength of our portfolio and growing customer visibility is creating a steeper growth trajectory for our data center business.",
+   "ev_start": 10104,
+   "ev_end": 10283,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S044",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai",
+    "helios"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": {
+    "node": "data_center_ai",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerating",
+     "growing",
+     "with growth"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "product": [
+     "deployments"
+    ],
+    "performance": [
+     "growing",
+     "growth",
+     "accelerating"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "In data center AI, the growing number and scale of Helios and MI450 Series Instinct deployments position the business for significant growth in the second half of the year with growth accelerating in 2027.",
+   "ev_start": 10284,
+   "ev_end": 10489,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "server_cpu",
+    "supply_chain"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [
+    "AMD_2026_2-006",
+    "AMD_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "improved",
+     "grow"
+    ],
+    "forward": [
+     "expect",
+     "second half",
+     "for the full year"
+    ],
+    "performance": [
+     "demand",
+     "revenue",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.39,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "In server CPUs with very strong customer demand and improved supply, we now expect server revenue to grow more than 80% year-over-year in the second half of 2026 and more than 70% for the full year 2027, off a much higher base.",
+   "ev_start": 10490,
+   "ev_end": 10717,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [
+    "AMD_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "Taken together, we now expect data center segment revenue to more than double year-over-year in 2027.",
+   "ev_start": 10718,
+   "ev_end": 10819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client_gaming"
+   ],
+   "home": "client_gaming",
+   "fact_ids": [
+    "AMD_2026_2-009",
+    "AMD_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Segment revenue grew 6% year-over-year to $3.8 billion.",
+   "ev_start": 10850,
+   "ev_end": 10905,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S048",
+   "topics": [
+    "momentum",
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [
+    "AMD_2026_2-011",
+    "AMD_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "increased 23"
+    ],
+    "competition": [
+     "share gains"
+    ],
+    "performance": [
+     "revenue",
+     "record"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "In client, revenue increased 23% year-over-year to $3.1 billion, driven by record mobile processor revenue and continued share gains.",
+   "ev_start": 10906,
+   "ev_end": 11039,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S049",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand",
+     "growing"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption",
+     "sales",
+     "growing"
+    ]
+   },
+   "score": 4.24,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "Commercial adoption continued to expand in the quarter, with Ryzen Pro sales growing more than 50% year-over-year as we close new wins with large health care, technology, automotive, and financial services companies.",
+   "ev_start": 11040,
+   "ev_end": 11256,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S050",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 5.74,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "To build on this momentum, Dell, HP, Lenovo, Asus and others launched a broad portfolio of new commercial PCs powered by our latest generation Ryzen AI Pro 400 series processors.",
+   "ev_start": 11257,
+   "ev_end": 11435,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.24,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "Demand was also strong for our Ryzen AI Halo developer systems, which went on sale in the quarter.",
+   "ev_start": 11436,
+   "ev_end": 11534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S052",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced",
+     "next-generation"
+    ]
+   },
+   "score": 4.74,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "In July, we introduced our next-generation Ryzen AI Halo platform powered by our new Gorgon Halo processor, featuring an industry-leading 192 gigabytes of unified memory and can run models with up to 300 billion parameters.",
+   "ev_start": 11535,
+   "ev_end": 11758,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S053",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beginning later"
+    ],
+    "product": [
+     "partnering"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "And to make it even easier for developers to build and test large AI models locally, we are partnering with Hugging Face to include 1 year of Hugging Face Pro with every Ryzen AI Halo system beginning later this year.",
+   "ev_start": 11759,
+   "ev_end": 11976,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S054",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softer"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "pressure": [
+     "softer",
+     "memory and component costs"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Looking to the second half of the year, we are planning for a softer PC market as higher memory and component costs weigh on demand.",
+   "ev_start": 11977,
+   "ev_end": 12109,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S055",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "strength",
+     "growing"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "better than the market"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "growing",
+     "adoption"
+    ]
+   },
+   "score": 5.96,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "Against this backdrop, we expect our client business to perform better than the market, driven by the strength of our Ryzen portfolio and growing commercial adoption.",
+   "ev_start": 12110,
+   "ev_end": 12276,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S056",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "gaming"
+   ],
+   "home": "gaming",
+   "fact_ids": [
+    "AMD_2026_2-013",
+    "AMD_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "pressure": [
+     "lower semi-custom sales"
+    ],
+    "performance": [
+     "revenue",
+     "declined",
+     "sales"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "In gaming, revenue declined 31% year-over-year to $779 million, primarily due to lower semi-custom sales at this stage of the console cycle.",
+   "ev_start": 12277,
+   "ev_end": 12417,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S057",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "gaming",
+    "client"
+   ],
+   "home": "client_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "pressure": [
+     "component costs"
+    ],
+    "performance": [
+     "revenue",
+     "declined",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "Gaming graphics revenue also declined year-over-year as higher industry-wide component costs contributed to higher graphics card prices and weighed on overall demand.",
+   "ev_start": 12418,
+   "ev_end": 12584,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S058",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "Turning to our Embedded segment.",
+   "ev_start": 12585,
+   "ev_end": 12617,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [
+    "AMD_2026_2-015",
+    "AMD_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest",
+     "increased 19"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "Revenue increased 19% year-over-year to $977 million, our strongest growth in more than 3 years.",
+   "ev_start": 12618,
+   "ev_end": 12714,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "Demand was broad-based with strength across networking, aerospace and defense, test measurement and emulation and communication customers.",
+   "ev_start": 12715,
+   "ev_end": 12853,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S061",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded",
+    "data_center"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "grew",
+     "customers"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "Our embedded x86 business grew significantly in the quarter as hyperscalers and networking customers increasingly adopted our CPUs to power critical networking and control plane functions in the data center.",
+   "ev_start": 12854,
+   "ev_end": 13061,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client",
+    "embedded"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "product": [
+     "introducing",
+     "embedded"
+    ]
+   },
+   "score": 4.96,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "We also continued to expand our portfolio, introducing Ryzen AI embedded x100 processors for demanding real-time edge AI workloads and the Kria AI robotics platform for physical AI.",
+   "ev_start": 13062,
+   "ev_end": 13243,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "Embedded x86 is becoming a significant growth driver for the segment.",
+   "ev_start": 13360,
+   "ev_end": 13429,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S064",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded",
+    "gaming"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining",
+     "expanding"
+    ],
+    "competition": [
+     "outgrowing the market",
+     "gaining share"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "Our overall embedded portfolio is outgrowing the market and gaining share, and our embedded semi-custom engagements are expanding.",
+   "ev_start": 13430,
+   "ev_end": 13560,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "Design win momentum also remains very strong.",
+   "ev_start": 13561,
+   "ev_end": 13606,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded",
+    "data_center"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record",
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 76,
+   "sentence": "We are tracking towards another record year with more than $18 billion of new design wins, led by major wins with networking, data center, communications, tests, and aerospace and defense customers.",
+   "ev_start": 13607,
+   "ev_end": 13805,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S067",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "growing"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "profitability",
+     "growing",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 77,
+   "sentence": "In summary, we delivered record revenue and profitability in the second quarter, reflecting our strong execution and the growing adoption of our leadership products.",
+   "ev_start": 13806,
+   "ev_end": 13971,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "We entered the second half with strong momentum across our businesses.",
+   "ev_start": 13972,
+   "ev_end": 14042,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S069",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "data_center_ai",
+    "helios",
+    "client",
+    "embedded"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "share gains"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "With Venice and MI455X now in production, initial Helios shipments set to begin this quarter, Ryzen Pro CPUs driving continued commercial share gains and our embedded segment returning to strong year-over-year growth.",
+   "ev_start": 14043,
+   "ev_end": 14260,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S070",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "More than a decade of focused investment has given us the strongest and broadest product portfolio in the industry, deep strategic relationships with the companies driving the future of computing and a proven ability to deliver multi-generation road maps and ramp complex products at scale.",
+   "ev_start": 14261,
+   "ev_end": 14551,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "grow"
+    ],
+    "forward": [
+     "we now see the",
+     "expect"
+    ],
+    "performance": [
+     "growing",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "We now see the overall market for high performance in AI computing growing approximately 40% annually over the next several years, approaching $2 trillion by 2030, and we expect to grow well above the market.",
+   "ev_start": 14648,
+   "ev_end": 14856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-017",
+    "AMD_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 7.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "We now expect revenue to grow substantially above our prior target of greater than 35%, and we expect to significantly exceed our $20 annual EPS target within our strategic timeframe.",
+   "ev_start": 14990,
+   "ev_end": 15173,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S073",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "We are still in the early innings of a multiyear AI adoption cycle and the opportunity ahead is enormous.",
+   "ev_start": 15174,
+   "ev_end": 15279,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S074",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well positioned",
+     "in the coming"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "We are exceptionally well positioned to capitalize on this opportunity and deliver significant growth in the coming years.",
+   "ev_start": 15280,
+   "ev_end": 15402,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "momentum",
+     "increased 50"
+    ],
+    "performance": [
+     "revenue",
+     "record",
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Revenue increased 50% year-over-year and 13% sequentially to a record $11.5 billion, driven by continued momentum across our businesses.",
+   "ev_start": 15830,
+   "ev_end": 15966,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased approximately 82"
+    ],
+    "performance": [
+     "earnings",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "On a comparable basis, diluted earnings per share increased approximately 82% year-over-year, significantly outpacing our revenue growth and demonstrating our earnings power as we scale our business.",
+   "ev_start": 16144,
+   "ev_end": 16343,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [
+    "AMD_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "expanded",
+     "up over 200",
+     "growing"
+    ],
+    "performance": [
+     "margin",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Gross margin for the quarter expanded to 56%, up over 200 basis points year-over-year and 80 basis points sequentially, reflecting a favorable product mix and a growing contribution from our data center business.",
+   "ev_start": 16344,
+   "ev_end": 16556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-022"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest",
+     "r&d"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Operating expenses were $3.4 billion, an increase of 40% year-over-year as we continue to invest in R&D to expand our AI silicon, systems and software capabilities to support our long-term growth opportunities.",
+   "ev_start": 16557,
+   "ev_end": 16767,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "doubling",
+     "up 16"
+    ],
+    "performance": [
+     "revenue",
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Revenue was a record $6.7 billion, more than doubling year-over-year and up 16% sequentially.",
+   "ev_start": 16919,
+   "ev_end": 17012,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "robust"
+    ],
+    "performance": [
+     "growth",
+     "sales",
+     "record",
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "Growth was driven by greater than 70% year-over-year increase in EPYC sales with record enterprise sell-through and robust demand across our cloud customer base.",
+   "ev_start": 17013,
+   "ev_end": 17174,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S081",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled"
+    ],
+    "product": [
+     "adoption",
+     "deployments"
+    ],
+    "performance": [
+     "sales",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Instinct sales more than doubled year-over-year with the continued ramp of our MI350 Series product as adoption broadened across the largest AI labs, cloud providers, leading AI start-ups, national labs and sovereign AI deployments.",
+   "ev_start": 17324,
+   "ev_end": 17556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client_gaming"
+   ],
+   "home": "client_gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 6"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Client and Gaming segment revenue was $3.8 billion, up 6% year-over-year and 7% sequentially.",
+   "ev_start": 17630,
+   "ev_end": 17723,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "up 23"
+    ],
+    "performance": [
+     "revenue",
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "The client business revenue was $3.1 billion, up 23% year-over-year and 6% sequentially, led by record mobile revenue.",
+   "ev_start": 17724,
+   "ev_end": 17842,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "gaming"
+   ],
+   "home": "gaming",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 31"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "The gaming business revenue was $779 million, down 31% year-over-year, primarily due to lower semi customer revenue.",
+   "ev_start": 17843,
+   "ev_end": 17959,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "gaming"
+   ],
+   "home": "gaming",
+   "fact_ids": [
+    "AMD_2026_2-026"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 8"
+    ],
+    "performance": [
+     "revenue",
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "Sequentially, gaming revenue increased 8%, driven by higher semi customer sales, partially offset by lower Radeon shipments.",
+   "ev_start": 17960,
+   "ev_end": 18084,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S086",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client_gaming"
+   ],
+   "home": "client_gaming",
+   "fact_ids": [
+    "AMD_2026_2-027"
+   ],
+   "guided": null,
+   "cues": {
+    "comparison": [
+     "negative"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "Client and Gaming segment operating income was $582 million or 15% of revenue compared to $767 million or 21% a year ago, reflecting continued investment in go-to-market activities and expanding product road map.",
+   "ev_start": 18085,
+   "ev_end": 18297,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S087",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 19",
+     "improve"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "revenue",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Embedded segment revenue was $977 million, up 19% year-over-year and 12% sequentially as demand continued to improve across end markets and the new design wins began ramping.",
+   "ev_start": 18298,
+   "ev_end": 18472,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S088",
+   "topics": [
+    "momentum",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [
+    "AMD_2026_2-028"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Embedded segment operating income was $386 million or 40% of revenue, compared to $275 million or 33% a year ago, driven by higher revenue and favorable product mix.",
+   "ev_start": 18473,
+   "ev_end": 18638,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "Inventory increased sequentially to approximately $8.5 billion to support strong data center demand.",
+   "ev_start": 18804,
+   "ev_end": 18904,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-031"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "At the end of the quarter, cash, cash equivalents and short-term investments were $13.1 billion.",
+   "ev_start": 18905,
+   "ev_end": 19001,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S091",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-032"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "We expect revenue to be approximately $13 billion plus or minus $300 million.",
+   "ev_start": 19049,
+   "ev_end": 19126,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [
+    "AMD_2026_2-033",
+    "AMD_2026_2-034"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit",
+     "up 41"
+    ],
+    "forward": [
+     "guidance",
+     "is expected"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "At the middle point of our guidance, revenue is expected to be up 41% year-over-year, driven by very strong double-digit growth in our data center segment.",
+   "ev_start": 19127,
+   "ev_end": 19282,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S093",
+   "topics": [
+    "momentum",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded",
+    "client_gaming",
+    "client",
+    "gaming"
+   ],
+   "home": "client_gaming",
+   "fact_ids": [
+    "AMD_2026_2-035",
+    "AMD_2026_2-036"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit",
+     "with growth"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "growth",
+     "decline"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Strong double-digit growth in our embedded segment and the decline in the client gaming segment with growth in our client business more than offset by significant double-digit decline in gaming.",
+   "ev_start": 19283,
+   "ev_end": 19477,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S094",
+   "topics": [
+    "momentum",
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center",
+    "embedded",
+    "client_gaming",
+    "client",
+    "gaming"
+   ],
+   "home": "client_gaming",
+   "fact_ids": [
+    "AMD_2026_2-037",
+    "AMD_2026_2-038",
+    "AMD_2026_2-039",
+    "AMD_2026_2-040"
+   ],
+   "guided": {
+    "node": "data_center",
+    "metric": "revenue",
+    "descriptor": "double-digit",
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit",
+     "up approximately 13"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "decline"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 8.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Sequentially we expect revenue to be up approximately 13%, driven by strong double-digit growth in both our data center and embedded segments and a modest decline in our client gaming segment with slight growth in client offset by strong double-digit decline in gaming.",
+   "ev_start": 19478,
+   "ev_end": 19747,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S095",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMD_2026_2-041"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "In addition, we expect third quarter non-GAAP gross margin to be approximately 56%.",
+   "ev_start": 19748,
+   "ev_end": 19831,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "strong",
+     "momentum",
+     "expansion"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "earnings",
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "In closing, we delivered another outstanding quarter of revenue growth and significant earnings expansion, reflecting the strength of our execution and the strong momentum across the business.",
+   "ev_start": 20081,
+   "ev_end": 20273,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S097",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": {
+    "node": "data_center",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "second half",
+     "well positioned"
+    ],
+    "performance": [
+     "growth",
+     "accelerate",
+     "profitable"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "As data center growth continues to accelerate, we entered the second half of the year very well positioned to deliver continued profitable growth.",
+   "ev_start": 20274,
+   "ev_end": 20420,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center",
+    "server_cpu"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "accelerator"
+    ],
+    "performance": [
+     "demand",
+     "accelerator"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 1,
+   "sentence": "So look, we are certainly seeing a very, very strong compute market demand over both the data center accelerator as well as the server CPU.",
+   "ev_start": 21402,
+   "ev_end": 21541,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "data_center_ai"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 3,
+   "sentence": "As we go forward, certainly, looking at our Q3 guide and our Q4 guide, we see very strong growth across both server and data center AI.",
+   "ev_start": 21630,
+   "ev_end": 21765,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S100",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 4,
+   "sentence": "So we're seeing server grow over 80% in the second half of the year year-over-year.",
+   "ev_start": 21766,
+   "ev_end": 21849,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 5,
+   "sentence": "We're seeing very strong data center AI growth and that reflects into our 2027.",
+   "ev_start": 21850,
+   "ev_end": 21929,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "are going to"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 6,
+   "sentence": "The way to think about it is both businesses are going to grow a lot.",
+   "ev_start": 21930,
+   "ev_end": 21999,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S103",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 5.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "And as a result, as we ramp the large strategic customers that we have on Helios in 2027, you would expect substantial growth in that business in 2027.",
+   "ev_start": 22044,
+   "ev_end": 22195,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S104",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 3,
+   "sentence": "We're actually very pleased with our gross margin progress in the first half of 2026 and our guidance for Q3 2026.",
+   "ev_start": 23081,
+   "ev_end": 23195,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S105",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "tam"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding",
+     "grow"
+    ],
+    "strategy": [
+     "accretive"
+    ],
+    "performance": [
+     "grow",
+     "margin"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 5,
+   "sentence": "The first thing is, as Lisa just mentioned, our server business is expanding very significantly with the increased TAM and the pace of our business continue to grow, which from a gross margin perspective is accretive to our overall gross margin.",
+   "ev_start": 23267,
+   "ev_end": 23512,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S106",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 6,
+   "sentence": "On the other side, you are right, the pace of data center AI ramp is also very important because from a revenue opportunity perspective, we see large incremental revenue opportunity from data center AI once it ramps not only added tremendous revenue for the company, but also gross profit.",
+   "ev_start": 23513,
+   "ev_end": 23802,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S107",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 9,
+   "sentence": "But overall, we actually feel good about how we can really navigate through the transition of the business and continue to improve our gross margin to manage the balance of the gross margin plus our Embedded business is recovering significantly.",
+   "ev_start": 23912,
+   "ev_end": 24157,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S108",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "forward": [
+     "business will give"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 10,
+   "sentence": "We actually think the Embedded business will give us additional tailwind on the gross margin side in 2027.",
+   "ev_start": 24158,
+   "ev_end": 24264,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S109",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 11,
+   "sentence": "So I feel really good about that.",
+   "ev_start": 24265,
+   "ev_end": 24298,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we believe",
+     "is going to"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 1,
+   "sentence": "Look, I think we believe that the server CPU is going to grow substantially in Q3 and Q4.",
+   "ev_start": 24873,
+   "ev_end": 24962,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S111",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 2,
+   "sentence": "The way I would describe it in terms of dynamics is we have been - we have very strong demand across all of our customers in hyperscale and enterprise.",
+   "ev_start": 24963,
+   "ev_end": 25114,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S112",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "throughout the year"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 3,
+   "sentence": "And we have been adding additional supply as we've increased supply throughout the year.",
+   "ev_start": 25115,
+   "ev_end": 25203,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S113",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 4,
+   "sentence": "So we are guiding the Q3 segment to grow sequentially double digits.",
+   "ev_start": 25204,
+   "ev_end": 25272,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "data_center_ai"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 5,
+   "sentence": "Both server and data center AI will grow nicely within that.",
+   "ev_start": 25273,
+   "ev_end": 25333,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S115",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain",
+    "server_cpu",
+    "data_center_ai",
+    "helios",
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 4.59,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 6,
+   "sentence": "And then we should expect more growth for each of those businesses in Q4 with more supply coming on for server as well as for data center AI, the Helios ramp is just starting at the end of Q3, and it will be much more substantial in Q4, so that should sort of give you the picture - we think Q3 is certainly a strong quarter as we look at the strong very strong double-digit growth in the data center segment.",
+   "ev_start": 25334,
+   "ev_end": 25743,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S116",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tam"
+   ],
+   "home": "tam",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 1,
+   "sentence": "So as we look at the overall TAM, first of all, it's a very exciting time in the compute market.",
+   "ev_start": 26086,
+   "ev_end": 26182,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S117",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "data_center_ai",
+    "embedded",
+    "client"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwinds"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "When you look at every part of our business, whether it's server CPU, data center AI or our embedded business and our PC business we see them all benefiting from the AI tailwinds.",
+   "ev_start": 26183,
+   "ev_end": 26362,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 3,
+   "sentence": "And beneath that, I think in each one of the segments, we see an opportunity to grow above the market.",
+   "ev_start": 26363,
+   "ev_end": 26465,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tam"
+   ],
+   "home": "tam",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "grow",
+     "revenue"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "So from that standpoint, with our view of the TAM being greater than 40%, we are also saying that we will grow greater than from an overall revenue standpoint for the company.",
+   "ev_start": 26466,
+   "ev_end": 26641,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center",
+    "server_cpu"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we believe",
+     "business will grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 3,
+   "sentence": "From an overall data center standpoint, I think we have given a little bit of color on 2027, we believe that the server CPU portion of our data center business will grow by over 70% year-over-year off of a higher base.",
+   "ev_start": 27394,
+   "ev_end": 27612,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double",
+     "grow"
+    ],
+    "forward": [
+     "we believe",
+     "segment will grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 4,
+   "sentence": "And we believe the overall segment will grow by over 100%, so we'll more than double due to the data center AI ramping.",
+   "ev_start": 27613,
+   "ev_end": 27732,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S122",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 8,
+   "sentence": "The way I would describe it is we have supply to more than meet the guidance that we've talked about and the upside potential is there.",
+   "ev_start": 28064,
+   "ev_end": 28199,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S123",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expecting"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 4.59,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 10,
+   "sentence": "So I think from a Helios ramp standpoint, we're expecting a very significant ramp over the next couple of quarters.",
+   "ev_start": 28303,
+   "ev_end": 28418,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S124",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "play out"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 13,
+   "sentence": "So hopefully, that gives you a little bit of color on how that data center AI will play out.",
+   "ev_start": 28561,
+   "ev_end": 28653,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 14,
+   "sentence": "And in terms of the revenue per gigawatt, I think we've said double-digit billions.",
+   "ev_start": 28654,
+   "ev_end": 28737,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S126",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "There is very good visibility into HBM allocation for what we expect to deliver in 2027.",
+   "ev_start": 30053,
+   "ev_end": 30141,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S127",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "And the other piece of it is in terms of the memory bandwidth and the memory capacity, it is one of the advantages of the AMD solutions, when you think about the larger model sizes, they really benefit from the larger memory footprint, and that goes into the total cost of ownership.",
+   "ev_start": 30142,
+   "ev_end": 30425,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S128",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "growth",
+     "units"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 4,
+   "sentence": "So if you just look at our Q2 performance, when we said we grew over 70% in both cloud and enterprise, we actually had double-digit growth in both units and ASPs, but it was actually more unit.",
+   "ev_start": 31859,
+   "ev_end": 32052,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S129",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 7,
+   "sentence": "I mean we're seeing just very strong demand from an overall market standpoint.",
+   "ev_start": 32127,
+   "ev_end": 32205,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S130",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 9,
+   "sentence": "But as we go forward, you should expect both unit and ASP growth.",
+   "ev_start": 32289,
+   "ev_end": 32354,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S131",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "play out"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 12,
+   "sentence": "And we're seeing that play out through this year.",
+   "ev_start": 32685,
+   "ev_end": 32734,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S132",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 3.59,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 0,
+   "sentence": "So Josh, when I was talking about Helios was ahead of our initial forecast, it was as it relates to the overall volumes.",
+   "ev_start": 33403,
+   "ev_end": 33523,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S133",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 4.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 1,
+   "sentence": "So the amount of demand there is for Helios in 2027.",
+   "ev_start": 33524,
+   "ev_end": 33576,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S134",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "helios:product"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 3,
+   "sentence": "So what we're seeing from every one of our customers who's had a chance to not only spend time with Helios, but also spend time in our overall ecosystem, there is a high confidence that Helios will be a great addition to the AI portfolio, particularly around inference, and that was my comment about higher than our initial expectations.",
+   "ev_start": 33606,
+   "ev_end": 33943,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 3,
+   "sentence": "It's the fastest-growing piece.",
+   "ev_start": 35443,
+   "ev_end": 35474,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grow"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 7,
+   "sentence": "And I think the thing that is very strong about our portfolios is we believe we can grow in every one of those segments.",
+   "ev_start": 35692,
+   "ev_end": 35812,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S137",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "accelerator"
+    ],
+    "performance": [
+     "accelerator"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 13,
+   "sentence": "So whether you're talking about per core performance or you're talking about overall socket performance and that gives us a very strong position across general purpose, agentic-AI and also the head nodes for the AI accelerator business.",
+   "ev_start": 36157,
+   "ev_end": 36393,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "traction",
+     "momentum"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 14,
+   "sentence": "So from our standpoint, when we look at our customer traction and our customer momentum going from Turin into Venice, Turin was already extremely widely used, especially amongst the hyperscalers.",
+   "ev_start": 36394,
+   "ev_end": 36589,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S139",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": []
+   },
+   "score": 2.89,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 15,
+   "sentence": "What we're seeing is when we go into Venice, the workloads actually expand.",
+   "ev_start": 36590,
+   "ev_end": 36665,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S140",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "product": [
+     "next generation"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 16,
+   "sentence": "So there are more workloads that are going to be run on the next generation of EPYC than are run on the previous generation.",
+   "ev_start": 36666,
+   "ev_end": 36790,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S141",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "competition": [
+     "ahead of the market"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 17,
+   "sentence": "And that's what gives us the confidence to say that we can grow substantially ahead of the market given the product positioning.",
+   "ev_start": 36791,
+   "ev_end": 36919,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S142",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "As it relates to our client business in 2026, I think our first half performance has been very strong.",
+   "ev_start": 37616,
+   "ev_end": 37718,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S143",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expecting",
+     "second half"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "And although we are expecting that the market will decline in the second half, the market has actually held up better than most people would have thought.",
+   "ev_start": 37719,
+   "ev_end": 37873,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S144",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "we see the"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 5,
+   "sentence": "So our view is we will - we see the growth in 2026 on a year-over-year basis.",
+   "ev_start": 37874,
+   "ev_end": 37951,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S145",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 3.24,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 6,
+   "sentence": "And as we go into 2027, I think we have a strong product portfolio that is coming on board to address not just the traditional notebook and desktop markets, but also as you think about a more AI-centric PC experience like what we have been talking about with the Ryzen AI Halo.",
+   "ev_start": 37952,
+   "ev_end": 38229,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S146",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "competition": [
+     "ahead of the market"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 7,
+   "sentence": "So I remain optimistic about the PC market as an important way for us to reach a broader set of users and our ability to grow ahead of the market.",
+   "ev_start": 38230,
+   "ev_end": 38376,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S147",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "component costs"
+    ],
+    "hedge": [
+     "watching the component costs",
+     "play out"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 9,
+   "sentence": "We're all watching the component costs and how that will play out over the next couple of quarters.",
+   "ev_start": 38440,
+   "ev_end": 38539,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S148",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "client"
+   ],
+   "home": "client",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 10,
+   "sentence": "But I think our portfolio and our rising content in enterprise are very positive for our client mix.",
+   "ev_start": 38540,
+   "ev_end": 38640,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S149",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "I think when we talk about the acceleration, we are talking about the second half versus the first half.",
+   "ev_start": 39325,
+   "ev_end": 39429,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S150",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": {
+    "node": "data_center",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "growth",
+     "acceleration"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "If you look at the first half, our data center business year-over-year growth versus the second half, we do think there's an acceleration.",
+   "ev_start": 39430,
+   "ev_end": 39568,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S151",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 3.44,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 2,
+   "sentence": "And yes, the server CPU we're saying is more than 70%, which we think at this point is a very strong statement just given where the business is.",
+   "ev_start": 40250,
+   "ev_end": 40394,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S152",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center"
+   ],
+   "home": "data_center",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 3,
+   "sentence": "And we do expect the overall data center business to be well over 100%.",
+   "ev_start": 40395,
+   "ev_end": 40466,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S153",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai",
+    "helios"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "performance": [
+     "customers"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 5.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 4,
+   "sentence": "And the well over 100% comes because the data center AI business is going to be well over 100% just given the strength of our strategic customers, the ramp of Helios and all of the things that we've talked about.",
+   "ev_start": 40467,
+   "ev_end": 40679,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S154",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 3.59,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 3,
+   "sentence": "There are lots of customers who are interested in Helios at a more regular scale than gigawatt scale.",
+   "ev_start": 41508,
+   "ev_end": 41609,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S155",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "anything that would give us pause"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 0,
+   "sentence": "Well, Jim, I don't think we see anything that would give us pause about hitting the targets.",
+   "ev_start": 42458,
+   "ev_end": 42550,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S156",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 1,
+   "sentence": "I mean we feel very good about the targets.",
+   "ev_start": 42551,
+   "ev_end": 42594,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S157",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "will depend on"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 2,
+   "sentence": "Now when you ask me what the range could be, there is a range, and the range will depend on the ability to bring on more capacity in a timely fashion.",
+   "ev_start": 42595,
+   "ev_end": 42745,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S158",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios",
+    "supply_chain"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 4,
+   "sentence": "So ensuring that we have the entire - our silicon CPU, GPU, networking components that go into it, all of the Helios components, I think we feel very, very good about that part of the supply chain.",
+   "ev_start": 42819,
+   "ev_end": 43016,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S159",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 6,
+   "sentence": "And that gives us strong confidence in what we've guided for the data center AI business so far.",
+   "ev_start": 43144,
+   "ev_end": 43240,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S160",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 7,
+   "sentence": "And we're going to be continuing to look at how to accelerate some of those builds.",
+   "ev_start": 43241,
+   "ev_end": 43324,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S161",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 9,
+   "sentence": "We are seeing every day more opportunities with operators to accelerate some of that capacity, and that's much of the work that we're doing together with our customers and partners.",
+   "ev_start": 43437,
+   "ev_end": 43618,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S162",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growing"
+    ],
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 5.09,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 3,
+   "sentence": "And as we go through the next couple of quarters, we expect to continue growing Helios quarter-by-quarter.",
+   "ev_start": 44472,
+   "ev_end": 44578,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S163",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 4,
+   "sentence": "But overall, when we think about this, we are actually very optimistic about how we manage the ramp of the MI450.",
+   "ev_start": 45125,
+   "ev_end": 45238,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S164",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 5,
+   "sentence": "At the same time, with the server business continuing to improve and grow significantly in 2027, overall, I think they have a good offset.",
+   "ev_start": 45239,
+   "ev_end": 45377,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S165",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "embedded",
+    "client"
+   ],
+   "home": "embedded",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "embedded"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 6,
+   "sentence": "But I do think it's important to remember we have multiple other levers from the company perspective, not only embedded business, but also client business; we continue to improve gross margin and the operations team continues to do a great job.",
+   "ev_start": 45378,
+   "ev_end": 45622,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S166",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "supply_chain"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "supply chain is tight"
+    ],
+    "pressure": [
+     "supply chain is tight"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 1,
+   "sentence": "I would say the server CPU supply chain is tight right now, and it has been tight for the first half of the year because much of this demand was unforecasted.",
+   "ev_start": 46132,
+   "ev_end": 46290,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S167",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu",
+    "supply_chain"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 3,
+   "sentence": "And so we would expect that the 2027 server supply situation should be better than 2026.",
+   "ev_start": 46345,
+   "ev_end": 46433,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S168",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 4,
+   "sentence": "We feel very good about being able to satisfy what we just talked about, which was over 70% year-over-year growth.",
+   "ev_start": 46434,
+   "ev_end": 46548,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S169",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "server_cpu"
+   ],
+   "home": "server_cpu",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i believe"
+    ],
+    "hedge": [
+     "play out"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 5,
+   "sentence": "And I believe depending on how things play out, there may be opportunities for that growth to go higher as we get through the next few quarters.",
+   "ev_start": 46549,
+   "ev_end": 46693,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S170",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain"
+   ],
+   "home": "supply_chain",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "And so that gives us the opportunity to, again, work very hard on ensuring that we get the supply necessary to meet the very strong customer demand.",
+   "ev_start": 47192,
+   "ev_end": 47340,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S171",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "data_center_ai"
+   ],
+   "home": "data_center_ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 6,
+   "sentence": "But we feel good about where we are to satisfy both the strong ramp in servers as well as the strong ramp in the data center AI business.",
+   "ev_start": 47571,
+   "ev_end": 47708,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S172",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "next year"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 1,
+   "sentence": "So I think the inference market overall is growing very substantially over this year into next year.",
+   "ev_start": 48160,
+   "ev_end": 48260,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S173",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers"
+   ],
+   "home": "ai_customers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 3,
+   "sentence": "And so with our partnership with Cerebras, I think they have great technology.",
+   "ev_start": 48357,
+   "ev_end": 48435,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S174",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "helios",
+    "supply_chain"
+   ],
+   "home": "helios",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "helios:product"
+    ]
+   },
+   "score": 3.59,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 4,
+   "sentence": "Together with Helios Plus and their wafer-scale engine, we get a very good solution for customers.",
+   "ev_start": 48436,
+   "ev_end": 48534,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S175",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai_customers"
+   ],
+   "home": "ai_customers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Dr. Lisa Su",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 5,
+   "sentence": "And we would expect that solution to start becoming available in Q4 in the Cerebras cloud and extend into 2027.",
+   "ev_start": 48535,
+   "ev_end": 48646,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S176",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "tam"
+   ],
+   "home": "tam",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 1,
+   "sentence": "I think Lisa talked about the TAM growth at 40%, and we'll be growing faster than TAM.",
+   "ev_start": 49063,
+   "ev_end": 49149,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S177",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 2,
+   "sentence": "From an OpEx perspective, we'll continue to invest given the large opportunities we have ahead of us.",
+   "ev_start": 49150,
+   "ev_end": 49251,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMD_2026_2-S178",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Jean Hu",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 3,
+   "sentence": "But you should expect us to manage this OpEx increase to be less than the top line revenue growth.",
+   "ev_start": 49252,
+   "ev_end": 49350,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "AMD_2026_2-S006",
+  "AMD_2026_2-S019",
+  "AMD_2026_2-S030",
+  "AMD_2026_2-S039",
+  "AMD_2026_2-S043",
+  "AMD_2026_2-S046",
+  "AMD_2026_2-S069",
+  "AMD_2026_2-S092",
+  "AMD_2026_2-S097",
+  "AMD_2026_2-S117",
+  "AMD_2026_2-S008",
+  "AMD_2026_2-S014",
+  "AMD_2026_2-S015",
+  "AMD_2026_2-S016",
+  "AMD_2026_2-S141",
+  "AMD_2026_2-S166",
+  "AMD_2026_2-S034",
+  "AMD_2026_2-S044",
+  "AMD_2026_2-S153",
+  "AMD_2026_2-S159",
+  "AMD_2026_2-S171",
+  "AMD_2026_2-S047",
+  "AMD_2026_2-S057",
+  "AMD_2026_2-S086",
+  "AMD_2026_2-S094",
+  "AMD_2026_2-S048",
+  "AMD_2026_2-S050",
+  "AMD_2026_2-S054",
+  "AMD_2026_2-S055",
+  "AMD_2026_2-S146",
+  "AMD_2026_2-S147",
+  "AMD_2026_2-S056",
+  "AMD_2026_2-S085",
+  "AMD_2026_2-S058",
+  "AMD_2026_2-S059",
+  "AMD_2026_2-S061",
+  "AMD_2026_2-S064",
+  "AMD_2026_2-S066",
+  "AMD_2026_2-S067",
+  "AMD_2026_2-S088",
+  "AMD_2026_2-S108",
+  "AMD_2026_2-S020",
+  "AMD_2026_2-S021",
+  "AMD_2026_2-S029",
+  "AMD_2026_2-S103",
+  "AMD_2026_2-S133",
+  "AMD_2026_2-S158",
+  "AMD_2026_2-S162",
+  "AMD_2026_2-S033",
+  "AMD_2026_2-S035",
+  "AMD_2026_2-S037",
+  "AMD_2026_2-S022",
+  "AMD_2026_2-S026",
+  "AMD_2026_2-S038",
+  "AMD_2026_2-S175",
+  "AMD_2026_2-S112",
+  "AMD_2026_2-S122",
+  "AMD_2026_2-S126",
+  "AMD_2026_2-S127",
+  "AMD_2026_2-S161",
+  "AMD_2026_2-S170",
+  "AMD_2026_2-S040",
+  "AMD_2026_2-S119",
+  "AMD_2026_2-S176",
+  "AMD_2026_2-S001",
+  "AMD_2026_2-S002",
+  "AMD_2026_2-S004",
+  "AMD_2026_2-S071",
+  "AMD_2026_2-S072",
+  "AMD_2026_2-S073",
+  "AMD_2026_2-S076",
+  "AMD_2026_2-S078",
+  "AMD_2026_2-S090",
+  "AMD_2026_2-S091",
+  "AMD_2026_2-S111",
+  "AMD_2026_2-S143",
+  "AMD_2026_2-S149"
+ ],
+ "surfaced_signal_ids": [
+  "AMD_2026_2-S006",
+  "AMD_2026_2-S019",
+  "AMD_2026_2-S030",
+  "AMD_2026_2-S039",
+  "AMD_2026_2-S043",
+  "AMD_2026_2-S046",
+  "AMD_2026_2-S069",
+  "AMD_2026_2-S092",
+  "AMD_2026_2-S097",
+  "AMD_2026_2-S117",
+  "AMD_2026_2-S008",
+  "AMD_2026_2-S014",
+  "AMD_2026_2-S015",
+  "AMD_2026_2-S016",
+  "AMD_2026_2-S141",
+  "AMD_2026_2-S166",
+  "AMD_2026_2-S034",
+  "AMD_2026_2-S044",
+  "AMD_2026_2-S153",
+  "AMD_2026_2-S159",
+  "AMD_2026_2-S171",
+  "AMD_2026_2-S047",
+  "AMD_2026_2-S057",
+  "AMD_2026_2-S086",
+  "AMD_2026_2-S094",
+  "AMD_2026_2-S048",
+  "AMD_2026_2-S050",
+  "AMD_2026_2-S054",
+  "AMD_2026_2-S055",
+  "AMD_2026_2-S146",
+  "AMD_2026_2-S147",
+  "AMD_2026_2-S056",
+  "AMD_2026_2-S085",
+  "AMD_2026_2-S058",
+  "AMD_2026_2-S059",
+  "AMD_2026_2-S061",
+  "AMD_2026_2-S064",
+  "AMD_2026_2-S066",
+  "AMD_2026_2-S067",
+  "AMD_2026_2-S088",
+  "AMD_2026_2-S108",
+  "AMD_2026_2-S020",
+  "AMD_2026_2-S021",
+  "AMD_2026_2-S029",
+  "AMD_2026_2-S103",
+  "AMD_2026_2-S133",
+  "AMD_2026_2-S158",
+  "AMD_2026_2-S162",
+  "AMD_2026_2-S033",
+  "AMD_2026_2-S035",
+  "AMD_2026_2-S037",
+  "AMD_2026_2-S022",
+  "AMD_2026_2-S026",
+  "AMD_2026_2-S038",
+  "AMD_2026_2-S175",
+  "AMD_2026_2-S112",
+  "AMD_2026_2-S122",
+  "AMD_2026_2-S126",
+  "AMD_2026_2-S127",
+  "AMD_2026_2-S161",
+  "AMD_2026_2-S170",
+  "AMD_2026_2-S040",
+  "AMD_2026_2-S119",
+  "AMD_2026_2-S176",
+  "AMD_2026_2-S001",
+  "AMD_2026_2-S002",
+  "AMD_2026_2-S004",
+  "AMD_2026_2-S071",
+  "AMD_2026_2-S072",
+  "AMD_2026_2-S073",
+  "AMD_2026_2-S076",
+  "AMD_2026_2-S078",
+  "AMD_2026_2-S090",
+  "AMD_2026_2-S091",
+  "AMD_2026_2-S111",
+  "AMD_2026_2-S143",
+  "AMD_2026_2-S149",
+  "AMD_2026_2-S104",
+  "AMD_2026_2-S107",
+  "AMD_2026_2-S169",
+  "AMD_2026_2-S124",
+  "AMD_2026_2-S157",
+  "AMD_2026_2-S131",
+  "AMD_2026_2-S041",
+  "AMD_2026_2-S045"
+ ],
+ "coverage": {
+  "registry": "curated",
+  "discussed": [
+   "data_center",
+   "server_cpu",
+   "data_center_ai",
+   "client_gaming",
+   "client",
+   "gaming",
+   "embedded",
+   "helios",
+   "rocm",
+   "ai_customers",
+   "supply_chain",
+   "tam"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "data_center_ai",
+   "helios",
+   "rocm",
+   "ai_customers",
+   "supply_chain",
+   "tam"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "pass",
+   "detail": "curated business map in use"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 178,
+  "signals_usable": 178,
+  "selected": 77,
+  "by_topic": {
+   "product": 65,
+   "momentum": 114,
+   "competition": 11,
+   "pressure": 5,
+   "strategy": 6
+  },
+  "by_horizon": {
+   "current": 124,
+   "forward": 54
+  },
+  "trajectory_rows": 6,
+  "blocks_with_content": 12,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "note": "One entry per symbol whose fiscal year does not simply equal the calendar year, plus the calendar-year symbols already in use. fye_month = month the fiscal year ends in (nearest month-end for 52/53-week years). naming: 'end' = the fiscal year is named for the calendar year it ends in; 'start' = for the year it starts in. Entries marked 'seed' come from general knowledge and have NOT been checked against Alpha Vantage: the period check in main.py compares the call's own wording with the label and warns when a seed is wrong. For 'start' companies it is also unverified which label Alpha Vantage uses.",
+  "companies": {
+    "AAPL": {"fye_month": 9,  "naming": "end",   "source": "verified: Apple fiscal Q3 = June quarter (local transcript)"},
+    "ADBE": {"fye_month": 11, "naming": "end",   "source": "seed"},
+    "AMD":  {"fye_month": 12, "naming": "end",   "source": "verified: calendar-year company (call says Second Quarter 2026)"},
+    "AVGO": {"fye_month": 10, "naming": "end",   "source": "seed"},
+    "COST": {"fye_month": 8,  "naming": "end",   "source": "seed"},
+    "CPRT": {"fye_month": 7,  "naming": "end",   "source": "verified: Alpha Vantage 2026Q2 = Second Quarter Fiscal 2026 (quarter ended Jan 2026), 2026-09-21"},
+    "CRM":  {"fye_month": 1,  "naming": "end",   "source": "seed"},
+    "CSCO": {"fye_month": 7,  "naming": "end",   "source": "seed"},
+    "DE":   {"fye_month": 10, "naming": "end",   "source": "seed"},
+    "DIS":  {"fye_month": 9,  "naming": "end",   "source": "seed"},
+    "FDX":  {"fye_month": 5,  "naming": "end",   "source": "seed"},
+    "GIS":  {"fye_month": 5,  "naming": "end",   "source": "seed"},
+    "HD":   {"fye_month": 1,  "naming": "start", "source": "seed"},
+    "HESM": {"fye_month": 12, "naming": "end",   "source": "seed: calendar-year company"},
+    "IBM":  {"fye_month": 12, "naming": "end",   "source": "verified: calendar-year company"},
+    "LOW":  {"fye_month": 1,  "naming": "start", "source": "seed"},
+    "MSFT": {"fye_month": 6,  "naming": "end",   "source": "seed"},
+    "MU":   {"fye_month": 8,  "naming": "end",   "source": "seed"},
+    "NKE":  {"fye_month": 5,  "naming": "end",   "source": "seed"},
+    "NVDA": {"fye_month": 1,  "naming": "end",   "source": "seed"},
+    "ORCL": {"fye_month": 5,  "naming": "end",   "source": "seed"},
+    "PG":   {"fye_month": 6,  "naming": "end",   "source": "seed"},
+    "SBUX": {"fye_month": 9,  "naming": "end",   "source": "seed"},
+    "TGT":  {"fye_month": 1,  "naming": "start", "source": "seed"},
+    "VICI": {"fye_month": 12, "naming": "end",   "source": "seed: calendar-year company"},
+    "WMT":  {"fye_month": 1,  "naming": "end",   "source": "seed"}
+  }
+}

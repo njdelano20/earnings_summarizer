@@ -1,0 +1,67 @@
+{
+  "transcript": "data/raw/alphavantage/VICI_2026Q2.json",
+  "notes": "Hand-written 2026-09-21 by reading the VICI Properties Q2 2026 call, before any snapshot output for it was opened. Node ids are the ones segments/VICI.json defines. VICI reports no segment figures, so no node is demanded to have ledger facts; everything is commentary. No revenue growth is guided, so no trajectory rows are expected. The transcript uses curly apostrophes, so no phrase below contains one.",
+
+  "segments_with_facts": [],
+  "segments_with_commentary": ["las_vegas", "regional_gaming", "experiential", "credit_loans", "tenants", "acquisitions",
+                                "capital_allocation", "sports_nba", "balance_sheet", "private_operators"],
+
+  "signals_expected": [
+    {"contains": "AFFO per share was $0.62 for the quarter, an increase of 4.6%", "topic": "momentum", "direction": "positive"},
+    {"contains": "our net debt to annualized second quarter adjusted EBITDA is approximately 4.9 times, below the low end of our target leverage range", "direction": "positive", "segment": "balance_sheet"},
+    {"contains": "AFFO for the year ending December 31, 2026, is expected to be between $2.675 billion and $2.695 billion", "horizon": "forward"},
+    {"contains": "the updated guidance represents an increase at the low end of the range of $0.01", "horizon": "forward", "direction": "positive"},
+    {"contains": "VICI expects to deliver year-over-year AFFO-per-share growth of 3.4%", "horizon": "forward", "direction": "positive"},
+    {"contains": "we have added Clairvest, Golden Entertainment, and Club Med as our 14th, 15th, and 16th tenants", "direction": "positive", "segment": "tenants"},
+    {"contains": "our first build-to-suit investment and our first property acquisition in the Caribbean", "segment": "experiential"},
+    {"contains": "we funded the $20.3 million acquisition of the Carambola Beach Resort", "segment": "experiential"},
+    {"contains": "the closing of our $1.16 billion Golden Entertainment sale-leaseback", "segment": "acquisitions"},
+    {"contains": "following a targeted opening in the fourth quarter of 2027", "horizon": "forward", "segment": "experiential"},
+    {"contains": "Strip gaming revenue is running ahead of last year", "topic": "momentum", "direction": "positive", "segment": "las_vegas"},
+    {"contains": "named Las Vegas the number-one convention city in America", "direction": "positive", "segment": "las_vegas"},
+    {"contains": "There has been a really amazing rebound here over the past six months or so in the regional markets", "direction": "positive", "segment": "regional_gaming"},
+    {"contains": "93% occupancy for its Strip assets in the second quarter", "direction": "positive", "segment": "las_vegas"},
+    {"contains": "private operators are more responsive to the use of our capital through our Partner Property Growth Fund", "segment": "private_operators"},
+
+    {"contains": "is just not something that makes a lot of sense", "segment": "capital_allocation"},
+    {"contains": "we are putting money out at SOFR plus 525", "segment": "credit_loans"},
+    {"contains": "our loan book is close to a 9.5% yield", "segment": "credit_loans"},
+    {"contains": "this is a separate loan from the loan we disclosed in Q4 2025, which is on nonaccrual status", "direction": "negative", "segment": "credit_loans"},
+    {"contains": "We actually do not have a watch list", "segment": "credit_loans"},
+    {"contains": "we extended the maturity date and reduced the interest rate on that loan to right-size the yield", "segment": "credit_loans"},
+
+    {"contains": "We are very different from other triple nets that have hundreds of tenants", "topic": "competition", "direction": "positive", "segment": "tenants"},
+    {"contains": "the competitive superiority of Las Vegas as a convention destination is so well established", "topic": "competition", "direction": "positive", "segment": "las_vegas"},
+    {"contains": "we are working with them", "segment": "sports_nba"},
+    {"contains": "I am hopeful and excited that VICI will find ways to be supportive of and participative in that growth", "stance": "confident", "segment": "experiential"},
+    {"contains": "I am quite excited about what I am hearing from our operators", "stance": "confident"},
+    {"contains": "it would be difficult to predict with precision a timetable", "stance": "cautious"}
+  ],
+
+  "signals_forbidden": [
+    {"contains": "Some of our comments today will be forward-looking statements within the meaning of the federal securities laws"},
+    {"contains": "A reconciliation of these measures to the most directly comparable GAAP measure is available on our website"},
+    {"contains": "Hosting the call today are Edward Pitoniak"},
+    {"contains": "In the next few minutes, you will hear from John Payne on our growth outlook"},
+    {"contains": "With that, operator, please open the line for questions"},
+    {"contains": "Thank you, Samantha, and good morning, everyone"},
+    {"contains": "we are especially grateful for your presence today"},
+    {"contains": "Daniel, you are spot-on"},
+    {"contains": "With Churchill Downs announcing last night"}
+  ],
+
+  "trajectory_expected": [],
+
+  "must_surface": [
+    "AFFO per share was $0.62 for the quarter, an increase of 4.6%",
+    "AFFO for the year ending December 31, 2026, is expected to be between $2.675 billion and $2.695 billion",
+    "VICI expects to deliver year-over-year AFFO-per-share growth of 3.4%",
+    "we have added Clairvest, Golden Entertainment, and Club Med as our 14th, 15th, and 16th tenants",
+    "our net debt to annualized second quarter adjusted EBITDA is approximately 4.9 times",
+    "Strip gaming revenue is running ahead of last year",
+    "is just not something that makes a lot of sense",
+    "the closing of our $1.16 billion Golden Entertainment sale-leaseback",
+    "we funded the $20.3 million acquisition of the Carambola Beach Resort",
+    "this is a separate loan from the loan we disclosed in Q4 2025, which is on nonaccrual status"
+  ]
+}

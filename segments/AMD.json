@@ -1,0 +1,38 @@
+{
+ "ticker": "AMD",
+ "note": "Hand-maintained business map. `facts` = exact ledger segment strings; `text` = regexes matched (case-insensitive) against management sentences. Order = display order; `parent` nests a node under another. AMD reports three segments (Data Center; Client and Gaming; Embedded) and the CFO also breaks Client and Gaming into its client and gaming businesses. Data Center is split here into server CPU (EPYC) and data center AI (Instinct) because management guides them separately, although only the segment is a reported line.",
+ "nodes": [
+  {"id": "data_center", "name": "Data Center", "dimension": "segment", "facts": ["data center"],
+   "text": ["\\bdata ?center\\b(?! AI\\b)"]},
+  {"id": "server_cpu", "name": "Server CPU (EPYC)", "parent": "data_center", "dimension": "segment",
+   "facts": ["server", "server cpu"],
+   "text": ["\\bserver\\b", "\\bEPYC\\b", "\\bVenice\\b", "\\bTurin\\b", "\\bGenoa\\b", "\\bVerano\\b"]},
+  {"id": "data_center_ai", "name": "Data Center AI (Instinct)", "parent": "data_center", "dimension": "segment",
+   "facts": ["data center ai", "instinct"],
+   "text": ["\\bdata ?center AI\\b", "\\bInstinct\\b", "\\bMI\\d{3}\\w*\\b", "\\bAI accelerators?\\b"]},
+
+  {"id": "client_gaming", "name": "Client and Gaming", "dimension": "segment",
+   "facts": ["client and gaming", "client & gaming"],
+   "text": ["\\bclient (?:and|&) gaming\\b", "\\bclient gaming\\b"]},
+  {"id": "client", "name": "Client (PC)", "parent": "client_gaming", "dimension": "segment", "facts": ["client"],
+   "text": ["\\bclient\\b(?! (?:and|&) gaming\\b)(?! gaming\\b)", "\\bRyzen\\b", "\\bPCs?\\b", "\\bnotebooks?\\b", "\\bcomponent costs?\\b"]},
+  {"id": "gaming", "name": "Gaming", "parent": "client_gaming", "dimension": "segment", "facts": ["gaming"],
+   "text": ["(?<!client and )(?<!client & )(?<!client )\\bgaming\\b", "\\bsemi[- ]custom\\b", "\\bconsole\\b", "\\bRadeon\\b"]},
+
+  {"id": "embedded", "name": "Embedded", "dimension": "segment", "facts": ["embedded"],
+   "text": ["\\bembedded\\b", "\\bdesign wins?\\b", "\\bKria\\b"]},
+
+  {"id": "helios", "topic": "product", "name": "Helios rack-scale AI platform", "dimension": "initiative", "facts": [],
+   "text": ["\\bHelios\\b", "\\brack-scale\\b"]},
+  {"id": "rocm", "topic": "product", "name": "ROCm software stack", "dimension": "initiative", "facts": [],
+   "text": ["\\bROCm\\b"]},
+  {"id": "ai_customers", "name": "Anchor AI customers and partners", "dimension": "customer", "facts": [],
+   "text": ["\\bOpenAI\\b", "\\bAnthropic\\b", "\\bMeta\\b", "\\bMicrosoft\\b", "\\bCerebras\\b"]},
+
+  {"id": "supply_chain", "name": "Supply and capacity", "dimension": "driver", "facts": [],
+   "text": ["\\bsupply\\b", "\\bcapacity\\b", "\\bwafers?\\b", "\\bsubstrates?\\b", "\\bHBM\\b", "\\bmemory partners?\\b"]},
+  {"id": "tam", "name": "Market size (TAM)", "dimension": "driver", "facts": [],
+   "text": ["\\bTAM\\b", "\\bmarket opportunity\\b", "\\b(?:accelerator|server CPU|AI computing) market\\b",
+            "\\bdemand for (?:both )?(?:accelerators|CPUs)\\b"]}
+ ]
+}

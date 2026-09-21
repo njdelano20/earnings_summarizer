@@ -1,0 +1,2129 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "HESM",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "HESM",
+  "from_cache": true,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed: calendar-year company",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jennifer Gordon",
+    "role": "ir"
+   },
+   {
+    "name": "Jonathan Stein",
+    "role": "management"
+   },
+   {
+    "name": "Michael Chadwick",
+    "role": "management"
+   },
+   {
+    "name": "Vrathan Reddy",
+    "role": "analyst"
+   },
+   {
+    "name": "John Mackay",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas Irwin",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter of 2026",
+  "source_file": "HESM_2026Q2.json"
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Free cash flow $910M to $960M",
+   "fact_ids": [
+    "HESM_2026_2-001"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided flat",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): qa -0.33",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "HESM_2026_2-S006",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "gathering",
+   "name": "Gathering",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "processing",
+   "name": "Processing (gas plants: TGP, LM4)",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "HESM_2026_2-004",
+   "HESM_2026_2-003",
+   "HESM_2026_2-010",
+   "HESM_2026_2-001",
+   "HESM_2026_2-018",
+   "HESM_2026_2-002",
+   "HESM_2026_2-009",
+   "HESM_2026_2-017",
+   "HESM_2026_2-014",
+   "HESM_2026_2-012",
+   "HESM_2026_2-013",
+   "HESM_2026_2-011"
+  ],
+  "signal_ids": [
+   "HESM_2026_2-S001",
+   "HESM_2026_2-S003",
+   "HESM_2026_2-S013",
+   "HESM_2026_2-S018",
+   "HESM_2026_2-S020",
+   "HESM_2026_2-S024",
+   "HESM_2026_2-S034",
+   "HESM_2026_2-S035",
+   "HESM_2026_2-S036",
+   "HESM_2026_2-S037"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "gathering",
+   "name": "Gathering",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S007"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "processing",
+   "name": "Processing (gas plants: TGP, LM4)",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "HESM_2026_2-007"
+   ],
+   "signal_ids": [
+    "HESM_2026_2-S002",
+    "HESM_2026_2-S011"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "terminaling",
+   "name": "Terminaling and export",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "water",
+   "name": "Water gathering",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron / Hess (sponsor and customer)",
+   "dimension": "customer",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S023",
+    "HESM_2026_2-S031",
+    "HESM_2026_2-S033",
+    "HESM_2026_2-S039"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "shareholder_returns",
+   "name": "Distributions and buybacks",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S004",
+    "HESM_2026_2-S005",
+    "HESM_2026_2-S009",
+    "HESM_2026_2-S038",
+    "HESM_2026_2-S040",
+    "HESM_2026_2-S041"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 8,
+   "stance": {
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "capital_program",
+   "name": "Capital program",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S008",
+    "HESM_2026_2-S016"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "volumes",
+   "name": "Throughput volumes",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S006",
+    "HESM_2026_2-S015",
+    "HESM_2026_2-S026",
+    "HESM_2026_2-S030"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 9,
+   "stance": {
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "opex_maintenance",
+   "name": "Operating expense, maintenance and weather phasing",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S022",
+    "HESM_2026_2-S027",
+    "HESM_2026_2-S028",
+    "HESM_2026_2-S032"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 12,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "leverage_debt",
+   "name": "Leverage and debt",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "HESM_2026_2-S012",
+    "HESM_2026_2-S014",
+    "HESM_2026_2-S042"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 9,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "HESM_2026_2-S006",
+    "direction_word": "flat",
+    "text": "Consistent with our annual guidance, we continue to expect volumes to grow in the second half of the year.",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 0,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": null
+   },
+   "qa": {
+    "confident": 1,
+    "cautious": 2,
+    "mixed": 0,
+    "withheld": 0,
+    "index": -0.33
+   }
+  },
+  "speakers": {
+   "Jonathan Stein": {
+    "cautious": 1
+   },
+   "Michael Chadwick": {
+    "confident": 1,
+    "cautious": 1
+   }
+  },
+  "notable_confident": [
+   "HESM_2026_2-S037"
+  ],
+  "notable_cautious": [
+   "HESM_2026_2-S033",
+   "HESM_2026_2-S041"
+  ],
+  "withheld": [],
+  "revisions": [
+   "HESM_2026_2-S006",
+   "HESM_2026_2-S017",
+   "HESM_2026_2-S018"
+  ]
+ },
+ "signals": [
+  {
+   "id": "HESM_2026_2-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will",
+     "outlook"
+    ],
+    "product": [
+     "review"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Today, I will discuss our second quarter performance and outlook for the remainder of the year, and then I'll hand the call over to Mike to review our financials.",
+   "ev_start": 1527,
+   "ev_end": 1689,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S002",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance",
+    "processing"
+   ],
+   "home": "processing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Our plans for the third quarter include maintenance at LM4 and completing maintenance work that has now shifted to the second half of the year.",
+   "ev_start": 1868,
+   "ev_end": 2011,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S003",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Complementing our operational execution, we continue to find efficiencies across our assets on both synergies and improved performance.",
+   "ev_start": 2012,
+   "ev_end": 2147,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S004",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "leverage_debt",
+    "shareholder_returns"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "shareholder_returns:strategy"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "During the quarter, we also delivered on our financial strategy by strengthening our balance sheet and increasing our distribution in line with our continued prioritization of shareholder returns.",
+   "ev_start": 2148,
+   "ev_end": 2344,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "shareholder_returns"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [
+    "HESM_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "node_topic": [
+     "shareholder_returns:strategy"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Hess Midstream remains a leader in shareholder returns, and we reiterate our 2026 adjusted free cash flow guidance of $910 million to $960 million or a 20% increase year-over-year at the midpoint.",
+   "ev_start": 2345,
+   "ev_end": 2541,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "volumes"
+   ],
+   "home": "volumes",
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "guidance",
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Consistent with our annual guidance, we continue to expect volumes to grow in the second half of the year.",
+   "ev_start": 2957,
+   "ev_end": 3063,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S007",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_program",
+    "gathering"
+   ],
+   "home": "gathering",
+   "fact_ids": [
+    "HESM_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": []
+   },
+   "score": 4.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "In the second quarter, capital expenditures were $31 million as we continue to execute our program, including completion of greenfield high-pressure gathering pipeline infrastructure.",
+   "ev_start": 3109,
+   "ev_end": 3292,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S008",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_program"
+   ],
+   "home": "capital_program",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We expect our capital spend to be higher in the third quarter, in line with planned activity.",
+   "ev_start": 3293,
+   "ev_end": 3386,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S009",
+   "topics": [
+    "competition",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "shareholder_returns",
+    "leverage_debt"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely"
+    ],
+    "competition": [
+     "uniquely"
+    ],
+    "strategy": [
+     "investment",
+     "repurchases"
+    ],
+    "performance": [
+     "cash flow",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "In summary, we remain focused on executing safe and reliable operations while leveraging our historical investment in existing infrastructure to continue generating significant adjusted free cash flow, allowing us to uniquely provide returns to our shareholders through growing distributions and incremental share repurchases while simultaneously continuing to reduce our debt leverage.",
+   "ev_start": 3387,
+   "ev_end": 3773,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S010",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "The increase was primarily due to lower operating expenses with some activity shifting into the second half of the year as well as G&A savings from lower allocations during the quarter.",
+   "ev_start": 4369,
+   "ev_end": 4554,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "processing",
+    "opex_maintenance"
+   ],
+   "home": "processing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "earnings",
+     "decreased",
+     "ebitda"
+    ]
+   },
+   "score": 5.11,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Total cost and expenses, excluding depreciation and amortization, pass-through costs and net of our proportional share of LM4 earnings decreased by approximately $4 million, primarily due to lower operating expenses with some activity shifting into the second half of the year as well as G&A savings from lower allocations during the quarter, resulting in adjusted EBITDA for the second quarter of 2026 of $314 million.",
+   "ev_start": 4814,
+   "ev_end": 5233,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "leverage_debt"
+   ],
+   "home": "leverage_debt",
+   "fact_ids": [
+    "HESM_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "ebitda",
+     "margin"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Our gross adjusted EBITDA margin for the second quarter of 2026 was maintained at approximately 85%, above our 75% target, highlighting our continued strong operating leverage.",
+   "ev_start": 5234,
+   "ev_end": 5410,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HESM_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "cash flow",
+     "decrease"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Net interest, excluding amortization of deferred finance costs, was approximately $51 million, resulting in adjusted free cash flow of approximately $232 million, a decrease of approximately 2% from the first quarter of 2026.",
+   "ev_start": 5520,
+   "ev_end": 5745,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "leverage_debt"
+   ],
+   "home": "leverage_debt",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "decrease"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "We had a drawn balance of $256 million on our revolving credit facility at the end of the second quarter of 2026, a decrease of approximately $87 million from the first quarter of 2026.",
+   "ev_start": 5746,
+   "ev_end": 5931,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S015",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "volumes",
+    "opex_maintenance"
+   ],
+   "home": "volumes",
+   "fact_ids": [
+    "HESM_2026_2-011",
+    "HESM_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "For the third quarter of 2026, we expect net income to be approximately $165 million to $175 million and adjusted EBITDA to be approximately flat at the midpoint with the second quarter at $310 million to $320 million as expected, higher revenues and volumes are offset by higher OpEx.",
+   "ev_start": 5932,
+   "ev_end": 6217,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "capital_program"
+   ],
+   "home": "capital_program",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "cash flow",
+     "decrease"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "We expect adjusted free cash flow in the third quarter of 2026 to decrease relative to the second quarter of 2026 as capital expenditures in the third quarter are projected to be higher than the second quarter, reflecting increased activity.",
+   "ev_start": 6218,
+   "ev_end": 6459,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S017",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "volumes"
+   ],
+   "home": "volumes",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "We continue to expect second half volumes to be higher than the first half of the year.",
+   "ev_start": 6460,
+   "ev_end": 6547,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S018",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HESM_2026_2-013",
+    "HESM_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year",
+     "expect"
+    ],
+    "revision": [
+     "maintained"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "For the full year of 2026, we continue to expect net income of between $650 million and $700 million and adjusted EBITDA of between $1.225 billion and $1.275 billion in 2026, approximately flat at the midpoint compared with 2025.",
+   "ev_start": 6548,
+   "ev_end": 6777,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S019",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "shareholder_returns",
+    "leverage_debt"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [
+    "HESM_2026_2-015",
+    "HESM_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "node_topic": [
+     "shareholder_returns:strategy"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "We expect to generate adjusted free cash flow of between $910 million and $960 million and excess adjusted free cash flow of approximately $280 million after fully funding our targeted 5% annual distribution growth, which we expect to continue to use for incremental shareholder returns and debt repayment.",
+   "ev_start": 6861,
+   "ev_end": 7167,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S020",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 0.89,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "So what it's going to take to get to some of the puts and takes on our EBITDA guidance range.",
+   "ev_start": 7786,
+   "ev_end": 7879,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S021",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 4,
+   "sentence": "It's going to be pretty much about weather and execution in the second half of the year.",
+   "ev_start": 7880,
+   "ev_end": 7968,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S022",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expecting",
+     "expect"
+    ]
+   },
+   "score": 1.89,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 8,
+   "sentence": "With regards to phasing, as you heard in our prepared remarks, Jonathan and I both mentioned that we've got a bit of a phasing shift in OpEx, some of the maintenance programs that we were expecting to carry out in Q2 shifted to later in the year, and we expect to pick that up in Q3.",
+   "ev_start": 8329,
+   "ev_end": 8612,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S023",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance",
+    "chevron"
+   ],
+   "home": "chevron",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.11,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 9,
+   "sentence": "Typically, when we get to Q4, it's a bit of a lower phasing on OpEx as weather takes an impact, but we also expect to see possibly some volatility on the actualization of G&A allocations from the sponsor typically around Q4 as well.",
+   "ev_start": 8613,
+   "ev_end": 8845,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S024",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 0.89,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 10,
+   "sentence": "And that's the reason why we've kept our EBITDA guidance in the same range as the previous quarter.",
+   "ev_start": 8846,
+   "ev_end": 8945,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S025",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance",
+    "volumes"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 1,
+   "sentence": "Yes, I think in terms of the phasing of volume, as we've - we had always said that we expected the second half of the year to be higher.",
+   "ev_start": 9361,
+   "ev_end": 9497,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S026",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "volumes"
+   ],
+   "home": "volumes",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "As Mike said, the way you can kind of think about the year is really continued volume growth quarter-on-quarter from this point forward, at least 5% growth into the second half of the year.",
+   "ev_start": 9882,
+   "ev_end": 10071,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S027",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ]
+   },
+   "score": 2.11,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 8,
+   "sentence": "As Mike said, OpEx is going to increase as we defer maintenance, with activity pickup toward the end of the third quarter.",
+   "ev_start": 10143,
+   "ev_end": 10265,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S028",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [
+    "HESM_2026_2-017"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year",
+     "guidance"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 10,
+   "sentence": "And then in the fourth quarter, we'll have higher revenue and expect OpEx to be at least flat or lower, so driving higher EBITDA into the fourth quarter and then keeping our full year guidance.",
+   "ev_start": 10347,
+   "ev_end": 10540,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S029",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "volumes"
+   ],
+   "home": "volumes",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance",
+     "going forward"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "That volume expectation of approximately 200,000 barrels of oil equivalent per day underpins our guidance going forward.",
+   "ev_start": 11557,
+   "ev_end": 11677,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S030",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "volumes"
+   ],
+   "home": "volumes",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 7,
+   "sentence": "We're highly capital efficient, leveraging our historical investment and more capital efficiency to be able to get the same volume throughput.",
+   "ev_start": 11832,
+   "ev_end": 11974,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S031",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "volumes",
+    "chevron",
+    "opex_maintenance"
+   ],
+   "home": "chevron",
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "forward": [
+     "expecting",
+     "guidance"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 6.89,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 8,
+   "sentence": "Looking forward, we're not necessarily expecting substantial production growth per se, consistent with what Chevron has talked about; much of our guidance reflects inflation escalation as you go forward and some OpEx savings.",
+   "ev_start": 11975,
+   "ev_end": 12200,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S032",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "opex_maintenance"
+   ],
+   "home": "opex_maintenance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies",
+     "acquisition"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 9,
+   "sentence": "We are continuing to see synergies from the acquisition coming through, and that's certainly reflected in our OpEx savings.",
+   "ev_start": 12201,
+   "ev_end": 12324,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S033",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "chevron",
+    "volumes"
+   ],
+   "home": "chevron",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "product": [
+     "integration"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "I'd say it's still early days because we're only about a year into the merger and acquisition integration of Hess into Chevron, but from the midstream side we're seeing the ability to maintain production even at lower rig counts, and larger components of growth are, from our point of view, less important as Chevron can maintain that production level going forward.",
+   "ev_start": 12325,
+   "ev_end": 12691,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S034",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jonathan Stein",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 2,
+   "sentence": "From our side, we're focused on execution of our plan, leveraging our investments to drive free cash flow generation and producing results like we saw this quarter.",
+   "ev_start": 13191,
+   "ev_end": 13355,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 0,
+   "sentence": "I'm glad you noticed the strong performance on our margin.",
+   "ev_start": 13877,
+   "ev_end": 13935,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "extraordinary",
+     "healthy"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 1,
+   "sentence": "It is extraordinary that we are managing to keep a very healthy margin at 85% this quarter.",
+   "ev_start": 13936,
+   "ev_end": 14027,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 5,
+   "sentence": "While we continue a pretty strong trend in excess of 80%, we're comfortable in maintaining our 75% margin target.",
+   "ev_start": 14285,
+   "ev_end": 14398,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S038",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "leverage_debt",
+    "shareholder_returns"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "node_topic": [
+     "shareholder_returns:strategy"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "We will use some of the excess adjusted free cash flow to pay down debt as well as return capital to shareholders.",
+   "ev_start": 15123,
+   "ev_end": 15237,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "shareholder_returns",
+    "chevron",
+    "leverage_debt"
+   ],
+   "home": "chevron",
+   "fact_ids": [
+    "HESM_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchase"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "You saw that in March with the $60 million share repurchase from the public and our sponsor, and in this quarter we paid down $87 million against the revolver.",
+   "ev_start": 15238,
+   "ev_end": 15397,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "shareholder_returns",
+    "leverage_debt"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "shareholder_returns:strategy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "We've guided $280 million of excess adjusted free cash flow for this year as a target, so we have capacity left to do further shareholder returns or debt pay down.",
+   "ev_start": 15398,
+   "ev_end": 15561,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S041",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "shareholder_returns"
+   ],
+   "home": "shareholder_returns",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "throughout the year"
+    ],
+    "hedge": [
+     "evaluates"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "The Board evaluates the mix of paydown and return of capital during the year, and that's part of their consideration throughout the year.",
+   "ev_start": 15562,
+   "ev_end": 15699,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HESM_2026_2-S042",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "leverage_debt"
+   ],
+   "home": "leverage_debt",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Chadwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 7,
+   "sentence": "With regards to our longer-term view on leverage, right now we're around 3x leverage, and we expect that to go lower.",
+   "ev_start": 15700,
+   "ev_end": 15817,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "HESM_2026_2-S007",
+  "HESM_2026_2-S002",
+  "HESM_2026_2-S011",
+  "HESM_2026_2-S023",
+  "HESM_2026_2-S031",
+  "HESM_2026_2-S033",
+  "HESM_2026_2-S039",
+  "HESM_2026_2-S004",
+  "HESM_2026_2-S005",
+  "HESM_2026_2-S009",
+  "HESM_2026_2-S038",
+  "HESM_2026_2-S040",
+  "HESM_2026_2-S041",
+  "HESM_2026_2-S008",
+  "HESM_2026_2-S016",
+  "HESM_2026_2-S006",
+  "HESM_2026_2-S015",
+  "HESM_2026_2-S026",
+  "HESM_2026_2-S030",
+  "HESM_2026_2-S022",
+  "HESM_2026_2-S027",
+  "HESM_2026_2-S028",
+  "HESM_2026_2-S032",
+  "HESM_2026_2-S012",
+  "HESM_2026_2-S014",
+  "HESM_2026_2-S042",
+  "HESM_2026_2-S001",
+  "HESM_2026_2-S003",
+  "HESM_2026_2-S013",
+  "HESM_2026_2-S018",
+  "HESM_2026_2-S020",
+  "HESM_2026_2-S024",
+  "HESM_2026_2-S034",
+  "HESM_2026_2-S035",
+  "HESM_2026_2-S036",
+  "HESM_2026_2-S037"
+ ],
+ "surfaced_signal_ids": [
+  "HESM_2026_2-S007",
+  "HESM_2026_2-S002",
+  "HESM_2026_2-S011",
+  "HESM_2026_2-S023",
+  "HESM_2026_2-S031",
+  "HESM_2026_2-S033",
+  "HESM_2026_2-S039",
+  "HESM_2026_2-S004",
+  "HESM_2026_2-S005",
+  "HESM_2026_2-S009",
+  "HESM_2026_2-S038",
+  "HESM_2026_2-S040",
+  "HESM_2026_2-S041",
+  "HESM_2026_2-S008",
+  "HESM_2026_2-S016",
+  "HESM_2026_2-S006",
+  "HESM_2026_2-S015",
+  "HESM_2026_2-S026",
+  "HESM_2026_2-S030",
+  "HESM_2026_2-S022",
+  "HESM_2026_2-S027",
+  "HESM_2026_2-S028",
+  "HESM_2026_2-S032",
+  "HESM_2026_2-S012",
+  "HESM_2026_2-S014",
+  "HESM_2026_2-S042",
+  "HESM_2026_2-S001",
+  "HESM_2026_2-S003",
+  "HESM_2026_2-S013",
+  "HESM_2026_2-S018",
+  "HESM_2026_2-S020",
+  "HESM_2026_2-S024",
+  "HESM_2026_2-S034",
+  "HESM_2026_2-S035",
+  "HESM_2026_2-S036",
+  "HESM_2026_2-S037",
+  "HESM_2026_2-S017"
+ ],
+ "coverage": {
+  "registry": "curated",
+  "discussed": [
+   "gathering",
+   "processing",
+   "chevron",
+   "shareholder_returns",
+   "capital_program",
+   "volumes",
+   "opex_maintenance",
+   "leverage_debt"
+  ],
+  "not_discussed": [
+   "terminaling",
+   "water"
+  ],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "gathering",
+   "chevron",
+   "shareholder_returns",
+   "capital_program",
+   "volumes",
+   "opex_maintenance",
+   "leverage_debt"
+  ],
+  "unmapped_fact_segments": {
+   "pass-through": 1,
+   "follows gathering": 1,
+   "gross": 1
+  },
+  "held_back_low_confidence_facts": [
+   "HESM_2026_2-015",
+   "HESM_2026_2-016"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "pass",
+   "detail": "curated business map in use"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "warn",
+   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'pass-through': 1, 'follows gathering': 1, 'gross': 1}"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 42,
+  "signals_usable": 42,
+  "selected": 36,
+  "by_topic": {
+   "product": 2,
+   "strategy": 12,
+   "momentum": 12,
+   "pressure": 2,
+   "competition": 1
+  },
+  "by_horizon": {
+   "forward": 27,
+   "current": 15
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 8,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

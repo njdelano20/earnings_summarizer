@@ -1,0 +1,73 @@
+{
+  "transcript": "data/raw/alphavantage/CPRT_2026Q3.json",
+  "notes": "Hand-written 2026-09-21 by reading the Copart FY2026 Q3 call, before any snapshot output for it was opened. Node ids are the ones segments/CPRT.json defines: us (parent of purple_wave), international, seller groups insurance / noninsurance, buyers, initiatives ai / buybacks, drivers claims_environment / fuel_logistics. The call gives no outlook, so no trajectory rows are expected. Only the two reporting segments carry ledger facts; the rest are demanded as commentary.",
+
+  "segments_with_facts": ["us", "international"],
+  "segments_with_commentary": ["us", "international", "purple_wave", "insurance", "noninsurance", "buyers", "ai", "buybacks",
+                                "claims_environment", "fuel_logistics"],
+
+  "signals_expected": [
+    {"contains": "consolidated revenue grew to $1.24 billion, up 2.1% year-over-year", "topic": "momentum", "direction": "positive"},
+    {"contains": "Global gross profit increased 3.7% to $572.6 million", "topic": "momentum", "direction": "positive"},
+    {"contains": "From a profitability standpoint, the quarter was strong", "direction": "positive"},
+    {"contains": "U.S. insurance ASPs increased 4.1% year-over-year for the quarter, reaching a seasonally adjusted all-time record high", "topic": "momentum", "direction": "positive", "segment": "insurance"},
+    {"contains": "Total units sold increased 5.9% with insurance units up 4.6%", "topic": "momentum", "direction": "positive", "segment": "international"},
+    {"contains": "international revenue grew 14.1%", "topic": "momentum", "direction": "positive", "segment": "international"},
+    {"contains": "The profit picture was equally compelling", "direction": "positive", "segment": "international"},
+    {"contains": "Internationally, the story is one of continued momentum", "topic": "momentum", "direction": "positive", "segment": "international"},
+    {"contains": "strong gross transaction value growth", "topic": "momentum", "direction": "positive", "segment": "purple_wave"},
+    {"contains": "Our BluCar commercial consignment channel expanded by over 4%", "topic": "momentum", "direction": "positive", "segment": "noninsurance"},
+    {"contains": "Combined fleet and finance seller volume grew at a healthy double-digit pace", "topic": "momentum", "direction": "positive", "segment": "noninsurance"},
+    {"contains": "we are seeing encouraging momentum across our diversified seller base", "direction": "positive"},
+    {"contains": "We continue to generate robust free cash flow", "direction": "positive"},
+    {"contains": "Copart remains in an exceptionally strong financial position", "direction": "positive"},
+
+    {"contains": "our global insurance unit sales declined 2.7%", "topic": "momentum", "direction": "negative", "segment": "insurance"},
+    {"contains": "Our U.S. insurance unit volume for the same period declined 4.2%", "topic": "momentum", "direction": "negative", "segment": "insurance"},
+    {"contains": "Claims activity also remains somewhat softer", "direction": "negative", "segment": "claims_environment"},
+    {"contains": "earned car years according to ISS Fast Track have declined 4%", "direction": "negative", "segment": "claims_environment"},
+    {"contains": "Our Copart Direct unit volume declined 26.3%", "segment": "noninsurance"},
+    {"contains": "direct participation in U.S. auctions from certain Middle Eastern markets has declined year-over-year", "direction": "negative", "segment": "buyers"},
+    {"contains": "fuel is very relevant to all of them", "segment": "fuel_logistics"},
+    {"contains": "we saw about $15 million of year-over-year increase in costs on the facility operations line", "segment": "fuel_logistics"},
+    {"contains": "That product is generating a nice margin for us as well as revenue", "direction": "positive", "segment": "fuel_logistics"},
+
+    {"contains": "representing absolute investment levels that substantially exceed the balance of the industry collectively", "topic": "competition", "direction": "positive"},
+    {"contains": "We estimate that our pure sale insurance volume is literally an order of magnitude higher than what is available at other similar platforms", "topic": "competition", "direction": "positive", "segment": "insurance"},
+    {"contains": "processing volume many times more than anyone else in the industry", "topic": "competition", "direction": "positive"},
+    {"contains": "the recent launch of our domestic long-haul delivery services", "topic": "product", "segment": "fuel_logistics"},
+    {"contains": "providing them the AI-enabled tools to make front-end total loss decisions", "topic": "product", "segment": "ai"},
+    {"contains": "Fiscal year-to-date, we have repurchased over 43.4 million shares", "topic": "strategy", "segment": "buybacks"},
+    {"contains": "International expansion has historically been part of our playbook and will be relevant going forward", "horizon": "forward", "segment": "international"},
+    {"contains": "Germany continues to perform very well relative to where it was several years ago", "direction": "positive", "segment": "international"},
+
+    {"contains": "underscoring our confidence in the future growth prospects for Copart", "stance": "confident"},
+    {"contains": "We're pleased with our performance there", "stance": "confident"}
+  ],
+
+  "signals_forbidden": [
+    {"contains": "Any forward-looking statements are made as of today"},
+    {"contains": "Thank you, Jeff, and good afternoon to everyone on the call"},
+    {"contains": "I'll begin by walking through our financial results for the quarter"},
+    {"contains": "I'll begin with some brief remarks on our insurance business"},
+    {"contains": "we'll open up the call for questions"},
+    {"contains": "Fuel prices and transportation costs are up across the economy"},
+    {"contains": "Thanks for your question, Bob"},
+    {"contains": "Fair question"}
+  ],
+
+  "trajectory_expected": [],
+
+  "must_surface": [
+    "consolidated revenue grew to $1.24 billion, up 2.1% year-over-year",
+    "Global gross profit increased 3.7% to $572.6 million",
+    "our global insurance unit sales declined 2.7%",
+    "U.S. insurance ASPs increased 4.1% year-over-year for the quarter",
+    "international revenue grew 14.1%",
+    "Claims activity also remains somewhat softer",
+    "strong gross transaction value growth",
+    "Fiscal year-to-date, we have repurchased over 43.4 million shares",
+    "direct participation in U.S. auctions from certain Middle Eastern markets has declined year-over-year",
+    "the recent launch of our domestic long-haul delivery services"
+  ]
+}

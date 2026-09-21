@@ -1,0 +1,222 @@
+{
+ "symbol": "CPRT",
+ "quarter": "2026Q3",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Good day, everyone, and welcome to the Copart, Inc. Third Quarter Fiscal 2026 Earnings Call. Just a reminder, today's conference is being recorded. Before turning the call over to management, I will share Copart's safe harbor statement. The company's comments today include forward-looking statements within the meaning of the federal securities laws, including management's current views with respect to trends, opportunities and uncertainties in the company's industry. These forward-looking statements involve substantial risks and uncertainties. For more detail on the risks associated with the company's business, we refer you to the section titled Risk Factors in the company's annual report on Form 10-K for the year ended July 31, 2025, and each of the company's subsequent quarterly reports on Form 10-Q. Any forward-looking statements are made as of today, and the company has no obligation to update or revise any forward-looking statements. I will now turn the call over to the company's CEO, Jeff Liaw.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Welcome and thank you for joining us for our call today. We're pleased to report the results of our third quarter fiscal year 2026. I'll begin with some brief remarks on our insurance business before passing the call to Leah to provide a summary of our financial results. We'll then take your questions. On our insurance business. First, for the third quarter 2026, our global insurance unit sales declined 2.7% or 1.9%, excluding the effect of catastrophic volume from a year ago. Our U.S. insurance unit volume for the same period declined 4.2% or just over 3%, excluding the effect of those same catastrophic units. We believe the long-term growth algorithm for our insurance business remains very much intact, that over many years, we've observed modest gradual declines in accident frequency, which are then more than offset by increases in total loss frequency. Total loss frequency is, in turn, a function of ever-rising repair costs, but more importantly, the differentiated returns that Copart generates by finding the highest and best use for a car globally, which is often full restoration back to roadworthiness. Nevertheless, the underlying drivers of near-term volume trends remain consistent with those we've discussed with you in prior quarters. A portion of this volume variance reflects shifts in policy in-force mix among insurance carriers. As we indicated previously, these trends tend to be cyclical historically, and we have observed a moderation in some of these trends among U.S. insurance carriers in recent quarters. Claims activity also remains somewhat softer as consumers continue adjusting their insurance purchasing behavior in response to rising premiums. As one indicator of this trend from a macro level, earned car years according to ISS Fast Track have declined 4% year-over-year in the fourth calendar quarter of 2025, while vehicles in operation grew 1.4%. We believe this divergence, declining insurance coverage against a growing vehicle fleet, is clear evidence of the consumer pullback on insurance coverage. As one other strong indication of consumers absorbing ever more of the financial burdens of their claims, CCC has published data indicating that 25% of repairs are now self-pay and that in response, they've created a Buy Now, Pay Later product to support those consumers. Long-term historical data, though, indicates that this consumer retrenchment phenomenon regarding insurance coverage is cyclical and likely counter-inflationary. When consumers feel pocketbook pressure, especially on a lagged basis regarding their auto insurance rates, they dial back their coverage. The same has been true in reverse. This softness in claims activity has been partially offset by continued increases in total loss frequency, consistent with the very long-term industry trend. The underlying forces here have been remarkably consistent: rising repair costs on the one hand and increasing auction returns at Copart on the other. Total loss frequency for the first calendar quarter 2026 reached 23.6%, an increase of almost 5 full percentage points over the past four years. Although we always report this metric and we described it as an industry metric, we are very much not passive beneficiaries of an increase in total loss frequency. We have helped to drive it upwards, and we view it as our ongoing responsibility to drive ever better auction returns, which then increases the attractiveness of the total loss pathway to insurance carriers who are considering various possibilities for resolving their claims. We are focused, as always, on delivering superior outcomes for our clients, first and foremost, through auction returns, but also, of course, through our differentiated service offerings from vehicle retrieval to title processing. We continue to invest heavily in our technology platforms, our physical infrastructure and our global buyer network to enable those outcomes, representing absolute investment levels that substantially exceed the balance of the industry collectively. We do so proudly as stewards of the industry. On returns, specifically, despite the logistical and economic disruptions of global conflict, U.S. insurance ASPs increased 4.1% year-over-year for the quarter, reaching a seasonally adjusted all-time record high for Copart insurance ASPs in the third quarter. Consistent with our prior discussions, international buyers are a critical driver of these auction returns and today represent more than one-third of the volumes sold at U.S. Copart auctions and nearly half of our auction proceeds. In any given month or quarter, the precise mix of participating countries can vary. For example, given recent conflicts, direct participation in U.S. auctions from certain Middle Eastern markets has declined year-over-year. What has sustained overall demand has been the breadth and diversification of this buyer base. As certain corridors moderated, others expanded to fill the gap, including parts of Central Europe, West Africa, Central America and the Caribbean. The virtue of robust auction liquidity is that no single seller or buyer and, in fact, no single region, country or currency unduly influences the auction outcomes we deliver to our sellers. The resilience of our marketplace comes from the depth and diversity of a buyer network we have spent decades cultivating, now spanning more than 160 countries worldwide. That network breadth is a meaningful driver of returns for our insurance clients. Our analysis also shows that international buyers, financed buyers, new buyers and particularly crossover buyers are critical enablers of the higher auction returns that we generate for our sellers. We call crossover buyers those members who first discover Copart and engage with us in search of a vehicle sold by rental car companies, financial institutions, dealers and the like, who then discover the wealth of product available from insurance sellers and then engage as buyers there as well. Looking back over the past three years, of the more than 30,000 buyers who first entered the Copart ecosystem by virtue of those noninsurance vehicles, a strong majority would bid on an insurance vehicle within the first 90 days of their engagement. Whatever we or anyone else asserts about auction liquidity, the best testimony for auction liquidity is seller participation. Our sellers vote with their feet by entrusting ever more of their volume to us on a pure sale basis. They know that by virtue of Copart's buyer recruitment, product discovery and auction management practices we will yield the highest and best value the first time through our auction. Today, for U.S. insurance sellers at Copart, the mix of pure sale units is at all-time highs. We estimate that our pure sale insurance volume is literally an order of magnitude higher than what is available at other similar platforms. We recently completed our 2026 Insurance Advisory Board meeting, a gathering of our largest U.S. insurance clients to discuss current and future catalysts of change in our industry, including artificial intelligence deployment. It marks just one visible moment in our ongoing day-to-day engagement with our clients to extend and expand our commercial relationships as we handle ever more of the claims processes for them, including providing them the AI-enabled tools to make front-end total loss decisions more quickly and more accurately through to title procurement, loan settlement and ultimately, auction. With that, I'll turn the call over to Leah Stearns.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Leah Stearns",
+   "title": "CFO",
+   "content": "Thank you, Jeff, and good afternoon to everyone on the call. I'll begin by walking through our financial results for the quarter, beginning with our consolidated performance, followed by a review of our U.S. and international segments. For the third quarter, consolidated revenue grew to $1.24 billion, up 2.1% year-over-year, driven by strength in both service and purchased vehicle sales. During the quarter, we continued to see expansion in average selling prices, which rose 4.6% and more than offset a modest decline in unit volumes of 2.4%. On the insurance side, global units were down 2.7%, consistent with the industry dynamics Jeff outlined, while global noninsurance units decreased 1.4%. Notably, while global inventory was down 2% from the prior year, global assignment volumes grew at a low single-digit pace. From a profitability standpoint, the quarter was strong. Global gross profit increased 3.7% to $572.6 million, with global gross margins increasing 71 basis points to 46.3%. During the quarter, we continued to invest across our platform to enhance the products and services we offer to participants across our global marketplace. This includes the recent launch of our domestic long-haul delivery services in the U.S. Operating income grew 2.8% to $464.3 million, net income was $402.4 million, and earnings per diluted share increased 2.4% to $0.43, benefiting in part from our ongoing share repurchase activity. Turning to our U.S. segment. Total units declined 4.2% or 3.3% excluding Copart Direct units. Insurance volumes decreased 4.2%, which are consistent with the claims frequency trends Jeff described a few moments ago. Beyond insurance, we are seeing encouraging momentum across our diversified seller base. Our Dealer Services and powersports businesses grew units by 1%. Our BluCar commercial consignment channel expanded by over 4% over the prior year. Combined fleet and finance seller volume grew at a healthy double-digit pace, which was partially offset by the continued impact of higher repair activity we've seen among our rental customers. Our Copart Direct unit volume declined 26.3% as we continue to strategically shift lower-value units to our direct buy channel. On the inventory side, U.S. inventory is down 4.7% year-over-year, and U.S. assignments declined at a low single-digit pace during the quarter. Shifting to Purple Wave, our focus on organic territory sales expansion continues to yield strong gross transaction value growth, which was more than 25% for the last 12 months. The momentum we are experiencing is being fueled by strong traction in our expansion markets and deepening relationships with select enterprise accounts, which is a real testament to the progress our team is making to scale their platform. On revenue, the U.S. segment was essentially flat, down 0.4% as higher revenue per unit largely was offset by volume headwinds. Insurance ASPs increased 4.1%, noninsurance ASPs increased 3.7% and purchased unit ASPs increased 23%. U.S. gross profit grew to $484.1 million, up 0.9%, and gross profit margin was 48.3%. Operating income was $390.4 million, reflecting a 38.1% operating margin. Internationally, the story is one of continued momentum. Total units sold increased 5.9% with insurance units up 4.6% and noninsurance units growing 11.2% in the quarter. Inventory in our international segment increased over 10% from a year-ago period and international assignments increased at a low-teens pace. These trends reflect the broad-based growth that we are seeing across our diversified international footprint, with particularly strong contributions from the U.K., Germany and Canada. For the quarter, international revenue grew 14.1% or 7.9% excluding the positive impact of foreign currency fluctuations, to $234.2 million. The primary source of growth internationally came from service revenues, which were up 17.9%, driven by a 10.5% increase in fee revenue per unit and strong volume growth. Revenue per unit was positively impacted by strong ASP growth with insurance ASPs increasing 8.4% and noninsurance ASPs growing 16.7%. The profit picture was equally compelling, with gross profit increasing 21.9% and operating income reaching $73.8 million, representing a 31.5% operating margin. Finally, turning to our capital structure and liquidity. Copart remains in an exceptionally strong financial position. We ended the quarter with liquidity of approximately $5.5 billion, which includes $4.2 billion in cash and equivalents and held-to-maturity securities and no debt. Our balance sheet gives us tremendous flexibility to be opportunistic investors throughout business and credit cycles. We continue to generate robust free cash flow, which has increased 12% year-to-date, supported by disciplined capital allocation into land, facilities and technology, which positions us to efficiently serve both insurance and noninsurance clients while delivering strong operating efficiency. On the capital return front, we continue to repurchase shares during the third quarter through a combination of 10b5-1 and open market transactions. Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business. Thank you. With that, we'll open up the call for questions.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The operator provided instructions. And the first question comes from the line of Bob Labick with CJS Securities.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Bob Labick",
+   "title": "Analyst (CJS Securities)",
+   "content": "So I want to start on fuel. Fuel prices and transportation costs are up across the economy and talked about a lot in general. I was wondering if you could remind us how it flows through for Copart now. I think years ago, it was all company fleet, then you outsourced your fleet. I think you kind of have a hybrid towing fleet now. If you could give us color on the impact and whether you charge surcharges or pricing to your customers? Or how do you mitigate fuel as well?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Great. Thanks for your question, Bob. We are, as you noted, a hybrid. We do manage our own in-house truck fleet. We have a substantial program that we call Truck In a Box in which we help contractors and support their businesses with a structured lease program and a structured tow program with us as well. So we have cultivated liquidity on the towing side with some mix of our owned assets as well as supported third parties. For many years, we have leveraged a large third-party subcontractor network as well. So all three of the above. Not surprisingly, fuel is very relevant to all of them. We have been thoughtfully responsive with them as necessary to adjust rates, to ensure ongoing service and to ensure that they can long term prosperously support us, our business as well as the business of our clients. It's a microeconomic decision market by market, but we do have to account, of course, for that input cost in our business.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Bob Labick",
+   "title": "Analyst (CJS Securities)",
+   "content": "Okay. Understood. Great. And then I guess, one bigger picture question in terms of the decline in new car sales and SAAR that kind of started in 2020 from COVID. How do you see that as an impact on expected salvage volumes in 2027 and beyond as those cohorts start hitting the sweet spot for total loss frequency? I know there are lots of other variables you talked about—insurance affordability, claims, earned car years, etc.—which can be offsetting. But I guess I drive it down to one thing. Can you talk about the macro drivers and that one in particular, the decline in SAAR? And then more so, what are the biggest Copart-specific growth drivers over the next five years, noting that macro is a little bit tough.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Yes. A very good question. If I conjecture on my part, you may be thinking some auction houses sell vehicles on behalf of OEMs at the end of a lease. If in a year there are very few lease originations, then three, five or seven years later, perhaps there are fewer vehicles to sell. For us, the catalyst is much less about when cars enter the ecosystem. Whether the car was sold originally in '18, '19, '20 or '21 is not especially of consequence to us. What really matters is that the vehicles are on the road. Cars are being driven, miles are being traversed, and then, of course, collision rates and total loss rates matter as well. In theory, even if you dramatically reduced new car sales in a given year, that doesn't have a pronounced effect on us given our supply is a layer cake of more than a decade's worth of new car shipments. Any one, two or three years of disruption, so long as it doesn't coincide with a dramatic decline in miles driven, would not be the independent variable of greatest consequence. The miles driven and actual exposure are the important variables, not the number of new cars sold in a single year.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Bob Labick",
+   "title": "Analyst (CJS Securities)",
+   "content": "Got it. Understood. And then just the primary drivers for your growth over the next five years?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Sure. You heard me walk through principally the insurance side of the house: the insurance industry has been a strong growth lever for us for decades even on a same-client basis, as accident frequency has historically been more than offset by rising total loss frequency. The catalysts for that phenomenon largely remain true. That's insurance business part one in all the markets in which we already do business today. Lever two is liquidity we are pursuing and succeeding in obtaining in noninsurance markets—rental car companies, dealers, corporate fleets and financial institutions—entrusting us with their vehicles. As rising total loss frequency means we sell actual cars rather than baskets of parts, we become the appropriate forum for a growing variety of vehicles, including those from the aforementioned institutions. That's been a meaningful growth lever for the past five years. We've expanded globally—most notably since 2007—and we operate profitably in the U.K., Spain, Germany, Finland, the Middle East, Canada, Brazil, etc. International expansion has historically been part of our playbook and will be relevant going forward. One thing I glossed over is total loss frequency. We view it as our responsibility to help drive total loss frequency upwards. By enhancing the economics of total loss, we can help insurance carriers save money every time they choose to total a car instead of repairing it because we can generate a better return by selling the car internationally. We help preserve carriers' P&Ls and help keep rates lower to their policyholders. The closer we can get to the scene of the accident the better in terms of arresting depreciation or advanced charges and equipping carriers to make better and faster total loss decisions. Those are the big levers. Leah also spoke about logistics and long-haul towing. We pursue those initiatives because they can be profit streams and they reduce friction. Better logistics, financing and warranty make it easier for buyers to participate and broaden the buyer base for any given car sold at a Copart auction.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question comes from the line of Craig Kennison with Baird.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Craig Kennison",
+   "title": "Analyst (Baird)",
+   "content": "Jeff, it sounds like you hosted a forum for your insurance partners. I'm curious what those insurance partners are saying about the outlook for claims in 2026 and 2027? And you mentioned some catalysts for change in the industry. Could you elaborate on some of those catalysts?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Sure. This is an annual gathering we have of our major insurance clients in the U.S. It's important because we're gathered face-to-face for several days and can tackle issues beyond day-to-day operations. On claims frequency, you'll hear a variety of perspectives. Many consumers have pulled back on coverage—moving from collision to liability only or increasing deductibles. Surveys indicate as many as one in six policyholders has adjusted coverage, and carriers echo these statements. They see claims frequency down. Some consumers are absorbing minor repairs because either they wouldn't clear the deductible or they fear rate increases following a claim. We hear carriers say these trends tend to be cyclical rather than secular and that eventually coverage behavior normalizes. On catalysts for change, we discussed near-term trends like geopolitical conflict and artificial intelligence. We talked at length about AI—how we're deploying it at Copart to support outcomes and how we can support carriers in deploying it. Insurance companies are both excited and cautious about AI. They must be thoughtful, rigorous, auditable and accountable about new tools. AI will be explored across marketing, underwriting, repricing, CRM and claims. On the claims side, we speak the language well and can help support them.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Craig Kennison",
+   "title": "Analyst (Baird)",
+   "content": "Either Jeff or Leah, I'm looking at international service revenue up about 18% in the quarter. Could you shed light on what's driving that? To what extent is it underlying market performance versus traction you're gaining, especially in Germany as you flip that market toward Copart-style remarketing?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Leah Stearns",
+   "title": "CFO",
+   "content": "Yes, Craig. The growth internationally on the revenue side had contributions across many markets. The U.K. was particularly strong in the quarter, followed by Germany and Canada. We've seen strong demand across all three markets on both the insurance side and the noninsurance business. Germany continues to perform very well relative to where it was several years ago. We continue to see carriers be open-minded about how they're approaching the total loss process. That's a market where we've seen meaningful progress from a unit volume and profitability perspective. We're pleased with our performance there.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question comes from the line of Jash Patwa with JPMorgan.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jash Patwa",
+   "title": "Analyst (JPMorgan)",
+   "content": "Could you give us an update on the size of the noninsurance whole-car business? It would be helpful to get a sense of the typical profile of a crossover buyer. How does their wallet share with Copart tend to evolve over time? If possible, an example or anecdote of how a dealer initially engages with Copart and how that activity typically ramps up would be helpful. I have a follow-up.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Fair question. On the nature of the crossover buyer: these are both domestic and international buyers who often first discover Copart through search (SEM/SEO) or social media. The first car they explore at Copart is often one they could theoretically drive off the lot. Those cars intrigue them at the outset. When they begin bidding and engaging on the platform, they discover insurance vehicles—perhaps a theft recovery with no damage that fits their business. If their business is transforming Lexus SUVs and they discover a Lexus SUV with hail damage or a theft recovery, that whets their appetite for insurance cars. Then they find vehicles with light flood damage or rear-end damage where the drivetrain is fine; they expand outward. A buyer comes for one type of car and then, once they realize the breadth of inventory, they migrate outward in concentric circles from that initial vehicle type to other makes, models and cars further away geographically. The member universe is dynamic—many tens of thousands of new members each year. There's creative disruption in the automotive rebuilding business; new entrants and exits replenish the buyer universe. Replenishing that buyer universe is critical, and buyers often start with well-conditioned vehicles and then expand their aperture.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Jash Patwa",
+   "title": "Analyst (JPMorgan)",
+   "content": "Got it. That's very helpful. Just as a follow-up, could we double-click on the pure sale mix with U.S. insurance sellers? Is this more contractual in nature or something dynamic that can be toggled up or down and whether a higher mix of pure sale units has positive implications for Copart's earnings profile?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "It's not contractual. Insurance carriers maintain the discretion to manage auctions as they see fit. Compared to seven or eight years ago, many more carriers have moved to an effectively nearly 100% pure sale approach; a handful have moved meaningfully the other way. Effectively, nobody has increased their portion of managed sale auctions at Copart because carriers can attend and see the thousands of attendees at a given auction—buyers in Poland bidding against buyers in Oklahoma, Maine, Canada, Ecuador. They recognize there is no way to escape liquidity at Copart. A vehicle sold at Copart will find its highest and best use worldwide. Carriers could impose high reserve prices, but that tends to chill buyer participation. Buyers gravitate to pure sale items, and you generate better and faster outcomes when buyers are excited to participate. The pure sale mix has increased steadily and meaningfully, especially over the past five to seven years.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Jash Patwa",
+   "title": "Analyst (JPMorgan)",
+   "content": "Understood. Great color. If I could sneak one more in on RPU—continued strong growth here despite having fully lapped prior pricing actions—could you unpack the drivers of the strength, maybe break it down between contribution from ASP expansion versus other vectors like mix and initiatives like Title Express?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Directionally, we've provided more of the Title Express offering and are processing volume many times more than anyone else in the industry, so that product has penetrated more accounts. A portion is simply the higher selling prices we're generating at auction. Our economics are such that as we deliver higher sale prices to sellers, we also share in a small portion of incremental proceeds. Those are the big drivers. Certainly, volume growth and growth among noninsurance sellers also contribute. Those cars tend to sell for even more than the average insurance car. Those are the underlying drivers.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question comes from the line of John Healy with Northcoast Research.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Healy",
+   "title": "Analyst (Northcoast Research)",
+   "content": "Jeff, I appreciate the comments on the whole-car side. That's one of the areas we're getting most questions about from investors. I'd love to spend a couple more minutes there. Can you remind us of the size of the business, maybe either in dollars or units? When you look at the whole-car business, I think there are different definitions. When I talk to people in the industry, they tell me you sell a lot of hail-damage vehicles. From a consignor standpoint, where are those whole-car units coming from? Are they largely attached to some sort of damaged vehicle, not necessarily a complete salvage? I'd like help thinking about your definition of whole-car. Secondly, as you think about growing that business and aspirations to be more on the dealer side, is Copart Dealer Services a strong enough presence to accomplish that? I know you've had BluCar for a number of years—what's your level of satisfaction with BluCar? Do you think you need a different tool, platform or brand to be successful there as you want to be?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "It's a fair question. Every car is on a spectrum from a total burn that's almost unrecognizable as a vehicle to a brand-new vehicle that is just off the dealer lot. We source from institutions other than insurance companies and start at one end of that spectrum. We are an obvious marketplace for a damaged rental car or a heavily beaten repo vehicle. From there, we earn the right to sell a three-year-old car de-fleeted by a major rental car company. We earn the right to sell a repo vehicle that is in excellent condition—a voluntary repo of a four-year-old car with light mileage. As we described earlier, we have our foot in the door and we earn the right to sell better and better cars over time. That is reflected in our average selling prices. When you consider all auction-mediated vehicles that are not from insurance companies in the United States, that TAM is 15 million plus. Not all are day-one addressable for us, but as total loss frequency rises and we earn the right to sell more of these cars, we address more of that market each year. So it is a spectrum, and we are moving up and to the right on that spectrum.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "John Healy",
+   "title": "Analyst (Northcoast Research)",
+   "content": "Great. And then you might have mentioned it and I missed it—maybe talk a little about the industrial side of the business. Where are you in terms of investments there? How is Purple Wave performing? Any call-outs on GTV?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Leah Stearns",
+   "title": "CFO",
+   "content": "Sure, John. On GTV, we look at it on an LTM basis, and GTV has grown over 25% year-over-year. The majority of the growth is coming from territory expansion. We started with a principally Central Time Zone-focused territory sales force and have expanded out to the coasts. The majority of our investment in Purple Wave has been in headcount in that territory sales force as well as focused enterprise-level accounts that are building relationships with large nationwide sellers. The GTV growth we are seeing is a result of the success we've had with that territory expansion and the enterprise relationships. We're pleased with that. The team is about 2.5 to 3 times the size it was when we acquired Purple Wave, and we still have some ways to go to achieve full nationwide coverage, but we have hit the top areas most important for Copart to penetrate and are pleased with the progress.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question comes from the line of Jeff Lick with Stephens.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Lick",
+   "title": "Analyst (Stephens)",
+   "content": "I actually got most of my questions on the whole-car side, but I was wondering if you could talk a little about the recent long-haul product you referenced. What exactly are you doing there and how are you adding that into your business?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Leah Stearns",
+   "title": "CFO",
+   "content": "Sure, Jeff. On the long-haul side, that's an additional product we've always offered to our members. We shifted our product offering about 12 months ago and have seen rapid adoption. We're pleased with buyer participation in procuring long-haul delivery through the Copart Delivered product. We believe it reduces friction and gives buyers cost certainty upfront. For the quarter, we saw about $15 million of year-over-year increase in costs on the facility operations line related to our long-haul delivery product. That product is generating a nice margin for us as well as revenue.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Jeffrey Lick",
+   "title": "Analyst (Stephens)",
+   "content": "Just a quick point of clarification on pure sale units: is that analogous to a non-reserved sale or is there any nuance there?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "That's it. That's correct.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Leah Stearns",
+   "title": "CFO",
+   "content": "Yes.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "This concludes the question-and-answer session. I'd like to turn the call back over to Jeff Liaw for closing remarks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jeffrey Liaw",
+   "title": "CEO",
+   "content": "Great. Thank you, everybody. We'll talk to you next quarter.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "This does conclude today's conference. You may disconnect your lines at this time, and we thank you for your participation.",
+   "sentiment": "0.0"
+  }
+ ]
+}

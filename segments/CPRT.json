@@ -1,0 +1,31 @@
+{
+ "ticker": "CPRT",
+ "note": "Hand-maintained business map for Copart (online vehicle auctions). Reporting segments are U.S. and International; the call also breaks the business into seller groups (insurance vs non-insurance), the buyer base, and the drivers management keeps returning to (claims and total-loss frequency, fuel and logistics). `facts` = exact ledger segment strings; `text` = regexes matched (case-insensitive) against management sentences.",
+ "nodes": [
+  {"id": "us", "name": "U.S. segment", "dimension": "segment", "facts": ["u.s.", "u s", "us", "u.s. segment"],
+   "text": ["\\bU\\.S\\.", "\\bdomestic\\b"]},
+  {"id": "purple_wave", "name": "Purple Wave (heavy equipment)", "parent": "us", "dimension": "segment", "facts": ["purple wave"],
+   "text": ["\\bPurple Wave\\b", "\\bGTV\\b", "\\bgross transaction value\\b", "\\bheavy equipment\\b"]},
+  {"id": "international", "name": "International segment", "dimension": "segment", "facts": ["international"],
+   "text": ["\\binternational(?:ly)?\\b(?!\\s+buyers?)", "\\bU\\.K\\.", "\\bGermany\\b"]},
+
+  {"id": "insurance", "name": "Insurance sellers", "dimension": "customer", "facts": ["insurance"],
+   "text": ["\\binsurance\\b", "\\bpure sale\\b", "\\bcarriers?\\b"]},
+  {"id": "noninsurance", "name": "Non-insurance sellers (dealers, rental, fleet, finance)", "dimension": "customer", "facts": ["noninsurance"],
+   "text": ["\\bnon-?insurance\\b", "\\bBluCar\\b", "\\bDealer Services\\b", "\\bpowersports\\b", "\\bfleet and finance\\b",
+            "\\brental\\b", "\\bCopart Direct\\b"]},
+  {"id": "buyers", "name": "Buyer base", "dimension": "customer", "facts": [],
+   "text": ["\\bbuyers?\\b", "\\bcrossover\\b", "\\bbidders?\\b"]},
+
+  {"id": "ai", "topic": "product", "name": "Artificial intelligence", "dimension": "initiative", "facts": [],
+   "text": ["\\bAI\\b", "\\bartificial intelligence\\b"]},
+  {"id": "buybacks", "topic": "strategy", "name": "Share repurchases", "dimension": "initiative", "facts": [],
+   "text": ["\\brepurchas\\w+\\b", "\\bcapital return\\b"]},
+
+  {"id": "claims_environment", "name": "Claims, coverage and total-loss frequency", "dimension": "driver", "facts": [],
+   "text": ["\\bclaims?\\b", "\\btotal loss\\b", "\\baccident frequency\\b", "\\bearned car years\\b", "\\brepair costs?\\b",
+            "\\bcoverage\\b"]},
+  {"id": "fuel_logistics", "name": "Fuel, towing and long-haul logistics", "dimension": "driver", "facts": [],
+   "text": ["\\bfuel\\b", "\\blong-haul\\b", "\\btow\\w*\\b", "\\bTruck In a Box\\b", "\\blogistics\\b", "\\bfacility operations\\b"]}
+ ]
+}

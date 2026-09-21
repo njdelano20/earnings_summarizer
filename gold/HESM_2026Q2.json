@@ -1,0 +1,39 @@
+{
+  "transcript": "data/raw/alphavantage/HESM_2026Q2.json",
+  "notes": "Hand-written 2026-09-21 by reading the Hess Midstream Q2 2026 call, BEFORE any extractor output for it was opened. A midstream company: the headline numbers are net income, adjusted EBITDA, adjusted free cash flow, capex and throughput volumes, and management gives ranges for the third quarter and the full year. Not covered here on purpose (no metric in the extractor, or a target/ratio rather than a result): throughput volumes (433 MMcf/d gas, 117 Mbbl/d crude, 121 Mbbl/d water), the 5% distribution growth target, leverage (about 3x now, about 2.5x by 2028), the $256M drawn revolver balance, the $87M revolver paydown, the $60M March buyback, net interest of $51M, and the ~200,000 boe/d volume assumption. Those are covered as commentary in gold/snapshot. Optional keys 'where' and 'note' are ignored by the scorer and used by annotate.py.",
+  "expected": [
+    {"kind": "reported", "metric": "net_income", "segment": "total", "stat": "level", "unit": "USD", "value": 174e6, "where": "net income was $174 million"},
+    {"kind": "reported", "metric": "ebitda", "segment": "total", "stat": "level", "unit": "USD", "value": 314e6, "where": "Adjusted EBITDA for the second quarter of 2026 was $314 million"},
+    {"kind": "reported", "metric": "capex", "segment": "total", "stat": "level", "unit": "USD", "value": 31e6, "where": "capital expenditures were $31 million"},
+    {"kind": "reported", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 232e6, "change": {"value": -2, "unit": "pct"}, "where": "adjusted free cash flow of approximately $232 million", "note": "the change is against the first quarter"},
+    {"kind": "reported", "metric": "ebitda_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 85, "where": "gross adjusted EBITDA margin for the second quarter of 2026 was maintained at approximately 85%"},
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "change", "unit": "USD", "value": 10e6, "where": "Total revenues, excluding pass-through revenues, increased by approximately $10 million", "note": "sequential change, excluding pass-through revenues"},
+    {"kind": "reported", "metric": "revenue", "segment": "gathering", "stat": "change", "unit": "USD", "value": 7e6, "where": "Gathering revenues increased by approximately $7 million"},
+    {"kind": "reported", "metric": "revenue", "segment": "processing", "stat": "change", "unit": "USD", "value": 3e6, "where": "processing revenues increased by approximately $3 million"},
+
+    {"kind": "guidance", "metric": "net_income", "segment": "total", "stat": "level", "unit": "USD", "value": 165e6, "value_high": 175e6, "where": "we expect net income to be approximately $165 million to $175 million", "note": "third quarter of 2026"},
+    {"kind": "guidance", "metric": "ebitda", "segment": "total", "stat": "level", "unit": "USD", "value": 310e6, "value_high": 320e6, "where": "approximately flat at the midpoint with the second quarter at $310 million to $320 million", "note": "third quarter of 2026"},
+    {"kind": "guidance", "metric": "net_income", "segment": "total", "stat": "level", "unit": "USD", "value": 650e6, "value_high": 700e6, "where": "we continue to expect net income of between $650 million and $700 million", "note": "full year 2026"},
+    {"kind": "guidance", "metric": "ebitda", "segment": "total", "stat": "level", "unit": "USD", "value": 1.225e9, "value_high": 1.275e9, "where": "adjusted EBITDA of between $1.225 billion and $1.275 billion", "note": "full year 2026"},
+    {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 910e6, "value_high": 960e6, "where": "adjusted free cash flow guidance of $910 million to $960 million", "note": "full year 2026, reiterated"},
+    {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "growth", "unit": "pct", "value": 20, "where": "a 20% increase year-over-year at the midpoint", "note": "growth of the 2026 adjusted free cash flow guide at its midpoint"},
+    {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 280e6, "where": "excess adjusted free cash flow of approximately $280 million", "note": "the excess after funding the distribution growth"},
+    {"kind": "guidance", "metric": "ebitda_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 75, "where": "above our 75% target", "note": "a stated long-term target, kept"}
+  ],
+  "forbidden": [
+    {"kind": "reported", "metric": "net_income", "value": 165e6, "note": "guidance figure shown as a reported result"},
+    {"kind": "reported", "metric": "net_income", "value": 175e6, "note": "guidance figure shown as a reported result"},
+    {"kind": "reported", "metric": "net_income", "value": 650e6, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "metric": "net_income", "value": 700e6, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "metric": "ebitda", "value": 310e6, "note": "third-quarter guidance shown as a reported result"},
+    {"kind": "reported", "metric": "ebitda", "value": 320e6, "note": "third-quarter guidance shown as a reported result"},
+    {"kind": "reported", "metric": "ebitda", "value": 1.225e9, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "metric": "ebitda", "value": 1.275e9, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "metric": "free_cash_flow", "value": 910e6, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "metric": "free_cash_flow", "value": 960e6, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "metric": "free_cash_flow", "value": 280e6, "note": "a full-year target shown as a reported result"},
+    {"kind": "guidance", "metric": "ebitda", "value": 314e6, "note": "314 is the reported second-quarter result, not guidance"},
+    {"kind": "guidance", "metric": "net_income", "value": 174e6, "note": "174 is the reported second-quarter result, not guidance"},
+    {"kind": "guidance", "metric": "free_cash_flow", "value": 232e6, "note": "232 is the reported second-quarter result, not guidance"}
+  ]
+}

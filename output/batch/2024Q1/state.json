@@ -1,0 +1,13 @@
+{
+ "symbols": {
+  "IBM": {
+   "attempts": 0,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2024Q1",
+   "status": "ok",
+   "detail": "",
+   "stem": "IBM_2024Q1",
+   "processed": "2026-09-21T13:59:01"
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "ticker": "VICI",
+ "note": "Hand-maintained business map for VICI Properties (a triple-net REIT owning gaming and experiential real estate). VICI has no operating segments in the usual sense: the structure is where the assets are (Las Vegas, regional gaming, experiential, Canada), who the tenants are, the loan book, and the balance sheet. `facts` = exact ledger segment strings; `text` = regexes matched (case-insensitive) against management sentences.",
+ "nodes": [
+  {"id": "las_vegas", "name": "Las Vegas", "dimension": "segment", "facts": [],
+   "text": ["\\bLas Vegas\\b", "\\bStrip\\b", "\\bSphere\\b", "\\bconvention\\b", "\\bHorseshoe\\b", "\\bPlanet Hollywood\\b", "\\bVenetian\\b"]},
+  {"id": "regional_gaming", "name": "Regional gaming", "dimension": "segment", "facts": [],
+   "text": ["\\bregional\\b", "\\blocals?\\b", "\\bNorthfield\\b"]},
+  {"id": "experiential", "name": "Experiential (Club Med and other leisure)", "dimension": "segment", "facts": [],
+   "text": ["\\bClub Med\\b", "\\bexperiential\\b", "\\bSt\\. Croix\\b", "\\bCarambola\\b", "\\bCaribbean\\b", "\\bbuild-to-suit\\b"]},
+  {"id": "credit_loans", "name": "Loan book and credit quality", "dimension": "segment", "facts": [],
+   "text": ["\\bloans?\\b", "\\bCECL\\b", "\\bnonaccrual\\b", "\\bwatch list\\b", "\\bSOFR\\b", "\\bcredit\\b"]},
+  {"id": "canada", "name": "Canada", "dimension": "geography", "facts": [],
+   "text": ["\\bCanada\\b", "\\bAlberta\\b", "\\bGamehost\\b", "\\bPURE\\b"]},
+
+  {"id": "tenants", "name": "Tenants and partners", "dimension": "customer", "facts": [],
+   "text": ["\\bCaesars\\b", "\\bMGM\\b", "\\bClairvest\\b", "\\bGolden Entertainment\\b", "\\btenants?\\b"]},
+
+  {"id": "acquisitions", "topic": "strategy", "name": "Acquisitions and new investments", "dimension": "initiative", "facts": [],
+   "text": ["\\bacquisitions?\\b", "\\bacquired\\b", "\\bsale-leaseback\\b", "\\bM&A\\b", "\\bclosing of\\b"]},
+  {"id": "capital_allocation", "topic": "strategy", "name": "Capital allocation (buybacks vs investment)", "dimension": "initiative", "facts": [],
+   "text": ["\\bbuybacks?\\b", "\\brepurchases?\\b", "\\baccretive(?:ly)?\\b", "\\bdeploying capital\\b", "\\buse of our capital\\b", "\\bfree cash flow\\b"]},
+  {"id": "sports_nba", "name": "Sports infrastructure and NBA arena", "dimension": "initiative", "facts": [],
+   "text": ["\\bNBA\\b", "\\buniversit\\w+\\b", "\\bsports infrastructure\\b", "\\barena\\b"]},
+
+  {"id": "balance_sheet", "name": "Balance sheet, leverage and liquidity", "dimension": "driver", "facts": [],
+   "text": ["\\bleverage\\b", "\\bdebt\\b", "\\bliquidity\\b", "\\binterest rate\\b", "\\brevolving\\b"]},
+  {"id": "private_operators", "name": "Shift of operators to private ownership", "dimension": "driver", "facts": [],
+   "text": ["\\bprivate (?:markets?|operators?|settings?|tenants?)\\b", "\\bprivatizations?\\b", "\\bgo private\\b"]}
+ ]
+}

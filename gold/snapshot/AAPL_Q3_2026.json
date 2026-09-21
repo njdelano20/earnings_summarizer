@@ -1,0 +1,84 @@
+{
+  "transcript": "data/transcripts/AAPL_Q3_2026.txt",
+  "notes": "Hand-written from reading the transcript (2026-09-20), before the snapshot extractor existed. `contains` = case-insensitive substring of a management sentence. topic/direction/horizon/stance/segment are matched against the signal's own fields (topic and segment: any of its list).",
+
+  "segments_with_facts": ["iphone", "mac", "ipad", "wearables", "services", "products"],
+  "segments_with_commentary": ["iphone", "mac", "ipad", "wearables", "services", "app_store", "video_music", "cloud_services",
+                                "payment_services", "advertising", "greater_china", "europe", "emerging_markets", "enterprise",
+                                "education", "siri_ai", "apple_upgrade", "us_manufacturing", "supply_memory", "fx", "regulation"],
+
+  "signals_expected": [
+    {"contains": "iPhone revenue growing 22% from a year ago", "topic": "momentum", "direction": "positive", "segment": "iphone"},
+    {"contains": "growing a strong 29% to achieve a June quarter revenue record", "topic": "momentum", "direction": "positive", "segment": "mac"},
+    {"contains": "we gained share globally during the quarter", "topic": "competition", "direction": "positive", "segment": "iphone"},
+    {"contains": "we gained share globally.", "topic": "competition", "direction": "positive", "segment": "mac"},
+    {"contains": "displaced Windows and Chromebook devices", "topic": "competition", "direction": "positive", "segment": "mac"},
+    {"contains": "iPad revenue was $6.2 billion, down 6% year-over-year", "topic": "momentum", "direction": "negative", "segment": "ipad"},
+    {"contains": "double-digit growth in every geographic segment despite supply constraints", "topic": "momentum", "direction": "positive"},
+    {"contains": "optimistic about the long-term future of our services business", "horizon": "forward", "stance": "confident", "segment": "services"},
+    {"contains": "surpassed one and a half billion in paid subscriptions", "topic": "momentum", "direction": "positive", "segment": "services"},
+    {"contains": "a bit more softness on mobile gaming in the App Store", "topic": "pressure", "direction": "negative", "segment": "app_store"},
+    {"contains": "court ruling impacting the link-out transactions", "topic": "pressure", "segment": "app_store"},
+    {"contains": "unveil the all-new Siri AI", "topic": "product", "direction": "positive", "segment": "siri_ai"},
+    {"contains": "reviews from early users have been phenomenal", "topic": "product", "stance": "confident"},
+    {"contains": "MacBook Neo has been especially popular", "topic": "product", "direction": "positive", "segment": "mac"},
+    {"contains": "hardware leasing program launched in partnership with Klarna", "topic": "product", "segment": "apple_upgrade"},
+    {"contains": "is expected to exceed $30 billion", "topic": "strategy", "segment": "us_manufacturing"},
+    {"contains": "sort of a competitive weapon", "topic": "competition", "direction": "positive", "segment": "siri_ai"},
+    {"contains": "What sets Apple apart is the unique combination", "topic": "competition", "direction": "positive"},
+    {"contains": "We have not been able to do that in the European Union", "segment": "europe"},
+    {"contains": "we received approval to ship sort of the original features of Apple Intelligence", "topic": "product", "segment": "greater_china"},
+    {"contains": "Morgan Stanley has deployed over 20,000 iPhone 17 devices", "segment": "enterprise"},
+    {"contains": "Apple TV+ viewership reached an all-time high", "direction": "positive", "segment": "video_music"},
+    {"contains": "the iPhone and the Mac are both doing remarkably better than we thought", "topic": "momentum", "direction": "positive"},
+    {"contains": "we expect the impact from supply constraints to increase significantly sequentially", "horizon": "forward", "direction": "negative", "segment": "supply_memory"},
+    {"contains": "On iPhone, we expect to continue to see high levels of demand", "horizon": "forward", "direction": "positive", "segment": "iphone"},
+    {"contains": "For September, we expect to pay even higher memory costs", "horizon": "forward", "direction": "negative", "segment": "supply_memory"},
+    {"contains": "market pricing for memory continuing to increase", "horizon": "forward", "direction": "negative", "segment": "supply_memory"},
+    {"contains": "Beyond September, we're not providing any color", "horizon": "forward", "stance": "cautious"},
+    {"contains": "we reluctantly raised prices", "topic": "pressure", "segment": "supply_memory"},
+    {"contains": "the main driver was really the memory cost impact", "topic": "pressure", "segment": "supply_memory"},
+    {"contains": "never been more confident that the best is yet to come", "horizon": "forward", "stance": "confident"},
+    {"contains": "we are off the charts excited about Siri AI", "stance": "confident", "segment": "siri_ai"},
+    {"contains": "it's obviously early going for us", "stance": "cautious", "segment": "siri_ai"},
+    {"contains": "It's unclear on the pricing side", "stance": "cautious"},
+    {"contains": "too early to come to a definitive conclusion", "stance": "cautious"},
+    {"contains": "a bit uncertain at the moment", "stance": "cautious"},
+    {"contains": "this will be my final earnings call", "topic": "leadership"}
+  ],
+
+  "signals_forbidden": [
+    {"contains": "assumes no obligation to update"},
+    {"contains": "500 basis point or so deceleration"},
+    {"contains": "stagnant memory inflation"},
+    {"contains": "unprecedented for you to take pricing"},
+    {"contains": "Good afternoon"},
+    {"contains": "It's been a pleasure"}
+  ],
+
+  "trajectory_expected": [
+    {"node": "total", "metric": "revenue", "direction": "down"},
+    {"node": "iphone", "metric": "revenue", "direction": "down"},
+    {"node": "services", "metric": "revenue", "direction": "flat"},
+    {"node": "total", "metric": "gross_margin", "direction": "down"}
+  ],
+
+  "must_surface": [
+    "Today, Apple is pleased to report $109.4 billion in revenue",
+    "iPad revenue was $6.2 billion, down 6% year-over-year",
+    ["we expect the impact from supply constraints to increase significantly sequentially",
+     "we expect the impact from the supply constraints to increase significantly sequentially"],
+    "unveil the all-new Siri AI",
+    "displaced Windows and Chromebook devices",
+    "we reluctantly raised prices",
+    "For September, we expect to pay even higher memory costs",
+    "a bit more softness on mobile gaming in the App Store",
+    "never been more confident that the best is yet to come",
+    "Beyond September, we're not providing any color",
+    "we expect our September quarter total company revenue to grow between 9%-11%",
+    "sort of a competitive weapon",
+    "We have not been able to do that in the European Union",
+    ["MacBook Neo has been especially popular", "customer reception to MacBook Neo has been incredible",
+     "MacBook Neo continued to accelerate adoption"]
+  ]
+}

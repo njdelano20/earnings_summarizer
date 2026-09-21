@@ -1,0 +1,4 @@
+﻿symbol,season,fact_id,metric,segment,stat,value,period,confidence,section,speaker,sentence,verdict,note
+IBM,2024Q1,IBM_2024_1-022,revenue,red hat,growth,9%,first quarter,high,prepared,James Kavanaugh,"Red Hat revenue grew 9%, reflecting solid performance across the 3 key solutions: RHEL, OpenShift, and Ansible.",,
+IBM,2024Q1,IBM_2024_1-020,revenue,software,growth,6%,first quarter,high,prepared,James Kavanaugh,Software revenue grew 6% with good performance across both Hybrid Platform & Solutions and Transaction Processing.,,
+IBM,2024Q1,IBM_2024_1-015,free_cash_flow,total,level,$11.8B,trailing 12 months,high,prepared,James Kavanaugh,"Over the last 12 months, we generated free cash flow of $11.8 billion.",,

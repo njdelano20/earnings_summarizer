@@ -1,0 +1,15 @@
+2026-09-21T13:58:57  AMD: ok (cache) 2026Q2: 45 facts, 37 unclaimed, period pass
+2026-09-21T13:58:57  VICI: ok (cache) 2026Q2: 1 facts, 20 unclaimed, period pass, ATTENTION: few_facts; many_unclaimed_figures; no_segment_map
+2026-09-21T13:58:57  HESM: ok (cache) 2026Q2: 18 facts, 15 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T13:58:57  CPRT: skipped, fetch budget for this run is used up
+2026-09-21T13:58:57  Done: 3 of 3 symbols scored (0 fetched this run); review queue 90 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md
+2026-09-21T13:58:58  CPRT: ok (cache) 2026Q3: 18 facts, 42 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T13:58:58  Done: 1 of 1 symbols scored (0 fetched this run); review queue 50 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q1\summary.md
+2026-09-21T13:59:01  IBM: ok (cache) 2024Q1: 35 facts, 47 unclaimed, period pass
+2026-09-21T13:59:01  Done: 1 of 1 symbols scored (0 fetched this run); review queue 53 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2024Q1\summary.md
+2026-09-21T14:56:08  AMD: ok (cache) 2026Q2: 45 facts, 37 unclaimed, period pass
+2026-09-21T14:56:09  VICI: ok (cache) 2026Q2: 1 facts, 20 unclaimed, period pass, ATTENTION: few_facts; many_unclaimed_figures; gold_fail
+2026-09-21T14:56:09  HESM: ok (cache) 2026Q2: 18 facts, 15 unclaimed, period pass, ATTENTION: gold_fail
+2026-09-21T14:56:09  Done: 3 of 3 symbols scored (0 fetched this run); review queue 90 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md
+2026-09-21T14:56:10  CPRT: ok (cache) 2026Q3: 18 facts, 42 unclaimed, period pass, ATTENTION: many_unclaimed_figures; gold_fail
+2026-09-21T14:56:10  Done: 1 of 1 symbols scored (0 fetched this run); review queue 50 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q1\summary.md

@@ -1,0 +1,51 @@
+{
+  "transcript": "data/raw/alphavantage/CPRT_2026Q3.json",
+  "notes": "Hand-written 2026-09-21 by reading the Copart FY2026 Q3 (Feb-Apr 2026) call, BEFORE any extractor output for it was opened. The call gives no outlook, so there are no guidance facts, and any guidance fact the extractor produces is forbidden. Segments are named as the call names them: total (consolidated), u.s., international. Entries tagged 'new metric needed' are Copart's core KPIs (unit volumes, average selling prices); the extractor has no such metrics yet, so they are expected to be missed until the vocabulary is extended. Not covered here on purpose (no metric, or an industry statistic rather than a Copart result): liquidity of $5.5B, total loss frequency 23.6%, fee revenue per unit, Purple Wave GTV growth over 25%, international service revenue +17.9%, Copart Direct units -26.3%, long-haul cost increase of $15M. Optional keys 'where' and 'note' are ignored by the scorer and used by annotate.py.",
+  "expected": [
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD", "value": 1.24e9, "period": "third quarter", "change": {"value": 2.1, "unit": "pct", "basis": "yoy"}, "where": "consolidated revenue grew to $1.24 billion"},
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 2.1, "basis": "yoy", "where": "consolidated revenue grew to $1.24 billion"},
+    {"kind": "reported", "metric": "gross_profit", "segment": "total", "stat": "level", "unit": "USD", "value": 572.6e6, "change": {"value": 3.7, "unit": "pct"}, "where": "Global gross profit increased 3.7%"},
+    {"kind": "reported", "metric": "gross_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 46.3, "change": {"value": 71, "unit": "bps"}, "where": "global gross margins increasing 71 basis points"},
+    {"kind": "reported", "metric": "operating_income", "segment": "total", "stat": "level", "unit": "USD", "value": 464.3e6, "change": {"value": 2.8, "unit": "pct"}, "where": "Operating income grew 2.8%"},
+    {"kind": "reported", "metric": "net_income", "segment": "total", "stat": "level", "unit": "USD", "value": 402.4e6, "where": "net income was $402.4 million"},
+    {"kind": "reported", "metric": "eps", "segment": "total", "stat": "level", "unit": "USD_per_share", "value": 0.43, "change": {"value": 2.4, "unit": "pct"}, "where": "earnings per diluted share increased 2.4%"},
+    {"kind": "reported", "metric": "free_cash_flow", "segment": "total", "stat": "growth", "unit": "pct", "value": 12, "period": "year to date", "where": "free cash flow, which has increased 12%"},
+    {"kind": "reported", "metric": "share_repurchases", "segment": "total", "stat": "level", "unit": "USD", "value": 1.6e9, "where": "repurchased over 43.4 million shares"},
+    {"kind": "reported", "metric": "cash_and_securities", "segment": "total", "stat": "level", "unit": "USD", "value": 4.2e9, "where": "$4.2 billion in cash and equivalents"},
+
+    {"kind": "reported", "metric": "revenue", "segment": "u.s.", "stat": "growth", "unit": "pct", "value": -0.4, "where": "the U.S. segment was essentially flat, down 0.4%"},
+    {"kind": "reported", "metric": "gross_profit", "segment": "u.s.", "stat": "level", "unit": "USD", "value": 484.1e6, "change": {"value": 0.9, "unit": "pct"}, "where": "U.S. gross profit grew to $484.1 million"},
+    {"kind": "reported", "metric": "gross_margin", "segment": "u.s.", "stat": "level", "unit": "pct", "value": 48.3, "where": "gross profit margin was 48.3%"},
+    {"kind": "reported", "metric": "operating_income", "segment": "u.s.", "stat": "level", "unit": "USD", "value": 390.4e6, "where": "Operating income was $390.4 million"},
+    {"kind": "reported", "metric": "operating_margin", "segment": "u.s.", "stat": "level", "unit": "pct", "value": 38.1, "where": "38.1% operating margin"},
+
+    {"kind": "reported", "metric": "revenue", "segment": "international", "stat": "level", "unit": "USD", "value": 234.2e6, "change": {"value": 14.1, "unit": "pct"}, "where": "international revenue grew 14.1%"},
+    {"kind": "reported", "metric": "revenue", "segment": "international", "stat": "level", "unit": "USD", "value": 234.2e6, "change": {"value": 7.9, "unit": "pct"}, "where": "excluding the positive impact of foreign currency", "note": "7.9% is the constant-currency growth"},
+    {"kind": "reported", "metric": "revenue", "segment": "international", "stat": "growth", "unit": "pct", "value": 14.1, "where": "international revenue grew 14.1%"},
+    {"kind": "reported", "metric": "gross_profit", "segment": "international", "stat": "growth", "unit": "pct", "value": 21.9, "where": "gross profit increasing 21.9%"},
+    {"kind": "reported", "metric": "operating_income", "segment": "international", "stat": "level", "unit": "USD", "value": 73.8e6, "where": "operating income reaching $73.8 million"},
+    {"kind": "reported", "metric": "operating_margin", "segment": "international", "stat": "level", "unit": "pct", "value": 31.5, "where": "31.5% operating margin"},
+
+    {"kind": "reported", "metric": "units", "segment": "total", "stat": "growth", "unit": "pct", "value": -2.4, "where": "a modest decline in unit volumes of 2.4%", "note": "new metric needed: units"},
+    {"kind": "reported", "metric": "asp", "segment": "total", "stat": "growth", "unit": "pct", "value": 4.6, "where": "average selling prices, which rose 4.6%", "note": "new metric needed: asp (average selling price)"},
+    {"kind": "reported", "metric": "units", "segment": "insurance", "stat": "growth", "unit": "pct", "value": -2.7, "where": "global units were down 2.7%", "note": "new metric needed: units"},
+    {"kind": "reported", "metric": "units", "segment": "noninsurance", "stat": "growth", "unit": "pct", "value": -1.4, "where": "global noninsurance units decreased 1.4%", "note": "new metric needed: units"},
+    {"kind": "reported", "metric": "units", "segment": "u.s.", "stat": "growth", "unit": "pct", "value": -4.2, "where": "Total units declined 4.2%", "note": "new metric needed: units"},
+    {"kind": "reported", "metric": "units", "segment": "international", "stat": "growth", "unit": "pct", "value": 5.9, "where": "Total units sold increased 5.9%", "note": "new metric needed: units"}
+  ],
+  "forbidden": [
+    {"metric": "revenue", "segment": "total", "stat": "level", "value": 234.2e6, "note": "that is International revenue, not the company total"},
+    {"metric": "gross_profit", "segment": "total", "stat": "level", "value": 484.1e6, "note": "that is U.S. gross profit, not the company total"},
+    {"metric": "operating_income", "segment": "total", "stat": "level", "value": 390.4e6, "note": "that is U.S. operating income, not the company total"},
+    {"metric": "operating_income", "segment": "total", "stat": "level", "value": 73.8e6, "note": "that is International operating income, not the company total"},
+    {"metric": "gross_margin", "segment": "total", "stat": "level", "value": 48.3, "note": "48.3% is the U.S. segment gross margin; the company total is 46.3% (entry added after seeing the extractor label it total)"},
+    {"metric": "operating_margin", "segment": "total", "stat": "level", "value": 38.1, "note": "38.1% is the U.S. segment margin"},
+    {"metric": "operating_margin", "segment": "total", "stat": "level", "value": 31.5, "note": "31.5% is the International margin"},
+    {"metric": "revenue", "segment": "total", "stat": "growth", "value": -0.4, "note": "that is the U.S. segment, not the company total"},
+    {"metric": "revenue", "segment": "total", "stat": "growth", "value": 14.1, "note": "that is International, not the company total"},
+    {"metric": "revenue", "stat": "growth", "value": 25, "note": "25% is Purple Wave gross transaction value, not revenue"},
+    {"metric": "revenue", "value": 23, "note": "23% is purchased-unit selling prices, not revenue"},
+    {"metric": "revenue", "value": -26.3, "note": "26.3% is Copart Direct unit volume, not revenue"},
+    {"kind": "guidance", "note": "the call gives no outlook, so any guidance fact is invented"}
+  ]
+}

@@ -1,0 +1,368 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "VICI",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "VICI",
+  "from_cache": true,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed: calendar-year company",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Samantha Gallagher",
+    "role": "management"
+   },
+   {
+    "name": "Edward Pitoniak",
+    "role": "management"
+   },
+   {
+    "name": "John Payne",
+    "role": "management"
+   },
+   {
+    "name": "David Kieske",
+    "role": "management"
+   },
+   {
+    "name": "Jeremy",
+    "role": "analyst"
+   },
+   {
+    "name": "Caitlin Burrows",
+    "role": "analyst"
+   },
+   {
+    "name": "Greg McGinniss",
+    "role": "analyst"
+   },
+   {
+    "name": "John DeCree",
+    "role": "analyst"
+   },
+   {
+    "name": "Chris Darling",
+    "role": "analyst"
+   },
+   {
+    "name": "Gabe Wasserman",
+    "role": "management"
+   },
+   {
+    "name": "David Katz",
+    "role": "analyst"
+   },
+   {
+    "name": "Daniel Guglielmo",
+    "role": "analyst"
+   },
+   {
+    "name": "Aaron Furey",
+    "role": "management"
+   },
+   {
+    "name": "Jenny",
+    "role": "analyst"
+   },
+   {
+    "name": "Todd Thomas",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "VICI_2026Q2.json"
+ },
+ "facts": [
+  {
+   "kind": "reported",
+   "metric": "total_debt",
+   "segment": "total",
+   "stat": "level",
+   "value": 17200000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "In terms of the balance sheet, our total debt is $17.2 billion, and our net debt to annualized second quarter adjusted EBITDA is approximately 4.9 times, below the low end of our target leverage range of 5.0 to 5.5 times.",
+   "ev_start": 11788,
+   "ev_end": 12009,
+   "figure_text": "$17.2 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "VICI_2026_2-001"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "$75 million",
+   "reason": "no_metric_phrase",
+   "sentence": "First of all, the total projected investment of $75 million into one property is pretty meaningful by net lease standards, given that the typical net lease property tends to cost low-single-digit millions.",
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5701
+  },
+  {
+   "figure_text": "$20.3 million",
+   "reason": "no_metric_phrase",
+   "sentence": "At closing, we funded the $20.3 million acquisition of the Carambola Beach Resort, and we will fund Club Med's approximately $55 million redevelopment of the resort, which Club Med will operate under its premium Exclusive Collection brand following a targeted opening in the fourth quarter of 2027.",
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8377
+  },
+  {
+   "figure_text": "$55 million",
+   "reason": "no_metric_phrase",
+   "sentence": "At closing, we funded the $20.3 million acquisition of the Carambola Beach Resort, and we will fund Club Med's approximately $55 million redevelopment of the resort, which Club Med will operate under its premium Exclusive Collection brand following a targeted opening in the fourth quarter of 2027.",
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8377
+  },
+  {
+   "figure_text": "$1.16 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "During the quarter, we also brought several previously announced transactions across the finish line: the closing of our $1.16 billion Golden Entertainment sale-leaseback, the commencement of our new lease with Clairvest at Northfield Park, and the completion of the acquisition of the Gamehost real estate in Alberta for approximately C$200 million alongside our existing partners at PURE.",
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8748
+  },
+  {
+   "figure_text": "$200 million",
+   "reason": "no_metric_phrase",
+   "sentence": "During the quarter, we also brought several previously announced transactions across the finish line: the closing of our $1.16 billion Golden Entertainment sale-leaseback, the commencement of our new lease with Clairvest at Northfield Park, and the completion of the acquisition of the Gamehost real estate in Alberta for approximately C$200 million alongside our existing partners at PURE.",
+   "speaker": "John Payne",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 8748
+  },
+  {
+   "figure_text": "$0.62",
+   "reason": "no_metric_phrase",
+   "sentence": "Touching on the income statement, AFFO per share was $0.62 for the quarter, an increase of 4.6% compared to $0.60 for the quarter ended June 30, 2025.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 11637
+  },
+  {
+   "figure_text": "4.6%",
+   "reason": "change_without_metric",
+   "sentence": "Touching on the income statement, AFFO per share was $0.62 for the quarter, an increase of 4.6% compared to $0.60 for the quarter ended June 30, 2025.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 11637
+  },
+  {
+   "figure_text": "$0.60",
+   "reason": "no_metric_phrase",
+   "sentence": "Touching on the income statement, AFFO per share was $0.62 for the quarter, an increase of 4.6% compared to $0.60 for the quarter ended June 30, 2025.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 11637
+  },
+  {
+   "figure_text": "4.45%",
+   "reason": "no_metric_phrase",
+   "sentence": "We have a weighted average interest rate of 4.45%, as adjusted for hedging activity, and a weighted average of 5.5 years to maturity.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12010
+  },
+  {
+   "figure_text": "$2.5 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "As of June 30, 2026, we have approximately $2.5 billion in total liquidity, comprising $288 million in cash and $2.2 billion of availability under our revolving credit facility.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12144
+  },
+  {
+   "figure_text": "$288 million",
+   "reason": "no_metric_phrase",
+   "sentence": "As of June 30, 2026, we have approximately $2.5 billion in total liquidity, comprising $288 million in cash and $2.2 billion of availability under our revolving credit facility.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12144
+  },
+  {
+   "figure_text": "$2.2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "As of June 30, 2026, we have approximately $2.5 billion in total liquidity, comprising $288 million in cash and $2.2 billion of availability under our revolving credit facility.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12144
+  },
+  {
+   "figure_text": "$2.675 billion and $2.695 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "AFFO for the year ending December 31, 2026, is expected to be between $2.675 billion and $2.695 billion, or between $2.45 and $2.47 per diluted common share.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12435
+  },
+  {
+   "figure_text": "$2.45 and $2.47",
+   "reason": "no_metric_phrase",
+   "sentence": "AFFO for the year ending December 31, 2026, is expected to be between $2.675 billion and $2.695 billion, or between $2.45 and $2.47 per diluted common share.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12435
+  },
+  {
+   "figure_text": "$0.01",
+   "reason": "no_metric_phrase",
+   "sentence": "Compared to our prior AFFO-per-share guidance, the updated guidance represents an increase at the low end of the range of $0.01.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12593
+  },
+  {
+   "figure_text": "3.4%",
+   "reason": "change_without_metric",
+   "sentence": "Based on the midpoint of our raised 2026 guidance, VICI expects to deliver year-over-year AFFO-per-share growth of 3.4%.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12722
+  },
+  {
+   "figure_text": "93%",
+   "reason": "no_metric_phrase",
+   "sentence": "I will just build on what John is saying, Caitlin, by pointing out what MGM disclosed yesterday with its Q2 2026 results, and that was 93% occupancy for its Strip assets in the second quarter, which is really an outstanding amount of occupancy given the amount of inventory that MGM has on the Strip.",
+   "speaker": "Edward Pitoniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "ev_start": 18721
+  },
+  {
+   "figure_text": "9.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "That is just for the one Bear Valley Hills loan, and our loan book is close to a 9.5% yield.",
+   "speaker": "David Kieske",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 19990
+  },
+  {
+   "figure_text": "$90 million",
+   "reason": "no_metric_phrase",
+   "sentence": "We have a $90 million senior secured loan collateralized by a leisure and hospitality asset.",
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "ev_start": 36326
+  },
+  {
+   "figure_text": "3%",
+   "reason": "no_metric_phrase",
+   "sentence": "It is about 3% of our loan portfolio.",
+   "speaker": "Gabe Wasserman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 57,
+   "ev_start": 36419
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 1,
+  "by_kind": {
+   "reported": 1
+  },
+  "by_confidence": {
+   "high": 1
+  },
+  "verified": 1,
+  "unverified": 0,
+  "unclaimed_figures": 20,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

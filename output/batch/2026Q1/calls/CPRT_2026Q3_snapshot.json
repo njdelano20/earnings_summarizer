@@ -1,0 +1,3525 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "CPRT",
+  "fiscal_quarter": 3,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q3",
+  "symbol": "CPRT",
+  "from_cache": true,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q1",
+  "fiscal_label": "2026Q3",
+  "period_end": "2026-04",
+  "fye_month": 7,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "verified: Alpha Vantage 2026Q2 = Second Quarter Fiscal 2026 (quarter ended Jan 2026), 2026-09-21",
+  "qa_start_turn": 3,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jeffrey Liaw",
+    "role": "management"
+   },
+   {
+    "name": "Leah Stearns",
+    "role": "management"
+   },
+   {
+    "name": "Bob Labick",
+    "role": "analyst"
+   },
+   {
+    "name": "Craig Kennison",
+    "role": "analyst"
+   },
+   {
+    "name": "Jash Patwa",
+    "role": "analyst"
+   },
+   {
+    "name": "John Healy",
+    "role": "analyst"
+   },
+   {
+    "name": "Jeffrey Lick",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Third Quarter Fiscal 2026",
+   "detail": "the call says 'Third Quarter Fiscal 2026', matching 2026Q3"
+  },
+  "reported_period_label": "third quarter",
+  "source_file": "CPRT_2026Q3.json"
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $1.24B (+2.1% yoy), third quarter",
+   "fact_ids": [
+    "CPRT_2026_3-001"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $0.43/sh (+2.4%)",
+   "fact_ids": [
+    "CPRT_2026_3-008"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Gross margin 48.3%",
+   "fact_ids": [
+    "CPRT_2026_3-010"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 1240000000.0,
+    "fact_id": "CPRT_2026_3-001"
+   },
+   "growth": {
+    "value": 2.1,
+    "period": "third quarter",
+    "fact_id": "CPRT_2026_3-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": {
+    "value": 48.3,
+    "period": "third quarter",
+    "fact_id": "CPRT_2026_3-010",
+    "confidence": "high"
+   },
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "us",
+   "name": "U.S. segment",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 9
+  },
+  {
+   "node": "purple_wave",
+   "name": "Purple Wave (heavy equipment)",
+   "depth": 1,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 5
+  },
+  {
+   "node": "international",
+   "name": "International segment",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 14.1,
+    "period": "third quarter",
+    "fact_id": "CPRT_2026_3-013",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 9
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "CPRT_2026_3-001",
+   "CPRT_2026_3-010",
+   "CPRT_2026_3-003",
+   "CPRT_2026_3-006",
+   "CPRT_2026_3-007",
+   "CPRT_2026_3-008",
+   "CPRT_2026_3-018"
+  ],
+  "signal_ids": [
+   "CPRT_2026_3-S011",
+   "CPRT_2026_3-S020",
+   "CPRT_2026_3-S021",
+   "CPRT_2026_3-S023",
+   "CPRT_2026_3-S025",
+   "CPRT_2026_3-S026",
+   "CPRT_2026_3-S075"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "us",
+   "name": "U.S. segment",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CPRT_2026_3-009",
+    "CPRT_2026_3-004",
+    "CPRT_2026_3-005"
+   ],
+   "signal_ids": [
+    "CPRT_2026_3-S017",
+    "CPRT_2026_3-S019",
+    "CPRT_2026_3-S027",
+    "CPRT_2026_3-S035",
+    "CPRT_2026_3-S038"
+   ],
+   "n_home_signals": 9,
+   "n_mentions": 9,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "purple_wave",
+   "name": "Purple Wave (heavy equipment)",
+   "dimension": "segment",
+   "parent": "us",
+   "depth": 1,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S036",
+    "CPRT_2026_3-S072",
+    "CPRT_2026_3-S074"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 5,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "international",
+   "name": "International segment",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CPRT_2026_3-013"
+   ],
+   "signal_ids": [
+    "CPRT_2026_3-S045",
+    "CPRT_2026_3-S046",
+    "CPRT_2026_3-S057",
+    "CPRT_2026_3-S058"
+   ],
+   "n_home_signals": 8,
+   "n_mentions": 9,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "insurance",
+   "name": "Insurance sellers",
+   "dimension": "customer",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S002",
+    "CPRT_2026_3-S004",
+    "CPRT_2026_3-S006",
+    "CPRT_2026_3-S008",
+    "CPRT_2026_3-S009",
+    "CPRT_2026_3-S022",
+    "CPRT_2026_3-S050",
+    "CPRT_2026_3-S060",
+    "CPRT_2026_3-S061"
+   ],
+   "n_home_signals": 16,
+   "n_mentions": 21,
+   "stance": {
+    "mixed": 1,
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "noninsurance",
+   "name": "Non-insurance sellers (dealers, rental, fleet, finance)",
+   "dimension": "customer",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S028",
+    "CPRT_2026_3-S032",
+    "CPRT_2026_3-S034"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 12,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "buyers",
+   "name": "Buyer base",
+   "dimension": "customer",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S012",
+    "CPRT_2026_3-S014",
+    "CPRT_2026_3-S015",
+    "CPRT_2026_3-S067",
+    "CPRT_2026_3-S077"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 7,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "ai",
+   "name": "Artificial intelligence",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S059",
+    "CPRT_2026_3-S062",
+    "CPRT_2026_3-S063"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 7,
+   "stance": {
+    "mixed": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "buybacks",
+   "name": "Share repurchases",
+   "dimension": "initiative",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S051",
+    "CPRT_2026_3-S052"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "claims_environment",
+   "name": "Claims, coverage and total-loss frequency",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "CPRT_2026_3-S005",
+    "CPRT_2026_3-S007",
+    "CPRT_2026_3-S010",
+    "CPRT_2026_3-S056"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 13,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "fuel_logistics",
+   "name": "Fuel, towing and long-haul logistics",
+   "dimension": "driver",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 2,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 3,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 1,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "Jeffrey Liaw": {
+    "confident": 2,
+    "mixed": 1
+   },
+   "Leah Stearns": {
+    "confident": 6
+   }
+  },
+  "notable_confident": [
+   "CPRT_2026_3-S052",
+   "CPRT_2026_3-S074",
+   "CPRT_2026_3-S001",
+   "CPRT_2026_3-S076"
+  ],
+  "notable_cautious": [],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "CPRT_2026_3-S001",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 1,
+   "sentence": "We're pleased to report the results of our third quarter fiscal year 2026.",
+   "ev_start": 1098,
+   "ev_end": 1172,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "sales",
+     "declined",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 5,
+   "sentence": "First, for the third quarter 2026, our global insurance unit sales declined 2.7% or 1.9%, excluding the effect of catastrophic volume from a year ago.",
+   "ev_start": 1372,
+   "ev_end": 1522,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us",
+    "insurance"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "volume",
+     "declined",
+     "units"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 6,
+   "sentence": "Our U.S. insurance unit volume for the same period declined 4.2% or just over 3%, excluding the effect of those same catastrophic units.",
+   "ev_start": 1523,
+   "ev_end": 1659,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "claims_environment"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declines"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth",
+     "declines"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 7,
+   "sentence": "We believe the long-term growth algorithm for our insurance business remains very much intact, that over many years, we've observed modest gradual declines in accident frequency, which are then more than offset by increases in total loss frequency.",
+   "ev_start": 1660,
+   "ev_end": 1908,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S005",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "claims_environment"
+   ],
+   "home": "claims_environment",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "best"
+    ],
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 8,
+   "sentence": "Total loss frequency is, in turn, a function of ever-rising repair costs, but more importantly, the differentiated returns that Copart generates by finding the highest and best use for a car globally, which is often full restoration back to roadworthiness.",
+   "ev_start": 1909,
+   "ev_end": 2165,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S006",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "claims_environment",
+    "insurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softer"
+    ],
+    "pressure": [
+     "softer"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 12,
+   "sentence": "Claims activity also remains somewhat softer as consumers continue adjusting their insurance purchasing behavior in response to rising premiums.",
+   "ev_start": 2585,
+   "ev_end": 2729,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "claims_environment"
+   ],
+   "home": "claims_environment",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 13,
+   "sentence": "As one indicator of this trend from a macro level, earned car years according to ISS Fast Track have declined 4% year-over-year in the fourth calendar quarter of 2025, while vehicles in operation grew 1.4%.",
+   "ev_start": 2730,
+   "ev_end": 2936,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "claims_environment"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "declining",
+     "growing"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 14,
+   "sentence": "We believe this divergence, declining insurance coverage against a growing vehicle fleet, is clear evidence of the consumer pullback on insurance coverage.",
+   "ev_start": 2937,
+   "ev_end": 3092,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S009",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "claims_environment"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 17,
+   "sentence": "When consumers feel pocketbook pressure, especially on a lagged basis regarding their auto insurance rates, they dial back their coverage.",
+   "ev_start": 3527,
+   "ev_end": 3665,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S010",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "claims_environment"
+   ],
+   "home": "claims_environment",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "softness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 19,
+   "sentence": "This softness in claims activity has been partially offset by continued increases in total loss frequency, consistent with the very long-term industry trend.",
+   "ev_start": 3701,
+   "ev_end": 3858,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S011",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 24,
+   "sentence": "We are focused, as always, on delivering superior outcomes for our clients, first and foremost, through auction returns, but also, of course, through our differentiated service offerings from vehicle retrieval to title processing.",
+   "ev_start": 4596,
+   "ev_end": 4826,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S012",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "strategy": [
+     "invest",
+     "investment"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 25,
+   "sentence": "We continue to invest heavily in our technology platforms, our physical infrastructure and our global buyer network to enable those outcomes, representing absolute investment levels that substantially exceed the balance of the industry collectively.",
+   "ev_start": 4827,
+   "ev_end": 5076,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 30,
+   "sentence": "For example, given recent conflicts, direct participation in U.S. auctions from certain Middle Eastern markets has declined year-over-year.",
+   "ev_start": 5700,
+   "ev_end": 5839,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers",
+    "noninsurance",
+    "insurance"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 2.94,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 38,
+   "sentence": "Looking back over the past three years, of the more than 30,000 buyers who first entered the Copart ecosystem by virtue of those noninsurance vehicles, a strong majority would bid on an insurance vehicle within the first 90 days of their engagement.",
+   "ev_start": 7023,
+   "ev_end": 7272,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "best"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 41,
+   "sentence": "They know that by virtue of Copart's buyer recruitment, product discovery and auction management practices we will yield the highest and best value the first time through our auction.",
+   "ev_start": 7500,
+   "ev_end": 7683,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us",
+    "insurance"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-time highs"
+    ],
+    "performance": [
+     "units",
+     "all-time"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 42,
+   "sentence": "Today, for U.S. insurance sellers at Copart, the mix of pure sale units is at all-time highs.",
+   "ev_start": 7684,
+   "ev_end": 7777,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "us",
+    "ai"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 44,
+   "sentence": "We recently completed our 2026 Insurance Advisory Board meeting, a gathering of our largest U.S. insurance clients to discuss current and future catalysts of change in our industry, including artificial intelligence deployment.",
+   "ev_start": 7919,
+   "ev_end": 8146,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S018",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "claims_environment",
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [],
+    "node_topic": [
+     "ai:product"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 45,
+   "sentence": "It marks just one visible moment in our ongoing day-to-day engagement with our clients to extend and expand our commercial relationships as we handle ever more of the claims processes for them, including providing them the AI-enabled tools to make front-end total loss decisions more quickly and more accurately through to title procurement, loan settlement and ultimately, auction.",
+   "ev_start": 8147,
+   "ev_end": 8529,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S019",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us",
+    "international"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "I'll begin by walking through our financial results for the quarter, beginning with our consolidated performance, followed by a review of our U.S. and international segments.",
+   "ev_start": 8658,
+   "ev_end": 8832,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CPRT_2026_3-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grew",
+     "up 2.1"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "For the third quarter, consolidated revenue grew to $1.24 billion, up 2.1% year-over-year, driven by strength in both service and purchased vehicle sales.",
+   "ev_start": 8833,
+   "ev_end": 8987,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "During the quarter, we continued to see expansion in average selling prices, which rose 4.6% and more than offset a modest decline in unit volumes of 2.4%.",
+   "ev_start": 8988,
+   "ev_end": 9143,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "noninsurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 2.7",
+     "decreased"
+    ],
+    "performance": [
+     "units",
+     "decreased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "On the insurance side, global units were down 2.7%, consistent with the industry dynamics Jeff outlined, while global noninsurance units decreased 1.4%.",
+   "ev_start": 9144,
+   "ev_end": 9296,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single-digit",
+     "grew"
+    ],
+    "negative": [
+     "down 2"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Notably, while global inventory was down 2% from the prior year, global assignment volumes grew at a low single-digit pace.",
+   "ev_start": 9297,
+   "ev_end": 9420,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "profitability"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "From a profitability standpoint, the quarter was strong.",
+   "ev_start": 9421,
+   "ev_end": 9477,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CPRT_2026_3-002",
+    "CPRT_2026_3-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 3.7",
+     "increasing 71"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Global gross profit increased 3.7% to $572.6 million, with global gross margins increasing 71 basis points to 46.3%.",
+   "ev_start": 9478,
+   "ev_end": 9594,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S026",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "During the quarter, we continued to invest across our platform to enhance the products and services we offer to participants across our global marketplace.",
+   "ev_start": 9595,
+   "ev_end": 9750,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S027",
+   "topics": [
+    "momentum",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us",
+    "fuel_logistics",
+    "buybacks"
+   ],
+   "home": "us",
+   "fact_ids": [
+    "CPRT_2026_3-004",
+    "CPRT_2026_3-005",
+    "CPRT_2026_3-006",
+    "CPRT_2026_3-007",
+    "CPRT_2026_3-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "increased 2.4"
+    ],
+    "product": [
+     "launch"
+    ],
+    "strategy": [
+     "repurchase"
+    ],
+    "performance": [
+     "grew",
+     "earnings"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "This includes the recent launch of our domestic long-haul delivery services in the U.S. Operating income grew 2.8% to $464.3 million, net income was $402.4 million, and earnings per diluted share increased 2.4% to $0.43, benefiting in part from our ongoing share repurchase activity.",
+   "ev_start": 9751,
+   "ev_end": 10034,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "noninsurance"
+   ],
+   "home": "noninsurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "units",
+     "declined"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Total units declined 4.2% or 3.3% excluding Copart Direct units.",
+   "ev_start": 10064,
+   "ev_end": 10128,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "claims_environment"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Insurance volumes decreased 4.2%, which are consistent with the claims frequency trends Jeff described a few moments ago.",
+   "ev_start": 10129,
+   "ev_end": 10250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "Beyond insurance, we are seeing encouraging momentum across our diversified seller base.",
+   "ev_start": 10251,
+   "ev_end": 10339,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "noninsurance"
+   ],
+   "home": "noninsurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "units"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Our Dealer Services and powersports businesses grew units by 1%.",
+   "ev_start": 10340,
+   "ev_end": 10404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "noninsurance"
+   ],
+   "home": "noninsurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Our BluCar commercial consignment channel expanded by over 4% over the prior year.",
+   "ev_start": 10405,
+   "ev_end": 10487,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "noninsurance"
+   ],
+   "home": "noninsurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "double-digit",
+     "grew"
+    ],
+    "performance": [
+     "volume",
+     "grew",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Combined fleet and finance seller volume grew at a healthy double-digit pace, which was partially offset by the continued impact of higher repair activity we've seen among our rental customers.",
+   "ev_start": 10488,
+   "ev_end": 10681,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "noninsurance"
+   ],
+   "home": "noninsurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "volume",
+     "declined",
+     "units"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "Our Copart Direct unit volume declined 26.3% as we continue to strategically shift lower-value units to our direct buy channel.",
+   "ev_start": 10682,
+   "ev_end": 10809,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single-digit"
+    ],
+    "negative": [
+     "down 4.7",
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "On the inventory side, U.S. inventory is down 4.7% year-over-year, and U.S. assignments declined at a low single-digit pace during the quarter.",
+   "ev_start": 10810,
+   "ev_end": 10953,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "purple_wave"
+   ],
+   "home": "purple_wave",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expansion"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Shifting to Purple Wave, our focus on organic territory sales expansion continues to yield strong gross transaction value growth, which was more than 25% for the last 12 months.",
+   "ev_start": 10954,
+   "ev_end": 11131,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong",
+     "expansion"
+    ],
+    "performance": [
+     "momentum",
+     "traction"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "The momentum we are experiencing is being fueled by strong traction in our expansion markets and deepening relationships with select enterprise accounts, which is a real testament to the progress our team is making to scale their platform.",
+   "ev_start": 11132,
+   "ev_end": 11371,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us"
+   ],
+   "home": "us",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 0.4"
+    ],
+    "performance": [
+     "revenue",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "On revenue, the U.S. segment was essentially flat, down 0.4% as higher revenue per unit largely was offset by volume headwinds.",
+   "ev_start": 11372,
+   "ev_end": 11499,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "noninsurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 4.1",
+     "increased 3.7",
+     "increased 23"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "Insurance ASPs increased 4.1%, noninsurance ASPs increased 3.7% and purchased unit ASPs increased 23%.",
+   "ev_start": 11500,
+   "ev_end": 11602,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "us"
+   ],
+   "home": "us",
+   "fact_ids": [
+    "CPRT_2026_3-009",
+    "CPRT_2026_3-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 0.9"
+    ],
+    "performance": [
+     "profit",
+     "grew",
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "U.S. gross profit grew to $484.1 million, up 0.9%, and gross profit margin was 48.3%.",
+   "ev_start": 11603,
+   "ev_end": 11688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Internationally, the story is one of continued momentum.",
+   "ev_start": 11763,
+   "ev_end": 11819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "noninsurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 5.9",
+     "up 4.6",
+     "growing"
+    ],
+    "performance": [
+     "units",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Total units sold increased 5.9% with insurance units up 4.6% and noninsurance units growing 11.2% in the quarter.",
+   "ev_start": 11820,
+   "ev_end": 11933,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low-teens",
+     "increased over 10"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Inventory in our international segment increased over 10% from a year-ago period and international assignments increased at a low-teens pace.",
+   "ev_start": 11934,
+   "ev_end": 12075,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "These trends reflect the broad-based growth that we are seeing across our diversified international footprint, with particularly strong contributions from the U.K., Germany and Canada.",
+   "ev_start": 12076,
+   "ev_end": 12260,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [
+    "CPRT_2026_3-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "For the quarter, international revenue grew 14.1% or 7.9% excluding the positive impact of foreign currency fluctuations, to $234.2 million.",
+   "ev_start": 12261,
+   "ev_end": 12401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [
+    "CPRT_2026_3-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 17.9"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "The primary source of growth internationally came from service revenues, which were up 17.9%, driven by a 10.5% increase in fee revenue per unit and strong volume growth.",
+   "ev_start": 12402,
+   "ev_end": 12572,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "noninsurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increasing 8.4",
+     "growing"
+    ],
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Revenue per unit was positively impacted by strong ASP growth with insurance ASPs increasing 8.4% and noninsurance ASPs growing 16.7%.",
+   "ev_start": 12573,
+   "ev_end": 12707,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CPRT_2026_3-015",
+    "CPRT_2026_3-016",
+    "CPRT_2026_3-017"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increasing 21.9"
+    ],
+    "performance": [
+     "profit",
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "The profit picture was equally compelling, with gross profit increasing 21.9% and operating income reaching $73.8 million, representing a 31.5% operating margin.",
+   "ev_start": 12708,
+   "ev_end": 12869,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S049",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "Our balance sheet gives us tremendous flexibility to be opportunistic investors throughout business and credit cycles.",
+   "ev_start": 13153,
+   "ev_end": 13271,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S050",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "noninsurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [
+    "CPRT_2026_3-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "strong",
+     "increased 12"
+    ],
+    "strategy": [
+     "disciplined",
+     "capital allocation"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We continue to generate robust free cash flow, which has increased 12% year-to-date, supported by disciplined capital allocation into land, facilities and technology, which positions us to efficiently serve both insurance and noninsurance clients while delivering strong operating efficiency.",
+   "ev_start": 13272,
+   "ev_end": 13564,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S051",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buybacks"
+   ],
+   "home": "buybacks",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchase"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "On the capital return front, we continue to repurchase shares during the third quarter through a combination of 10b5-1 and open market transactions.",
+   "ev_start": 13565,
+   "ev_end": 13713,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S052",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buybacks"
+   ],
+   "home": "buybacks",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "repurchased"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Fiscal year-to-date, we have repurchased over 43.4 million shares for an aggregate amount of over $1.6 billion, underscoring our confidence in the future growth prospects for Copart and the long-term value of our business.",
+   "ev_start": 13714,
+   "ev_end": 13936,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "In theory, even if you dramatically reduced new car sales in a given year, that doesn't have a pronounced effect on us given our supply is a layer cake of more than a decade's worth of new car shipments.",
+   "ev_start": 16947,
+   "ev_end": 17150,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 9,
+   "sentence": "Any one, two or three years of disruption, so long as it doesn't coincide with a dramatic decline in miles driven, would not be the independent variable of greatest consequence.",
+   "ev_start": 17151,
+   "ev_end": 17328,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "claims_environment"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 1,
+   "sentence": "You heard me walk through principally the insurance side of the house: the insurance industry has been a strong growth lever for us for decades even on a same-client basis, as accident frequency has historically been more than offset by rising total loss frequency.",
+   "ev_start": 17575,
+   "ev_end": 17840,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "claims_environment"
+   ],
+   "home": "claims_environment",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 5,
+   "sentence": "As rising total loss frequency means we sell actual cars rather than baskets of parts, we become the appropriate forum for a growing variety of vehicles, including those from the aforementioned institutions.",
+   "ev_start": 18194,
+   "ev_end": 18401,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "profitably"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 7,
+   "sentence": "We've expanded globally - most notably since 2007 - and we operate profitably in the U.K., Spain, Germany, Finland, the Middle East, Canada, Brazil, etc.",
+   "ev_start": 18465,
+   "ev_end": 18618,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "going forward"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 8,
+   "sentence": "International expansion has historically been part of our playbook and will be relevant going forward.",
+   "ev_start": 18619,
+   "ev_end": 18721,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "ai:product"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 9,
+   "sentence": "On catalysts for change, we discussed near-term trends like geopolitical conflict and artificial intelligence.",
+   "ev_start": 20838,
+   "ev_end": 20948,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S060",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai",
+    "insurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 10,
+   "sentence": "We talked at length about AI - how we're deploying it at Copart to support outcomes and how we can support carriers in deploying it.",
+   "ev_start": 20949,
+   "ev_end": 21081,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "mixed",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "ai"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "ai:product"
+    ],
+    "confident": [
+     "excited"
+    ],
+    "hedge": [
+     "cautious"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 11,
+   "sentence": "Insurance companies are both excited and cautious about AI.",
+   "ev_start": 21082,
+   "ev_end": 21141,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new tools"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 12,
+   "sentence": "They must be thoughtful, rigorous, auditable and accountable about new tools.",
+   "ev_start": 21142,
+   "ev_end": 21219,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai",
+    "claims_environment"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "node_topic": [
+     "ai:product"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 13,
+   "sentence": "AI will be explored across marketing, underwriting, repricing, CRM and claims.",
+   "ev_start": 21220,
+   "ev_end": 21298,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 2.94,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "The U.K. was particularly strong in the quarter, followed by Germany and Canada.",
+   "ev_start": 21805,
+   "ev_end": 21885,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "insurance",
+    "noninsurance"
+   ],
+   "home": "insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 3,
+   "sentence": "We've seen strong demand across all three markets on both the insurance side and the noninsurance business.",
+   "ev_start": 21886,
+   "ev_end": 21993,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S066",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 7,
+   "sentence": "We're pleased with our performance there.",
+   "ev_start": 22277,
+   "ev_end": 22318,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 10,
+   "sentence": "Replenishing that buyer universe is critical, and buyers often start with well-conditioned vehicles and then expand their aperture.",
+   "ev_start": 23979,
+   "ev_end": 24110,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S068",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers",
+    "insurance"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jeffrey Liaw",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 7,
+   "sentence": "Buyers gravitate to pure sale items, and you generate better and faster outcomes when buyers are excited to participate.",
+   "ev_start": 25182,
+   "ev_end": 25302,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 2,
+   "sentence": "The majority of the growth is coming from territory expansion.",
+   "ev_start": 28977,
+   "ev_end": 29039,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 3,
+   "sentence": "We started with a principally Central Time Zone-focused territory sales force and have expanded out to the coasts.",
+   "ev_start": 29040,
+   "ev_end": 29154,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S071",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "purple_wave"
+   ],
+   "home": "purple_wave",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.44,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "The majority of our investment in Purple Wave has been in headcount in that territory sales force as well as focused enterprise-level accounts that are building relationships with large nationwide sellers.",
+   "ev_start": 29155,
+   "ev_end": 29360,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "purple_wave"
+   ],
+   "home": "purple_wave",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 5,
+   "sentence": "The GTV growth we are seeing is a result of the success we've had with that territory expansion and the enterprise relationships.",
+   "ev_start": 29361,
+   "ev_end": 29490,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S073",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "purple_wave"
+   ],
+   "home": "purple_wave",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 6,
+   "sentence": "We're pleased with that.",
+   "ev_start": 29491,
+   "ev_end": 29515,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S074",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "purple_wave",
+    "claims_environment"
+   ],
+   "home": "purple_wave",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.88,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 7,
+   "sentence": "The team is about 2.5 to 3 times the size it was when we acquired Purple Wave, and we still have some ways to go to achieve full nationwide coverage, but we have hit the top areas most important for Copart to penetrate and are pleased with the progress.",
+   "ev_start": 29516,
+   "ev_end": 29769,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S075",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 2,
+   "sentence": "We shifted our product offering about 12 months ago and have seen rapid adoption.",
+   "ev_start": 30216,
+   "ev_end": 30297,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S076",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers",
+    "fuel_logistics"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.44,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "We're pleased with buyer participation in procuring long-haul delivery through the Copart Delivered product.",
+   "ev_start": 30298,
+   "ev_end": 30406,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CPRT_2026_3-S077",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "buyers"
+   ],
+   "home": "buyers",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Leah Stearns",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "We believe it reduces friction and gives buyers cost certainty upfront.",
+   "ev_start": 30407,
+   "ev_end": 30478,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "CPRT_2026_3-S017",
+  "CPRT_2026_3-S019",
+  "CPRT_2026_3-S027",
+  "CPRT_2026_3-S035",
+  "CPRT_2026_3-S038",
+  "CPRT_2026_3-S036",
+  "CPRT_2026_3-S072",
+  "CPRT_2026_3-S074",
+  "CPRT_2026_3-S045",
+  "CPRT_2026_3-S046",
+  "CPRT_2026_3-S057",
+  "CPRT_2026_3-S058",
+  "CPRT_2026_3-S002",
+  "CPRT_2026_3-S004",
+  "CPRT_2026_3-S006",
+  "CPRT_2026_3-S008",
+  "CPRT_2026_3-S009",
+  "CPRT_2026_3-S022",
+  "CPRT_2026_3-S050",
+  "CPRT_2026_3-S060",
+  "CPRT_2026_3-S061",
+  "CPRT_2026_3-S028",
+  "CPRT_2026_3-S032",
+  "CPRT_2026_3-S034",
+  "CPRT_2026_3-S012",
+  "CPRT_2026_3-S014",
+  "CPRT_2026_3-S015",
+  "CPRT_2026_3-S067",
+  "CPRT_2026_3-S077",
+  "CPRT_2026_3-S059",
+  "CPRT_2026_3-S062",
+  "CPRT_2026_3-S063",
+  "CPRT_2026_3-S051",
+  "CPRT_2026_3-S052",
+  "CPRT_2026_3-S005",
+  "CPRT_2026_3-S007",
+  "CPRT_2026_3-S010",
+  "CPRT_2026_3-S056",
+  "CPRT_2026_3-S011",
+  "CPRT_2026_3-S020",
+  "CPRT_2026_3-S021",
+  "CPRT_2026_3-S023",
+  "CPRT_2026_3-S025",
+  "CPRT_2026_3-S026",
+  "CPRT_2026_3-S075"
+ ],
+ "surfaced_signal_ids": [
+  "CPRT_2026_3-S017",
+  "CPRT_2026_3-S019",
+  "CPRT_2026_3-S027",
+  "CPRT_2026_3-S035",
+  "CPRT_2026_3-S038",
+  "CPRT_2026_3-S036",
+  "CPRT_2026_3-S072",
+  "CPRT_2026_3-S074",
+  "CPRT_2026_3-S045",
+  "CPRT_2026_3-S046",
+  "CPRT_2026_3-S057",
+  "CPRT_2026_3-S058",
+  "CPRT_2026_3-S002",
+  "CPRT_2026_3-S004",
+  "CPRT_2026_3-S006",
+  "CPRT_2026_3-S008",
+  "CPRT_2026_3-S009",
+  "CPRT_2026_3-S022",
+  "CPRT_2026_3-S050",
+  "CPRT_2026_3-S060",
+  "CPRT_2026_3-S061",
+  "CPRT_2026_3-S028",
+  "CPRT_2026_3-S032",
+  "CPRT_2026_3-S034",
+  "CPRT_2026_3-S012",
+  "CPRT_2026_3-S014",
+  "CPRT_2026_3-S015",
+  "CPRT_2026_3-S067",
+  "CPRT_2026_3-S077",
+  "CPRT_2026_3-S059",
+  "CPRT_2026_3-S062",
+  "CPRT_2026_3-S063",
+  "CPRT_2026_3-S051",
+  "CPRT_2026_3-S052",
+  "CPRT_2026_3-S005",
+  "CPRT_2026_3-S007",
+  "CPRT_2026_3-S010",
+  "CPRT_2026_3-S056",
+  "CPRT_2026_3-S011",
+  "CPRT_2026_3-S020",
+  "CPRT_2026_3-S021",
+  "CPRT_2026_3-S023",
+  "CPRT_2026_3-S025",
+  "CPRT_2026_3-S026",
+  "CPRT_2026_3-S075",
+  "CPRT_2026_3-S001",
+  "CPRT_2026_3-S076"
+ ],
+ "coverage": {
+  "registry": "curated",
+  "discussed": [
+   "us",
+   "purple_wave",
+   "international",
+   "insurance",
+   "noninsurance",
+   "buyers",
+   "ai",
+   "buybacks",
+   "claims_environment",
+   "fuel_logistics"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "purple_wave",
+   "insurance",
+   "noninsurance",
+   "buyers",
+   "ai",
+   "buybacks",
+   "claims_environment",
+   "fuel_logistics"
+  ],
+  "unmapped_fact_segments": {
+   "service": 1
+  },
+  "held_back_low_confidence_facts": [
+   "CPRT_2026_3-002",
+   "CPRT_2026_3-011",
+   "CPRT_2026_3-012",
+   "CPRT_2026_3-015",
+   "CPRT_2026_3-016",
+   "CPRT_2026_3-017"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "pass",
+   "detail": "curated business map in use"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "warn",
+   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'service': 1}"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "6 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 77,
+  "signals_usable": 77,
+  "selected": 45,
+  "by_topic": {
+   "momentum": 55,
+   "competition": 2,
+   "pressure": 3,
+   "strategy": 8,
+   "product": 10
+  },
+  "by_horizon": {
+   "current": 70,
+   "forward": 7
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 9,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

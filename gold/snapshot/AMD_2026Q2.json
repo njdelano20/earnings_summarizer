@@ -1,0 +1,99 @@
+{
+  "transcript": "data/raw/alphavantage/AMD_2026Q2.json",
+  "notes": "Hand-written 2026-09-21 from reading the full AMD Q2 2026 transcript, before looking at the extractor's snapshot for this call. Node ids are the ones segments/AMD.json must define: data_center (parent of server_cpu and data_center_ai), client_gaming (parent of client and gaming), embedded, plus initiatives helios / rocm / ai_customers and drivers supply_chain / tam. Segments-with-facts only lists nodes that have a stated dollar or percent figure in the call; data_center_ai has none (management gives only 'more than doubled' and 'well over 100%'), so it is demanded as commentary only.",
+
+  "segments_with_facts": ["data_center", "server_cpu", "client_gaming", "client", "gaming", "embedded"],
+  "segments_with_commentary": ["data_center", "server_cpu", "data_center_ai", "client_gaming", "client", "gaming", "embedded",
+                                "helios", "rocm", "ai_customers", "supply_chain", "tam"],
+
+  "signals_expected": [
+    {"contains": "Revenue increased 50% year-over-year to $11.5 billion", "topic": "momentum", "direction": "positive"},
+    {"contains": "Data center revenue grew 107% year-over-year to a record $6.7 billion", "topic": "momentum", "direction": "positive", "segment": "data_center"},
+    {"contains": "now represents 58% of total revenue", "topic": "momentum", "direction": "positive", "segment": "data_center"},
+    {"contains": "fifth consecutive quarter of record server CPU revenue", "topic": "momentum", "direction": "positive", "segment": "server_cpu"},
+    {"contains": "fourth consecutive quarter of record sell-through", "topic": "momentum", "direction": "positive", "segment": "server_cpu"},
+    {"contains": "Customer demand for Venice is stronger than for any prior EPYC generation", "topic": "momentum", "direction": "positive", "segment": "server_cpu"},
+    {"contains": "Instinct sales more than doubled year-over-year", "topic": "momentum", "direction": "positive", "segment": "data_center_ai"},
+    {"contains": "Customer pull for Helios is very strong and tracking ahead of our initial forecast", "topic": "momentum", "direction": "positive", "segment": "helios"},
+    {"contains": "In client, revenue increased 23% year-over-year to $3.1 billion", "topic": "momentum", "direction": "positive", "segment": "client"},
+    {"contains": "Ryzen Pro sales growing more than 50% year-over-year", "topic": "momentum", "direction": "positive", "segment": "client"},
+    {"contains": "In gaming, revenue declined 31% year-over-year to $779 million", "topic": "momentum", "direction": "negative", "segment": "gaming"},
+    {"contains": "Revenue increased 19% year-over-year to $977 million, our strongest growth in more than 3 years", "topic": "momentum", "direction": "positive", "segment": "embedded"},
+    {"contains": "more than $18 billion of new design wins", "topic": "momentum", "direction": "positive", "segment": "embedded"},
+    {"contains": "Gross margin for the quarter expanded to 56%", "topic": "momentum", "direction": "positive"},
+    {"contains": "demand for both accelerators and CPUs is growing well above our prior expectations", "topic": "momentum", "direction": "positive", "segment": "tam"},
+
+    {"contains": "we launched Helios, our rack-scale AI platform", "topic": "product", "segment": "helios"},
+    {"contains": "Venice is in production now", "topic": "product", "segment": "server_cpu"},
+    {"contains": "We introduced ROCm.ai", "topic": "product", "segment": "rocm"},
+    {"contains": "we announced a new strategic partnership with Anthropic", "direction": "positive", "segment": "ai_customers"},
+    {"contains": "Microsoft will deploy Helios at scale on Azure", "direction": "positive", "segment": "ai_customers"},
+    {"contains": "we introduced our next-generation Ryzen AI Halo platform", "topic": "product", "segment": "client"},
+
+    {"contains": "We gained x86 server revenue share year-over-year", "topic": "competition", "direction": "positive", "segment": "server_cpu"},
+    {"contains": "Helios delivers up to 15% more throughput at the same rack power", "topic": "competition", "segment": "helios"},
+    {"contains": "Our overall embedded portfolio is outgrowing the market and gaining share", "topic": "competition", "direction": "positive", "segment": "embedded"},
+
+    {"contains": "we are planning for a softer PC market as higher memory and component costs weigh on demand", "topic": "pressure", "direction": "negative", "segment": "client", "horizon": "forward"},
+    {"contains": "primarily due to lower semi-custom sales at this stage of the console cycle", "topic": "pressure", "direction": "negative", "segment": "gaming"},
+    {"contains": "the server CPU supply chain is tight right now", "topic": "pressure", "segment": "supply_chain"},
+    {"contains": "Client and Gaming segment operating income was $582 million or 15% of revenue compared to $767 million or 21% a year ago", "direction": "negative", "segment": "client_gaming"},
+
+    {"contains": "We expect revenue to be approximately $13 billion plus or minus $300 million", "horizon": "forward"},
+    {"contains": "Sequentially we expect revenue to be up approximately 13%", "horizon": "forward", "direction": "mixed"},
+    {"contains": "We now expect revenue to grow substantially above our prior target of greater than 35%", "horizon": "forward", "direction": "positive", "revision": "revised"},
+    {"contains": "we now expect server revenue to grow more than 80% year-over-year in the second half of 2026", "horizon": "forward", "direction": "positive", "revision": "revised", "segment": "server_cpu"},
+    {"contains": "we now expect data center segment revenue to more than double year-over-year in 2027", "horizon": "forward", "direction": "positive", "revision": "revised", "segment": "data_center"},
+    {"contains": "We now expect the data center AI accelerator market to grow more than 45% annually", "horizon": "forward", "direction": "positive", "revision": "revised", "segment": "tam"},
+    {"contains": "Helios is now in production with initial shipments on track to begin later this quarter", "horizon": "forward", "direction": "positive", "segment": "helios"},
+    {"contains": "we plan to launch a new rack-scale AI platform every year", "horizon": "forward", "segment": "helios"},
+    {"contains": "the data center AI business is going to be well over 100%", "horizon": "forward", "direction": "positive", "segment": "data_center_ai"},
+    {"contains": "we expect our client business to perform better than the market", "horizon": "forward", "topic": "competition", "segment": "client"},
+    {"contains": "the 2027 server supply situation should be better than 2026", "horizon": "forward", "segment": "supply_chain"},
+    {"contains": "the Embedded business will give us additional tailwind on the gross margin side in 2027", "horizon": "forward", "direction": "positive", "segment": "embedded"},
+    {"contains": "you should expect us to manage this OpEx increase to be less than the top line revenue growth", "horizon": "forward"},
+
+    {"contains": "I don't think we see anything that would give us pause about hitting the targets", "stance": "confident"},
+    {"contains": "we are actually very optimistic about how we manage the ramp of the MI450", "stance": "confident", "segment": "data_center_ai"},
+    {"contains": "I remain optimistic about the PC market", "stance": "confident", "segment": "client"},
+    {"contains": "the range will depend on the ability to bring on more capacity in a timely fashion", "stance": "cautious", "segment": "supply_chain"},
+    {"contains": "We're all watching the component costs", "stance": "cautious", "segment": "client"}
+  ],
+
+  "signals_forbidden": [
+    {"contains": "differ materially"},
+    {"contains": "This is a live call and will be replayed"},
+    {"contains": "KeyBanc's Technology Leadership Forum"},
+    {"contains": "The full non-GAAP to GAAP reconciliations"},
+    {"contains": "I'll start with a review of our second quarter financial results"},
+    {"contains": "Now I will turn the call over to Jean"},
+    {"contains": "that's a great question"},
+    {"contains": "you bring a smile to my face"},
+    {"contains": "Congrats on the very strong results"},
+    {"contains": "you laid out the Analyst Day"}
+  ],
+
+  "trajectory_expected": [
+    {"node": "gaming", "metric": "revenue", "direction": "down"},
+    {"node": "total", "metric": "revenue", "direction": "down"}
+  ],
+  "trajectory_notes": "Revised 2026-09-21 after reading how the tool defines a verdict: reported yoy growth vs the guided range (or the stated direction when management gives only words), so it is about the growth RATE. Total: 50% reported vs 41% guided for Q3 = decelerating = down (revenue is still guided +13% sequentially). Gaming: -31% reported and a guided 'significant double-digit decline' = down. Data Center (107% vs '>100% in 2027'; management also says H2 accelerates vs H1), Embedded ('strong double-digit growth' vs 19%) and Client and Gaming (two segments in one guidance sentence) are left out on purpose: they are arguable, and the tool places only one segment per guidance sentence.",
+
+  "must_surface": [
+    ["Revenue increased 50% year-over-year to $11.5 billion", "Revenue increased 50% year-over-year and 13% sequentially to a record $11.5 billion"],
+    ["Data center revenue grew 107% year-over-year to a record $6.7 billion", "Revenue was a record $6.7 billion, more than doubling year-over-year"],
+    "We expect revenue to be approximately $13 billion plus or minus $300 million",
+    "We now expect revenue to grow substantially above our prior target of greater than 35%",
+    "we now expect data center segment revenue to more than double year-over-year in 2027",
+    "we now expect server revenue to grow more than 80% year-over-year in the second half of 2026",
+    "We now expect the data center AI accelerator market to grow more than 45% annually",
+    "we announced a new strategic partnership with Anthropic",
+    ["we launched Helios, our rack-scale AI platform", "Helios is now in production with initial shipments on track to begin later this quarter"],
+    "we are planning for a softer PC market as higher memory and component costs weigh on demand",
+    "In gaming, revenue declined 31% year-over-year to $779 million",
+    "Revenue increased 19% year-over-year to $977 million",
+    "the server CPU supply chain is tight right now",
+    ["We gained x86 server revenue share year-over-year", "Customer demand for Venice is stronger than for any prior EPYC generation"],
+    "the range will depend on the ability to bring on more capacity in a timely fashion"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "transcript": "data/raw/alphavantage/IBM_2024Q1.json",
+  "notes": "Partial gold set: only facts read directly from sentences of the transcript. Extend by reading more of the call.",
+  "expected": [
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD", "value": 14.5e9, "period": "first quarter"},
+    {"kind": "reported", "metric": "ebitda", "segment": "total", "stat": "level", "unit": "USD", "value": 3e9, "accounting": "non_gaap"},
+    {"kind": "reported", "metric": "operating_income", "segment": "total", "stat": "level", "unit": "USD", "value": 1.7e9},
+    {"kind": "reported", "metric": "eps", "segment": "total", "stat": "level", "unit": "USD_per_share", "value": 1.68, "accounting": "non_gaap"},
+    {"kind": "reported", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 1.9e9, "period": "first quarter", "change": {"value": 600e6, "unit": "USD", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 3, "currency_basis": "constant"},
+    {"kind": "reported", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 11.8e9, "period": "trailing 12 months"},
+    {"kind": "reported", "metric": "cash", "segment": "total", "stat": "level", "unit": "USD", "value": 19.3e9},
+    {"kind": "reported", "metric": "total_debt", "segment": "total", "stat": "level", "unit": "USD", "value": 59.5e9},
+    {"kind": "reported", "metric": "backlog", "segment": "total", "stat": "growth", "unit": "pct", "value": 7, "basis": "yoy"},
+    {"kind": "guidance", "metric": "free_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 12e9, "period": "full year"},
+    {"kind": "guidance", "metric": "tax_rate", "segment": "total", "stat": "level", "descriptor_contains": "high teens"},
+    {"kind": "guidance", "metric": "impact", "driver": "foreign exchange", "unit": "bps", "value": 150, "value_high": 200},
+    {"kind": "reported", "metric": "gross_margin", "segment": "total", "stat": "change", "unit": "bps", "value": 100},
+    {"kind": "reported", "metric": "operating_margin", "segment": "total", "stat": "change", "unit": "bps", "value": 130},
+    {"kind": "reported", "metric": "operating_margin", "segment": "total", "stat": "change", "unit": "bps", "value": 50},
+    {"kind": "guidance", "metric": "operating_margin", "segment": "total", "stat": "change", "unit": "bps", "value": 50, "period": "2024"},
+    {"kind": "reported", "metric": "tax_rate", "segment": "total", "stat": "level", "unit": "pct", "value": 6},
+    {"kind": "reported", "metric": "ebitda", "segment": "total", "stat": "growth", "unit": "pct", "value": 7},
+    {"kind": "reported", "metric": "ebitda", "segment": "total", "stat": "change", "unit": "USD", "value": 200e6, "basis": "yoy"},
+    {"kind": "reported", "metric": "capital_returned", "segment": "total", "stat": "level", "unit": "USD", "value": 1.5e9},
+    {"kind": "reported", "metric": "revenue", "segment": "software", "stat": "growth", "unit": "pct", "value": 6},
+    {"kind": "reported", "metric": "revenue", "segment": "hybrid platform & solutions", "stat": "growth", "unit": "pct", "value": 7},
+    {"kind": "reported", "metric": "revenue", "segment": "red hat", "stat": "growth", "unit": "pct", "value": 9},
+    {"kind": "reported", "metric": "revenue", "segment": "consulting", "stat": "growth", "unit": "pct", "value": 2},
+    {"kind": "reported", "metric": "revenue", "segment": "business transformation", "stat": "growth", "unit": "pct", "value": 3},
+    {"kind": "reported", "metric": "revenue", "segment": "technology consulting", "stat": "growth", "unit": "pct", "value": 3},
+    {"kind": "reported", "metric": "revenue", "segment": "ibm z", "stat": "growth", "unit": "pct", "value": 5},
+    {"kind": "reported", "metric": "signings", "segment": "total", "stat": "growth", "unit": "pct", "value": 4}
+  ],
+  "forbidden": [
+    {"metric": "revenue", "segment": "total", "stat": "growth", "value": 6},
+    {"metric": "revenue", "segment": "total", "stat": "growth", "value": 4},
+    {"metric": "ebitda", "segment": "total", "stat": "level", "value": 400e6}
+  ]
+}

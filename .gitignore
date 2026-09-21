@@ -1,0 +1,10 @@
+# Python cruft
+__pycache__/
+*.pyc
+
+# Never commit credentials (the Alpha Vantage key lives in the ALPHAVANTAGE_API_KEY env var)
+.env
+.env.*
+
+# NOTE: data/raw/ (cached API responses, costly to re-fetch on the free tier), gold/, and
+# output/batch state ARE tracked on purpose.

@@ -1,0 +1,2 @@
+﻿symbol,season,status,detail,fiscal_label,period_end,fiscal_calendar,source,words,facts,high,medium,low,unverified,verified_pct,unclaimed_figures,claimed_share,conflicts,checks_failed,checks_warn,period_check,signals,selected,trajectory_rows,snapshot_checks_failed,snapshot_checks_warn,registry,unmapped_segments,gold_facts,gold_snapshot,db_eligible,attention
+IBM,2024Q1,ok,,2024Q1,2024-03,verified,cache,8637,35,29,2,4,0,100.0,47,0.427,3,0,1,pass,251,110,5,0,1,curated,0,pass,pass,True,

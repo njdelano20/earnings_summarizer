@@ -1,0 +1,23 @@
+{
+  "transcript": "data/raw/alphavantage/VICI_2026Q2.json",
+  "notes": "Hand-written 2026-09-21 by reading the VICI Properties Q2 2026 call, BEFORE any extractor output for it was opened. A triple-net REIT: the headline metrics are AFFO and AFFO per share (not revenue or EPS), plus debt, leverage and liquidity; the call states NO VICI revenue figure, so any revenue fact is a mislabel. Entries tagged 'new metric needed' use metrics the extractor does not have (affo, affo_per_share). Not covered here on purpose (no metric, or a ratio/transaction rather than a result): net debt to adjusted EBITDA 4.9x and the 5.0-5.5x target, weighted average interest rate 4.45%, 5.5 years to maturity, total liquidity $2.5B, $2.2B revolver availability, the $20.3M Carambola acquisition, $55M redevelopment, $75M total Club Med investment, $1.16B Golden Entertainment sale-leaseback, C$200M Gamehost, the $90M loan modification, loan yield 9.5%, SOFR+525, MGM's 93% Strip occupancy (a tenant statistic). Those are covered as commentary in gold/snapshot. Optional keys 'where' and 'note' are ignored by the scorer and used by annotate.py.",
+  "expected": [
+    {"kind": "reported", "metric": "affo_per_share", "segment": "total", "stat": "level", "unit": "USD_per_share", "value": 0.62, "change": {"value": 4.6, "unit": "pct"}, "where": "AFFO per share was $0.62 for the quarter", "note": "new metric needed: affo_per_share; +4.6% is against the same quarter last year ($0.60)"},
+    {"kind": "reported", "metric": "total_debt", "segment": "total", "stat": "level", "unit": "USD", "value": 17.2e9, "where": "our total debt is $17.2 billion"},
+    {"kind": "reported", "metric": "cash", "segment": "total", "stat": "level", "unit": "USD", "value": 288e6, "where": "$288 million in cash", "note": "part of total liquidity of about $2.5B"},
+
+    {"kind": "guidance", "metric": "affo", "segment": "total", "stat": "level", "unit": "USD", "value": 2.675e9, "value_high": 2.695e9, "where": "AFFO for the year ending December 31, 2026, is expected to be between $2.675 billion and $2.695 billion", "note": "new metric needed: affo; full year 2026"},
+    {"kind": "guidance", "metric": "affo_per_share", "segment": "total", "stat": "level", "unit": "USD_per_share", "value": 2.45, "value_high": 2.47, "where": "or between $2.45 and $2.47 per diluted common share", "note": "new metric needed: affo_per_share; full year 2026"},
+    {"kind": "guidance", "metric": "affo_per_share", "segment": "total", "stat": "growth", "unit": "pct", "value": 3.4, "where": "year-over-year AFFO-per-share growth of 3.4%", "note": "at the midpoint of the raised 2026 guidance"}
+  ],
+  "forbidden": [
+    {"metric": "revenue", "note": "the call states no VICI revenue figure, so a revenue fact is a mislabel"},
+    {"metric": "eps", "note": "VICI reports AFFO per share, not EPS"},
+    {"kind": "reported", "value": 2.675e9, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "value": 2.695e9, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "value": 2.45, "note": "full-year guidance shown as a reported result"},
+    {"kind": "reported", "value": 2.47, "note": "full-year guidance shown as a reported result"},
+    {"kind": "guidance", "value": 0.62, "note": "0.62 is the reported second-quarter AFFO per share, not guidance"},
+    {"kind": "guidance", "metric": "total_debt", "note": "the debt balance is a reported figure, not guidance"}
+  ]
+}

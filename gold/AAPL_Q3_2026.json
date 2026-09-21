@@ -1,0 +1,42 @@
+{
+  "transcript": "data/transcripts/AAPL_Q3_2026.txt",
+  "notes": "Hand-written from the transcript text (CFO prepared remarks + outlook), not from extractor output.",
+  "expected": [
+    {"kind": "reported", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD", "value": 109.4e9, "change": {"value": 16, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "products", "stat": "level", "unit": "USD", "value": 78.7e9, "change": {"value": 18, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "services", "stat": "level", "unit": "USD", "value": 30.7e9, "change": {"value": 12, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "iphone", "stat": "level", "unit": "USD", "value": 54.3e9, "change": {"value": 22, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "mac", "stat": "level", "unit": "USD", "value": 10.4e9, "change": {"value": 29, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "ipad", "stat": "level", "unit": "USD", "value": 6.2e9, "change": {"value": -6, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "revenue", "segment": "wearables, home, and accessories", "stat": "level", "unit": "USD", "value": 7.9e9, "change": {"value": 6, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "gross_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 50.1, "change": {"value": 80, "unit": "bps", "basis": "qoq"}},
+    {"kind": "reported", "metric": "gross_margin", "segment": "products", "stat": "level", "unit": "pct", "value": 40.1, "change": {"value": 140, "unit": "bps", "basis": "qoq"}},
+    {"kind": "reported", "metric": "gross_margin", "segment": "services", "stat": "level", "unit": "pct", "value": 75.6, "change": {"value": -110, "unit": "bps", "basis": "qoq"}},
+    {"kind": "reported", "metric": "operating_expenses", "segment": "total", "stat": "level", "unit": "USD", "value": 19.1e9, "change": {"value": 23, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "net_income", "segment": "total", "stat": "level", "unit": "USD", "value": 29.8e9},
+    {"kind": "reported", "metric": "eps", "segment": "total", "stat": "level", "unit": "USD_per_share", "value": 2.02, "change": {"value": 29, "unit": "pct", "basis": "yoy"}},
+    {"kind": "reported", "metric": "operating_cash_flow", "segment": "total", "stat": "level", "unit": "USD", "value": 34.4e9},
+    {"kind": "reported", "metric": "cash_and_securities", "segment": "total", "stat": "level", "unit": "USD", "value": 147e9},
+    {"kind": "reported", "metric": "total_debt", "segment": "total", "stat": "level", "unit": "USD", "value": 84e9},
+    {"kind": "reported", "metric": "capital_returned", "segment": "total", "stat": "level", "unit": "USD", "value": 33e9},
+    {"kind": "reported", "metric": "dividends", "segment": "total", "stat": "level", "unit": "USD", "value": 4e9},
+    {"kind": "reported", "metric": "share_repurchases", "segment": "total", "stat": "level", "unit": "USD", "value": 25.8e9},
+    {"kind": "reported", "metric": "impact", "driver": "tariff refunds", "unit": "USD_per_share", "value": 0.11, "direction": "favorable"},
+    {"kind": "guidance", "metric": "revenue", "segment": "total", "stat": "growth", "unit": "pct", "value": 9, "value_high": 11, "period": "september quarter", "basis": "yoy"},
+    {"kind": "guidance", "metric": "revenue", "segment": "iphone", "stat": "growth", "period": "september quarter", "descriptor_contains": "mid-teens"},
+    {"kind": "guidance", "metric": "revenue", "segment": "services", "stat": "growth", "period": "september quarter", "descriptor_contains": "largely similar"},
+    {"kind": "guidance", "metric": "gross_margin", "segment": "total", "stat": "level", "unit": "pct", "value": 47, "value_high": 48, "period": "september quarter"},
+    {"kind": "guidance", "metric": "operating_expenses", "segment": "total", "stat": "level", "unit": "USD", "value": 19.1e9, "value_high": 19.4e9, "period": "september quarter"},
+    {"kind": "guidance", "metric": "oie", "segment": "total", "stat": "level", "unit": "USD", "value": 350e6, "period": "september quarter"},
+    {"kind": "guidance", "metric": "tax_rate", "segment": "total", "stat": "level", "unit": "pct", "value": 16.5, "period": "september quarter"},
+    {"kind": "guidance", "metric": "impact", "driver": "foreign exchange", "unit": "pp", "value": 2.5, "direction": "unfavorable", "period": "september quarter"},
+    {"kind": "guidance", "metric": "impact", "driver": "tariff refunds", "unit": "pp", "value": 1.0, "direction": "favorable", "period": "september quarter"},
+    {"kind": "declared", "metric": "dividends", "unit": "USD_per_share", "value": 0.27},
+    {"kind": "reported", "metric": "revenue", "segment": "iphone", "stat": "growth", "unit": "pct", "value": 22, "basis": "yoy"}
+  ],
+  "forbidden": [
+    {"metric": "revenue", "segment": "total", "stat": "level", "value": 108e9},
+    {"metric": "gross_margin", "segment": "total", "stat": "level", "value": 48, "period": "june quarter"},
+    {"metric": "revenue", "segment": "apple"}
+  ]
+}

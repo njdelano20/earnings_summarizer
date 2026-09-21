@@ -1,0 +1,66 @@
+{
+  "transcript": "data/raw/alphavantage/HESM_2026Q2.json",
+  "notes": "Hand-written 2026-09-21 by reading the Hess Midstream Q2 2026 call, before any snapshot output for it was opened. Node ids are the ones segments/HESM.json defines. Only gathering and processing have ledger facts (the sequential revenue changes); the rest, including throughput volumes, leverage and distributions, are demanded as commentary. No revenue growth rate is guided, so no trajectory rows are expected.",
+
+  "segments_with_facts": ["gathering", "processing"],
+  "segments_with_commentary": ["gathering", "processing", "terminaling", "water", "chevron", "shareholder_returns", "capital_program",
+                                "volumes", "opex_maintenance", "leverage_debt"],
+
+  "signals_expected": [
+    {"contains": "We completed planned maintenance at TGP on time and under budget", "direction": "positive", "segment": "processing"},
+    {"contains": "we continue to find efficiencies across our assets on both synergies and improved performance", "direction": "positive"},
+    {"contains": "Hess Midstream remains a leader in shareholder returns", "direction": "positive", "segment": "shareholder_returns"},
+    {"contains": "we reiterate our 2026 adjusted free cash flow guidance of $910 million to $960 million", "horizon": "forward", "revision": "maintained"},
+    {"contains": "Consistent with our annual guidance, we continue to expect volumes to grow in the second half of the year", "horizon": "forward", "direction": "positive", "segment": "volumes"},
+    {"contains": "throughput volumes were flat to lower on oil, but higher in gas", "segment": "volumes"},
+    {"contains": "We expect our capital spend to be higher in the third quarter", "horizon": "forward", "segment": "capital_program"},
+    {"contains": "was maintained at approximately 85%, above our 75% target, highlighting our continued strong operating leverage", "topic": "momentum", "direction": "positive"},
+    {"contains": "we expect net income to be approximately $165 million to $175 million", "horizon": "forward"},
+    {"contains": "We continue to expect second half volumes to be higher than the first half of the year", "horizon": "forward", "direction": "positive", "segment": "volumes"},
+    {"contains": "we continue to expect net income of between $650 million and $700 million", "horizon": "forward", "revision": "maintained"},
+    {"contains": "our cash position is strong and notable among our peer set", "topic": "competition", "direction": "positive"},
+    {"contains": "excess adjusted free cash flow of approximately $280 million after fully funding our targeted 5% annual distribution growth", "horizon": "forward", "segment": "shareholder_returns"},
+    {"contains": "at least 5% growth into the second half of the year", "horizon": "forward", "direction": "positive", "segment": "volumes"},
+
+    {"contains": "It is extraordinary that we are managing to keep a very healthy margin at 85% this quarter", "direction": "positive"},
+    {"contains": "we're comfortable in maintaining our 75% margin target", "stance": "confident"},
+    {"contains": "We're not intending to change our guidance just yet", "horizon": "forward", "revision": "maintained"},
+    {"contains": "That volume expectation of approximately 200,000 barrels of oil equivalent per day underpins our guidance going forward", "horizon": "forward", "segment": "chevron"},
+    {"contains": "I'd say it's still early days because we're only about a year into the merger and acquisition integration", "stance": "cautious", "segment": "chevron"},
+    {"contains": "We are continuing to see synergies from the acquisition coming through", "direction": "positive"},
+
+    {"contains": "right now we're around 3x leverage, and we expect that to go lower", "horizon": "forward", "segment": "leverage_debt"},
+    {"contains": "By 2028, we're expecting to get down in the region of about 2.5x", "horizon": "forward", "segment": "leverage_debt"},
+    {"contains": "in this quarter we paid down $87 million against the revolver", "segment": "leverage_debt"},
+    {"contains": "We will use some of the excess adjusted free cash flow to pay down debt as well as return capital to shareholders", "horizon": "forward", "segment": "shareholder_returns"},
+
+    {"contains": "It's going to be pretty much about weather and execution in the second half of the year", "segment": "opex_maintenance"},
+    {"contains": "If we get interrupted with weather or any of our maintenance costs become higher, that's going to be on the downside", "direction": "negative", "segment": "opex_maintenance"}
+  ],
+
+  "signals_forbidden": [
+    {"contains": "A reconciliation of the differences between these non-GAAP financial measures"},
+    {"contains": "Today's conference call contains projections and other forward-looking statements"},
+    {"contains": "Today, I will discuss our second quarter performance and outlook for the remainder of the year"},
+    {"contains": "Today, I will discuss our financial results for the second quarter of 2026"},
+    {"contains": "This concludes my remarks"},
+    {"contains": "I'm glad you noticed the strong performance on our margin"},
+    {"contains": "Thanks for the question. I can take that one"},
+    {"contains": "Thanks, Jennifer. Welcome, everyone"},
+    {"contains": "You hit 85%, which is well above your 75% target"}
+  ],
+
+  "trajectory_expected": [],
+
+  "must_surface": [
+    "we reiterate our 2026 adjusted free cash flow guidance of $910 million to $960 million",
+    "we expect net income to be approximately $165 million to $175 million",
+    "we continue to expect net income of between $650 million and $700 million",
+    "Consistent with our annual guidance, we continue to expect volumes to grow in the second half of the year",
+    "was maintained at approximately 85%, above our 75% target",
+    "right now we're around 3x leverage, and we expect that to go lower",
+    "We completed planned maintenance at TGP on time and under budget",
+    "excess adjusted free cash flow of approximately $280 million after fully funding our targeted 5% annual distribution growth",
+    "in this quarter we paid down $87 million against the revolver"
+  ]
+}

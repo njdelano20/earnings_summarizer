@@ -175,6 +175,31 @@
    "detail": "",
    "stem": "PLD_2026Q2",
    "processed": "2026-09-21T15:35:07"
+  },
+  "VZ": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "VZ_2026Q2",
+   "processed": "2026-09-21T15:35:10"
+  },
+  "MSFT": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q4",
+   "status": "ok",
+   "detail": "",
+   "stem": "MSFT_2026Q4",
+   "processed": "2026-09-21T15:35:13"
+  },
+  "NVDA": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2027Q2",
+   "status": "no_transcript",
+   "detail": "No transcript returned for NVDA 2027Q2."
   }
  }
 }

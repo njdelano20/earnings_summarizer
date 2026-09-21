@@ -1,0 +1,7637 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "MSFT",
+  "fiscal_quarter": 4,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q4",
+  "symbol": "MSFT",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q4",
+  "period_end": "2026-06",
+  "fye_month": 6,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jonathan Neilson",
+    "role": "ir"
+   },
+   {
+    "name": "Satya Nadella",
+    "role": "management"
+   },
+   {
+    "name": "Amy Hood",
+    "role": "management"
+   },
+   {
+    "name": "Karl Keirstead",
+    "role": "analyst"
+   },
+   {
+    "name": "Brent Thill",
+    "role": "analyst"
+   },
+   {
+    "name": "Mark Moerdler",
+    "role": "analyst"
+   },
+   {
+    "name": "Adam Wood",
+    "role": "analyst"
+   },
+   {
+    "name": "Brad Zelnick",
+    "role": "analyst"
+   },
+   {
+    "name": "Gabriela Borges",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Fourth Quarter",
+   "detail": "the call says 'Fourth Quarter', matching 2026Q4"
+  },
+  "reported_period_label": "q3",
+  "source_file": "MSFT_2026Q4.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $90B (+18%, +17% cc), q3",
+   "fact_ids": [
+    "MSFT_2026_4-006"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $4.74/sh (+23%)",
+   "fact_ids": [
+    "MSFT_2026_4-009"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Gross margin 67%",
+   "fact_ids": [
+    "MSFT_2026_4-011"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating margin 45%",
+   "fact_ids": [
+    "MSFT_2026_4-013"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $19.60B",
+   "fact_ids": [
+    "MSFT_2026_4-017"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $55.40B (+30%)",
+   "fact_ids": [
+    "MSFT_2026_4-016"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is decelerating: guided 10% to 13% vs 18% reported",
+   "fact_ids": [
+    "MSFT_2026_4-062",
+    "MSFT_2026_4-006"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.50",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 90000000000.0,
+    "fact_id": "MSFT_2026_4-006"
+   },
+   "growth": {
+    "value": 18.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-006",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": {
+    "value": 67.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-011",
+    "confidence": "high"
+   },
+   "outlook": {
+    "direction": "down",
+    "source": "MSFT_2026_4-062",
+    "delta_pp": -6.5,
+    "guided_lo": 10.0,
+    "guided_hi": 13.0,
+    "guided_descriptor": "low teens"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "annual",
+   "name": "Annual",
+   "depth": 0,
+   "revenue": {
+    "value": 331000000000.0,
+    "fact_id": "MSFT_2026_4-001"
+   },
+   "growth": {
+    "value": 18.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "postgresql",
+   "name": "Postgresql",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 55.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "copilot",
+   "name": "Copilot",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 17
+  },
+  {
+   "node": "outpaced",
+   "name": "Outpaced",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 21.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-005",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "commercial",
+   "name": "Commercial",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 37.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-023",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 15
+  },
+  {
+   "node": "microsoft_cloud",
+   "name": "Microsoft Cloud",
+   "depth": 0,
+   "revenue": {
+    "value": 59300000000.0,
+    "fact_id": "MSFT_2026_4-024"
+   },
+   "growth": {
+    "value": 27.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-024",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": {
+    "value": 65.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-026",
+    "confidence": "high"
+   },
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "cloud",
+   "name": "Cloud",
+   "depth": 0,
+   "revenue": {
+    "value": 214000000000.0,
+    "fact_id": "MSFT_2026_4-025"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "MSFT_2026_4-S124",
+    "delta_pp": null,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid-single digits"
+   },
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 19
+  },
+  {
+   "node": "m365_commercial_cloud",
+   "name": "M365 Commercial Cloud",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "MSFT_2026_4-S116",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "m365_commercial_products",
+   "name": "M365 Commercial Products",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 19.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-029",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "MSFT_2026_4-S101",
+    "delta_pp": -14.0,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid-single digits"
+   },
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "m365_consumer_cloud",
+   "name": "M365 Consumer Cloud",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 24.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-030",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "MSFT_2026_4-S118",
+    "delta_pp": -9.0,
+    "guided_lo": 14.0,
+    "guided_hi": 16.0,
+    "guided_descriptor": "mid-teens"
+   },
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "linkedin",
+   "name": "Linkedin",
+   "depth": 0,
+   "revenue": {
+    "value": 39300000000.0,
+    "fact_id": "MSFT_2026_4-042"
+   },
+   "growth": {
+    "value": 32.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-042",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "MSFT_2026_4-061",
+    "delta_pp": -24.0,
+    "guided_lo": 7.0,
+    "guided_hi": 9.0,
+    "guided_descriptor": "high single digits"
+   },
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "constant_currency",
+   "name": "Constant Currency",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 16
+  },
+  {
+   "node": "azure_and_other_cloud_services",
+   "name": "Azure And Other Cloud Services",
+   "depth": 0,
+   "revenue": {
+    "value": 12900000000.0,
+    "fact_id": "MSFT_2026_4-048"
+   },
+   "growth": {
+    "value": 43.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-043",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "windows_oem_and_devices",
+   "name": "Windows Oem And Devices",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -11.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-051",
+    "basis": "yoy",
+    "currency_basis": "constant",
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "xbox_content_and_services",
+   "name": "Xbox Content And Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -10.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-052",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "MSFT_2026_4-S129",
+    "delta_pp": 15.0,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid-single digits"
+   },
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "azure",
+   "name": "Azure",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 12
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "MSFT_2026_4-006",
+   "MSFT_2026_4-007",
+   "MSFT_2026_4-011",
+   "MSFT_2026_4-008",
+   "MSFT_2026_4-013",
+   "MSFT_2026_4-055",
+   "MSFT_2026_4-009",
+   "MSFT_2026_4-010",
+   "MSFT_2026_4-017",
+   "MSFT_2026_4-016",
+   "MSFT_2026_4-018",
+   "MSFT_2026_4-019",
+   "MSFT_2026_4-014",
+   "MSFT_2026_4-015",
+   "MSFT_2026_4-059",
+   "MSFT_2026_4-062",
+   "MSFT_2026_4-064",
+   "MSFT_2026_4-065",
+   "MSFT_2026_4-060",
+   "MSFT_2026_4-066",
+   "MSFT_2026_4-067"
+  ],
+  "signal_ids": [
+   "MSFT_2026_4-S004",
+   "MSFT_2026_4-S010",
+   "MSFT_2026_4-S019",
+   "MSFT_2026_4-S040",
+   "MSFT_2026_4-S041",
+   "MSFT_2026_4-S045",
+   "MSFT_2026_4-S058",
+   "MSFT_2026_4-S059",
+   "MSFT_2026_4-S100",
+   "MSFT_2026_4-S103",
+   "MSFT_2026_4-S104",
+   "MSFT_2026_4-S123",
+   "MSFT_2026_4-S125",
+   "MSFT_2026_4-S140",
+   "MSFT_2026_4-S154"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "annual",
+   "name": "Annual",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-001"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S002"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "postgresql",
+   "name": "Postgresql",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-002"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S012",
+    "MSFT_2026_4-S013",
+    "MSFT_2026_4-S014",
+    "MSFT_2026_4-S016"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "copilot",
+   "name": "Copilot",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-003"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S020",
+    "MSFT_2026_4-S022",
+    "MSFT_2026_4-S031",
+    "MSFT_2026_4-S038",
+    "MSFT_2026_4-S089",
+    "MSFT_2026_4-S115"
+   ],
+   "n_home_signals": 16,
+   "n_mentions": 17,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "outpaced",
+   "name": "Outpaced",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-005"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S049"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "commercial",
+   "name": "Commercial",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-023",
+    "MSFT_2026_4-022"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S062",
+    "MSFT_2026_4-S064",
+    "MSFT_2026_4-S065",
+    "MSFT_2026_4-S072",
+    "MSFT_2026_4-S105",
+    "MSFT_2026_4-S112",
+    "MSFT_2026_4-S131"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 15,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "microsoft_cloud",
+   "name": "Microsoft Cloud",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-024",
+    "MSFT_2026_4-026"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S003",
+    "MSFT_2026_4-S066",
+    "MSFT_2026_4-S068"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "cloud",
+   "name": "Cloud",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-025"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S006",
+    "MSFT_2026_4-S007",
+    "MSFT_2026_4-S008",
+    "MSFT_2026_4-S060",
+    "MSFT_2026_4-S111",
+    "MSFT_2026_4-S124"
+   ],
+   "n_home_signals": 9,
+   "n_mentions": 19,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": [
+    "cloud:revenue"
+   ]
+  },
+  {
+   "id": "m365_commercial_cloud",
+   "name": "M365 Commercial Cloud",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "MSFT_2026_4-S070",
+    "MSFT_2026_4-S116"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": [
+    "m365_commercial_cloud:revenue"
+   ]
+  },
+  {
+   "id": "m365_commercial_products",
+   "name": "M365 Commercial Products",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-029"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S073",
+    "MSFT_2026_4-S101",
+    "MSFT_2026_4-S117"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": [
+    "m365_commercial_products:revenue"
+   ]
+  },
+  {
+   "id": "m365_consumer_cloud",
+   "name": "M365 Consumer Cloud",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-030",
+    "MSFT_2026_4-031"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S074",
+    "MSFT_2026_4-S118"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": [
+    "m365_consumer_cloud:revenue"
+   ]
+  },
+  {
+   "id": "linkedin",
+   "name": "Linkedin",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-042",
+    "MSFT_2026_4-036",
+    "MSFT_2026_4-037",
+    "MSFT_2026_4-039",
+    "MSFT_2026_4-040",
+    "MSFT_2026_4-061"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S046",
+    "MSFT_2026_4-S076",
+    "MSFT_2026_4-S119"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": [
+    "linkedin:revenue"
+   ]
+  },
+  {
+   "id": "constant_currency",
+   "name": "Constant Currency",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "MSFT_2026_4-S063",
+    "MSFT_2026_4-S079",
+    "MSFT_2026_4-S087",
+    "MSFT_2026_4-S094",
+    "MSFT_2026_4-S098"
+   ],
+   "n_home_signals": 12,
+   "n_mentions": 16,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "azure_and_other_cloud_services",
+   "name": "Azure And Other Cloud Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-043",
+    "MSFT_2026_4-044",
+    "MSFT_2026_4-048",
+    "MSFT_2026_4-045",
+    "MSFT_2026_4-046",
+    "MSFT_2026_4-047"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S083",
+    "MSFT_2026_4-S091"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "windows_oem_and_devices",
+   "name": "Windows Oem And Devices",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-051"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S093",
+    "MSFT_2026_4-S102",
+    "MSFT_2026_4-S126",
+    "MSFT_2026_4-S127"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "xbox_content_and_services",
+   "name": "Xbox Content And Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-052",
+    "MSFT_2026_4-053",
+    "MSFT_2026_4-056",
+    "MSFT_2026_4-057"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S096",
+    "MSFT_2026_4-S097",
+    "MSFT_2026_4-S129"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": [
+    "xbox_content_and_services:revenue"
+   ]
+  },
+  {
+   "id": "azure",
+   "name": "Azure",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MSFT_2026_4-063"
+   ],
+   "signal_ids": [
+    "MSFT_2026_4-S088",
+    "MSFT_2026_4-S122",
+    "MSFT_2026_4-S139",
+    "MSFT_2026_4-S158"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 12,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 18.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-006",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 10.0,
+    "hi": 13.0,
+    "descriptor": "low teens",
+    "period": "first quarter",
+    "source": "ledger",
+    "id": "MSFT_2026_4-062",
+    "direction_word": null,
+    "text": "low teens",
+    "confidence": "high"
+   },
+   "direction": "down",
+   "delta_pp": -6.5,
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "key": "cloud:revenue",
+   "node": "cloud",
+   "name": "Cloud",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid-single digits",
+    "period": null,
+    "source": "signal_text",
+    "id": "MSFT_2026_4-S124",
+    "direction_word": "down",
+    "text": "In our on-premises server business, we expect revenue to decline in the low to mid-single digits with ongoing customer shift to cloud offerings and the prior year comparable noted earlier.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  },
+  {
+   "key": "m365_commercial_cloud:revenue",
+   "node": "m365_commercial_cloud",
+   "name": "M365 Commercial Cloud",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "MSFT_2026_4-S116",
+    "direction_word": "up",
+    "text": "With the premium SKU momentum and the increased monetization opportunity from adding usage-based billing products alongside per-seat licensing in July, we expect to see acceleration in M365 Commercial cloud revenue growth through this fiscal year.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  },
+  {
+   "key": "m365_commercial_products:revenue",
+   "node": "m365_commercial_products",
+   "name": "M365 Commercial Products",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 19.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-029",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid-single digits",
+    "period": null,
+    "source": "signal_text",
+    "id": "MSFT_2026_4-S101",
+    "direction_word": "down",
+    "text": "In both M365 Commercial products and Server products KPIs, we are lapping higher transactional purchasing from the timing of product launches and expect revenue from both to decline in the mid-single digits for the full fiscal year.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -14.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "m365_consumer_cloud:revenue",
+   "node": "m365_consumer_cloud",
+   "name": "M365 Consumer Cloud",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 24.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-030",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 14.0,
+    "hi": 16.0,
+    "descriptor": "mid-teens",
+    "period": null,
+    "source": "signal_text",
+    "id": "MSFT_2026_4-S118",
+    "direction_word": null,
+    "text": "M365 consumer cloud revenue should grow in the mid-teens, down sequentially as we lapped the benefit from last year's price increase.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -9.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "linkedin:revenue",
+   "node": "linkedin",
+   "name": "Linkedin",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 32.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-042",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "guided": {
+    "lo": 7.0,
+    "hi": 9.0,
+    "descriptor": "high single digits",
+    "period": "first quarter",
+    "source": "ledger",
+    "id": "MSFT_2026_4-061",
+    "direction_word": null,
+    "text": "high single digits",
+    "confidence": "high"
+   },
+   "direction": "down",
+   "delta_pp": -24.0,
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "key": "xbox_content_and_services:revenue",
+   "node": "xbox_content_and_services",
+   "name": "Xbox Content And Services",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": -10.0,
+    "period": "q3",
+    "fact_id": "MSFT_2026_4-052",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid-single digits",
+    "period": null,
+    "source": "signal_text",
+    "id": "MSFT_2026_4-S129",
+    "direction_word": "down",
+    "text": "And in Xbox content and services, we expect revenue to decline in the mid-single digits.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": 15.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 3,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 6,
+    "cautious": 2,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.5
+   }
+  },
+  "speakers": {
+   "Satya Nadella": {
+    "confident": 5,
+    "cautious": 1
+   },
+   "Amy Hood": {
+    "confident": 4,
+    "cautious": 1
+   }
+  },
+  "notable_confident": [
+   "MSFT_2026_4-S047",
+   "MSFT_2026_4-S157",
+   "MSFT_2026_4-S153",
+   "MSFT_2026_4-S022"
+  ],
+  "notable_cautious": [
+   "MSFT_2026_4-S149",
+   "MSFT_2026_4-S138"
+  ],
+  "withheld": [],
+  "revisions": [
+   "MSFT_2026_4-S087",
+   "MSFT_2026_4-S091",
+   "MSFT_2026_4-S100",
+   "MSFT_2026_4-S104",
+   "MSFT_2026_4-S105",
+   "MSFT_2026_4-S123"
+  ]
+ },
+ "signals": [
+  {
+   "id": "MSFT_2026_4-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "It was a very strong close to what was a record fiscal year for us.",
+   "ev_start": 2939,
+   "ev_end": 3006,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "annual"
+   ],
+   "home": "annual",
+   "fact_ids": [
+    "MSFT_2026_4-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "surpassed",
+     "up 18"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Overall, our annual revenue surpassed $331 billion, up 18%.",
+   "ev_start": 3007,
+   "ev_end": 3066,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "microsoft_cloud",
+    "cloud",
+    "azure"
+   ],
+   "home": "microsoft_cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "surpassed",
+     "up 27",
+     "up 41"
+    ],
+    "performance": []
+   },
+   "score": 3.86,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Microsoft Cloud surpassed $214 billion, up 27%, and Azure surpassed $100 billion, up 41%.",
+   "ev_start": 3067,
+   "ev_end": 3156,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "expand"
+    ],
+    "performance": [
+     "accelerating",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We added 31 new data centers across five continents this quarter, bringing the total to 88 this year as we expand our footprint in response to accelerating demand.",
+   "ev_start": 3527,
+   "ev_end": 3690,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "AI sovereignty is increasingly top of mind for our customers, and we are expanding our offerings to meet that need.",
+   "ev_start": 4209,
+   "ev_end": 4324,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S006",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced",
+     "partnership"
+    ]
+   },
+   "score": 4.14,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "Just last week, we announced a partnership with Mistral to bring its models to Microsoft Sovereign Cloud, enabling customers to run them across public, customer-controlled, and fully disconnected environments.",
+   "ev_start": 4325,
+   "ev_end": 4534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S007",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "We also continue to modernize our fleet with our own silicon innovation alongside the latest from NVIDIA and AMD.",
+   "ev_start": 4535,
+   "ev_end": 4648,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S008",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "deploy",
+     "next-generation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "And we will be among the first cloud providers to deploy next-generation rack-scale AI infrastructure based on AMD Helios and NVIDIA Vera Rubin.",
+   "ev_start": 4823,
+   "ev_end": 4967,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "We are also accelerating our own model development.",
+   "ev_start": 6067,
+   "ev_end": 6118,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced",
+     "new models",
+     "use cases"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "We announced more than a dozen new models across image, voice, transcription, coding, security, including our first reasoning model MAI-Thinking-1, all with cost-efficient inference at the core for the enterprise use cases.",
+   "ev_start": 6119,
+   "ev_end": 6342,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S011",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new model system"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "But more importantly, we are building a new model system where the harness, context, memory, and action space are separate from any one model family, thereby moving the frontier on the cost-to-outcome curve.",
+   "ev_start": 6481,
+   "ev_end": 6688,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "postgresql"
+   ],
+   "home": "postgresql",
+   "fact_ids": [
+    "MSFT_2026_4-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "up 55"
+    ],
+    "performance": [
+     "revenue",
+     "accelerating"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "PostgreSQL revenue was up 55%, accelerating for the third consecutive quarter.",
+   "ev_start": 8074,
+   "ev_end": 8152,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "postgresql"
+   ],
+   "home": "postgresql",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 80"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Also, the number of PostgreSQL customers also using Foundry increased 80% as customers increasingly choose it as their database for AI workloads.",
+   "ev_start": 8153,
+   "ev_end": 8298,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "postgresql",
+    "azure"
+   ],
+   "home": "postgresql",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "And we are going further with HorizonDB, our new fully managed PostgreSQL service on Azure, which delivers 3x the throughput of self-managed deployments.",
+   "ev_start": 8299,
+   "ev_end": 8452,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 60"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "When it comes to analytics, we now have over 40,000 paid Fabric customers, up more than 60% year-over-year, and over 17,000 customers now use Foundry and Fabric, up 60% year-over-year as enterprises connect agents to real-time operational, analytical, and unstructured data in Fabric.",
+   "ev_start": 8453,
+   "ev_end": 8737,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S016",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "postgresql"
+   ],
+   "home": "postgresql",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "This quarter, we also introduced Rayfin, the agent-first SDK that delivers a backend as a service for building apps on Fabric.",
+   "ev_start": 8738,
+   "ev_end": 8864,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "And this quarter, we introduced Web IQ, which gives agents access to real-world intelligence from across the web.",
+   "ev_start": 9296,
+   "ev_end": 9409,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "popular"
+    ],
+    "product": [
+     "popular"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "It is already being used by the most popular AI assistants, including ChatGPT.",
+   "ev_start": 9410,
+   "ev_end": 9488,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled"
+    ],
+    "performance": [
+     "customers",
+     "revenue"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "We now have 100,000 Foundry customers and revenue more than doubled year-over-year.",
+   "ev_start": 9766,
+   "ev_end": 9849,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubling"
+    ],
+    "performance": []
+   },
+   "score": 3.76,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "When it comes to knowledge work, we now have over 30 million paid Microsoft 365 Copilot seats, with net seat adds more than doubling quarter-over-quarter.",
+   "ev_start": 10525,
+   "ev_end": 10679,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "This quarter, we also introduced Autopilots, autonomous, long-running agents with full enterprise compliance, including an always-on personal agent powered by OpenClaw.",
+   "ev_start": 10926,
+   "ev_end": 11094,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "feedback"
+    ],
+    "confident": [
+     "delighted"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "More broadly, we have steadily been improving the quality and performance of Copilot, and have been delighted by the recent customer feedback.",
+   "ev_start": 11320,
+   "ev_end": 11462,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled",
+     "all-time high"
+    ],
+    "performance": [
+     "all-time"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "Over the last three quarters, user satisfaction scores have doubled and are now at an all-time high.",
+   "ev_start": 11463,
+   "ev_end": 11563,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S024",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "improvements"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "These quality improvements, together with continued product innovation, are driving record usage intensity.",
+   "ev_start": 11611,
+   "ev_end": 11718,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "And the time from deployment to what we think of as high usage, meaning monthly active usage about 80% across a customer's user base, has fallen from months to just days over the past year.",
+   "ev_start": 11847,
+   "ev_end": 12036,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S026",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "product": [
+     "deploying"
+    ],
+    "performance": [
+     "customers",
+     "grew"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "The number of customers with more than 50,000 seats increased over 7x year-over-year, and the number of enterprise customers deploying Copilot to the majority of their information workers grew nearly 75% quarter-over-quarter, a signal of how central Copilot has become to their operations.",
+   "ev_start": 12037,
+   "ev_end": 12326,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S027",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rolling out",
+     "deployment"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "NHS England, for example, is rolling out Copilot to 505,000 clinicians and staff, the largest health care deployment of its kind after a trial showed it saved employees an average of 43 minutes per day.",
+   "ev_start": 12327,
+   "ev_end": 12529,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S028",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "KPMG is expanding its deployment across its global workforce of more than 276,000 professionals.",
+   "ev_start": 12530,
+   "ev_end": 12626,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 76,
+   "sentence": "And HSBC committed to 200,000 seats to accelerate its workforce transformation.",
+   "ev_start": 12627,
+   "ev_end": 12706,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S030",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "And we have been encouraged by the response to our new E7 suite, as customers increasingly go all in on an integrated AI offering that brings together Copilot, E5, Entra, and Agent 365.",
+   "ev_start": 12900,
+   "ev_end": 13085,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S031",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Just two months after launch, hundreds of enterprise customers have already purchased millions of seats.",
+   "ev_start": 13086,
+   "ev_end": 13190,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "And this quarter, EY deployed E7 to 400,000 employees in our largest win to date.",
+   "ev_start": 13191,
+   "ev_end": 13272,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced",
+     "new model"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "This quarter, we introduced usage-based billing and have continued to see business and enterprise seat growth and also significant consumption revenue after the new model went into effect.",
+   "ev_start": 14300,
+   "ev_end": 14488,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [
+    "MSFT_2026_4-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "revenue",
+     "accelerated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 89,
+   "sentence": "Copilot revenue accelerated over 60% quarter-over-quarter.",
+   "ev_start": 14489,
+   "ev_end": 14547,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S035",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 93,
+   "sentence": "In security, we are helping customers both secure their AI deployments and use AI to strengthen their security posture.",
+   "ev_start": 14868,
+   "ev_end": 14987,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S036",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 95,
+   "sentence": "And earlier this week, we introduced Project Perception, a complete multimodal agentic security system that brings together teams of agents to simulate attacks, investigate threats, and drive remediation.",
+   "ev_start": 15117,
+   "ev_end": 15321,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S037",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 96,
+   "sentence": "As Perception moves beyond private preview, we expect to bring it to customers through a consumption-based offering.",
+   "ev_start": 15322,
+   "ev_end": 15438,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S038",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "product": [
+     "rolled out"
+    ]
+   },
+   "score": 5.48,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 98,
+   "sentence": "Mass General Brigham rolled out Dragon Copilot to over 4,000 providers, and after a study found ambient AI reduced burnout by 21%.",
+   "ev_start": 15595,
+   "ev_end": 15725,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "customers"
+    ],
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 103,
+   "sentence": "And therefore, there is a tremendous opportunity to turn customers' workflows, domain knowledge, and accumulated judgment into AI systems that learn and improve with every usage.",
+   "ev_start": 16215,
+   "ev_end": 16393,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S040",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.78,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 104,
+   "sentence": "To help customers capture that opportunity, this month we launched Microsoft Frontier Co., the largest outcome-driven engineering organization in the industry.",
+   "ev_start": 16394,
+   "ev_end": 16553,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S041",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "embed",
+     "innovate"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 105,
+   "sentence": "We will embed 6,000 industry and engineering experts with customers to co-design, co-innovate, and continuously improve AI systems at scale.",
+   "ev_start": 16554,
+   "ev_end": 16694,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnered",
+     "embed"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 108,
+   "sentence": "And we partnered with a leading financial data provider to embed AI into their workspace, helping finance professionals ask complex questions and quickly find answers across structured and unstructured financial content.",
+   "ev_start": 17016,
+   "ev_end": 17236,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 111,
+   "sentence": "We have the best IP in the industry and talented studios around the world, and believe we can bring these strengths together and expect to return the business to growth in fiscal 2027.",
+   "ev_start": 17455,
+   "ev_end": 17639,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S044",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 112,
+   "sentence": "In Windows, we are investing to ensure that it has the best quality and fundamentals while also ensuring it's the best place to run secure edge AI.",
+   "ev_start": 17640,
+   "ev_end": 17787,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S045",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "taken share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 114,
+   "sentence": "In search and advertising, Bing and Edge have both taken share for five straight years.",
+   "ev_start": 17950,
+   "ev_end": 18037,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "linkedin"
+   ],
+   "home": "linkedin",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 115,
+   "sentence": "And LinkedIn continues to see strong engagement across the platform with double-digit member growth for the fifth consecutive year.",
+   "ev_start": 18038,
+   "ev_end": 18169,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S047",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "never been more confident"
+    ],
+    "confident": [
+     "never been more",
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 119,
+   "sentence": "I've never been more confident in Microsoft's opportunity to drive durable long-term growth and ensure the benefits of AI flow broadly.",
+   "ev_start": 18397,
+   "ev_end": 18532,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure"
+   ],
+   "home": "azure",
+   "fact_ids": [
+    "MSFT_2026_4-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "strong",
+     "with growth"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "accelerating",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "This fiscal year, we delivered over $331 billion in revenue, with growth accelerating to 18%, driven by strong demand across both the Azure platform and our first-party AI applications and services.",
+   "ev_start": 18681,
+   "ev_end": 18879,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S049",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "outpaced"
+   ],
+   "home": "outpaced",
+   "fact_ids": [
+    "MSFT_2026_4-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increasing 21",
+     "expand"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Operating income growth outpaced revenue growth, increasing 21% to more than $155 billion as we invested in long-term growth while continuing to expand operating leverage.",
+   "ev_start": 18880,
+   "ev_end": 19051,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 18"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "This quarter, revenue was $90 billion, up 18% and 17% in constant currency.",
+   "ev_start": 19052,
+   "ev_end": 19127,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-007",
+    "MSFT_2026_4-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 15",
+     "increased 18"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "Gross margin dollars increased 15% and operating income increased 18%.",
+   "ev_start": 19128,
+   "ev_end": 19198,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S052",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-009"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Earnings per share was $4.74, an increase of 23% when adjusted for the impact from our investment in OpenAI.",
+   "ev_start": 19199,
+   "ev_end": 19307,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S053",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "These included a $3.2 billion gain from our investment in Anthropic and lower-than-expected expenses related to the Voluntary Retirement Program, which were partially offset by severance expense and impairment charges in Xbox.",
+   "ev_start": 19565,
+   "ev_end": 19791,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded",
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "earnings",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "When adjusting for these items, we exceeded expectations across revenue, operating income, and earnings per share due to strong demand and execution in the quarter.",
+   "ev_start": 19792,
+   "ev_end": 19956,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S055",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure",
+    "m365_commercial_cloud",
+    "commercial",
+    "cloud"
+   ],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "margin",
+     "sales",
+     "growing"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Company gross margin percentage was 67%, down year-over-year, driven by sales mix shift to Azure as well as continued investments in AI infrastructure and growing product usage, partially offset by ongoing efficiency gains, particularly in Azure and M365 Commercial cloud.",
+   "ev_start": 19957,
+   "ev_end": 20229,
+   "confidence": "high",
+   "flags": [
+    "company_total_figure"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S056",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-012"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment",
+     "r&d"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "Operating expenses increased 10%, driven by continued investment in R&D compute capacity, talent, and data to support product development across the portfolio.",
+   "ev_start": 20230,
+   "ev_end": 20389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "G&A growth was impacted by a low prior-year comparable as well as some of the discrete items mentioned earlier.",
+   "ev_start": 20390,
+   "ev_end": 20501,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Total company head count declined 2% year-over-year.",
+   "ev_start": 20562,
+   "ev_end": 20614,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S059",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-014"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments",
+     "investment"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "When adjusted for the impact of our investments in OpenAI, other income and expense was $2.8 billion, driven by the gain on investment in Anthropic noted earlier.",
+   "ev_start": 20615,
+   "ev_end": 20777,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [
+    "MSFT_2026_4-016"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 30"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Cash flow from operations was $55.4 billion, up 30%, driven by strong cloud billings and collections, partially offset by an increase in operating lease payments.",
+   "ev_start": 21257,
+   "ev_end": 21419,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S061",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-018",
+    "MSFT_2026_4-019"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "And finally, we returned $10.2 billion to shareholders through dividends and share repurchases, bringing our total cash return to shareholders to over $43 billion for the full fiscal year.",
+   "ev_start": 21498,
+   "ev_end": 21686,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [
+    "MSFT_2026_4-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "bookings",
+     "grew",
+     "sales",
+     "demand"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Commercial bookings grew 18% when excluding the impact from OpenAI, driven by strong execution in our core annuity sales motions and reflecting broad customer demand across geographies and customer segments.",
+   "ev_start": 21718,
+   "ev_end": 21925,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "azure",
+    "commercial"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-021",
+    "MSFT_2026_4-022"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 10"
+    ],
+    "performance": [
+     "bookings"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Bookings increased 10% and 11% in constant currency when including Azure commitments from OpenAI.",
+   "ev_start": 21926,
+   "ev_end": 22023,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "Commercial remaining performance obligation grew 84% to $678 billion.",
+   "ev_start": 22024,
+   "ev_end": 22093,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [
+    "MSFT_2026_4-023"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 37"
+    ],
+    "forward": [
+     "in the next"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "RPO, including OpenAI, has a weighted average duration of 2.3 years and roughly 30% will be recognized in revenue in the next 12 months, up 37% year-over-year.",
+   "ev_start": 22254,
+   "ev_end": 22413,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "microsoft_cloud",
+    "cloud",
+    "azure"
+   ],
+   "home": "microsoft_cloud",
+   "fact_ids": [
+    "MSFT_2026_4-024"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "demand"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Microsoft Cloud revenue was $59.3 billion and grew 27%, reflecting strong demand across Azure and our first-party AI applications and services.",
+   "ev_start": 22489,
+   "ev_end": 22632,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [
+    "MSFT_2026_4-025"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "surpassed"
+    ],
+    "forward": [
+     "for the full year"
+    ],
+    "performance": [
+     "revenue",
+     "customers"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "And for the full year, our cloud revenue surpassed $214 billion, with nearly 90% from customers outside of frontier model companies.",
+   "ev_start": 22633,
+   "ev_end": 22765,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S068",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "microsoft_cloud",
+    "cloud",
+    "azure"
+   ],
+   "home": "microsoft_cloud",
+   "fact_ids": [
+    "MSFT_2026_4-026"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "margin",
+     "sales"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "Microsoft Cloud gross margin percentage was better than expected at 65% and down year-over-year, driven by sales mix shift to Azure as well as continued investments in AI infrastructure and increased product usage, partially offset by ongoing efficiency gains noted earlier.",
+   "ev_start": 22766,
+   "ev_end": 23040,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Revenue from Productivity and Business Processes was $37.8 billion and grew 14%.",
+   "ev_start": 23069,
+   "ev_end": 23149,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_commercial_cloud",
+    "commercial",
+    "cloud"
+   ],
+   "home": "m365_commercial_cloud",
+   "fact_ids": [
+    "MSFT_2026_4-027"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 16"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "M365 Commercial cloud revenue increased 16% on an adjusted basis when normalized for the prior year comparable that benefited from two points of in-period revenue recognition.",
+   "ev_start": 23150,
+   "ev_end": 23325,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "doubled"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "Building on our Copilot momentum from Q3, net paid seat adds more than doubled sequentially, with paid seats now over 30 million.",
+   "ev_start": 23375,
+   "ev_end": 23504,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S072",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "expansion"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "grew",
+     "installed base"
+    ]
+   },
+   "score": 4.86,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "And paid M365 Commercial seats grew 6% year-over-year, with installed base expansion across all customer segments, though primarily in our small and medium business and frontline worker offerings.",
+   "ev_start": 23604,
+   "ev_end": 23800,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_commercial_products",
+    "commercial"
+   ],
+   "home": "m365_commercial_products",
+   "fact_ids": [
+    "MSFT_2026_4-029"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 19"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "M365 Commercial products revenue increased 19% ahead of expectations, driven by large long-duration M365 contracts that resulted in higher in-period revenue recognition from the Windows Commercial on-premises component.",
+   "ev_start": 23801,
+   "ev_end": 24020,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_consumer_cloud",
+    "cloud",
+    "constant_currency"
+   ],
+   "home": "m365_consumer_cloud",
+   "fact_ids": [
+    "MSFT_2026_4-030",
+    "MSFT_2026_4-031"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 24"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "M365 consumer cloud revenue increased 24% and 22% in constant currency, again driven by ARPU growth.",
+   "ev_start": 24021,
+   "ev_end": 24121,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.44,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "And M365 consumer subscriptions grew 7%.",
+   "ev_start": 24122,
+   "ev_end": 24162,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "linkedin",
+    "constant_currency"
+   ],
+   "home": "linkedin",
+   "fact_ids": [
+    "MSFT_2026_4-032",
+    "MSFT_2026_4-033"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 12"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "LinkedIn revenue increased 12% and 10% in constant currency, primarily driven by Marketing Solutions.",
+   "ev_start": 24163,
+   "ev_end": 24264,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-034",
+    "MSFT_2026_4-035"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 13"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "Dynamics 365 revenue increased 13% and 12% in constant currency against a strong prior year comparable.",
+   "ev_start": 24265,
+   "ev_end": 24368,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "bookings",
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "Bookings growth in ERP remains healthy, while CRM continued to moderate with longer sales cycles.",
+   "ev_start": 24369,
+   "ev_end": 24466,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S079",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "copilot",
+    "linkedin"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-036",
+    "MSFT_2026_4-037"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 14"
+    ],
+    "negative": [
+     "decreased"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "margin",
+     "decreased"
+    ]
+   },
+   "score": 4.92,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "Segment gross margin dollars increased 14% and 13% in constant currency, and gross margin percentage decreased slightly with increased M365 Copilot usage as we continue to invest in product quality and drive further efficiency gains.",
+   "ev_start": 24467,
+   "ev_end": 24700,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S080",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-038"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d",
+     "investments"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Operating expenses increased 11%, primarily driven by the shared R&D investments mentioned earlier.",
+   "ev_start": 24701,
+   "ev_end": 24800,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S081",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "linkedin"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-039",
+    "MSFT_2026_4-040",
+    "MSFT_2026_4-041"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 15"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "Operating income increased 15% and 14% in constant currency, and operating margins increased year-over-year to 58%.",
+   "ev_start": 24801,
+   "ev_end": 24916,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "linkedin"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-042"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Revenue was $39.3 billion and grew 32% and 31% in constant currency.",
+   "ev_start": 24954,
+   "ev_end": 25022,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure_and_other_cloud_services",
+    "azure",
+    "cloud"
+   ],
+   "home": "azure_and_other_cloud_services",
+   "fact_ids": [
+    "MSFT_2026_4-043"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "In Azure and other cloud services, revenue grew 43% against a prior year that included accelerating growth.",
+   "ev_start": 25023,
+   "ev_end": 25130,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "Customer demand continues to exceed available capacity.",
+   "ev_start": 25131,
+   "ev_end": 25186,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "Revenue growth was ahead of expectations, driven by efficiency gains across our CPU and GPU fleet as well as process improvements to enable earlier delivery of new capacity.",
+   "ev_start": 25187,
+   "ev_end": 25360,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": []
+   },
+   "score": 2.98,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "Results also benefited from stronger-than-expected GitHub Copilot consumption following the June business model change to align pricing with usage and value.",
+   "ev_start": 25430,
+   "ev_end": 25587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "constant_currency",
+    "azure_and_other_cloud_services"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-044"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": [
+     "revenue"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "In our on-premises server business, revenue was relatively unchanged year-over-year and was down 1% in constant currency.",
+   "ev_start": 25588,
+   "ev_end": 25709,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure",
+    "azure_and_other_cloud_services"
+   ],
+   "home": "azure",
+   "fact_ids": [
+    "MSFT_2026_4-045"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 24",
+     "growing"
+    ],
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "margin",
+     "decreased",
+     "sales",
+     "growing",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Segment gross margin dollars increased 24% and gross margin percentage decreased year-over-year, primarily driven by sales mix shift to Azure as well as the continued scaling of our AI infrastructure ahead of growing demand, partially offset by ongoing efficiency gains in Azure.",
+   "ev_start": 25844,
+   "ev_end": 26123,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "improved"
+    ],
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Segment gross margins were also impacted by growing GitHub Copilot usage, though margins improved through the quarter with the June business model change to usage-based pricing.",
+   "ev_start": 26124,
+   "ev_end": 26301,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d",
+     "investments"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 62,
+   "sentence": "Operating expenses increased 10%, driven by the shared R&D investments noted earlier.",
+   "ev_start": 26302,
+   "ev_end": 26387,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S091",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "azure_and_other_cloud_services"
+   ],
+   "home": "azure_and_other_cloud_services",
+   "fact_ids": [
+    "MSFT_2026_4-046",
+    "MSFT_2026_4-047"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "grew"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "Operating income grew 31% and operating margins, with a strong focus on efficiencies and investment returns, were relatively unchanged year-over-year at 41%.",
+   "ev_start": 26388,
+   "ev_end": 26545,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "azure_and_other_cloud_services"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-048"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "revenue",
+     "declined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "Revenue was $12.9 billion and declined 4% and 5% in constant currency.",
+   "ev_start": 26578,
+   "ev_end": 26648,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S093",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "windows_oem_and_devices"
+   ],
+   "home": "windows_oem_and_devices",
+   "fact_ids": [
+    "MSFT_2026_4-049"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "pressure": [
+     "lower pc market demand"
+    ],
+    "performance": [
+     "revenue",
+     "decreased",
+     "demand"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 66,
+   "sentence": "Windows OEM and Devices revenue decreased 7%, and Windows OEM decreased 5% driven by lower PC market demand and a high prior-year comparable that benefited from Windows 10 end of support.",
+   "ev_start": 26649,
+   "ev_end": 26836,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S094",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 10",
+     "with growth"
+    ],
+    "negative": [
+     "impacted by"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "Search advertising revenue ex TAC increased 10% and 9% in constant currency with growth driven by higher revenue per search across Edge and Bing as well as higher volume, though growth was impacted by third-party partnerships.",
+   "ev_start": 26963,
+   "ev_end": 27189,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "windows_oem_and_devices"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-050",
+    "MSFT_2026_4-051"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "revenue",
+     "decreased"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "And in Xbox, revenue decreased 10% and 11% in constant currency.",
+   "ev_start": 27190,
+   "ev_end": 27254,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "xbox_content_and_services"
+   ],
+   "home": "xbox_content_and_services",
+   "fact_ids": [
+    "MSFT_2026_4-052"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "revenue",
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "Xbox content and services revenue decreased 10% against the prior year comparable that benefited from strong first-party content performance.",
+   "ev_start": 27255,
+   "ev_end": 27396,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S097",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "xbox_content_and_services"
+   ],
+   "home": "xbox_content_and_services",
+   "fact_ids": [
+    "MSFT_2026_4-053"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "margin",
+     "decreased"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "Segment gross margin dollars decreased 2% and gross margin percentage increased year-over-year, driven by lower amortization from the Activision acquisition.",
+   "ev_start": 27397,
+   "ev_end": 27554,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S098",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-054",
+    "MSFT_2026_4-055"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments",
+     "r&d"
+    ]
+   },
+   "score": 4.14,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "Operating expenses increased 8% and 7% in constant currency, driven by the continued investments in shared R&D noted earlier as well as impairment charges in Xbox.",
+   "ev_start": 27555,
+   "ev_end": 27718,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "constant_currency",
+    "xbox_content_and_services"
+   ],
+   "home": "constant_currency",
+   "fact_ids": [
+    "MSFT_2026_4-056",
+    "MSFT_2026_4-057",
+    "MSFT_2026_4-058"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Operating income decreased 14% and 15% in constant currency, and operating margins decreased year-over-year to 21%.",
+   "ev_start": 27719,
+   "ev_end": 27834,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "Outside of this useful life impact, our calendar year 2026 CapEx investment expectations remain unchanged.",
+   "ev_start": 28510,
+   "ev_end": 28616,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S101",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_commercial_products",
+    "commercial"
+   ],
+   "home": "m365_commercial_products",
+   "fact_ids": [],
+   "guided": {
+    "node": "m365_commercial_products",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "launches"
+    ],
+    "performance": [
+     "revenue",
+     "decline"
+    ]
+   },
+   "score": 8.86,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "In both M365 Commercial products and Server products KPIs, we are lapping higher transactional purchasing from the timing of product launches and expect revenue from both to decline in the mid-single digits for the full fiscal year.",
+   "ev_start": 28830,
+   "ev_end": 29062,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S102",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "windows_oem_and_devices"
+   ],
+   "home": "windows_oem_and_devices",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "impacted by",
+     "higher component cost"
+    ],
+    "pressure": [
+     "lower pc market demand",
+     "higher component cost"
+    ],
+    "performance": [
+     "growth",
+     "demand"
+    ]
+   },
+   "score": 4.72,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 85,
+   "sentence": "Growth in Windows OEM and Devices will be impacted by lower PC market demand as higher component cost increased device pricing, a prior year comparable that benefited from Windows 10 end-of-support and elevated inventory levels.",
+   "ev_start": 29063,
+   "ev_end": 29291,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-059"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high teens",
+    "band": [
+     17.0,
+     19.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high teens"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "decline"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 86,
+   "sentence": "As a result, we expect revenue to decline in the high teens for the fiscal year.",
+   "ev_start": 29292,
+   "ev_end": 29372,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "performance": [
+     "decrease",
+     "revenue",
+     "growth"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 7.78,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "Assuming current rates remain stable, we now expect FX to decrease full year fiscal revenue growth by less than 1 point with no meaningful impact to COGS and operating expense growth.",
+   "ev_start": 29387,
+   "ev_end": 29570,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "momentum",
+     "revenue",
+     "growth"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 89,
+   "sentence": "At the company level, with strong commercial momentum, we continue to expect another fiscal year of double-digit revenue and operating income growth.",
+   "ev_start": 29571,
+   "ev_end": 29720,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S106",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "strategy": [
+     "investment",
+     "r&d"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 90,
+   "sentence": "Operating expenses should grow in the mid- to high single digits, reflecting continued investment in R&D compute capacity, talent, and data.",
+   "ev_start": 29721,
+   "ev_end": 29861,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S107",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 91,
+   "sentence": "And we expect FY '27 capital expenditures will grow year-over-year given demand signals across our portfolio.",
+   "ev_start": 29862,
+   "ev_end": 29971,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S108",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "growing",
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 92,
+   "sentence": "Even as we invest to meet growing demand, full fiscal year operating margins should be down less than 1 point.",
+   "ev_start": 29972,
+   "ev_end": 30082,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 93,
+   "sentence": "In addition, we expect to remain free cash flow positive in FY '27.",
+   "ev_start": 30083,
+   "ev_end": 30150,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "decrease",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 6.78,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 96,
+   "sentence": "Based on current rates, we expect FX to decrease total revenue growth by less than 1 point with no meaningful impact to COGS or operating expense growth.",
+   "ev_start": 30341,
+   "ev_end": 30494,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S111",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": {
+    "node": "cloud",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "decrease",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 6.86,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 97,
+   "sentence": "Within the segments, we expect FX to decrease revenue growth in productivity and business processes by roughly 1 point and Intelligent Cloud by less than 1 point.",
+   "ev_start": 30495,
+   "ev_end": 30657,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "strong",
+     "growing"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "bookings",
+     "growth",
+     "growing",
+     "sales"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 100,
+   "sentence": "In commercial bookings, when adjusted for the impact from OpenAI, we expect healthy growth on a growing expiry base driven by strong execution across our core annuity sales motions.",
+   "ev_start": 30755,
+   "ev_end": 30936,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S113",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 104,
+   "sentence": "In Productivity and Business Processes, we expect revenue of USD 36.7 billion to USD 37 billion, a growth of 11% to 12%.",
+   "ev_start": 31205,
+   "ev_end": 31325,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S114",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_commercial_cloud",
+    "commercial",
+    "cloud",
+    "constant_currency"
+   ],
+   "home": "m365_commercial_cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 105,
+   "sentence": "In M365 Commercial cloud, we expect growth of approximately 16% in constant currency on an adjusted basis, which normalizes for the prior year comparable that benefited from 1 point of in-period revenue recognition, or 15% on a reported basis.",
+   "ev_start": 31326,
+   "ev_end": 31569,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "copilot"
+   ],
+   "home": "copilot",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 106,
+   "sentence": "Sequential growth from our momentum in Copilot, E5, and E7 is mitigated a bit by the lower ARPU new seat adds in frontline worker and small and medium business SKUs.",
+   "ev_start": 31570,
+   "ev_end": 31735,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S116",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_commercial_cloud",
+    "commercial",
+    "cloud"
+   ],
+   "home": "m365_commercial_cloud",
+   "fact_ids": [],
+   "guided": {
+    "node": "m365_commercial_cloud",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "momentum",
+     "acceleration"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "momentum",
+     "acceleration",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 5.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 107,
+   "sentence": "With the premium SKU momentum and the increased monetization opportunity from adding usage-based billing products alongside per-seat licensing in July, we expect to see acceleration in M365 Commercial cloud revenue growth through this fiscal year.",
+   "ev_start": 31736,
+   "ev_end": 31983,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S117",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_commercial_products",
+    "commercial"
+   ],
+   "home": "m365_commercial_products",
+   "fact_ids": [],
+   "guided": {
+    "node": "m365_commercial_products",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "grow"
+    ],
+    "forward": [
+     "revenue should grow"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ]
+   },
+   "score": 5.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 108,
+   "sentence": "M365 Commercial products revenue should grow in the mid-single digits, driven by the timing of long-duration M365 contracts, partially offset by the impact from the prior year comparable noted earlier.",
+   "ev_start": 31984,
+   "ev_end": 32185,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "m365_consumer_cloud",
+    "cloud"
+   ],
+   "home": "m365_consumer_cloud",
+   "fact_ids": [],
+   "guided": {
+    "node": "m365_consumer_cloud",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "grow"
+    ],
+    "forward": [
+     "revenue should grow"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 109,
+   "sentence": "M365 consumer cloud revenue should grow in the mid-teens, down sequentially as we lapped the benefit from last year's price increase.",
+   "ev_start": 32186,
+   "ev_end": 32319,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "linkedin"
+   ],
+   "home": "linkedin",
+   "fact_ids": [
+    "MSFT_2026_4-061"
+   ],
+   "guided": {
+    "node": "linkedin",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 111,
+   "sentence": "For LinkedIn, we expect revenue growth in the high single digits.",
+   "ev_start": 32396,
+   "ev_end": 32461,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-062"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low teens",
+    "band": [
+     10.0,
+     13.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "low teens"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "bookings"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 112,
+   "sentence": "And in Dynamics 365, we expect revenue growth to be in the low teens, relatively stable quarter-over-quarter, driven by continued growth in ERP, although impacted by the bookings trends noted earlier.",
+   "ev_start": 32462,
+   "ev_end": 32662,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S121",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 113,
+   "sentence": "For Intelligent Cloud, we expect revenue of USD 40.95 billion to USD 41.25 billion or growth of 33% to 34%.",
+   "ev_start": 32663,
+   "ev_end": 32770,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure",
+    "constant_currency"
+   ],
+   "home": "azure",
+   "fact_ids": [
+    "MSFT_2026_4-063"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "demand"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 114,
+   "sentence": "In Azure, we expect revenue growth of approximately 45% in constant currency, and we remain focused on delivering efficiencies that help us bridge the gaps we see as customer demand continues to exceed supply.",
+   "ev_start": 32771,
+   "ev_end": 32980,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "strong",
+     "accelerate"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth",
+     "accelerate"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 115,
+   "sentence": "Even with the strong close to Q4, we continue to expect H1 growth to accelerate.",
+   "ev_start": 32981,
+   "ev_end": 33061,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [
+    "MSFT_2026_4-064"
+   ],
+   "guided": {
+    "node": "cloud",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "decline"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 117,
+   "sentence": "In our on-premises server business, we expect revenue to decline in the low to mid-single digits with ongoing customer shift to cloud offerings and the prior year comparable noted earlier.",
+   "ev_start": 33186,
+   "ev_end": 33374,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "impacted by"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 5.36,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 118,
+   "sentence": "In More Personal Computing, we expect revenue to be USD 12.2 billion to USD 12.7 billion as we continue to lap strong prior year comparables noted earlier, and navigate complex PC market dynamics impacted by component prices and inventory levels.",
+   "ev_start": 33375,
+   "ev_end": 33621,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "windows_oem_and_devices"
+   ],
+   "home": "windows_oem_and_devices",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "revenue",
+     "decline"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 119,
+   "sentence": "Windows OEM and Devices revenue should decline in the low 20s, driven by the market dynamics noted earlier.",
+   "ev_start": 33622,
+   "ev_end": 33729,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S127",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "windows_oem_and_devices"
+   ],
+   "home": "windows_oem_and_devices",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 121,
+   "sentence": "Search advertising revenue ex TAC growth should be in the mid-single digits, down sequentially due to the impact of third-party partnerships.",
+   "ev_start": 33811,
+   "ev_end": 33952,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S128",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "growth will continue"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 122,
+   "sentence": "Growth will continue to be driven by consistent trends in revenue per search and volume.",
+   "ev_start": 33953,
+   "ev_end": 34041,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S129",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "xbox_content_and_services"
+   ],
+   "home": "xbox_content_and_services",
+   "fact_ids": [],
+   "guided": {
+    "node": "xbox_content_and_services",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "decline"
+    ]
+   },
+   "score": 6.28,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 123,
+   "sentence": "And in Xbox content and services, we expect revenue to decline in the mid-single digits.",
+   "ev_start": 34042,
+   "ev_end": 34130,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S130",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "revenue",
+     "decline"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 124,
+   "sentence": "Hardware revenue should decline year-over-year.",
+   "ev_start": 34131,
+   "ev_end": 34178,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S131",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial"
+   ],
+   "home": "commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "accelerating"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 125,
+   "sentence": "Therefore, at the total company level, revenue should be between USD 89.85 billion and USD 90.95 billion or growth of 16% to 17%, with accelerating commercial growth partially offset by the impact from the PC market dynamics noted earlier.",
+   "ev_start": 34179,
+   "ev_end": 34418,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S132",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.64,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 126,
+   "sentence": "We expect COGS of USD 29.6 billion to USD 29.8 billion or growth of 23% to 24%.",
+   "ev_start": 34419,
+   "ev_end": 34498,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S133",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment",
+     "r&d"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 127,
+   "sentence": "And operating expense of USD 16.8 billion to USD 16.9 billion, a growth of 7% to 8%, driven by continued investment in R&D compute capacity and talent.",
+   "ev_start": 34499,
+   "ev_end": 34650,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S134",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MSFT_2026_4-065"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 129,
+   "sentence": "Excluding any impact from our investments in OpenAI, other income and expense is expected to be roughly negative $100 million as interest income will be more than offset by interest expense, which includes the interest payments related to data center finance leases.",
+   "ev_start": 34711,
+   "ev_end": 34977,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "expanding"
+    ],
+    "performance": [
+     "accelerating",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 133,
+   "sentence": "In closing, in FY '26, we delivered accelerating revenue and operating income growth while expanding operating margins.",
+   "ev_start": 35192,
+   "ev_end": 35311,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S136",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 134,
+   "sentence": "Our execution across sales and product engineering strengthened through the second half of the year.",
+   "ev_start": 35312,
+   "ev_end": 35412,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S137",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 135,
+   "sentence": "As we begin FY '27, we remain focused on delivering products that create meaningful return on investment for our customers, which will result in durable long-term growth for Microsoft and our shareholders.",
+   "ev_start": 35413,
+   "ev_end": 35618,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S138",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 5,
+   "sentence": "But in some sense, you have to really - at the end of the day, every firm is going to evaluate who are the providers who are helping them with their outcomes and their knowledge creation.",
+   "ev_start": 36872,
+   "ev_end": 37059,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S139",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure"
+   ],
+   "home": "azure",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 1,
+   "sentence": "And so given that we continue to see growing demand, no matter what model is chosen or what model family or whether it's run a model of your own, the Azure platform is quite efficient at delivering that.",
+   "ev_start": 39422,
+   "ev_end": 39625,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S140",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 1,
+   "sentence": "First, there are still constraints in the system.",
+   "ev_start": 40175,
+   "ev_end": 40224,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S141",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 2,
+   "sentence": "I think we've continued to say, I think, now for a number of quarters that demand continues to exceed available supply.",
+   "ev_start": 40225,
+   "ev_end": 40344,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S142",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements",
+     "improved"
+    ],
+    "confident": [
+     "tremendously"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 12,
+   "sentence": "I would also say some of the process improvements we've made to make sure both CPUs and GPUs just the lead time from how quickly we can get things to simplify it tremendously plugged in, was also improved over the past 90 days.",
+   "ev_start": 41145,
+   "ev_end": 41372,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S143",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "improvements"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 14,
+   "sentence": "And at the scale that we're operating in terms of across the entire hyperscale fleet, making efficiency improvements that can be quickly monetized as a result and acceleration in the quarter, it's part of also what we expect to see and talk about with the Q1.",
+   "ev_start": 41461,
+   "ev_end": 41720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S144",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeds"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "Currently, the situation is obviously that demand exceeds available supply in a sort of relatively extreme moment.",
+   "ev_start": 42519,
+   "ev_end": 42633,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S145",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slow"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "And so if the demand environment changes, you just slow down what is, in fact, the largest component, right, and the driver of COGS.",
+   "ev_start": 42940,
+   "ev_end": 43072,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S146",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 14,
+   "sentence": "What we've been trying to do, of course, at this point is to just make sure that we're doing the best efficiency work we can so we can continue to give customers great value.",
+   "ev_start": 44410,
+   "ev_end": 44584,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S147",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 15,
+   "sentence": "We're reminding people that, frankly, the cloud offers tremendous benefits versus having to make these purchases as servers on-prem yourself, or the price increases are even more hard for customers.",
+   "ev_start": 44585,
+   "ev_end": 44783,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S148",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "bullish"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 14,
+   "sentence": "But the secular shift is clear, and we're very bullish about us coming with the right sort of mix of business and the right margin structure and most importantly, with the right value for our customers.",
+   "ev_start": 46351,
+   "ev_end": 46553,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S149",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 1,
+   "sentence": "We'll see a little bit more from E7 which really has a lot of interesting value in the Agent 365 component, in particular, where Satya is talking about, I mean, having SecOps and FinOps think about, in general, everyone is going to need both observability of token spend and the manageability of token spend for all business processes.",
+   "ev_start": 49653,
+   "ev_end": 49988,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S150",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "forward": [
+     "through the year"
+    ],
+    "performance": [
+     "grows"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 5,
+   "sentence": "And then finally, what Satya is talking about is this building TAM that grows through the year.",
+   "ev_start": 50221,
+   "ev_end": 50316,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S151",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 6,
+   "sentence": "And as I think about that expanding TAM, that's really where we're talking about this usage and consumption growth.",
+   "ev_start": 50317,
+   "ev_end": 50432,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S152",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "And so what we launched with Perception is essentially saying, let's sort of really make sure that you have the red team agents that know how to find - constantly are red teaming and finding the vulnerabilities.",
+   "ev_start": 52682,
+   "ev_end": 52893,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S153",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Satya Nadella",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 19,
+   "sentence": "And we're very excited about Perception and what it means, quite frankly, for our security business going forward.",
+   "ev_start": 54507,
+   "ev_end": 54621,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S154",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion",
+     "improvements"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 2,
+   "sentence": "I would say the way to think about it for me is more the confidence in the TAM expansion, the margin levers that we have in terms of both product improvements then the infrastructure improvements.",
+   "ev_start": 55345,
+   "ev_end": 55541,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S155",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 6,
+   "sentence": "We still have opportunities, obviously, as we continue to look for the best price performance on silicon, including our investments in first party.",
+   "ev_start": 55850,
+   "ev_end": 55997,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S156",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 7,
+   "sentence": "The work, frankly, on model diversification also is a margin improvement opportunity being able to serve the best possible outcome with a more efficient or both efficient in terms of token usage and efficient in terms of cost structure are also margin levers.",
+   "ev_start": 55998,
+   "ev_end": 56257,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S157",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "strategy": [
+     "investing",
+     "invest"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 8,
+   "sentence": "All of these things contribute, obviously, to your point, of increased confidence in ROIC, frankly, of the dollars that we're investing and continue to invest going forward.",
+   "ev_start": 56258,
+   "ev_end": 56431,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MSFT_2026_4-S158",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "azure"
+   ],
+   "home": "azure",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Amy Hood",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 10,
+   "sentence": "And then, of course, what we talked about on the Azure side between model efficiency, silicon, and component efficiency, including our investments in first-party solutions there and just the overall efficiency of running it at a hyperscale.",
+   "ev_start": 56680,
+   "ev_end": 56920,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "MSFT_2026_4-S002",
+  "MSFT_2026_4-S012",
+  "MSFT_2026_4-S013",
+  "MSFT_2026_4-S014",
+  "MSFT_2026_4-S016",
+  "MSFT_2026_4-S020",
+  "MSFT_2026_4-S022",
+  "MSFT_2026_4-S031",
+  "MSFT_2026_4-S038",
+  "MSFT_2026_4-S089",
+  "MSFT_2026_4-S115",
+  "MSFT_2026_4-S049",
+  "MSFT_2026_4-S062",
+  "MSFT_2026_4-S064",
+  "MSFT_2026_4-S065",
+  "MSFT_2026_4-S072",
+  "MSFT_2026_4-S105",
+  "MSFT_2026_4-S112",
+  "MSFT_2026_4-S131",
+  "MSFT_2026_4-S003",
+  "MSFT_2026_4-S066",
+  "MSFT_2026_4-S068",
+  "MSFT_2026_4-S006",
+  "MSFT_2026_4-S007",
+  "MSFT_2026_4-S008",
+  "MSFT_2026_4-S060",
+  "MSFT_2026_4-S111",
+  "MSFT_2026_4-S124",
+  "MSFT_2026_4-S070",
+  "MSFT_2026_4-S116",
+  "MSFT_2026_4-S073",
+  "MSFT_2026_4-S101",
+  "MSFT_2026_4-S117",
+  "MSFT_2026_4-S074",
+  "MSFT_2026_4-S118",
+  "MSFT_2026_4-S046",
+  "MSFT_2026_4-S076",
+  "MSFT_2026_4-S119",
+  "MSFT_2026_4-S063",
+  "MSFT_2026_4-S079",
+  "MSFT_2026_4-S087",
+  "MSFT_2026_4-S094",
+  "MSFT_2026_4-S098",
+  "MSFT_2026_4-S083",
+  "MSFT_2026_4-S091",
+  "MSFT_2026_4-S093",
+  "MSFT_2026_4-S102",
+  "MSFT_2026_4-S126",
+  "MSFT_2026_4-S127",
+  "MSFT_2026_4-S096",
+  "MSFT_2026_4-S097",
+  "MSFT_2026_4-S129",
+  "MSFT_2026_4-S088",
+  "MSFT_2026_4-S122",
+  "MSFT_2026_4-S139",
+  "MSFT_2026_4-S158",
+  "MSFT_2026_4-S004",
+  "MSFT_2026_4-S010",
+  "MSFT_2026_4-S019",
+  "MSFT_2026_4-S040",
+  "MSFT_2026_4-S041",
+  "MSFT_2026_4-S045",
+  "MSFT_2026_4-S058",
+  "MSFT_2026_4-S059",
+  "MSFT_2026_4-S100",
+  "MSFT_2026_4-S103",
+  "MSFT_2026_4-S104",
+  "MSFT_2026_4-S123",
+  "MSFT_2026_4-S125",
+  "MSFT_2026_4-S140",
+  "MSFT_2026_4-S154"
+ ],
+ "surfaced_signal_ids": [
+  "MSFT_2026_4-S002",
+  "MSFT_2026_4-S012",
+  "MSFT_2026_4-S013",
+  "MSFT_2026_4-S014",
+  "MSFT_2026_4-S016",
+  "MSFT_2026_4-S020",
+  "MSFT_2026_4-S022",
+  "MSFT_2026_4-S031",
+  "MSFT_2026_4-S038",
+  "MSFT_2026_4-S089",
+  "MSFT_2026_4-S115",
+  "MSFT_2026_4-S049",
+  "MSFT_2026_4-S062",
+  "MSFT_2026_4-S064",
+  "MSFT_2026_4-S065",
+  "MSFT_2026_4-S072",
+  "MSFT_2026_4-S105",
+  "MSFT_2026_4-S112",
+  "MSFT_2026_4-S131",
+  "MSFT_2026_4-S003",
+  "MSFT_2026_4-S066",
+  "MSFT_2026_4-S068",
+  "MSFT_2026_4-S006",
+  "MSFT_2026_4-S007",
+  "MSFT_2026_4-S008",
+  "MSFT_2026_4-S060",
+  "MSFT_2026_4-S111",
+  "MSFT_2026_4-S124",
+  "MSFT_2026_4-S070",
+  "MSFT_2026_4-S116",
+  "MSFT_2026_4-S073",
+  "MSFT_2026_4-S101",
+  "MSFT_2026_4-S117",
+  "MSFT_2026_4-S074",
+  "MSFT_2026_4-S118",
+  "MSFT_2026_4-S046",
+  "MSFT_2026_4-S076",
+  "MSFT_2026_4-S119",
+  "MSFT_2026_4-S063",
+  "MSFT_2026_4-S079",
+  "MSFT_2026_4-S087",
+  "MSFT_2026_4-S094",
+  "MSFT_2026_4-S098",
+  "MSFT_2026_4-S083",
+  "MSFT_2026_4-S091",
+  "MSFT_2026_4-S093",
+  "MSFT_2026_4-S102",
+  "MSFT_2026_4-S126",
+  "MSFT_2026_4-S127",
+  "MSFT_2026_4-S096",
+  "MSFT_2026_4-S097",
+  "MSFT_2026_4-S129",
+  "MSFT_2026_4-S088",
+  "MSFT_2026_4-S122",
+  "MSFT_2026_4-S139",
+  "MSFT_2026_4-S158",
+  "MSFT_2026_4-S004",
+  "MSFT_2026_4-S010",
+  "MSFT_2026_4-S019",
+  "MSFT_2026_4-S040",
+  "MSFT_2026_4-S041",
+  "MSFT_2026_4-S045",
+  "MSFT_2026_4-S058",
+  "MSFT_2026_4-S059",
+  "MSFT_2026_4-S100",
+  "MSFT_2026_4-S103",
+  "MSFT_2026_4-S104",
+  "MSFT_2026_4-S123",
+  "MSFT_2026_4-S125",
+  "MSFT_2026_4-S140",
+  "MSFT_2026_4-S154",
+  "MSFT_2026_4-S047",
+  "MSFT_2026_4-S157",
+  "MSFT_2026_4-S153",
+  "MSFT_2026_4-S149",
+  "MSFT_2026_4-S138"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "annual",
+   "postgresql",
+   "copilot",
+   "outpaced",
+   "commercial",
+   "microsoft_cloud",
+   "cloud",
+   "m365_commercial_cloud",
+   "m365_commercial_products",
+   "m365_consumer_cloud",
+   "linkedin",
+   "constant_currency",
+   "azure_and_other_cloud_services",
+   "windows_oem_and_devices",
+   "xbox_content_and_services",
+   "azure"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "m365_commercial_cloud",
+   "constant_currency"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "MSFT_2026_4-004",
+   "MSFT_2026_4-012",
+   "MSFT_2026_4-020",
+   "MSFT_2026_4-021",
+   "MSFT_2026_4-027",
+   "MSFT_2026_4-028",
+   "MSFT_2026_4-032",
+   "MSFT_2026_4-033",
+   "MSFT_2026_4-034",
+   "MSFT_2026_4-035",
+   "MSFT_2026_4-038",
+   "MSFT_2026_4-041",
+   "MSFT_2026_4-049",
+   "MSFT_2026_4-050",
+   "MSFT_2026_4-054",
+   "MSFT_2026_4-058"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "16 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 158,
+  "signals_usable": 158,
+  "selected": 71,
+  "by_topic": {
+   "momentum": 103,
+   "product": 31,
+   "strategy": 24,
+   "competition": 1,
+   "pressure": 3
+  },
+  "by_horizon": {
+   "current": 119,
+   "forward": 39
+  },
+  "trajectory_rows": 7,
+  "blocks_with_content": 16,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

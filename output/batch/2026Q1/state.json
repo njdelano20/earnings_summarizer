@@ -8,6 +8,22 @@
    "detail": "",
    "stem": "CPRT_2026Q3",
    "processed": "2026-09-21T14:56:10"
+  },
+  "WMT": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2027Q1",
+   "status": "ok",
+   "detail": "",
+   "stem": "WMT_2027Q1",
+   "processed": "2026-09-21T15:38:49"
+  },
+  "HD": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q1",
+   "status": "error",
+   "detail": "Alpha Vantage: We have detected your API key as ***REDACTED*** and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."
   }
  }
 }

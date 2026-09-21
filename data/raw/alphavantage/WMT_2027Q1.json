@@ -1,0 +1,384 @@
+{
+ "symbol": "WMT",
+ "quarter": "2027Q1",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Greetings. Welcome to Walmart's First Quarter Fiscal '27 Earnings Call. I will now turn the conference over to Steph Wissink, Senior Vice President, Investor Relations. Thank you, Steph. You may begin.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephanie Wissink",
+   "title": "Senior Vice President, Investor Relations",
+   "content": "Welcome, everyone. Joining me today from our home office in Bentonville are our CEO, John Furner; and CFO, John David Rainey. We'll begin with highlights of the previous quarter and our outlook for the year. Then we'll open the line for your questions. During the question-and-answer portion, we've invited Seth Dallaire, our Chief Growth Officer, as well as segment leadership to join: Dave Guggina from Walmart U.S.; Chris Nicholas from Walmart International; and Latriece Watkins from Sam's Club U.S. For additional detail on our results, including highlights by segment, please see our earnings release and supplemental presentation on our website. Today's call is being recorded, and management may make forward-looking statements. These statements are subject to risks and uncertainties that could cause actual results to differ materially from these statements — the factors identified in our filings with the SEC. Please review our press release and slide presentation for a cautionary statement regarding forward-looking statements as well as our entire safe harbor statement and non-GAAP reconciliations on our website at stock.walmart.com. That concludes my introduction. John, over to you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "Good morning, and thanks for joining us today. The team delivered strong sales growth for the quarter, and I want to thank our associates for the work they're doing. Getting into stores, clubs and our supply chain is one of the best parts of my job, whether that's here in the U.S. or places like China and India, where I got to spend time recently. Running an omnichannel business through great stores and clubs requires the best technology and people that embrace innovation while executing the basics every day. No matter where I'm in the world, I'm reminded that customers are more alike than not. They want value for their money, a broad assortment and great experiences, and I love how Walmart delivers across each of these. When I look at the consumer, especially here in the U.S., they're telling us they're feeling some pressure, and they're looking to Walmart for value. We're continuing to invest in prices, extending the rollbacks we started in the second half of last year, and we now have about 7,200 rollbacks in place. We're also finding ways to help families stretch their dollars as outdoor summer activities get underway. We recently launched a basket of grilling essentials that feeds 8 people at under $5 per person. Now, when I look at the business overall, it's performing how we expect it to. We saw strong growth in eCommerce, including advertising and marketplace. We're gaining market share and growth in transactions and units is driving the top line. Transaction growth in the U.S. was the strongest we've seen in six quarters. So I feel great about the way we're executing our strategy. John David will talk more in detail about our results for the quarter, including the impact of higher fuel costs on our operations, and we're pleased to reiterate our outlook for this year. So I'll spend the rest of my time this morning providing some context for how we think about our business. The pace of change is accelerating, and we're moving more quickly to realize the benefits of the business model we've built. We're investing in areas that strengthen our competitive position, including pricing and wages and benefits for our associates. And we're doing this while driving long-term value for our shareholders. One way we're doing this is by taking an enterprise approach to platforms, scaling tech-powered businesses like advertising, marketplace and fulfillment services and membership alongside our core retail operations to drive growth at a lower marginal cost. We've seen the power of these businesses in the U.S., and that's reflected in our financial performance over the last few years. We're now taking these learnings and applying them in Canada and Mexico. We're also becoming AI native. Using AI, we can now serve customer needs that previous technologies could not meet, from making shopping easier and more personalized to expanding the range of shopping occasions and interactions we have with our customers and members. And Sparky, our AI shopping agent, is making this possible. Weekly active users are up over 100% just in the last quarter, and our investments in AI have increased Sparky intelligence and response quality by 40% this year. Sparky is becoming more useful by the day. You can now use Sparky in stores and automatically reorder items you have on repeat. Sparky even speaks Spanish these days. As we've mentioned before, customers using Sparky have an average order value that's about 35% higher than non-Sparky customers. As a merchant, I'm really excited about the growth we see in our assortment. We're expanding choice for our customers and members by improving our first-party assortment, especially in areas of trend and fashion, and we're growing our marketplace. We recently launched Marketplace cross-border into Canada and Mexico and we like the early results. This is a good example of the benefits we're seeing from building platforms and extending them across markets. We can broaden our assortment, bring on new sellers, and drive incremental profit without the proportional capital investment. And sales on our Marketplace in the U.S. grew almost 50% for the quarter. I like how we're partnering with sellers to help them grow their business with us and this isn't just about Marketplace. Through services like advertising and fulfillment, they're leveraging the tools we built to make their businesses even stronger. And now that we're expanding our reach to more countries, we're offering an even better proposition for them. We're also getting faster and more reliable in how we fulfill orders. For the quarter, we delivered more than 3.5 billion units, same or next day globally. Investments in our supply chain and the application of AI are improving how we position inventory, make fulfillment decisions and serve customers and members in real time. Enterprise eCommerce sales grew 26% and within Walmart U.S., delivery grew 45%. More than 36% of all U.S. store-fulfilled deliveries in the quarter were delivered in less than three hours. At Sam's Club U.S., delivery from club grew more than 90% and sales mix from eCommerce is now at an all-time high. I'm so impressed by what the teams are doing to speed up delivery solutions in markets that are already high speed. In India, Flipkart now operates more than 800 micro fulfillment centers used for fast delivery, something we call Flipkart Minutes. And they're delivering items in less than 13 minutes on average. And the team in China delivered over 0.5 billion units in Q1 with about 75% of those arriving in under one hour. Our store and club network, more than 10,900 locations, continues to be a key advantage. It serves as the physical infrastructure that enables speed at a cost structure that is both attractive and improving. As the economics continue to improve, speed becomes an engine of operating leverage, not just a better experience for customers and members. And at the same time, we're making our operations more productive and efficient. Automation across our supply chain in the U.S. continues to scale. Approximately half of our eCommerce fulfillment center volume in Walmart U.S. is automated, and more than 60% of our stores are receiving some level of freight from automated distribution centers. And more than half of our regional distribution centers are in various stages of being retrofitted. As we deploy these capabilities, we're also upskilling associates and creating new opportunities as technology changes how work gets done. We're also strengthening our business mix by scaling higher-margin businesses or what we call commerce solutions. These are areas like advertising, membership and marketplace, which are becoming more meaningful contributors to our overall profitability. These businesses complement our omnichannel model and support more durable long-term value creation. For the quarter, our Advertising business grew more than 30% for each segment, including 36% for Walmart U.S. Membership fee revenue grew 17% for the enterprise, led by Walmart U.S. Together, these profit streams represented approximately one-third of operating income. Another way we're mixing up profits better is by improving the performance of general merchandise. This is a priority for us globally. Comps for GM were positive in the U.S. for the quarter. Fashion was a standout again. In International, growth in general merchandise outpaced that of food and consumables overall with help from successful Lunar New Year events. With that, I'll close by saying our business is strong. We have momentum and a clear strategy. We'll continue to reinforce a unique value proposition by focusing on serving customers and members better, while improving the economics of our business and positioning us for sustained long-term growth. I'll hand the call over to John David.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, John. I'd like to start by thanking our associates for their continued focus on serving our customers and members. Our value proposition continues to resonate with customers, particularly as higher fuel prices are putting pressure on household budgets. In the first quarter, we delivered constant currency sales growth of nearly 6%, exceeding the top end of our guidance range by 120 basis points and we continue to gain share across our business. Strong eCommerce momentum continued with 26% growth, highlighting the advantages of our omnichannel model as customers and members increasingly utilize our fast delivery capabilities from stores and clubs. Customers and members are also shopping deeper into our catalog as third-party marketplace sales growth in the U.S. reached the highest level in 2.5 years. In addition, our Advertising business had one of its best quarters growing 37% globally. First quarter adjusted operating income growth in constant currency of approximately 5% was in line with our guidance despite higher-than-anticipated fuel cost. We absorbed approximately $175 million or about 250 basis points of operating income growth from higher-than-planned fuel costs in our global distribution and fulfillment operations. We continue to play offense despite the short-term pressure on profits. We're confident this was the right approach to reinforce customer trust and support share gains over the long term. We're always focused on providing low prices for customers. EDLP is core to who we are. That said, these are real impacts to cost of goods sold for us and our suppliers. And if the current elevated cost environment persists, we'd expect somewhat higher retail price inflation in Q2 and the second half of the year. Importantly, we're reiterating our original full year guidance that we provided in February before the significant increases in fuel cost. We said at that time that we believe the first quarter operating income growth would be the lowest of any quarter and profitability would improve thereafter. We still believe that to be the case. Our long-term growth strategy is clear, and we continue to execute, while also maintaining flexibility to take advantage of the short-term share gain opportunities as they emerge. I'll now share some more detail on the quarter. Consolidated revenue in constant currency increased nearly $10 billion, led by Walmart U.S. comp sales, which were up 4.1% despite a 100 basis point headwind from maximum fair pricing legislation and pharmacy. Fashion performed very well, driven by assortment improvements and expanded third-party offerings, leading to the category's strongest share growth in five years. eCommerce sales were strong across each of our segments with delivery speed a key catalyst for growth around the world. We're accelerating by using our unique assets, stores and clubs, DCs and FCs and last-mile delivery networks to get orders to customers faster and more efficiently. In the U.S., sales utilizing store fulfilled delivery have more than doubled over the past two years. Over 36% of these orders were delivered in under three hours in Q1, an improvement of 800 basis points over the past two years and our under one hour and under 30-minute solutions are growing the fastest. We can now reach approximately 60% of the U.S. population in 30 minutes or less and customer satisfaction with our delivery offering reached record highs. In China, eCommerce grew over 30% as we use our cloud network to make deliveries within minutes. Flipkart delivered orders in less than 13 minutes on average across more than 30 cities in India. And Sam's Club U.S. club fulfilled delivery sales grew more than 90% in Q1. We're also encouraged by the performance of our U.S. marketplace with nearly 50% net sales growth, aided by increased engagement with higher-income households. Marketplace is an area that we invested in last year and the momentum is building. General merchandise categories performed especially well as expanded assortment contributed to strong results in areas like patio and garden, sporting goods, furniture and toys. In addition, we're seeing incremental growth as we've accelerated the speed of delivery promise through our Walmart Fulfillment Services. Units shipped same day or next day through WFS grew nearly 150% in Q1. Now we're deploying these global marketplace capabilities outside the U.S., including Walmex and Canada. We achieved these sales results while continuing to improve underlying eCommerce economics, most notably in the International segment, where our performance in our Asia businesses led to more than 10% operating income growth in the segment. We feel like we're just getting started in learning about what the future state of quick commerce and marketplace could look like in the Americas. Enterprise business mix is also continuing to improve with strong growth in higher-margin areas like advertising and membership fees. Momentum in our advertising business continued in Q1, led by strength in Walmart U.S., which grew 36%. This performance reflected strong engagement with Marketplace sellers who grew their advertising spend by over 50% and saw a corresponding lift in sales. We continue to enhance our toolkit for ad buyers, including AI features that help to dynamically adjust content mix to optimize campaign performance, while expanding reach and surfaces with VIZIO's connected platform. Consolidated membership fee revenue increased over 17%, including strength in our Sam's Club format in select international markets. In the U.S. Walmart+ membership fee revenue growth accelerated with net adds reaching a new Q1 high. This growth is encouraging as Walmart+ members generally spend four times more than nonmembers overall, with seven times more eCommerce visits each year. And in this period of elevated gas prices, members are tapping into their fuel savings benefits even more today, reinforcing the value of membership beyond free shipping. Sam's Club U.S. membership revenue grew 5.6% as members gravitate toward our omnichannel capabilities and fuel savings. We're continuing to enhance the value and convenience of the membership. We launched Dynamic Express Delivery, so members can get their favorite club items in under one hour. These types of ongoing investments in the member value proposition at Sam's supported the membership fee increase that became effective on May 1. Lastly, we're making progress on improving merchandise category mix, particularly in Walmart U.S. Q1 marked the first time in 18 quarters that merchandise mix contributed favorably to Walmart U.S. gross margin expansion of 29 basis points. This reflects broad-based improvement in general merchandise sales, with growth up mid-single digits for the quarter. In Q1, we saw the highest level of general merchandise share gains in five years. We're continuing to lean into rollbacks and seasonal value programs to reinforce our price leadership, and we're seeing a strong response from customers through increased unit volumes. We have approximately 7,200 rollbacks across our assortment, which is up more than 20% versus last year. Now I'll discuss guidance. While there are certainly pressures on the consumer, let me reiterate, our business is strong. We are executing on the important strategic initiatives that are critical to our future sales and earnings growth. Our delivery speed and capabilities continue to get faster and reach more customers and members, and our value proposition of low prices with convenience continues to resonate with customers and is the primary reason new customers shop with us. We are reiterating our full year guidance of constant currency sales growth between 3.5% and 4.5%. Based on Q1 performance at 5.7% and our Q2 outlook of 4% to 5% growth, we expect full year sales growth to be toward the upper end of that initial range. For Q2 operating income in constant currency, we expect growth of 7% to 10%, and we're reiterating our full year guidance of 6% to 8% growth. For Q2, we expect EPS of $0.72 to $0.74 and full year EPS in the range of $2.75 to $2.85. Recall that we guide on a constant currency basis. If current exchange rates were to stay where they are right now, we would expect an approximate 90 basis point benefit to reported sales growth and an approximate 130 basis point benefit to operating income growth for Q2. We'd also like to note that our guidance does not assume any impact from IEEPA tariff refunds. We felt it best to provide guidance that reflects our expectations for the underlying business, excluding any recovery of tariffs paid. We are participating in the process and we believe that the maximum refunds we may be eligible to receive as the importer of record represent less than half of one percent of our U.S. annual sales. In closing, we're excited about the momentum in the business, which is an endorsement from our customers and members that we offer an increasingly compelling omnichannel value proposition rooted in our long-standing purpose to help people save money and live better. We continue to make measurable progress in reshaping our profit mix to reinforce customer and associate value while improving returns to shareholders. And our full year financial framework to grow operating income faster than sales remains intact, and we look forward to sharing an update following Q2 that reflects continued progress on our strategic growth initiatives. We're now ready to take your questions.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "And our first question is from the line of Simeon Gutman of Morgan Stanley.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Simeon Gutman",
+   "title": "Analyst, Morgan Stanley",
+   "content": "It looks like your incremental margins both at the enterprise level and within Walmart U.S. eCom are consistent with the high single-digit and low double-digit ranges that you've delivered over the last couple of years. Also outside of fuel, what are the gating factors that can allow you to dial these incrementals up? And what changes over time, especially if fuel stays elevated this year?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "Simeon, thanks for the question. First, let me just say thanks again to our associates for delivering a great quarter. They've done a really nice job serving in the environment. And let me just start with, on your question in particular, the strategy that we're operating under just continues to deliver. We're positioned well. We're serving customers well around the market. You heard the comments about speed and delivery, and we made some investments in the quarter in in-stock and other things that are making the customer experience better. As far as the business mix that you're asking about, it does start with our core business. If our core business is performing well and we're growing share like we did in the first quarter, then we have the opportunity to expand those businesses. And in particular, eCommerce growth of 26% around the world, Marketplace growth of nearly 50% in Walmart U.S. is a very important driver that allows for things like advertising and membership to continue the momentum that they've had. The team has made a lot of progress with the Marketplace. In particular, in the quarter, we launched cross-border in a couple of countries in North America. We think that's exciting. And we're building a great seller proposition that I think is going to help us in the short run for serving customers and over the long run, continue to improve our business model overall.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Simeon, I'd just add that you're right on the numbers on the incremental margins. U.S. eCommerce incremental margins, in particular, were about 12% in the quarter. So we're really pleased with that. And what we're seeing across the entirety of our formats is the improvements that come from better speed. Speed just continues to be something that we see our customers are valuing. As I noted in my prepared remarks, this was a bit of a milestone quarter in so far as 60% of U.S. households, we can now serve within 30 minutes. And the importance of speed, the reason to highlight that is fast fuels frequency. When we see that we are able to deliver to customers in the time frames that they expect, we see a much greater engagement with our customers and why that's important to investors is, with that increased engagement, it improves the utility of our membership programs. And as we noted in the prepared comments, 17.5% growth in our membership programs is really strong for the quarter. And so when you take categories like membership, categories like advertising, those two combined comprise roughly one-third of our earnings today. That's very different from Walmart of 10 years ago. And with that more subscription-based recurring revenue stream that we have, it actually insulates us from some of the winds in the economy and things like higher fuel prices. So we think that we're positioned really well. We like where we are right now as we're going into the second quarter of the year. And again, the incremental margins in our business are strong.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "And Simeon, I'll just add on the end of your question about fuel. We have a really experienced team in logistics. We have an experienced team in merchandising. And just a reminder that our merchants have a lot of levers to be able to navigate all sorts of environments. And I think, like John David said, we're positioned well to weather all environments, and we'll continue to do the right things in terms of investing in the best proposition for our customers throughout the quarter.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Our next question is from the line of Greg Melich with Evercore ISI.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gregory Melich",
+   "title": "Analyst, Evercore ISI",
+   "content": "I'd love to dive deeper into the traffic acceleration, both at Walmart U.S. and at Sam's Club. I guess, the up 3% at Walmart U.S. and 6% at Sam's. What can you do going forward to continue that momentum because it is such an inflection upwards? And maybe linked to it, how are you thinking about any potential tariff rebates as a way to maybe keep up that momentum versus potentially offset rising energy costs?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "Greg, traffic was a strong result in both the businesses, as you mentioned. And I would just reiterate, it starts with merchandising, starts with everyday low prices. And we had a really strong quarter in general merchandise. I'm really proud of the work that the Fashion team has done in Walmart U.S. Another category that was a standout in the quarter was Beauty. There have been a number of investments in the experience, both online and in stores that are making a difference. And then the third thing is the improvements. You heard about the improvements with Sparky. We can talk about those a bit throughout the call. But in eCommerce, in general, being able to deliver Walmart prices at an everyday low price value with over 7,000 rollbacks in as little as 30 minutes in so many markets is really helpful in terms of the way our customers are telling us they want to live their lives. So I'm excited about eCommerce. That was our ninth quarter in the U.S. of growth over 20% and the team continues to innovate and help make the experience go faster for customers.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Greg, on tariffs, we are availing ourselves of the process to get refunds. We would definitely bias and try to prioritize price investment for that, given what we've seen both in terms of the pressure on consumers from fuel prices, but importantly, as well as the retention and the share gains that we've had, we think the single best return that we can have on a dollar of capital right now is to invest in the customer and invest in price. So that's — we talked about the number of rollbacks that we have right now. We'll continue to lean in and try to be there for our members and customers in this environment.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Kate McShane with Goldman Sachs.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Katharine McShane",
+   "title": "Analyst, Goldman Sachs",
+   "content": "With the launch of some of the alternative revenue platforms into Canada and Mexico, when can we expect to see a contribution to the enterprise margin as a result?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "Kate, first, we're excited about platforms. We have built a number of capabilities in a variety of markets, not just the U.S., but a large number of these platforms have been put together in the U.S., and we're excited about the ability for those platforms to be able to transfer into markets around North America and at the right time in other markets. We have a saying we've been talking about a lot in the company, you build once and you scale globally, and we have a long history of our very best ideas coming from our associates. And when those ideas work, we transfer them quickly. We have a lot of momentum in commerce solutions, which includes our advertising business, membership and our data ventures businesses. And we think that those are set up well to be able to transfer around. So I'll let Chris add on to that for both the markets you asked about.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Christopher Nicholas",
+   "title": "President, Walmart International",
+   "content": "I think it's really fair to say that we're really excited about the idea that we can take the incredible businesses with strong foundations we've got today and make them better. And everything that you've heard about building robust omnichannel ecosystems in the U.S. is true of what we see in the Americas in particular, but also everywhere. Build once and scale globally, by the way, does also mean that we'll find inspiration everywhere else in the world and bring that inspiration back to the core of Walmart too, but we are starting to see early signs. So 27% eCom growth in International is really powerful. But I would throw three other numbers out there. That's a 30% eCommerce penetration, and we saw 30% growth in membership and 30% growth in ads. So they're small numbers, but they're growing fast, and we feel really confident about the impact that's having on the customer value proposition.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Michael Lasser with UBS.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Michael Lasser",
+   "title": "Analyst, UBS",
+   "content": "If we look at Walmart's financial performance over the last few quarters, there's been a series of one-off external headwinds that have stood in the way from the business making progress towards that goal of generating consistent double-digit operating income growth that was outlined at the Financial Community Meeting a few years ago. Now the outside world from here probably doesn't get any easier. So should we manage our expectations as outsiders that it's just going to be more difficult to achieve that double-digit operating income growth outcome in a world as dynamic as it is today? We understand that much of that is related to this new P&L, the alternative revenues that are generating. So maybe it would be helpful to understand where each of those principal revenue streams are today versus where you see their potential?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Michael, this is John David. Happy to address the question. To start with, I'll remind everyone what we shared at our Investor Day. We talked about a multiyear plan of growing the top line roughly 4% and growing operating income faster than that. And we depicted that, I think, in a measured way on a graph that was roughly 4% to 8% operating income growth. It is true that if you look at the incremental margins of the business, you can get to the double-digit range, and you saw that in the U.S. eCommerce business this quarter. I want to be really clear, like we are probably as excited about the potential of our business today than at any point in time in the last few years. So I don't think tamping or metering expectations is necessary. It so happens that tariffs last year and higher fuel prices this year are a couple of exogenous shocks that we need to navigate, and that's why we provide the range that we do. But when you look at the core earnings power of the business, the share gains that we're getting across all income cohorts and the growth that we're having in these higher-margin businesses like advertising, fulfillment services, marketplaces, we love the path that we're on. We continue to see acceleration in many of these. I talked about it in my prepared remarks, but if you just take like marketplace, advertising and fulfillment services, collectively as well as individually, those had their best quarter since I've been here. So I hope that validates the conviction that I have around this. But we're not immune. We're not bulletproof to some of these things that are happening in the economy. I mean, fuel prices certainly weren't where they are right now when we gave our guidance at the beginning of the first quarter, yet we still came in the upper half of the range that we provided on a currency-neutral basis. So we're managing the business for the long term. I don't want to get too fixated on one quarter's results because I think that can suboptimize what we're doing overall. So we feel really good about the performance of the business.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Chris Nardone with Bank of America.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Nardone",
+   "title": "Analyst, Bank of America",
+   "content": "How should we think about the sustainability of the strong trends you're seeing in general merchandise and your assumptions around ticket dynamics as we move to the back half of the year? And then just tied to this, can you give us an update on how the advancements you're making with your marketplace expansion are intertwined with your focus on gaining share in this segment?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Chris, this is John David. I'll take the first part of that question on general merchandise, then kick it over to Seth to talk about marketplace. Look, I think there's a couple of dynamics that are worth noting in the first quarter. Tax refunds came in higher than what I think most people expected. And certainly, there's probably some macro benefit as those tax refunds come in. There might be some upward lift on general merchandise. But I don't want to ascribe all of that to macro. Some of what the team is doing is really great. Like we called out fashion as a category that saw outsized growth in the quarter. And the benefit of that is fashion has a derivative benefit on other style-inspired categories like home decor, like beauty, where we continue to see great share gains and some of the best progress we've had in years. Much of this, like if you take beauty as a category, 75% of the growth in beauty came from new brands like La Roche-Posay and others. And so we're expanding our assortment. We're providing this to customers of all income levels. And so we like the progress in general merchandise, but I do want to acknowledge that there were probably some tailwinds in the quarter from higher tax refunds. Seth, do you want to talk about Marketplace?",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Seth Dallaire",
+   "title": "Chief Growth Officer",
+   "content": "Sure. And the Marketplace business is exciting because we're building on the rails of all the speed investments in terms of delivery that we've had over the past few quarters. And I wouldn't say that that is benefiting any one particular category; it benefits all of the categories in the marketplace. And as that assortment increases, and we're able to deliver those products more quickly to our customers and members, it drives visit frequency and purchase frequency, which is really important, both for our membership business, as John David mentioned, and it increases and attracts more advertising from those Marketplace sellers. As assortment increases, we drive more customers and members to our business that attracts more advertisers. And we've seen that actually in our third-party marketplace advertising revenues have increased 50% year-over-year. So we're really encouraged by that.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Christopher Horvers with JPMorgan.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Christopher Horvers",
+   "title": "Analyst, JPMorgan",
+   "content": "So I want to dovetail a bit on the consumer side. How are you thinking about how the consumer behavior changed? John David, you talked about tax stimulus helping the first quarter, but now we're exiting that. Fuel prices are higher, that squeezes the lower end consumer. So can you talk about what are you seeing from a consumer perspective? Do you think that the top of the funnel is sort of bigger than the bottom of the funnel where the trade-in can offset any pressure on the low end? And then on a related note, you mentioned inflation potentially picking up because of fuel prices. You also had a pretty big headwind here in the first quarter from egg deflation. So as that abates, do you think that the pricing environment on the grocery side, where it seems like it's becoming more competitive, sort of could mute out the inflation and cause some pressure from a margin perspective?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "You bet, Chris, a lot to that. Let me try to tackle all of it. First, on the consumer, increasingly, it depends upon which consumer you're talking about. We see with our customers that the high-income customer is spending with confidence into many categories, while the lower-income consumer is more budget conscious and perhaps navigating financial distress. And I'll give you an example: we have a large fuel business, and we see that in the most recent period, the number of gallons that customers fill up with when they come to our fuel stations fell below 10 for the first time since 2022. That's an indication of stress. And so certainly, as you look at quarter-over-quarter incremental pressure, that's one of the areas that I would call out. On inflation, like-for-like inflation was a little more than 1% in the quarter. But through the quarter, obviously, we saw fuel prices go up. And as you think about a category like food, it's heavily dependent upon fertilizer. And nitrogen and phosphates are heavily dependent upon the Strait of Hormuz and the closure there. So I think it's possible that if fuel prices persist at this level, you may see some upward pressure on average unit retail prices. Egg deflation for us, lastly, contributed probably to about almost 100 basis points of deflation in that like-for-like inflation number, meaning it would have been higher. We'll begin lapping periods as we go through the year where eggs weren't as high. So you're right that that could also put some upward pressure on the year-over-year inflation number that's printed.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Paul Lejuez with Citigroup.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Paul Lejuez",
+   "title": "Analyst, Citigroup",
+   "content": "Some competitors are talking about investing in price, trying to take back some market share. I'm curious if you're already seeing signs of that happening in terms of price competitiveness in the U.S. market. And I'd love to hear how you think about your price gaps, where do you think they sit today and how willing you might be to use some of those gaps to defend market share? Also just as a quick second one, I'd love to know your tariff assumptions, what rates you're building in for this year?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "Paul, let me start with your first question. This is a competitive market and has been for all the years that I've been in retail. This is my 33rd year at the company. And I can't remember a year where competitive pricing isn't always top of mind. This is an industry, particularly in food, where everyone is looking for value and has been for a really long time. What the team has done, in particular, at both Sam's and Walmart U.S. in the last quarter, is they focus on where are the places that we want to provide the very best value we can and on top of that, an experience that puts the customer right in the driver's seat. We have an omnichannel strategy, which means we want to sell customers what they want, when they want, however they want it delivered, whether that's at the counter, that's at the curb, that's at their front door or into the refrigerator. And in the quarter, the real standout is having over 7,000 rollbacks that are live and active across the business. And just to remind you, for the last few years, we have accelerated our rollback count in the 5,000 to 5,500 range. So this is an acceleration that's meaningful for customers, and it's a great value message for our customers. And the last thing I'd say is we will continue to operate in an everyday low price strategy across our business. That builds trust over time. We want customers to be able to trust that they can have the very best value on a basket of goods each and every day when they choose to engage at Walmart. We have to earn their business every day. And in a period like this, we'll continue to focus on value to ensure that we have the best value, and we are proud of our price gaps.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "And Paul, on tariffs and for that matter, I'd say with respect to both tariffs and fuel, our merchants and Dave and Latriece can correct me if I'm wrong, but we're generally assuming the same environment that we're in right now.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Oliver Chen with TD Cowen.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Oliver Chen",
+   "title": "Analyst, TD Cowen",
+   "content": "The momentum on Sparky has been impressive on the average order lift. What are you seeing in terms of the category or how that customer is shopping? Also as we think more broadly about being AI native, what are the key priorities? And how are you balancing this across the customer experience as well as the supply chain innovation you've had with AI?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "David Guggina",
+   "title": "President and CEO, Walmart U.S.",
+   "content": "Yes. John mentioned the growth with Sparky in his remarks, and that growth is really being fueled by expanding capabilities. Sparky is now live across both the app, the web and in-store experiences. And we've added new capabilities like personalized replenishment, meal planning and more intelligent recommendations based on our inventory positioning, our prices and our delivery speed capabilities. I think it's important to note that early in Sparky's life, engagement was really centered more heavily on general merchandise discovery missions. But as we have expanded the capabilities around replenishment, meal planning and personalization, we're increasingly seeing customers use Sparky for everyday essentials like food and consumables. And as a result, units purchased through Sparky have grown more than four times since the previous quarter.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Our next question is from the line of Scot Ciccarelli with Truist Securities.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Scot Ciccarelli",
+   "title": "Analyst, Truist Securities",
+   "content": "Earlier, you talked about how you now have delivery capabilities of 30 minutes or less to 60% of the U.S. population. Correct me if I'm wrong, but I believe that's a pretty big increase. So two questions. One, can you help understand the total usage of 30 and 60 minutes deliveries, which I think are all fee generating? And then two, how should we think about the rollout pace of that capability?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "David Guggina",
+   "title": "President and CEO, Walmart U.S.",
+   "content": "Sales in fast delivery have grown more than 50% year-over-year in Q1, and that's really supported by customer adoption growth, which is in addition to average order value in this channel going up. At the same time, we're seeing stronger engagement across categories of fast delivery, including improving use of spend on general merchandise, which saw its highest share gains in five years. I want to share one more fun anecdote on fast delivery. We hit our 1 millionth drone delivery in Q1 for the life of that program, with slightly over 40% of those drone deliveries being completed in Q1. So you can see how that is accelerating. And on average, these orders were airdropped to our customers' homes in just minutes. We're live in 66 locations across four states, Texas, Georgia, North Carolina and Arkansas. And that means we have access to millions of customers.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "John Furner",
+   "title": "CEO",
+   "content": "And Scot, one of the things to remember, as you look at our portfolio around the world, having 11,000 retail locations with inventory for deploy is a really important enabler in the omnichannel model. Being able to serve customers in real time requires you to be close, local to understand assortments, and the investments we've made in data powered by AI so that we can make faster decisions and fulfill in the very best way possible on top of the supply chain investments that we've made over the last few years is all coming together. I mentioned earlier in the call the progress on automation, whether it's in fulfillment centers or the regional distribution centers; while we're proud of those, we're about halfway there. So we have more to do. We have more investments coming, but the speed at which these are coming online is much faster than it was a couple of years ago. So I'm really excited about the strategy and the way that we're positioned to be able to deliver to customers quickly all around the world.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Krisztina Katai with Deutsche Bank.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Krisztina Katai",
+   "title": "Analyst, Deutsche Bank",
+   "content": "I had a question on Marketplace. Obviously, the nice growth at 50%. So I was wondering if you could decompose that into what you're seeing with seller counts, SKU expansion, AOV. And then how should we think about the rollout pace for the balance of the year and just areas that you are particularly excited about to expand where you see the biggest opportunity?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Seth Dallaire",
+   "title": "Chief Growth Officer",
+   "content": "In terms of the expansion, Chris mentioned the Marketplace expansion or capabilities into some of our international markets. We're excited about that. And then we've seen momentum as we mentioned earlier with overall marketplace revenues, but the revenues are really an output of the assortment increases. And the assortment increases are important because that's what's driving engagement with our customers and members. So it's really early days with the marketplace right now. While we've seen good momentum so far, and it's remarkable on the call here, we have a lot of room to run with Marketplace. And as we continue to bring in more assortment from sellers and we deliver those products from those sellers to our customers and members more quickly, it just cranks the flywheel, attracts more sellers and more product and that gives us confidence that the Marketplace is in a really good spot for continued growth momentum moving forward.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Seth, if I could add, I think one of the important points to mention when we talk about our marketplace too, is what's going on with Walmart Fulfillment Services. I noted in my prepared remarks, and I think it's worth underscoring, we had a 150% increase in same-day next-day units sold. And the more that those sellers can take advantage of our fulfillment services, the better for our business it is and the better for their business it is. And so it becomes a win-win. And that's really what you're seeing with some of the acceleration of this growth engine in our business.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Seth Sigman with Barclays.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Seth Sigman",
+   "title": "Analyst, Barclays",
+   "content": "I wanted to ask about health and wellness. It did moderate in the quarter. I know there's a lot of noise in that category. What is happening in the underlying business? And then if you focus specifically on GLP-1, can you talk about the impact that's having now? What is your outlook for that? And I think there is some pricing pressure within GLP-1. Is that actually a good thing? Is that freeing up dollars for the consumer to spend in other categories? Just curious how you guys are seeing that play out.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Seth, let me take that at a high level, then I think Dave might want to share some comments on some of the progress that we're making in our pharmacy business. First, I think the most noteworthy thing is the enactment of maximum fair pricing legislation that was started in January has been about a 100 basis point headwind to our comps. And if you think about the health and wellness business, that is disproportionately in-store. And so as you think about the breakdown of eCommerce versus in-store, our in-store comps would actually be positive if not for that headwind. So overall, it really obscures some of the real progress that we're making in that part of the business, and Dave will talk more about that.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "David Guggina",
+   "title": "President and CEO, Walmart U.S.",
+   "content": "Excluding the impact of Maximum Fair Pricing, the business would have grown mid- to high-single digits for health and wellness. Importantly, the underlying business there remains incredibly strong. We're seeing prescription volumes grow. We continue gaining scripts. The pharmacy delivery continues resonating with our customers, with roughly 20% of the deliveries getting to our customers' doorsteps in under three hours in our health and wellness business. And we remain focused on delivering affordable, convenient health care solutions for customers while continuing to expand our digital health care capabilities.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Bob Drbul with BTIG.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Robert Drbul",
+   "title": "Analyst, BTIG",
+   "content": "I was wondering if we could focus a bit on private brands, especially as it relates to the consumer. I think you called out general merchandise in Walmart up double digits. But can you talk about private brands in the grocery business and also what you're seeing in Sam's Club.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "I'll start here and then some of the segment leaders may want to jump in. But I think it's important to note that when you look at private brand, it's very different, the composition in terms of what's happened in general merchandise versus food. Overall, private brand penetration was down about 40 basis points for us in the quarter. And the breakdown of that is food was down a little bit more than 100 basis points and GM was up almost 200 basis points. The reason food is down is largely due to eggs. Eggs is a big private brand item for us. And so if not for that, you continue to see probably a greater penetration into private brand. But I don't know if Latriece or Dave, do you want to talk?",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "David Guggina",
+   "title": "President and CEO, Walmart U.S.",
+   "content": "Private brands continue to be an important differentiator for Walmart, and we're seeing strong customer response across both the value that we're bringing and the elevated offerings that we brought to the market. Customers continue to engage with the trusted brands they know, like Great Value and Equate while the newer brands that the team has built, like bettergoods and Freshness Guaranteed, help us attract new customers and particularly high-income customers. And we're also excited about the recent refresh of Great Value. That's the brand's first major redesign in more than a decade and that improves shelf presentation for in-store shoppers but also digital shoppers and really reinforces the quality and the value that customers expect from Walmart private brands.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Latriece Watkins",
+   "title": "President, Sam's Club U.S.",
+   "content": "Thanks, Dave. We are celebrating our second year of Member's Mark being our primary private brand at Sam's Club and a key differentiator of that brand is it is co-created with our Member's Mark community. So you all may know that half of our member growth is coming from millennial and Gen Z members, and they like participating with the brand. So they're helping us create and choose items in the brand that are really resonating with them. An example would be members love this Member's Mark Piqué Sandwash Dress. They've chosen the colors. They have chosen the style of the dress and they're buying it with a lot of frequency. Second, across the food business, our members told us that they wanted items that were made without certain ingredients — so in January, we were able to reach the goal of 100% of our Member's Mark food and beverage items having a 'made without' label. We're proud of that. We're proud, one, because it's great for our members, and secondarily, because they ask for it, we're able to deliver it, and it's paying off with them renewing and new joins with us.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Chuck Grom from Gordon Haskett.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Charles Grom",
+   "title": "Analyst, Gordon Haskett",
+   "content": "I think this is one of the first times in a while the product category mix has been a margin source for Walmart. Can you help us think about the opportunity set here? In other words, how much has it held back U.S. gross margins over the past few years because of the gains in health and wellness and grocery?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "I'll attempt to tackle that, Chuck. We were really pleased with the progress in the quarter. And as I noted, I think this is certainly the first time since I've been at Walmart, and I believe 18 quarters since we've seen merchandise category mix be a tailwind to gross profit. And really, when you consider the other dynamics in the quarter, the increase in fuel prices obscured some of the progress that was there. So we're pleased about that. Probably in the next quarter, we're not going to see the same type of or the same level of improvement that we saw in the first quarter, at least that's our expectation. As I noted, I think we certainly probably saw some benefit from tax refunds. But if you zoom out and you think about the path that we're on and some of the margin drivers over the business on a multiyear basis, we've talked about general merchandise being one of the big drivers. And a big vehicle for doing that is our marketplace. As we have more third-party assortment that's coming on to our marketplace, it gives us the opportunity to lean more heavily into general merchandise, which as you know very well, has a higher gross profit than food. So I think this is a multiyear journey that we're on. We're excited about the progress in the first quarter, but not every quarter is going to be exactly like this. It's not directly up and to the right, but I think it gives you an indication of the path that we're on.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "The next question is from the line of Corey Tarlowe with Jefferies.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Corey Tarlowe",
+   "title": "Analyst, Jefferies",
+   "content": "Great. John David, I wanted to ask on the EBIT guide for the second quarter. It looks like the year-over-year growth is actually accelerating in Q2 versus Q1. That's in spite of incremental fuel headwinds, I would assume, being captured in the duration of the full quarter. So could you talk a little bit about how to think about the second quarter operating income growth, especially dovetailing off of the comment you just made about merch margins not moving in the same magnitude as Q2 versus Q1 as well?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Sure. And this also, Corey, probably, in some ways, addresses Michael's earlier question. So glad to come back to this. So let's take our operating income guide, which is on a currency-neutral basis. We guide 7% to 10%. We noted 130 basis points of FX tailwind. So if you take the top end of that guide, you're really talking about an operating income growth on a reported basis of almost 11.5%, which by my estimation, is double digits. So I think that really shows the acceleration in the business. Now I want to be balanced and fair here. We're also lapping Q2 last year where we had higher claims expense. That's built into our base now, but there is a little bit of a tailwind there. But your assertion is correct in that we do think when we look at our business, particularly the performance of these areas that we called out in the first quarter, we're seeing an acceleration through the year. You might remember on the last call, we talked about the first quarter being the most challenging from an operating income perspective. In a business of our size, there's always going to be little puts and takes that affect your year-over-year growth in financials. But we noted that we expect the second quarter and the second half of the year to accelerate. And you're seeing that, and particularly, we're keeping our guide in the face of what are hundreds of millions of dollars of pressure from higher fuel prices.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Our final question will be from the line of Rupesh Parikh with Oppenheimer.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rupesh Parikh",
+   "title": "Analyst, Oppenheimer",
+   "content": "So just going back to higher gas prices. Just curious if you're seeing any behavioral shifts of note, whether consumers are shopping maybe more online versus in-store? And on the merchandising front, whether you're seeing any shifts in consumer behavior, just given some of the pressures out there?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "John Rainey",
+   "title": "Chief Financial Officer",
+   "content": "Rupesh, happy to take the question. It is interesting what you see, and there are little tweaks here and there, but I'll point to just gallons consumed as an example. Like in our Sam's business, and Latriece can correct me if I get these numbers slightly wrong, but in the month of May, our gallons are up 12%. If you look across the industry, they're down 5%. So like that tells you that customers are coming to us looking for value. What's important to note about that is that a fuel member spends 1.6 times more in the rest of the basket than a nonfuel member. And so it just shows the importance of engagement where — and the importance of leaning in, in these periods where wallets are stretched to provide these price points for customers that they find attractive.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "At this time, I'll turn the floor back to Steph Wissink for closing comments.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Stephanie Wissink",
+   "title": "Senior Vice President, Investor Relations",
+   "content": "Yes. Thanks, everyone, for your interest in the company. We really appreciate you taking the time to go through this this morning, and we always appreciate your questions. I'll just close by saying we're really pleased with the strategy of the business, the way the business model is coming together. And most importantly, we're proud of our associates. We're proud of the way our associates are serving customers. They're innovating. They're coming up with great ideas. I've been in several markets just over the last couple of months around the world. And what I see consistently is a group of associates who are innovating. They're working on great brands, great packaging, great labels. The comments that you made, Latriece, about food, I've seen that in multiple countries around the world. And the team is really focused on merchandising. When it comes to the business model, we are really pleased with the way that things are shaping up, mix in terms of merchandise and business mix are both accelerating and we think that over the short term and the long term, those will have a meaningful impact on the way we operate here at Walmart. And then the last thing, the speed at which people are delivering, they're innovating, they're delivering product is impressive. Having deliveries in international and Flipkart, in particular, at 13 minutes is really impressive, 30 minutes or less in Walmart U.S. in six markets and expanding is a great place for us to continue to lean into and I'm really looking forward to seeing how the team delivers this quarter and beyond. We're excited about the business model. We're excited about our guidance, and we look forward to talking to you in a few months.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Ladies and gentlemen, thank you for your participation. This does conclude today's teleconference. You may disconnect your lines at this time, and have a wonderful day.",
+   "sentiment": "0.0"
+  }
+ ]
+}

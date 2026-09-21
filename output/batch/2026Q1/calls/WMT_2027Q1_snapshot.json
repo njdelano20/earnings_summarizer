@@ -1,0 +1,6425 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "WMT",
+  "fiscal_quarter": 1,
+  "fiscal_year": 2027,
+  "quarter_label": "2027Q1",
+  "symbol": "WMT",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q1",
+  "fiscal_label": "2027Q1",
+  "period_end": "2026-04",
+  "fye_month": 1,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Stephanie Wissink",
+    "role": "ir"
+   },
+   {
+    "name": "John Furner",
+    "role": "management"
+   },
+   {
+    "name": "John Rainey",
+    "role": "management"
+   },
+   {
+    "name": "Simeon Gutman",
+    "role": "analyst"
+   },
+   {
+    "name": "Gregory Melich",
+    "role": "analyst"
+   },
+   {
+    "name": "Katharine McShane",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Nicholas",
+    "role": "management"
+   },
+   {
+    "name": "Michael Lasser",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Nardone",
+    "role": "analyst"
+   },
+   {
+    "name": "Seth Dallaire",
+    "role": "management"
+   },
+   {
+    "name": "Christopher Horvers",
+    "role": "analyst"
+   },
+   {
+    "name": "Paul Lejuez",
+    "role": "analyst"
+   },
+   {
+    "name": "Oliver Chen",
+    "role": "analyst"
+   },
+   {
+    "name": "David Guggina",
+    "role": "management"
+   },
+   {
+    "name": "Scot Ciccarelli",
+    "role": "analyst"
+   },
+   {
+    "name": "Krisztina Katai",
+    "role": "analyst"
+   },
+   {
+    "name": "Seth Sigman",
+    "role": "analyst"
+   },
+   {
+    "name": "Robert Drbul",
+    "role": "analyst"
+   },
+   {
+    "name": "Latriece Watkins",
+    "role": "management"
+   },
+   {
+    "name": "Charles Grom",
+    "role": "analyst"
+   },
+   {
+    "name": "Corey Tarlowe",
+    "role": "analyst"
+   },
+   {
+    "name": "Rupesh Parikh",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "First Quarter",
+   "detail": "the call says 'First Quarter', matching 2027Q1"
+  },
+  "reported_period_label": "q1",
+  "source_file": "WMT_2027Q1.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided flat",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.92",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "WMT_2027_1-S037",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "membership_fee",
+   "name": "Membership Fee",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 17.0,
+    "period": "q1",
+    "fact_id": "WMT_2027_1-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "walmart_u_s",
+   "name": "Walmart U.S.",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 50.0,
+    "period": "q1",
+    "fact_id": "WMT_2027_1-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "sam_s_club_u_s_membership",
+   "name": "Sam'S Club U.S. Membership",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.6,
+    "period": "q1",
+    "fact_id": "WMT_2027_1-009",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "q2",
+   "name": "Q2",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "third_party_marketplace_advertising",
+   "name": "Third-Party Marketplace Advertising",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 50.0,
+    "period": "q1",
+    "fact_id": "WMT_2027_1-015",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "WMT_2027_1-004",
+   "WMT_2027_1-003",
+   "WMT_2027_1-002"
+  ],
+  "signal_ids": [
+   "WMT_2027_1-S003",
+   "WMT_2027_1-S004",
+   "WMT_2027_1-S005",
+   "WMT_2027_1-S014",
+   "WMT_2027_1-S017",
+   "WMT_2027_1-S021",
+   "WMT_2027_1-S023",
+   "WMT_2027_1-S033",
+   "WMT_2027_1-S036",
+   "WMT_2027_1-S037",
+   "WMT_2027_1-S038",
+   "WMT_2027_1-S040",
+   "WMT_2027_1-S049",
+   "WMT_2027_1-S077",
+   "WMT_2027_1-S116",
+   "WMT_2027_1-S122",
+   "WMT_2027_1-S151"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "membership_fee",
+   "name": "Membership Fee",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WMT_2027_1-001"
+   ],
+   "signal_ids": [
+    "WMT_2027_1-S028",
+    "WMT_2027_1-S059",
+    "WMT_2027_1-S060",
+    "WMT_2027_1-S061",
+    "WMT_2027_1-S064"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "walmart_u_s",
+   "name": "Walmart U.S.",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WMT_2027_1-007",
+    "WMT_2027_1-010",
+    "WMT_2027_1-008",
+    "WMT_2027_1-005",
+    "WMT_2027_1-006"
+   ],
+   "signal_ids": [
+    "WMT_2027_1-S042",
+    "WMT_2027_1-S055",
+    "WMT_2027_1-S065"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "sam_s_club_u_s_membership",
+   "name": "Sam'S Club U.S. Membership",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WMT_2027_1-009"
+   ],
+   "signal_ids": [
+    "WMT_2027_1-S062",
+    "WMT_2027_1-S063"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "q2",
+   "name": "Q2",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WMT_2027_1-011"
+   ],
+   "signal_ids": [
+    "WMT_2027_1-S039",
+    "WMT_2027_1-S074",
+    "WMT_2027_1-S081"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "third_party_marketplace_advertising",
+   "name": "Third-Party Marketplace Advertising",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WMT_2027_1-015"
+   ],
+   "signal_ids": [
+    "WMT_2027_1-S110"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "WMT_2027_1-S037",
+    "direction_word": "flat",
+    "text": "First quarter adjusted operating income growth in constant currency of approximately 5% was in line with our guidance despite higher-than-anticipated fuel cost.",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 23,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.92
+   }
+  },
+  "speakers": {
+   "John Furner": {
+    "confident": 11
+   },
+   "John Rainey": {
+    "confident": 9
+   },
+   "Christopher Nicholas": {
+    "confident": 2
+   },
+   "Seth Dallaire": {
+    "confident": 3,
+    "cautious": 1
+   },
+   "David Guggina": {
+    "confident": 1
+   },
+   "Latriece Watkins": {
+    "confident": 2
+   }
+  },
+  "notable_confident": [
+   "WMT_2027_1-S140",
+   "WMT_2027_1-S010",
+   "WMT_2027_1-S158",
+   "WMT_2027_1-S038"
+  ],
+  "notable_cautious": [
+   "WMT_2027_1-S138"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "WMT_2027_1-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "The team delivered strong sales growth for the quarter, and I want to thank our associates for the work they're doing.",
+   "ev_start": 1495,
+   "ev_end": 1613,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Running an omnichannel business through great stores and clubs requires the best technology and people that embrace innovation while executing the basics every day.",
+   "ev_start": 1798,
+   "ev_end": 1962,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S003",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "When I look at the consumer, especially here in the U.S., they're telling us they're feeling some pressure, and they're looking to Walmart for value.",
+   "ev_start": 2179,
+   "ev_end": 2328,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S004",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "We're continuing to invest in prices, extending the rollbacks we started in the second half of last year, and we now have about 7,200 rollbacks in place.",
+   "ev_start": 2329,
+   "ev_end": 2482,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S005",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "We recently launched a basket of grilling essentials that feeds 8 people at under $5 per person.",
+   "ev_start": 2589,
+   "ev_end": 2685,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "saw strong growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "We saw strong growth in eCommerce, including advertising and marketplace.",
+   "ev_start": 2765,
+   "ev_end": 2838,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S007",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining"
+    ],
+    "competition": [
+     "gaining market share"
+    ],
+    "performance": [
+     "growth",
+     "units"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "We're gaining market share and growth in transactions and units is driving the top line.",
+   "ev_start": 2839,
+   "ev_end": 2927,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "Transaction growth in the U.S. was the strongest we've seen in six quarters.",
+   "ev_start": 2928,
+   "ev_end": 3004,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S009",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel great about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "So I feel great about the way we're executing our strategy.",
+   "ev_start": 3005,
+   "ev_end": 3064,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S010",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "John David will talk more in detail about our results for the quarter, including the impact of higher fuel costs on our operations, and we're pleased to reiterate our outlook for this year.",
+   "ev_start": 3065,
+   "ev_end": 3254,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "The pace of change is accelerating, and we're moving more quickly to realize the benefits of the business model we've built.",
+   "ev_start": 3362,
+   "ev_end": 3486,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S012",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "We're investing in areas that strengthen our competitive position, including pricing and wages and benefits for our associates.",
+   "ev_start": 3487,
+   "ev_end": 3614,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "Using AI, we can now serve customer needs that previous technologies could not meet, from making shopping easier and more personalized to expanding the range of shopping occasions and interactions we have with our customers and members.",
+   "ev_start": 4177,
+   "ev_end": 4413,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up over 100"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Weekly active users are up over 100% just in the last quarter, and our investments in AI have increased Sparky intelligence and response quality by 40% this year.",
+   "ev_start": 4474,
+   "ev_end": 4636,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S015",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "As a merchant, I'm really excited about the growth we see in our assortment.",
+   "ev_start": 4933,
+   "ev_end": 5009,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding",
+     "improving",
+     "growing"
+    ],
+    "performance": [
+     "customers",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "We're expanding choice for our customers and members by improving our first-party assortment, especially in areas of trend and fashion, and we're growing our marketplace.",
+   "ev_start": 5010,
+   "ev_end": 5180,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "We recently launched Marketplace cross-border into Canada and Mexico and we like the early results.",
+   "ev_start": 5181,
+   "ev_end": 5280,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S018",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "We can broaden our assortment, bring on new sellers, and drive incremental profit without the proportional capital investment.",
+   "ev_start": 5392,
+   "ev_end": 5518,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 2.42,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "And sales on our Marketplace in the U.S. grew almost 50% for the quarter.",
+   "ev_start": 5519,
+   "ev_end": 5592,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S020",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "partnering"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "I like how we're partnering with sellers to help them grow their business with us and this isn't just about Marketplace.",
+   "ev_start": 5593,
+   "ev_end": 5713,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S021",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "Investments in our supply chain and the application of AI are improving how we position inventory, make fulfillment decisions and serve customers and members in real time.",
+   "ev_start": 6109,
+   "ev_end": 6280,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Enterprise eCommerce sales grew 26% and within Walmart U.S., delivery grew 45%.",
+   "ev_start": 6281,
+   "ev_end": 6360,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-time high",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "sales",
+     "all-time"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "At Sam's Club U.S., delivery from club grew more than 90% and sales mix from eCommerce is now at an all-time high.",
+   "ev_start": 6470,
+   "ev_end": 6584,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S024",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "Our store and club network, more than 10,900 locations, continues to be a key advantage.",
+   "ev_start": 7011,
+   "ev_end": 7099,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "As the economics continue to improve, speed becomes an engine of operating leverage, not just a better experience for customers and members.",
+   "ev_start": 7219,
+   "ev_end": 7359,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "As we deploy these capabilities, we're also upskilling associates and creating new opportunities as technology changes how work gets done.",
+   "ev_start": 7805,
+   "ev_end": 7943,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "For the quarter, our Advertising business grew more than 30% for each segment, including 36% for Walmart U.S.",
+   "ev_start": 8299,
+   "ev_end": 8408,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "membership_fee"
+   ],
+   "home": "membership_fee",
+   "fact_ids": [
+    "WMT_2027_1-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "Membership fee revenue grew 17% for the enterprise, led by Walmart U.S.",
+   "ev_start": 8409,
+   "ev_end": 8480,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "profits"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "Another way we're mixing up profits better is by improving the performance of general merchandise.",
+   "ev_start": 8569,
+   "ev_end": 8667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "We have momentum and a clear strategy.",
+   "ev_start": 8989,
+   "ev_end": 9027,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "customers",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "We'll continue to reinforce a unique value proposition by focusing on serving customers and members better, while improving the economics of our business and positioning us for sustained long-term growth.",
+   "ev_start": 9028,
+   "ev_end": 9232,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S032",
+   "topics": [
+    "product",
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonate"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "product": [
+     "resonate"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Our value proposition continues to resonate with customers, particularly as higher fuel prices are putting pressure on household budgets.",
+   "ev_start": 9409,
+   "ev_end": 9546,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S033",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeding"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "competition": [
+     "gain share"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "In the first quarter, we delivered constant currency sales growth of nearly 6%, exceeding the top end of our guidance range by 120 basis points and we continue to gain share across our business.",
+   "ev_start": 9547,
+   "ev_end": 9741,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S034",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "competition": [
+     "advantages"
+    ],
+    "performance": [
+     "momentum",
+     "growth",
+     "customers"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "Strong eCommerce momentum continued with 26% growth, highlighting the advantages of our omnichannel model as customers and members increasingly utilize our fast delivery capabilities from stores and clubs.",
+   "ev_start": 9742,
+   "ev_end": 9947,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "customers",
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Customers and members are also shopping deeper into our catalog as third-party marketplace sales growth in the U.S. reached the highest level in 2.5 years.",
+   "ev_start": 9948,
+   "ev_end": 10103,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "In addition, our Advertising business had one of its best quarters growing 37% globally.",
+   "ev_start": 10104,
+   "ev_end": 10192,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S037",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "WMT_2027_1-002"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "First quarter adjusted operating income growth in constant currency of approximately 5% was in line with our guidance despite higher-than-anticipated fuel cost.",
+   "ev_start": 10193,
+   "ev_end": 10353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S038",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "share gains"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "We're confident this was the right approach to reinforce customer trust and support share gains over the long term.",
+   "ev_start": 10609,
+   "ev_end": 10724,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S039",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": []
+   },
+   "score": 6.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "And if the current elevated cost environment persists, we'd expect somewhat higher retail price inflation in Q2 and the second half of the year.",
+   "ev_start": 10895,
+   "ev_end": 11039,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth",
+     "profitability"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "We said at that time that we believe the first quarter operating income growth would be the lowest of any quarter and profitability would improve thereafter.",
+   "ev_start": 11179,
+   "ev_end": 11336,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S041",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage",
+     "share gain"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "Our long-term growth strategy is clear, and we continue to execute, while also maintaining flexibility to take advantage of the short-term share gain opportunities as they emerge.",
+   "ev_start": 11375,
+   "ev_end": 11554,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "walmart_u_s"
+   ],
+   "home": "walmart_u_s",
+   "fact_ids": [
+    "WMT_2027_1-004",
+    "WMT_2027_1-005",
+    "WMT_2027_1-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 4.1"
+    ],
+    "performance": [
+     "revenue",
+     "sales"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Consolidated revenue in constant currency increased nearly $10 billion, led by Walmart U.S. comp sales, which were up 4.1% despite a 100 basis point headwind from maximum fair pricing legislation and pharmacy.",
+   "ev_start": 11603,
+   "ev_end": 11812,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest",
+     "improvements",
+     "expanded"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Fashion performed very well, driven by assortment improvements and expanded third-party offerings, leading to the category's strongest share growth in five years.",
+   "ev_start": 11813,
+   "ev_end": 11975,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "eCommerce sales were strong across each of our segments with delivery speed a key catalyst for growth around the world.",
+   "ev_start": 11976,
+   "ev_end": 12095,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "We're accelerating by using our unique assets, stores and clubs, DCs and FCs and last-mile delivery networks to get orders to customers faster and more efficiently.",
+   "ev_start": 12096,
+   "ev_end": 12260,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "In the U.S., sales utilizing store fulfilled delivery have more than doubled over the past two years.",
+   "ev_start": 12261,
+   "ev_end": 12362,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Over 36% of these orders were delivered in under three hours in Q1, an improvement of 800 basis points over the past two years and our under one hour and under 30-minute solutions are growing the fastest.",
+   "ev_start": 12363,
+   "ev_end": 12567,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S048",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "product": [
+     "customer satisfaction"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "We can now reach approximately 60% of the U.S. population in 30 minutes or less and customer satisfaction with our delivery offering reached record highs.",
+   "ev_start": 12568,
+   "ev_end": 12722,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "In China, eCommerce grew over 30% as we use our cloud network to make deliveries within minutes.",
+   "ev_start": 12723,
+   "ev_end": 12819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 2.64,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "And Sam's Club U.S. club fulfilled delivery sales grew more than 90% in Q1.",
+   "ev_start": 12918,
+   "ev_end": 12993,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S051",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Marketplace is an area that we invested in last year and the momentum is building.",
+   "ev_start": 13154,
+   "ev_end": 13236,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "growth",
+     "accelerated"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "In addition, we're seeing incremental growth as we've accelerated the speed of delivery promise through our Walmart Fulfillment Services.",
+   "ev_start": 13415,
+   "ev_end": 13552,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S053",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "product": [
+     "shipped"
+    ],
+    "performance": [
+     "units",
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "Units shipped same day or next day through WFS grew nearly 150% in Q1.",
+   "ev_start": 13553,
+   "ev_end": 13623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S054",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Now we're deploying these global marketplace capabilities outside the U.S., including Walmex and Canada.",
+   "ev_start": 13624,
+   "ev_end": 13728,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "walmart_u_s"
+   ],
+   "home": "walmart_u_s",
+   "fact_ids": [
+    "WMT_2027_1-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "We achieved these sales results while continuing to improve underlying eCommerce economics, most notably in the International segment, where our performance in our Asia businesses led to more than 10% operating income growth in the segment.",
+   "ev_start": 13729,
+   "ev_end": 13969,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "improve",
+     "with strong growth"
+    ],
+    "performance": [
+     "growth",
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Enterprise business mix is also continuing to improve with strong growth in higher-margin areas like advertising and membership fees.",
+   "ev_start": 14117,
+   "ev_end": 14250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strength",
+     "grew"
+    ],
+    "performance": [
+     "momentum",
+     "grew"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "Momentum in our advertising business continued in Q1, led by strength in Walmart U.S., which grew 36%.",
+   "ev_start": 14251,
+   "ev_end": 14353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 2.42,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "This performance reflected strong engagement with Marketplace sellers who grew their advertising spend by over 50% and saw a corresponding lift in sales.",
+   "ev_start": 14354,
+   "ev_end": 14507,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "membership_fee"
+   ],
+   "home": "membership_fee",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "increased over 17"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "Consolidated membership fee revenue increased over 17%, including strength in our Sam's Club format in select international markets.",
+   "ev_start": 14726,
+   "ev_end": 14858,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "membership_fee"
+   ],
+   "home": "membership_fee",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "accelerated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "Walmart+ membership fee revenue growth accelerated with net adds reaching a new Q1 high.",
+   "ev_start": 14871,
+   "ev_end": 14959,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "membership_fee"
+   ],
+   "home": "membership_fee",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipping"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "And in this period of elevated gas prices, members are tapping into their fuel savings benefits even more today, reinforcing the value of membership beyond free shipping.",
+   "ev_start": 15114,
+   "ev_end": 15284,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sam_s_club_u_s_membership"
+   ],
+   "home": "sam_s_club_u_s_membership",
+   "fact_ids": [
+    "WMT_2027_1-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "Sam's Club U.S. membership revenue grew 5.6% as members gravitate toward our omnichannel capabilities and fuel savings.",
+   "ev_start": 15285,
+   "ev_end": 15404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "sam_s_club_u_s_membership"
+   ],
+   "home": "sam_s_club_u_s_membership",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "We launched Dynamic Express Delivery, so members can get their favorite club items in under one hour.",
+   "ev_start": 15478,
+   "ev_end": 15579,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S064",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "membership_fee"
+   ],
+   "home": "membership_fee",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "These types of ongoing investments in the member value proposition at Sam's supported the membership fee increase that became effective on May 1.",
+   "ev_start": 15580,
+   "ev_end": 15725,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "walmart_u_s"
+   ],
+   "home": "walmart_u_s",
+   "fact_ids": [
+    "WMT_2027_1-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Q1 marked the first time in 18 quarters that merchandise mix contributed favorably to Walmart U.S. gross margin expansion of 29 basis points.",
+   "ev_start": 15824,
+   "ev_end": 15965,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "improvement",
+     "with growth"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "This reflects broad-based improvement in general merchandise sales, with growth up mid-single digits for the quarter.",
+   "ev_start": 15966,
+   "ev_end": 16083,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S067",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "competition": [
+     "share gains"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "In Q1, we saw the highest level of general merchandise share gains in five years.",
+   "ev_start": 16084,
+   "ev_end": 16165,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "We're continuing to lean into rollbacks and seasonal value programs to reinforce our price leadership, and we're seeing a strong response from customers through increased unit volumes.",
+   "ev_start": 16166,
+   "ev_end": 16350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S069",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "pressures"
+    ],
+    "pressure": [
+     "pressures"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "While there are certainly pressures on the consumer, let me reiterate, our business is strong.",
+   "ev_start": 16483,
+   "ev_end": 16577,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S070",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "We are executing on the important strategic initiatives that are critical to our future sales and earnings growth.",
+   "ev_start": 16578,
+   "ev_end": 16692,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S071",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonate"
+    ],
+    "product": [
+     "resonate"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Our delivery speed and capabilities continue to get faster and reach more customers and members, and our value proposition of low prices with convenience continues to resonate with customers and is the primary reason new customers shop with us.",
+   "ev_start": 16693,
+   "ev_end": 16937,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S072",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year",
+     "guidance"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "We are reiterating our full year guidance of constant currency sales growth between 3.5% and 4.5%.",
+   "ev_start": 16938,
+   "ev_end": 17036,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S073",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "expect",
+     "full year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 62,
+   "sentence": "Based on Q1 performance at 5.7% and our Q2 outlook of 4% to 5% growth, we expect full year sales growth to be toward the upper end of that initial range.",
+   "ev_start": 17037,
+   "ev_end": 17190,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [
+    "WMT_2027_1-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 7"
+    ],
+    "forward": [
+     "expect",
+     "full year",
+     "guidance"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "For Q2 operating income in constant currency, we expect growth of 7% to 10%, and we're reiterating our full year guidance of 6% to 8% growth.",
+   "ev_start": 17191,
+   "ev_end": 17332,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S075",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [
+    "WMT_2027_1-012",
+    "WMT_2027_1-013"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "For Q2, we expect EPS of $0.72 to $0.74 and full year EPS in the range of $2.75 to $2.85.",
+   "ev_start": 17333,
+   "ev_end": 17422,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S076",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 66,
+   "sentence": "If current exchange rates were to stay where they are right now, we would expect an approximate 90 basis point benefit to reported sales growth and an approximate 130 basis point benefit to operating income growth for Q2.",
+   "ev_start": 17474,
+   "ev_end": 17695,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S077",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "We'd also like to note that our guidance does not assume any impact from IEEPA tariff refunds.",
+   "ev_start": 17696,
+   "ev_end": 17790,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S078",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "We are participating in the process and we believe that the maximum refunds we may be eligible to receive as the importer of record represent less than half of one percent of our U.S. annual sales.",
+   "ev_start": 17927,
+   "ev_end": 18124,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "customers"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "In closing, we're excited about the momentum in the business, which is an endorsement from our customers and members that we offer an increasingly compelling omnichannel value proposition rooted in our long-standing purpose to help people save money and live better.",
+   "ev_start": 18125,
+   "ev_end": 18391,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "We continue to make measurable progress in reshaping our profit mix to reinforce customer and associate value while improving returns to shareholders.",
+   "ev_start": 18392,
+   "ev_end": 18542,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S081",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "full year"
+    ],
+    "performance": [
+     "grow",
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "And our full year financial framework to grow operating income faster than sales remains intact, and we look forward to sharing an update following Q2 that reflects continued progress on our strategic growth initiatives.",
+   "ev_start": 18543,
+   "ev_end": 18763,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S082",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 6,
+   "sentence": "You heard the comments about speed and delivery, and we made some investments in the quarter in in-stock and other things that are making the customer experience better.",
+   "ev_start": 19690,
+   "ev_end": 19859,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "expand"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 8,
+   "sentence": "If our core business is performing well and we're growing share like we did in the first quarter, then we have the opportunity to expand those businesses.",
+   "ev_start": 19951,
+   "ev_end": 20105,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 2.44,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 9,
+   "sentence": "And in particular, eCommerce growth of 26% around the world, Marketplace growth of nearly 50% in Walmart U.S. is a very important driver that allows for things like advertising and membership to continue the momentum that they've had.",
+   "ev_start": 20106,
+   "ev_end": 20340,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S085",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 11,
+   "sentence": "In particular, in the quarter, we launched cross-border in a couple of countries in North America.",
+   "ev_start": 20399,
+   "ev_end": 20497,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S086",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 12,
+   "sentence": "We think that's exciting.",
+   "ev_start": 20498,
+   "ev_end": 20523,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 13,
+   "sentence": "And we're building a great seller proposition that I think is going to help us in the short run for serving customers and over the long run, continue to improve our business model overall.",
+   "ev_start": 20524,
+   "ev_end": 20712,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S088",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "So we're really pleased with that.",
+   "ev_start": 20891,
+   "ev_end": 20925,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves"
+    ],
+    "forward": [
+     "we see that",
+     "expect"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 7,
+   "sentence": "When we see that we are able to deliver to customers in the time frames that they expect, we see a much greater engagement with our customers and why that's important to investors is, with that increased engagement, it improves the utility of our membership programs.",
+   "ev_start": 21337,
+   "ev_end": 21604,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S090",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "And as we noted in the prepared comments, 17.5% growth in our membership programs is really strong for the quarter.",
+   "ev_start": 21605,
+   "ev_end": 21720,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S091",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "And I think, like John David said, we're positioned well to weather all environments, and we'll continue to do the right things in terms of investing in the best proposition for our customers throughout the quarter.",
+   "ev_start": 22573,
+   "ev_end": 22788,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S092",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.53,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "I'm really proud of the work that the Fashion team has done in Walmart U.S.",
+   "ev_start": 23538,
+   "ev_end": 23613,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S093",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "There have been a number of investments in the experience, both online and in stores that are making a difference.",
+   "ev_start": 23678,
+   "ev_end": 23792,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.28,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "So I'm excited about eCommerce.",
+   "ev_start": 24204,
+   "ev_end": 24235,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S095",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 11,
+   "sentence": "That was our ninth quarter in the U.S. of growth over 20% and the team continues to innovate and help make the experience go faster for customers.",
+   "ev_start": 24236,
+   "ev_end": 24382,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S096",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 0,
+   "sentence": "Greg, on tariffs, we are availing ourselves of the process to get refunds.",
+   "ev_start": 24397,
+   "ev_end": 24471,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S097",
+   "topics": [
+    "competition",
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "competition": [
+     "share gains"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "strategy": [
+     "investment",
+     "invest"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 1,
+   "sentence": "We would definitely bias and try to prioritize price investment for that, given what we've seen both in terms of the pressure on consumers from fuel prices, but importantly, as well as the retention and the share gains that we've had, we think the single best return that we can have on a dollar of capital right now is to invest in the customer and invest in price.",
+   "ev_start": 24472,
+   "ev_end": 24838,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S098",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 0,
+   "sentence": "Kate, first, we're excited about platforms.",
+   "ev_start": 25292,
+   "ev_end": 25335,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S099",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 1,
+   "sentence": "We have built a number of capabilities in a variety of markets, not just the U.S., but a large number of these platforms have been put together in the U.S., and we're excited about the ability for those platforms to be able to transfer into markets around North America and at the right time in other markets.",
+   "ev_start": 25336,
+   "ev_end": 25645,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S100",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "incredible",
+     "strong"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Christopher Nicholas",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 0,
+   "sentence": "I think it's really fair to say that we're really excited about the idea that we can take the incredible businesses with strong foundations we've got today and make them better.",
+   "ev_start": 26180,
+   "ev_end": 26357,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Nicholas",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 6,
+   "sentence": "So they're small numbers, but they're growing fast, and we feel really confident about the impact that's having on the customer value proposition.",
+   "ev_start": 26938,
+   "ev_end": 27084,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "We talked about a multiyear plan of growing the top line roughly 4% and growing operating income faster than that.",
+   "ev_start": 28158,
+   "ev_end": 28272,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S103",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 6,
+   "sentence": "I want to be really clear, like we are probably as excited about the potential of our business today than at any point in time in the last few years.",
+   "ev_start": 28557,
+   "ev_end": 28706,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S104",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 8,
+   "sentence": "It so happens that tariffs last year and higher fuel prices this year are a couple of exogenous shocks that we need to navigate, and that's why we provide the range that we do.",
+   "ev_start": 28771,
+   "ev_end": 28947,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S105",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "share gains"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 9,
+   "sentence": "But when you look at the core earnings power of the business, the share gains that we're getting across all income cohorts and the growth that we're having in these higher-margin businesses like advertising, fulfillment services, marketplaces, we love the path that we're on.",
+   "ev_start": 28948,
+   "ev_end": 29223,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 10,
+   "sentence": "We continue to see acceleration in many of these.",
+   "ev_start": 29224,
+   "ev_end": 29273,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S107",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 18,
+   "sentence": "So we feel really good about the performance of the business.",
+   "ev_start": 30043,
+   "ev_end": 30104,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S108",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "competition": [
+     "share gains"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 9,
+   "sentence": "And the benefit of that is fashion has a derivative benefit on other style-inspired categories like home decor, like beauty, where we continue to see great share gains and some of the best progress we've had in years.",
+   "ev_start": 31221,
+   "ev_end": 31438,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S109",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 2.42,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 1,
+   "sentence": "And the Marketplace business is exciting because we're building on the rails of all the speed investments in terms of delivery that we've had over the past few quarters.",
+   "ev_start": 31896,
+   "ev_end": 32065,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "third_party_marketplace_advertising"
+   ],
+   "home": "third_party_marketplace_advertising",
+   "fact_ids": [
+    "WMT_2027_1-015"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 50"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 5,
+   "sentence": "And we've seen that actually in our third-party marketplace advertising revenues have increased 50% year-over-year.",
+   "ev_start": 32634,
+   "ev_end": 32749,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S111",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 3,
+   "sentence": "We see with our customers that the high-income customer is spending with confidence into many categories, while the lower-income consumer is more budget conscious and perhaps navigating financial distress.",
+   "ev_start": 33951,
+   "ev_end": 34156,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S112",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see that"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "And I'll give you an example: we have a large fuel business, and we see that in the most recent period, the number of gallons that customers fill up with when they come to our fuel stations fell below 10 for the first time since 2022.",
+   "ev_start": 34157,
+   "ev_end": 34391,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S113",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 6,
+   "sentence": "And so certainly, as you look at quarter-over-quarter incremental pressure, that's one of the areas that I would call out.",
+   "ev_start": 34424,
+   "ev_end": 34546,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S114",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 7,
+   "sentence": "On inflation, like-for-like inflation was a little more than 1% in the quarter.",
+   "ev_start": 34547,
+   "ev_end": 34626,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S115",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 11,
+   "sentence": "So I think it's possible that if fuel prices persist at this level, you may see some upward pressure on average unit retail prices.",
+   "ev_start": 34873,
+   "ev_end": 35004,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S116",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 12,
+   "sentence": "Egg deflation for us, lastly, contributed probably to about almost 100 basis points of deflation in that like-for-like inflation number, meaning it would have been higher.",
+   "ev_start": 35005,
+   "ev_end": 35176,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S117",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure",
+     "inflation"
+    ],
+    "pressure": [
+     "pressure",
+     "inflation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 14,
+   "sentence": "So you're right that that could also put some upward pressure on the year-over-year inflation number that's printed.",
+   "ev_start": 35259,
+   "ev_end": 35375,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S118",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 1,
+   "sentence": "This is a competitive market and has been for all the years that I've been in retail.",
+   "ev_start": 36026,
+   "ev_end": 36111,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S119",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 3,
+   "sentence": "And I can't remember a year where competitive pricing isn't always top of mind.",
+   "ev_start": 36149,
+   "ev_end": 36228,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 8,
+   "sentence": "And just to remind you, for the last few years, we have accelerated our rollback count in the 5,000 to 5,500 range.",
+   "ev_start": 36964,
+   "ev_end": 37079,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration",
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 9,
+   "sentence": "So this is an acceleration that's meaningful for customers, and it's a great value message for our customers.",
+   "ev_start": 37080,
+   "ev_end": 37189,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 12,
+   "sentence": "We want customers to be able to trust that they can have the very best value on a basket of goods each and every day when they choose to engage at Walmart.",
+   "ev_start": 37332,
+   "ev_end": 37487,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S123",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 14,
+   "sentence": "And in a period like this, we'll continue to focus on value to ensure that we have the best value, and we are proud of our price gaps.",
+   "ev_start": 37530,
+   "ev_end": 37664,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S124",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 0,
+   "sentence": "And Paul, on tariffs and for that matter, I'd say with respect to both tariffs and fuel, our merchants and Dave and Latriece can correct me if I'm wrong, but we're generally assuming the same environment that we're in right now.",
+   "ev_start": 37679,
+   "ev_end": 37907,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 33,
+   "sentence_index": 1,
+   "sentence": "John mentioned the growth with Sparky in his remarks, and that growth is really being fueled by expanding capabilities.",
+   "ev_start": 38371,
+   "ev_end": 38490,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S126",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new capabilities"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 33,
+   "sentence_index": 3,
+   "sentence": "And we've added new capabilities like personalized replenishment, meal planning and more intelligent recommendations based on our inventory positioning, our prices and our delivery speed capabilities.",
+   "ev_start": 38565,
+   "ev_end": 38765,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S127",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 33,
+   "sentence_index": 5,
+   "sentence": "But as we have expanded the capabilities around replenishment, meal planning and personalization, we're increasingly seeing customers use Sparky for everyday essentials like food and consumables.",
+   "ev_start": 38913,
+   "ev_end": 39108,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 0,
+   "sentence": "Sales in fast delivery have grown more than 50% year-over-year in Q1, and that's really supported by customer adoption growth, which is in addition to average order value in this channel going up.",
+   "ev_start": 39738,
+   "ev_end": 39934,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S129",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "highest",
+     "improving"
+    ],
+    "competition": [
+     "share gains"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 1,
+   "sentence": "At the same time, we're seeing stronger engagement across categories of fast delivery, including improving use of spend on general merchandise, which saw its highest share gains in five years.",
+   "ev_start": 39935,
+   "ev_end": 40127,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S130",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 4,
+   "sentence": "So you can see how that is accelerating.",
+   "ev_start": 40330,
+   "ev_end": 40370,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S131",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 0,
+   "sentence": "And Scot, one of the things to remember, as you look at our portfolio around the world, having 11,000 retail locations with inventory for deploy is a really important enabler in the omnichannel model.",
+   "ev_start": 40619,
+   "ev_end": 40819,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S132",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 1,
+   "sentence": "Being able to serve customers in real time requires you to be close, local to understand assortments, and the investments we've made in data powered by AI so that we can make faster decisions and fulfill in the very best way possible on top of the supply chain investments that we've made over the last few years is all coming together.",
+   "ev_start": 40820,
+   "ev_end": 41156,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S133",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 2,
+   "sentence": "I mentioned earlier in the call the progress on automation, whether it's in fulfillment centers or the regional distribution centers; while we're proud of those, we're about halfway there.",
+   "ev_start": 41157,
+   "ev_end": 41345,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S134",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 4,
+   "sentence": "We have more investments coming, but the speed at which these are coming online is much faster than it was a couple of years ago.",
+   "ev_start": 41369,
+   "ev_end": 41498,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S135",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.28,
+   "speaker": "John Furner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 5,
+   "sentence": "So I'm really excited about the strategy and the way that we're positioned to be able to deliver to customers quickly all around the world.",
+   "ev_start": 41499,
+   "ev_end": 41638,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S136",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 1,
+   "sentence": "We're excited about that.",
+   "ev_start": 42246,
+   "ev_end": 42271,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S137",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 2,
+   "sentence": "And then we've seen momentum as we mentioned earlier with overall marketplace revenues, but the revenues are really an output of the assortment increases.",
+   "ev_start": 42272,
+   "ev_end": 42426,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S138",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 4,
+   "sentence": "So it's really early days with the marketplace right now.",
+   "ev_start": 42543,
+   "ev_end": 42600,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S139",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.92,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 5,
+   "sentence": "While we've seen good momentum so far, and it's remarkable on the call here, we have a lot of room to run with Marketplace.",
+   "ev_start": 42601,
+   "ev_end": 42724,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S140",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "moving forward"
+    ],
+    "performance": [
+     "customers",
+     "growth",
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.42,
+   "speaker": "Seth Dallaire",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 6,
+   "sentence": "And as we continue to bring in more assortment from sellers and we deliver those products from those sellers to our customers and members more quickly, it just cranks the flywheel, attracts more sellers and more product and that gives us confidence that the Marketplace is in a really good spot for continued growth momentum moving forward.",
+   "ev_start": 42725,
+   "ev_end": 43065,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S141",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 2,
+   "sentence": "And the more that those sellers can take advantage of our fulfillment services, the better for our business it is and the better for their business it is.",
+   "ev_start": 43368,
+   "ev_end": 43522,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S142",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration",
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 4,
+   "sentence": "And that's really what you're seeing with some of the acceleration of this growth engine in our business.",
+   "ev_start": 43552,
+   "ev_end": 43657,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S143",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 1,
+   "sentence": "First, I think the most noteworthy thing is the enactment of maximum fair pricing legislation that was started in January has been about a 100 basis point headwind to our comps.",
+   "ev_start": 44430,
+   "ev_end": 44607,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S144",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 3,
+   "sentence": "And so as you think about the breakdown of eCommerce versus in-store, our in-store comps would actually be positive if not for that headwind.",
+   "ev_start": 44702,
+   "ev_end": 44843,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S145",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 2,
+   "sentence": "We're seeing prescription volumes grow.",
+   "ev_start": 45199,
+   "ev_end": 45238,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S146",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "product": [
+     "resonating"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 4,
+   "sentence": "The pharmacy delivery continues resonating with our customers, with roughly 20% of the deliveries getting to our customers' doorsteps in under three hours in our health and wellness business.",
+   "ev_start": 45268,
+   "ev_end": 45459,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S147",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 5,
+   "sentence": "And we remain focused on delivering affordable, convenient health care solutions for customers while continuing to expand our digital health care capabilities.",
+   "ev_start": 45460,
+   "ev_end": 45619,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S148",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator",
+     "strong"
+    ],
+    "competition": [
+     "differentiator"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 0,
+   "sentence": "Private brands continue to be an important differentiator for Walmart, and we're seeing strong customer response across both the value that we're bringing and the elevated offerings that we brought to the market.",
+   "ev_start": 46714,
+   "ev_end": 46926,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S149",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 2,
+   "sentence": "And we're also excited about the recent refresh of Great Value.",
+   "ev_start": 47180,
+   "ev_end": 47243,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S150",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.53,
+   "speaker": "David Guggina",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "That's the brand's first major redesign in more than a decade and that improves shelf presentation for in-store shoppers but also digital shoppers and really reinforces the quality and the value that customers expect from Walmart private brands.",
+   "ev_start": 47244,
+   "ev_end": 47489,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S151",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator"
+    ],
+    "competition": [
+     "differentiator"
+    ]
+   },
+   "score": 4.14,
+   "speaker": "Latriece Watkins",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 1,
+   "sentence": "We are celebrating our second year of Member's Mark being our primary private brand at Sam's Club and a key differentiator of that brand is it is co-created with our Member's Mark community.",
+   "ev_start": 47523,
+   "ev_end": 47713,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S152",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "product": [
+     "resonating"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Latriece Watkins",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 3,
+   "sentence": "So they're helping us create and choose items in the brand that are really resonating with them.",
+   "ev_start": 47854,
+   "ev_end": 47950,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S153",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Latriece Watkins",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 8,
+   "sentence": "We're proud of that.",
+   "ev_start": 48391,
+   "ev_end": 48411,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S154",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Latriece Watkins",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 9,
+   "sentence": "We're proud, one, because it's great for our members, and secondarily, because they ask for it, we're able to deliver it, and it's paying off with them renewing and new joins with us.",
+   "ev_start": 48412,
+   "ev_end": 48595,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S155",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 1,
+   "sentence": "We were really pleased with the progress in the quarter.",
+   "ev_start": 49051,
+   "ev_end": 49107,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S156",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "forward": [
+     "i believe"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 2,
+   "sentence": "And as I noted, I think this is certainly the first time since I've been at Walmart, and I believe 18 quarters since we've seen merchandise category mix be a tailwind to gross profit.",
+   "ev_start": 49108,
+   "ev_end": 49291,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S157",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 4,
+   "sentence": "So we're pleased about that.",
+   "ev_start": 49431,
+   "ev_end": 49459,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S158",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 53,
+   "sentence_index": 11,
+   "sentence": "We're excited about the progress in the first quarter, but not every quarter is going to be exactly like this.",
+   "ev_start": 50234,
+   "ev_end": 50344,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S159",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 7,
+   "sentence": "So I think that really shows the acceleration in the business.",
+   "ev_start": 51505,
+   "ev_end": 51567,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S160",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "through the year"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 11,
+   "sentence": "But your assertion is correct in that we do think when we look at our business, particularly the performance of these areas that we called out in the first quarter, we're seeing an acceleration through the year.",
+   "ev_start": 51756,
+   "ev_end": 51967,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S161",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 14,
+   "sentence": "But we noted that we expect the second quarter and the second half of the year to accelerate.",
+   "ev_start": 52234,
+   "ev_end": 52327,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WMT_2027_1-S162",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John Rainey",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 15,
+   "sentence": "And you're seeing that, and particularly, we're keeping our guide in the face of what are hundreds of millions of dollars of pressure from higher fuel prices.",
+   "ev_start": 52328,
+   "ev_end": 52486,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "WMT_2027_1-S028",
+  "WMT_2027_1-S059",
+  "WMT_2027_1-S060",
+  "WMT_2027_1-S061",
+  "WMT_2027_1-S064",
+  "WMT_2027_1-S042",
+  "WMT_2027_1-S055",
+  "WMT_2027_1-S065",
+  "WMT_2027_1-S062",
+  "WMT_2027_1-S063",
+  "WMT_2027_1-S039",
+  "WMT_2027_1-S074",
+  "WMT_2027_1-S081",
+  "WMT_2027_1-S110",
+  "WMT_2027_1-S003",
+  "WMT_2027_1-S004",
+  "WMT_2027_1-S005",
+  "WMT_2027_1-S014",
+  "WMT_2027_1-S017",
+  "WMT_2027_1-S021",
+  "WMT_2027_1-S023",
+  "WMT_2027_1-S033",
+  "WMT_2027_1-S036",
+  "WMT_2027_1-S037",
+  "WMT_2027_1-S038",
+  "WMT_2027_1-S040",
+  "WMT_2027_1-S049",
+  "WMT_2027_1-S077",
+  "WMT_2027_1-S116",
+  "WMT_2027_1-S122",
+  "WMT_2027_1-S151"
+ ],
+ "surfaced_signal_ids": [
+  "WMT_2027_1-S028",
+  "WMT_2027_1-S059",
+  "WMT_2027_1-S060",
+  "WMT_2027_1-S061",
+  "WMT_2027_1-S064",
+  "WMT_2027_1-S042",
+  "WMT_2027_1-S055",
+  "WMT_2027_1-S065",
+  "WMT_2027_1-S062",
+  "WMT_2027_1-S063",
+  "WMT_2027_1-S039",
+  "WMT_2027_1-S074",
+  "WMT_2027_1-S081",
+  "WMT_2027_1-S110",
+  "WMT_2027_1-S003",
+  "WMT_2027_1-S004",
+  "WMT_2027_1-S005",
+  "WMT_2027_1-S014",
+  "WMT_2027_1-S017",
+  "WMT_2027_1-S021",
+  "WMT_2027_1-S023",
+  "WMT_2027_1-S033",
+  "WMT_2027_1-S036",
+  "WMT_2027_1-S037",
+  "WMT_2027_1-S038",
+  "WMT_2027_1-S040",
+  "WMT_2027_1-S049",
+  "WMT_2027_1-S077",
+  "WMT_2027_1-S116",
+  "WMT_2027_1-S122",
+  "WMT_2027_1-S151",
+  "WMT_2027_1-S140",
+  "WMT_2027_1-S010",
+  "WMT_2027_1-S158",
+  "WMT_2027_1-S138"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "membership_fee",
+   "walmart_u_s",
+   "sam_s_club_u_s_membership",
+   "q2",
+   "third_party_marketplace_advertising"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "WMT_2027_1-012",
+   "WMT_2027_1-013",
+   "WMT_2027_1-014",
+   "WMT_2027_1-016"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "4 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 162,
+  "signals_usable": 162,
+  "selected": 31,
+  "by_topic": {
+   "momentum": 81,
+   "product": 19,
+   "pressure": 17,
+   "strategy": 14,
+   "competition": 17
+  },
+  "by_horizon": {
+   "current": 138,
+   "forward": 24
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 5,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

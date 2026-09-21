@@ -30,3 +30,11 @@
 2026-09-21T15:35:03  DAL: ok (fetched) 2026Q2: 19 facts, 48 unclaimed, period unknown, ATTENTION: period_unchecked; many_unclaimed_figures; no_segment_map; assumed_calendar_year
 2026-09-21T15:35:05  NEE: ok (fetched) 2026Q2: 8 facts, 40 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
 2026-09-21T15:35:07  PLD: ok (fetched) 2026Q2: 2 facts, 66 unclaimed, period pass, ATTENTION: few_facts; many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:35:10  VZ: ok (fetched) 2026Q2: 29 facts, 51 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map; assumed_calendar_year
+2026-09-21T15:35:13  MSFT: ok (fetched) 2026Q4: 67 facts, 50 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T15:35:14  NVDA: no transcript for 2027Q2 yet (No transcript returned for NVDA 2027Q2.)
+2026-09-21T15:35:15  Done: 20 of 23 symbols scored (20 fetched this run); review queue 1107 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md
+2026-09-21T15:38:49  WMT: ok (fetched) 2027Q1: 16 facts, 58 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T15:38:50  HD: fatal: Alpha Vantage: We have detected your API key as ***REDACTED*** and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/pre
+2026-09-21T15:38:50  Done: 2 of 3 symbols scored (2 fetched this run); review queue 115 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q1\summary.md
+2026-09-21T15:38:50  Stopped early: fix the API key, then run again.

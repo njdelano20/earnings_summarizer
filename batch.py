@@ -48,7 +48,7 @@ from pathlib import Path
 import periods
 from evaluate import evaluate, evaluate_snapshot, facts_ok, snapshot_ok
 from facts import extract_facts
-from fetchers import AlphaVantageError, NoTranscriptError, fetch_from_alphavantage
+from fetchers import AlphaVantageError, NoTranscriptError, fetch_from_alphavantage, scrub_secrets
 from snapshot import build_snapshot
 from transcript import build_from_structured
 from writer import write_facts_json, write_snapshot
@@ -76,6 +76,7 @@ AUDIT_COLUMNS = ["symbol", "season", "fact_id", "metric", "segment", "stat", "va
 # --------------------------------------------------------------------------- #
 
 def log(message: str, root: Path | None = None) -> None:
+    message = scrub_secrets(message)             # belt and braces: nothing key-shaped reaches the console or the log
     print(message)
     root = root or BATCH_ROOT
     try:
@@ -473,7 +474,8 @@ def run(symbols: list[str], season: str, max_fetches: int = 20, dry_run: bool = 
             log(f"{symbol}: no transcript for {cq.fiscal_label} yet ({exc})", batch_root)
         except AlphaVantageError as exc:
             kind = classify_av_error(str(exc))
-            entry.update(status="rate_limited" if kind == "rate_limited" else "error", detail=str(exc)[:300])
+            entry.update(status="rate_limited" if kind == "rate_limited" else "error",
+                         detail=scrub_secrets(str(exc))[:300])
             log(f"{symbol}: {kind}: {str(exc)[:200]}", batch_root)
             if kind in ("rate_limited", "fatal"):
                 fatal = "rate limit reached; run again later" if kind == "rate_limited" else "fix the API key, then run again"

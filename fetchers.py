@@ -88,13 +88,25 @@ def fetch_from_alphavantage(symbol: str, quarter: str, cache_dir: str | Path,
     }
 
 
+_KEY_LIKE = re.compile(r"(?i)(api\s*key(?:\s+as|\s*[=:])?\s*)([A-Za-z0-9]{10,})")
+
+
+def scrub_secrets(text: str, key: str | None = None) -> str:
+    """Remove the API key from any text before it can reach a log, a file or a console. Two layers: the exact key if
+    we know it, and anything shaped like 'API key as XXXX' / 'apikey=XXXX' (Alpha Vantage's own rate-limit reply
+    quotes the key back, so a message from the API is as dangerous as a network error)."""
+    if key:
+        text = text.replace(key, "***")
+    return _KEY_LIKE.sub(r"\1***", text)
+
+
 def _request(symbol: str, quarter: str, api_key: str) -> dict:
     import requests
 
     # The key travels as a URL parameter, so a requests exception message contains it. Never let it reach a log:
     # re-raise everything as AlphaVantageError with the key scrubbed and the original chained away.
     def scrub(text: str) -> str:
-        return text.replace(api_key, "***") if api_key else text
+        return scrub_secrets(text, api_key)
 
     try:
         resp = requests.get(
@@ -113,7 +125,7 @@ def _request(symbol: str, quarter: str, api_key: str) -> dict:
 
     for msg_key in ("Information", "Note", "Error Message"):
         if msg_key in data:
-            raise AlphaVantageError(f"Alpha Vantage: {data[msg_key]}")
+            raise AlphaVantageError(scrub(f"Alpha Vantage: {data[msg_key]}"))     # the API echoes the key in its replies
     turns = data.get("transcript")
     if not isinstance(turns, list) or not turns:
         raise NoTranscriptError(f"No transcript returned for {symbol} {quarter}.")

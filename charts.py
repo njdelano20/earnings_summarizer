@@ -1,11 +1,14 @@
 """
 charts.py
-Chart rendering for the quarterly summary template (docs/summary_template.md): the five
-chart-bearing sections -- headline scoreboard, business segments, margin trend, capital
-allocation, balance sheet snapshot. Pure rendering layer: every function takes already-curated
-numbers, not raw facts.json -- matching a transcript sentence to the right segment/metric is a
-separate, not-yet-built problem (see the template doc's "Open engineering work"); these functions
-assume that matching has already happened, by hand or otherwise.
+Chart rendering for the quarterly summary template (docs/summary_template.md): the four
+chart-bearing sections -- headline scoreboard, business segments, capital allocation, balance
+sheet snapshot. (Margin trend was cut as its own chart 2026-09-22 -- too thin on 1-2 real
+quarterly points to be worth a dedicated section; a margin move is explained in prose wherever
+it's actually driven by something, e.g. a segment mix shift.) Pure rendering layer: every
+function takes already-curated numbers, not raw facts.json -- matching a transcript sentence to
+the right segment/metric is a separate, not-yet-built problem (see the template doc's "Open
+engineering work"); these functions assume that matching has already happened, by hand or
+otherwise.
 
 Palette, color jobs (categorical/status), and mark conventions follow the dataviz skill's
 validated default (OKLCH-checked for colorblind separation -- see its references/palette.md);
@@ -33,7 +36,6 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
 
 ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs"
@@ -83,7 +85,9 @@ def _save(fig, out_path: Path) -> Path:
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     fig.tight_layout()
-    fig.savefig(out_path, facecolor=fig.get_facecolor())
+    # bbox_inches="tight" (not just fig.tight_layout()) so legends/titles placed outside the axes
+    # box -- e.g. the capital-allocation pie's legend via bbox_to_anchor -- never clip at the edge
+    fig.savefig(out_path, facecolor=fig.get_facecolor(), bbox_inches="tight")
     plt.close(fig)
     return out_path
 
@@ -144,70 +148,40 @@ def segment_revenue_chart(segments: list[dict], title: str, out_path: Path) -> P
 
 
 # --------------------------------------------------------------------------- #
-# 3. margin trend -- single series, categorical slot 1, direct end-label (no legend needed)
+# 3. capital allocation -- true nominal categories, fixed categorical order, pie + legend.
+# M&A is deliberately never a slice here (see summary_template.md) -- it belongs in the capital
+# allocation TEXT as a callout when the call discusses one, not charted as a cash outflow unless
+# SEC has actually filed a real acquisitions cash-flow figure for the period.
 # --------------------------------------------------------------------------- #
 
-def margin_trend_chart(points: list[tuple[str, float]], title: str, out_path: Path) -> Path:
-    """points: [("March 2026", 49.3), ("June 2026", 50.1), ...], oldest first."""
-    fig, ax = _new_fig(figsize=(7, 4.2))
-    labels = [p[0] for p in points]
-    values = [p[1] for p in points]
-    ax.plot(labels, values, color=CATEGORICAL[0], linewidth=2, marker="o",
-            markersize=8, markerfacecolor=CATEGORICAL[0], markeredgecolor=SURFACE,
-            markeredgewidth=2, zorder=3)
-    ax.text(len(labels) - 1, values[-1], f"  {values[-1]:.1f}%", va="center", ha="left",
-            fontsize=11, color=INK_PRIMARY, fontweight="bold")
-    span = max(values) - min(values) or 1.0
-    ax.set_ylim(min(values) - span * 0.6, max(values) + span * 0.6)
-    ax.set_ylabel("Gross margin (%)", fontsize=10, color=INK_SECONDARY)
-    _style_ax(ax)
-    ax.yaxis.set_major_locator(mticker.MaxNLocator(nbins=5))
-    ax.set_yticks(ax.get_yticks())
-    # a tight span (e.g. two quarters 0.8pp apart) needs 1 decimal or every tick rounds to the
-    # same integer label -- pick decimals from the actual tick spacing instead of hardcoding one
-    step = ax.get_yticks()[1] - ax.get_yticks()[0] if len(ax.get_yticks()) > 1 else 1.0
-    decimals = 0 if step >= 1 else 1
-    ax.set_yticklabels([f"{t:.{decimals}f}%" for t in ax.get_yticks()])
-    ax.tick_params(axis="x", labelsize=10, colors=INK_PRIMARY)
-    _title(ax, title)
-    if len(points) < 3:
-        ax.text(0.5, -0.22, f"only {len(points)} real data points on file -- too thin to call a "
-                             f"trend yet", transform=ax.transAxes, ha="center", fontsize=8.5,
-                color=INK_MUTED, style="italic")
-    return _save(fig, out_path)
-
-
-# --------------------------------------------------------------------------- #
-# 4. capital allocation -- true nominal categories, fixed categorical order, legend
-# --------------------------------------------------------------------------- #
-
-def capital_allocation_chart(uses: dict[str, float | None], title: str, out_path: Path) -> Path:
-    """uses: {"Dividends paid": 4.0, "Share repurchases": 25.8, "CapEx": None, "M&A": None} --
-    a None value is rendered as a labeled "not stated" bar, never guessed or omitted silently."""
-    fig, ax = _new_fig(figsize=(7.5, 4.6))
+def capital_allocation_chart(uses: dict[str, float], title: str, out_path: Path) -> Path:
+    """uses: {"Dividends paid": 4.0, "Share repurchases": 25.8, "CapEx": 2.455, "Debt repaid": 0.232} --
+    every value here must be real (SEC-filed or transcript-stated); a use with no real figure for
+    this period is simply left out of the dict, never included as a zero or a guess."""
+    fig, ax = _new_fig(figsize=(8, 5.4))
+    ax.axis("off")
     names = list(uses.keys())
-    known = [v for v in uses.values() if v is not None]
-    top = max(known) if known else 1.0
-    for i, (name, val) in enumerate(uses.items()):
-        color = CATEGORICAL[i % len(CATEGORICAL)] if val is not None else STATUS_MISSING
-        height = val if val is not None else top * 0.12
-        bar = ax.bar(i, height, color=color, width=0.6, zorder=3)[0]
-        label = f"${val:.1f}B" if val is not None else "not stated"
-        ax.text(i, height + top * 0.02, label, ha="center", va="bottom", fontsize=9.5,
-                color=INK_PRIMARY if val is not None else INK_MUTED)
-    ax.set_xticks(range(len(names)))
-    ax.set_xticklabels(names, fontsize=10, color=INK_PRIMARY)
-    ax.set_ylim(0, top * 1.25)
-    ax.set_ylabel("$B", fontsize=10, color=INK_SECONDARY)
-    _style_ax(ax)
-    ax.set_yticks(ax.get_yticks())
-    ax.set_yticklabels([f"{int(t)}" for t in ax.get_yticks()])
-    _title(ax, title)
+    values = list(uses.values())
+    colors = [CATEGORICAL[i % len(CATEGORICAL)] for i in range(len(names))]
+    total = sum(values) or 1.0
+
+    def _pct_label(pct):
+        return f"${pct / 100 * total:.1f}B\n({pct:.0f}%)" if pct >= 4 else ""   # skip labels too small to fit
+
+    wedges, _, autotexts = ax.pie(
+        values, colors=colors, autopct=_pct_label, pctdistance=0.72, startangle=90,
+        counterclock=False, wedgeprops={"linewidth": 2, "edgecolor": SURFACE},
+        textprops={"fontsize": 9.5, "color": INK_PRIMARY, "ha": "center"})
+    legend_labels = [f"{n}  (${v:.1f}B)" for n, v in zip(names, values)]
+    ax.legend(wedges, legend_labels, loc="center left", bbox_to_anchor=(1.0, 0.5),
+             frameon=False, fontsize=10, labelcolor=INK_PRIMARY)
+    ax.set_title(title, fontsize=13, color=INK_PRIMARY, loc="left", pad=14, fontweight="bold",
+                x=-0.05)
     return _save(fig, out_path)
 
 
 # --------------------------------------------------------------------------- #
-# 5. balance sheet snapshot -- cash/debt are neutral categories; net position is status-colored
+# 4. balance sheet snapshot -- cash/debt are neutral categories; net position is status-colored
 # --------------------------------------------------------------------------- #
 
 def balance_sheet_chart(cash_b: float, debt_b: float, net_b: float, title: str,
@@ -257,13 +231,8 @@ def _demo() -> None:
         "AAPL Q3 2026 (June quarter) -- Revenue by segment",
         DOCS / "sample_AAPL_Q3_2026_segments.png")
 
-    margin_trend_chart(
-        [("March 2026", 49.3), ("June 2026", 50.1)],
-        "AAPL -- Gross margin trend",
-        DOCS / "sample_AAPL_Q3_2026_margin.png")
-
     capital_allocation_chart(
-        {"Dividends paid": 4.0, "Share repurchases": 25.8, "CapEx": None, "M&A": None},
+        {"Dividends paid": 4.0, "Share repurchases": 25.8, "CapEx": 2.455, "Debt repaid": 0.232},
         "AAPL Q3 2026 (June quarter) -- Capital allocation",
         DOCS / "sample_AAPL_Q3_2026_capital.png")
 
@@ -272,7 +241,7 @@ def _demo() -> None:
         "AAPL Q3 2026 (June quarter) -- Balance sheet snapshot",
         DOCS / "sample_AAPL_Q3_2026_balance.png")
 
-    print(f"Wrote 5 charts to {DOCS}")
+    print(f"Wrote 4 charts to {DOCS}")
 
 
 def main() -> int:

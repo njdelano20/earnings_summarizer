@@ -172,6 +172,16 @@ class Errors(unittest.TestCase):
                 D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
         self.assertNotIn(KEY, str(ctx.exception))
 
+    def test_list_models_returns_names_without_the_models_prefix(self):
+        resp = mock.Mock()
+        resp.raise_for_status.return_value = None
+        resp.json.return_value = {"models": [
+            {"name": "models/gemini-flash-latest", "supportedGenerationMethods": ["generateContent"]},
+            {"name": "models/gemini-embed", "supportedGenerationMethods": ["embedContent"]}]}
+        with mock.patch("requests.get", return_value=resp):
+            names = D.list_models(KEY)
+        self.assertEqual(names, ["gemini-flash-latest"])          # embed-only model excluded
+
     def test_malformed_json_from_the_model_is_a_clear_error(self):
         resp = mock.Mock()
         resp.raise_for_status.return_value = None

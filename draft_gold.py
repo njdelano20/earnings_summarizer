@@ -44,7 +44,10 @@ from transcript import ROLE_MANAGEMENT, ROLE_UNKNOWN
 
 GOLD_DRAFTS = ROOT / "gold" / "drafts"
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-DEFAULT_MODEL = "gemini-2.0-flash"
+# "-latest" aliases keep pointing at whatever Google currently serves, so this does not go stale the way a pinned
+# version does (gemini-2.0-flash 404'd within this project's lifetime). List what your key can use with:
+#   py draft_gold.py --list-models
+DEFAULT_MODEL = "gemini-flash-latest"
 
 _KINDS = ["reported", "guidance"]
 _STATS = ["level", "growth", "change"]
@@ -174,6 +177,23 @@ Transcript (management speech only):
 Return the JSON object now."""
 
 
+def list_models(api_key: str) -> list[str]:
+    """Model names this key can use for generateContent, for when the default (or a pinned --model) 404s because
+    Google retired it -- model names change faster than this file does."""
+    import requests
+
+    def scrub(text: str) -> str:
+        return _scrub(text, api_key)
+
+    try:
+        resp = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": api_key}, timeout=30)
+        resp.raise_for_status()
+    except Exception as exc:
+        raise GeminiError(f"Gemini model list failed ({type(exc).__name__}): {scrub(str(exc))}") from None
+    models = resp.json().get("models", [])
+    return sorted(m["name"].removeprefix("models/") for m in models if "generateContent" in m.get("supportedGenerationMethods", []))
+
+
 def call_gemini(prompt: str, schema: dict, api_key: str, model: str, timeout: int = 180) -> dict:
     import requests
 
@@ -276,8 +296,9 @@ def main() -> int:
     import os
 
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("call", help="cache name without extension, e.g. MET_2026Q2")
+    ap.add_argument("call", nargs="?", help="cache name without extension, e.g. MET_2026Q2")
     ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--list-models", action="store_true", help="print models your key can use, then exit")
     ap.add_argument("--verify-sample", type=int, default=5, metavar="N")
     ap.add_argument("--out", default=str(GOLD_DRAFTS))
     ap.add_argument("--check", action="store_true", help="also render an annotate.py checked page from the draft")
@@ -290,6 +311,17 @@ def main() -> int:
               "terminal: setx GEMINI_API_KEY \"your-key\" -- a NEW terminal is needed for this one to see it.",
               file=sys.stderr)
         return 1
+
+    if args.list_models:
+        try:
+            for name in list_models(api_key):
+                print(name)
+        except GeminiError as exc:
+            print(str(exc), file=sys.stderr)
+            return 1
+        return 0
+    if not args.call:
+        ap.error("call is required unless --list-models is given")
 
     try:
         result = draft(args.call, api_key, args.model)

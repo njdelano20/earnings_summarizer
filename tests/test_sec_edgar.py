@@ -187,12 +187,6 @@ class CrossCheckWithSubmissions(unittest.TestCase):
                           "value": v, "accounting": acc}
                           for i, (m, v, acc) in enumerate(facts)]}
 
-    def test_a_refined_exact_date_matches_where_the_crude_guess_would_have_missed(self):
-        # revenue is filed for the quarter ending 2026-06-27; the crude guess is 5 days off (outside the plain
-        # 3-day tolerance), but submissions data pins the exact date so the match still succeeds
-        with mock.patch.object(S, "fetch_company_facts", return_value=S.facts_with if False else None):
-            pass  # placeholder not used; real mocks below
-
     def test_end_to_end_refinement_produces_a_pass_the_crude_guess_would_have_missed(self):
         with mock.patch.object(S, "fetch_company_facts", return_value=facts_with(
                 "Revenues", ("2026-03-29", "2026-06-27", 11536000000, "10-Q"))), \
@@ -216,6 +210,13 @@ class Caching(unittest.TestCase):
         self.assertEqual(a, {"ok": True})
         self.assertEqual(b, {"ok": True})
         self.assertEqual(req.call_count, 1)              # second call served from cache, no second request
+
+    def test_submissions_cache_is_separate_from_company_facts_cache(self):
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(S, "_request", return_value={"ok": True}) as req:
+            S.fetch_company_facts("AMD", cache_dir=Path(d))
+            S.fetch_submissions("AMD", cache_dir=Path(d))
+            S.fetch_submissions("AMD", cache_dir=Path(d))
+        self.assertEqual(req.call_count, 2)              # one for facts, one for submissions; submissions cached after
 
     def test_refresh_forces_a_new_request(self):
         with tempfile.TemporaryDirectory() as d, mock.patch.object(S, "_request", return_value={"ok": True}) as req:

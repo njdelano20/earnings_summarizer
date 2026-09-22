@@ -1,6 +1,6 @@
 # Batch 2026Q2
 
-Updated 2026-09-21T23:39. 43 symbols: 40 ok, 3 no_transcript.
+Updated 2026-09-22T00:05. 43 symbols: 40 ok, 3 no_transcript.
 
 - Calls processed: 40; `db_eligible` (recommendation only, nothing is loaded anywhere): 37
 - Facts: 859 (high 561, medium 148, low 150); figures left unclaimed: 1980

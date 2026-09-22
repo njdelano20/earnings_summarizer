@@ -158,10 +158,34 @@ class Errors(unittest.TestCase):
 
     def test_network_failure_is_wrapped_and_the_key_is_scrubbed(self):
         import requests
-        with mock.patch("requests.post", side_effect=requests.ConnectionError(f"failed, apikey={KEY} in url")):
+        with mock.patch("requests.post", side_effect=requests.ConnectionError(f"failed, apikey={KEY} in url")), \
+             mock.patch("time.sleep"):
             with self.assertRaises(D.GeminiError) as ctx:
-                D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+                D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL, max_retries=1)
         self.assertNotIn(KEY, str(ctx.exception))
+
+    def test_a_transient_503_is_retried_and_then_succeeds(self):
+        good = self._resp_ok([])
+        overloaded = mock.Mock(status_code=503)
+        with mock.patch("requests.post", side_effect=[overloaded, overloaded, good]), mock.patch("time.sleep") as sleep:
+            out = D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL, max_retries=4, base_delay=1.0)
+        self.assertEqual(out, {"expected": [], "unmapped": []})
+        self.assertEqual(sleep.call_count, 2)                      # two retries before the success
+
+    def test_repeated_503s_eventually_give_up_with_a_clear_error(self):
+        overloaded = mock.Mock(status_code=503)
+        overloaded.raise_for_status.side_effect = __import__("requests").HTTPError("503 Server Error")
+        with mock.patch("requests.post", return_value=overloaded), mock.patch("time.sleep"):
+            with self.assertRaises(D.GeminiError):
+                D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL, max_retries=2, base_delay=0.1)
+
+    def _resp_ok(self, expected, unmapped=None):
+        payload = {"candidates": [{"content": {"parts": [
+            {"text": json.dumps({"expected": expected, "unmapped": unmapped or []})}]}}]}
+        resp = mock.Mock(status_code=200)
+        resp.raise_for_status.return_value = None
+        resp.json.return_value = payload
+        return resp
 
     def test_gemini_error_payload_is_scrubbed(self):
         resp = mock.Mock()
@@ -189,6 +213,54 @@ class Errors(unittest.TestCase):
         with mock.patch("requests.post", return_value=resp):
             with self.assertRaises(D.GeminiError):
                 D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+
+    def test_structured_mode_failing_falls_back_to_plain_json_and_still_succeeds(self):
+        overloaded = mock.Mock(status_code=503)
+        overloaded.raise_for_status.side_effect = __import__("requests").HTTPError("503")
+        fallback_ok = self._resp_ok([])
+        # the structured attempt (with schema) always 503s; the fallback (no schema) succeeds on its first try
+        with mock.patch("requests.post", side_effect=[overloaded, fallback_ok]), mock.patch("time.sleep"):
+            out = D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL, max_retries=0)
+        self.assertEqual(out, {"expected": [], "unmapped": []})
+
+    def _resp_ok(self, expected, unmapped=None):
+        payload = {"candidates": [{"content": {"parts": [
+            {"text": json.dumps({"expected": expected, "unmapped": unmapped or []})}]}}]}
+        resp = mock.Mock(status_code=200)
+        resp.raise_for_status.return_value = None
+        resp.json.return_value = payload
+        return resp
+
+
+class MarkdownFencedJson(unittest.TestCase):
+    def _resp(self, text):
+        resp = mock.Mock(status_code=200)
+        resp.raise_for_status.return_value = None
+        resp.json.return_value = {"candidates": [{"content": {"parts": [{"text": text}]}}]}
+        return resp
+
+    def test_fenced_with_json_language_tag(self):
+        text = '```json\n{"expected": [], "unmapped": []}\n```'
+        with mock.patch("requests.post", return_value=self._resp(text)):
+            out = D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+        self.assertEqual(out, {"expected": [], "unmapped": []})
+
+    def test_fenced_without_language_tag(self):
+        text = '```\n{"expected": [], "unmapped": []}\n```'
+        with mock.patch("requests.post", return_value=self._resp(text)):
+            out = D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+        self.assertEqual(out, {"expected": [], "unmapped": []})
+
+    def test_plain_unfenced_json_still_works(self):
+        with mock.patch("requests.post", return_value=self._resp('{"expected": [], "unmapped": []}')):
+            out = D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+        self.assertEqual(out, {"expected": [], "unmapped": []})
+
+    def test_json_with_commentary_around_it_is_recovered_via_the_last_resort_brace_match(self):
+        text = 'Here is the JSON you asked for:\n{"expected": [], "unmapped": []}\nLet me know if you need anything else!'
+        with mock.patch("requests.post", return_value=self._resp(text)):
+            out = D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+        self.assertEqual(out, {"expected": [], "unmapped": []})
 
 
 class VerifySample(unittest.TestCase):

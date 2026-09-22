@@ -31,6 +31,7 @@ from __future__ import annotations
 import argparse
 import json
 import random
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -194,21 +195,46 @@ def list_models(api_key: str) -> list[str]:
     return sorted(m["name"].removeprefix("models/") for m in models if "generateContent" in m.get("supportedGenerationMethods", []))
 
 
-def call_gemini(prompt: str, schema: dict, api_key: str, model: str, timeout: int = 180) -> dict:
+_RETRYABLE_STATUS = {429, 500, 502, 503, 504}   # rate-limited or temporarily overloaded, not a real failure
+_JSON_INSTRUCTION = ("\n\nRespond with ONLY the JSON object described above. No markdown code fences, no "
+                     "commentary before or after it.")
+
+
+def _post_once(prompt: str, api_key: str, model: str, schema: dict | None, timeout: int,
+               max_retries: int, base_delay: float, scrub) -> dict:
+    """One request, retried on transient errors (rate limit / temporarily overloaded) only. Returns the parsed
+    response body; raises GeminiError on a non-retryable failure or once the retries are exhausted."""
+    import time
     import requests
 
-    def scrub(text: str) -> str:
-        return _scrub(text, api_key)
-
+    config = {"temperature": 0.1}
+    if schema is not None:
+        config.update(responseMimeType="application/json", responseSchema=schema)
+    resp = None
+    for attempt in range(max_retries + 1):
+        try:
+            resp = requests.post(GEMINI_URL.format(model=model), params={"key": api_key},
+                                 json={"contents": [{"parts": [{"text": prompt}]}], "generationConfig": config},
+                                 timeout=timeout)
+        except requests.RequestException as exc:
+            if attempt >= max_retries:
+                raise GeminiError(f"Gemini request failed after {attempt + 1} attempt(s) "
+                                  f"({type(exc).__name__}): {scrub(str(exc))}") from None
+            delay = base_delay * 2 ** attempt
+            print(f"Gemini request failed ({type(exc).__name__}); retrying in {delay:.0f}s "
+                  f"({attempt + 1}/{max_retries})...", file=sys.stderr)
+            time.sleep(delay)
+            continue
+        if resp.status_code in _RETRYABLE_STATUS and attempt < max_retries:
+            delay = base_delay * 2 ** attempt
+            print(f"Gemini returned {resp.status_code} (temporary, likely just overloaded); retrying in {delay:.0f}s "
+                  f"({attempt + 1}/{max_retries})...", file=sys.stderr)
+            time.sleep(delay)
+            continue
+        break
     try:
-        resp = requests.post(
-            GEMINI_URL.format(model=model), params={"key": api_key},
-            json={"contents": [{"parts": [{"text": prompt}]}],
-                  "generationConfig": {"responseMimeType": "application/json", "responseSchema": schema, "temperature": 0.1}},
-            timeout=timeout,
-        )
         resp.raise_for_status()
-    except Exception as exc:
+    except requests.RequestException as exc:
         raise GeminiError(f"Gemini request failed ({type(exc).__name__}): {scrub(str(exc))}") from None
     try:
         data = resp.json()
@@ -216,14 +242,52 @@ def call_gemini(prompt: str, schema: dict, api_key: str, model: str, timeout: in
         raise GeminiError(f"Non-JSON response from Gemini: {scrub(resp.text[:300])!r}") from None
     if "error" in data:
         raise GeminiError(scrub(f"Gemini: {data['error'].get('message', data['error'])}"))
+    return data
+
+
+# Strips only an OUTERMOST markdown fence (```json ... ``` or ``` ... ```), anchored to the true start/end of the
+# text (no re.MULTILINE) so nothing inside the JSON body -- which should not contain literal triple-backticks, but
+# better safe -- is touched.
+_FENCE = re.compile(r"\A```(?:json)?[ \t]*\n?|\n?```[ \t]*\Z", re.I)
+
+
+def _extract_json(data: dict, scrub) -> dict:
     try:
         text = data["candidates"][0]["content"]["parts"][0]["text"]
     except (KeyError, IndexError):
         raise GeminiError(f"Unexpected Gemini response shape: {scrub(json.dumps(data)[:300])}")
+    stripped = _FENCE.sub("", text.strip()).strip()
     try:
-        return json.loads(text)
-    except ValueError as exc:
-        raise GeminiError(f"Gemini did not return valid JSON: {exc}") from None
+        return json.loads(stripped)
+    except ValueError:
+        pass
+    start, end = stripped.find("{"), stripped.rfind("}")            # last resort: the outermost { ... }
+    if start != -1 and end > start:
+        try:
+            return json.loads(stripped[start:end + 1])
+        except ValueError:
+            pass
+    raise GeminiError(f"Gemini did not return valid JSON: {scrub(text[:300])!r}")
+
+
+def call_gemini(prompt: str, schema: dict, api_key: str, model: str, timeout: int = 120,
+                max_retries: int = 4, base_delay: float = 3.0) -> dict:
+    """Tries structured output (a hard guarantee the metric name stays in-vocabulary) first. If that specifically
+    fails -- seen in practice: responseSchema alone returns a transient 503 while a plain request to the same model
+    succeeds -- falls back to asking for JSON via the prompt text and parses defensively (_extract_json handles a
+    markdown-fenced reply). The caller's own two checks (metric-in-vocabulary, where-found-verbatim) still guard the
+    fallback path, so this is not a safety regression, only a smaller guarantee up front."""
+    def scrub(text: str) -> str:
+        return _scrub(text, api_key)
+
+    try:
+        data = _post_once(prompt, api_key, model, schema, timeout, max_retries, base_delay, scrub)
+    except GeminiError as structured_exc:
+        print(f"Structured-output request failed ({structured_exc}); retrying without response-schema "
+              f"enforcement...", file=sys.stderr)
+        data = _post_once(prompt + _JSON_INSTRUCTION, api_key, model, None, timeout, max_retries=1,
+                          base_delay=base_delay, scrub=scrub)
+    return _extract_json(data, scrub)
 
 
 def filter_entries(raw_expected: list[dict], metrics: dict[str, str], text_lower: str) -> tuple[list[dict], list[dict]]:

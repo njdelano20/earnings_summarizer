@@ -197,8 +197,10 @@ def balance_sheet_chart(cash_b: float, debt_b: float, net_b: float, title: str, 
     a second panel next to the cash/debt/net bars rather than a separate image -- these two are
     read as one "balance sheet" picture, and the two-column layout only pulls one image per
     section."""
+    # stacked vertically, not side by side -- this image sits in a narrow sidebar column next to
+    # the section text, where a wide 2-panel figure would scale down to an awkwardly short strip
     n_panels = 2 if maturity_b else 1
-    fig, axes = plt.subplots(1, n_panels, figsize=(6.5 * n_panels, 4.4), dpi=150)
+    fig, axes = plt.subplots(n_panels, 1, figsize=(6.5, 5.6 if maturity_b else 4.4), dpi=150)
     fig.patch.set_facecolor(SURFACE)
     ax = axes[0] if maturity_b else axes
     ax.set_facecolor(SURFACE)

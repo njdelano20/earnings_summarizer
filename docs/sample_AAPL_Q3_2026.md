@@ -8,44 +8,39 @@
 
 ![Revenue by segment](sample_AAPL_Q3_2026_segments.png)
 
-| Segment | Revenue | Growth (yoy) | Gross margin |
-|---|---|---|---|
-| iPhone | $54.30B | +22% | — |
-| Mac | $10.40B | +29% | — |
-| iPad | $6.20B | -6% | — |
-| Wearables, Home & Accessories | $7.90B | +6% | — |
-| Services | $30.70B | +12% | 75.6% |
+| Segment | Revenue | Growth (yoy) |
+|---|---|---|
+| iPhone | $54.30B | +22% |
+| Mac | $10.40B | +29% |
+| iPad | $6.20B | -6% |
+| Wearables, Home & Accessories | $7.90B | +6% |
+| Services | $30.70B | +12% |
 
-AAPL doesn't report segment-level revenue in MarketDataLibrary, so this table is
-transcript-extracted.
+Transcript-extracted (not in MarketDataLibrary for AAPL). Apple doesn't disclose
+margin by hardware segment, so it's left out rather than estimated.
 
 **What's driving each segment:**
 
-- **iPhone** (+22% yoy): strong product cycle, demand beyond expectation. New
-  iPhone 17 is the direct driver.
-- **Mac** (+29% yoy): same product-cycle strength, plus the new MacBook Neo —
-  also driving the education-channel displacement in Competitive environment.
-- **iPad** (-6% yoy): a tough compare against last year's iPad launch, not a
-  demand problem.
-- **Wearables, Home & Accessories** (+6% yoy): modest growth, no specific
-  driver called out.
-- **Services** (+12% yoy, 75.6% margin): records set in every category, but
-  margin fell 110 bps on product mix — growth and margin moved opposite ways.
-
-Company-wide gross margin rose to 50.1% (+80 bps qoq) even as Services' own
-margin fell — the improvement came from elsewhere, likely hardware mix/ASPs.
+- **iPhone** (+22%): strong product cycle. New iPhone 17 is the driver.
+- **Mac** (+29%): same strength, plus MacBook Neo — also behind the
+  education-channel displacement in Competitive environment.
+- **iPad** (-6%): a tough compare against last year's launch, not demand.
+- **Wearables, Home & Accessories** (+6%): modest, no driver called out.
+- **Services** (+12%, 75.6% margin, -110 bps sequentially on mix): records in
+  every category. Company-wide margin still rose to 50.1% (+80 bps qoq)
+  despite Services' dip — likely hardware mix/ASPs elsewhere.
 
 ## 3. Capital allocation
 
 ![Capital allocation](sample_AAPL_Q3_2026_capital.png)
 
-| Use of cash | Amount (June qtr) |
-|---|---|
-| Share repurchases | $25.80B |
-| Dividends paid | $4.00B |
-| CapEx | $2.46B |
-| Debt repaid | $0.23B |
-| Debt issued | $0 fiscal-year-to-date |
+| Use of cash | Amount (June qtr) | vs. year-ago quarter |
+|---|---|---|
+| Share repurchases | $25.80B | +19.1% |
+| Dividends paid | $4.00B | +2.3% |
+| CapEx | $2.46B | -29.1% |
+| Debt repaid | $0.23B | -95.9% |
+| Debt issued | $0 fiscal-year-to-date | — |
 
 Total returned to shareholders (dividends + buybacks): **$29.80B**.
 
@@ -66,6 +61,13 @@ commitment, not a completed purchase.
 
 Total debt edged down this quarter: AAPL repaid $232M more than it issued (see
 Capital allocation), with no new debt issued in the period.
+
+**When it's due**: $12.4B of principal matures in the next 12 months, $10.1B in
+year two, $9.3B in year three, tapering to $5.2B and $5.0B in years four and
+five, with $49.3B due after that — a maturity schedule weighted toward the
+long end, so near-term refinancing risk is limited. This is the aggregate
+principal-by-year figure AAPL files with the SEC; individual notes (coupon,
+specific maturity date) aren't broken out at that level in this data.
 
 ## 5. Insider activity
 
@@ -90,13 +92,13 @@ standalone data point. No insider bought shares on the open market this quarter.
 
 ## 6. Forward guidance
 
-| Metric | Guided (September qtr) | This quarter's actual |
-|---|---|---|
-| Revenue growth (yoy) | 9% to 11% | +16% |
-| Gross margin | 47% to 48% | 50.1% |
-| Operating expenses | $19.10B to $19.40B | $19.10B |
-| Tax rate | ~16.5% | — |
-| FX impact on revenue | ~2.5 pp unfavorable | — |
+| Metric | Guided (September qtr) | This quarter's actual | vs. actual |
+|---|---|---|---|
+| Revenue growth (yoy) | 9% to 11% | +16% | ▼ Lower |
+| Gross margin | 47% to 48% | 50.1% | ▼ Lower |
+| Operating expenses | $19.10B to $19.40B | $19.10B | → Flat to higher |
+| Tax rate | ~16.5% | — | — |
+| FX impact on revenue | ~2.5 pp unfavorable | — | — |
 
 ## 7. Competitive environment
 

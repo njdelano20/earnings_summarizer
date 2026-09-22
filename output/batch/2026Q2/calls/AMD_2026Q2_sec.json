@@ -1,0 +1,22 @@
+[
+ {
+  "name": "sec_xbrl[operating_income]",
+  "status": "unlabeled_accounting_basis",
+  "detail": "extracted 3,100,000,000 vs SEC 1,990,000,000 (10-Q, period ended 2026-06-27): 55.8% apart (extracted fact has no confirmed GAAP/non-GAAP label -- this may be an expected non-GAAP figure compared against SEC's GAAP-only tag, not necessarily an extraction error)",
+  "extracted": 3100000000.0,
+  "sec_value": 1990000000,
+  "sec_form": "10-Q",
+  "sec_period_end": "2026-06-27",
+  "fact_id": "AMD_2026_2-023"
+ },
+ {
+  "name": "sec_xbrl[revenue]",
+  "status": "pass",
+  "detail": "extracted 11,500,000,000 vs SEC 11,536,000,000 (10-Q, period ended 2026-06-27): 0.3% apart",
+  "extracted": 11500000000.0,
+  "sec_value": 11536000000,
+  "sec_form": "10-Q",
+  "sec_period_end": "2026-06-27",
+  "fact_id": "AMD_2026_2-002"
+ }
+]

@@ -29,6 +29,10 @@
  "unmapped_segments": 0,
  "gold_facts": "pass",
  "gold_snapshot": "pass",
+ "sec_pass": 1,
+ "sec_warn": 0,
+ "sec_ambiguous": 1,
+ "sec_no_data": 0,
  "db_eligible": true,
  "attention": ""
 }

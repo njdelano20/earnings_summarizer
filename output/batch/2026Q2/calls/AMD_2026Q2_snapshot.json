@@ -82,7 +82,9 @@
   },
   "reported_period_label": "second quarter",
   "source_file": "AMD_2026Q2.json",
-  "vocabulary_packs": []
+  "vocabulary_packs": [
+   "semiconductor_hardware"
+  ]
  },
  "headline": [
   {

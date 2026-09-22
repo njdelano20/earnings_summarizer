@@ -1,0 +1,3 @@
+﻿symbol,season,metric,status,extracted,sec_value,sec_form,sec_period_end,fact_id,detail
+AMD,2026Q2,operating_income,unlabeled_accounting_basis,3100000000.0,1990000000,10-Q,2026-06-27,AMD_2026_2-023,"extracted 3,100,000,000 vs SEC 1,990,000,000 (10-Q, period ended 2026-06-27): 55.8% apart (extracted fact has no confirmed GAAP/non-GAAP label -- this may be an expected non-GAAP figure compared against SEC's GAAP-only tag, not necessarily an extraction error)"
+AMD,2026Q2,revenue,pass,11500000000.0,11536000000,10-Q,2026-06-27,AMD_2026_2-002,"extracted 11,500,000,000 vs SEC 11,536,000,000 (10-Q, period ended 2026-06-27): 0.3% apart"

@@ -1,0 +1,28 @@
+# Bundle 2: 20 large, diversified companies chosen so one call exercises several vocabulary packs at once
+# (a conglomerate's transcript uses more of the keyword surface per API request than a single-industry company).
+# None of these are in bundle1 or the tuned/gold set.
+#
+#   py batch.py --season 2026q2 --symbols-file watchlists\bundle2.txt
+#
+# One line per ticker; # comments ignored. Nothing has been fetched yet.
+
+AMZN    # retail + cloud software (AWS) + advertising + logistics
+GOOGL   # advertising/media + cloud software + hardware
+META    # advertising/media + hardware (Reality Labs)
+JNJ     # pharma + medtech, two full segments
+ABT     # diagnostics + devices + pharma + nutrition
+DHR     # life-sciences tools + diagnostics
+HON     # aerospace + building technologies + industrial
+RTX     # aerospace + defense, backlog-heavy
+CMCSA   # cable/telecom + media + theme parks
+DIS     # media + streaming + parks/resorts; fiscal year ends Sep (already seeded)
+BAC     # consumer banking + wealth management + trading
+WFC     # consumer banking + mortgage + wealth
+GS      # investment banking + asset management
+SCHW    # brokerage + banking + asset management
+AXP     # payments network + card lending -- both halves of the credit_finance pack
+PYPL    # payments
+MET     # insurance + asset management
+AIG     # multi-line insurance
+CVX     # upstream + downstream, integrated oil & gas
+UPS     # package delivery + freight + supply chain

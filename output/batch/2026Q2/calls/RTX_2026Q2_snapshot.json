@@ -1,0 +1,5011 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "RTX",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "RTX",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Christopher Calio",
+    "role": "management"
+   },
+   {
+    "name": "Neil Mitchill",
+    "role": "management"
+   },
+   {
+    "name": "Nathan Ware",
+    "role": "ir"
+   },
+   {
+    "name": "Peter Arment",
+    "role": "analyst"
+   },
+   {
+    "name": "Robert Stallard",
+    "role": "analyst"
+   },
+   {
+    "name": "Sheila Kahyaoglu",
+    "role": "analyst"
+   },
+   {
+    "name": "Gautam Khanna",
+    "role": "analyst"
+   },
+   {
+    "name": "Ronald Epstein",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Deuschle",
+    "role": "analyst"
+   },
+   {
+    "name": "Myles Walton",
+    "role": "analyst"
+   },
+   {
+    "name": "John Godyn",
+    "role": "analyst"
+   },
+   {
+    "name": "Seth Seifman",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Mikus",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas Harned",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "q2",
+  "source_file": "RTX_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $1.89/sh (+21% yoy)",
+   "fact_ids": [
+    "RTX_2026_2-001"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $2.90B",
+   "fact_ids": [
+    "RTX_2026_2-002"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.12",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [],
+ "company": {
+  "fact_ids": [
+   "RTX_2026_2-006",
+   "RTX_2026_2-009",
+   "RTX_2026_2-001",
+   "RTX_2026_2-007",
+   "RTX_2026_2-002",
+   "RTX_2026_2-004",
+   "RTX_2026_2-008",
+   "RTX_2026_2-010"
+  ],
+  "signal_ids": [
+   "RTX_2026_2-S015",
+   "RTX_2026_2-S017",
+   "RTX_2026_2-S022",
+   "RTX_2026_2-S023",
+   "RTX_2026_2-S029",
+   "RTX_2026_2-S031",
+   "RTX_2026_2-S036",
+   "RTX_2026_2-S039",
+   "RTX_2026_2-S044",
+   "RTX_2026_2-S053",
+   "RTX_2026_2-S065",
+   "RTX_2026_2-S068",
+   "RTX_2026_2-S074",
+   "RTX_2026_2-S078",
+   "RTX_2026_2-S094",
+   "RTX_2026_2-S097",
+   "RTX_2026_2-S114"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "raytheon_s",
+   "name": "Raytheon'S",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "RTX_2026_2-005"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 2,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 9,
+    "cautious": 7,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.12
+   }
+  },
+  "speakers": {
+   "Neil Mitchill": {
+    "confident": 6,
+    "cautious": 4
+   },
+   "Christopher Calio": {
+    "confident": 5,
+    "cautious": 3
+   }
+  },
+  "notable_confident": [
+   "RTX_2026_2-S042",
+   "RTX_2026_2-S054",
+   "RTX_2026_2-S092",
+   "RTX_2026_2-S082"
+  ],
+  "notable_cautious": [
+   "RTX_2026_2-S097",
+   "RTX_2026_2-S051",
+   "RTX_2026_2-S058",
+   "RTX_2026_2-S071",
+   "RTX_2026_2-S102"
+  ],
+  "withheld": [],
+  "revisions": [
+   "RTX_2026_2-S036",
+   "RTX_2026_2-S037",
+   "RTX_2026_2-S038",
+   "RTX_2026_2-S039",
+   "RTX_2026_2-S041"
+  ]
+ },
+ "signals": [
+  {
+   "id": "RTX_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "up 16"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 2,
+   "sentence": "Starting with the top line, adjusted sales were $24.7 billion, up 16% organically, including double-digit commercial aftermarket and defense growth.",
+   "ev_start": 1517,
+   "ev_end": 1665,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-001",
+    "RTX_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 21"
+    ],
+    "performance": [
+     "growth",
+     "profit",
+     "cash flow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 3,
+   "sentence": "Adjusted EPS of $1.89 was up 21% year-over-year, driven by 18% growth in segment operating profit, and free cash flow was strong at $2.9 billion.",
+   "ev_start": 1666,
+   "ev_end": 1811,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "up 22"
+    ],
+    "performance": [
+     "backlog",
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 5,
+   "sentence": "Our backlog stands at yet another record of $289 billion, up 22% year-over-year and 6% sequentially.",
+   "ev_start": 1893,
+   "ev_end": 1993,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 9,
+   "sentence": "On the commercial side of the business, demand also remained strong as evidenced by our continued growth.",
+   "ev_start": 2372,
+   "ev_end": 2477,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S005",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "installed base",
+     "growth"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 11,
+   "sentence": "Notably, at Pratt, AirAsia placed an order for 150 A220 aircraft, which are exclusively powered by GTF engines, adding a new GTF operator and further expanding our installed base in a key growth region.",
+   "ev_start": 2544,
+   "ev_end": 2746,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S006",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new 5-year agreement"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 12,
+   "sentence": "And Collins signed a new 5-year agreement with Air New Zealand to provide MRO services for engine nacelles on their full fleet of 787 aircraft.",
+   "ev_start": 2747,
+   "ev_end": 2890,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 13,
+   "sentence": "So overall, a very strong quarter that builds on our momentum from Q1.",
+   "ev_start": 2891,
+   "ev_end": 2961,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grow"
+    ],
+    "forward": [
+     "for the year",
+     "are expected",
+     "outlook"
+    ],
+    "performance": [
+     "grow",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 17,
+   "sentence": "For the year, global RPKs are expected to grow in all regions outside of the Middle East and engine retirements have remained relatively low, both factors that support our outlook for strong commercial aftermarket growth this year.",
+   "ev_start": 3172,
+   "ev_end": 3403,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 18,
+   "sentence": "Airframers also continue to cite strong demand with further rate growth expected in the second half of the year, driving the need for our OE products across narrow-body, wide-body and business jet platforms.",
+   "ev_start": 3404,
+   "ev_end": 3611,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 23,
+   "sentence": "On the international front, the need for integrated air and missile defense systems remains very strong.",
+   "ev_start": 4258,
+   "ev_end": 4362,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "forward": [
+     "full year",
+     "outlook"
+    ],
+    "performance": [
+     "demand",
+     "sales",
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 25,
+   "sentence": "So based on our first half execution and the demand strength we're seeing across our commercial and defense markets, we're raising our full year outlook for adjusted sales, EPS and free cash flow.",
+   "ev_start": 4548,
+   "ev_end": 4744,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 34,
+   "sentence": "Additionally, our Coyote counter-UAS effector, which has been deployed by both the U.S. Army and Navy, has been incredibly effective in the field and is in high demand.",
+   "ev_start": 5572,
+   "ev_end": 5740,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 38,
+   "sentence": "Next is innovation for future growth.",
+   "ev_start": 6124,
+   "ev_end": 6161,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 39,
+   "sentence": "We continue to make focused investments to meet long-term global demand faster, including increasing capacity across RTX.",
+   "ev_start": 6162,
+   "ev_end": 6283,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S015",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "growing"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "accelerate",
+     "growing"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 40,
+   "sentence": "For example, Raytheon is investing an additional $100 million domestically to increase GEM-T component production and accelerate LTAMDS's test capabilities to meet the growing global need for this 360-degree sensor.",
+   "ev_start": 6284,
+   "ev_end": 6499,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S016",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "announced",
+     "collaboration"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 42,
+   "sentence": "Just this month, Raytheon announced a collaboration with multiple NATO nations to identify additional European suppliers for AMRAAM components to accelerate deliveries of this critical munition.",
+   "ev_start": 6591,
+   "ev_end": 6785,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S017",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 43,
+   "sentence": "On the commercial side, Pratt announced additional investments of more than $100 million in the U.S. to expand GTF MRO capacity across multiple sites in Texas, Florida and Arkansas.",
+   "ev_start": 6786,
+   "ev_end": 6967,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S018",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 44,
+   "sentence": "These investments will support new automation and repair capabilities to increase shop throughput.",
+   "ev_start": 6968,
+   "ev_end": 7066,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.86,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 45,
+   "sentence": "And at Collins, we continue to expand our footprint in growth regions.",
+   "ev_start": 7067,
+   "ev_end": 7137,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S020",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "collaborative"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 48,
+   "sentence": "Collins was down-selected to deliver their mission autonomy software for the U.S. Air Force's collaborative combat aircraft program.",
+   "ev_start": 7378,
+   "ev_end": 7510,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 49,
+   "sentence": "This type of autonomy will be critical in next-generation fighter development to maximize manned and unmanned teaming.",
+   "ev_start": 7511,
+   "ev_end": 7629,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S022",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 4.16,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 50,
+   "sentence": "Pratt received aircraft certification for the GTF Advantage engine and started its deliveries to Airbus.",
+   "ev_start": 7630,
+   "ev_end": 7734,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S023",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 51,
+   "sentence": "As a reminder, the Advantage will double the time on wing performance and is fully interchangeable with current GTF fleet.",
+   "ev_start": 7735,
+   "ev_end": 7857,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S024",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.31,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 53,
+   "sentence": "And at Raytheon, the team is utilizing a modified TJ150 engine from Pratt to develop a new longer-range variant of our precision-guided air-launched Stormbreaker effector.",
+   "ev_start": 7940,
+   "ev_end": 8111,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new capability"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 54,
+   "sentence": "This cross-company initiative has moved from concept to an upcoming flight test in less than 12 months to support delivering this new capability.",
+   "ev_start": 8112,
+   "ev_end": 8257,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 55,
+   "sentence": "So overall, we continue to make good progress across our strategic priorities as we execute and innovate for our customers.",
+   "ev_start": 8258,
+   "ev_end": 8381,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 14"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "In the second quarter, adjusted sales of $24.7 billion were up 14% on an adjusted basis and 16% organically year-over-year.",
+   "ev_start": 8574,
+   "ev_end": 8697,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 9",
+     "up 18",
+     "up 16"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "This strong organic growth was driven by all three channels with commercial OE up 9%, commercial aftermarket up 18% and defense up 16%.",
+   "ev_start": 8698,
+   "ev_end": 8833,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 18"
+    ],
+    "performance": [
+     "profit",
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Adjusted segment operating profit of $3.2 billion was up 18% year-over-year, primarily driven by the drop-through on higher volume.",
+   "ev_start": 8834,
+   "ev_end": 8965,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 21"
+    ],
+    "performance": [
+     "earnings",
+     "profit",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Adjusted earnings per share of $1.89 was up 21% from the prior year, driven by the strong segment operating profit growth I just mentioned.",
+   "ev_start": 9070,
+   "ev_end": 9209,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S031",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition",
+     "restructuring"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "On a GAAP basis, earnings per share from continuing operations was $1.57 and included $0.27 of acquisition accounting adjustments and $0.05 of restructuring and all other nonrecurring items.",
+   "ev_start": 9210,
+   "ev_end": 9400,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S032",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "So overall, I'm pleased with our strong financial performance through the first half of the year and our continued execution across the business.",
+   "ev_start": 9822,
+   "ev_end": 9967,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "full year",
+     "outlook"
+    ],
+    "performance": [
+     "backlog"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "As Chris said upfront, we are updating our full year outlook based on our first half performance and our strong backlog position.",
+   "ev_start": 10062,
+   "ev_end": 10191,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S034",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year",
+     "outlook"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "On the top line, we're raising our full year adjusted sales outlook by $2.5 billion to a new range of $95 billion to $96 billion, up from our prior range of $92.5 billion to $93.5 billion.",
+   "ev_start": 10192,
+   "ev_end": 10380,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S035",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "This translates to full year RTX organic sales growth of between 8% and 9%, up from our prior range of between 5% and 6%.",
+   "ev_start": 10699,
+   "ev_end": 10820,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.36,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Breaking this down further, we now expect commercial OE sales to grow mid- to high single digits, up from the prior expectation of mid-single digits, primarily attributable to the production ramp at Collins.",
+   "ev_start": 10821,
+   "ev_end": 11028,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "sales",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Within commercial aftermarket, we now expect sales to grow low double digits across the company this year, up from our prior expectation of high single digits, driven by the strength at Pratt that I mentioned earlier.",
+   "ev_start": 11029,
+   "ev_end": 11246,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "forward": [
+     "we now see growth"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "And with respect to defense sales, we now see growth of high single digits, which is at the higher end of our prior range of mid- to high single digits.",
+   "ev_start": 11247,
+   "ev_end": 11399,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S039",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "raised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "revision": [
+     "raised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "On the bottom line, we're increasing our outlook for adjusted earnings per share by $0.40 on the low end and $0.35 on the high end.",
+   "ev_start": 11506,
+   "ev_end": 11637,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "improved"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "profit",
+     "volume"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "At the midpoint of our updated outlook, this increase is driven by approximately $0.26 of higher segment operating profit, principally from the net drop-through on the higher volume across the segments as well as favorable defense mix and improved productivity, primarily at Raytheon.",
+   "ev_start": 11751,
+   "ev_end": 12035,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S041",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "for the full year"
+    ],
+    "revision": [
+     "revised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Finally, we now expect free cash flow to be between $8.5 billion and $8.75 billion for the full year, up from our prior range of $8.25 billion to $8.75 billion, primarily driven by higher segment operating profit.",
+   "ev_start": 12182,
+   "ev_end": 12395,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S042",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "full year",
+     "outlook"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "We drove very strong financial performance in the first half of the year and are confident in our updated full year outlook.",
+   "ev_start": 17077,
+   "ev_end": 17201,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S043",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 1.78,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "And I want to thank the entire RTX team for their commitment to our mission.",
+   "ev_start": 17202,
+   "ev_end": 17278,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S044",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "record",
+     "growing"
+    ],
+    "forward": [
+     "we believe",
+     "well positioned"
+    ],
+    "product": [
+     "installed"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "demand",
+     "growing",
+     "installed base",
+     "record",
+     "backlog"
+    ]
+   },
+   "score": 4.78,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "We have strong conviction in the long-term demand across our commercial and defense markets, and we believe that RTX is exceptionally well positioned with leading franchises, a growing installed base, a record backlog and the scale to invest in capacity and technology.",
+   "ev_start": 17279,
+   "ev_end": 17548,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S045",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "expansion"
+    ],
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "innovating"
+    ],
+    "performance": [
+     "customers",
+     "sales",
+     "growth",
+     "margin",
+     "cash flow"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 5,
+   "sentence": "Our focus will remain on executing and innovating for our customers to drive continued organic sales growth, margin expansion and robust free cash flow this year and well into the future.",
+   "ev_start": 17549,
+   "ev_end": 17736,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S046",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "I think like many of us, we're pleased to see that the U.S. base budget request crossing the $1 trillion mark, that's significant.",
+   "ev_start": 18415,
+   "ev_end": 18545,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 3,
+   "sentence": "And this, plus the multiyear requests that are in there show the continued demand, I think, for years to come, a really strong demand signal.",
+   "ev_start": 18546,
+   "ev_end": 18687,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S048",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 16,
+   "sentence": "So significant engagement with the supply chain, making sure they understand what they're going to need to do, what our volumes are going to look like, what capacity we're going to need, what investments we and they are going to need to make.",
+   "ev_start": 20184,
+   "ev_end": 20426,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S049",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 17,
+   "sentence": "And we're making some of those investments today.",
+   "ev_start": 20427,
+   "ev_end": 20476,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S050",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 18,
+   "sentence": "Also engaging with second and third potential suppliers where we have sole-source positions where, frankly, we need to increase the competition and increase the capacity.",
+   "ev_start": 20477,
+   "ev_end": 20647,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S051",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 21,
+   "sentence": "We'll see how the budget ultimately shakes out.",
+   "ev_start": 20903,
+   "ev_end": 20950,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S052",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 2,
+   "sentence": "Obviously, really pleased with the first half performance of cash flow.",
+   "ev_start": 21963,
+   "ev_end": 22034,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S053",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "delayed"
+    ],
+    "pressure": [
+     "delayed"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 5,
+   "sentence": "The first is, you'll recall, last year, in the second quarter, Pratt was undergoing a 4-week work stoppage that delayed some engine deliveries that, therefore, delayed cash collections.",
+   "ev_start": 22167,
+   "ev_end": 22352,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S054",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 10,
+   "sentence": "So we feel good about the second half, but a little bit of timing there between what we had penciled in for Q3 versus Q2.",
+   "ev_start": 22738,
+   "ev_end": 22859,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S055",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "guidance"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 11,
+   "sentence": "As far as the outlook, we took the bottom end of the range up $250 million to reflect the higher segment operating profit that we're putting through in our guidance updates today.",
+   "ev_start": 22860,
+   "ev_end": 23039,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S056",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 12,
+   "sentence": "That's offset a little bit by some working capital headwinds.",
+   "ev_start": 23040,
+   "ev_end": 23101,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "forward": [
+     "outlook",
+     "for the year",
+     "second half"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 13,
+   "sentence": "So when we started the year, we thought we'd see a slight tailwind from working capital as we sit here today, given we've added 3 points of organic growth to our outlook for the year, we're going to be building a little bit of inventory to make sure that we're prepared to deliver the continued ramp, not only in the second half of the year, but the growth that we see coming through in early 2027.",
+   "ev_start": 23102,
+   "ev_end": 23500,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S058",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 15,
+   "sentence": "Again, feel good where we are, and we'll continue to monitor this as we go through the rest of the year.",
+   "ev_start": 23546,
+   "ev_end": 23650,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S059",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 16,
+   "sentence": "As far as the revenue in the second half, let me kind of share a few thoughts here.",
+   "ev_start": 23651,
+   "ev_end": 23734,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 8"
+    ],
+    "forward": [
+     "for the full year",
+     "are going to"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 18,
+   "sentence": "For the full year, our organic sales are going to be up 8% to 9%.",
+   "ev_start": 23838,
+   "ev_end": 23903,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 3"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 19,
+   "sentence": "So very strong growth, like I just said, up 3 points from where we were.",
+   "ev_start": 23904,
+   "ev_end": 23976,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 22,
+   "sentence": "So still growing, still really strong, but again, some unique comparisons.",
+   "ev_start": 24143,
+   "ev_end": 24217,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "grow",
+     "revenue"
+    ]
+   },
+   "score": 2.42,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 32,
+   "sentence": "And then another point I would make about the second half for Pratt on the large commercial engine side, our install engines will continue to grow, but there'll be some lower revenue as the mix shifts more towards installs and away from spares.",
+   "ev_start": 24866,
+   "ev_end": 25110,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single-digit",
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 1.69,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 33,
+   "sentence": "And in fact, we now think our OE sales for Pratt will be down in the low single-digit range as we continue to support that really strong material growth on the MRO side, and you saw that in the second quarter numbers.",
+   "ev_start": 25111,
+   "ev_end": 25328,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S065",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 34,
+   "sentence": "On the Raytheon side, also some difficult compares.",
+   "ev_start": 25329,
+   "ev_end": 25380,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up about 4"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 35,
+   "sentence": "In the first half of last year, sales were up about 4%.",
+   "ev_start": 25381,
+   "ev_end": 25436,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S067",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 37,
+   "sentence": "We had 9% growth in the second half of last year.",
+   "ev_start": 25500,
+   "ev_end": 25549,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S068",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-single-digit",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "robust",
+     "mid-single-digit"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 39,
+   "sentence": "And so that's really good for getting product out the door, but it does put a little bit of pressure on the growth rate, which is still fairly robust in the mid-single-digit range in the second half.",
+   "ev_start": 25629,
+   "ev_end": 25828,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S069",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 41,
+   "sentence": "So 12% growth in the first half, seeing in that 8%, 9% range in the second half.",
+   "ev_start": 25870,
+   "ev_end": 25950,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S070",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 43,
+   "sentence": "And so - and we're also staying fairly prudent on the commercial aftermarket side.",
+   "ev_start": 26033,
+   "ev_end": 26115,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S071",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 44,
+   "sentence": "So we haven't changed our outlook there as we continue to monitor the macro situation.",
+   "ev_start": 26116,
+   "ev_end": 26202,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S072",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 3,
+   "sentence": "So pleased with that on a unit level.",
+   "ev_start": 27081,
+   "ev_end": 27118,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "sales",
+     "decrease"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 4,
+   "sentence": "The sales decrease was due to mix as again, we continue to ensure that we have strong material flow into our MRO shops.",
+   "ev_start": 27119,
+   "ev_end": 27238,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline",
+     "down 25"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 5,
+   "sentence": "As we mentioned, we saw a good decline in GTF AOGs, down 25% in the first half of the year.",
+   "ev_start": 27239,
+   "ev_end": 27330,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 17,
+   "sentence": "We'll be up in the second half of the year there, and we'll deliver a record number of GTF engines this year.",
+   "ev_start": 28456,
+   "ev_end": 28565,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "we still see the",
+     "expect"
+    ],
+    "performance": [
+     "margin",
+     "traction",
+     "profitability"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 9,
+   "sentence": "So we still see the margin expansion, not just this year, but we expect that to continue in years thereafter as this aftermarket continues to gain further traction and the profitability continues to accrue to those contracts.",
+   "ev_start": 29418,
+   "ev_end": 29643,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S077",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.39,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 1,
+   "sentence": "I would say we're really pleased with the Raytheon performance this year.",
+   "ev_start": 30368,
+   "ev_end": 30441,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "RTX_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "backlog"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 5,
+   "sentence": "The demand obviously continues to be strong, $20 billion of awards in Q2 and an $86 billion backlog.",
+   "ev_start": 30730,
+   "ev_end": 30830,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 6,
+   "sentence": "And the mix of that demand continues to be pretty favorable.",
+   "ev_start": 30831,
+   "ev_end": 30891,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "on track to"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.39,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 16,
+   "sentence": "So all of those things go into what we consider to be Raytheon being on track to continuing to drive margin expansion in its business and getting to that, we'll call it, full potential area that we talked about previously.",
+   "ev_start": 31706,
+   "ev_end": 31928,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S081",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid"
+    ],
+    "performance": [
+     "margin",
+     "backlog"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "So cumulatively, year-to-date, we're about $40 million, which frankly isn't that significant, which tells me that we've got a good solid base margin in the business in the backlog.",
+   "ev_start": 32127,
+   "ev_end": 32307,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S082",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "But again, having achieved the 12-plus percent margin here and then as you look at the outlook for the rest of the year, seeing it still in the mid-12% range, we feel really good about the trajectory that we're on.",
+   "ev_start": 32521,
+   "ev_end": 32735,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S083",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new products"
+    ],
+    "strategy": [
+     "investments",
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "And all the while, we're able to make investments that we need to do to not just support the new capacity for additional current products, but to invest in new products as well.",
+   "ev_start": 32736,
+   "ev_end": 32913,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S084",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "capital allocation",
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 1,
+   "sentence": "I think our priorities on the capital allocation front continue to be consistent, and that's investing in the business.",
+   "ev_start": 34009,
+   "ev_end": 34128,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 2,
+   "sentence": "You've heard us talk a lot today in our prepared remarks about the demand and the demand we've talked a lot on the defense side continues to be strong on both the commercial and defense sides of the house.",
+   "ev_start": 34129,
+   "ev_end": 34334,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S086",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "So continuing to invest in the business to make sure that we've got the right capacity and a healthy supply chain will continue to be a priority.",
+   "ev_start": 34335,
+   "ev_end": 34480,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S087",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment",
+     "dividend"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 4,
+   "sentence": "A commitment to the dividend, for sure, obviously, we've raised the dividend again here recently.",
+   "ev_start": 34481,
+   "ev_end": 34578,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 6,
+   "sentence": "On the M&A front, I wouldn't say that anything that's swirling around out there is going to change our thoughts on that.",
+   "ev_start": 34651,
+   "ev_end": 34771,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 8,
+   "sentence": "And we're going to continue to be disciplined around those types of opportunities.",
+   "ev_start": 34892,
+   "ev_end": 34974,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "capital allocation"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 12,
+   "sentence": "So really no change in our mind about how we think about capital allocation.",
+   "ev_start": 35332,
+   "ev_end": 35408,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S091",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 13,
+   "sentence": "And so for us, it's just about driving execution, investing and making sure that we're delivering for our customers and the rest will take care of itself.",
+   "ev_start": 35409,
+   "ev_end": 35563,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S092",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 8,
+   "sentence": "So I feel really good about the future of the V2500.",
+   "ev_start": 36731,
+   "ev_end": 36783,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 10,
+   "sentence": "And again, when you get to this particular piece of the life cycle, you start to see things go through a managed decline, and that's exactly what we're doing.",
+   "ev_start": 36894,
+   "ev_end": 37052,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 11,
+   "sentence": "There's still going to be some strong contribution from those platforms over the next several years, and we will ultimately manage that decline over a period of years.",
+   "ev_start": 37053,
+   "ev_end": 37220,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 3,
+   "sentence": "And so we still see very steady and growing revenues in that portfolio through the end of this decade.",
+   "ev_start": 37571,
+   "ev_end": 37673,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "grow",
+     "decline"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "So I think big picture at Pratt, the size of the GTF fleet and the aftermarket that it is and will generate and continue to grow over the next five, ten years, will offset any of the managed decline on the legacy fleets and then some.",
+   "ev_start": 37674,
+   "ev_end": 37908,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S097",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introducing"
+    ],
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 4.94,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 8,
+   "sentence": "We remain prudent in the way we look at the booking rates on those, and we're introducing a lot of new material and additional benefits to the GTF engine over the coming couple of years.",
+   "ev_start": 38131,
+   "ev_end": 38317,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "That will grow in the second half, the installs.",
+   "ev_start": 39257,
+   "ev_end": 39305,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S099",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 5,
+   "sentence": "And Chris talked about just a few minutes ago that we'll deliver a record number of engines to Airbus this year and ahead of our market share.",
+   "ev_start": 39306,
+   "ev_end": 39448,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S100",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 7,
+   "sentence": "We're pleased by the rate increases that we're seeing on the OE side.",
+   "ev_start": 39484,
+   "ev_end": 39553,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S101",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 10,
+   "sentence": "It doesn't come with profit, but nonetheless, building confidence in the supply chain performance there, and that's enabled us to sort of take up the top line as it relates to those deliveries that we see coming in the second half.",
+   "ev_start": 39775,
+   "ev_end": 40006,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S102",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "We'll see how the budget ultimately pieces together.",
+   "ev_start": 40926,
+   "ev_end": 40978,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 4,
+   "sentence": "But the international continues to grow as well.",
+   "ev_start": 40979,
+   "ev_end": 41027,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S104",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "installed base"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 9,
+   "sentence": "We have a strong installed base, both in the Middle East and in Europe.",
+   "ev_start": 41353,
+   "ev_end": 41424,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "demand",
+     "grows"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 10,
+   "sentence": "So these are things we're going to continue to leverage as the demand grows.",
+   "ev_start": 41425,
+   "ev_end": 41501,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S106",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 12,
+   "sentence": "We've announced some, you heard about the one on AMRAAM in our prepared remarks, Stinger as well.",
+   "ev_start": 41652,
+   "ev_end": 41749,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 14,
+   "sentence": "We've got strong partnerships with Kongsberg, NASAMS, with MBDA.",
+   "ev_start": 41811,
+   "ev_end": 41875,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "demand"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 16,
+   "sentence": "So continuing to grow the industrial base there, not only strengthens the relationships, but also continues to add very capable sources to our industrial base and adds capacity and allows us to ramp up to meet that stronger demand internationally.",
+   "ev_start": 41947,
+   "ev_end": 42194,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S109",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ]
+   },
+   "score": 0.86,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 11,
+   "sentence": "And when I think about that, about 60% of that step-up is going to come from drop-through on the higher volume that we're going to see across all the channels at Collins in the third and fourth quarter rather.",
+   "ev_start": 43601,
+   "ev_end": 43810,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S110",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 14,
+   "sentence": "They've invested a bit in the first half of this year to begin the realization of those cost reductions, which we expect to start to play through in the second half and then continue out over the next several years.",
+   "ev_start": 43966,
+   "ev_end": 44181,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S111",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "growth",
+     "installed base"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 16,
+   "sentence": "And we see no reason why when you think about the growth drivers of that business, more and more out-of-warranty flight hours, a larger installed base, continued ramp on the OE side, really significant and healthy mission systems defense business at Collins as well.",
+   "ev_start": 44346,
+   "ev_end": 44612,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduction"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "performance": [
+     "growing",
+     "volume"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Neil Mitchill",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 17,
+   "sentence": "All of those things we see growing over the next few years, and that additional volume is going to help with absorption and you couple that with this cost reduction, what you called self-help, and we agree, all of that puts us in a good position to continue to drive these margins higher over the next several years.",
+   "ev_start": 44613,
+   "ev_end": 44929,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S113",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 1,
+   "sentence": "And that's going to be a significant part of this margin expansion.",
+   "ev_start": 45146,
+   "ev_end": 45213,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduction"
+    ],
+    "performance": [
+     "margin",
+     "profitability"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 3,
+   "sentence": "The Collins team has really taken on in an aggressive way, structural cost reduction actions to drive margin expansion and improve overall profitability and performance.",
+   "ev_start": 45272,
+   "ev_end": 45441,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S115",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 5,
+   "sentence": "And again, you know that this is a business that has been created with a number of large acquisitions.",
+   "ev_start": 45556,
+   "ev_end": 45658,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S116",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 6,
+   "sentence": "And this team still is driving a common operational approach to all of these businesses, some of that integration that really hadn't been done yet, all of which we think are going to yield benefits over the next several years.",
+   "ev_start": 45659,
+   "ev_end": 45885,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S117",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ]
+   },
+   "score": 2.16,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 2,
+   "sentence": "I will just tell you that our focus today is on execution, obviously, driving additional deliveries to Airbus supporting the GTF aftermarket and then executing on those 8,000 engines that are still in backlog.",
+   "ev_start": 46839,
+   "ev_end": 47048,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S118",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we continue to believe",
+     "is going to"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 3,
+   "sentence": "So we continue to believe that NGSA is going to continue to move to the right because the industry needs stability, our customers want and need stability and supply chain needs and wants stability.",
+   "ev_start": 47049,
+   "ev_end": 47246,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 5,
+   "sentence": "But to your point, we've been, I think, pretty steadfast in our belief that the next-generation single aisle, especially on the propulsion side, will need to have a different business model.",
+   "ev_start": 47314,
+   "ev_end": 47504,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S120",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 6,
+   "sentence": "I think the idea that we're going to invest all this money upfront and then, again, not have high margins on deliveries and then rely on anywhere from four to six shop visits over a 25-year period.",
+   "ev_start": 47505,
+   "ev_end": 47702,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S121",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 8,
+   "sentence": "I think we need to smooth out some of those cash flows and some of that investment.",
+   "ev_start": 47761,
+   "ev_end": 47844,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S122",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 1,
+   "sentence": "I think all of this, whether it be executing on the backlog we've got today or any of the things that may come into our backlog from the framework agreement is going to be predicated on the supply chain.",
+   "ev_start": 48877,
+   "ev_end": 49080,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 2,
+   "sentence": "If you look at our year-over-year growth in output, which is really strong, again, a lot of that on the back of these being mature programs, but also the supply chain continuing to step up and deliver at rates.",
+   "ev_start": 49081,
+   "ev_end": 49291,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S124",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 3,
+   "sentence": "As we look to the future, that's going to have to have another significant step up, which is, again, why we're out right now investing in supply chain resiliency.",
+   "ev_start": 49292,
+   "ev_end": 49454,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S125",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 4,
+   "sentence": "We're investing in second and third sources in constrained areas.",
+   "ev_start": 49455,
+   "ev_end": 49520,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S126",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 9,
+   "sentence": "They will make the investment.",
+   "ev_start": 49976,
+   "ev_end": 50006,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S127",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 12,
+   "sentence": "But they've got to see that level of visibility and commitment.",
+   "ev_start": 50126,
+   "ev_end": 50189,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "RTX_2026_2-S128",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Christopher Calio",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 14,
+   "sentence": "We'll see how the budget ultimately shakes out.",
+   "ev_start": 50252,
+   "ev_end": 50299,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "RTX_2026_2-S015",
+  "RTX_2026_2-S017",
+  "RTX_2026_2-S022",
+  "RTX_2026_2-S023",
+  "RTX_2026_2-S029",
+  "RTX_2026_2-S031",
+  "RTX_2026_2-S036",
+  "RTX_2026_2-S039",
+  "RTX_2026_2-S044",
+  "RTX_2026_2-S053",
+  "RTX_2026_2-S065",
+  "RTX_2026_2-S068",
+  "RTX_2026_2-S074",
+  "RTX_2026_2-S078",
+  "RTX_2026_2-S094",
+  "RTX_2026_2-S097",
+  "RTX_2026_2-S114"
+ ],
+ "surfaced_signal_ids": [
+  "RTX_2026_2-S015",
+  "RTX_2026_2-S017",
+  "RTX_2026_2-S022",
+  "RTX_2026_2-S023",
+  "RTX_2026_2-S029",
+  "RTX_2026_2-S031",
+  "RTX_2026_2-S036",
+  "RTX_2026_2-S039",
+  "RTX_2026_2-S044",
+  "RTX_2026_2-S053",
+  "RTX_2026_2-S065",
+  "RTX_2026_2-S068",
+  "RTX_2026_2-S074",
+  "RTX_2026_2-S078",
+  "RTX_2026_2-S094",
+  "RTX_2026_2-S097",
+  "RTX_2026_2-S114",
+  "RTX_2026_2-S042",
+  "RTX_2026_2-S054",
+  "RTX_2026_2-S092",
+  "RTX_2026_2-S082",
+  "RTX_2026_2-S051",
+  "RTX_2026_2-S058",
+  "RTX_2026_2-S071",
+  "RTX_2026_2-S102",
+  "RTX_2026_2-S037",
+  "RTX_2026_2-S038",
+  "RTX_2026_2-S041"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "raytheon_s"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "raytheon_s"
+  ],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "RTX_2026_2-003",
+   "RTX_2026_2-011"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 128,
+  "signals_usable": 128,
+  "selected": 17,
+  "by_topic": {
+   "momentum": 56,
+   "product": 22,
+   "strategy": 25,
+   "competition": 4,
+   "pressure": 4
+  },
+  "by_horizon": {
+   "current": 84,
+   "forward": 44
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 1,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

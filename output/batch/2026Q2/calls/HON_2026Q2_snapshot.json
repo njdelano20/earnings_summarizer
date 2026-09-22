@@ -1,0 +1,6078 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "HON",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "HON",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 7,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Mark Macaluso",
+    "role": "ir"
+   },
+   {
+    "name": "Vimal Kapur",
+    "role": "management"
+   },
+   {
+    "name": "Mike Stepniak",
+    "role": "management"
+   },
+   {
+    "name": "Deane Dray",
+    "role": "analyst"
+   },
+   {
+    "name": "Nigel Coe",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Davis",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrew Obin",
+    "role": "analyst"
+   },
+   {
+    "name": "Nicole DeBlase",
+    "role": "analyst"
+   },
+   {
+    "name": "Jeffrey Sprague",
+    "role": "analyst"
+   },
+   {
+    "name": "Joseph Ritchie",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrew Kaplowitz",
+    "role": "analyst"
+   },
+   {
+    "name": "Alexander Virgo",
+    "role": "analyst"
+   },
+   {
+    "name": "Christopher Snyder",
+    "role": "analyst"
+   },
+   {
+    "name": "Andrew Buscaglia",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "HON_2026Q2.json",
+  "vocabulary_packs": []
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue approximately $400M, second quarter",
+   "fact_ids": [
+    "HON_2026_2-002"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow roughly $500M",
+   "fact_ids": [
+    "HON_2026_2-007"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.82, qa +0.60",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 400000000.0,
+    "fact_id": "HON_2026_2-002"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "ending",
+   "name": "Ending",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "software_arr",
+   "name": "Software Arr",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "HON_2026_2-002",
+   "HON_2026_2-007",
+   "HON_2026_2-008",
+   "HON_2026_2-006",
+   "HON_2026_2-011",
+   "HON_2026_2-009",
+   "HON_2026_2-001",
+   "HON_2026_2-010"
+  ],
+  "signal_ids": [
+   "HON_2026_2-S002",
+   "HON_2026_2-S006",
+   "HON_2026_2-S011",
+   "HON_2026_2-S013",
+   "HON_2026_2-S014",
+   "HON_2026_2-S044",
+   "HON_2026_2-S050",
+   "HON_2026_2-S051",
+   "HON_2026_2-S052",
+   "HON_2026_2-S056",
+   "HON_2026_2-S063",
+   "HON_2026_2-S082",
+   "HON_2026_2-S086",
+   "HON_2026_2-S093",
+   "HON_2026_2-S112",
+   "HON_2026_2-S117",
+   "HON_2026_2-S122"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "ending",
+   "name": "Ending",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "HON_2026_2-004"
+   ],
+   "signal_ids": [
+    "HON_2026_2-S004",
+    "HON_2026_2-S048"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "software_arr",
+   "name": "Software Arr",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "HON_2026_2-012"
+   ],
+   "signal_ids": [
+    "HON_2026_2-S144",
+    "HON_2026_2-S145"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 10,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.82
+   },
+   "qa": {
+    "confident": 8,
+    "cautious": 2,
+    "mixed": 1,
+    "withheld": 0,
+    "index": 0.6
+   }
+  },
+  "speakers": {
+   "Vimal Kapur": {
+    "confident": 13,
+    "cautious": 3,
+    "mixed": 1
+   },
+   "Mike Stepniak": {
+    "confident": 5
+   }
+  },
+  "notable_confident": [
+   "HON_2026_2-S099",
+   "HON_2026_2-S132",
+   "HON_2026_2-S008",
+   "HON_2026_2-S006"
+  ],
+  "notable_cautious": [
+   "HON_2026_2-S086",
+   "HON_2026_2-S120",
+   "HON_2026_2-S090"
+  ],
+  "withheld": [],
+  "revisions": [
+   "HON_2026_2-S010",
+   "HON_2026_2-S011",
+   "HON_2026_2-S074",
+   "HON_2026_2-S079",
+   "HON_2026_2-S082",
+   "HON_2026_2-S083",
+   "HON_2026_2-S093"
+  ]
+ },
+ "signals": [
+  {
+   "id": "HON_2026_2-S001",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "installed",
+     "new product",
+     "innovation"
+    ],
+    "performance": [
+     "growing",
+     "installed base"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "At Investor Day, we laid out our go-forward strategy of growing and monetizing our installed base through outcome-based services, software and new product innovation.",
+   "ev_start": 2314,
+   "ev_end": 2480,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.95,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "We also introduced long-term targets for Honeywell Technologies, which will be our road map for the next three-plus years.",
+   "ev_start": 2481,
+   "ev_end": 2603,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We delivered 4% organic sales growth driven by continued strength in Building Automation and a better-than-anticipated performance in both Process Automation and Technology and Industrial Automation businesses.",
+   "ev_start": 2791,
+   "ev_end": 3001,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ending"
+   ],
+   "home": "ending",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "demand",
+     "backlog"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Orders grew 16% organically with broad-based demand across all segments, resulting in a 9% increase in ending backlog.",
+   "ev_start": 3002,
+   "ev_end": 3120,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double digit",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Notably, short-cycle orders grew double digit across all segments.",
+   "ev_start": 3121,
+   "ev_end": 3187,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 24"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "In PA&T, orders were up 24% organically, led by roughly 5% orders growth in Process Technologies, providing even greater confidence in their expected second-half growth inflection.",
+   "ev_start": 3188,
+   "ev_end": 3368,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S007",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation",
+     "headwinds",
+     "unfavorable"
+    ],
+    "pressure": [
+     "inflation",
+     "headwinds"
+    ],
+    "performance": [
+     "margin",
+     "volume"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "We also expanded segment margin by 100 basis points, overcoming significant cost inflation headwinds and unfavorable mix through a combination of productivity and volume leverage.",
+   "ev_start": 3369,
+   "ev_end": 3548,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S008",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "This drove earnings in the second quarter above our expectation from early June with increased confidence heading into the second half of the year.",
+   "ev_start": 3549,
+   "ev_end": 3696,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S009",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full-year",
+     "outlook"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "As a result today, we are raising our full-year outlook for organic growth, segment margin and adjusted earnings per share.",
+   "ev_start": 3697,
+   "ev_end": 3820,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We continue to expect a sharp growth inflection in Process Automation and Technology and continued momentum in Industrial Automation in the second half of 2026.",
+   "ev_start": 3821,
+   "ev_end": 3981,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "outperformance",
+     "grow"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 7.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Combined with the sustained outperformance in Building Automation, we now expect to grow 4% to 6% organically in the second half of the year, in line with our long-term targets.",
+   "ev_start": 3982,
+   "ev_end": 4159,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S012",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance",
+     "improved"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "strategy": [
+     "divestitures"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.72,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We're also raising our adjusted EPS outlook by $0.10 at the midpoint, which reflects the second quarter outperformance and improved second-half outlook that is more than offsetting the loss of income from the earlier-than-anticipated close of the two divestitures.",
+   "ev_start": 4160,
+   "ev_end": 4424,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "On the portfolio, we closed the acquisition of Johnson Matthey's Catalyst Technologies business on July 17.",
+   "ev_start": 4525,
+   "ev_end": 4632,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S014",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "competition": [
+     "differentiated"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "installed base"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "With this business, we add a differentiated technology portfolio that will expand our installed base and strengthen PA&T's portfolio across refining, petrochemicals and renewable fuels.",
+   "ev_start": 4633,
+   "ev_end": 4818,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S015",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "I could not be more excited to welcome the JM Catalyst Technologies team to Honeywell Technologies.",
+   "ev_start": 5130,
+   "ev_end": 5229,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S016",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "We remain strong supporters of Raj and his team and are excited to be shareholders in such a groundbreaking quantum computing company.",
+   "ev_start": 5541,
+   "ev_end": 5675,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "This is approximately two months ahead of our initial planning assumption, which has reduced our 2026 revenue expectation by approximately $400 million.",
+   "ev_start": 5866,
+   "ev_end": 6018,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S018",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "We're also confident this will drive greater focus and further simplification of the Industrial Automation portfolio, which is already beginning to see improved financial performance.",
+   "ev_start": 6019,
+   "ev_end": 6202,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperform",
+     "momentum",
+     "tailwinds"
+    ],
+    "forward": [
+     "well positioned"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Our transformed and simplified portfolio is well positioned to outperform with momentum in both long-term and short-cycle orders, ramping activity and pipeline and meaningful macro tailwinds for the next several years.",
+   "ev_start": 6308,
+   "ev_end": 6526,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "We kicked off the day laying out our revamp and focused strategy that will drive value-enhancing solutions for customers and drive outperformance in our focus markets.",
+   "ev_start": 6797,
+   "ev_end": 6964,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S021",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "Each business leader walked through their differentiated offering, connected strategy, growth framework and three-year targets.",
+   "ev_start": 6965,
+   "ev_end": 7092,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S022",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "Guests also heard directly from our leading customers and partners, including Exxon, Dangote, Google, Equinix, Duke Energy and others about the differentiated outcomes we are delivering and the long-standing relationships we have built over many decades.",
+   "ev_start": 7093,
+   "ev_end": 7347,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S023",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "My team and I are highly confident in our ability to deliver on our three-year commitments.",
+   "ev_start": 7348,
+   "ev_end": 7439,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S024",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "differentiated",
+     "competitive",
+     "advantage"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "We have a strong position in key end markets, differentiated technologies, a global footprint and a clear competitive advantage in high-growth verticals.",
+   "ev_start": 7440,
+   "ev_end": 7593,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerator"
+    ],
+    "performance": [
+     "accelerator",
+     "growth",
+     "profitability"
+    ]
+   },
+   "score": 3.45,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "All of this, coupled with a proven Honeywell Technologies Accelerator operating system, positions us for a new chapter of growth and profitability as Honeywell Technologies.",
+   "ev_start": 7735,
+   "ev_end": 7908,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S026",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovating"
+    ],
+    "strategy": [
+     "acquisitions",
+     "divestitures"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "Over the last three years, we transformed our portfolio through acquisitions, spin-offs and divestitures into a pure-play automation company focused on innovating in mission-critical environments where uptime, safety, productivity and efficiency are paramount.",
+   "ev_start": 8005,
+   "ev_end": 8265,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S027",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "installed",
+     "innovative"
+    ],
+    "performance": [
+     "growing",
+     "installed base"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "Our strategy focuses on two key pillars: growing our installed base and then monetizing this vast installed base through innovative software, services and outcome-based solutions.",
+   "ev_start": 8318,
+   "ev_end": 8497,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S028",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "leading position"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "While maintaining our leading position in core verticals, we are also increasing our exposure to higher-growth verticals like data centers, LNG, grid infrastructure and life sciences as examples, which are all linked to compelling megatrends.",
+   "ev_start": 8498,
+   "ev_end": 8740,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "growth",
+     "margin",
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "Our projected top-line growth and margin expansion is also underpinned by a more meaningful shift towards services and software annual recurring revenue.",
+   "ev_start": 8741,
+   "ev_end": 8894,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S030",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion",
+     "improving"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "new product",
+     "introduction"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "On top of that, we expect to drive 60 basis points a year of operational margin expansion through price, improving mix, new product introduction and productivity.",
+   "ev_start": 9088,
+   "ev_end": 9250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S031",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "As you heard from our CFO in June, we are confident that the 24% target is achievable and provides meaningful upside as we execute our strategy.",
+   "ev_start": 9251,
+   "ev_end": 9395,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S032",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "I want to talk more about the acquisition of Johnson Matthey's Catalyst Technology business, which will become part of our Process Automation and Technology segment.",
+   "ev_start": 9827,
+   "ev_end": 9992,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed",
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "This addition to Process Technology will unlock strategic growth by increasing our existing installed base and creating a more integrated offering across Catalysts and Process Technology.",
+   "ev_start": 9993,
+   "ev_end": 10180,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S034",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "What makes this acquisition specifically attractive is its strategic fit with our existing business.",
+   "ev_start": 10351,
+   "ev_end": 10451,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S035",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "The acquisition also enhances our end-to-end solutions by combining Catalyst process technology and digital capabilities powered by Honeywell Technologies Forge.",
+   "ev_start": 10588,
+   "ev_end": 10749,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 4.45,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "We have clear visibility to both commercial and cost synergies and our long-term outlook for this business as part of Honeywell Technologies has not changed.",
+   "ev_start": 10750,
+   "ev_end": 10907,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S037",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "strong"
+    ],
+    "competition": [
+     "share gains"
+    ],
+    "performance": [
+     "growth",
+     "accelerating",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "As you can see, our orders growth has been accelerating across the company, driven by strong demand generation, NPI and continued share gains.",
+   "ev_start": 10980,
+   "ev_end": 11122,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "This resulted in 16% organic orders growth in the second quarter with broad-based growth across all short-cycle businesses, driving considerable momentum on the LTM basis as a result.",
+   "ev_start": 11123,
+   "ev_end": 11306,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "book-to-bill"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "PA&T had an incredibly strong quarter with orders growing nearly 25%, leading to a book-to-bill for PA&T above 1.2.",
+   "ev_start": 11307,
+   "ev_end": 11422,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "tailwinds"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.83,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Strength across both long and short-cycle orders growth, including increased pipeline activity from refurbishment and rebuilds and the Middle East will provide meaningful macro tailwinds for the next several years.",
+   "ev_start": 11664,
+   "ev_end": 11878,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "In Industrial Automation, we saw strong demand across Europe, Middle East and China.",
+   "ev_start": 11879,
+   "ev_end": 11963,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S042",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up over 20"
+    ],
+    "strategy": [
+     "divestitures"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.05,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "For the core business that remains after the divestitures, orders grew 11% or 7% sequentially with Sensing and Industrial Measurement orders up over 20%.",
+   "ev_start": 11964,
+   "ev_end": 12117,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S043",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "competition": [
+     "win back share"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "Pete and his team continue to execute the turnaround strategy in IA to win back share and grow the core business.",
+   "ev_start": 12118,
+   "ev_end": 12231,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S044",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "competition": [
+     "share gain"
+    ],
+    "product": [
+     "innovative"
+    ],
+    "performance": [
+     "growing",
+     "growth"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "Finally, in Building Automation, the team continues to drive innovative NPI that is driving share gain while growing our position in a high-growth vertical.",
+   "ev_start": 12232,
+   "ev_end": 12388,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "This quarter, we drove over 50% orders growth and 30% organic sales growth in high-growth verticals while maintaining our strong position in the core with approximately 30% orders growth in our fire business.",
+   "ev_start": 12389,
+   "ev_end": 12597,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "Orders in the Middle East grew over 50% this quarter by our Process Technology business.",
+   "ev_start": 12598,
+   "ev_end": 12686,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S047",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "This is, of course, a very fluid situation, but our teams in the region have done a tremendous job to minimize impact to our business while ensuring our employees are safe, and we're able to continue to support our customers.",
+   "ev_start": 12901,
+   "ev_end": 13126,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ending"
+   ],
+   "home": "ending",
+   "fact_ids": [
+    "HON_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 9"
+    ],
+    "performance": [
+     "book-to-bill",
+     "backlog"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "Finally, book-to-bill for the total company was 1.1, and our ending backlog was up 9%.",
+   "ev_start": 13127,
+   "ev_end": 13213,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "outlook",
+     "second half"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "This and the continued momentum we see in all segments supports a 4% to 6% growth outlook in the second half and over the medium term.",
+   "ev_start": 13214,
+   "ev_end": 13348,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "stronger",
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew",
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Sales grew 4% organically, led by continued momentum in Building Automation and stronger-than-anticipated growth in Industrial Automation.",
+   "ev_start": 13667,
+   "ev_end": 13805,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "sales",
+     "decreased"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Process Automation Technologies sales decreased 1% organically, but we're still materially ahead of our original outlook for the quarter.",
+   "ev_start": 13806,
+   "ev_end": 13943,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "strength"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "On a segment basis, Building Automation delivered 9% organic growth, driven by double-digit growth in products and continued strength in solutions.",
+   "ev_start": 13944,
+   "ev_end": 14091,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "strength"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "The teams drove double-digit growth in the fire and services businesses, respectively, and we saw strength in all regions led by Asia Pacific, Middle East and the Americas.",
+   "ev_start": 14092,
+   "ev_end": 14264,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeding",
+     "strength",
+     "up 4"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.67,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Industrial Automation sales were up 4% in the second quarter, exceeding our expectations, led by strength in solutions.",
+   "ev_start": 14265,
+   "ev_end": 14384,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "momentum"
+    ]
+   },
+   "score": 3.05,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Products grew slightly with continued momentum in Sensing and Industrial Measurement, partially offset by utilities.",
+   "ev_start": 14385,
+   "ev_end": 14501,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S056",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "strategy": [
+     "divestiture"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "The core Industrial Automation business, excluding planned divestiture, grew 2% organically in the second quarter.",
+   "ev_start": 14502,
+   "ev_end": 14616,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "sales",
+     "declined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "Finally, Process Automation Technologies sales declined just 1% organically in the second quarter, ahead of our prior expectations as the up cycle in energy end markets and activity in global projects begin to materialize.",
+   "ev_start": 14617,
+   "ev_end": 14839,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Projects grew 5%, driven by strength in gas, LNG and petrochemicals.",
+   "ev_start": 14840,
+   "ev_end": 14908,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "This strength was offset by a 6% decline in aftermarket due primarily to a tough prior-year comparison from a large catalyst shipment in the second quarter of 2025.",
+   "ev_start": 14909,
+   "ev_end": 15073,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "expect",
+     "beginning in"
+    ],
+    "performance": [
+     "growth",
+     "backlog"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "Importantly, consistent with our messaging at the Investor Day, we expect a sharp inflection in growth in Process Automation Technology beginning in the third quarter, led by Process Technology and driven by backlog conversion and much stronger catalyst shipments.",
+   "ev_start": 15074,
+   "ev_end": 15338,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 9",
+     "expanded",
+     "expansion"
+    ],
+    "performance": [
+     "profitability",
+     "profit",
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "On profitability, segment profit increased 9%, while segment margin expanded 100 basis points to 19% with strong margin expansion in Building Automation and Industrial Automation.",
+   "ev_start": 15339,
+   "ev_end": 15518,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "margin",
+     "volume"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "By segment, Building Automation segment margin expanded 90 basis points to 27.1% on volume leverage and price, which was partially offset by inflation.",
+   "ev_start": 15640,
+   "ev_end": 15791,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S063",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "negative": [
+     "inflation",
+     "unfavorable"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "Segment margin in Industrial Automation also expanded 90 basis points to 17.2% as pricing and productivity actions more than offset inflation and unfavorable mix.",
+   "ev_start": 15792,
+   "ev_end": 15954,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S064",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "unfavorable"
+    ],
+    "pressure": [
+     "lower catalyst volumes"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "In Process Automation Technologies segment, margin contracted 180 basis points to 22.1%, largely driven by unfavorable mix from lower catalyst volumes as expected.",
+   "ev_start": 15955,
+   "ev_end": 16118,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S065",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "This, however, was also ahead of our original margin outlook for the quarter.",
+   "ev_start": 16119,
+   "ev_end": 16196,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 10"
+    ],
+    "performance": [
+     "earnings",
+     "profit"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "Adjusted earnings per share of $1.95 was up 10%, driven primarily by higher segment profit.",
+   "ev_start": 16197,
+   "ev_end": 16288,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S067",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "And as we previewed in the first quarter, a higher adjusted effective tax rate drove a $0.16 headwind, which we overcame with stronger operational performance.",
+   "ev_start": 16411,
+   "ev_end": 16570,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "cash flow",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "Rounding out the results, free cash flow grew considerably this quarter, both year-over-year and sequentially to roughly $0.5 billion.",
+   "ev_start": 16672,
+   "ev_end": 16806,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S069",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 3.33,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "This was principally driven by higher income as well as improvements in working capital, which more than offset ongoing collection headwinds in the Middle East.",
+   "ev_start": 16807,
+   "ev_end": 16967,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S070",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ],
+    "strategy": [
+     "dividends"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "This quarter, we deployed $1 billion of capital through roughly $800 million of dividends and roughly $200 million in high-value capital expenditures.",
+   "ev_start": 16968,
+   "ev_end": 17118,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S071",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "deployed"
+    ],
+    "strategy": [
+     "repurchase",
+     "dividends",
+     "invest"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Year-to-date, we have deployed over $2.8 billion in capital to repurchase our own shares, pay dividends and invest in future growth.",
+   "ev_start": 17119,
+   "ev_end": 17251,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "profit",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Strong segment profit growth, including elimination of stranded costs, lower below-the-line expenses due to interest expense and lower share count allowed us to overcome the higher tax rate.",
+   "ev_start": 17411,
+   "ev_end": 17601,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S073",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Excluding the tax headwind, earnings would have been up 20%.",
+   "ev_start": 17602,
+   "ev_end": 17662,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "outlook",
+     "for the year",
+     "guidance",
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "grow"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Today, we're increasing our organic sales growth outlook to 3% to 4% for the year, up from previous guidance of 2% to 3% and now expect the second half to grow 4% to 6% versus 3% to 5% previously.",
+   "ev_start": 17724,
+   "ev_end": 17920,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-single-digit",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single-digit",
+     "strong"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.67,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Building Automation continues to execute well, leading to a mid-single-digit-plus organic growth outlook, supported by incredibly strong orders growth in the second quarter, particularly in our focus verticals, including health care, hospitality and data centers.",
+   "ev_start": 17921,
+   "ev_end": 18184,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate",
+     "high single digits"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "growth",
+     "accelerate",
+     "backlog"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "We expect Process Automation Technology growth to accelerate to high single digits in the second half as global energy projects resume, backlog conversion ramps and catalyst shipment volumes increase significantly.",
+   "ev_start": 18185,
+   "ev_end": 18399,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S077",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "growth will continue",
+     "second half"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Finally, Industrial Automation growth will continue in the second half, driven by resilient short-cycle demand for industrial measurement and sensing, continued growth in Europe and China and strengthening Americas demand.",
+   "ev_start": 18400,
+   "ev_end": 18622,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "low single digits",
+     "improvement"
+    ],
+    "forward": [
+     "full-year",
+     "for the full year"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "As a result of the momentum in Process Automation Technology and Industrial Automation, we're increasing our full-year organic growth expectations for both businesses from roughly flat to up low single digits for the full year, a meaningful improvement from our original expectations coming into the year.",
+   "ev_start": 18623,
+   "ev_end": 18928,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion",
+     "up 25"
+    ],
+    "forward": [
+     "expect",
+     "full-year",
+     "guidance"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "We now expect full-year segment margin expansion of 250 to 290 basis points, up 25 basis points at the midpoint from the previous guidance.",
+   "ev_start": 18929,
+   "ev_end": 19068,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S080",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperformance",
+     "accelerated"
+    ],
+    "strategy": [
+     "accretion",
+     "divestitures"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "This reflects the outperformance in the second quarter in Process Automation Technology and Industrial Automation, significant progress on stranded cost elimination and accretion related to the accelerated timing of PSS and WWS divestitures.",
+   "ev_start": 19069,
+   "ev_end": 19310,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S081",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.95,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "Importantly, we expect Honeywell Technologies will exit the year above 22% segment margin.",
+   "ev_start": 19311,
+   "ev_end": 19401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up approximately 27"
+    ],
+    "forward": [
+     "expect",
+     "full-year"
+    ],
+    "performance": [
+     "earnings"
+    ],
+    "revision": [
+     "revised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 7.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "We now expect full-year adjusted earnings per share of $8.20 at the midpoint or up approximately 27% versus prior year and up from our previous midpoint of $8.10.",
+   "ev_start": 19402,
+   "ev_end": 19564,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S083",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "revision": [
+     "maintained"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Finally, we continue to expect free cash flow of roughly $2 billion in 2026, with the majority of this coming in during the second half and approximately 95% conversion rate.",
+   "ev_start": 19565,
+   "ev_end": 19739,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S084",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full-year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "As you can see, we expect full-year adjusted earnings per share will be $8.20 at the midpoint, up from our previous midpoint of $8.10.",
+   "ev_start": 19986,
+   "ev_end": 20120,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S085",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.94,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 1,
+   "sentence": "We are pleased with Honeywell Technologies' second quarter results, which enabled us to increase our 2026 outlooks across all key metrics.",
+   "ev_start": 20211,
+   "ev_end": 20349,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S086",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "accelerator"
+    ],
+    "negative": [
+     "uncertain"
+    ],
+    "pressure": [
+     "uncertain"
+    ],
+    "performance": [
+     "accelerator"
+    ],
+    "hedge": [
+     "uncertain"
+    ]
+   },
+   "score": 5.45,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "We successfully navigated an uncertain geopolitical backdrop with the strength of our resilient business model and the rigor of our Honeywell Technologies Accelerator operating system.",
+   "ev_start": 20350,
+   "ev_end": 20534,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwinds"
+    ],
+    "forward": [
+     "well positioned"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "With our portfolio transformation complete, our simplified pure-play automation portfolio is well positioned to benefit from long-term macro tailwinds, including the proliferation of AI, increasing global energy demand and an aging population and increased consumption.",
+   "ev_start": 20535,
+   "ev_end": 20804,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S088",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "cash flow"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "This, combined with our focus on increasing exposure to higher-growth verticals, driving annual recurring revenue growth from outcome-based services and software and maintaining our innovation engine will enable us to achieve double-digit annual adjusted EPS growth at greater than 90% free cash flow conversion.",
+   "ev_start": 20805,
+   "ev_end": 21117,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S089",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 6,
+   "sentence": "Today is only the beginning of that journey, and I'm pleased with how we have started, but we have considerably more work and opportunity ahead of us.",
+   "ev_start": 21263,
+   "ev_end": 21413,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S090",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 7,
+   "sentence": "They are not material, but we have taken a prudent decision to address the customer set where we have limited risk.",
+   "ev_start": 22768,
+   "ev_end": 22883,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwinds"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 10,
+   "sentence": "As an example, 50% orders growth in Q2 was primarily driven by a few big deals in our Process Technology business, refurbishment, which are occurring there, and that certainly is providing us some tailwinds.",
+   "ev_start": 23010,
+   "ev_end": 23217,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S092",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 12,
+   "sentence": "As this region invests more and things settle, mostly in transportation and logistics-related investments, some resiliency will benefit from that.",
+   "ev_start": 23271,
+   "ev_end": 23417,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "HON_2026_2-011"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 7.33,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 2,
+   "sentence": "We still expect the revenue in the Middle East to be about high single digits this year and orders should be about 40%.",
+   "ev_start": 23576,
+   "ev_end": 23695,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 1,
+   "sentence": "We are excited about having this business.",
+   "ev_start": 24140,
+   "ev_end": 24182,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S095",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "acquisitions",
+     "acquisition",
+     "investment"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "Those are the fundamental principles that were the reason behind doing acquisitions in LNG and the JM acquisition, primarily because we believe the world will need more investment in petrochemicals and renewable fuels and the JM acquisition strengthens our portfolio around that.",
+   "ev_start": 24305,
+   "ev_end": 24584,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S096",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 4,
+   "sentence": "We also add more installed base and our ability to serve it.",
+   "ev_start": 24585,
+   "ev_end": 24645,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S097",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 8,
+   "sentence": "But we remain excited about how we got the deal done at about 13x EBITDA with cost synergies, no sales synergies.",
+   "ev_start": 24908,
+   "ev_end": 25021,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S098",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired",
+     "synergies"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 9,
+   "sentence": "You will agree that we have acquired this business for commercial synergies at the heart of it.",
+   "ev_start": 25022,
+   "ev_end": 25117,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S099",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 0,
+   "sentence": "What we saw in the second quarter gives us strong confidence for the second half.",
+   "ev_start": 26154,
+   "ev_end": 26235,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S100",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 2,
+   "sentence": "Every business printed double-digit short-cycle orders in the second quarter, which gives us a lot of confidence in the third and fourth quarters.",
+   "ev_start": 26273,
+   "ev_end": 26419,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 3,
+   "sentence": "For Industrial Automation, the growth and the strength is broad-based, including China and Europe.",
+   "ev_start": 26420,
+   "ev_end": 26518,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S102",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 1,
+   "sentence": "As we reported, orders growth for Industrial Automation is about 10%, which signals our performance in the second half.",
+   "ev_start": 26952,
+   "ev_end": 27071,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "low single digit"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 2,
+   "sentence": "We have the right momentum, and that was the reason behind raising the guide of the business to low single digit in the second half.",
+   "ev_start": 27072,
+   "ev_end": 27204,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S104",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 0,
+   "sentence": "I'm confident that Pete will deliver a 22% margin rate in the fourth quarter.",
+   "ev_start": 27221,
+   "ev_end": 27298,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 0,
+   "sentence": "We discussed earlier that about half of the margin expansion is operational and half structural given the portfolio actions.",
+   "ev_start": 28283,
+   "ev_end": 28407,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 1,
+   "sentence": "As we stand today, the team is driving operationally 100 to 120 basis points of margin expansion.",
+   "ev_start": 28408,
+   "ev_end": 28505,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S107",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 0,
+   "sentence": "Scott, think of M&A in three distinct categories.",
+   "ev_start": 28781,
+   "ev_end": 28830,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "The second bucket is accelerating our business in some of the higher-growth verticals; we have identified eight high-growth markets and are looking at opportunities there, such as hospitality, semiconductors, microgrids, and others.",
+   "ev_start": 29013,
+   "ev_end": 29245,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S109",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 4,
+   "sentence": "Finally, tuck-in acquisitions on the tech side - frontier technologies in fire detection and cybersecurity - are smaller but can propel organic growth.",
+   "ev_start": 29246,
+   "ev_end": 29397,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "forward": [
+     "beyond the"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 1,
+   "sentence": "First, growth beyond the U.S. - data center build-out has expanded across Europe and Asia, and we have a better global position.",
+   "ev_start": 29739,
+   "ev_end": 29867,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S111",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 6,
+   "sentence": "Data centers were almost nothing for us three to four years ago but are now about 5% of Building Automation and we expect that number to grow.",
+   "ev_start": 30345,
+   "ev_end": 30487,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 0,
+   "sentence": "The strength in orders for Q2 in Process Automation Technology was driven largely by LNG demand globally, including the U.S. and outside the U.S.",
+   "ev_start": 31030,
+   "ev_end": 31175,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S113",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beyond the"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.33,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 1,
+   "sentence": "We are seeing diversification of investment beyond the Middle East due to the conflict.",
+   "ev_start": 31176,
+   "ev_end": 31263,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S114",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 3,
+   "sentence": "We also see investments in Asia for downstream refining and petrochemicals as countries consider more domestic production of fuels and petrochemical products.",
+   "ev_start": 31399,
+   "ev_end": 31557,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S115",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "market will see"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.33,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "Overall, the process market will see more capital investment to de-risk the Middle East conflict situation - that's our forecast.",
+   "ev_start": 31558,
+   "ev_end": 31687,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S116",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new product"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 3,
+   "sentence": "Another KPI is new product performance.",
+   "ev_start": 32140,
+   "ev_end": 32179,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S117",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched",
+     "new products"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 4,
+   "sentence": "We launched several new products late last year and early this year, and they're driving orders growth.",
+   "ev_start": 32180,
+   "ev_end": 32283,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S118",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 5,
+   "sentence": "The actions on innovation and operational performance are foundational to the turnaround.",
+   "ev_start": 32284,
+   "ev_end": 32373,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single-digit",
+     "mid-single-digit",
+     "improvement"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 6,
+   "sentence": "We expect improvement to continue from flat to low single-digit growth and eventually to mid-single-digit growth.",
+   "ev_start": 32374,
+   "ev_end": 32487,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S120",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "cautious"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 1,
+   "sentence": "We are cautious in our guide, but fundamentally the business is pivoting toward high-growth verticals like data centers, hospitality and health care.",
+   "ev_start": 33028,
+   "ev_end": 33177,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S121",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "product": [
+     "new products",
+     "launching"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "New products launching in the second half should further support growth.",
+   "ev_start": 33178,
+   "ev_end": 33250,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S122",
+   "topics": [
+    "competition",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": "mixed",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "negative": [
+     "uncertainties"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "competition": [
+     "competition"
+    ],
+    "pressure": [
+     "uncertainties"
+    ],
+    "confident": [
+     "optimistic"
+    ],
+    "hedge": [
+     "prudent",
+     "uncertainties"
+    ]
+   },
+   "score": 7.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "We're optimistic about the potential to exceed our guidance, but we remain prudent given competition and other uncertainties.",
+   "ev_start": 33251,
+   "ev_end": 33376,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S123",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "extremely well"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 0,
+   "sentence": "Stranded cost removal is progressing extremely well.",
+   "ev_start": 33523,
+   "ev_end": 33575,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S124",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 0,
+   "sentence": "Their licensing technologies differ from UOP, which is part of why we acquired the business - the complementarity of the technology.",
+   "ev_start": 34118,
+   "ev_end": 34250,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S125",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 0,
+   "sentence": "The synergies are driven by combined offerings - for example, combining Johnson Matthey's capabilities in areas like on-purpose hydrogen production with our CO2 elimination capabilities to produce low-carbon hydrogen.",
+   "ev_start": 34924,
+   "ev_end": 35141,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S126",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquiring"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 2,
+   "sentence": "Acquiring JM enables a single combined proposition rather than customers having to sign two agreements.",
+   "ev_start": 35267,
+   "ev_end": 35370,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S127",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 3,
+   "sentence": "We also see opportunities by connecting JM's large installed base with our services and software portfolio, providing door openers for our Process Automation business.",
+   "ev_start": 35371,
+   "ev_end": 35538,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S128",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 4,
+   "sentence": "The headline price was about 13x EBITDA based on 2027 earnings, and that's primarily cost synergy-based.",
+   "ev_start": 35539,
+   "ev_end": 35643,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S129",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "acquired",
+     "synergies"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 5,
+   "sentence": "We acquired the business for commercial synergies and expect to realize more value over time.",
+   "ev_start": 35644,
+   "ev_end": 35737,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S130",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing",
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 4,
+   "sentence": "Customers are investing more in remote operations, digitization and resilience, and we see investments pivoting toward logistics infrastructure, pipelines and terminals.",
+   "ev_start": 36380,
+   "ev_end": 36549,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S131",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 5,
+   "sentence": "So overall, things have settled and investment is becoming more normalized with large projects returning to the pipeline.",
+   "ev_start": 36550,
+   "ev_end": 36671,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S132",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ],
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 2,
+   "sentence": "We feel really good about prospects for next year.",
+   "ev_start": 37125,
+   "ev_end": 37175,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S133",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "saw growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 2,
+   "sentence": "Process saw strong LNG and renewable fuel interest, and Industrial Automation saw growth in semiconductor fabs.",
+   "ev_start": 37362,
+   "ev_end": 37473,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S134",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 0,
+   "sentence": "We expected inflation to be persistent and continue to see it into the second half.",
+   "ev_start": 37856,
+   "ev_end": 37939,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S135",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "forward": [
+     "second half",
+     "expect"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 1,
+   "sentence": "Price was about 3.5% to 3.7% in Q2; for the second half we expect pricing around 4%, which helps cover inflation.",
+   "ev_start": 37940,
+   "ev_end": 38053,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S136",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 2,
+   "sentence": "We see inflation in electronics, copper and labor.",
+   "ev_start": 38054,
+   "ev_end": 38104,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S137",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introductions"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 3,
+   "sentence": "Much of the margin expansion is driven by productivity, stranded cost removal and product introductions, not just price-cost dynamics.",
+   "ev_start": 38105,
+   "ev_end": 38239,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S138",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "installed"
+    ],
+    "performance": [
+     "growing",
+     "installed base"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 1,
+   "sentence": "Solutions is a smaller component but growing well, mainly aftermarket services on our installed base.",
+   "ev_start": 38485,
+   "ev_end": 38586,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S139",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "installed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 2,
+   "sentence": "Gas detection has a large installed base and service contracts drive that solutions growth.",
+   "ev_start": 38587,
+   "ev_end": 38678,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S140",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "competition": [
+     "differentiation"
+    ],
+    "product": [
+     "new products"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 3,
+   "sentence": "The top-line improvement is due to better operational performance and new products creating differentiation.",
+   "ev_start": 38679,
+   "ev_end": 38787,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S141",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "low single-digit",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 47,
+   "sentence_index": 4,
+   "sentence": "We expect the segment to move from no growth to low single-digit and then to higher rates as initiatives take hold.",
+   "ev_start": 38788,
+   "ev_end": 38903,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S142",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "divestiture"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "sentence_index": 0,
+   "sentence": "Also note that part of the solutions growth in Q2 was related to Intelligrated, which won't continue post the divestiture.",
+   "ev_start": 38920,
+   "ev_end": 39042,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S143",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single-digit",
+     "growing"
+    ],
+    "strategy": [
+     "divestiture"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mike Stepniak",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 48,
+   "sentence_index": 1,
+   "sentence": "Think of core IA growing in the low single-digit range as a starting path for the post-divestiture world.",
+   "ev_start": 39043,
+   "ev_end": 39148,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S144",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "software_arr"
+   ],
+   "home": "software_arr",
+   "fact_ids": [
+    "HON_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 0,
+   "sentence": "On software ARR, we expect ARR growth around 15% for 2026.",
+   "ev_start": 39592,
+   "ev_end": 39650,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S145",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "software_arr"
+   ],
+   "home": "software_arr",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "new offerings",
+     "launched"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 1,
+   "sentence": "It's driven by existing offerings penetrating more customers and new offerings launched on our Forge platform.",
+   "ev_start": 39651,
+   "ev_end": 39761,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S146",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 1,
+   "sentence": "We had expected pressure in the first half and it occurred that way.",
+   "ev_start": 40409,
+   "ev_end": 40477,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S147",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment",
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 3,
+   "sentence": "That localization plus our portfolio positioning makes us well-suited to capture investment in energy, hospitality, healthcare and logistics infrastructure where customers are investing.",
+   "ev_start": 41514,
+   "ev_end": 41700,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S148",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 1,
+   "sentence": "M&A activity is more likely to be previewed in 2027 onwards.",
+   "ev_start": 41972,
+   "ev_end": 42032,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S149",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 4,
+   "sentence": "Our $12 adjusted EPS by 2029 target is based on organic growth with no M&A assumed.",
+   "ev_start": 42235,
+   "ev_end": 42318,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S150",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 61,
+   "sentence_index": 1,
+   "sentence": "Our ARR growth reflects market adoption of AI-based offerings.",
+   "ev_start": 43314,
+   "ev_end": 43376,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S151",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "arr",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 61,
+   "sentence_index": 3,
+   "sentence": "ARR growth is the best direct measure of this progress.",
+   "ev_start": 43484,
+   "ev_end": 43539,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S152",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch",
+     "new ai-enabled offerings"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 61,
+   "sentence_index": 4,
+   "sentence": "Forge-based products pull in hardware and services to an extent, and we continue to launch new AI-enabled offerings that create demand for products and services across our segments.",
+   "ev_start": 43540,
+   "ev_end": 43721,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S153",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.45,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 1,
+   "sentence": "I would like to thank our shareowners, our customers and all the Honeywell Technologies future shapers around the world for the strong second quarter results you delivered.",
+   "ev_start": 43900,
+   "ev_end": 44072,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "HON_2026_2-S154",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Vimal Kapur",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 2,
+   "sentence": "We are confident on our path ahead and look forward to sharing our ongoing progress in the months to come.",
+   "ev_start": 44073,
+   "ev_end": 44179,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "HON_2026_2-S004",
+  "HON_2026_2-S048",
+  "HON_2026_2-S144",
+  "HON_2026_2-S145",
+  "HON_2026_2-S002",
+  "HON_2026_2-S006",
+  "HON_2026_2-S011",
+  "HON_2026_2-S013",
+  "HON_2026_2-S014",
+  "HON_2026_2-S044",
+  "HON_2026_2-S050",
+  "HON_2026_2-S051",
+  "HON_2026_2-S052",
+  "HON_2026_2-S056",
+  "HON_2026_2-S063",
+  "HON_2026_2-S082",
+  "HON_2026_2-S086",
+  "HON_2026_2-S093",
+  "HON_2026_2-S112",
+  "HON_2026_2-S117",
+  "HON_2026_2-S122"
+ ],
+ "surfaced_signal_ids": [
+  "HON_2026_2-S004",
+  "HON_2026_2-S048",
+  "HON_2026_2-S144",
+  "HON_2026_2-S145",
+  "HON_2026_2-S002",
+  "HON_2026_2-S006",
+  "HON_2026_2-S011",
+  "HON_2026_2-S013",
+  "HON_2026_2-S014",
+  "HON_2026_2-S044",
+  "HON_2026_2-S050",
+  "HON_2026_2-S051",
+  "HON_2026_2-S052",
+  "HON_2026_2-S056",
+  "HON_2026_2-S063",
+  "HON_2026_2-S082",
+  "HON_2026_2-S086",
+  "HON_2026_2-S093",
+  "HON_2026_2-S112",
+  "HON_2026_2-S117",
+  "HON_2026_2-S122",
+  "HON_2026_2-S099",
+  "HON_2026_2-S132",
+  "HON_2026_2-S008",
+  "HON_2026_2-S120",
+  "HON_2026_2-S090",
+  "HON_2026_2-S010",
+  "HON_2026_2-S074",
+  "HON_2026_2-S079",
+  "HON_2026_2-S083"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "ending",
+   "software_arr"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "HON_2026_2-003",
+   "HON_2026_2-005"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 154,
+  "signals_usable": 154,
+  "selected": 21,
+  "by_topic": {
+   "product": 24,
+   "momentum": 76,
+   "pressure": 12,
+   "strategy": 33,
+   "competition": 10
+  },
+  "by_horizon": {
+   "current": 111,
+   "forward": 43
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 2,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

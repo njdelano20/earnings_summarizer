@@ -1,0 +1,6217 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "GOOGL",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "GOOGL",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "James Friedland",
+    "role": "ir"
+   },
+   {
+    "name": "Sundar Pichai",
+    "role": "management"
+   },
+   {
+    "name": "Philipp Schindler",
+    "role": "management"
+   },
+   {
+    "name": "Anat Ashkenazi",
+    "role": "management"
+   },
+   {
+    "name": "Brian Nowak",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas Anmuth",
+    "role": "analyst"
+   },
+   {
+    "name": "Eric Sheridan",
+    "role": "analyst"
+   },
+   {
+    "name": "Ross Sandler",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Nathanson",
+    "role": "analyst"
+   },
+   {
+    "name": "Mark",
+    "role": "analyst"
+   },
+   {
+    "name": "Ron Josey",
+    "role": "analyst"
+   },
+   {
+    "name": "Ken Goralski",
+    "role": "analyst"
+   },
+   {
+    "name": "Sridat Kajuria",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "GOOGL_2026Q2.json",
+  "vocabulary_packs": [
+   "media_entertainment"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Operating margin 34%",
+   "fact_ids": [
+    "GOOGL_2026_2-016"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $5.90B",
+   "fact_ids": [
+    "GOOGL_2026_2-020"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $39.10B",
+   "fact_ids": [
+    "GOOGL_2026_2-018"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.71, qa +0.71",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "alphabet",
+   "name": "Alphabet",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 24.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "cloud",
+   "name": "Cloud",
+   "depth": 0,
+   "revenue": {
+    "value": 24800000000.0,
+    "fact_id": "GOOGL_2026_2-036"
+   },
+   "growth": {
+    "value": 82.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-003",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 22
+  },
+  {
+   "node": "ai_infrastructure_and_ai_solutions_and_cloud",
+   "name": "Ai Infrastructure And Ai Solutions And Cloud",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "google_services",
+   "name": "Google Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 15.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-025",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "youtube_advertising",
+   "name": "Youtube Advertising",
+   "depth": 0,
+   "revenue": {
+    "value": 11100000000.0,
+    "fact_id": "GOOGL_2026_2-030"
+   },
+   "growth": {
+    "value": 13.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-006",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "network_advertising",
+   "name": "Network Advertising",
+   "depth": 0,
+   "revenue": {
+    "value": 7300000000.0,
+    "fact_id": "GOOGL_2026_2-031"
+   },
+   "growth": {
+    "value": -1.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "search_and_other",
+   "name": "Search And Other",
+   "depth": 0,
+   "revenue": {
+    "value": 63000000000.0,
+    "fact_id": "GOOGL_2026_2-008"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "advertising",
+   "name": "Advertising",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 14.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-027",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 10
+  },
+  {
+   "node": "google_search_and_other_advertising",
+   "name": "Google Search And Other Advertising",
+   "depth": 0,
+   "revenue": {
+    "value": 63300000000.0,
+    "fact_id": "GOOGL_2026_2-029"
+   },
+   "growth": {
+    "value": 17.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-028",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "subscription_platforms_and_devices",
+   "name": "Subscription Platforms And Devices",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 15.0,
+    "period": "second quarter",
+    "fact_id": "GOOGL_2026_2-032",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "google_cloud_s",
+   "name": "Google Cloud'S",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "other_bets",
+   "name": "Other Bets",
+   "depth": 0,
+   "revenue": {
+    "value": 382000000.0,
+    "fact_id": "GOOGL_2026_2-040"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 4
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "GOOGL_2026_2-014",
+   "GOOGL_2026_2-015",
+   "GOOGL_2026_2-016",
+   "GOOGL_2026_2-012",
+   "GOOGL_2026_2-013",
+   "GOOGL_2026_2-020",
+   "GOOGL_2026_2-021",
+   "GOOGL_2026_2-018",
+   "GOOGL_2026_2-022",
+   "GOOGL_2026_2-023",
+   "GOOGL_2026_2-017",
+   "GOOGL_2026_2-019",
+   "GOOGL_2026_2-041",
+   "GOOGL_2026_2-042",
+   "GOOGL_2026_2-024"
+  ],
+  "signal_ids": [
+   "GOOGL_2026_2-S001",
+   "GOOGL_2026_2-S010",
+   "GOOGL_2026_2-S015",
+   "GOOGL_2026_2-S019",
+   "GOOGL_2026_2-S021",
+   "GOOGL_2026_2-S039",
+   "GOOGL_2026_2-S052",
+   "GOOGL_2026_2-S068",
+   "GOOGL_2026_2-S073",
+   "GOOGL_2026_2-S075",
+   "GOOGL_2026_2-S097",
+   "GOOGL_2026_2-S102",
+   "GOOGL_2026_2-S106",
+   "GOOGL_2026_2-S117",
+   "GOOGL_2026_2-S118",
+   "GOOGL_2026_2-S127",
+   "GOOGL_2026_2-S129"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "alphabet",
+   "name": "Alphabet",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-001",
+    "GOOGL_2026_2-002"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S002",
+    "GOOGL_2026_2-S096"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "cloud",
+   "name": "Cloud",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-003",
+    "GOOGL_2026_2-036",
+    "GOOGL_2026_2-037",
+    "GOOGL_2026_2-038"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S006",
+    "GOOGL_2026_2-S007",
+    "GOOGL_2026_2-S028",
+    "GOOGL_2026_2-S031",
+    "GOOGL_2026_2-S033",
+    "GOOGL_2026_2-S071",
+    "GOOGL_2026_2-S090",
+    "GOOGL_2026_2-S099",
+    "GOOGL_2026_2-S105",
+    "GOOGL_2026_2-S134",
+    "GOOGL_2026_2-S135"
+   ],
+   "n_home_signals": 21,
+   "n_mentions": 22,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ai_infrastructure_and_ai_solutions_and_cloud",
+   "name": "Ai Infrastructure And Ai Solutions And Cloud",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-004"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "google_services",
+   "name": "Google Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-025",
+    "GOOGL_2026_2-033",
+    "GOOGL_2026_2-034",
+    "GOOGL_2026_2-035"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S046",
+    "GOOGL_2026_2-S059",
+    "GOOGL_2026_2-S060",
+    "GOOGL_2026_2-S082",
+    "GOOGL_2026_2-S089",
+    "GOOGL_2026_2-S098"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "youtube_advertising",
+   "name": "Youtube Advertising",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-006",
+    "GOOGL_2026_2-030"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S086"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "network_advertising",
+   "name": "Network Advertising",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-007",
+    "GOOGL_2026_2-031"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S048"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "search_and_other",
+   "name": "Search And Other",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-008"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S005",
+    "GOOGL_2026_2-S137"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "advertising",
+   "name": "Advertising",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-027"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S050",
+    "GOOGL_2026_2-S051",
+    "GOOGL_2026_2-S067",
+    "GOOGL_2026_2-S083",
+    "GOOGL_2026_2-S139"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 10,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "google_search_and_other_advertising",
+   "name": "Google Search And Other Advertising",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-028",
+    "GOOGL_2026_2-029"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S085"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "subscription_platforms_and_devices",
+   "name": "Subscription Platforms And Devices",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-032"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S088"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "google_cloud_s",
+   "name": "Google Cloud'S",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-039"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S008",
+    "GOOGL_2026_2-S009"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "other_bets",
+   "name": "Other Bets",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GOOGL_2026_2-040"
+   ],
+   "signal_ids": [
+    "GOOGL_2026_2-S044",
+    "GOOGL_2026_2-S045",
+    "GOOGL_2026_2-S095"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 6,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.71
+   },
+   "qa": {
+    "confident": 6,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 1,
+    "index": 0.71
+   }
+  },
+  "speakers": {
+   "Sundar Pichai": {
+    "confident": 11,
+    "cautious": 1
+   },
+   "Anat Ashkenazi": {
+    "cautious": 1
+   },
+   "Philipp Schindler": {
+    "confident": 1
+   }
+  },
+  "notable_confident": [
+   "GOOGL_2026_2-S116",
+   "GOOGL_2026_2-S010",
+   "GOOGL_2026_2-S121",
+   "GOOGL_2026_2-S021"
+  ],
+  "notable_cautious": [
+   "GOOGL_2026_2-S131",
+   "GOOGL_2026_2-S037"
+  ],
+  "withheld": [
+   "GOOGL_2026_2-S131"
+  ],
+  "revisions": [
+   "GOOGL_2026_2-S100"
+  ]
+ },
+ "signals": [
+  {
+   "id": "GOOGL_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "We have exciting momentum.",
+   "ev_start": 1384,
+   "ev_end": 1410,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "alphabet"
+   ],
+   "home": "alphabet",
+   "fact_ids": [
+    "GOOGL_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Alphabet revenue grew 24% year-over-year.",
+   "ev_start": 1411,
+   "ev_end": 1452,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S003",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "Our AI investments are redefining what's possible across every part of our business.",
+   "ev_start": 1453,
+   "ev_end": 1537,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Our momentum starts with Search where people are adopting one seamless search experience across AI Overviews and AI mode.",
+   "ev_start": 1538,
+   "ev_end": 1659,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "search_and_other",
+    "alphabet"
+   ],
+   "home": "search_and_other",
+   "fact_ids": [
+    "GOOGL_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "grew"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We saw 17% revenue growth in Search and Other and YouTube ads grew 13%.",
+   "ev_start": 1660,
+   "ev_end": 1731,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud",
+    "ai_infrastructure_and_ai_solutions_and_cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [
+    "GOOGL_2026_2-003",
+    "GOOGL_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "demand",
+     "backlog"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Cloud revenue grew 82% powered by strong demand for AI infrastructure and AI solutions and Cloud backlog grew to $514 billion.",
+   "ev_start": 1732,
+   "ev_end": 1858,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S007",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "It's great to see the wide adoption of Gemini Enterprise with nearly 90% of the Fortune 100 using it.",
+   "ev_start": 1859,
+   "ev_end": 1960,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_cloud_s",
+    "cloud"
+   ],
+   "home": "google_cloud_s",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "Today, I'll expand on our AI progress, our global product footprint, led by Search and YouTube, Google Cloud's leadership and our long-term bets.",
+   "ev_start": 1961,
+   "ev_end": 2106,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_cloud_s"
+   ],
+   "home": "google_cloud_s",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced",
+     "new models"
+    ]
+   },
+   "score": 5.3,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Yesterday, we announced new models, Gemini 3.6 Flash and 3.5 Flashlight, which are cost-effective and highly efficient.",
+   "ev_start": 2118,
+   "ev_end": 2237,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 5.3,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We also launched Gemini 3.5 Flash Cyber, which I'm really excited about; paired with our core vendor agent, it finds and fixes vulnerabilities and delivers performance at the frontier comparable to far bigger cyber models.",
+   "ev_start": 2361,
+   "ev_end": 2583,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S011",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next generation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "GEMINI 3.5 Pro is currently in testing and our team is already building the next generation of models.",
+   "ev_start": 2584,
+   "ev_end": 2686,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S012",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.08,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We have started our most ambitious pretraining run yet for Gemini 4 and are excited by the progress we are seeing at the frontier.",
+   "ev_start": 2687,
+   "ev_end": 2817,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S013",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "demand",
+     "customers",
+     "momentum",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Demand for our models is translating to strong token usage across developers and enterprise customers, and we continue to be supply-constrained, a sign of momentum and rapid adoption.",
+   "ev_start": 2818,
+   "ev_end": 3001,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Additionally, this quarter, we launched Omni.",
+   "ev_start": 3240,
+   "ev_end": 3285,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launching"
+    ]
+   },
+   "score": 5.08,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "Since launching at I/O in May, there's been a 40% increase in daily active users creating videos on the Gemini app.",
+   "ev_start": 3357,
+   "ev_end": 3472,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S016",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "popular"
+    ],
+    "product": [
+     "popular"
+    ]
+   },
+   "score": 3.58,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "Our Gemini family of open models, small enough to run on local devices, are hugely popular.",
+   "ev_start": 3473,
+   "ev_end": 3564,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launching"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "These models have been downloaded over 900 million times, and our latest GM4 models have been downloaded over 300 million times since launching in April.",
+   "ev_start": 3565,
+   "ev_end": 3718,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Antigravity is a powerful tool for users and enterprises and it's completely accelerated how we build internally.",
+   "ev_start": 3862,
+   "ev_end": 3975,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "on track to"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "As just one example, a team in Chrome is now on track to accelerate delivery by eight times, compressing a two-year timeline into three months through model-driven refactoring.",
+   "ev_start": 3976,
+   "ev_end": 4152,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S020",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating",
+     "expansionary"
+    ],
+    "product": [
+     "resonating"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "AI continues to drive an expansionary moment with new experiences resonating with users and driving growth in queries.",
+   "ev_start": 4273,
+   "ev_end": 4391,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-time high"
+    ],
+    "performance": [
+     "all-time"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "As a big football fan, I was particularly excited to see Search usage hit an all-time high during the World Cup this year.",
+   "ev_start": 4392,
+   "ev_end": 4514,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "Philipp will also talk more about how we are innovating the ads experience.",
+   "ev_start": 5552,
+   "ev_end": 5627,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new agent features"
+    ]
+   },
+   "score": 3.58,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Users love new agent features like Daily Brief and our personalized agent, Gemini Spark, which is now available in the U.S. and internationally.",
+   "ev_start": 5748,
+   "ev_end": 5892,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S024",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "incredible"
+    ],
+    "product": [
+     "shipping",
+     "new features"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "We have been shipping helpful new features like this at an incredible clip.",
+   "ev_start": 5893,
+   "ev_end": 5968,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S025",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "Our continued momentum is driven by our integrated AI portfolio, consisting of chips, models, data, security and agent platforms, all designed to work together.",
+   "ev_start": 6690,
+   "ev_end": 6850,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "Gemini continues to be a key driver of growth and is deeply integrated across all of our cloud products, including Gemini Enterprise, data analytics, cybersecurity and Google Workspace.",
+   "ev_start": 6851,
+   "ev_end": 7036,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "We are seeing strong, diversified demand across products, customers, geographies and industries.",
+   "ev_start": 7037,
+   "ev_end": 7133,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S028",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "Our product differentiation is driving expansion in three ways.",
+   "ev_start": 7134,
+   "ev_end": 7197,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S029",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning",
+     "doubling"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "We are winning new customers, more than doubling our acquisition velocity year-over-year.",
+   "ev_start": 7198,
+   "ev_end": 7287,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeding",
+     "acceleration",
+     "expanding"
+    ],
+    "performance": [
+     "customers",
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "We are deepening our relationships with existing customers who are expanding their usage and exceeding their commitments by more than 50%, an acceleration over last quarter.",
+   "ev_start": 7288,
+   "ev_end": 7461,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "And we are driving growth with partners with transactions on Google Cloud Marketplace growing over 7x year-over-year.",
+   "ev_start": 7462,
+   "ev_end": 7579,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S032",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "growth",
+     "adoption"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "One of the strongest parts of our growth comes from the rapid adoption of our Gemini Enterprise platform.",
+   "ev_start": 7580,
+   "ev_end": 7685,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S033",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "It's differentiated with easy-to-use tools to build agents and automate processes, connectivity to enterprise systems, cost management and governance tools.",
+   "ev_start": 7686,
+   "ev_end": 7842,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S034",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "In Q2, agent development kit, our framework for building and deploying enterprise AI agents, reached nearly 70 million total downloads.",
+   "ev_start": 7843,
+   "ev_end": 7978,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S035",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "product": [
+     "collaborate"
+    ]
+   },
+   "score": 3.08,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "More broadly, Gemini is transforming how millions of businesses use AI to build custom agents, automate processes, improve cybersecurity, manage customer relationships, streamline data analytics, collaborate effectively and more.",
+   "ev_start": 8289,
+   "ev_end": 8518,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "All of this momentum is driving growth in our paid token usage.",
+   "ev_start": 8519,
+   "ev_end": 8582,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S037",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "best"
+    ],
+    "competition": [
+     "differentiated"
+    ],
+    "product": [
+     "integrates"
+    ],
+    "hedge": [
+     "monitoring"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "We are also seeing strong interest in our AI-powered security platform, which is differentiated because it integrates threat intelligence and cyber response prioritization with best-in-class AI automated scanning, code remediation and monitoring.",
+   "ev_start": 8801,
+   "ev_end": 9047,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S038",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new cyber model"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.98,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "And with our new Google AI Threat Defense, we are really excited to bring our new cyber model and core vendor to help our customers defend against AI threats.",
+   "ev_start": 9623,
+   "ev_end": 9781,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "accelerators"
+    ]
+   },
+   "score": 3.8,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 77,
+   "sentence": "We offer the industry's broadest range of accelerators from Google and NVIDIA, including the new NVIDIA Vera Rubin platform and TPU and A100, which deliver strong price performance.",
+   "ev_start": 9839,
+   "ev_end": 10020,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerators"
+    ],
+    "performance": [
+     "customers",
+     "accelerators"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "It allows customers to connect 1 million AI accelerators across multiple data center sites into a unified supercomputer.",
+   "ev_start": 10174,
+   "ev_end": 10294,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S041",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "next-generation"
+    ],
+    "performance": [
+     "growth",
+     "demand"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 83,
+   "sentence": "We are seeing strong growth in demand for our AI infrastructure offerings from leading labs such as Inflection Intelligence, next-generation AI builders including Kakao, financial services like Deutsche Börse Group, pharmaceutical companies such as Pfizer and Roche and robotics and spatial intelligence companies such as World Labs.",
+   "ev_start": 10554,
+   "ev_end": 10887,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S042",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "We are continuing our strategy of investing in promising companies and internal efforts that bring pioneering AI research into the real world.",
+   "ev_start": 10888,
+   "ev_end": 11030,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S043",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "other_bets"
+   ],
+   "home": "other_bets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "We have seen exciting progress from our other bets.",
+   "ev_start": 11031,
+   "ev_end": 11082,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "other_bets"
+   ],
+   "home": "other_bets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "Waymo introduced its newest vehicle for public riders.",
+   "ev_start": 11083,
+   "ev_end": 11137,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S045",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "other_bets"
+   ],
+   "home": "other_bets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "Wing has safely completed more than 1 million home deliveries, and we continue to grow our presence through partnerships with Walmart, DoorDash and Papa John's.",
+   "ev_start": 11261,
+   "ev_end": 11421,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_services"
+   ],
+   "home": "google_services",
+   "fact_ids": [
+    "GOOGL_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 15"
+    ],
+    "performance": []
+   },
+   "score": 4.27,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Google Services revenues were $95 billion for the quarter, up 15% year-on-year, primarily driven by Search.",
+   "ev_start": 11955,
+   "ev_end": 12062,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "youtube_advertising",
+    "advertising"
+   ],
+   "home": "youtube_advertising",
+   "fact_ids": [
+    "GOOGL_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "YouTube advertising revenues grew 13%, driven by direct response and brand.",
+   "ev_start": 12160,
+   "ev_end": 12235,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "network_advertising",
+    "advertising"
+   ],
+   "home": "network_advertising",
+   "fact_ids": [
+    "GOOGL_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Network advertising revenues were down 1% year-on-year.",
+   "ev_start": 12236,
+   "ev_end": 12291,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S049",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Strong performance in Search and YouTube underscores how our investments in AI translate into measurable value for our users and advertisers.",
+   "ev_start": 12292,
+   "ev_end": 12433,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "Sundar highlighted the momentum we see in Search, which directly impacts our advertising business.",
+   "ev_start": 12517,
+   "ev_end": 12615,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S051",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "deployment"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 4.08,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "We continue to accelerate the deployment of Gemini across our entire ads infrastructure to boost performance in three areas mentioned before: ads quality, advertiser tools and AI user experiences.",
+   "ev_start": 12616,
+   "ev_end": 12812,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S052",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves"
+    ],
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "At Google Marketing Live, we showcased how Gemini improves query understanding, allowing us to find relevant ads for longer searches previously difficult to monetize.",
+   "ev_start": 12833,
+   "ev_end": 12999,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S053",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "beta"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "It's out of beta and 0.5 million advertisers have already adopted it.",
+   "ev_start": 13581,
+   "ev_end": 13650,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "volume",
+     "decrease"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "This led to a 17% improvement in conversion volume and an 11% decrease in cost per lead.",
+   "ev_start": 13924,
+   "ev_end": 14012,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S055",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "We see strong adoption of our generative AI creative tools, which makes creative development easier, especially for SMBs.",
+   "ev_start": 14013,
+   "ev_end": 14134,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S056",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Within AI mode, we continue to test and deploy a range of new ad formats.",
+   "ev_start": 14736,
+   "ev_end": 14809,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining",
+     "momentum"
+    ],
+    "performance": [
+     "momentum",
+     "traction"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Direct Offers is gaining momentum with partners like IHG Hotels and Resorts, soon surfacing special offers during trip planning, and highlighted answers with clearly marked sponsored links inside list responses are showing early user traction.",
+   "ev_start": 14904,
+   "ev_end": 15147,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S058",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "collaboration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "In collaboration with the retail industry, we established the open-source Universal Commerce Protocol, UCP, as a new standard for agentic commerce.",
+   "ev_start": 15169,
+   "ev_end": 15316,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_services"
+   ],
+   "home": "google_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.48,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "We also announced Universal Card, allowing shoppers to add items from different retailers across Google services and buy in a single checkout.",
+   "ev_start": 15487,
+   "ev_end": 15629,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S060",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_services"
+   ],
+   "home": "google_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "As a FIFA preferred platform partner, we help fans around the world tune into the games.",
+   "ev_start": 15649,
+   "ev_end": 15737,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.53,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "More broadly, on YouTube, we introduced an exclusive slate of creator shows making it easier for brands to tap into the fandom of creators.",
+   "ev_start": 16166,
+   "ev_end": 16305,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.53,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "We launched custom sponsorships to put brands at the heart of the world's biggest moments as they unfold on YouTube using AI to dynamically surface videos tailored to a brand's desired moment.",
+   "ev_start": 16306,
+   "ev_end": 16498,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "Brands continue to partner with YouTube creators to engage new audiences.",
+   "ev_start": 16499,
+   "ev_end": 16572,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnered"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Kate Spade reached Gen Z through a first-of-its-kind YouTube creator campaign and partnered with creators Li Tuan and Hanam; by leveraging multiple format videos on YouTube, the brand drove a 3.25% brand lift and purchase intent.",
+   "ev_start": 16573,
+   "ev_end": 16802,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "In the living room, we see continued momentum across both brand and direct response.",
+   "ev_start": 17371,
+   "ev_end": 17455,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.48,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "With the launch of Buy with Google Pay, viewers can complete purchases directly on their CTV, turning the TV screen into a stronger performance surface.",
+   "ev_start": 17456,
+   "ev_end": 17608,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "Beyond advertising, YouTube's subscription business, which thrives across living room screens, is growing faster than ads, particularly driven by YouTube Music and Premium.",
+   "ev_start": 17702,
+   "ev_end": 17874,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenges"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "Our ads customer support teams use Gemini-powered agentic solutions that now autonomously address 75% of support cases, freeing them to solve our customers' most complex challenges.",
+   "ev_start": 18096,
+   "ev_end": 18277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "Similarly, our new agentic solutions for SMBs have expanded our reach by hundreds of thousands of new customers year-to-date.",
+   "ev_start": 18278,
+   "ev_end": 18403,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S070",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "As always, ending with partnerships.",
+   "ev_start": 18404,
+   "ev_end": 18440,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S071",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "partnering"
+    ],
+    "strategy": [
+     "commitment"
+    ],
+    "performance": [
+     "booking"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Booking Holdings expanded a multiyear cloud commitment and are partnering closely to advance our AI ad formats.",
+   "ev_start": 18526,
+   "ev_end": 18637,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S072",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "It's also deploying Google's AI technology to enable new customer experiences like agentic dining reservations on OpenTable, helping restaurants get discovered and booked right when it matters most.",
+   "ev_start": 18638,
+   "ev_end": 18836,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S073",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.85,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "Other cost of revenues was $29.8 billion, up 22%, driven by increases in depreciation, inventory costs primarily from the sales of TPU systems to customers and content acquisition costs largely for YouTube.",
+   "ev_start": 19597,
+   "ev_end": 19803,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S074",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d",
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 10,
+   "sentence": "R&D expenses increased by 32%, driven by compensation and investments in AI talent as well as depreciation.",
+   "ev_start": 19859,
+   "ev_end": 19966,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S075",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 11,
+   "sentence": "Sales and marketing expenses were up 18% due to investments to support the Gemini app and Search and compensation.",
+   "ev_start": 19967,
+   "ev_end": 20081,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-014",
+    "GOOGL_2026_2-015",
+    "GOOGL_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 30"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 13,
+   "sentence": "Operating income increased 30% to $40.8 billion and operating margin was 34%.",
+   "ev_start": 20196,
+   "ev_end": 20273,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "We generated strong operating cash flow of $39.1 billion in the second quarter and $185.7 billion for the trailing 12 months.",
+   "ev_start": 20587,
+   "ev_end": 20712,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 17,
+   "sentence": "CapEx was $44.9 billion in the second quarter, with the vast majority of the spend in technical infrastructure to support our investments in AI.",
+   "ev_start": 20713,
+   "ev_end": 20857,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S079",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 18,
+   "sentence": "Approximately 60% of our investment in technical infrastructure this quarter was in servers and 40% was in data centers and networking equipment.",
+   "ev_start": 20858,
+   "ev_end": 21003,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S080",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 19,
+   "sentence": "We had negative free cash flow of $5.9 billion in the second quarter driven by our investments in CapEx.",
+   "ev_start": 21004,
+   "ev_end": 21108,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S081",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-024"
+   ],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ],
+    "strategy": [
+     "dividend"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 23,
+   "sentence": "And as mentioned in our press release, our Board of Directors declared a quarterly cash dividend on our common stock of $0.22 per share, which is payable in September.",
+   "ev_start": 21341,
+   "ev_end": 21508,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_services"
+   ],
+   "home": "google_services",
+   "fact_ids": [
+    "GOOGL_2026_2-025",
+    "GOOGL_2026_2-026"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 15",
+     "reflecting strong growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.27,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "Google Services revenues increased 15% to $94.5 billion reflecting strong growth in Search and subscriptions.",
+   "ev_start": 21537,
+   "ev_end": 21646,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [
+    "GOOGL_2026_2-027"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 14",
+     "with growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 26,
+   "sentence": "Total advertising revenues were up 14% with growth across all major verticals.",
+   "ev_start": 21647,
+   "ev_end": 21725,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.25,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "We experienced strong ad growth related to the World Cup, particularly in YouTube ads.",
+   "ev_start": 21726,
+   "ev_end": 21812,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_search_and_other_advertising",
+    "search_and_other",
+    "advertising"
+   ],
+   "home": "google_search_and_other_advertising",
+   "fact_ids": [
+    "GOOGL_2026_2-028",
+    "GOOGL_2026_2-029"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased by 17"
+    ],
+    "performance": []
+   },
+   "score": 4.27,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 28,
+   "sentence": "Google Search and Other advertising revenues increased by 17% to $63.3 billion with retail and finance driving the largest contributions.",
+   "ev_start": 21813,
+   "ev_end": 21950,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "youtube_advertising",
+    "advertising"
+   ],
+   "home": "youtube_advertising",
+   "fact_ids": [
+    "GOOGL_2026_2-030"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "increased 13"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 29,
+   "sentence": "YouTube advertising revenues increased 13% to $11.1 billion, driven by direct response advertising as well as brand with strength in the living room, as Philipp mentioned earlier.",
+   "ev_start": 21951,
+   "ev_end": 22130,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "network_advertising",
+    "advertising"
+   ],
+   "home": "network_advertising",
+   "fact_ids": [
+    "GOOGL_2026_2-031"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 1"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 30,
+   "sentence": "Network advertising revenues of $7.3 billion were down 1%.",
+   "ev_start": 22131,
+   "ev_end": 22189,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "subscription_platforms_and_devices"
+   ],
+   "home": "subscription_platforms_and_devices",
+   "fact_ids": [
+    "GOOGL_2026_2-032"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 15"
+    ],
+    "performance": [
+     "growth",
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 31,
+   "sentence": "Subscription platforms and devices revenues increased 15% this quarter to $12.9 billion due to strong growth in both YouTube subscriptions, particularly YouTube Music and Premium, and Google One, which was driven by demand for AI plans.",
+   "ev_start": 22190,
+   "ev_end": 22426,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_services"
+   ],
+   "home": "google_services",
+   "fact_ids": [
+    "GOOGL_2026_2-033",
+    "GOOGL_2026_2-034",
+    "GOOGL_2026_2-035"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 20"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 32,
+   "sentence": "Google Services operating income increased 20% to $39.5 billion and operating margin was 41.8%.",
+   "ev_start": 22427,
+   "ev_end": 22522,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S090",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [
+    "GOOGL_2026_2-036"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 82",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 34,
+   "sentence": "Cloud revenues were up 82% to $24.8 billion driven primarily by GCP, which grew faster than Cloud overall; core GCP, AI solutions and AI infrastructure were all important drivers of growth.",
+   "ev_start": 22652,
+   "ev_end": 22841,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "accelerated",
+     "sales"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 36,
+   "sentence": "Cloud revenue growth accelerated meaningfully even after excluding the impact of TPU system sales.",
+   "ev_start": 22971,
+   "ev_end": 23069,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [
+    "GOOGL_2026_2-037",
+    "GOOGL_2026_2-038"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tripling"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 37,
+   "sentence": "Cloud operating income was $8.8 billion, more than tripling year-over-year and operating margin increased from 20.7% in the second quarter last year to 35.6%.",
+   "ev_start": 23070,
+   "ev_end": 23228,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 39,
+   "sentence": "The increase was driven by strong demand for our Enterprise AI offerings.",
+   "ev_start": 23346,
+   "ev_end": 23419,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 40,
+   "sentence": "The majority of the backlog is related to typical GCP contracts for a broad mix of customers, and we expect to recognize just over 50% of the total backlog as revenue over the next 24 months.",
+   "ev_start": 23420,
+   "ev_end": 23611,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S095",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "other_bets"
+   ],
+   "home": "other_bets",
+   "fact_ids": [
+    "GOOGL_2026_2-040"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 41,
+   "sentence": "In Other Bets, revenues were $382 million, and operating loss was $1.8 billion as we continue to scale Waymo's business and invest in key other bets.",
+   "ev_start": 23612,
+   "ev_end": 23761,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S096",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "alphabet"
+   ],
+   "home": "alphabet",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 42,
+   "sentence": "And in Alphabet-level activities, the operating loss was $5.8 billion, driven by shared AI R&D expenses.",
+   "ev_start": 23762,
+   "ev_end": 23866,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S097",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GOOGL_2026_2-041"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "revenue"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 8.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 44,
+   "sentence": "First, in terms of revenues, at the current spot rates, we would expect a slight FX headwind to our consolidated revenue in Q3 compared to a 1 percentage point FX tailwind in Q2.",
+   "ev_start": 23956,
+   "ev_end": 24134,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S098",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "google_services"
+   ],
+   "home": "google_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 46,
+   "sentence": "In Google Services, as Philipp mentioned, we continue to benefit from innovation in Search by improving the user and advertiser experience with AI.",
+   "ev_start": 24197,
+   "ev_end": 24344,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 48,
+   "sentence": "In Google Cloud, we're seeing significant demand for products and services which we expect to drive strong growth.",
+   "ev_start": 24473,
+   "ev_end": 24587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S100",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 50,
+   "sentence": "We continue to expect to recognize a relatively small portion of the revenues from our existing TPU system sales agreements this year, ramping as we exit 2026.",
+   "ev_start": 24694,
+   "ev_end": 24853,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 53,
+   "sentence": "This strategy allows us to keep growing our customer base and capture greater overall value.",
+   "ev_start": 25117,
+   "ev_end": 25209,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S102",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 54,
+   "sentence": "However, it will create modest margin pressure in the near term as we utilize this capacity.",
+   "ev_start": 25210,
+   "ev_end": 25302,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "growing"
+    ],
+    "performance": [
+     "acceleration",
+     "growing",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 57,
+   "sentence": "The increase in the range is primarily due to an acceleration in the delivery of capacity to meet growing demand.",
+   "ev_start": 25478,
+   "ev_end": 25591,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S104",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 59,
+   "sentence": "In terms of expenses, the significant increase in our investments in technical infrastructure will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs such as energy.",
+   "ev_start": 25731,
+   "ev_end": 25965,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S105",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investment",
+     "investing"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 60,
+   "sentence": "We also expect to continue hiring in key investment areas such as AI and Cloud and we are investing in marketing to support our AI products.",
+   "ev_start": 25966,
+   "ev_end": 26106,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S106",
+   "topics": [
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 61,
+   "sentence": "And finally, we expect free cash flow will remain under pressure, driven by our investments in technical infrastructure which enables us to capitalize on the AI opportunity and continue to drive attractive returns.",
+   "ev_start": 26107,
+   "ev_end": 26321,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "impressive"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 63,
+   "sentence": "Our teams continue to deliver impressive innovation, executing with discipline and velocity.",
+   "ev_start": 26361,
+   "ev_end": 26453,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 11,
+   "sentence": "We are seeing momentum across consumers, enterprises and developers and so on.",
+   "ev_start": 28509,
+   "ev_end": 28587,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S109",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "bullish"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 12,
+   "sentence": "So it feels like, if anything, over the past year, we've gotten more bullish on the opportunities ahead.",
+   "ev_start": 28588,
+   "ev_end": 28692,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 3,
+   "sentence": "We are seeing very strong demand, both from external cloud customers as well as across the business.",
+   "ev_start": 28928,
+   "ev_end": 29028,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S111",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest",
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "Our goal is to invest as long as we see an attractive return on that investment, as Sundar mentioned earlier.",
+   "ev_start": 29029,
+   "ev_end": 29138,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S112",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 7,
+   "sentence": "And as you've seen, while we have increased our capacity quite significantly over the past three years, demand still outpaces that investment.",
+   "ev_start": 29312,
+   "ev_end": 29454,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S113",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 10,
+   "sentence": "But as long as we see these attractive opportunities to invest, we will continue to invest.",
+   "ev_start": 29761,
+   "ev_end": 29852,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S114",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "Flash is our workhorse model, and we see tremendous demand for it given it generally hits a sweet spot of performance, cost, reliability and latency.",
+   "ev_start": 31090,
+   "ev_end": 31239,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S115",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next generation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 11,
+   "sentence": "For the next generation of the frontier, you'll need much larger base models.",
+   "ev_start": 31832,
+   "ev_end": 31909,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S116",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited",
+     "confident",
+     "pleased"
+    ]
+   },
+   "score": 2.08,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 13,
+   "sentence": "I am very excited by the progress I'm seeing internally on Gemini 4, and I'm confident that people will be pleased when we put it outside.",
+   "ev_start": 31980,
+   "ev_end": 32118,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S117",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 4.58,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 14,
+   "sentence": "But we will need Gemini 4 as a larger base model to compete at that frontier level.",
+   "ev_start": 32119,
+   "ev_end": 32202,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S118",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 0,
+   "sentence": "On the question regarding our capital structure and recent equity and debt raises: as we think about our investment needs, we look at the next year and multiple years out.",
+   "ev_start": 32262,
+   "ev_end": 32433,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 2,
+   "sentence": "As you've seen in our results today, we continue to generate very strong cash flow from operations.",
+   "ev_start": 32506,
+   "ev_end": 32605,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 10,
+   "sentence": "We look at three dimensions - cash flow from operations, debt levels and equity - in a way that balances ensuring we maintain a healthy balance sheet.",
+   "ev_start": 33303,
+   "ev_end": 33453,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S121",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "roadmap"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 0,
+   "sentence": "I think, first of all, we are very pleased with our TPU roadmap progress and the value in terms of performance and the edge it gives.",
+   "ev_start": 34257,
+   "ev_end": 34390,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S122",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 2,
+   "sentence": "In terms of allocating TPUs, our first priority is making sure we are allocating what we need to compete at the frontier in terms of AGI development - that is the foundation for everything we do.",
+   "ev_start": 34424,
+   "ev_end": 34619,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "extraordinary"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 3,
+   "sentence": "But given the extraordinary demand, we balance external demand with internal needs by using both TPUs and GPUs, mainly for serving our models.",
+   "ev_start": 34620,
+   "ev_end": 34762,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 1,
+   "sentence": "First, we think about the Pareto frontier: we want to make sure for our customers we are offering best models at various price points.",
+   "ev_start": 36758,
+   "ev_end": 36892,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "releases"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 4,
+   "sentence": "On the speed of model releases, you will see us continue to pick up pace.",
+   "ev_start": 37111,
+   "ev_end": 37184,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S126",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.72,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 5,
+   "sentence": "We announced 3.5 Flash at I/O, followed up with 3.6 Flash, and you'll see continued iterations with further progress in agentic coding.",
+   "ev_start": 37185,
+   "ev_end": 37320,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S127",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 4.58,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 8,
+   "sentence": "We want to compete at the frontier level of where the frontier will be when Gemini 4 comes out.",
+   "ev_start": 37397,
+   "ev_end": 37492,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "releasing",
+     "roadmap"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 11,
+   "sentence": "Picking up pace and releasing models at a much higher cadence is part of our roadmap.",
+   "ev_start": 37658,
+   "ev_end": 37743,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S129",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 8,
+   "sentence": "Our ability to provide an integrated, secure, configurable, managed solution - combined with our models and infrastructure - is a key advantage.",
+   "ev_start": 39132,
+   "ev_end": 39276,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S130",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 9,
+   "sentence": "Our Cloud business is focused on building that integrated offering, and we see demand across all components.",
+   "ev_start": 39277,
+   "ev_end": 39385,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S131",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": true,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "withheld": [
+     "we don't break out"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 0,
+   "sentence": "We don't break out margins for specific products or infrastructure components.",
+   "ev_start": 39573,
+   "ev_end": 39651,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S132",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "The way to think about it is that TPUs expand our total addressable market by providing solutions to customers that need those systems in their data centers.",
+   "ev_start": 39719,
+   "ev_end": 39876,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S133",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expansion"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 3,
+   "sentence": "Overall, think about Cloud margins: we had a strong expansion to 35.6% this quarter due to top-line growth and operational discipline.",
+   "ev_start": 39877,
+   "ev_end": 40011,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S134",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "we plan"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": []
+   },
+   "score": 6.44,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "As you think about Q3 and through the remainder of the year, given the supply-constrained environment, we plan to expand the use of third-party capacity in Q3 as a bridging strategy, which will put some pressure on operating margins for Cloud in the near term.",
+   "ev_start": 40012,
+   "ev_end": 40272,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S135",
+   "topics": [
+    "product",
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "product": [
+     "integration"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Anat Ashkenazi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 5,
+   "sentence": "Also, the integration of Wiz creates some near-term headwinds related to the acquisition.",
+   "ev_start": 40273,
+   "ev_end": 40362,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "cloud"
+   ],
+   "home": "cloud",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "extraordinary"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 5,
+   "sentence": "On bridge deals, the key is that many of these are large customers of ours on Cloud who we are trying to support through this extraordinary moment.",
+   "ev_start": 41497,
+   "ev_end": 41644,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S137",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "search_and_other"
+   ],
+   "home": "search_and_other",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 0,
+   "sentence": "Our 17% year-over-year growth in Q2 Search and Other revenue was driven by many parts of our business working well together and the deep Gemini integration.",
+   "ev_start": 42624,
+   "ev_end": 42780,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S138",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrating"
+    ]
+   },
+   "score": 3.58,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "We're also integrating Gemini into customer tools to make campaigns more efficient.",
+   "ev_start": 43155,
+   "ev_end": 43238,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S139",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "product": [
+     "roadmap"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 7,
+   "sentence": "On YouTube, ads growth was driven by direct response and brand advertising, with a strong roadmap ahead for brand and direct response, and shoppable formats in the living room are helping drive strength in retail as well.",
+   "ev_start": 43456,
+   "ev_end": 43677,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S140",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 0,
+   "sentence": "On the first question, we operate with a disciplined ROIC framework.",
+   "ev_start": 44322,
+   "ev_end": 44390,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S141",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "We're seeing strong demand indicators including long-term deals and renewals with exceptional demand, and we use all that to plan and invest accordingly.",
+   "ev_start": 44491,
+   "ev_end": 44644,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S142",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "If anything, the dynamics look healthier than about a year ago, and that gives us confidence to undertake those investments.",
+   "ev_start": 44645,
+   "ev_end": 44769,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S143",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Sundar Pichai",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 2,
+   "sentence": "We'll scale up based on the opportunities we see and the demand we see, commensurate with constraints and allocation needs for frontier model development and serving our consumer and enterprise businesses.",
+   "ev_start": 45680,
+   "ev_end": 45885,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S144",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.53,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 0,
+   "sentence": "On YouTube monetization, we're excited about several drivers.",
+   "ev_start": 45977,
+   "ev_end": 46038,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S145",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expand"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 3,
+   "sentence": "In direct response, Demand Gen and Shorts remain strong opportunities to expand our base to more SMBs across verticals.",
+   "ev_start": 46282,
+   "ev_end": 46401,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S146",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched",
+     "partnership"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 7,
+   "sentence": "We launched the affiliate partnership Boost to drive incremental sales through affiliate commissions.",
+   "ev_start": 46746,
+   "ev_end": 46847,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GOOGL_2026_2-S147",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Philipp Schindler",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 8,
+   "sentence": "Overall, we see many innovations ahead to drive sustained YouTube revenue growth.",
+   "ev_start": 46848,
+   "ev_end": 46929,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "GOOGL_2026_2-S002",
+  "GOOGL_2026_2-S096",
+  "GOOGL_2026_2-S006",
+  "GOOGL_2026_2-S007",
+  "GOOGL_2026_2-S028",
+  "GOOGL_2026_2-S031",
+  "GOOGL_2026_2-S033",
+  "GOOGL_2026_2-S071",
+  "GOOGL_2026_2-S090",
+  "GOOGL_2026_2-S099",
+  "GOOGL_2026_2-S105",
+  "GOOGL_2026_2-S134",
+  "GOOGL_2026_2-S135",
+  "GOOGL_2026_2-S046",
+  "GOOGL_2026_2-S059",
+  "GOOGL_2026_2-S060",
+  "GOOGL_2026_2-S082",
+  "GOOGL_2026_2-S089",
+  "GOOGL_2026_2-S098",
+  "GOOGL_2026_2-S086",
+  "GOOGL_2026_2-S048",
+  "GOOGL_2026_2-S005",
+  "GOOGL_2026_2-S137",
+  "GOOGL_2026_2-S050",
+  "GOOGL_2026_2-S051",
+  "GOOGL_2026_2-S067",
+  "GOOGL_2026_2-S083",
+  "GOOGL_2026_2-S139",
+  "GOOGL_2026_2-S085",
+  "GOOGL_2026_2-S088",
+  "GOOGL_2026_2-S008",
+  "GOOGL_2026_2-S009",
+  "GOOGL_2026_2-S044",
+  "GOOGL_2026_2-S045",
+  "GOOGL_2026_2-S095",
+  "GOOGL_2026_2-S001",
+  "GOOGL_2026_2-S010",
+  "GOOGL_2026_2-S015",
+  "GOOGL_2026_2-S019",
+  "GOOGL_2026_2-S021",
+  "GOOGL_2026_2-S039",
+  "GOOGL_2026_2-S052",
+  "GOOGL_2026_2-S068",
+  "GOOGL_2026_2-S073",
+  "GOOGL_2026_2-S075",
+  "GOOGL_2026_2-S097",
+  "GOOGL_2026_2-S102",
+  "GOOGL_2026_2-S106",
+  "GOOGL_2026_2-S117",
+  "GOOGL_2026_2-S118",
+  "GOOGL_2026_2-S127",
+  "GOOGL_2026_2-S129"
+ ],
+ "surfaced_signal_ids": [
+  "GOOGL_2026_2-S002",
+  "GOOGL_2026_2-S096",
+  "GOOGL_2026_2-S006",
+  "GOOGL_2026_2-S007",
+  "GOOGL_2026_2-S028",
+  "GOOGL_2026_2-S031",
+  "GOOGL_2026_2-S033",
+  "GOOGL_2026_2-S071",
+  "GOOGL_2026_2-S090",
+  "GOOGL_2026_2-S099",
+  "GOOGL_2026_2-S105",
+  "GOOGL_2026_2-S134",
+  "GOOGL_2026_2-S135",
+  "GOOGL_2026_2-S046",
+  "GOOGL_2026_2-S059",
+  "GOOGL_2026_2-S060",
+  "GOOGL_2026_2-S082",
+  "GOOGL_2026_2-S089",
+  "GOOGL_2026_2-S098",
+  "GOOGL_2026_2-S086",
+  "GOOGL_2026_2-S048",
+  "GOOGL_2026_2-S005",
+  "GOOGL_2026_2-S137",
+  "GOOGL_2026_2-S050",
+  "GOOGL_2026_2-S051",
+  "GOOGL_2026_2-S067",
+  "GOOGL_2026_2-S083",
+  "GOOGL_2026_2-S139",
+  "GOOGL_2026_2-S085",
+  "GOOGL_2026_2-S088",
+  "GOOGL_2026_2-S008",
+  "GOOGL_2026_2-S009",
+  "GOOGL_2026_2-S044",
+  "GOOGL_2026_2-S045",
+  "GOOGL_2026_2-S095",
+  "GOOGL_2026_2-S001",
+  "GOOGL_2026_2-S010",
+  "GOOGL_2026_2-S015",
+  "GOOGL_2026_2-S019",
+  "GOOGL_2026_2-S021",
+  "GOOGL_2026_2-S039",
+  "GOOGL_2026_2-S052",
+  "GOOGL_2026_2-S068",
+  "GOOGL_2026_2-S073",
+  "GOOGL_2026_2-S075",
+  "GOOGL_2026_2-S097",
+  "GOOGL_2026_2-S102",
+  "GOOGL_2026_2-S106",
+  "GOOGL_2026_2-S117",
+  "GOOGL_2026_2-S118",
+  "GOOGL_2026_2-S127",
+  "GOOGL_2026_2-S129",
+  "GOOGL_2026_2-S116",
+  "GOOGL_2026_2-S121",
+  "GOOGL_2026_2-S131",
+  "GOOGL_2026_2-S037",
+  "GOOGL_2026_2-S100"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "alphabet",
+   "cloud",
+   "ai_infrastructure_and_ai_solutions_and_cloud",
+   "google_services",
+   "youtube_advertising",
+   "network_advertising",
+   "search_and_other",
+   "advertising",
+   "google_search_and_other_advertising",
+   "subscription_platforms_and_devices",
+   "google_cloud_s",
+   "other_bets"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "GOOGL_2026_2-005",
+   "GOOGL_2026_2-009",
+   "GOOGL_2026_2-010",
+   "GOOGL_2026_2-011",
+   "GOOGL_2026_2-026"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "warn",
+   "detail": "the ledger flagged conflicting total-company revenue figures ['GOOGL_2026_2-009', 'GOOGL_2026_2-010', 'GOOGL_2026_2-011']: a segment figure may be filed as the company total (sentences like 'Revenue was...' inside a segment paragraph). Check the source sentences before quoting total revenue from this call."
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "5 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 147,
+  "signals_usable": 147,
+  "selected": 52,
+  "by_topic": {
+   "momentum": 70,
+   "strategy": 25,
+   "product": 54,
+   "competition": 7,
+   "pressure": 8
+  },
+  "by_horizon": {
+   "current": 136,
+   "forward": 11
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 12,
+  "checks_failed": 0,
+  "checks_warn": 3
+ }
+}

@@ -1,0 +1,728 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "ABT",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "ABT",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Michael Comilla",
+    "role": "ir"
+   },
+   {
+    "name": "Robert Ford",
+    "role": "management"
+   },
+   {
+    "name": "Philip Boudreau",
+    "role": "management"
+   },
+   {
+    "name": "Robert Marcus",
+    "role": "analyst"
+   },
+   {
+    "name": "Larry Biegelsen",
+    "role": "analyst"
+   },
+   {
+    "name": "Vijay Kumar",
+    "role": "analyst"
+   },
+   {
+    "name": "Matt Taylor",
+    "role": "analyst"
+   },
+   {
+    "name": "Travis Steed",
+    "role": "analyst"
+   },
+   {
+    "name": "Josh Jennings",
+    "role": "analyst"
+   },
+   {
+    "name": "Joanne Wuensch",
+    "role": "analyst"
+   },
+   {
+    "name": "Robby Thibault",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "ABT_2026Q2.json",
+  "vocabulary_packs": [
+   "medtech"
+  ]
+ },
+ "facts": [
+  {
+   "kind": "guidance",
+   "metric": "comparable_sales",
+   "segment": "total",
+   "stat": "growth",
+   "value": 4.8,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Today, we issued second quarter results that included comparable sales growth of 4.8%, which represents an acceleration compared to the previous two quarters, and adjusted earnings per share of $1.31, which exceeded the midpoint of our guidance range and the consensus estimate.",
+   "ev_start": 2943,
+   "ev_end": 3221,
+   "figure_text": "4.8%",
+   "confidence": "high",
+   "flags": [
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "ABT_2026_2-001"
+  },
+  {
+   "kind": "guidance",
+   "metric": "eps",
+   "segment": "total",
+   "stat": "level",
+   "value": 1.31,
+   "value_high": null,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Today, we issued second quarter results that included comparable sales growth of 4.8%, which represents an acceleration compared to the previous two quarters, and adjusted earnings per share of $1.31, which exceeded the midpoint of our guidance range and the consensus estimate.",
+   "ev_start": 2943,
+   "ev_end": 3221,
+   "figure_text": "$1.31",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 2,
+   "verified": true,
+   "id": "ABT_2026_2-002"
+  },
+  {
+   "kind": "guidance",
+   "metric": "comparable_sales",
+   "segment": "total",
+   "stat": "growth",
+   "value": 6.5,
+   "value_high": 7.5,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "full year",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Considering our second-quarter results and updated outlook for the remainder of the year, we are reaffirming our full-year guidance for comparable sales growth of 6.5% to 7.5% and raising our EPS guidance range to $5.45 to $5.60.",
+   "ev_start": 3222,
+   "ev_end": 3451,
+   "figure_text": "6.5% to 7.5%",
+   "confidence": "high",
+   "flags": [
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "ABT_2026_2-003"
+  },
+  {
+   "kind": "guidance",
+   "metric": "eps",
+   "segment": "total",
+   "stat": "level",
+   "value": 5.45,
+   "value_high": 5.6,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "full year",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Considering our second-quarter results and updated outlook for the remainder of the year, we are reaffirming our full-year guidance for comparable sales growth of 6.5% to 7.5% and raising our EPS guidance range to $5.45 to $5.60.",
+   "ev_start": 3222,
+   "ev_end": 3451,
+   "figure_text": "$5.45 to $5.60",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "ABT_2026_2-004"
+  },
+  {
+   "kind": "reported",
+   "metric": "impact",
+   "segment": null,
+   "stat": "impact",
+   "value": 0.8,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": "foreign exchange",
+   "direction": "favorable",
+   "context_metric": "eps",
+   "context_segment": "total",
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Foreign exchange had a favorable year-over-year impact of 0.8% on second-quarter sales, which was a slight improvement to our expectations at the time of our earnings call in April.",
+   "ev_start": 11169,
+   "ev_end": 11350,
+   "figure_text": "0.8%",
+   "confidence": "medium",
+   "flags": [
+    "context_from_previous_sentence"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "ABT_2026_2-005"
+  },
+  {
+   "kind": "reported",
+   "metric": "gross_margin",
+   "segment": "total",
+   "stat": "level",
+   "value": 58.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [
+    {
+     "value": 100.0,
+     "value_high": null,
+     "unit": "bps",
+     "basis": "yoy",
+     "constant_currency": false,
+     "text": "100 basis points",
+     "ev_start": 11351,
+     "ev_end": 11513
+    }
+   ],
+   "period": "second quarter",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "Regarding other aspects of the P&L, the adjusted gross margin profile was 58.0% of sales, representing an increase of 100 basis points compared to the prior year.",
+   "ev_start": 11351,
+   "ev_end": 11513,
+   "figure_text": "58.0%",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "ABT_2026_2-006"
+  },
+  {
+   "kind": "guidance",
+   "metric": "eps",
+   "segment": "total",
+   "stat": "level",
+   "value": 1.38,
+   "value_high": 1.46,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "third quarter",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "For the third quarter, we forecast adjusted earnings per share of $1.38 to $1.46.",
+   "ev_start": 12038,
+   "ev_end": 12119,
+   "figure_text": "$1.38 to $1.46",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "ABT_2026_2-007"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "70%",
+   "reason": "no_metric_phrase",
+   "sentence": "Diagnostic test results inform approximately 70% of all health care decisions, making testing volumes a reliable barometer of overall health care activity and demand.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 4774
+  },
+  {
+   "figure_text": "7.5%",
+   "reason": "change_without_metric",
+   "sentence": "This durable demand was evident in our core laboratory results this quarter where our U.S. business grew 7.5%, and we continue our track record of strong performance across Latin America.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5259
+  },
+  {
+   "figure_text": "8%",
+   "reason": "change_without_metric",
+   "sentence": "In rapid and molecular diagnostics, sales declined 8%, driven by the anticipated decrease in respiratory testing as a result of a weaker-than-normal season that concluded during the second quarter.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5447
+  },
+  {
+   "figure_text": "13%",
+   "reason": "change_without_metric",
+   "sentence": "In cancer diagnostics, sales growth of 13% was driven by mid-teens growth of Cologuard, which is benefiting from a growing base of both new and repeat Cologuard users as well as contributions to growth from our precision oncology and international business.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5645
+  },
+  {
+   "figure_text": "$125 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Sales increased sequentially by $125 million, driven by improving performance in both pediatric and adult nutrition.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 6562
+  },
+  {
+   "figure_text": "6.5%",
+   "reason": "change_without_metric",
+   "sentence": "In pediatric nutrition, our international business was the first of our nutrition businesses to transition back to delivering positive growth, delivering growth of 6.5% in the quarter.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 6679
+  },
+  {
+   "figure_text": "9%",
+   "reason": "change_without_metric",
+   "sentence": "Sales grew 9% in the quarter, reflecting broad-based growth across our largest markets, including India, Latin America, and Southeast Asia.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 7956
+  },
+  {
+   "figure_text": "8.5%",
+   "reason": "change_without_metric",
+   "sentence": "I will wrap up with medical devices where sales grew 8.5%.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 8585
+  },
+  {
+   "figure_text": "20%",
+   "reason": "change_without_metric",
+   "sentence": "Internationally, the expanding rollout of Bolt and Tactiflex Duo is gaining strong traction, driving growth of more than 20% in Europe.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 9115
+  },
+  {
+   "figure_text": "9.5%",
+   "reason": "change_without_metric",
+   "sentence": "In Rhythm Management, sales grew 9.5% as we continue to expand the use of Avera across both the single- and dual-chamber segments of the pacemaker market and to drive broader adoption of this innovative technology.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 9403
+  },
+  {
+   "figure_text": "9%",
+   "reason": "change_without_metric",
+   "sentence": "In heart failure, growth of 9% was led by double-digit growth in the U.S., driven by our market-leading portfolio of heart-assist devices that address both chronic and acute patient needs.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 9618
+  },
+  {
+   "figure_text": "$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "In diabetes care, continuous glucose monitoring sales exceeded $2 billion, reflecting growth of 9.5% in the quarter.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 9807
+  },
+  {
+   "figure_text": "9.5%",
+   "reason": "change_without_metric",
+   "sentence": "In diabetes care, continuous glucose monitoring sales exceeded $2 billion, reflecting growth of 9.5% in the quarter.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 9807
+  },
+  {
+   "figure_text": "4.8%",
+   "reason": "change_without_metric",
+   "sentence": "Turning to our second-quarter results, sales increased 4.8% on a comparable basis and adjusted earnings per share of $1.31 exceeded the midpoint of our guidance range and the consensus estimate.",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 10974
+  },
+  {
+   "figure_text": "6.9%",
+   "reason": "no_metric_phrase",
+   "sentence": "Adjusted R&D was 6.9% of sales, and adjusted SG&A was 28.6% of sales.",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11759
+  },
+  {
+   "figure_text": "28.6%",
+   "reason": "no_metric_phrase",
+   "sentence": "Adjusted R&D was 6.9% of sales, and adjusted SG&A was 28.6% of sales.",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11759
+  },
+  {
+   "figure_text": "1%",
+   "reason": "no_metric_phrase",
+   "sentence": "Based on current rates, we expect exchange to have a positive impact of 1% on full-year sales, which includes our expectation for exchange to have a negative impact of approximately 1% on third-quarter sales.",
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "ev_start": 11829
+  },
+  {
+   "figure_text": "7.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "Our U.S. core lab business has accelerated growth in the last two quarters; it was about 7.5% this quarter.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 15282
+  },
+  {
+   "figure_text": "13%",
+   "reason": "change_without_metric",
+   "sentence": "If you unpack that, our business selling instruments and reagents for hospital-based testing was up 13% this quarter.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 15390
+  },
+  {
+   "figure_text": "9.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "I understand the point about 9.5% on a $2 billion quarterly business.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "ev_start": 18617
+  },
+  {
+   "figure_text": "$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "I understand the point about 9.5% on a $2 billion quarterly business.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "ev_start": 18617
+  },
+  {
+   "figure_text": "$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Until major reimbursement changes occur, the market can seem to plateau at mid- to high-single-digit growth, which on a $2 billion quarterly base is still a strong business.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "ev_start": 19380
+  },
+  {
+   "figure_text": "13%",
+   "reason": "change_without_metric",
+   "sentence": "We grew about 13% in the first half.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "ev_start": 21927
+  },
+  {
+   "figure_text": "20%",
+   "reason": "no_metric_phrase",
+   "sentence": "We saw more than 20% EP growth in Europe in Q2.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "ev_start": 24903
+  },
+  {
+   "figure_text": "7%",
+   "reason": "no_metric_phrase",
+   "sentence": "Historically, I have referenced 7% as a sustainable growth target, and I believe that remains appropriate despite the larger company base.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26241
+  },
+  {
+   "figure_text": "2% to 4%",
+   "reason": "no_metric_phrase",
+   "sentence": "If you look at our segments, a reasonable way to think about the portfolio: Nutrition in a 2% to 4% range, Diagnostics with Exact Sciences and moderating VBP impact in China in the 7% to 8% range, EPD at 7% to 9%, and MedTech at 8% to 10%.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26380
+  },
+  {
+   "figure_text": "7% to 8%",
+   "reason": "no_metric_phrase",
+   "sentence": "If you look at our segments, a reasonable way to think about the portfolio: Nutrition in a 2% to 4% range, Diagnostics with Exact Sciences and moderating VBP impact in China in the 7% to 8% range, EPD at 7% to 9%, and MedTech at 8% to 10%.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26380
+  },
+  {
+   "figure_text": "7% to 9%",
+   "reason": "no_metric_phrase",
+   "sentence": "If you look at our segments, a reasonable way to think about the portfolio: Nutrition in a 2% to 4% range, Diagnostics with Exact Sciences and moderating VBP impact in China in the 7% to 8% range, EPD at 7% to 9%, and MedTech at 8% to 10%.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26380
+  },
+  {
+   "figure_text": "8% to 10%",
+   "reason": "no_metric_phrase",
+   "sentence": "If you look at our segments, a reasonable way to think about the portfolio: Nutrition in a 2% to 4% range, Diagnostics with Exact Sciences and moderating VBP impact in China in the 7% to 8% range, EPD at 7% to 9%, and MedTech at 8% to 10%.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26380
+  },
+  {
+   "figure_text": "7%",
+   "reason": "pct_without_growth_cue",
+   "sentence": "Collectively, that implies a mid-to-high single-digit growth rate overall, so 7% is a reasonable target.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "ev_start": 26620
+  },
+  {
+   "figure_text": "30%",
+   "reason": "change_without_metric",
+   "sentence": "We're seeing solid growth in tricuspid, TAVR in the U.S., and international teams have grown double digits for the first half with TAVR up about 30% internationally.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "ev_start": 27949
+  },
+  {
+   "figure_text": "2% to 4%",
+   "reason": "no_metric_phrase",
+   "sentence": "There are several proof points giving us confidence in the 2% to 4% range.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "ev_start": 28944
+  },
+  {
+   "figure_text": "$125 million",
+   "reason": "change_without_metric",
+   "sentence": "Sequentially, nutrition grew by $125 million, and the month-to-month trend was improving.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "ev_start": 29019
+  },
+  {
+   "figure_text": "$2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "It's roughly a $2 billion market today and the competitor has about 90% share.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "ev_start": 30659
+  },
+  {
+   "figure_text": "90%",
+   "reason": "no_metric_phrase",
+   "sentence": "It's roughly a $2 billion market today and the competitor has about 90% share.",
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "ev_start": 30659
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 7,
+  "by_kind": {
+   "guidance": 5,
+   "reported": 2
+  },
+  "by_confidence": {
+   "high": 6,
+   "medium": 1
+  },
+  "verified": 7,
+  "unverified": 0,
+  "unclaimed_figures": 35,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

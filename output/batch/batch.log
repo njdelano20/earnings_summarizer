@@ -50,3 +50,11 @@
 2026-09-21T15:48:22  HESM: ok (cache) 2026Q2: 21 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
 2026-09-21T15:48:23  VICI: ok (cache) 2026Q2: 8 facts, 12 unclaimed, period pass, ATTENTION: gold_fail
 2026-09-21T15:48:23  Done: 20 of 23 symbols scored (0 fetched this run); review queue 1098 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md
+2026-09-21T22:01:02  AMZN: ok (fetched) 2026Q2: 24 facts, 39 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:04  GOOGL: ok (fetched) 2026Q2: 42 facts, 40 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T22:01:07  META: ok (fetched) 2026Q2: 18 facts, 26 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T22:01:09  JNJ: ok (fetched) 2026Q2: 12 facts, 52 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:11  ABT: ok (fetched) 2026Q2: 7 facts, 35 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:14  DHR: ok (fetched) 2026Q2: 18 facts, 28 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:16  HON: ok (fetched) 2026Q2: 12 facts, 73 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:19  RTX: ok (fetched) 2026Q2: 11 facts, 70 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map

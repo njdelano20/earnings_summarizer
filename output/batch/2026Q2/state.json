@@ -200,6 +200,78 @@
    "fiscal_label": "2027Q2",
    "status": "no_transcript",
    "detail": "No transcript returned for NVDA 2027Q2."
+  },
+  "AMZN": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "AMZN_2026Q2",
+   "processed": "2026-09-21T22:01:02"
+  },
+  "GOOGL": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "GOOGL_2026Q2",
+   "processed": "2026-09-21T22:01:04"
+  },
+  "META": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "META_2026Q2",
+   "processed": "2026-09-21T22:01:07"
+  },
+  "JNJ": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "JNJ_2026Q2",
+   "processed": "2026-09-21T22:01:09"
+  },
+  "ABT": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "ABT_2026Q2",
+   "processed": "2026-09-21T22:01:11"
+  },
+  "DHR": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "DHR_2026Q2",
+   "processed": "2026-09-21T22:01:14"
+  },
+  "HON": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "HON_2026Q2",
+   "processed": "2026-09-21T22:01:16"
+  },
+  "RTX": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "RTX_2026Q2",
+   "processed": "2026-09-21T22:01:19"
   }
  }
 }

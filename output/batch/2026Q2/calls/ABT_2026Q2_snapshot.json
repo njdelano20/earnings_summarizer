@@ -1,0 +1,4495 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "ABT",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "ABT",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Michael Comilla",
+    "role": "ir"
+   },
+   {
+    "name": "Robert Ford",
+    "role": "management"
+   },
+   {
+    "name": "Philip Boudreau",
+    "role": "management"
+   },
+   {
+    "name": "Robert Marcus",
+    "role": "analyst"
+   },
+   {
+    "name": "Larry Biegelsen",
+    "role": "analyst"
+   },
+   {
+    "name": "Vijay Kumar",
+    "role": "analyst"
+   },
+   {
+    "name": "Matt Taylor",
+    "role": "analyst"
+   },
+   {
+    "name": "Travis Steed",
+    "role": "analyst"
+   },
+   {
+    "name": "Josh Jennings",
+    "role": "analyst"
+   },
+   {
+    "name": "Joanne Wuensch",
+    "role": "analyst"
+   },
+   {
+    "name": "Robby Thibault",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "ABT_2026Q2.json",
+  "vocabulary_packs": [
+   "medtech"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Gross margin 58% (+100 bps yoy)",
+   "fact_ids": [
+    "ABT_2026_2-006"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.00, qa +0.71",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": {
+    "value": 58.0,
+    "period": "second quarter",
+    "fact_id": "ABT_2026_2-006",
+    "confidence": "high"
+   },
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "ABT_2026_2-006",
+   "ABT_2026_2-005",
+   "ABT_2026_2-004",
+   "ABT_2026_2-002",
+   "ABT_2026_2-007",
+   "ABT_2026_2-003",
+   "ABT_2026_2-001"
+  ],
+  "signal_ids": [
+   "ABT_2026_2-S001",
+   "ABT_2026_2-S002",
+   "ABT_2026_2-S004",
+   "ABT_2026_2-S010",
+   "ABT_2026_2-S028",
+   "ABT_2026_2-S032",
+   "ABT_2026_2-S033",
+   "ABT_2026_2-S038",
+   "ABT_2026_2-S046",
+   "ABT_2026_2-S062",
+   "ABT_2026_2-S066",
+   "ABT_2026_2-S071",
+   "ABT_2026_2-S074",
+   "ABT_2026_2-S079",
+   "ABT_2026_2-S082",
+   "ABT_2026_2-S112"
+  ],
+  "trajectory": []
+ },
+ "blocks": [],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 3,
+    "cautious": 3,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.0
+   },
+   "qa": {
+    "confident": 12,
+    "cautious": 2,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.71
+   }
+  },
+  "speakers": {
+   "Robert Ford": {
+    "cautious": 5,
+    "confident": 15
+   }
+  },
+  "notable_confident": [
+   "ABT_2026_2-S112",
+   "ABT_2026_2-S050",
+   "ABT_2026_2-S071",
+   "ABT_2026_2-S029"
+  ],
+  "notable_cautious": [
+   "ABT_2026_2-S066",
+   "ABT_2026_2-S032",
+   "ABT_2026_2-S045",
+   "ABT_2026_2-S003",
+   "ABT_2026_2-S006"
+  ],
+  "withheld": [],
+  "revisions": [
+   "ABT_2026_2-S002",
+   "ABT_2026_2-S012"
+  ]
+ },
+ "signals": [
+  {
+   "id": "ABT_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "ABT_2026_2-001",
+    "ABT_2026_2-002"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "acceleration",
+     "exceeded",
+     "growth of 4"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "acceleration",
+     "earnings"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Today, we issued second quarter results that included comparable sales growth of 4.8%, which represents an acceleration compared to the previous two quarters, and adjusted earnings per share of $1.31, which exceeded the midpoint of our guidance range and the consensus estimate.",
+   "ev_start": 2943,
+   "ev_end": 3221,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "ABT_2026_2-003",
+    "ABT_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 6"
+    ],
+    "forward": [
+     "outlook",
+     "full-year",
+     "guidance"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ],
+    "revision": [
+     "maintained"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 6.78,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Considering our second-quarter results and updated outlook for the remainder of the year, we are reaffirming our full-year guidance for comparable sales growth of 6.5% to 7.5% and raising our EPS guidance range to $5.45 to $5.60.",
+   "ev_start": 3222,
+   "ev_end": 3451,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S003",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "monitoring"
+    ]
+   },
+   "score": 1.08,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "Before summarizing our second-quarter results, I want to highlight a few recent pipeline achievements, including completing patient enrollment in our Tectonic coronary IVL pivotal trial, completing our FDA submission for approval of our new Amulet 360 left atrial appendage device, obtaining CE Mark for Libre Duo, the world's first dual glucose-ketone monitoring sensor designed to detect rising ketone levels and help prevent diabetic ketoacidosis.",
+   "ev_start": 3452,
+   "ev_end": 3902,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S004",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ],
+    "product": [
+     "launching",
+     "new products"
+    ]
+   },
+   "score": 6.14,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "We anticipate launching these three new products, along with our Tactiflex Duo PFA catheter, in the U.S. at a steady cadence over the next 12 months.",
+   "ev_start": 3903,
+   "ev_end": 4052,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S005",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "on track to",
+     "future"
+    ],
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We also remain on track to begin patient enrollment in the fourth quarter for several important clinical trials that will support a steady cadence of future product launches.",
+   "ev_start": 4053,
+   "ev_end": 4227,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S006",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expandable"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "hedge": [
+     "monitoring"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "These include a balloon-expandable TAVR valve, a leadless conduction system pacing device leveraging our Avera pacemaker, a mitral replacement valve developed following the acquisition of Cephea Valve Technologies, a peripheral IVL device developed following the acquisition of CSI, and a wearable continuous lactate monitoring sensor designed to reduce the risk of sepsis following discharge from the hospital.",
+   "ev_start": 4228,
+   "ev_end": 4639,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "volume",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Our test volume data, which is sourced directly from our diagnostic instruments located across the United States and around the world, continues to reflect strong and stable demand for testing.",
+   "ev_start": 4941,
+   "ev_end": 5134,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "We view this as a positive indication of the durable underlying demand for health care, not just in the U.S., but globally.",
+   "ev_start": 5135,
+   "ev_end": 5258,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "grew"
+    ],
+    "performance": [
+     "demand",
+     "grew",
+     "record"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "This durable demand was evident in our core laboratory results this quarter where our U.S. business grew 7.5%, and we continue our track record of strong performance across Latin America.",
+   "ev_start": 5259,
+   "ev_end": 5446,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "decrease",
+     "weaker"
+    ],
+    "performance": [
+     "sales",
+     "declined",
+     "decrease"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "In rapid and molecular diagnostics, sales declined 8%, driven by the anticipated decrease in respiratory testing as a result of a weaker-than-normal season that concluded during the second quarter.",
+   "ev_start": 5447,
+   "ev_end": 5644,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "growing"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "In cancer diagnostics, sales growth of 13% was driven by mid-teens growth of Cologuard, which is benefiting from a growing base of both new and repeat Cologuard users as well as contributions to growth from our precision oncology and international business.",
+   "ev_start": 5645,
+   "ev_end": 5902,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S012",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "product": [
+     "launched",
+     "adoption"
+    ],
+    "performance": [
+     "growth",
+     "adoption"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We continue to expect cancer diagnostics growth in the second half of the year to be higher than the first half, supported by increasing volumes from care-gap programs, recently launched tests, and continued international adoption.",
+   "ev_start": 5903,
+   "ev_end": 6134,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Sales increased sequentially by $125 million, driven by improving performance in both pediatric and adult nutrition.",
+   "ev_start": 6562,
+   "ev_end": 6678,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "growth of 6"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "In pediatric nutrition, our international business was the first of our nutrition businesses to transition back to delivering positive growth, delivering growth of 6.5% in the quarter.",
+   "ev_start": 6679,
+   "ev_end": 6863,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "In adult nutrition, we continue to see positive volume trends in response to the price actions implemented late last year.",
+   "ev_start": 7065,
+   "ev_end": 7187,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "In the U.S., retail consumption of Ensure increased double digits compared to consumption levels exiting last year and achieved the highest year-over-year consumption growth in the past year and a half.",
+   "ev_start": 7188,
+   "ev_end": 7390,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "sales",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "We are also making good progress in our international adult nutrition business where sales continue to grow sequentially and are now approaching levels similar to this time last year.",
+   "ev_start": 7391,
+   "ev_end": 7574,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation",
+     "new versions"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "We are also benefiting from sales contributions from new innovation, including new versions of Ensure that feature higher protein, lower sugar, and refreshed labeling and packaging.",
+   "ev_start": 7575,
+   "ev_end": 7756,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S019",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "second half"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Overall, I remain encouraged by the progress we are making and confident in our outlook for the second half of the year.",
+   "ev_start": 7757,
+   "ev_end": 7877,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "sales",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Sales grew 9% in the quarter, reflecting broad-based growth across our largest markets, including India, Latin America, and Southeast Asia.",
+   "ev_start": 7956,
+   "ev_end": 8095,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S021",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "growing",
+     "demand"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "This performance reflects disciplined execution by our teams and the growing demand for health care in emerging markets.",
+   "ev_start": 8096,
+   "ev_end": 8216,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "This demand is a result of evolving market dynamics, including expanding access to health care, aging populations, and a rising need to treat both acute and chronic conditions.",
+   "ev_start": 8217,
+   "ev_end": 8393,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwinds",
+     "strong",
+     "high single-digit",
+     "expanding"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "These structural tailwinds, combined with our broad portfolio, expanding pipeline of biosimilars, and strong brand equity, position EPD to sustainably deliver high single-digit sales growth.",
+   "ev_start": 8394,
+   "ev_end": 8584,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "forward": [
+     "i will"
+    ],
+    "performance": [
+     "sales",
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "I will wrap up with medical devices where sales grew 8.5%.",
+   "ev_start": 8585,
+   "ev_end": 8643,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "Growth in our cardiovascular device portfolio was led by growth in electrophysiology and high single-digit growth in rhythm management and heart failure.",
+   "ev_start": 8644,
+   "ev_end": 8797,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "In electrophysiology, the second quarter marked the beginning of an acceleration in our growth trajectory.",
+   "ev_start": 8798,
+   "ev_end": 8904,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S027",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "launched",
+     "next-generation",
+     "release"
+    ]
+   },
+   "score": 5.28,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "We launched our next-generation Bolt PFA catheter, commonly referred to as Bolt 2.0, in the U.S. in May, and we expect to transition from a limited market release to a full market release in the third quarter.",
+   "ev_start": 8905,
+   "ev_end": 9114,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S028",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining",
+     "strong",
+     "expanding"
+    ],
+    "product": [
+     "rollout"
+    ],
+    "performance": [
+     "traction",
+     "growth"
+    ]
+   },
+   "score": 5.91,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "Internationally, the expanding rollout of Bolt and Tactiflex Duo is gaining strong traction, driving growth of more than 20% in Europe.",
+   "ev_start": 9115,
+   "ev_end": 9250,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S029",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperforming"
+    ],
+    "forward": [
+     "outlook",
+     "second half"
+    ],
+    "competition": [
+     "outperforming the market"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We remain confident in our outlook for the second half of the year, including our expectations to begin outperforming the market and recapturing share.",
+   "ev_start": 9251,
+   "ev_end": 9402,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S030",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "expand"
+    ],
+    "product": [
+     "adoption",
+     "innovative"
+    ],
+    "performance": [
+     "sales",
+     "grew",
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "In Rhythm Management, sales grew 9.5% as we continue to expand the use of Avera across both the single- and dual-chamber segments of the pacemaker market and to drive broader adoption of this innovative technology.",
+   "ev_start": 9403,
+   "ev_end": 9617,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "growth of 9"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "In heart failure, growth of 9% was led by double-digit growth in the U.S., driven by our market-leading portfolio of heart-assist devices that address both chronic and acute patient needs.",
+   "ev_start": 9618,
+   "ev_end": 9806,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded",
+     "reflecting growth"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ],
+    "hedge": [
+     "monitoring"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "In diabetes care, continuous glucose monitoring sales exceeded $2 billion, reflecting growth of 9.5% in the quarter.",
+   "ev_start": 9807,
+   "ev_end": 9923,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S033",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "In summary, we remain highly focused on disciplined execution in each quarter.",
+   "ev_start": 10207,
+   "ev_end": 10285,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "momentum",
+     "acceleration"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum",
+     "sales",
+     "growth",
+     "acceleration"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "We have momentum building across the portfolio and have a clear line of sight to the key drivers of sales growth acceleration that are forecasted in the second half.",
+   "ev_start": 10396,
+   "ev_end": 10561,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "full-year",
+     "guidance"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "Our continued focus on gross margin expansion gives us confidence in raising our full-year EPS guidance.",
+   "ev_start": 10562,
+   "ev_end": 10666,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S036",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ],
+    "product": [
+     "new products",
+     "launching"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "We have several new products that we anticipate launching at a steady cadence over the next 12 months.",
+   "ev_start": 10667,
+   "ev_end": 10769,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded",
+     "increased 4.8"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "sales",
+     "earnings"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Turning to our second-quarter results, sales increased 4.8% on a comparable basis and adjusted earnings per share of $1.31 exceeded the midpoint of our guidance range and the consensus estimate.",
+   "ev_start": 10974,
+   "ev_end": 11168,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "ABT_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "improvement"
+    ],
+    "performance": [
+     "sales",
+     "earnings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Foreign exchange had a favorable year-over-year impact of 0.8% on second-quarter sales, which was a slight improvement to our expectations at the time of our earnings call in April.",
+   "ev_start": 11169,
+   "ev_end": 11350,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "improvement",
+     "improvements",
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "The improvement was broad-based, reflecting favorable business mix within the legacy Abbott portfolio and from the addition of Exact Sciences, as well as the continued operational improvements and discipline of our margin expansion initiatives.",
+   "ev_start": 11514,
+   "ev_end": 11758,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "r&d"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Adjusted R&D was 6.9% of sales, and adjusted SG&A was 28.6% of sales.",
+   "ev_start": 11759,
+   "ev_end": 11828,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "expect",
+     "full-year"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Based on current rates, we expect exchange to have a positive impact of 1% on full-year sales, which includes our expectation for exchange to have a negative impact of approximately 1% on third-quarter sales.",
+   "ev_start": 11829,
+   "ev_end": 12037,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S042",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "ABT_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we forecast"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Philip Boudreau",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "For the third quarter, we forecast adjusted earnings per share of $1.38 to $1.46.",
+   "ev_start": 12038,
+   "ev_end": 12119,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline",
+     "challenges"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "Some concern about a decline in volumes is tied to challenges with ACA enrollment or disenrollment in Medicaid.",
+   "ev_start": 13630,
+   "ev_end": 13741,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 6,
+   "sentence": "We did not see a similar spike in med tech or diagnostics demand from ACA expansion.",
+   "ev_start": 13943,
+   "ev_end": 14027,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S045",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "we will see"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 7,
+   "sentence": "If we did not see that benefit then, I do not think we will see downside now if Medicaid enrollment changes.",
+   "ev_start": 14028,
+   "ev_end": 14136,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 15,
+   "sentence": "Our data is also not showing a decline.",
+   "ev_start": 14854,
+   "ev_end": 14893,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 19,
+   "sentence": "Our U.S. core lab business has accelerated growth in the last two quarters; it was about 7.5% this quarter.",
+   "ev_start": 15282,
+   "ev_end": 15389,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 22,
+   "sentence": "Our U.S. cardiovascular business is performing very well, and we are seeing similar strong, stable demand internationally, in both developed and emerging markets.",
+   "ev_start": 15599,
+   "ev_end": 15761,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S049",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ],
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 24,
+   "sentence": "So overall, I feel very good about the health care markets, especially the markets where we compete.",
+   "ev_start": 15913,
+   "ev_end": 16013,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S050",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident",
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 1,
+   "sentence": "I'm feeling very confident, and that confidence is driven by the hard work the team is doing.",
+   "ev_start": 16475,
+   "ev_end": 16568,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "mid-single digits",
+     "low single digits"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 2,
+   "sentence": "Q2 results showed we have momentum building; our growth rate stepped up to mid-single digits from low single digits in the previous two quarters.",
+   "ev_start": 16569,
+   "ev_end": 16714,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "sales",
+     "growth",
+     "accelerated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 3,
+   "sentence": "Sales growth accelerated each month during the quarter.",
+   "ev_start": 16715,
+   "ev_end": 16770,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 5,
+   "sentence": "Each of these businesses is entering the second half with momentum and clear drivers of growth.",
+   "ev_start": 16900,
+   "ev_end": 16995,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S054",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new product",
+     "launches"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "Nutrition is tracking slightly ahead of expectations with strategies around pricing, new product launches, and commercial execution performing well.",
+   "ev_start": 16996,
+   "ev_end": 17144,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S055",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "launch",
+     "feedback",
+     "new products"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 7,
+   "sentence": "Electrophysiology has strong launch activity and good feedback on our new products.",
+   "ev_start": 17145,
+   "ev_end": 17228,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 10,
+   "sentence": "So those four areas represent the significant shift driving second-half acceleration.",
+   "ev_start": 17625,
+   "ev_end": 17710,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 11,
+   "sentence": "All other businesses also need to continue to perform, but if I focus on what will move the needle in the second half, it is these four areas, and they are entering Q3 with strong momentum, some slightly ahead of our prior expectations.",
+   "ev_start": 17711,
+   "ev_end": 17947,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 12,
+   "sentence": "We feel good about the second-half acceleration.",
+   "ev_start": 17948,
+   "ev_end": 17996,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S059",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "bullish"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "I'm very bullish on this market.",
+   "ev_start": 18744,
+   "ev_end": 18776,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "growth",
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "There's still significant opportunity for sustainable growth and acceleration.",
+   "ev_start": 18909,
+   "ev_end": 18987,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "expand"
+    ],
+    "negative": [
+     "reduced"
+    ],
+    "product": [
+     "introduce"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 7,
+   "sentence": "We are in active discussions with a dozen or so countries to introduce or expand reimbursement, driven by the robust clinical data showing benefits such as lower A1c, reduced hospitalizations, and more time in range.",
+   "ev_start": 19042,
+   "ev_end": 19258,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S062",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansions"
+    ],
+    "negative": [
+     "challenge",
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 8,
+   "sentence": "The challenge is timing; it's difficult to pinpoint the exact month or quarter when reimbursement expansions will occur.",
+   "ev_start": 19259,
+   "ev_end": 19379,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high-single-digit",
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 9,
+   "sentence": "Until major reimbursement changes occur, the market can seem to plateau at mid- to high-single-digit growth, which on a $2 billion quarterly base is still a strong business.",
+   "ev_start": 19380,
+   "ev_end": 19553,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerates",
+     "expands"
+    ],
+    "performance": [
+     "growth",
+     "accelerates"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "When reimbursement expands - as we've seen historically - growth accelerates materially.",
+   "ev_start": 19554,
+   "ev_end": 19642,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 11,
+   "sentence": "The U.S. type 2 opportunity is particularly large, potentially unlocking around 10 million Medicare beneficiaries and accelerating commercial coverage.",
+   "ev_start": 19643,
+   "ev_end": 19794,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S066",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "anticipate",
+     "in the next"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 15,
+   "sentence": "Our fourth sensor facility came online around 2024 and is a 100 million sensor facility; we anticipate capacity pressure in the next couple of years and are evaluating a fifth facility, which would be a significant investment potentially approaching a billion dollars.",
+   "ev_start": 20184,
+   "ev_end": 20452,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S067",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "announce"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 17,
+   "sentence": "As soon as we have approvals, we will announce them.",
+   "ev_start": 20607,
+   "ev_end": 20659,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S068",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 18,
+   "sentence": "We are hearing positive feedback from early European users of Libre Duo.",
+   "ev_start": 20660,
+   "ev_end": 20732,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S069",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 19,
+   "sentence": "Overall, we feel very good about the market, the company's position, the investments we're making, and the variety of growth drivers, including reimbursement expansion and product innovation.",
+   "ev_start": 20733,
+   "ev_end": 20924,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 1,
+   "sentence": "We grew about 13% in the first half.",
+   "ev_start": 21927,
+   "ev_end": 21963,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S071",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 2,
+   "sentence": "The deal model we put together for the acquisition had mid-teens growth for 2026, and I feel confident we will achieve that.",
+   "ev_start": 21964,
+   "ev_end": 22088,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S072",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 3,
+   "sentence": "The model called for a stronger second half than first half, and the integration is going very well.",
+   "ev_start": 22089,
+   "ev_end": 22189,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 5,
+   "sentence": "Care-gap volumes do ramp in the second half and will help drive the acceleration; care-gap programs help health systems achieve HEDIS credit and star ratings, and that work is often done in the second half as health systems focus on their scores.",
+   "ev_start": 22257,
+   "ev_end": 22503,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S074",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeding",
+     "growing",
+     "expansion"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 8,
+   "sentence": "Other growth drivers include new Cologuard users, which are exceeding expectations, a growing rescreen funnel of repeat users, investments in CancerGuard and MRD programs, international expansion, and the addition of a blood test to the portfolio.",
+   "ev_start": 22716,
+   "ev_end": 22963,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S075",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 11,
+   "sentence": "Overall, the integration is progressing well, and I am impressed with the Exact Sciences team and their market plans.",
+   "ev_start": 23379,
+   "ev_end": 23496,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S076",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "faster than the market"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "I'm not going to give specific share targets today, but we do expect to grow faster than the market and begin to capture share.",
+   "ev_start": 24115,
+   "ev_end": 24242,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S077",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release",
+     "rollout"
+    ]
+   },
+   "score": 4.91,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "The transition from limited market release to full market release of Bolt in the U.S. in the third quarter, coupled with continued international rollout of Tactiflex Duo, will be important.",
+   "ev_start": 24326,
+   "ev_end": 24515,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S078",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "Feedback from physicians has been very positive.",
+   "ev_start": 24516,
+   "ev_end": 24564,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S079",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ],
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "Bolt's integration with mapping systems and better lesion durability are key advantages.",
+   "ev_start": 24565,
+   "ev_end": 24653,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "Bolt helps address ASC adoption because of the open footprint of the mapping system and the ability to perform cases without general anesthesia.",
+   "ev_start": 24654,
+   "ev_end": 24798,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S081",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introducers"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 9,
+   "sentence": "Our strategy is to sell the entire procedure - mapping systems, catheters, diagnostics, introducers, ICE catheters - so we position ourselves as a full-procedure provider.",
+   "ev_start": 24951,
+   "ev_end": 25122,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S082",
+   "topics": [
+    "competition",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ],
+    "product": [
+     "introduce"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 10,
+   "sentence": "We continue to invest in mapping to maintain superiority as competitors introduce their systems.",
+   "ev_start": 25123,
+   "ev_end": 25219,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate",
+     "momentum"
+    ],
+    "forward": [
+     "expect",
+     "second half",
+     "next year"
+    ],
+    "performance": [
+     "growth",
+     "accelerate",
+     "momentum"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 11,
+   "sentence": "I expect global EP growth to accelerate in the second half and for the momentum we are building this year to carry into next year.",
+   "ev_start": 25220,
+   "ev_end": 25350,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S084",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation",
+     "rollout"
+    ]
+   },
+   "score": 4.91,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 12,
+   "sentence": "Additional boosts will come from new devices like our next-generation LAA device, and continued rollout of Tactiflex Duo and Bolt in the U.S.",
+   "ev_start": 25351,
+   "ev_end": 25492,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "high single digits"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 0,
+   "sentence": "It is a little early to give exact 2027 guidance, but we always target a sustainable top-line growth rate in the mid-single digits to high single digits, with EPS growth in the high single digits to double digits.",
+   "ev_start": 26027,
+   "ev_end": 26240,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S086",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i believe"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 1,
+   "sentence": "Historically, I have referenced 7% as a sustainable growth target, and I believe that remains appropriate despite the larger company base.",
+   "ev_start": 26241,
+   "ev_end": 26379,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "Collectively, that implies a mid-to-high single-digit growth rate overall, so 7% is a reasonable target.",
+   "ev_start": 26620,
+   "ev_end": 26724,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S088",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 5,
+   "sentence": "So while we focus on executing in the second half of 2026, we are also planning for sustainable growth into 2027 and beyond.",
+   "ev_start": 26825,
+   "ev_end": 26949,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high-single-digit",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high-single-digit"
+    ],
+    "forward": [
+     "expect",
+     "by the end of"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 0,
+   "sentence": "I expect Structural Heart to be back to mid- to high-single-digit growth by the end of the year.",
+   "ev_start": 27522,
+   "ev_end": 27618,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S090",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 1,
+   "sentence": "Where we've fallen short is not price or product; it's how we approach and compete in the mitral space in the U.S.",
+   "ev_start": 27619,
+   "ev_end": 27733,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S091",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 2,
+   "sentence": "Competitive intensity has increased, and we've made personnel and approach changes.",
+   "ev_start": 27734,
+   "ev_end": 27817,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "up about 30"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 4,
+   "sentence": "We're seeing solid growth in tricuspid, TAVR in the U.S., and international teams have grown double digits for the first half with TAVR up about 30% internationally.",
+   "ev_start": 27949,
+   "ev_end": 28114,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S093",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 6,
+   "sentence": "We have important pipeline assets - Cephia mitral replacement valve heading into trials, promising feedback, and potential for significant opportunity.",
+   "ev_start": 28178,
+   "ev_end": 28329,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 7,
+   "sentence": "In the short term, it's about commercial execution improvements, and I have confidence in the team to deliver.",
+   "ev_start": 28330,
+   "ev_end": 28440,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "improvement"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 8,
+   "sentence": "I would expect meaningful improvement into late 2026 and continued momentum into 2027.",
+   "ev_start": 28441,
+   "ev_end": 28527,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S096",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 2,
+   "sentence": "There are several proof points giving us confidence in the 2% to 4% range.",
+   "ev_start": 28944,
+   "ev_end": 29018,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S097",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "improving"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 3,
+   "sentence": "Sequentially, nutrition grew by $125 million, and the month-to-month trend was improving.",
+   "ev_start": 29019,
+   "ev_end": 29108,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "highest"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 4,
+   "sentence": "On the pediatric side, international pediatric sales are back to back positive growth and are currently the highest in the last two years.",
+   "ev_start": 29109,
+   "ev_end": 29247,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 6,
+   "sentence": "In adult nutrition, volume has responded positively to price actions taken late last year: U.S. retail consumption of Ensure is up double digits versus our exit of 2025, the highest year-over-year consumption growth we've seen in a year and a half.",
+   "ev_start": 29361,
+   "ev_end": 29609,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S100",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 7,
+   "sentence": "International adult nutrition is growing sequentially and approaching prior-year levels.",
+   "ev_start": 29610,
+   "ev_end": 29698,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S101",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new product",
+     "innovations"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 8,
+   "sentence": "New product innovations are contributing, including Ensure versions with higher protein and lower sugar.",
+   "ev_start": 29699,
+   "ev_end": 29803,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S102",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "product": [
+     "launches",
+     "new adult product"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 9,
+   "sentence": "Upcoming launches include a collagen protein shake, a new adult product with protein, HMB, and creatine, and a new infant formula using whole milk in the second half.",
+   "ev_start": 29804,
+   "ev_end": 29970,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 10,
+   "sentence": "Execution remains key, and if momentum continues, there may be opportunity to revisit guidance, but for now the team is executing to plan.",
+   "ev_start": 29971,
+   "ev_end": 30109,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S104",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 0,
+   "sentence": "This is a very attractive market, which is why we continue to invest.",
+   "ev_start": 30589,
+   "ev_end": 30658,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S105",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 1,
+   "sentence": "It's roughly a $2 billion market today and the competitor has about 90% share.",
+   "ev_start": 30659,
+   "ev_end": 30737,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S106",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 2,
+   "sentence": "Our focus is market share capture.",
+   "ev_start": 30738,
+   "ev_end": 30772,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 3,
+   "sentence": "Data and feedback on Amulet 360 have been excellent.",
+   "ev_start": 30773,
+   "ev_end": 30825,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S108",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 8,
+   "sentence": "We will essentially relaunch the product with Amulet 360, leverage lessons learned, and I am confident this will be a growth driver in 2027 and beyond.",
+   "ev_start": 31255,
+   "ev_end": 31406,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S109",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ],
+    "product": [
+     "next-generation"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 10,
+   "sentence": "We're excited to bring the next-generation product to market and to compete for share.",
+   "ev_start": 31557,
+   "ev_end": 31643,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 12,
+   "sentence": "We are entering the second half with momentum across several key growth drivers.",
+   "ev_start": 31756,
+   "ev_end": 31836,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S111",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full-year",
+     "guidance"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 13,
+   "sentence": "We remain focused on gross margin expansion through mix and cost mitigation, which has given us confidence to raise full-year EPS guidance.",
+   "ev_start": 31837,
+   "ev_end": 31976,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "ABT_2026_2-S112",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "product": [
+     "launches"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "excited",
+     "confidence"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Robert Ford",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 15,
+   "sentence": "I'm excited about the pipeline and the product launches over the next 24 months, which give us confidence that the momentum we're building is sustainable into 2027 and 2028.",
+   "ev_start": 32084,
+   "ev_end": 32257,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "ABT_2026_2-S001",
+  "ABT_2026_2-S002",
+  "ABT_2026_2-S004",
+  "ABT_2026_2-S010",
+  "ABT_2026_2-S028",
+  "ABT_2026_2-S032",
+  "ABT_2026_2-S033",
+  "ABT_2026_2-S038",
+  "ABT_2026_2-S046",
+  "ABT_2026_2-S062",
+  "ABT_2026_2-S066",
+  "ABT_2026_2-S071",
+  "ABT_2026_2-S074",
+  "ABT_2026_2-S079",
+  "ABT_2026_2-S082",
+  "ABT_2026_2-S112"
+ ],
+ "surfaced_signal_ids": [
+  "ABT_2026_2-S001",
+  "ABT_2026_2-S002",
+  "ABT_2026_2-S004",
+  "ABT_2026_2-S010",
+  "ABT_2026_2-S028",
+  "ABT_2026_2-S032",
+  "ABT_2026_2-S033",
+  "ABT_2026_2-S038",
+  "ABT_2026_2-S046",
+  "ABT_2026_2-S062",
+  "ABT_2026_2-S066",
+  "ABT_2026_2-S071",
+  "ABT_2026_2-S074",
+  "ABT_2026_2-S079",
+  "ABT_2026_2-S082",
+  "ABT_2026_2-S112",
+  "ABT_2026_2-S050",
+  "ABT_2026_2-S029",
+  "ABT_2026_2-S045",
+  "ABT_2026_2-S003",
+  "ABT_2026_2-S006",
+  "ABT_2026_2-S012"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 112,
+  "signals_usable": 112,
+  "selected": 16,
+  "by_topic": {
+   "momentum": 64,
+   "product": 29,
+   "strategy": 10,
+   "competition": 10,
+   "pressure": 2
+  },
+  "by_horizon": {
+   "forward": 35,
+   "current": 77
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 0,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

@@ -1,0 +1,5853 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "DHR",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "DHR",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Rachel Vatnsdal",
+    "role": "ir"
+   },
+   {
+    "name": "Rainer M. Blair",
+    "role": "management"
+   },
+   {
+    "name": "Michael Ryskin",
+    "role": "analyst"
+   },
+   {
+    "name": "Matt Gugino",
+    "role": "management"
+   },
+   {
+    "name": "Tycho Peterson",
+    "role": "analyst"
+   },
+   {
+    "name": "Dan Leonard",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Davis",
+    "role": "analyst"
+   },
+   {
+    "name": "Jack Meehan",
+    "role": "analyst"
+   },
+   {
+    "name": "Vijay Kumar",
+    "role": "analyst"
+   },
+   {
+    "name": "Dan Brennan",
+    "role": "analyst"
+   },
+   {
+    "name": "Casey Woodring",
+    "role": "analyst"
+   },
+   {
+    "name": "Patrick Donnelly",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "DHR_2026Q2.json",
+  "vocabulary_packs": [
+   "medtech"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Gross margin 57.6%",
+   "fact_ids": [
+    "DHR_2026_2-004"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating margin 27.1% (-20 bps)",
+   "fact_ids": [
+    "DHR_2026_2-005"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $1.30B",
+   "fact_ids": [
+    "DHR_2026_2-007"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.60, qa +0.67",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": {
+    "value": 57.6,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-004",
+    "confidence": "high"
+   },
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "core",
+   "name": "Core",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 3.0,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "DHR_2026_2-S068",
+    "delta_pp": 2.0,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid-single digit"
+   },
+   "stance": {
+    "confident": 2,
+    "cautious": 1
+   },
+   "n_mentions": 28
+  },
+  {
+   "node": "statlab",
+   "name": "Statlab",
+   "depth": 0,
+   "revenue": {
+    "value": 250000000.0,
+    "fact_id": "DHR_2026_2-008"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "life_sciences_segment_core",
+   "name": "Life Sciences Segment, Core",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.5,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-010",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "diagnostics_segment_core",
+   "name": "Diagnostics Segment, Core",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 2.0,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-011",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "diagnostics",
+   "name": "Diagnostics",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-012",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 12
+  },
+  {
+   "node": "respiratory",
+   "name": "Respiratory",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 4.5,
+    "period": "q2",
+    "fact_id": "DHR_2026_2-017",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 16
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "DHR_2026_2-004",
+   "DHR_2026_2-005",
+   "DHR_2026_2-006",
+   "DHR_2026_2-018",
+   "DHR_2026_2-007",
+   "DHR_2026_2-013",
+   "DHR_2026_2-016",
+   "DHR_2026_2-015"
+  ],
+  "signal_ids": [
+   "DHR_2026_2-S015",
+   "DHR_2026_2-S018",
+   "DHR_2026_2-S024",
+   "DHR_2026_2-S025",
+   "DHR_2026_2-S036",
+   "DHR_2026_2-S037",
+   "DHR_2026_2-S051",
+   "DHR_2026_2-S053",
+   "DHR_2026_2-S063",
+   "DHR_2026_2-S071",
+   "DHR_2026_2-S073",
+   "DHR_2026_2-S075",
+   "DHR_2026_2-S078",
+   "DHR_2026_2-S099",
+   "DHR_2026_2-S102",
+   "DHR_2026_2-S104",
+   "DHR_2026_2-S122"
+  ],
+  "trajectory": [
+   "total:operating_margin"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "core",
+   "name": "Core",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DHR_2026_2-014",
+    "DHR_2026_2-002",
+    "DHR_2026_2-001"
+   ],
+   "signal_ids": [
+    "DHR_2026_2-S002",
+    "DHR_2026_2-S013",
+    "DHR_2026_2-S014",
+    "DHR_2026_2-S020",
+    "DHR_2026_2-S040",
+    "DHR_2026_2-S059",
+    "DHR_2026_2-S068",
+    "DHR_2026_2-S069",
+    "DHR_2026_2-S112"
+   ],
+   "n_home_signals": 25,
+   "n_mentions": 28,
+   "stance": {
+    "confident": 2,
+    "cautious": 1
+   },
+   "trajectory": [
+    "core:revenue"
+   ]
+  },
+  {
+   "id": "statlab",
+   "name": "Statlab",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DHR_2026_2-008"
+   ],
+   "signal_ids": [
+    "DHR_2026_2-S031",
+    "DHR_2026_2-S032",
+    "DHR_2026_2-S035",
+    "DHR_2026_2-S038",
+    "DHR_2026_2-S128"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "life_sciences_segment_core",
+   "name": "Life Sciences Segment, Core",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DHR_2026_2-010"
+   ],
+   "signal_ids": [
+    "DHR_2026_2-S048"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "diagnostics_segment_core",
+   "name": "Diagnostics Segment, Core",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DHR_2026_2-011"
+   ],
+   "signal_ids": [
+    "DHR_2026_2-S058"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "diagnostics",
+   "name": "Diagnostics",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DHR_2026_2-012"
+   ],
+   "signal_ids": [
+    "DHR_2026_2-S016",
+    "DHR_2026_2-S017",
+    "DHR_2026_2-S022",
+    "DHR_2026_2-S062",
+    "DHR_2026_2-S064",
+    "DHR_2026_2-S065",
+    "DHR_2026_2-S126",
+    "DHR_2026_2-S127"
+   ],
+   "n_home_signals": 8,
+   "n_mentions": 12,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "respiratory",
+   "name": "Respiratory",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "DHR_2026_2-017"
+   ],
+   "signal_ids": [
+    "DHR_2026_2-S023",
+    "DHR_2026_2-S026",
+    "DHR_2026_2-S029",
+    "DHR_2026_2-S030",
+    "DHR_2026_2-S066",
+    "DHR_2026_2-S095",
+    "DHR_2026_2-S096",
+    "DHR_2026_2-S097",
+    "DHR_2026_2-S113",
+    "DHR_2026_2-S114"
+   ],
+   "n_home_signals": 11,
+   "n_mentions": 16,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "core:revenue",
+   "node": "core",
+   "name": "Core",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 3.0,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid-single digit",
+    "period": null,
+    "source": "signal_text",
+    "id": "DHR_2026_2-S068",
+    "direction_word": null,
+    "text": "We continue to expect to exit Q4 at the mid-single digit core revenue growth rate as we move past some of the headwinds from the first three quarters of the year.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": 2.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "total:operating_margin",
+   "node": "total",
+   "name": "Total company",
+   "metric": "operating_margin",
+   "kind": "level",
+   "reported": {
+    "value": 27.1,
+    "period": "second quarter",
+    "fact_id": "DHR_2026_2-005",
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 26.5,
+    "hi": 26.5,
+    "descriptor": null,
+    "period": "third quarter",
+    "source": "ledger",
+    "id": "DHR_2026_2-016",
+    "direction_word": null,
+    "text": "26.5%",
+    "confidence": "high"
+   },
+   "direction": "down",
+   "delta_pp": -0.6,
+   "confidence": "high",
+   "note": ""
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 4,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.6
+   },
+   "qa": {
+    "confident": 5,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.67
+   }
+  },
+  "speakers": {
+   "Rainer M. Blair": {
+    "confident": 8,
+    "cautious": 2
+   },
+   "Matt Gugino": {
+    "confident": 1
+   }
+  },
+  "notable_confident": [
+   "DHR_2026_2-S045",
+   "DHR_2026_2-S136",
+   "DHR_2026_2-S002",
+   "DHR_2026_2-S118"
+  ],
+  "notable_cautious": [
+   "DHR_2026_2-S014",
+   "DHR_2026_2-S104"
+  ],
+  "withheld": [],
+  "revisions": [
+   "DHR_2026_2-S068"
+  ]
+ },
+ "signals": [
+  {
+   "id": "DHR_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid"
+    ],
+    "performance": [
+     "revenue",
+     "earnings",
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "We delivered a solid second quarter with better-than-expected revenue, earnings, and cash flow.",
+   "ev_start": 3178,
+   "ev_end": 3273,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S002",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "acceleration",
+     "growth"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "We were particularly pleased to see an acceleration in core growth versus the first quarter, driven by good commercial execution, recent innovation, and recovery in our end market.",
+   "ev_start": 3274,
+   "ev_end": 3454,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "While customer project timing impacted bioprocessing revenue, underlying order trends remained robust.",
+   "ev_start": 3575,
+   "ev_end": 3677,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit",
+     "improved"
+    ],
+    "performance": [
+     "growth",
+     "earnings"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Improved growth across our portfolio, paired with benefits from our recent productivity initiatives, helped drive high single-digit earnings growth.",
+   "ev_start": 3678,
+   "ev_end": 3826,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "forward": [
+     "outlook",
+     "second half"
+    ],
+    "performance": [
+     "accelerating",
+     "revenue",
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "The quarter illustrates the benefit of our balanced end market and geographic diversification while reinforcing our outlook for accelerating revenue and earnings growth in the second half and beyond.",
+   "ev_start": 3958,
+   "ev_end": 4157,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "improved"
+    ],
+    "performance": [
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Demand from large pharma and biopharma customers remained healthy, while improved biotech funding supported improved funnel and order activity.",
+   "ev_start": 4241,
+   "ev_end": 4384,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "As we look to the second half of 2026 and beyond, we're encouraged by the momentum across our businesses and the long-term value creation opportunities ahead for us.",
+   "ev_start": 4531,
+   "ev_end": 4696,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "well-positioned"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "We're well-positioned in attractive end markets with strong secular growth drivers.",
+   "ev_start": 4697,
+   "ev_end": 4780,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Our capital deployment flywheel is active, supported by significant balance sheet optionality.",
+   "ev_start": 4781,
+   "ev_end": 4875,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S010",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiators"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "The Danaher Business System and our team are powerful differentiators, helping us drive both growth and productivity.",
+   "ev_start": 4876,
+   "ev_end": 4993,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "DHR_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 3"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Core revenue was up 3% year-over-year.",
+   "ev_start": 5113,
+   "ev_end": 5151,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core",
+    "respiratory"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "DHR_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "improvements",
+     "up 4.5"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Core growth, excluding respiratory testing revenue, which highlights improvements in the underlying business trends that I mentioned a moment ago, was up 4.5%, 150 basis point acceleration from the first quarter.",
+   "ev_start": 5152,
+   "ev_end": 5364,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S013",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "improving"
+    ],
+    "product": [
+     "innovations"
+    ],
+    "performance": [
+     "growth",
+     "accelerate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "We were encouraged to see growth accelerate with improving trends across our end markets and recent innovations further driving growth across our businesses.",
+   "ev_start": 5365,
+   "ev_end": 5522,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "In biotechnology, Cytiva launched the Biacore 8S SPR system, a high-throughput screening and characterization platform that helps researchers evaluate how potential drug candidates interact with their targets.",
+   "ev_start": 5740,
+   "ev_end": 5949,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduction"
+    ]
+   },
+   "score": 4.72,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "In life sciences, SCIEX reinforced its leadership position in mass spectrometry with the introduction of the novus V55 at June's American Society for Mass Spectrometry Meeting.",
+   "ev_start": 6164,
+   "ev_end": 6340,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S016",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "In diagnostics, Beckman Coulter introduced the Access BD-pTau217 Research Use Only assay and received the CE mark approval for the Access p-tau217 assay, two blood-based Alzheimer's biomarker tests for use on the DxI 9000.",
+   "ev_start": 6531,
+   "ev_end": 6753,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Those assays further strengthen Beckman's positioning as a leader in the important and growing area of neurodegenerative diagnostics.",
+   "ev_start": 6754,
+   "ev_end": 6887,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S018",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenges"
+    ],
+    "strategy": [
+     "commitment"
+    ],
+    "performance": [
+     "growth",
+     "customers"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Now, these are just a few of many examples across Danaher and how we're positioning our businesses for continued growth and delivering on our commitment to help customers solve some of the most important challenges impacting patients around the world.",
+   "ev_start": 6888,
+   "ev_end": 7139,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core",
+    "respiratory"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "impacted by"
+    ],
+    "performance": [
+     "declined",
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "Geographically, core revenues in developed markets declined slightly as both North America and Western Europe were impacted by shipment timing in biotechnology and lower respiratory revenue year-over-year.",
+   "ev_start": 7140,
+   "ev_end": 7345,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "DHR_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "mid-single-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Core revenues in high-growth markets increased more than 10%, with healthy growth across our major regions, including mid-single-digit growth in China.",
+   "ev_start": 7346,
+   "ev_end": 7497,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "In China, biotechnology delivered another quarter of solid growth as local companies continued to partner with Cytiva on the development of novel molecules and the manufacturing of commercial therapies.",
+   "ev_start": 7498,
+   "ev_end": 7700,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "forward": [
+     "beyond the"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "Life sciences market conditions continued to stabilize while diagnostics improved sequentially as we began to move beyond the most significant year-over-year impacts of volume-based procurement and reimbursement changes that began in late 2024.",
+   "ev_start": 7701,
+   "ev_end": 7945,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S023",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [
+    "DHR_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "negative": [
+     "down 20"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "profit",
+     "margin",
+     "revenue",
+     "volume"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "Our adjusted operating profit margin of 27.1% was down 20 basis points as lower respiratory revenue year-over-year more than offset the favorable impacts of higher non-respiratory volume and disciplined cost management.",
+   "ev_start": 8004,
+   "ev_end": 8223,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DHR_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up approximately 8"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "Adjusted diluted net earnings per common share of $1.94 were up approximately 8% year-over-year.",
+   "ev_start": 8224,
+   "ev_end": 8320,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S025",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DHR_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We generated $1.3 billion of free cash flow in the quarter and $2.4 billion in the first half of the year, resulting in a year-to-date free cash flow to net income conversion ratio of 124%, further underwriting the differentiated quality of our earnings.",
+   "ev_start": 8321,
+   "ev_end": 8575,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We also made significant progress on our capital deployment priorities during the quarter and into July.",
+   "ev_start": 8576,
+   "ev_end": 8680,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S027",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a",
+     "acquisition"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "On the M&A front, we closed our acquisition of Masimo in early June, ahead of our initial expectations.",
+   "ev_start": 8681,
+   "ev_end": 8784,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S028",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "accretive"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "We expect Masimo to be immediately accretive, both strategically and to adjusted EPS.",
+   "ev_start": 8785,
+   "ev_end": 8870,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "The business delivered high single-digit revenue growth in the first half of the year and is off to a great start as part of Danaher, including an FDA 510(k) clearance for an AI-enabled opioid-induced respiratory depression detection solution.",
+   "ev_start": 8871,
+   "ev_end": 9114,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S030",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "product": [
+     "review",
+     "innovation",
+     "launch"
+    ],
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 4.94,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "In fact, the team has already completed their first operating review, where they further validated opportunities to drive productivity and efficiency improvement, capture customer account synergies, and strengthen the innovation process using the Danaher Business System Launch Excellence tool.",
+   "ev_start": 9115,
+   "ev_end": 9409,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S031",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "statlab"
+   ],
+   "home": "statlab",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 5.1,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Additionally, Leica Biosystems announced the pending acquisition of StatLab, a leading manufacturer of consumables across the anatomical pathology workflow.",
+   "ev_start": 9410,
+   "ev_end": 9566,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S032",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "statlab"
+   ],
+   "home": "statlab",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "StatLab has built a strong reputation with customers for its quality, innovation, and customer intimacy.",
+   "ev_start": 9567,
+   "ev_end": 9671,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S033",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "We believe the acquisition will strengthen Leica Biosystems' value proposition by bringing together consumables, instruments, automation, and digital pathology into a more complete workflow solution.",
+   "ev_start": 9672,
+   "ev_end": 9871,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S034",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "statlab"
+   ],
+   "home": "statlab",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "It also supports our broader integrated delivery network strategy and our goal of helping clinicians diagnose cancer faster and more precisely.",
+   "ev_start": 9872,
+   "ev_end": 10015,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S035",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "statlab"
+   ],
+   "home": "statlab",
+   "fact_ids": [
+    "DHR_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "StatLab generated approximately $250 million in revenue for the full year of 2025 and has an attractive business model with more than 85% recurring revenue.",
+   "ev_start": 10016,
+   "ev_end": 10172,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S036",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits",
+     "grow"
+    ],
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "strategy": [
+     "accretive"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "We expect the business to grow high single digits over the long term and to be accretive to adjusted EPS in our first full year of ownership.",
+   "ev_start": 10173,
+   "ev_end": 10314,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S037",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "by the end of"
+    ],
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "While the transaction remains subject to customary closing conditions, including regulatory approvals, we expect to close by the end of 2026.",
+   "ev_start": 10315,
+   "ev_end": 10456,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S038",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "statlab"
+   ],
+   "home": "statlab",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ],
+    "strategy": [
+     "repurchase"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "Lastly, we deployed approximately $900 million of capital to repurchase 5 million shares of Danaher common stock.",
+   "ev_start": 10457,
+   "ev_end": 10570,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe",
+     "outlook"
+    ],
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "We believe these repurchases will provide an attractive return given the trajectory of our long-term organic growth, earnings, and cash flow outlook.",
+   "ev_start": 10571,
+   "ev_end": 10720,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "DHR_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 2.5"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "Core revenue in our biotechnology segment increased 2.5%.",
+   "ev_start": 10845,
+   "ev_end": 10902,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "solid",
+     "with solid growth"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "Core revenue in discovery and medical increased mid-single digits, with solid growth in pharma and biopharma, and a more stable academic and research funding environment.",
+   "ev_start": 10903,
+   "ev_end": 11073,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single digits",
+     "low single-digit",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "Core revenue in bioprocessing grew low single digits in the second quarter, with low single-digit growth in both consumables and equipment.",
+   "ev_start": 11074,
+   "ev_end": 11213,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S043",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "We were encouraged to see equipment growth in the second quarter following several quarters of improving order trends, supported by customer investments in manufacturing capacity.",
+   "ev_start": 11214,
+   "ev_end": 11393,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "mid-teens"
+    ],
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "revenue",
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "While revenue was impacted by customer timing, underlying demand remained very healthy, with mid-teens order growth in both consumables and equipment.",
+   "ev_start": 11691,
+   "ev_end": 11841,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "high single-digit"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "demand"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "The trends we're seeing in the business, together with healthy underlying demand, reinforce our confidence in the high single-digit long-term outlook for Cytiva's bioprocessing franchise.",
+   "ev_start": 11842,
+   "ev_end": 12029,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "robust",
+     "expansions"
+    ],
+    "forward": [
+     "well-positioned",
+     "expect"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "Cytiva is well-positioned to support capacity expansions as we expect onshoring activity to accelerate and commercial production to remain robust, particularly in monoclonal antibodies.",
+   "ev_start": 12030,
+   "ev_end": 12215,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "At the same time, new molecules continue to progress through development pipelines and into commercialization, creating what we believe is a durable long-term growth opportunity given Cytiva's leading and expanding specced-in position on molecules in pre-clinical and early-stage clinical development phases.",
+   "ev_start": 12216,
+   "ev_end": 12524,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "life_sciences_segment_core",
+    "core"
+   ],
+   "home": "life_sciences_segment_core",
+   "fact_ids": [
+    "DHR_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 5.5"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.14,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Turning to our Life Sciences segment, core revenue increased 5.5%.",
+   "ev_start": 12525,
+   "ev_end": 12591,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "increased approximately 10"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "Core revenue in Pall's applied filtration business increased approximately 10%, led by strength in its microelectronics product line.",
+   "ev_start": 12592,
+   "ev_end": 12725,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "Core revenue in our Life Sciences instrument businesses increased mid-single digits in the quarter.",
+   "ev_start": 12913,
+   "ev_end": 13012,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S051",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "customers",
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "Across our end markets, investment from large pharma and biopharma customers continued to strengthen, while biotech demand benefited from a more favorable funding environment.",
+   "ev_start": 13013,
+   "ev_end": 13188,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "Academic demand improved modestly as the quarter progressed but remained below normal levels.",
+   "ev_start": 13189,
+   "ev_end": 13282,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "saw solid growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "By operating company, we saw solid growth at Beckman Life Sciences, Leica Microsystems, and SCIEX.",
+   "ev_start": 13283,
+   "ev_end": 13381,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well-positioned"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "Beckman Life Sciences saw notable growth in automation, where the team is well-positioned to benefit as customers invest in the lab infrastructure needed to support autonomous labs and AI-enabled drug discovery.",
+   "ev_start": 13382,
+   "ev_end": 13593,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single digits",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "Core revenue in our Life Sciences consumables businesses collectively grew low single digits.",
+   "ev_start": 13594,
+   "ev_end": 13687,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S056",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "best",
+     "gained",
+     "improve"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "demand",
+     "growth",
+     "accelerate",
+     "traction"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "IDT was up in the quarter, led by demand for MRD testing solutions, and Abcam's growth continued to accelerate, delivering its best quarter since acquisition as academic markets have started to improve and commercial initiatives, particularly around biopharma and diagnostic end markets, gained further traction.",
+   "ev_start": 13688,
+   "ev_end": 14000,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration",
+     "improve"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "demand",
+     "growth",
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "As end market conditions continue to improve, we expect commercial and go-to-market execution, including autonomous lab-catalyzed demand, to further support growth acceleration across Abcam, IDT, and Aldevron.",
+   "ev_start": 14001,
+   "ev_end": 14210,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics_segment_core",
+    "diagnostics",
+    "core"
+   ],
+   "home": "diagnostics_segment_core",
+   "fact_ids": [
+    "DHR_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 2"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "Moving to our Diagnostics segment, core revenue increased 2%.",
+   "ev_start": 14211,
+   "ev_end": 14272,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core",
+    "respiratory",
+    "diagnostics"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "DHR_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 5"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "Core growth, excluding respiratory testing revenue, was up 5%.",
+   "ev_start": 14273,
+   "ev_end": 14335,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core",
+    "diagnostics"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "high single-digit"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 76,
+   "sentence": "Core revenue in our clinical diagnostics businesses was up mid-single digits, with high single-digit growth outside of China.",
+   "ev_start": 14336,
+   "ev_end": 14461,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits",
+     "solid",
+     "with solid growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 77,
+   "sentence": "Leica Biosystems and Radiometer were collectively up high single digits, with solid growth across both instruments and consumables.",
+   "ev_start": 14462,
+   "ev_end": 14593,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "performance": [
+     "revenue",
+     "install base",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "Beckman Coulter Diagnostics was up mid-single digits globally, with another quarter of solid immunoassay revenue and install base growth.",
+   "ev_start": 14594,
+   "ev_end": 14731,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "negative": [
+     "declines"
+    ],
+    "performance": [
+     "declines"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "At Beckman, declines in China began to moderate as pricing stabilized and volumes improved.",
+   "ev_start": 14732,
+   "ev_end": 14823,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S064",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics",
+    "core",
+    "respiratory"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquired"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "In molecular diagnostics, Cepheid's core non-respiratory revenue increased low double digits, led by growth in hospital-acquired infection and sexual health assays.",
+   "ev_start": 14824,
+   "ev_end": 14988,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S065",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expansions"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "This strong performance was supported by continued adoption of recent menu expansions, including the Multiplex GI panel, as well as several notable key account wins with large hospital networks.",
+   "ev_start": 14989,
+   "ev_end": 15183,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S066",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [
+    "DHR_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 8.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "We expect third quarter revenue growth to be approximately 2%-3%, which includes an approximately 250 basis point year-over-year headwind from respiratory testing.",
+   "ev_start": 15781,
+   "ev_end": 15944,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core",
+    "respiratory"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "growth",
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 87,
+   "sentence": "This implies that core growth excluding respiratory will be approximately 5%, an acceleration versus what we saw in the second quarter.",
+   "ev_start": 15945,
+   "ev_end": 16080,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S068",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": {
+    "node": "core",
+    "metric": "revenue",
+    "descriptor": "mid-single digit",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digit"
+    ],
+    "negative": [
+     "headwinds"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 8.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "We continue to expect to exit Q4 at the mid-single digit core revenue growth rate as we move past some of the headwinds from the first three quarters of the year.",
+   "ev_start": 16081,
+   "ev_end": 16243,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S069",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [
+    "DHR_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year",
+     "outlook"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 89,
+   "sentence": "This results in a full year 2026 core revenue growth outlook in the range of 3%-4%.",
+   "ev_start": 16244,
+   "ev_end": 16327,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S070",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook",
+     "expect"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 90,
+   "sentence": "Our updated outlook reflects higher anticipated core revenue growth in our life sciences segment as we expect these markets to recover faster than our initial expectations, offset by a slightly more conservative outlook for bioprocessing, given some of the customer-driven timing dynamics we saw in the second quarter.",
+   "ev_start": 16328,
+   "ev_end": 16646,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S071",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DHR_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full-year",
+     "guidance"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.94,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 91,
+   "sentence": "Additionally, given our second quarter earnings beat and the earlier than anticipated completion of the Masimo acquisition, we're raising our full-year adjusted diluted net EPS guidance to a range of $8.45-$8.60, versus our previous range of $8.35-$8.55.",
+   "ev_start": 16647,
+   "ev_end": 16901,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S072",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DHR_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 92,
+   "sentence": "Finally, we expect a third quarter adjusted operating profit margin of approximately 26.5%.",
+   "ev_start": 16902,
+   "ev_end": 16993,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 93,
+   "sentence": "To wrap up, we're pleased to deliver better than expected second quarter results and are encouraged by the underlying momentum that is built across our portfolio.",
+   "ev_start": 16994,
+   "ev_end": 17156,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated",
+     "strong",
+     "improved"
+    ],
+    "performance": [
+     "growth",
+     "accelerated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 94,
+   "sentence": "Growth accelerated, reflecting improved end markets, strong commercial execution, and the power of our balanced portfolio.",
+   "ev_start": 17157,
+   "ev_end": 17279,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S075",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "share gains"
+    ],
+    "product": [
+     "launches"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 95,
+   "sentence": "Traction on recent product launches also drove growth and share gains across a number of our businesses.",
+   "ev_start": 17280,
+   "ev_end": 17384,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "mid-single digit"
+    ],
+    "performance": [
+     "growth",
+     "accelerate"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 97,
+   "sentence": "We remain confident that growth will accelerate toward a mid-single digit exit rate this year.",
+   "ev_start": 17515,
+   "ev_end": 17609,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S077",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 98,
+   "sentence": "As markets recover, we expect our growth initiatives to gain further traction.",
+   "ev_start": 17610,
+   "ev_end": 17688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement",
+     "expansion"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "margin",
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 99,
+   "sentence": "At the same time, we believe AI will strengthen the Danaher Business System, reinforcing our culture of continuous improvement and supporting our work to achieve margin expansion and earnings growth.",
+   "ev_start": 17689,
+   "ev_end": 17888,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S079",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "deployment"
+    ],
+    "performance": [
+     "customers",
+     "accelerate"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 100,
+   "sentence": "Looking ahead, our leading portfolio, significant capital deployment optionality, and talented team, all powered by the Danaher Business System, will continue to position us to help customers move from discovery to delivery faster, accelerate the impact of science and technology, and create sustainable long-term value for shareholders.",
+   "ev_start": 17889,
+   "ev_end": 18226,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single digits",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "To recap, our bioprocessing business grew low single digits this quarter, and that was both for equipment and consumables.",
+   "ev_start": 19583,
+   "ev_end": 19705,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S081",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "delays",
+     "challenges"
+    ],
+    "pressure": [
+     "delays"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 6,
+   "sentence": "These delays were at our customer's request due to production schedule changes and site readiness challenges, which we have seen occasionally.",
+   "ev_start": 20045,
+   "ev_end": 20187,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S082",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "mid-teens",
+     "grew"
+    ],
+    "competition": [
+     "differentiated"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "We think our portfolio is differentiated, and that's supported by our strong order book trends as consumables and equipment orders both grew mid-teens in the second quarter.",
+   "ev_start": 20357,
+   "ev_end": 20530,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S083",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 3,
+   "sentence": "That's a couple of hundred basis points to our bioprocessing growth for the full year.",
+   "ev_start": 20959,
+   "ev_end": 21045,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "I think the other thing just to note here on Q2 is that outside of chromatography resins that Rainer referenced, we saw pretty good performance in the quarter in consumables, and that included strong double-digit growth in our upstream consumables business.",
+   "ev_start": 21155,
+   "ev_end": 21412,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S085",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 1,
+   "sentence": "In fact, we are pleased with the fact that we're starting to see revenue growth here on the equipment side.",
+   "ev_start": 24105,
+   "ev_end": 24212,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "expansion"
+    ],
+    "forward": [
+     "we do believe"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 2,
+   "sentence": "In fact, we do believe that this is a twofold signal that we are starting to see some of that reshoring brownfield expansion, not just playing through in the order strength that you've seen over previous quarters, but we're also starting to see some of that in the revenue line.",
+   "ev_start": 24213,
+   "ev_end": 24491,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 4,
+   "sentence": "The other aspect, this comes back to Mike's question a little bit, there continues to be robust demand for biologic molecules, therapeutics.",
+   "ev_start": 24511,
+   "ev_end": 24651,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansions"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 5,
+   "sentence": "We haven't had a lot of investment, as you know, in capacity expansions over the last several years.",
+   "ev_start": 24652,
+   "ev_end": 24752,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 6,
+   "sentence": "There is this need to continue to invest in capacity expansion coupled with the reshoring dynamic.",
+   "ev_start": 24753,
+   "ev_end": 24851,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 7,
+   "sentence": "Now, as it relates to the greenfield investments, we're quoting for those.",
+   "ev_start": 24852,
+   "ev_end": 24926,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "we continue to believe"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 10,
+   "sentence": "We continue to believe that we're in the early innings here of a multi-year CapEx cycle that is required both to support the growing volumes of biologic therapeutics, but also the reshoring dynamic.",
+   "ev_start": 25053,
+   "ev_end": 25251,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S092",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcements"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 1,
+   "sentence": "We're seeing that funding that we see in all the announcements starting to play through.",
+   "ev_start": 25835,
+   "ev_end": 25923,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S093",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 9,
+   "sentence": "On Abcam, we've had the best quarter here that we've had since the acquisition, where you see not only the work that we're doing driving growth and share capture, but we're also seeing some more stability in academic markets.",
+   "ev_start": 26506,
+   "ev_end": 26731,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S094",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "delays"
+    ],
+    "pressure": [
+     "delays"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "There are delays in that regard.",
+   "ev_start": 27616,
+   "ev_end": 27648,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S095",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory",
+    "diagnostics"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "mid-single digits"
+    ],
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 1,
+   "sentence": "Obviously, we have some variability here with the respiratory headwinds from quarter to quarter, but I think if you unpack it, excluding respiratory, diagnostics was solid, mid-single digits in the second quarter.",
+   "ev_start": 28279,
+   "ev_end": 28492,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S096",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated",
+     "expansion"
+    ],
+    "product": [
+     "new product",
+     "innovations"
+    ],
+    "performance": [
+     "accelerated",
+     "growth"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 2,
+   "sentence": "I think we're encouraged by some of that execution we're seeing commercially across the platform, as well as some of those new product innovations that are driving accelerated growth, like that DxI 9000 at Beckman, the continued menu expansion at Cepheid.",
+   "ev_start": 28493,
+   "ev_end": 28748,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S097",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digit"
+    ],
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ],
+    "performance": []
+   },
+   "score": 4.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 3,
+   "sentence": "I think our view is these underlying trends continue, and as respiratory headwinds moderate in Q4, we'll exit at that overall mid-single digit rate.",
+   "ev_start": 28749,
+   "ev_end": 28897,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S098",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 4,
+   "sentence": "Remember here, Dan, we do have China policy, those headwinds are starting to lessen.",
+   "ev_start": 28898,
+   "ev_end": 28982,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S099",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 5,
+   "sentence": "You see a little bit lower of a headwind here in Q3 and Q4, which are driving a bit more of the overall step up as well.",
+   "ev_start": 28983,
+   "ev_end": 29103,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "We're really excited by the fact that we were able to get that acquisition closed a little bit earlier than we thought.",
+   "ev_start": 29564,
+   "ev_end": 29683,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S101",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "reviews"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 3,
+   "sentence": "In our initial operating reviews, this is every bit the company that we thought it was.",
+   "ev_start": 29684,
+   "ev_end": 29771,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S102",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "You might have heard there that we are already launched with a new 510 on a new assay.",
+   "ev_start": 29772,
+   "ev_end": 29858,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 6,
+   "sentence": "As we think about the growth rate, we validated that that was high single digits here for the quarter.",
+   "ev_start": 29892,
+   "ev_end": 29994,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S104",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "hedge": [
+     "difficult to say"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 0,
+   "sentence": "Well, it is difficult to say because what we're seeing in the academic funding area, Scott, is related to government policies.",
+   "ev_start": 30490,
+   "ev_end": 30616,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S105",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 6,
+   "sentence": "So, we watch that with great interest because in many ways, it's a catalyst to innovation going forward.",
+   "ev_start": 31195,
+   "ev_end": 31299,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S106",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 0,
+   "sentence": "We're pretty pleased with the nice growth that we have seen here at Pall, which has been ongoing for some time.",
+   "ev_start": 31897,
+   "ev_end": 32008,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S107",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 3,
+   "sentence": "In fact, we've invested quite significantly in the past years in this business, both in innovation as well as capacity, where we are currently in the startup mode of a new plant in Singapore, which is right in the middle of many of the demand centers there, along with our plants elsewhere in the world, including the U.S.",
+   "ev_start": 32270,
+   "ev_end": 32592,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S108",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "share gains"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 2,
+   "sentence": "I think as Rainer talked about the drivers there, but we also probably saw some share gains here at Pall overall.",
+   "ev_start": 32779,
+   "ev_end": 32892,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S109",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 4,
+   "sentence": "We think that growth moderates a bit here in Q3; in the second half, in general, those underlying trends are pretty consistent.",
+   "ev_start": 33518,
+   "ev_end": 33645,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 2,
+   "sentence": "I think first off, there's no change on how we're thinking about mid-single digit core growth.",
+   "ev_start": 34362,
+   "ev_end": 34456,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S111",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 3,
+   "sentence": "Thinking maybe a touch high there in what you're referencing, but mid-single digit core growth in Q4.",
+   "ev_start": 34457,
+   "ev_end": 34558,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S112",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 4,
+   "sentence": "For the full year, we're thinking that 3%-4% core growth range.",
+   "ev_start": 34559,
+   "ev_end": 34622,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S113",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 7,
+   "sentence": "Respiratory, we're thinking given where infection rates have trended, about $1.6 billion or a touch below that for the full year.",
+   "ev_start": 34920,
+   "ev_end": 35049,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S114",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 8,
+   "sentence": "As we're talking and you're thinking about the second half, it's important to look at the underlying trends in the business as well as the impact of respiratory from quarter to quarter.",
+   "ev_start": 35050,
+   "ev_end": 35235,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 12,
+   "sentence": "That's an acceleration versus what we saw in Q1.",
+   "ev_start": 35432,
+   "ev_end": 35480,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S116",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "respiratory"
+   ],
+   "home": "respiratory",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": []
+   },
+   "score": 4.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 15,
+   "sentence": "Respiratory was about 150 basis point headwind in Q2.",
+   "ev_start": 35607,
+   "ev_end": 35660,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S117",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind",
+     "headwinds"
+    ],
+    "pressure": [
+     "headwind",
+     "headwinds"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 16,
+   "sentence": "We think it's about 250 basis point headwind in Q3, and those headwinds essentially go away year-on-year in Q4.",
+   "ev_start": 35661,
+   "ev_end": 35772,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digit"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 17,
+   "sentence": "That's why we're feeling comfortable with that Q4 mid-single digit core growth rate.",
+   "ev_start": 35773,
+   "ev_end": 35857,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "core"
+   ],
+   "home": "core",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single digits",
+     "better than"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 7,
+   "sentence": "Rainer talked about core growth, high single digits, even a little bit better than we expected.",
+   "ev_start": 36804,
+   "ev_end": 36899,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "through the year"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 10,
+   "sentence": "We think that's a good place to be halfway through the year and balance a strong fall through while being able to reinvest for growth.",
+   "ev_start": 37124,
+   "ev_end": 37258,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S121",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Matt Gugino",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 2,
+   "sentence": "That's a couple hundred basis points impact to bioprocessing growth for the full year.",
+   "ev_start": 38290,
+   "ev_end": 38376,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S122",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 4,
+   "sentence": "We believe, without talking specifically to 2027, that these push outs to 2027 would likely then ultimately ship in 2027.",
+   "ev_start": 39814,
+   "ev_end": 39935,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 3,
+   "sentence": "What we see is broad-based growth across our customer base of these in the mid-teens of both consumables, as well as equipment.",
+   "ev_start": 40962,
+   "ev_end": 41089,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S124",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 5,
+   "sentence": "It is rare that you get a consumable order, especially on these larger sized ones, that book in the quarter and ship in the same quarter.",
+   "ev_start": 41162,
+   "ev_end": 41299,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipped"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 7,
+   "sentence": "The majority of the business is shipped in the quarter that comes out of backlog.",
+   "ev_start": 41360,
+   "ev_end": 41441,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "high single-digit",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.1,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 0,
+   "sentence": "These continue to be Radiometer and Leica Biosystems, our specialty diagnostics businesses for us that continue to grow in the high single-digit range.",
+   "ev_start": 41791,
+   "ev_end": 41942,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S127",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "diagnostics"
+   ],
+   "home": "diagnostics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 2,
+   "sentence": "Continued innovation, continued commercial excellence.",
+   "ev_start": 41977,
+   "ev_end": 42031,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S128",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "statlab"
+   ],
+   "home": "statlab",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.1,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 3,
+   "sentence": "I might add the StatLab acquisition that really strengthens Leica Biosystems offering across the entire workflow and provides leverage across that entire workflow.",
+   "ev_start": 42032,
+   "ev_end": 42195,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S129",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits",
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 6,
+   "sentence": "It's got great economics, and we expect that to grow high single digits here in the long term as well.",
+   "ev_start": 42278,
+   "ev_end": 42380,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S130",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "I think it's important to note, again, on the orders, that we see broad-based orders here, growth in the mid-teens, in the consumables area and in the equipment area.",
+   "ev_start": 43370,
+   "ev_end": 43536,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S131",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 6,
+   "sentence": "As it relates to our other consumables, whether that's single use, whether that's upstream in the bioreactor area and so forth, our growth is very strong there in the upstream area as well.",
+   "ev_start": 43649,
+   "ev_end": 43838,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S132",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we continue to see that"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 4,
+   "sentence": "Large pharma and biopharma customers are progressing back to normal; we continue to see that.",
+   "ev_start": 44744,
+   "ev_end": 44837,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S133",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest",
+     "improved"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 12,
+   "sentence": "Abcam delivered their strongest quarter since acquisition, and they benefited from improved commercial execution, certainly.",
+   "ev_start": 45533,
+   "ev_end": 45657,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S134",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "taking some share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 13,
+   "sentence": "We're also taking some share here and making headway in other end markets to skew away a little bit from academic.",
+   "ev_start": 45658,
+   "ev_end": 45772,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S135",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new products"
+    ]
+   },
+   "score": 4.04,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 14,
+   "sentence": "We also think the new products are contributing to our growth in our life science instrument businesses, flow cytometry at Beckman, the novus V55 and 8600 at SCIEX.",
+   "ev_start": 45773,
+   "ev_end": 45937,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DHR_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "expect",
+     "second half",
+     "full year"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Rainer M. Blair",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 51,
+   "sentence_index": 19,
+   "sentence": "We expect this momentum continues in the second half, and that's what gave us confidence here to raise our full year life science guide.",
+   "ev_start": 46226,
+   "ev_end": 46362,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "DHR_2026_2-S002",
+  "DHR_2026_2-S013",
+  "DHR_2026_2-S014",
+  "DHR_2026_2-S020",
+  "DHR_2026_2-S040",
+  "DHR_2026_2-S059",
+  "DHR_2026_2-S068",
+  "DHR_2026_2-S069",
+  "DHR_2026_2-S112",
+  "DHR_2026_2-S031",
+  "DHR_2026_2-S032",
+  "DHR_2026_2-S035",
+  "DHR_2026_2-S038",
+  "DHR_2026_2-S128",
+  "DHR_2026_2-S048",
+  "DHR_2026_2-S058",
+  "DHR_2026_2-S016",
+  "DHR_2026_2-S017",
+  "DHR_2026_2-S022",
+  "DHR_2026_2-S062",
+  "DHR_2026_2-S064",
+  "DHR_2026_2-S065",
+  "DHR_2026_2-S126",
+  "DHR_2026_2-S127",
+  "DHR_2026_2-S023",
+  "DHR_2026_2-S026",
+  "DHR_2026_2-S029",
+  "DHR_2026_2-S030",
+  "DHR_2026_2-S066",
+  "DHR_2026_2-S095",
+  "DHR_2026_2-S096",
+  "DHR_2026_2-S097",
+  "DHR_2026_2-S113",
+  "DHR_2026_2-S114",
+  "DHR_2026_2-S015",
+  "DHR_2026_2-S018",
+  "DHR_2026_2-S024",
+  "DHR_2026_2-S025",
+  "DHR_2026_2-S036",
+  "DHR_2026_2-S037",
+  "DHR_2026_2-S051",
+  "DHR_2026_2-S053",
+  "DHR_2026_2-S063",
+  "DHR_2026_2-S071",
+  "DHR_2026_2-S073",
+  "DHR_2026_2-S075",
+  "DHR_2026_2-S078",
+  "DHR_2026_2-S099",
+  "DHR_2026_2-S102",
+  "DHR_2026_2-S104",
+  "DHR_2026_2-S122"
+ ],
+ "surfaced_signal_ids": [
+  "DHR_2026_2-S002",
+  "DHR_2026_2-S013",
+  "DHR_2026_2-S014",
+  "DHR_2026_2-S020",
+  "DHR_2026_2-S040",
+  "DHR_2026_2-S059",
+  "DHR_2026_2-S068",
+  "DHR_2026_2-S069",
+  "DHR_2026_2-S112",
+  "DHR_2026_2-S031",
+  "DHR_2026_2-S032",
+  "DHR_2026_2-S035",
+  "DHR_2026_2-S038",
+  "DHR_2026_2-S128",
+  "DHR_2026_2-S048",
+  "DHR_2026_2-S058",
+  "DHR_2026_2-S016",
+  "DHR_2026_2-S017",
+  "DHR_2026_2-S022",
+  "DHR_2026_2-S062",
+  "DHR_2026_2-S064",
+  "DHR_2026_2-S065",
+  "DHR_2026_2-S126",
+  "DHR_2026_2-S127",
+  "DHR_2026_2-S023",
+  "DHR_2026_2-S026",
+  "DHR_2026_2-S029",
+  "DHR_2026_2-S030",
+  "DHR_2026_2-S066",
+  "DHR_2026_2-S095",
+  "DHR_2026_2-S096",
+  "DHR_2026_2-S097",
+  "DHR_2026_2-S113",
+  "DHR_2026_2-S114",
+  "DHR_2026_2-S015",
+  "DHR_2026_2-S018",
+  "DHR_2026_2-S024",
+  "DHR_2026_2-S025",
+  "DHR_2026_2-S036",
+  "DHR_2026_2-S037",
+  "DHR_2026_2-S051",
+  "DHR_2026_2-S053",
+  "DHR_2026_2-S063",
+  "DHR_2026_2-S071",
+  "DHR_2026_2-S073",
+  "DHR_2026_2-S075",
+  "DHR_2026_2-S078",
+  "DHR_2026_2-S099",
+  "DHR_2026_2-S102",
+  "DHR_2026_2-S104",
+  "DHR_2026_2-S122",
+  "DHR_2026_2-S045",
+  "DHR_2026_2-S136",
+  "DHR_2026_2-S118"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "core",
+   "statlab",
+   "life_sciences_segment_core",
+   "diagnostics_segment_core",
+   "diagnostics",
+   "respiratory"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "DHR_2026_2-003",
+   "DHR_2026_2-009"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 136,
+  "signals_usable": 136,
+  "selected": 51,
+  "by_topic": {
+   "momentum": 77,
+   "product": 27,
+   "competition": 6,
+   "strategy": 24,
+   "pressure": 12
+  },
+  "by_horizon": {
+   "current": 99,
+   "forward": 37
+  },
+  "trajectory_rows": 2,
+  "blocks_with_content": 6,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

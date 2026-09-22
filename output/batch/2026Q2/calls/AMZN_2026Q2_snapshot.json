@@ -1,0 +1,4988 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "AMZN",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "AMZN",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Dave Fildes",
+    "role": "ir"
+   },
+   {
+    "name": "Andy Jassy",
+    "role": "management"
+   },
+   {
+    "name": "Brian Olsavsky",
+    "role": "management"
+   },
+   {
+    "name": "Doug Anmuth",
+    "role": "analyst"
+   },
+   {
+    "name": "Justin Post",
+    "role": "analyst"
+   },
+   {
+    "name": "Brian Nowak",
+    "role": "analyst"
+   },
+   {
+    "name": "Colin Sebastian",
+    "role": "analyst"
+   },
+   {
+    "name": "Ken Gawrelski",
+    "role": "analyst"
+   },
+   {
+    "name": "Eric Sheridan",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Q2 2026",
+   "detail": "the call says 'Q2 2026', matching 2026Q2"
+  },
+  "reported_period_label": "q2",
+  "source_file": "AMZN_2026Q2.json",
+  "vocabulary_packs": [
+   "retail"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $200.60B (+20% yoy), q2",
+   "fact_ids": [
+    "AMZN_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 200600000000.0,
+    "fact_id": "AMZN_2026_2-001"
+   },
+   "growth": {
+    "value": 20.0,
+    "period": "q2",
+    "fact_id": "AMZN_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "annual",
+   "name": "Annual",
+   "depth": 0,
+   "revenue": {
+    "value": 25000000000.0,
+    "fact_id": "AMZN_2026_2-006"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "ai",
+   "name": "Ai",
+   "depth": 0,
+   "revenue": {
+    "value": 25000000000.0,
+    "fact_id": "AMZN_2026_2-007"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 3
+   },
+   "n_mentions": 25
+  },
+  {
+   "node": "chips",
+   "name": "Chips",
+   "depth": 0,
+   "revenue": {
+    "value": 25000000000.0,
+    "fact_id": "AMZN_2026_2-008"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 5
+  },
+  {
+   "node": "top_line_financial_results",
+   "name": "Top-Line Financial Results",
+   "depth": 0,
+   "revenue": {
+    "value": 200600000000.0,
+    "fact_id": "AMZN_2026_2-010"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "north_america",
+   "name": "North America",
+   "depth": 0,
+   "revenue": {
+    "value": 116200000000.0,
+    "fact_id": "AMZN_2026_2-011"
+   },
+   "growth": {
+    "value": 16.0,
+    "period": "second quarter",
+    "fact_id": "AMZN_2026_2-011",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "international",
+   "name": "International",
+   "depth": 0,
+   "revenue": {
+    "value": 42200000000.0,
+    "fact_id": "AMZN_2026_2-012"
+   },
+   "growth": {
+    "value": 15.0,
+    "period": "q2",
+    "fact_id": "AMZN_2026_2-012",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "aws",
+   "name": "Aws",
+   "depth": 0,
+   "revenue": {
+    "value": 42200000000.0,
+    "fact_id": "AMZN_2026_2-017"
+   },
+   "growth": {
+    "value": 36.7,
+    "period": "q2",
+    "fact_id": "AMZN_2026_2-017",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 4
+   },
+   "n_mentions": 22
+  },
+  {
+   "node": "annualized",
+   "name": "Annualized",
+   "depth": 0,
+   "revenue": {
+    "value": 169000000000.0,
+    "fact_id": "AMZN_2026_2-018"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "q3",
+   "name": "Q3",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "AMZN_2026_2-003",
+   "AMZN_2026_2-001",
+   "AMZN_2026_2-002",
+   "AMZN_2026_2-005",
+   "AMZN_2026_2-022",
+   "AMZN_2026_2-020"
+  ],
+  "signal_ids": [
+   "AMZN_2026_2-S020",
+   "AMZN_2026_2-S033",
+   "AMZN_2026_2-S034",
+   "AMZN_2026_2-S038",
+   "AMZN_2026_2-S042",
+   "AMZN_2026_2-S043",
+   "AMZN_2026_2-S046",
+   "AMZN_2026_2-S050",
+   "AMZN_2026_2-S051",
+   "AMZN_2026_2-S052",
+   "AMZN_2026_2-S054",
+   "AMZN_2026_2-S056",
+   "AMZN_2026_2-S061",
+   "AMZN_2026_2-S084",
+   "AMZN_2026_2-S102",
+   "AMZN_2026_2-S117"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "annual",
+   "name": "Annual",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-006"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ai",
+   "name": "Ai",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-007"
+   ],
+   "signal_ids": [
+    "AMZN_2026_2-S005",
+    "AMZN_2026_2-S007",
+    "AMZN_2026_2-S021",
+    "AMZN_2026_2-S025",
+    "AMZN_2026_2-S047",
+    "AMZN_2026_2-S053",
+    "AMZN_2026_2-S074",
+    "AMZN_2026_2-S079",
+    "AMZN_2026_2-S093",
+    "AMZN_2026_2-S100",
+    "AMZN_2026_2-S113"
+   ],
+   "n_home_signals": 21,
+   "n_mentions": 25,
+   "stance": {
+    "confident": 3
+   },
+   "trajectory": []
+  },
+  {
+   "id": "chips",
+   "name": "Chips",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-008"
+   ],
+   "signal_ids": [
+    "AMZN_2026_2-S111"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 5,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "top_line_financial_results",
+   "name": "Top-Line Financial Results",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-010"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "north_america",
+   "name": "North America",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-011"
+   ],
+   "signal_ids": [
+    "AMZN_2026_2-S062"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "international",
+   "name": "International",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-012",
+    "AMZN_2026_2-015",
+    "AMZN_2026_2-016"
+   ],
+   "signal_ids": [
+    "AMZN_2026_2-S015"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "profitability_north_america",
+   "name": "Profitability, North America",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-013",
+    "AMZN_2026_2-014"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "aws",
+   "name": "Aws",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-017",
+    "AMZN_2026_2-019"
+   ],
+   "signal_ids": [
+    "AMZN_2026_2-S002",
+    "AMZN_2026_2-S009",
+    "AMZN_2026_2-S017",
+    "AMZN_2026_2-S018",
+    "AMZN_2026_2-S023",
+    "AMZN_2026_2-S024",
+    "AMZN_2026_2-S036",
+    "AMZN_2026_2-S037",
+    "AMZN_2026_2-S071",
+    "AMZN_2026_2-S078",
+    "AMZN_2026_2-S091",
+    "AMZN_2026_2-S092"
+   ],
+   "n_home_signals": 21,
+   "n_mentions": 22,
+   "stance": {
+    "confident": 4
+   },
+   "trajectory": []
+  },
+  {
+   "id": "annualized",
+   "name": "Annualized",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-018"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "q3",
+   "name": "Q3",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AMZN_2026_2-021",
+    "AMZN_2026_2-023"
+   ],
+   "signal_ids": [
+    "AMZN_2026_2-S086",
+    "AMZN_2026_2-S087",
+    "AMZN_2026_2-S088",
+    "AMZN_2026_2-S089",
+    "AMZN_2026_2-S090"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 3,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 8,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "Andy Jassy": {
+    "confident": 10
+   },
+   "Brian Olsavsky": {
+    "confident": 1
+   }
+  },
+  "notable_confident": [
+   "AMZN_2026_2-S120",
+   "AMZN_2026_2-S097",
+   "AMZN_2026_2-S017",
+   "AMZN_2026_2-S091"
+  ],
+  "notable_cautious": [],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "AMZN_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMZN_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "We're reporting $200.6 billion in revenue, up 20% year-over-year.",
+   "ev_start": 2813,
+   "ev_end": 2878,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [
+    "AMZN_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "accelerating"
+    ]
+   },
+   "score": 4.04,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Revenue growth of 36.7% year-over-year, accelerating for the fifth straight quarter, our fastest growth in 18 quarters back when AWS was less than half its current revenue size.",
+   "ev_start": 3203,
+   "ev_end": 3380,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMZN_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "triple",
+     "growing"
+    ],
+    "performance": [
+     "backlog",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Our backlog stands at $496 billion, growing triple digits year-over-year.",
+   "ev_start": 3488,
+   "ev_end": 3561,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "chips",
+    "annual"
+   ],
+   "home": "chips",
+   "fact_ids": [
+    "AMZN_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "triple",
+     "growing"
+    ],
+    "performance": [
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Our chips business now has an annual revenue run rate of over $25 billion, growing triple-digit percentages year-over-year.",
+   "ev_start": 3726,
+   "ev_end": 3849,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [
+    "AMZN_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "triple",
+     "growing"
+    ],
+    "performance": [
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Our AI revenue run rate climbed significantly quarter-over-quarter, and is now also over $25 billion, growing triple-digit percentages year-over-year.",
+   "ev_start": 3850,
+   "ev_end": 4000,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "performance": []
+   },
+   "score": 3.04,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Because AWS has the strongest security and operational performance.",
+   "ev_start": 4195,
+   "ev_end": 4262,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "We're seeing strong growth across both AI and non-AI, what we call core, and growth in one is driving growth in the other.",
+   "ev_start": 4263,
+   "ev_end": 4385,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerators"
+    ],
+    "performance": [
+     "growth",
+     "accelerators"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Growth in AI drives core because post-training reinforcement learning and agent tool use is mostly done on CPUs versus AI accelerators.",
+   "ev_start": 4386,
+   "ev_end": 4521,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S009",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 4.54,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "This is an advantage for AWS, as our Graviton chip is the strongest CPU chip, offering up to 30%-40% better price performance than other options.",
+   "ev_start": 4522,
+   "ev_end": 4667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S010",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "We have a unique offering that customers are excited about.",
+   "ev_start": 4954,
+   "ev_end": 5013,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Bedrock not only provides the best selection of leading models at superior performance and with the governance and security controls that companies need, it's also continuing to grow incredibly quickly.",
+   "ev_start": 5409,
+   "ev_end": 5611,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Stitching all that together reliably is hard, and it's stalled many production deployments.",
+   "ev_start": 6036,
+   "ev_end": 6127,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "Then it takes action: scheduling meetings, drafting and sending email, updating a CRM record, building a dashboard, and more.",
+   "ev_start": 7438,
+   "ev_end": 7563,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrations"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "In Q2, we made Q even more capable, adding autonomous agents that customers set up in plain language to run continuously in the background and carry out multi-step tasks, a personalized activity feed that pulls email, messages, calendars, and tasks into one prioritized view, and 16 new integrations, including Adobe, Moody's, and Snowflake.",
+   "ev_start": 7564,
+   "ev_end": 7905,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Q has momentum, with 3M, Allianz, AstraZeneca, Autodesk, BMW, Exxon, FINRA, Hyundai, Intuit, Mondelēz International, Moody's, the NBA, the NFL, Sun Life, and Southwest Airlines all using it.",
+   "ev_start": 7906,
+   "ev_end": 8096,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.43,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "We also have services like Amazon Connect, our call center service, and AWS Transform, which automates software migration growing quickly.",
+   "ev_start": 8097,
+   "ev_end": 8235,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S017",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "I will mention one more that I am excited about.",
+   "ev_start": 8236,
+   "ev_end": 8284,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "released"
+    ]
+   },
+   "score": 4.76,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "We recently released AWS Continuum, which discovers, prioritizes, validates, and remediates code vulnerabilities.",
+   "ev_start": 8524,
+   "ev_end": 8637,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S019",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new frontier models"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "It starts by ingesting the backlog of vulnerabilities a team already has and then leverages the new frontier models to run comprehensive scans.",
+   "ev_start": 8638,
+   "ev_end": 8781,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "We expect Continuum to grow quickly.",
+   "ev_start": 9235,
+   "ev_end": 9271,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S021",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai",
+    "chips"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well-positioned"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "We are unusually well-positioned for this AI inflection, given our leading price-performance chips in both AI with Trainium and CPU with Graviton.",
+   "ev_start": 9349,
+   "ev_end": 9495,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "The revenue commitments have increased nearly three times quarter-over-quarter, and Graviton5 is growing nearly 2x faster as Graviton4 did.",
+   "ev_start": 9981,
+   "ev_end": 10120,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S023",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws",
+    "chips"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "partnership"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.54,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "We also continue to have a deep partnership with Nvidia, and we'll continue making AWS the best place to run Nvidia chips, as we have customers who will run on Nvidia for as long as we can foresee, and we believe strongly that customers want choice.",
+   "ev_start": 10121,
+   "ev_end": 10370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S024",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "Choice is good for customers, competition, and driving the cost of inference down, which customers care deeply about.",
+   "ev_start": 10371,
+   "ev_end": 10488,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S025",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai",
+    "aws"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we plan"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.54,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "Earlier this year, we said we plan to invest approximately $200 billion in cash CapEx in 2026, the majority of which to support AI and AWS.",
+   "ev_start": 10560,
+   "ev_end": 10699,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S026",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "There are two major parts of the investment, the data centers and the servers and networking equipment that go into them.",
+   "ev_start": 10810,
+   "ev_end": 10931,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "We typically purchase these a few months before putting them into service, so we have strong visibility into customer demand before we trigger the spend.",
+   "ev_start": 11350,
+   "ev_end": 11503,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S028",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "For servers and networking equipment, on average, it takes a little less than three years to break even on that investment.",
+   "ev_start": 11559,
+   "ev_end": 11682,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.54,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "It's also worth noting that AWS has a strong track record of pulling forward break evens on server equipment where we've already made meaningful progress and finding ways to extend the useful life of this equipment without sacrificing customer experience.",
+   "ev_start": 11988,
+   "ev_end": 12243,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S030",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 76,
+   "sentence": "For our data centers, which have 30-plus-year useful lives, we should get at least five to six generations of server economics, like I explained earlier, with subsequent generations after the first having even better overall economics because we don't have to repeat that upfront data center investment I mentioned earlier.",
+   "ev_start": 12244,
+   "ev_end": 12567,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S031",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "As we get a few years out and the revenue growth outpaces the incremental CapEx growth, which will happen at some point, the resulting revenue, free cash flow, and return on invested capital is very compelling.",
+   "ev_start": 12904,
+   "ev_end": 13114,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S032",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see the"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "We see the margins and returns in AI tracking what we saw with Core at the same point of evolution, actually a little ahead.",
+   "ev_start": 13261,
+   "ev_end": 13385,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S033",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "higher cost"
+    ],
+    "pressure": [
+     "higher cost"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "The higher cost of memory pushing this number up from our prior estimate of about $200 billion.",
+   "ev_start": 13465,
+   "ev_end": 13560,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S034",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "i believe"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 83,
+   "sentence": "Even at that amount, we will still not have enough capacity to meet all the demand we have in 2026, and I believe this dynamic will also be true in 2027, too.",
+   "ev_start": 13561,
+   "ev_end": 13719,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S035",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws",
+    "annual"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "revenue",
+     "cash flow"
+    ]
+   },
+   "score": 3.04,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "We long believed AWS could become a few hundred billion-dollar revenue business and now believe it'll be at least double that, and very possibly be a trillion-dollar annual revenue business for us in time, with very appealing accompanying free cash flow and return on invested capital.",
+   "ev_start": 13891,
+   "ev_end": 14176,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S036",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new products"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "We added millions of new products to our selection, including over 700,000 from notable brands.",
+   "ev_start": 14202,
+   "ev_end": 14297,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.89,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 89,
+   "sentence": "We also expanded ultra-low price selection on Amazon Haul in the U.S. by nearly 20x since launch and now have over 6 million items priced under $10.",
+   "ev_start": 14298,
+   "ev_end": 14446,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S038",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 90,
+   "sentence": "We continue offering everyday low prices that meet or beat our competitors, as well as deep discounts and savings during sales events.",
+   "ev_start": 14447,
+   "ev_end": 14581,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S039",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 91,
+   "sentence": "We're pleased with the customer response to Prime Day, where customers shop millions of deals, including more than 80% at our lowest price of the year and hundreds of thousands discounted by 40% or more.",
+   "ev_start": 14582,
+   "ev_end": 14785,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 92,
+   "sentence": "We're the second largest grocer in the U.S., and our grocery business continues growing quickly across perishables and non-perishables.",
+   "ev_start": 14786,
+   "ev_end": 14921,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "customers",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 93,
+   "sentence": "The number of monthly active perishables customers grew over 50% since the start of the year.",
+   "ev_start": 14922,
+   "ev_end": 15015,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "up 6"
+    ],
+    "performance": [
+     "units"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 94,
+   "sentence": "Same-day orders with perishables average over 3x more units per order, and fresh groceries now make up 6 of the top 20 best sellers on amazon.com.",
+   "ev_start": 15016,
+   "ev_end": 15162,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "customers"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 95,
+   "sentence": "We grew the number of new customers for Amazon Pharmacy by more than 2x in the first 6 months of the year, and same-day prescription deliveries nearly 5x.",
+   "ev_start": 15163,
+   "ev_end": 15317,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 97,
+   "sentence": "We continue speeding up overall delivery and once again achieved record delivery speeds for customers in the first half of the year.",
+   "ev_start": 15437,
+   "ev_end": 15569,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth",
+     "sales",
+     "units",
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 102,
+   "sentence": "We continue to see strong customer response with over 80% growth in growth sales and units sold quarter-over-quarter, and we served over 60% more customers quarter-over-quarter.",
+   "ev_start": 16193,
+   "ev_end": 16370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S046",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.39,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 103,
+   "sentence": "We recently launched Amazon Supply Chain Services.",
+   "ev_start": 16371,
+   "ev_end": 16421,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S047",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 106,
+   "sentence": "The Stores team also continues to innovate and deliver for customers with AI.",
+   "ev_start": 16681,
+   "ev_end": 16758,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated",
+     "doubling"
+    ],
+    "performance": [
+     "customers",
+     "accelerated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 109,
+   "sentence": "Over 350 million customers have used it in the last 12 months, and engagement accelerated in Q2, with active users nearly doubling and interactions up over 5x year-over-year.",
+   "ev_start": 16991,
+   "ev_end": 17165,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 110,
+   "sentence": "We also expanded Amazon Lens, which lets customers take a photo of anything they see and instantly find the same or similar items on Amazon, to 10 additional countries, and it's now available in 21 countries around the world.",
+   "ev_start": 17166,
+   "ev_end": 17391,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AMZN_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "saw strong growth",
+     "up 26"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 4.11,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 111,
+   "sentence": "Moving on to Amazon Ads, we saw strong growth across our offerings, generating $19.8 billion of revenue, up 26% year-over-year.",
+   "ev_start": 17392,
+   "ev_end": 17519,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S051",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 4.78,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 116,
+   "sentence": "We introduced more than 30 new advertisers to the NBA in our first year, and inventory on Thursday Night Football, NBA, WNBA, and NASCAR all sold out.",
+   "ev_start": 17959,
+   "ev_end": 18109,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S052",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 117,
+   "sentence": "Advertisers are increasingly investing in multi-sport strategies, with brands activating across multiple sports seeing 2.3 times higher unduplicated reach.",
+   "ev_start": 18110,
+   "ev_end": 18265,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S053",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 119,
+   "sentence": "Finally, we make it easy to create, launch, and optimize full-funnel campaigns using AI-powered tools, including Ads Agent, which turns hours of setup and targeting into minutes.",
+   "ev_start": 18384,
+   "ev_end": 18562,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 120,
+   "sentence": "Advertisers using Ads Agent targeting see 8% lower cost per impression and 6% lower cost per acquisition, and we've expanded it to 11 new countries this year.",
+   "ev_start": 18563,
+   "ev_end": 18721,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 121,
+   "sentence": "We're also continuing to see momentum in several other areas, and I'll mention just a few.",
+   "ev_start": 18722,
+   "ev_end": 18812,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "outperforming"
+    ],
+    "performance": [
+     "viewership"
+    ]
+   },
+   "score": 3.05,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 122,
+   "sentence": "Starting with entertainment, the inaugural season of NBA on Prime Video delivered strong viewership with a peak of 6.5 million U.S. viewers for Game Seven of the Eastern Conference Semifinals, outperforming Game Seven on broadcast a year ago.",
+   "ev_start": 18813,
+   "ev_end": 19055,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled",
+     "highest",
+     "record"
+    ],
+    "performance": [
+     "viewership",
+     "record"
+    ]
+   },
+   "score": 3.05,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 123,
+   "sentence": "In Europe, viewership in the NBA more than doubled year-over-year on Prime Video, with the highest average viewership on record.",
+   "ev_start": 19056,
+   "ev_end": 19184,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 125,
+   "sentence": "Alexa+ expanded to Germany, Austria, France, and Brazil, and hundreds of millions of customers are using new Alexa experiences.",
+   "ev_start": 19369,
+   "ev_end": 19496,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 126,
+   "sentence": "We find that everywhere Alexa goes, it drives momentum for the business.",
+   "ev_start": 19497,
+   "ev_end": 19569,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S060",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 131,
+   "sentence": "We continue to be in the middle of some of the biggest inflections of our lifetime, and we're building multiple new long-term businesses that will make customers' lives better and easier and lead to substantial free cash flow and return on invested capital for our shareholders and business.",
+   "ev_start": 20084,
+   "ev_end": 20375,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S061",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "First, we received tariff-related refunds of approximately $600 million.",
+   "ev_start": 20894,
+   "ev_end": 20966,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S062",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "north_america"
+   ],
+   "home": "north_america",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "This is included in our North America segment and represents the significant majority of refunds we expect to receive.",
+   "ev_start": 20967,
+   "ev_end": 21085,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "units",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "Worldwide paid units grew 17% year-over-year.",
+   "ev_start": 22073,
+   "ev_end": 22118,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "Prime remains a key pillar of our business, and our double-digit year-over-year membership growth reflects the value our offerings deliver at scale.",
+   "ev_start": 22119,
+   "ev_end": 22267,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "We saw broad-based momentum across the inputs that drive our customer experience, including new selection, sharp prices, and fast delivery.",
+   "ev_start": 22268,
+   "ev_end": 22407,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "shipping"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "In our fulfillment network, we made progress optimizing inventory placement, shortening shipping distances, reducing touches per package, and improving consolidation rates.",
+   "ev_start": 22615,
+   "ev_end": 22787,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S067",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "We're expanding our deployment of robotics and automation, which have been integral to our operations for decades.",
+   "ev_start": 22788,
+   "ev_end": 22902,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S068",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "We continue to lower our overall cost to serve, even as we face heightened transportation costs driven by fuel inflation from the conflict in the Middle East and higher line haul rates from driver capacity limitations.",
+   "ev_start": 23073,
+   "ev_end": 23291,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S069",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipping"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Excluding the impact of higher fuel and line haul rates, shipping costs grew more slowly than worldwide unit growth at a pace that is relatively consistent with last quarter.",
+   "ev_start": 23292,
+   "ev_end": 23466,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S070",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "higher costs"
+    ],
+    "pressure": [
+     "higher costs"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "On the operating income side, the impact of these higher costs is partially offset by our FBA fuel and logistics surcharge that was implemented in April.",
+   "ev_start": 23467,
+   "ev_end": 23620,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws",
+    "ai"
+   ],
+   "home": "aws",
+   "fact_ids": [
+    "AMZN_2026_2-017"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 36.7"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.04,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Moving to the AWS segment, revenue was $42.2 billion, up 36.7% year-over-year, driven by both core and AI services.",
+   "ev_start": 23969,
+   "ev_end": 24084,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "customers",
+     "accelerating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Increasingly, customers seeking the full benefits of AI are accelerating their transition to the cloud.",
+   "ev_start": 24238,
+   "ev_end": 24341,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "We see a strong linkage between AI spend and core growth.",
+   "ev_start": 24342,
+   "ev_end": 24399,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S074",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "As customers invest in AI, we see a corresponding increase in core consumption.",
+   "ev_start": 24400,
+   "ev_end": 24479,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S075",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "We expect this relationship to strengthen over time as more AI workloads move into full-scale production and drive additional demand for our core services.",
+   "ev_start": 24480,
+   "ev_end": 24635,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [
+    "AMZN_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "AWS operating income was $16.6 billion, which reflects our strong growth, coupled with our focus on driving efficiencies across the business.",
+   "ev_start": 24636,
+   "ev_end": 24777,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S077",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "Our investments in software and process improvements optimize server capacity and help to develop a more efficient network using our lower cost custom silicon and custom network gear.",
+   "ev_start": 24778,
+   "ev_end": 24961,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S078",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws",
+    "ai"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.54,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "This primarily relates to AWS and generative AI as we invest to support strong customer demand.",
+   "ev_start": 25023,
+   "ev_end": 25118,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S079",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "We'll continue to make significant investments, especially in generative AI, as we believe it to be a massive opportunity with the potential to drive long-term revenue and free cash flow.",
+   "ev_start": 25119,
+   "ev_end": 25306,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S080",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "We are participating in the tariff refund process, as I mentioned earlier, we received approximately $600 million in Q2.",
+   "ev_start": 25418,
+   "ev_end": 25538,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S081",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "First, our teams did a lot of work forward buying and pre-positioning inventory to avoid tariff costs.",
+   "ev_start": 25586,
+   "ev_end": 25688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S082",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Second, we are not the importer of record for the large majority of items sold in our store, given suppliers typically handle imports and pay relevant tariffs.",
+   "ev_start": 25689,
+   "ev_end": 25848,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S083",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "In cases where we did see an increase in cost due to tariffs, we largely absorbed these costs rather than pass them on to customers.",
+   "ev_start": 25849,
+   "ev_end": 25981,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S084",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "When we receive those refunds, we will proactively contact affected customers and automatically issue refunds to them.",
+   "ev_start": 26306,
+   "ev_end": 26424,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S085",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "Otherwise, like other large retailers, we'll utilize refunds to continue to invest in low prices for customers.",
+   "ev_start": 26425,
+   "ev_end": 26536,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S086",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [
+    "AMZN_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are expected"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 53,
+   "sentence": "Q3 net sales are expected to be between $197 billion and $202 billion.",
+   "ev_start": 26578,
+   "ev_end": 26648,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "deceleration"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "I'll call out two areas that are driving the sequential deceleration in net sales growth from Q2 to Q3.",
+   "ev_start": 26649,
+   "ev_end": 26752,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "However, after adjusting for Prime Day, as we look across our stores business heading into Q3, we see strong customer engagement, growth, and a continuation of the trends that we have seen in the first half of the year.",
+   "ev_start": 27173,
+   "ev_end": 27392,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [
+    "AMZN_2026_2-022"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "unfavorable"
+    ],
+    "forward": [
+     "guidance",
+     "anticipates"
+    ],
+    "performance": []
+   },
+   "score": 6.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Second, the Q3 guidance anticipates an unfavorable impact of approximately 80 basis points from the year-over-year changes in foreign exchange rates based on current rates.",
+   "ev_start": 27393,
+   "ev_end": 27565,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S090",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q3"
+   ],
+   "home": "q3",
+   "fact_ids": [
+    "AMZN_2026_2-023"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Q3 operating income is expected to be between $22.5 billion and $26.5 billion.",
+   "ev_start": 27566,
+   "ev_end": 27644,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S091",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "margin"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 4.04,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 1,
+   "sentence": "Yes, we're pleased with the growth in both revenue and also margin expansion that we had in AWS in Q2, especially given the size of our business.",
+   "ev_start": 29120,
+   "ev_end": 29265,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S092",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 650"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": []
+   },
+   "score": 4.04,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 2,
+   "sentence": "You're seeing, despite the large investments, AWS margins have continued to remain strong, and we're up 650 basis points year-over-year.",
+   "ev_start": 29266,
+   "ev_end": 29402,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S093",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 5,
+   "sentence": "They're based on a number of factors, including our investment levels, mix of products, mix of AI versus non-AI.",
+   "ev_start": 29533,
+   "ev_end": 29645,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S094",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Olsavsky",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 7,
+   "sentence": "It's a result of disciplined efficiency gains, capacity optimization, which we benefited quite a bit from in Q2, and always closely managing our fixed costs.",
+   "ev_start": 29718,
+   "ev_end": 29875,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S095",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "We're optimistic about that.",
+   "ev_start": 30256,
+   "ev_end": 30284,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 10,
+   "sentence": "We have all of them in Bedrock, and it's one of the many reasons why Bedrock is growing so quickly.",
+   "ev_start": 30713,
+   "ev_end": 30812,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S097",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased",
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 1,
+   "sentence": "I think that there are several reasons for why we saw such significant growth, we're really pleased and excited.",
+   "ev_start": 32800,
+   "ev_end": 32912,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 2,
+   "sentence": "It's fifth straight acceleration quarter, largest acceleration in 18 quarters.",
+   "ev_start": 32913,
+   "ev_end": 32991,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws",
+    "ai"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.04,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 4,
+   "sentence": "I think the first part is that customers are choosing AWS in part because it has the broadest functionality across both cloud core and AI, in part because it has the strongest operational performance and security, in part because as more and more companies are bringing their inference workloads to production, they want it to live near the rest of their workloads and data, and so much more of it lives in AWS than anywhere else.",
+   "ev_start": 33046,
+   "ev_end": 33476,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S100",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai",
+    "annual"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 6,
+   "sentence": "AI is obviously growing at a very rapid rate, as we talked about, well over $25 billion in annual revenue run rate at this point.",
+   "ev_start": 33549,
+   "ev_end": 33678,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 7,
+   "sentence": "The core business is growing very quickly as well, and I think there's at least a couple things at play.",
+   "ev_start": 33679,
+   "ev_end": 33783,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S102",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "winning"
+    ],
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 11,
+   "sentence": "You see more and more enterprises that are moving and building plans to move to the cloud, we're winning the lion's share of those with the capabilities I mentioned earlier and the advantages.",
+   "ev_start": 34039,
+   "ev_end": 34231,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 12,
+   "sentence": "AI is growing, at such a rapid rate, and it's pulling along core alongside of it.",
+   "ev_start": 34232,
+   "ev_end": 34313,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 15,
+   "sentence": "Yes, we're adding a lot of capacity, there are a lot of other reasons why it's growing.",
+   "ev_start": 34524,
+   "ev_end": 34611,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S105",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 2,
+   "sentence": "I think it's actually kind of useful to look at at least our view of what we see in the demand and adoption curve right now, which is we see this adoption curve in AI right now is very barbellled.",
+   "ev_start": 36076,
+   "ev_end": 36272,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S106",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 13,
+   "sentence": "We have a lot of demand in front of us, and we're going to invest in this business to continue to be the significant market segment leader that we are today.",
+   "ev_start": 37476,
+   "ev_end": 37633,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S107",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "chips"
+   ],
+   "home": "chips",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.32,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 15,
+   "sentence": "On the question about selling Trainium, we're quite excited about what's happening in our chips business.",
+   "ev_start": 37782,
+   "ev_end": 37887,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S108",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.82,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 18,
+   "sentence": "The fact that we have multi-year, multi-gigawatt commitments from the two largest AI labs, Anthropic and OpenAI, and more and more companies, as I mentioned in my opening comments, using Trainium is exciting and promising.",
+   "ev_start": 38090,
+   "ev_end": 38312,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "incredible"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 19,
+   "sentence": "We just have an incredible amount of demand for Trainium.",
+   "ev_start": 38313,
+   "ev_end": 38370,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S110",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 20,
+   "sentence": "There are a lot of customers who are very excited about using it in the form that we're providing right now.",
+   "ev_start": 38371,
+   "ev_end": 38479,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S111",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "chips"
+   ],
+   "home": "chips",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "future"
+    ]
+   },
+   "score": 1.32,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 21,
+   "sentence": "We do have an increasing number of customers who are interested in us providing the Trainium chips to them, separate from our cloud, and we're actively having those conversations and exploring, and I expect there's a real chance we'll do that in the future.",
+   "ev_start": 38480,
+   "ev_end": 38737,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.39,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 16,
+   "sentence": "I think that Amazon Connect, which is our call center service, which is used by all five major leading airline providers, as well as many of the leading banks and healthcare companies, continues to grow very quickly.",
+   "ev_start": 41383,
+   "ev_end": 41599,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S113",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 18,
+   "sentence": "In the latest one we just launched with Continuum, it's really hard to have a conversation with a large company about AI right now where they don't actually ask you about security, with just all the noise and the hype about the security risks with the most current, powerful models.",
+   "ev_start": 41696,
+   "ev_end": 41978,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S114",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ai"
+   ],
+   "home": "ai",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 19,
+   "sentence": "Continuum really allows them to use those models productively to find their own vulnerabilities in their code, to design the fixes, and to help them deploy them.",
+   "ev_start": 41979,
+   "ev_end": 42140,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "To your point, it's very substantially continuing to grow.",
+   "ev_start": 43422,
+   "ev_end": 43480,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S116",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "aws",
+    "ai"
+   ],
+   "home": "aws",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "enthusiastic"
+    ]
+   },
+   "score": 1.54,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "I think it's a reflection, again, of customers being very enthusiastic about using AWS, both across core and for AI.",
+   "ev_start": 43481,
+   "ev_end": 43597,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S117",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "we will"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 5,
+   "sentence": "Over time, I expect that we will continue to sign more deals with customers, and as I mentioned earlier, we're going to pursue the opportunity to continue being the significant market segment leader that we are.",
+   "ev_start": 43696,
+   "ev_end": 43907,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S118",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 6,
+   "sentence": "On the second question on the supply chain inflation.",
+   "ev_start": 43908,
+   "ev_end": 43961,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new agreements"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 10,
+   "sentence": "New agreements that you sign, you always take into account what your costs are and how you ultimately build a price that you agree to with your customers.",
+   "ev_start": 44315,
+   "ev_end": 44469,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ],
+    "confident": [
+     "enthusiastic",
+     "excited"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 1,
+   "sentence": "We are quite enthusiastic and excited about the pace with which we are growing the amount of everyday essentials, as well as perishables, in the business right now.",
+   "ev_start": 45348,
+   "ev_end": 45512,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AMZN_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 50"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Andy Jassy",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 16,
+   "sentence": "The number of monthly active perishable customers has increased 50% since the start of this year.",
+   "ev_start": 47351,
+   "ev_end": 47448,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "AMZN_2026_2-S005",
+  "AMZN_2026_2-S007",
+  "AMZN_2026_2-S021",
+  "AMZN_2026_2-S025",
+  "AMZN_2026_2-S047",
+  "AMZN_2026_2-S053",
+  "AMZN_2026_2-S074",
+  "AMZN_2026_2-S079",
+  "AMZN_2026_2-S093",
+  "AMZN_2026_2-S100",
+  "AMZN_2026_2-S113",
+  "AMZN_2026_2-S111",
+  "AMZN_2026_2-S062",
+  "AMZN_2026_2-S015",
+  "AMZN_2026_2-S002",
+  "AMZN_2026_2-S009",
+  "AMZN_2026_2-S017",
+  "AMZN_2026_2-S018",
+  "AMZN_2026_2-S023",
+  "AMZN_2026_2-S024",
+  "AMZN_2026_2-S036",
+  "AMZN_2026_2-S037",
+  "AMZN_2026_2-S071",
+  "AMZN_2026_2-S078",
+  "AMZN_2026_2-S091",
+  "AMZN_2026_2-S092",
+  "AMZN_2026_2-S086",
+  "AMZN_2026_2-S087",
+  "AMZN_2026_2-S088",
+  "AMZN_2026_2-S089",
+  "AMZN_2026_2-S090",
+  "AMZN_2026_2-S020",
+  "AMZN_2026_2-S033",
+  "AMZN_2026_2-S034",
+  "AMZN_2026_2-S038",
+  "AMZN_2026_2-S042",
+  "AMZN_2026_2-S043",
+  "AMZN_2026_2-S046",
+  "AMZN_2026_2-S050",
+  "AMZN_2026_2-S051",
+  "AMZN_2026_2-S052",
+  "AMZN_2026_2-S054",
+  "AMZN_2026_2-S056",
+  "AMZN_2026_2-S061",
+  "AMZN_2026_2-S084",
+  "AMZN_2026_2-S102",
+  "AMZN_2026_2-S117"
+ ],
+ "surfaced_signal_ids": [
+  "AMZN_2026_2-S005",
+  "AMZN_2026_2-S007",
+  "AMZN_2026_2-S021",
+  "AMZN_2026_2-S025",
+  "AMZN_2026_2-S047",
+  "AMZN_2026_2-S053",
+  "AMZN_2026_2-S074",
+  "AMZN_2026_2-S079",
+  "AMZN_2026_2-S093",
+  "AMZN_2026_2-S100",
+  "AMZN_2026_2-S113",
+  "AMZN_2026_2-S111",
+  "AMZN_2026_2-S062",
+  "AMZN_2026_2-S015",
+  "AMZN_2026_2-S002",
+  "AMZN_2026_2-S009",
+  "AMZN_2026_2-S017",
+  "AMZN_2026_2-S018",
+  "AMZN_2026_2-S023",
+  "AMZN_2026_2-S024",
+  "AMZN_2026_2-S036",
+  "AMZN_2026_2-S037",
+  "AMZN_2026_2-S071",
+  "AMZN_2026_2-S078",
+  "AMZN_2026_2-S091",
+  "AMZN_2026_2-S092",
+  "AMZN_2026_2-S086",
+  "AMZN_2026_2-S087",
+  "AMZN_2026_2-S088",
+  "AMZN_2026_2-S089",
+  "AMZN_2026_2-S090",
+  "AMZN_2026_2-S020",
+  "AMZN_2026_2-S033",
+  "AMZN_2026_2-S034",
+  "AMZN_2026_2-S038",
+  "AMZN_2026_2-S042",
+  "AMZN_2026_2-S043",
+  "AMZN_2026_2-S046",
+  "AMZN_2026_2-S050",
+  "AMZN_2026_2-S051",
+  "AMZN_2026_2-S052",
+  "AMZN_2026_2-S054",
+  "AMZN_2026_2-S056",
+  "AMZN_2026_2-S061",
+  "AMZN_2026_2-S084",
+  "AMZN_2026_2-S102",
+  "AMZN_2026_2-S117",
+  "AMZN_2026_2-S120",
+  "AMZN_2026_2-S097"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "annual",
+   "ai",
+   "chips",
+   "top_line_financial_results",
+   "north_america",
+   "international",
+   "profitability_north_america",
+   "aws",
+   "annualized",
+   "q3"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "top_line_financial_results",
+   "profitability_north_america",
+   "annualized"
+  ],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "AMZN_2026_2-004",
+   "AMZN_2026_2-009",
+   "AMZN_2026_2-024"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "3 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 121,
+  "signals_usable": 121,
+  "selected": 47,
+  "by_topic": {
+   "momentum": 57,
+   "competition": 4,
+   "product": 18,
+   "strategy": 18,
+   "pressure": 9
+  },
+  "by_horizon": {
+   "current": 105,
+   "forward": 16
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 10,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

@@ -1,0 +1,5466 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "META",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "META",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Chad Heaton",
+    "role": "management"
+   },
+   {
+    "name": "Mark Zuckerberg",
+    "role": "management"
+   },
+   {
+    "name": "Susan Li",
+    "role": "management"
+   },
+   {
+    "name": "Brian Nowak",
+    "role": "analyst"
+   },
+   {
+    "name": "Eric Sheridan",
+    "role": "analyst"
+   },
+   {
+    "name": "Mark Shmulik",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas Anmuth",
+    "role": "analyst"
+   },
+   {
+    "name": "Justin Post",
+    "role": "analyst"
+   },
+   {
+    "name": "Ross Sandler",
+    "role": "analyst"
+   },
+   {
+    "name": "Kenneth Gawrelski",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "q2",
+  "source_file": "META_2026Q2.json",
+  "vocabulary_packs": [
+   "media_entertainment"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Free cash flow $784M",
+   "fact_ids": [
+    "META_2026_2-012"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.50, qa +0.27",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "apps",
+   "name": "Apps",
+   "depth": 0,
+   "revenue": {
+    "value": 60400000000.0,
+    "fact_id": "META_2026_2-001"
+   },
+   "growth": {
+    "value": 28.0,
+    "period": "q2",
+    "fact_id": "META_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 17
+  },
+  {
+   "node": "apps_ad",
+   "name": "Apps Ad",
+   "depth": 0,
+   "revenue": {
+    "value": 59400000000.0,
+    "fact_id": "META_2026_2-002"
+   },
+   "growth": {
+    "value": 27.0,
+    "period": "q2",
+    "fact_id": "META_2026_2-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "apps_other",
+   "name": "Apps Other",
+   "depth": 0,
+   "revenue": {
+    "value": 1000000000.0,
+    "fact_id": "META_2026_2-003"
+   },
+   "growth": {
+    "value": 73.0,
+    "period": "q2",
+    "fact_id": "META_2026_2-003",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "reality_labs_segment_q2",
+   "name": "Reality Labs Segment, Q2",
+   "depth": 0,
+   "revenue": {
+    "value": 431000000.0,
+    "fact_id": "META_2026_2-004"
+   },
+   "growth": {
+    "value": 16.0,
+    "period": "q2",
+    "fact_id": "META_2026_2-004",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "q2",
+   "name": "Q2",
+   "depth": 0,
+   "revenue": {
+    "value": 60800000000.0,
+    "fact_id": "META_2026_2-005"
+   },
+   "growth": {
+    "value": 28.0,
+    "period": "q2",
+    "fact_id": "META_2026_2-005",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 16
+  },
+  {
+   "node": "annual",
+   "name": "Annual",
+   "depth": 0,
+   "revenue": {
+    "value": 75000000000.0,
+    "fact_id": "META_2026_2-014"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "META_2026_2-008",
+   "META_2026_2-010",
+   "META_2026_2-012",
+   "META_2026_2-013",
+   "META_2026_2-009",
+   "META_2026_2-011",
+   "META_2026_2-015",
+   "META_2026_2-018",
+   "META_2026_2-016",
+   "META_2026_2-017"
+  ],
+  "signal_ids": [
+   "META_2026_2-S003",
+   "META_2026_2-S004",
+   "META_2026_2-S007",
+   "META_2026_2-S032",
+   "META_2026_2-S054",
+   "META_2026_2-S055",
+   "META_2026_2-S074",
+   "META_2026_2-S077",
+   "META_2026_2-S079",
+   "META_2026_2-S080",
+   "META_2026_2-S081",
+   "META_2026_2-S090",
+   "META_2026_2-S095",
+   "META_2026_2-S108",
+   "META_2026_2-S119",
+   "META_2026_2-S133",
+   "META_2026_2-S137"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "apps",
+   "name": "Apps",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "META_2026_2-001"
+   ],
+   "signal_ids": [
+    "META_2026_2-S002",
+    "META_2026_2-S019",
+    "META_2026_2-S020",
+    "META_2026_2-S021",
+    "META_2026_2-S027",
+    "META_2026_2-S048",
+    "META_2026_2-S106"
+   ],
+   "n_home_signals": 15,
+   "n_mentions": 17,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "apps_ad",
+   "name": "Apps Ad",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "META_2026_2-002"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "apps_other",
+   "name": "Apps Other",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "META_2026_2-003"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "reality_labs_segment_q2",
+   "name": "Reality Labs Segment, Q2",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "META_2026_2-004"
+   ],
+   "signal_ids": [
+    "META_2026_2-S049"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "q2",
+   "name": "Q2",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "META_2026_2-005",
+    "META_2026_2-006",
+    "META_2026_2-007"
+   ],
+   "signal_ids": [
+    "META_2026_2-S043",
+    "META_2026_2-S052",
+    "META_2026_2-S053",
+    "META_2026_2-S061",
+    "META_2026_2-S062",
+    "META_2026_2-S063",
+    "META_2026_2-S096",
+    "META_2026_2-S099"
+   ],
+   "n_home_signals": 15,
+   "n_mentions": 16,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "annual",
+   "name": "Annual",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "META_2026_2-014"
+   ],
+   "signal_ids": [
+    "META_2026_2-S067",
+    "META_2026_2-S068"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 9,
+    "cautious": 3,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.5
+   },
+   "qa": {
+    "confident": 7,
+    "cautious": 4,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.27
+   }
+  },
+  "speakers": {
+   "Mark Zuckerberg": {
+    "confident": 10
+   },
+   "Susan Li": {
+    "cautious": 7,
+    "confident": 6
+   }
+  },
+  "notable_confident": [
+   "META_2026_2-S099",
+   "META_2026_2-S040",
+   "META_2026_2-S010",
+   "META_2026_2-S083"
+  ],
+  "notable_cautious": [
+   "META_2026_2-S111",
+   "META_2026_2-S081",
+   "META_2026_2-S137",
+   "META_2026_2-S097",
+   "META_2026_2-S105"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "META_2026_2-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Chad Heaton",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 8,
+   "sentence": "The earnings press release and an accompanying investor presentation are available on our website at investor.atmeta.com.",
+   "ev_start": 1045,
+   "ev_end": 1166,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "We had a strong quarter for our community and business with 3.6 billion people using at least one of our apps each day.",
+   "ev_start": 1285,
+   "ev_end": 1404,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Threads crossed 500 million monthly actives, making it the fastest-growing conversation app ever.",
+   "ev_start": 1479,
+   "ev_end": 1576,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "all-time",
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "WhatsApp just hit an all-time messaging record peaking at 30 million messages sent per second during the World Cup final.",
+   "ev_start": 1649,
+   "ev_end": 1770,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S005",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "shipped",
+     "new models",
+     "released"
+    ]
+   },
+   "score": 4.98,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "We also shipped some strong new models from Meta Superintelligence Labs and released new glasses.",
+   "ev_start": 1932,
+   "ev_end": 2029,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S006",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "innovations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Overall, the scale and reach of our community across our apps is pretty remarkable, and it gives us a strong platform for delivering new innovations to billions of people.",
+   "ev_start": 2030,
+   "ev_end": 2201,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S007",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "First, we are now at a point where our investments in AI are accelerating every major part of our core business.",
+   "ev_start": 2245,
+   "ev_end": 2357,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S008",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "They're improving the experience for people using our apps, driving better performance for advertisers and helping our teams build new experiences and ship faster.",
+   "ev_start": 2358,
+   "ev_end": 2521,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "strong"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "For accelerating our core business, we are seeing strong and promising results in several areas.",
+   "ev_start": 3026,
+   "ev_end": 3122,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrate"
+    ],
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "In Instagram and Facebook, I'm very optimistic about our work to integrate large language models into our recommendation systems.",
+   "ev_start": 3123,
+   "ev_end": 3252,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S011",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "So these AI investments are paying off.",
+   "ev_start": 4512,
+   "ev_end": 4551,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rolling out"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "Nine million small businesses on our platforms are now using at least one of our AI ad creative tools, and we're rolling out new end-to-end creative solutions that help advertisers translate performance data into their creative decisions.",
+   "ev_start": 4626,
+   "ev_end": 4864,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "We're getting great feedback on this so far.",
+   "ev_start": 5017,
+   "ev_end": 5061,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched",
+     "new subscription offering"
+    ]
+   },
+   "score": 4.48,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "We also just launched Meta One, a new subscription offering that provides more tools and AI features across our apps.",
+   "ev_start": 5062,
+   "ev_end": 5179,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "demand",
+     "grows"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "As demand grows, we're going to offer a variety of different tiers and pricing options there as well.",
+   "ev_start": 5180,
+   "ev_end": 5281,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S016",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.22,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "And I'm also excited about how AI is helping our teams speed up product development.",
+   "ev_start": 5282,
+   "ev_end": 5366,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S017",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipped"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Earlier this year, we shipped Instagram Instants.",
+   "ev_start": 5367,
+   "ev_end": 5416,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "We also just launched Forum, a stand-alone Groups app and Seller, a stand-alone Marketplace app.",
+   "ev_start": 5417,
+   "ev_end": 5513,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S019",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "And I expect it to become a lot easier to ship new apps.",
+   "ev_start": 5514,
+   "ev_end": 5570,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S020",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "strong"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.98,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "It's been a little more than a year since we launched Meta Superintelligence Labs and our trajectory is strong.",
+   "ev_start": 5736,
+   "ev_end": 5847,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipped"
+    ]
+   },
+   "score": 4.1,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "In the last month, we shipped Muse Spark 1.1 and Muse Image.",
+   "ev_start": 5848,
+   "ev_end": 5908,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S022",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "Since we rebuilt Meta AI and integrated Muse Spark, we have seen a 60% increase in the number of people interacting with the assistant each day, and that continues to grow quickly week-over-week.",
+   "ev_start": 5909,
+   "ev_end": 6104,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "It's available through our new public API, and we are ramping up distribution through partner channels and more coding agents over the coming weeks.",
+   "ev_start": 6245,
+   "ev_end": 6393,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S024",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 3.1,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "One reason that we are so focused on making Muse Spark great at agentic capabilities is that we think that there's a very big opportunity to ship a few types of agents that are aligned with our mission and business.",
+   "ev_start": 6543,
+   "ev_end": 6758,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S025",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "I'm very excited about this, and we're going to have more to share soon.",
+   "ev_start": 7288,
+   "ev_end": 7360,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "And as we build out a platform for more agents across our messaging apps, we're going to innovate on how to deliver a private and secure AI experience.",
+   "ev_start": 7612,
+   "ev_end": 7763,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S027",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.8,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "We launched incognito mode this quarter on WhatsApp and the Meta AI app, allowing people to have private conversations with their assistant that even Meta can't see.",
+   "ev_start": 7764,
+   "ev_end": 7929,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S028",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "I'm also very excited about our progress with business agents.",
+   "ev_start": 8044,
+   "ev_end": 8106,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S029",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "And soon, it will go further, including suggesting ways to grow your business, giving you competitive intelligence and real-time insights into what's working and what's not.",
+   "ev_start": 8682,
+   "ev_end": 8855,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S030",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "expect"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "In terms of how we will monetize these, we have a mix of subscriptions, volume-based pricing, and I expect that we're going to continue to evolve more of these products to be like our ad systems where businesses only pay us when we achieve results for them.",
+   "ev_start": 9001,
+   "ev_end": 9258,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S031",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "As AI usage in our products and businesses continues to ramp, we continue to invest aggressively in infrastructure to meet the demand.",
+   "ev_start": 9379,
+   "ev_end": 9513,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 5.2,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "Yesterday, as part of our Meta Compute effort, we announced a new strategic venture with BlackRock to develop a new 1 gigawatt data center in El Paso, Texas.",
+   "ev_start": 9514,
+   "ev_end": 9671,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S033",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "expect",
+     "is going to"
+    ],
+    "product": [
+     "new products"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "Overall, we expect that a significant portion of our compute is going to go towards training our models, growing our core business and delivering personal agents and new products.",
+   "ev_start": 9672,
+   "ev_end": 9851,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "But we also expect to grow a large business serving large customers as well.",
+   "ev_start": 9852,
+   "ev_end": 9928,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S035",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rolling out"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "We're rolling out business agents.",
+   "ev_start": 9950,
+   "ev_end": 9984,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S036",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "lineup"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "Our glasses remain one of the fastest-growing consumer electronics of all time, and we continue adding to the lineup.",
+   "ev_start": 10478,
+   "ev_end": 10595,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "released",
+     "collaboration"
+    ]
+   },
+   "score": 4.48,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "We just released our own line of Meta Glasses in collaboration with EssilorLuxottica, including a style that we designed with Kylie Jenner.",
+   "ev_start": 10596,
+   "ev_end": 10735,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S038",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 2.6,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "They're the first glasses to ship with Muse Spark out of the box so that they can understand what you're seeing and give even more helpful answers.",
+   "ev_start": 10736,
+   "ev_end": 10883,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S039",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "exceeding"
+    ],
+    "product": [
+     "lineup"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 83,
+   "sentence": "Early sales have been strong, exceeding our expectations, and we're going to have more to share on our glasses lineup at this year's Connect conference on September 23.",
+   "ev_start": 10884,
+   "ev_end": 11052,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S040",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "Before I wrap, I want to mention that I just published an op-ed about why I'm so optimistic that we are building a positive future for everyone.",
+   "ev_start": 11089,
+   "ev_end": 11233,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S041",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 98,
+   "sentence": "And we are investing aggressively because the potential is huge, and we know that there are many ways to deliver value here.",
+   "ev_start": 12454,
+   "ev_end": 12578,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2",
+    "apps"
+   ],
+   "home": "q2",
+   "fact_ids": [
+    "META_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 28"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Q2 total Family of Apps revenue was $60.4 billion, up 28% year-over-year.",
+   "ev_start": 12838,
+   "ev_end": 12911,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2",
+    "apps",
+    "apps_ad"
+   ],
+   "home": "q2",
+   "fact_ids": [
+    "META_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 27"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "Q2 Family of Apps ad revenue was $59.4 billion, up 27% or 26% on a constant currency basis.",
+   "ev_start": 12912,
+   "ev_end": 13003,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 14"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "In Q2, the total number of ad impressions served across our services increased 14%.",
+   "ev_start": 13004,
+   "ev_end": 13087,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "Impression growth was healthy across all regions, driven by growth in engagement and users as well as ad load optimizations.",
+   "ev_start": 13088,
+   "ev_end": 13212,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwinds",
+     "increased 12",
+     "improvements"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "The global average price per ad increased 12% year-over-year, driven by ad performance gains, improvements in macro conditions relative to Q2 of last year and currency tailwinds.",
+   "ev_start": 13213,
+   "ev_end": 13391,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "This was partially offset by strong impression growth, particularly from lower monetizing surfaces and regions.",
+   "ev_start": 13392,
+   "ev_end": 13503,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps",
+    "apps_other"
+   ],
+   "home": "apps",
+   "fact_ids": [
+    "META_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.26,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "For the first time, quarterly Family of Apps other revenue reached $1 billion and grew 73% year-over-year, driven primarily by WhatsApp paid messaging and subscriptions revenue.",
+   "ev_start": 13504,
+   "ev_end": 13681,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "reality_labs_segment_q2",
+    "q2"
+   ],
+   "home": "reality_labs_segment_q2",
+   "fact_ids": [
+    "META_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 16"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Within our Reality Labs segment, Q2 revenue was $431 million, up 16% year-over-year due to strong growth in AI glasses revenue, partially offset by lower Quest headset sales.",
+   "ev_start": 13682,
+   "ev_end": 13856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [
+    "META_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 28"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "Q2 total revenue was $60.8 billion, up 28% or 27% on a constant currency basis.",
+   "ev_start": 13897,
+   "ev_end": 13976,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduction"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Q2 total expenses were $42 billion, up 55% compared to last year and included $2.4 billion in charges related to legal proceedings and $1.2 billion in severance expenses in connection with the May 2026 head count reduction.",
+   "ev_start": 13977,
+   "ev_end": 14200,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 3"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "We ended Q2 with over 75,000 employees, down 3% from Q1.",
+   "ev_start": 14656,
+   "ev_end": 14712,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [
+    "META_2026_2-006",
+    "META_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline",
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Second quarter GAAP operating income was $18.8 billion, representing an 8% decline year-over-year and a 31% operating margin.",
+   "ev_start": 14923,
+   "ev_end": 15048,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "META_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "Capital expenditures, including principal payments on finance leases, were $31.1 billion, driven by investments in servers, data centers and network infrastructure.",
+   "ev_start": 15267,
+   "ev_end": 15431,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "improvements"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.05,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "On Instagram, global time spent this quarter grew double digits year-over-year this quarter, largely driven by improvements to our Feed and Reels recommendations.",
+   "ev_start": 15894,
+   "ev_end": 16056,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S056",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "Second, LLM-powered agents are also helping with engineering development by evaluating content quality, detecting trends and testing ranking changes.",
+   "ev_start": 16444,
+   "ev_end": 16593,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S057",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement",
+     "improve"
+    ],
+    "product": [
+     "shipped",
+     "release"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "On Reels, we shipped our largest single release ranking improvement to date, combining faster inference with a new architecture that draws on deeper user history to improve predictions.",
+   "ev_start": 17392,
+   "ev_end": 17577,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S058",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "Investments we've made in more real-time infrastructure and modeling improvements on new videos are allowing our largest ranking models to now identify high-quality new Reels at creation.",
+   "ev_start": 17888,
+   "ev_end": 18075,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "Similarly, on Facebook, we launched Shape Your Feed.",
+   "ev_start": 18396,
+   "ev_end": 18448,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S060",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next generation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Looking forward, we're executing on our longer-term efforts to develop the next generation of our recommendation systems.",
+   "ev_start": 18519,
+   "ev_end": 18640,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded",
+     "expansion"
+    ],
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "In Q2, we also expanded availability of ads on our newer surfaces, including completing our global ads expansion on Threads.",
+   "ev_start": 19352,
+   "ev_end": 19476,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced",
+     "rollout"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "On WhatsApp, we have introduced support for more types of ad destinations and advertiser performance goals and continue on track toward our global rollout.",
+   "ev_start": 19477,
+   "ev_end": 19632,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S063",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "Within our ad systems, we're delivering performance gains as we deploy more complex and predictive models.",
+   "ev_start": 19761,
+   "ev_end": 19867,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "This quarter, we introduced Meta Generative Recommender, a paradigm shift in how our ad system works.",
+   "ev_start": 19868,
+   "ev_end": 19969,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S065",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "We deployed the first generative model into our ads retrieval system and saw notable improvements in ads performance.",
+   "ev_start": 20255,
+   "ev_end": 20372,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "In Q2, we also advanced our user understanding models to analyze ads and organic activity and simultaneously improve both user experience and advertiser performance.",
+   "ev_start": 20494,
+   "ev_end": 20659,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S067",
+   "topics": [
+    "momentum",
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "annual"
+   ],
+   "home": "annual",
+   "fact_ids": [
+    "META_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "competition": [
+     "advantage"
+    ],
+    "performance": [
+     "grow",
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "Our AI-powered Advantage+ end-to-end solutions continue to grow, reaching over $75 billion in annual revenue run rate this quarter.",
+   "ev_start": 20972,
+   "ev_end": 21103,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S068",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "annual"
+   ],
+   "home": "annual",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "We're working to deepen adoption as advertisers who leverage multiple tools see compounding performance gains.",
+   "ev_start": 21104,
+   "ev_end": 21214,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S069",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "After adopting Advantage+ sales campaigns layered with Advantage+ audience placements and budget optimization, they saw a 13% incremental lift in purchases and a 16% increase in add-to-cart conversions.",
+   "ev_start": 21456,
+   "ev_end": 21658,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S070",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Adoption of our GenAI ad creative tools continues to scale with over 9 million small businesses using at least one AI creative tool.",
+   "ev_start": 21659,
+   "ev_end": 21791,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S071",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 74,
+   "sentence": "Image generation, which now lets advertisers produce more creatives at scale from existing content, including a new ability to create images from video assets, saw adoption more than double this quarter.",
+   "ev_start": 21792,
+   "ev_end": 21995,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S072",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 75,
+   "sentence": "We also introduced a new end-to-end creative solution that gives advertisers the AI infrastructure to translate real performance signals into their next creative decision while preserving brand identity and tone.",
+   "ev_start": 21996,
+   "ev_end": 22208,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S073",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 76,
+   "sentence": "We're building with agency integrations from day one, so teams can diagnose, generate and scale high-performing creative without leaving their existing workflows.",
+   "ev_start": 22209,
+   "ev_end": 22371,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S074",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "rollout"
+    ]
+   },
+   "score": 5.32,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "Looking ahead with the rollout of Muse Image, we expect to further expand advertisers' ability to generate high-quality on-brand creatives at scale.",
+   "ev_start": 22372,
+   "ev_end": 22520,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S075",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduced",
+     "deploy"
+    ]
+   },
+   "score": 4.8,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "Earlier this month, we also introduced the Meta Business Agent platform, which gives enterprises the infrastructure to build, customize and deploy their business agent at scale on WhatsApp.",
+   "ev_start": 22715,
+   "ev_end": 22904,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S076",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "Movida, one of Brazil's largest rental car companies with nearly 400 locations, deployed a business agent on WhatsApp to handle the entire booking flow from vehicle selection and pricing to payment in a single conversation.",
+   "ev_start": 23143,
+   "ev_end": 23366,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S077",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 85,
+   "sentence": "Two additional revenue streams are subscriptions and monetizing our competitive models through an API.",
+   "ev_start": 23762,
+   "ev_end": 23864,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S078",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 87,
+   "sentence": "We are excited to bring this to more users and continue to build enhanced tools for our subscribers.",
+   "ev_start": 24058,
+   "ev_end": 24158,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S079",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 5.36,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "We also recently launched a high intelligence model API at a competitive price and are encouraged by the initial results.",
+   "ev_start": 24159,
+   "ev_end": 24280,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "roll out"
+    ]
+   },
+   "score": 5.36,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 90,
+   "sentence": "We soon expect to roll out the model API to more distribution channels, make it available in more countries and open it up for enterprises.",
+   "ev_start": 24444,
+   "ev_end": 24583,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S081",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertain"
+    ],
+    "pressure": [
+     "uncertain"
+    ],
+    "hedge": [
+     "uncertain"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 92,
+   "sentence": "First, the broad environment for building infrastructure is dynamic and uncertain in both near-term and longer-term time horizons.",
+   "ev_start": 24666,
+   "ev_end": 24796,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S082",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 93,
+   "sentence": "The industry has underbuilt historically for the wave of AI adoption, making existing capacity, including our own, extremely valuable.",
+   "ev_start": 24797,
+   "ev_end": 24931,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 95,
+   "sentence": "Second, we have high confidence in our ability to utilize capacity to scale and build on top of our existing experiences as well as continue to invest in foundational models that will create substantial new opportunities.",
+   "ev_start": 25079,
+   "ev_end": 25300,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S084",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.28,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 97,
+   "sentence": "When we have had incremental capacity in the past, it has proven extremely valuable in scaling experiences like Reels, and we are confident that this will be true in this time frame as well.",
+   "ev_start": 25387,
+   "ev_end": 25577,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S085",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 98,
+   "sentence": "Longer term, it's harder to predict the exact usage scaling curves, but we believe that our distribution advantages will give us the opportunity to serve AI products that are valuable for everyone, both our 3.6 billion users and millions of businesses.",
+   "ev_start": 25578,
+   "ev_end": 25830,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S086",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "future"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 100,
+   "sentence": "Therefore, our longer-term capacity strategy aims to give us the flexibility to continue growing compute in 2028 and beyond by laying down data center and network foundations to accommodate future server decisions.",
+   "ev_start": 26031,
+   "ev_end": 26245,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S087",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 101,
+   "sentence": "The long-lived nature of these assets inherently provides the flexibility that will make it possible to adjust our investment to the pace of AI adoption.",
+   "ev_start": 26246,
+   "ev_end": 26399,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 102,
+   "sentence": "In addition, we have been making strategic investments in areas like our internal custom silicon effort, which will provide long-term strategic flexibility and supply chain leverage.",
+   "ev_start": 26400,
+   "ev_end": 26582,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 103,
+   "sentence": "This will be helpful in driving better returns on those long-term investments.",
+   "ev_start": 26583,
+   "ev_end": 26661,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S090",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "capacity is going to remain tight"
+    ],
+    "forward": [
+     "we believe",
+     "is going to",
+     "future"
+    ],
+    "pressure": [
+     "capacity is going to remain tight"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 104,
+   "sentence": "Finally, we believe that overall industry capacity is going to remain tight for the foreseeable future.",
+   "ev_start": 26662,
+   "ev_end": 26765,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S091",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 107,
+   "sentence": "We expect that remaining nimble about these opportunities will help us fund our build-out more efficiently while preserving our strategic flexibility to have the compute when we need it and provide us multiple pathways to generate returns on invested capital.",
+   "ev_start": 27126,
+   "ev_end": 27385,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S092",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 108,
+   "sentence": "In funding these infrastructure investments, the strength of our balance sheet gives us the ability to attract capital from a wide range of markets to supplement the cash flow generated by our business.",
+   "ev_start": 27386,
+   "ev_end": 27588,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S093",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcement",
+     "partnerships"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 109,
+   "sentence": "Our announcement with BlackRock yesterday is an example of the partnerships that we can structure to complement our approach to building infrastructure capacity.",
+   "ev_start": 27589,
+   "ev_end": 27750,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "META_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 111,
+   "sentence": "We expect third quarter 2026 total revenue to be in the range of $61 billion to $64 billion.",
+   "ev_start": 27788,
+   "ev_end": 27880,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S095",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "META_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 112,
+   "sentence": "Our guidance assumes foreign currency is an approximately 1% headwind to year-over-year total revenue growth based on current exchange rates.",
+   "ev_start": 27881,
+   "ev_end": 28022,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S096",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 114,
+   "sentence": "We are raising the lower end of our expense outlook to incorporate the $2.4 billion charge related to legal proceedings recognized in Q2.",
+   "ev_start": 28065,
+   "ev_end": 28202,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S097",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 119,
+   "sentence": "Finally, we continue to monitor active legal and regulatory matters that could significantly impact our business and financial results.",
+   "ev_start": 28777,
+   "ev_end": 28912,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 121,
+   "sentence": "In closing, our business momentum continued in Q2 with strong execution across our core ads and engagement initiatives.",
+   "ev_start": 29124,
+   "ev_end": 29243,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S099",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "q2"
+   ],
+   "home": "q2",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "releases",
+     "new products"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 122,
+   "sentence": "We're also progressing in our efforts to bring personal superintelligence to everyone with exciting model releases, and we expect to build on that momentum over the course of this year with new products.",
+   "ev_start": 29244,
+   "ev_end": 29447,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 2,
+   "sentence": "And I think that that's an important investment.",
+   "ev_start": 30633,
+   "ev_end": 30681,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S101",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "new consumer products",
+     "releasing"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "But then the rest of it goes towards a set of different products and revenue opportunities, which spans from optimizing and improving our core business to building new consumer products that we're releasing soon to the API, to the business agents work, to the developer tools work on the road map that I alluded to and then also the opportunity to sell compute directly where we have quite a number of offers at a meaningful premium over what we paid for the compute.",
+   "ev_start": 30682,
+   "ev_end": 31149,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S102",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 4,
+   "sentence": "The question in thinking about this is we believe that there will continue to be a significantly higher margin on selling intelligence rather than selling compute directly.",
+   "ev_start": 31150,
+   "ev_end": 31322,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S103",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 7,
+   "sentence": "I'm quite optimistic that we're going to see meaningful growth in all of these areas.",
+   "ev_start": 31494,
+   "ev_end": 31579,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S104",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 2,
+   "sentence": "And even this year, there are a range of outcomes embedded in our outlook.",
+   "ev_start": 31804,
+   "ev_end": 31878,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 3,
+   "sentence": "I alluded in my main remarks to our focus on gearing our current infrastructure plans towards maximizing capacity in 2026 and '27 and giving us the flexibility to continue to grow in '28 and beyond, but also giving us the ability to make server decisions when we come to our - being able to evaluate our actual needs in '28 and beyond.",
+   "ev_start": 31879,
+   "ev_end": 32214,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S106",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 4,
+   "sentence": "And we believe that there is an opportunity to extend this with business agents across messaging apps and other surfaces to continue to interact with customers.",
+   "ev_start": 33808,
+   "ev_end": 33968,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S107",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "apps"
+   ],
+   "home": "apps",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 6,
+   "sentence": "So we view this as an extension of the sales and the partnerships that we have with many millions of advertisers and hundreds of millions of small businesses that use our platforms.",
+   "ev_start": 34074,
+   "ev_end": 34255,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 1,
+   "sentence": "Obviously, our strong operating cash flow certainly has put us in a position of strength as it pertains to funding our infrastructure build-out.",
+   "ev_start": 36048,
+   "ev_end": 36192,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S109",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ],
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 2,
+   "sentence": "But we've also been evolving our capital structure in recent years to include a greater mix of debt as we work to bring down our cost of capital, and we have generally found it prudent to continue adding cost-efficient long-duration sources of capital as we make investments in initiatives that themselves have long time horizons, especially AI infrastructure projects.",
+   "ev_start": 36193,
+   "ev_end": 36562,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S110",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships",
+     "announced"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "We've also broadened our aperture there to include partnerships like the one we announced with BlackRock yesterday.",
+   "ev_start": 36563,
+   "ev_end": 36678,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S111",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "hedge": [
+     "evaluating",
+     "evaluate"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 4,
+   "sentence": "And we'll continue to be thoughtful about evaluating the appropriate different sources of capital over time as we evaluate future projects.",
+   "ev_start": 36679,
+   "ev_end": 36818,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S112",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "new capabilities",
+     "new possible product"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 1,
+   "sentence": "And I think one of the interesting things about AI compared to other technologies is that every year or so and the cycle may accelerate, but every year or so, you get new capabilities that create new possible product lines.",
+   "ev_start": 37521,
+   "ev_end": 37744,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S113",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 2.98,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "So there's obviously the AI assistant market for consumers where that's what we're doing with Meta AI and then there's the other products that competitors have in that space.",
+   "ev_start": 37745,
+   "ev_end": 37919,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S114",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 12,
+   "sentence": "This is a very deep set of use cases.",
+   "ev_start": 38925,
+   "ev_end": 38962,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S115",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 19,
+   "sentence": "So I feel very good about this.",
+   "ev_start": 39573,
+   "ev_end": 39604,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S116",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "are going to"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 7,
+   "sentence": "Our AI investments are going to play a significant role in delivering on this vision, including the expansion of LLM-based content understanding to develop a deeper understanding of posts and creators that people value to capture user interest more precisely and respond more quickly to what they care about in the moment and using AI to surface high-quality, fresh and trending content and reduce the share of low-quality content.",
+   "ev_start": 41068,
+   "ev_end": 41499,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S117",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 11,
+   "sentence": "We're continuing to scale up both the length of user interaction sequences we use during training as well as the complexity of our model architectures across Facebook and Instagram to take advantage of the larger data sets.",
+   "ev_start": 41911,
+   "ev_end": 42134,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S118",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 14,
+   "sentence": "Broadly, I think we're very optimistic about that body of work.",
+   "ev_start": 42392,
+   "ev_end": 42455,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S119",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "product": [
+     "launches"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 15,
+   "sentence": "We've also invested in using LLM-based agentic approaches to transforming our recommendation system, and we grew the number of launches from our ranking agents this half.",
+   "ev_start": 42456,
+   "ev_end": 42626,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S120",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 16,
+   "sentence": "That also helps make our engineers more productive, and that's another path that we're very excited about as well.",
+   "ev_start": 42627,
+   "ev_end": 42741,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S121",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "So we're using capital to build out compute, with confidence that we can monetize compute directly when it makes sense, while also monetizing the intelligence on top, including enterprise cases, consumer cases and improvements to the core business.",
+   "ev_start": 43448,
+   "ev_end": 43696,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S122",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 7,
+   "sentence": "This creates a dynamic where data centers come online in the future and we invest now to meet what we see as very large demand.",
+   "ev_start": 43697,
+   "ev_end": 43824,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S123",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "impressive"
+    ],
+    "product": [
+     "released"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "We've released a few models that I think are quite impressive on our early scaling ladder.",
+   "ev_start": 44369,
+   "ev_end": 44459,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S124",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "We're in the process of scaling much larger and more advanced models, and we're excited about those, too.",
+   "ev_start": 44460,
+   "ev_end": 44565,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 5,
+   "sentence": "In product categories, there's a flywheel where you learn from behaviors and how people use the product; better feedback makes the product better.",
+   "ev_start": 44620,
+   "ev_end": 44766,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S126",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 7,
+   "sentence": "Different companies have different advantages, and part of working on these different things upfront is that the technology is general and can apply to many uses.",
+   "ev_start": 44863,
+   "ev_end": 45025,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S127",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 8,
+   "sentence": "You also want to invest in building the flywheel because that's how you build sustainable advantage over time.",
+   "ev_start": 45026,
+   "ev_end": 45136,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S128",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 10,
+   "sentence": "I feel good about the personal agent work and the business agent work, where we already have a base of advertisers and small businesses to scale.",
+   "ev_start": 45275,
+   "ev_end": 45420,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S129",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 11,
+   "sentence": "These are durable advantages along with the data flywheels.",
+   "ev_start": 45421,
+   "ev_end": 45480,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S130",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "released"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 2,
+   "sentence": "The models we've released so far are at a certain scale in the ladder, and we're continuing to scale larger models.",
+   "ev_start": 46447,
+   "ev_end": 46562,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S131",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 7,
+   "sentence": "It creates positive feedback loops around community engagement and contributions.",
+   "ev_start": 46965,
+   "ev_end": 47046,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S132",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "releasing"
+    ]
+   },
+   "score": 4.98,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 9,
+   "sentence": "In ramping up Meta Superintelligence Labs, releasing open-source models can require more work to make them well-rounded for broader use.",
+   "ev_start": 47124,
+   "ev_end": 47260,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S133",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "releasing"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 11,
+   "sentence": "We expect to return to releasing some open-source models at some point soon.",
+   "ev_start": 47341,
+   "ev_end": 47417,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S134",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 7,
+   "sentence": "That doesn't take away from API opportunities because someone still needs to run models and inference efficiently, which will remain a source of business advantage.",
+   "ev_start": 49159,
+   "ev_end": 49323,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S135",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Mark Zuckerberg",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 13,
+   "sentence": "This is a big investment and a big bet.",
+   "ev_start": 49796,
+   "ev_end": 49835,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S136",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 2,
+   "sentence": "One is we are today and expect to be in the foreseeable future demand constrained.",
+   "ev_start": 50067,
+   "ev_end": 50149,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S137",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty",
+     "constraints"
+    ],
+    "pressure": [
+     "uncertainty",
+     "constraints"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "The second is uncertainty over long-term constraints on building capacity, and we discussed the need to build out more of the supply chain earlier.",
+   "ev_start": 50281,
+   "ev_end": 50428,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "META_2026_2-S138",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Susan Li",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 9,
+   "sentence": "For now, we know we have a lot of good use cases for capacity in '26 and '27, and that's what we're building toward.",
+   "ev_start": 50790,
+   "ev_end": 50906,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "META_2026_2-S002",
+  "META_2026_2-S019",
+  "META_2026_2-S020",
+  "META_2026_2-S021",
+  "META_2026_2-S027",
+  "META_2026_2-S048",
+  "META_2026_2-S106",
+  "META_2026_2-S049",
+  "META_2026_2-S043",
+  "META_2026_2-S052",
+  "META_2026_2-S053",
+  "META_2026_2-S061",
+  "META_2026_2-S062",
+  "META_2026_2-S063",
+  "META_2026_2-S096",
+  "META_2026_2-S099",
+  "META_2026_2-S067",
+  "META_2026_2-S068",
+  "META_2026_2-S003",
+  "META_2026_2-S004",
+  "META_2026_2-S007",
+  "META_2026_2-S032",
+  "META_2026_2-S054",
+  "META_2026_2-S055",
+  "META_2026_2-S074",
+  "META_2026_2-S077",
+  "META_2026_2-S079",
+  "META_2026_2-S080",
+  "META_2026_2-S081",
+  "META_2026_2-S090",
+  "META_2026_2-S095",
+  "META_2026_2-S108",
+  "META_2026_2-S119",
+  "META_2026_2-S133",
+  "META_2026_2-S137"
+ ],
+ "surfaced_signal_ids": [
+  "META_2026_2-S002",
+  "META_2026_2-S019",
+  "META_2026_2-S020",
+  "META_2026_2-S021",
+  "META_2026_2-S027",
+  "META_2026_2-S048",
+  "META_2026_2-S106",
+  "META_2026_2-S049",
+  "META_2026_2-S043",
+  "META_2026_2-S052",
+  "META_2026_2-S053",
+  "META_2026_2-S061",
+  "META_2026_2-S062",
+  "META_2026_2-S063",
+  "META_2026_2-S096",
+  "META_2026_2-S099",
+  "META_2026_2-S067",
+  "META_2026_2-S068",
+  "META_2026_2-S003",
+  "META_2026_2-S004",
+  "META_2026_2-S007",
+  "META_2026_2-S032",
+  "META_2026_2-S054",
+  "META_2026_2-S055",
+  "META_2026_2-S074",
+  "META_2026_2-S077",
+  "META_2026_2-S079",
+  "META_2026_2-S080",
+  "META_2026_2-S081",
+  "META_2026_2-S090",
+  "META_2026_2-S095",
+  "META_2026_2-S108",
+  "META_2026_2-S119",
+  "META_2026_2-S133",
+  "META_2026_2-S137",
+  "META_2026_2-S040",
+  "META_2026_2-S010",
+  "META_2026_2-S083",
+  "META_2026_2-S111",
+  "META_2026_2-S097",
+  "META_2026_2-S105"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "apps",
+   "apps_ad",
+   "apps_other",
+   "reality_labs_segment_q2",
+   "q2",
+   "annual"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 138,
+  "signals_usable": 138,
+  "selected": 35,
+  "by_topic": {
+   "product": 61,
+   "momentum": 38,
+   "strategy": 19,
+   "competition": 12,
+   "pressure": 5
+  },
+  "by_horizon": {
+   "current": 115,
+   "forward": 23
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 6,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

@@ -1,0 +1,336 @@
+{
+ "symbol": "DHR",
+ "quarter": "2026Q2",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "My name is Chelsea. I will be your conference facilitator this morning. At this time, I would like to welcome everyone to the Danaher Corporation's second quarter 2026 earnings results conference call. All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there will be a question-and-answer session. If you would like to ask a question during that time, simply press star, then the number one on your telephone keypad. If you would like to withdraw your question, please press star, then the number two on your telephone keypad. I will now turn the call over to Ms. Rachel Vatnsdal, Vice President of Investor Relations. Ms. Vatnsdal, you may begin your conference.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rachel Vatnsdal",
+   "title": "Vice President, Investor Relations",
+   "content": "Good morning, everyone. Thanks for joining us on the call. With us today are Rainer Blair, our President and Chief Executive Officer, and Matt Gugino, our Executive Vice President and Chief Financial Officer. I'd like to point out that our earnings release, quarterly report on Form 10-Q, the slide presentation supplementing today's call, the reconciliations and other information required by SEC Regulation G relating to any non-GAAP financial measures provided during the call, and a note containing details of historical and anticipated future financial performance are all available on the investors section of our website, danaher.com, under the heading Quarterly Earnings. The audio portion of this call will be archived on the investors section of our website later today under the heading Events and Presentations and will remain archived until our next quarterly call. A dial-in replay of this call will also be available until August fourth, 2026. During the presentation, we will describe certain of the more significant financial factors that impacted year-over-year performance. Our Form 10-Q and the supplemental materials I referenced describe additional factors that impacted year-over-year performance. Unless otherwise noted, all references in these remarks and supplemental materials to company-specific financial metrics relate to the second quarter of 2026. All references to period-to-period increases or decreases in financial metrics are year-over-year. We may also describe certain products and devices which have applications submitted and pending for certain regulatory approvals or are available only in certain markets. During the call, we will make forward-looking statements within the meaning of the federal securities laws, including statements regarding events or developments that we believe or anticipate will or may occur in the future. These forward-looking statements are subject to a number of risks and uncertainties, including those set forth in our SEC filings. Actual results may differ materially from any forward-looking statements that we make today. These forward-looking statements speak only as of the date that they are made. We do not assume any obligation to update any forward-looking statements except as required by law. With that, I'd like to turn the call over to Rainer.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Thank you, Rachel, good morning, everyone. We appreciate you joining us on the call today. We delivered a solid second quarter with better-than-expected revenue, earnings, and cash flow. We were particularly pleased to see an acceleration in core growth versus the first quarter, driven by good commercial execution, recent innovation, and recovery in our end market. Our life sciences businesses delivered their strongest quarter in several years. Diagnostics continued to perform well. While customer project timing impacted bioprocessing revenue, underlying order trends remained robust. Improved growth across our portfolio, paired with benefits from our recent productivity initiatives, helped drive high single-digit earnings growth. This strong execution and the earlier-than-expected close of Masimo enables us to again raise our full year adjusted EPS guidance. The quarter illustrates the benefit of our balanced end market and geographic diversification while reinforcing our outlook for accelerating revenue and earnings growth in the second half and beyond. Across our end markets, we saw encouraging signs of stabilization and improvement. Demand from large pharma and biopharma customers remained healthy, while improved biotech funding supported improved funnel and order activity. Academic and government markets have largely stabilized, while clinical and applied remained consistent sources of strength across the portfolio. As we look to the second half of 2026 and beyond, we're encouraged by the momentum across our businesses and the long-term value creation opportunities ahead for us. We're well-positioned in attractive end markets with strong secular growth drivers. Our capital deployment flywheel is active, supported by significant balance sheet optionality. The Danaher Business System and our team are powerful differentiators, helping us drive both growth and productivity. With that, let's take a closer look at our second quarter 2026 results. Sales were $6.3 billion in the second quarter. Core revenue was up 3% year-over-year. Core growth, excluding respiratory testing revenue, which highlights improvements in the underlying business trends that I mentioned a moment ago, was up 4.5%, 150 basis point acceleration from the first quarter. We were encouraged to see growth accelerate with improving trends across our end markets and recent innovations further driving growth across our businesses. Let me briefly highlight a few examples of how these innovations are strengthening our competitive position and helping customers bring life-changing therapies and diagnostics to patients faster and more efficiently. In biotechnology, Cytiva launched the Biacore 8S SPR system, a high-throughput screening and characterization platform that helps researchers evaluate how potential drug candidates interact with their targets. By combining rapid screening with high-quality molecular characterization and AI-powered data analysis in a single automated platform, Biacore 8S helps customers identify the most promising drug candidates faster. In life sciences, SCIEX reinforced its leadership position in mass spectrometry with the introduction of the novus V55 at June's American Society for Mass Spectrometry Meeting. This AI-enabled triple quadrupole system delivers enhanced sensitivity, high-throughput, and helps reduce operating costs for pharmaceutical, food, clinical, and environmental testing labs. In diagnostics, Beckman Coulter introduced the Access BD-pTau217 Research Use Only assay and received the CE mark approval for the Access p-tau217 assay, two blood-based Alzheimer's biomarker tests for use on the DxI 9000. Those assays further strengthen Beckman's positioning as a leader in the important and growing area of neurodegenerative diagnostics. Now, these are just a few of many examples across Danaher and how we're positioning our businesses for continued growth and delivering on our commitment to help customers solve some of the most important challenges impacting patients around the world. Geographically, core revenues in developed markets declined slightly as both North America and Western Europe were impacted by shipment timing in biotechnology and lower respiratory revenue year-over-year. Core revenues in high-growth markets increased more than 10%, with healthy growth across our major regions, including mid-single-digit growth in China. In China, biotechnology delivered another quarter of solid growth as local companies continued to partner with Cytiva on the development of novel molecules and the manufacturing of commercial therapies. Life sciences market conditions continued to stabilize while diagnostics improved sequentially as we began to move beyond the most significant year-over-year impacts of volume-based procurement and reimbursement changes that began in late 2024. Our gross profit margin for the second quarter was 57.6%. Our adjusted operating profit margin of 27.1% was down 20 basis points as lower respiratory revenue year-over-year more than offset the favorable impacts of higher non-respiratory volume and disciplined cost management. Adjusted diluted net earnings per common share of $1.94 were up approximately 8% year-over-year. We generated $1.3 billion of free cash flow in the quarter and $2.4 billion in the first half of the year, resulting in a year-to-date free cash flow to net income conversion ratio of 124%, further underwriting the differentiated quality of our earnings. We also made significant progress on our capital deployment priorities during the quarter and into July. On the M&A front, we closed our acquisition of Masimo in early June, ahead of our initial expectations. We expect Masimo to be immediately accretive, both strategically and to adjusted EPS. The business delivered high single-digit revenue growth in the first half of the year and is off to a great start as part of Danaher, including an FDA 510(k) clearance for an AI-enabled opioid-induced respiratory depression detection solution. In fact, the team has already completed their first operating review, where they further validated opportunities to drive productivity and efficiency improvement, capture customer account synergies, and strengthen the innovation process using the Danaher Business System Launch Excellence tool. Additionally, Leica Biosystems announced the pending acquisition of StatLab, a leading manufacturer of consumables across the anatomical pathology workflow. StatLab has built a strong reputation with customers for its quality, innovation, and customer intimacy. We believe the acquisition will strengthen Leica Biosystems' value proposition by bringing together consumables, instruments, automation, and digital pathology into a more complete workflow solution. It also supports our broader integrated delivery network strategy and our goal of helping clinicians diagnose cancer faster and more precisely. StatLab generated approximately $250 million in revenue for the full year of 2025 and has an attractive business model with more than 85% recurring revenue. We expect the business to grow high single digits over the long term and to be accretive to adjusted EPS in our first full year of ownership. While the transaction remains subject to customary closing conditions, including regulatory approvals, we expect to close by the end of 2026. Lastly, we deployed approximately $900 million of capital to repurchase 5 million shares of Danaher common stock. We believe these repurchases will provide an attractive return given the trajectory of our long-term organic growth, earnings, and cash flow outlook. Now let's take a closer look at our results across the portfolio and give you some color on what we saw in our end markets. Core revenue in our biotechnology segment increased 2.5%. Core revenue in discovery and medical increased mid-single digits, with solid growth in pharma and biopharma, and a more stable academic and research funding environment. Core revenue in bioprocessing grew low single digits in the second quarter, with low single-digit growth in both consumables and equipment. We were encouraged to see equipment growth in the second quarter following several quarters of improving order trends, supported by customer investments in manufacturing capacity. Consumables growth came in below our expectations, as a few large shipments for programs at our commercial customers moved out of the quarter. To give you some additional color, this was a shift in shipment timing at a few large commercial drug manufacturers for molecules that were specced into. While revenue was impacted by customer timing, underlying demand remained very healthy, with mid-teens order growth in both consumables and equipment. The trends we're seeing in the business, together with healthy underlying demand, reinforce our confidence in the high single-digit long-term outlook for Cytiva's bioprocessing franchise. Cytiva is well-positioned to support capacity expansions as we expect onshoring activity to accelerate and commercial production to remain robust, particularly in monoclonal antibodies. At the same time, new molecules continue to progress through development pipelines and into commercialization, creating what we believe is a durable long-term growth opportunity given Cytiva's leading and expanding specced-in position on molecules in pre-clinical and early-stage clinical development phases. Turning to our Life Sciences segment, core revenue increased 5.5%. Core revenue in Pall's applied filtration business increased approximately 10%, led by strength in its microelectronics product line. This business provides mission-critical filtration solutions across the semiconductor manufacturing workflow and has been a consistent growth driver for Pall over the last several years. Core revenue in our Life Sciences instrument businesses increased mid-single digits in the quarter. Across our end markets, investment from large pharma and biopharma customers continued to strengthen, while biotech demand benefited from a more favorable funding environment. Academic demand improved modestly as the quarter progressed but remained below normal levels. By operating company, we saw solid growth at Beckman Life Sciences, Leica Microsystems, and SCIEX. Beckman Life Sciences saw notable growth in automation, where the team is well-positioned to benefit as customers invest in the lab infrastructure needed to support autonomous labs and AI-enabled drug discovery. Core revenue in our Life Sciences consumables businesses collectively grew low single digits. IDT was up in the quarter, led by demand for MRD testing solutions, and Abcam's growth continued to accelerate, delivering its best quarter since acquisition as academic markets have started to improve and commercial initiatives, particularly around biopharma and diagnostic end markets, gained further traction. As end market conditions continue to improve, we expect commercial and go-to-market execution, including autonomous lab-catalyzed demand, to further support growth acceleration across Abcam, IDT, and Aldevron. Moving to our Diagnostics segment, core revenue increased 2%. Core growth, excluding respiratory testing revenue, was up 5%. Core revenue in our clinical diagnostics businesses was up mid-single digits, with high single-digit growth outside of China. Leica Biosystems and Radiometer were collectively up high single digits, with solid growth across both instruments and consumables. Beckman Coulter Diagnostics was up mid-single digits globally, with another quarter of solid immunoassay revenue and install base growth. At Beckman, declines in China began to moderate as pricing stabilized and volumes improved. In molecular diagnostics, Cepheid's core non-respiratory revenue increased low double digits, led by growth in hospital-acquired infection and sexual health assays. This strong performance was supported by continued adoption of recent menu expansions, including the Multiplex GI panel, as well as several notable key account wins with large hospital networks. Respiratory revenue was in line with our expectations for the second quarter, though down year-over-year due to lower seasonal infection rates. During the quarter, Cepheid supported the Ebola outbreak response in the Democratic Republic of Congo and Uganda through the donation of Xpert Hemorrhagic Fever panel tests. Working with global health partners, Cepheid's decentralized GeneXpert platform is helping expand testing capacity in affected regions and support faster isolation, treatment, and containment of this deadly virus. Moving to how we are thinking about the second half of the year. We expect third quarter revenue growth to be approximately 2%-3%, which includes an approximately 250 basis point year-over-year headwind from respiratory testing. This implies that core growth excluding respiratory will be approximately 5%, an acceleration versus what we saw in the second quarter. We continue to expect to exit Q4 at the mid-single digit core revenue growth rate as we move past some of the headwinds from the first three quarters of the year. This results in a full year 2026 core revenue growth outlook in the range of 3%-4%. Our updated outlook reflects higher anticipated core revenue growth in our life sciences segment as we expect these markets to recover faster than our initial expectations, offset by a slightly more conservative outlook for bioprocessing, given some of the customer-driven timing dynamics we saw in the second quarter. Additionally, given our second quarter earnings beat and the earlier than anticipated completion of the Masimo acquisition, we're raising our full-year adjusted diluted net EPS guidance to a range of $8.45-$8.60, versus our previous range of $8.35-$8.55. Finally, we expect a third quarter adjusted operating profit margin of approximately 26.5%. To wrap up, we're pleased to deliver better than expected second quarter results and are encouraged by the underlying momentum that is built across our portfolio. Growth accelerated, reflecting improved end markets, strong commercial execution, and the power of our balanced portfolio. Traction on recent product launches also drove growth and share gains across a number of our businesses. At the same time, our teams executed at a high level, and we've seen meaningful benefits from our recent productivity initiative. We remain confident that growth will accelerate toward a mid-single digit exit rate this year. As markets recover, we expect our growth initiatives to gain further traction. At the same time, we believe AI will strengthen the Danaher Business System, reinforcing our culture of continuous improvement and supporting our work to achieve margin expansion and earnings growth. Looking ahead, our leading portfolio, significant capital deployment optionality, and talented team, all powered by the Danaher Business System, will continue to position us to help customers move from discovery to delivery faster, accelerate the impact of science and technology, and create sustainable long-term value for shareholders. With that, I'll turn the call back over to Rachel.",
+   "sentiment": "0.9"
+  },
+  {
+   "speaker": "Rachel Vatnsdal",
+   "title": "Vice President, Investor Relations",
+   "content": "Thanks, Rainer. That concludes our formal comments. We're now ready for questions.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. If you would like to ask a question, please press star one on your keypad. To leave the queue at any time, press star two. We ask that you please limit yourself to one question and one follow-up. Once again, that is star one to ask a question. Our first question will come from Michael Ryskin with Bank of America. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Morning, Mike.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Michael Ryskin",
+   "title": "Analyst, Bank of America",
+   "content": "Morning, Rainer. Thanks for taking the question. Not a surprise, I'm going to start on the bioprocessing business and Biotechnology segment. I think that was the biggest surprise for us in 2Q. I hear you on all your comments on commercial customer delays, timing. I think certainly that's a little bit unpredictable, but why is that revenue not coming back in 3Q and 4Q? Would love to dig into that a little bit more. By our math, 2Q came in about $75 million light, but then if I look at the full year bioprocessing guide, it goes from high single to mid-single. That's about $150 million plus. You're not catching it back in 3Q, 4Q. Is this a multi-quarter rebase? Sort of walk us through the timing of that and when we could expect that to come back. Thanks.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Sure, Mike. Thanks. To recap, our bioprocessing business grew low single digits this quarter, and that was both for equipment and consumables. As I said earlier, bioprocessing consumables revenue was lighter than we thought. Later in the quarter, we had a few large chromatography resin shipments that were slated primarily for Q2 and Q3 move out of the year. As a reminder, these shipments tend to be about $10 million to $30 million and are destined to large batch manufacturing. These delays were at our customer's request due to production schedule changes and site readiness challenges, which we have seen occasionally. These shipments were primarily for commercial programs that were specced into; there's really no change to the underlying trends, even given what we saw in the quarter. We think our portfolio is differentiated, and that's supported by our strong order book trends as consumables and equipment orders both grew mid-teens in the second quarter.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Mike, just on the numbers here, I think your numbers you quoted may be a touch high, but in the ballpark. I think in the second quarter, we saw about a 500-basis points impact to that overall bioprocessing growth, given that the dollar is probably more in that $50 million to $60 million type range. Then for the full year, we saw a little bit north of $100 million that shifted out of that Q2, Q3 into next year. That's a couple of hundred basis points to our bioprocessing growth for the full year. Obviously, there's some chance of this moving back into Q4. That's not within our planning assumption today. I think the other thing just to note here on Q2 is that outside of chromatography resins that Rainer referenced, we saw pretty good performance in the quarter in consumables, and that included strong double-digit growth in our upstream consumables business. No change to our view that bioprocessing is high single digit over the long term as we noted.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Michael Ryskin",
+   "title": "Analyst, Bank of America",
+   "content": "Okay. All right. I'll use my follow-up on the same topic then. I guess just, is there anything that's changed with visibility in the business? Is there anything, you kind of alluded to that this happens from time to time, but it is a pretty meaningful swing. I know we spent a couple of years worrying about destocking, and it seems like we've moved past that, but still, there's a lot of questions on visibility, confidence in the pipeline. You've got a strong order funnel you've been talking about for a while, so it's still a little bit of a surprise as to how quickly bioprocess can swing given expectations that stabilized. If you could just talk about maybe funnel ability to backfill with other customers given the order strength you've seen elsewhere.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Yeah, Mike, this delay in shipments is really fairly concentrated around a few commercial customers. We don't see any broad-based change in the demand here, as you can see by the order data, which refers to both equipment as well as consumables. To be sure, if we reflect back on the days of the post-pandemic inventory glut, you'll recall that we put in a great deal of process to ensure that we have great visibility across our customer base and to understand their inventory positions. Those processes are in place. They are functioning appropriately. They are part of our forecasting mechanism. What that data shows is in fact that the inventory levels, more broad-based in the market, are actually quite a bit lower than they have been in prior years. That makes a lot of sense to us. One, the market continues to be robust. We see scripts continuing at their strength. We see phase II and III molecules continue to move through. Of course, the lead times that we had as an industry, but also that we had at Cytiva are significantly shorter now, allowing those safety stocks to come down. We really, from the perspective of the demand and the broad-based inventory in the market, don't see any change in the dynamic, and that's what the data shows.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Tycho Peterson with Jefferies. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Tycho Peterson",
+   "title": "Analyst, Jefferies",
+   "content": "Hey, thanks. Rainer, I want to actually pick up on the bioproduction theme on just the equipment side. It was nice to see the return in equipment revenues. We've been kind of waiting for that. You've had four quarters in a row prior to this of order growth. I guess how you're feeling about the bioproduction equipment piece in the back half of the year into 2027.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Morning, Tycho, and thanks for the question. In fact, we are pleased with the fact that we're starting to see revenue growth here on the equipment side. In fact, we do believe that this is a twofold signal that we are starting to see some of that reshoring brownfield expansion, not just playing through in the order strength that you've seen over previous quarters, but we're also starting to see some of that in the revenue line. That's one aspect. The other aspect, this comes back to Mike's question a little bit, there continues to be robust demand for biologic molecules, therapeutics. We haven't had a lot of investment, as you know, in capacity expansions over the last several years. There is this need to continue to invest in capacity expansion coupled with the reshoring dynamic. Now, as it relates to the greenfield investments, we're quoting for those. Those are out there being looked at by our customers. That's going to take two or three years until we see that play through. We continue to believe that we're in the early innings here of a multi-year CapEx cycle that is required both to support the growing volumes of biologic therapeutics, but also the reshoring dynamic.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Tycho Peterson",
+   "title": "Analyst, Jefferies",
+   "content": "Okay. For the follow-up, I want to dig into the life science consumable piece. It was good to hear the commentary on Abcam, IDT. I don't think you called out Aldevron, but you're talking about increased confidence overall in the life sciences. Is this biotech funding converting to spending? Is it pharma starting to train LLMs? It doesn't sound like academic is really picking up. Maybe just talk on the drivers for the increased enthusiasm on the life science side, on the consumables.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "On the consumable side, we do see biotech funding stronger. We're seeing that funding that we see in all the announcements starting to play through. Previously, it was just in the funnel. Now we're starting to see some orders there, and also on the margins, we're starting to see some revenue. That does, in fact, play into what you see here in our consumables business. I think what's really driving it is IDT continues to be making real progress and MRD as one end market to call out here. We see Aldevron continuing to make progress aside from those two large customers that we've talked about previously, and that is supported by increased biotech funding. There are more projects going on there. That's certainly encouraging. On Abcam, we've had the best quarter here that we've had since the acquisition, where you see not only the work that we're doing driving growth and share capture, but we're also seeing some more stability in academic markets. I wouldn't say they're back to normal. Lastly, at Abcam, they're making real progress in diversifying that end market from primarily academic to also pharma and diagnostic end markets. Very encouraged by all the progress that we're making there on the consumable side.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Dan Leonard with RBC. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Dan Leonard",
+   "title": "Analyst, RBC",
+   "content": "Thanks. Morning, Rainer. Circling back to biotech for a moment, is there any common thread you can call out between those few customers that delayed shipments, whether it be decisions on where to put manufacturing or inventory drawdowns? Anything that would unite the few.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "This is primarily related to resin shipments, Dan. That's about the one commonality that we can see here. Look, building new plants and site readiness and so forth, it's a complex business. It's not that scientific. There are delays in that regard. This is not related, let's say, on the back end, to any one molecule that's out there in the market or just one customer, although it is just a few large commercial manufacturers where we're specced into those molecules. Of course, supporting their needs.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Dan Leonard",
+   "title": "Analyst, RBC",
+   "content": "Okay, that's clear. Just shifting to a diagnostics follow-up. The flat assumption for Q3, given the magnitude of the respiratory headwind you are going to face, implies a step up in the core growth rate to high single digits from that 5% figure in Q4. Sorry, I mean Q2. Could you elaborate on what drives that acceleration? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Sure, Dan. Obviously, we have some variability here with the respiratory headwinds from quarter to quarter, but I think if you unpack it, excluding respiratory, diagnostics was solid, mid-single digits in the second quarter. I think we're encouraged by some of that execution we're seeing commercially across the platform, as well as some of those new product innovations that are driving accelerated growth, like that DxI 9000 at Beckman, the continued menu expansion at Cepheid. I think our view is these underlying trends continue, and as respiratory headwinds moderate in Q4, we'll exit at that overall mid-single digit rate. Remember here, Dan, we do have China policy, those headwinds are starting to lessen. You see a little bit lower of a headwind here in Q3 and Q4, which are driving a bit more of the overall step up as well.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Scott Davis with Melius Research. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Scott Davis",
+   "title": "Analyst, Melius Research",
+   "content": "Morning, Rainer and Matt and Rachel. Morning. Hey, you only owned Masimo for, I guess, a month, but can we get a little bit of an early read on it? Would you be willing to give us maybe the growth rate that they put up for the quarter or any information about it? That would be helpful.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Sure. First of all, Scott, thanks. We're really excited by the fact that we were able to get that acquisition closed a little bit earlier than we thought. In our initial operating reviews, this is every bit the company that we thought it was. You might have heard there that we are already launched with a new 510 on a new assay. So that's gone very well for us. As we think about the growth rate, we validated that that was high single digits here for the quarter. That's certainly very encouraging, and there's potential upside there as we go forward.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Scott Davis",
+   "title": "Analyst, Melius Research",
+   "content": "Okay. That's super helpful. I guess I want to back up a little bit and go into the academic and the government outlook. Is there pent-up demand there? What does the shape of that recovery look like when we get to the other side of it? What is the other side? Do we have to wait till 2028? Can we get a bigger snapback in 2027? Is it a V shape, or is it just too hard to say?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Well, it is difficult to say because what we're seeing in the academic funding area, Scott, is related to government policies. If those government policies become more constructive to supporting the research industry, if we can call it that, universities, the central labs that are out there, of course, the NIH. Also, as we think about around the world, we need to see a more constructive perspective on academic funding before we're ready to call an inflection point. What we see for now, and I think that's what we're going to see for a while, is stability in the academic markets. We can build off of that. You may recall that for ourselves, academia as an end market is less than 5% of our revenues. So, we watch that with great interest because in many ways, it's a catalyst to innovation going forward. As an economic driver to Danaher's growth and earnings flywheel, the impact is fairly limited.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Jack Meehan with Operon Research. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Jack Meehan",
+   "title": "Analyst, Operon Research",
+   "content": "Good morning. I wanted to dig a little bit more into the life science business, specifically start with Pall Industrial. The 10% growth that you had in the quarter, is there any color you can give on the relative growth for semi versus the remaining customer classes? Just more broadly, how are you feeling about the macro recovery with your industrial customers?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "We're pretty pleased with the nice growth that we have seen here at Pall, which has been ongoing for some time. We would tell you that on the microelectronic side, it's semiconductors and memory customers that are driving the growth. We are a mission-critical supplier there with our filtration solutions for highly purified solutions that are used throughout the process. In fact, we've invested quite significantly in the past years in this business, both in innovation as well as capacity, where we are currently in the startup mode of a new plant in Singapore, which is right in the middle of many of the demand centers there, along with our plants elsewhere in the world, including the U.S.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Jack, just for some numbers here, Pall was up about 10% in the quarter. Microelectronics was up north of that; we also saw pretty good growth here in energy and aerospace. I think as Rainer talked about the drivers there, but we also probably saw some share gains here at Pall overall.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Jack Meehan",
+   "title": "Analyst, Operon Research",
+   "content": "Great. Then just zooming to the segment overall, you just did 5.5% core in the quarter. You're guiding to 3%-4% in the third quarter. Maybe just talk about why that might soften sequentially. Is any of it comps or any company-specific dynamics at play? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Yeah, Jack, nothing in terms of changing in the underlying trends. I think we're very encouraged by what we saw here, Rainer walked through some of the end market performance as well as some of the internal initiatives that are driving the performance. We did have a little bit of timing dynamics at Pall. We just talked about that. We think that growth moderates a bit here in Q3; in the second half, in general, those underlying trends are pretty consistent. You can have a little bit of project timing with Pall here, overall pretty good outlook here.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Vijay Kumar with Evercore ISI. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Vijay Kumar",
+   "title": "Analyst, Evercore ISI",
+   "content": "Hi, Rainer. Good morning, and thank you for taking my question. Maybe first one, Rainer, I'm getting to a Q4 jump off of around 6% core. I know you brought up the $100 million of bioprocessing consumable push out to FY 2027. Given the Q4 jump off of 6% and you have some push out of revenues, how should we be thinking of FY 2027? I know the prior range was 3%-6%. Should we be looking at the upper end? I'm curious on early thoughts on FY 2027.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Sure, Vijay. I'll jump in and take this one. I think first off, there's no change on how we're thinking about mid-single digit core growth. Thinking maybe a touch high there in what you're referencing, but mid-single digit core growth in Q4. For the full year, we're thinking that 3%-4% core growth range. Continue to anchor to the low end of that range for modeling purposes. The puts and takes here are that we're assuming a little bit better Life Sciences given the performance we saw in the first half, and that offsets are a little bit more conservative bioprocessing outlook that we talked about. Respiratory, we're thinking given where infection rates have trended, about $1.6 billion or a touch below that for the full year. As we're talking and you're thinking about the second half, it's important to look at the underlying trends in the business as well as the impact of respiratory from quarter to quarter. We actually included a table in our earnings presentation that illustrates this. We thought it'd be helpful to lay it out. Excluding the impact of respiratory revenue, core growth was 4.5% in Q2. That's an acceleration versus what we saw in Q1. The Q3 guide assumes slight improvement off of Q2, call it 5%. The biggest swing factor is the impact of respiratory revenue. Respiratory was about 150 basis point headwind in Q2. We think it's about 250 basis point headwind in Q3, and those headwinds essentially go away year-on-year in Q4. That's why we're feeling comfortable with that Q4 mid-single digit core growth rate.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Vijay Kumar",
+   "title": "Analyst, Evercore ISI",
+   "content": "Understood, Matt. Maybe one more on this EPS raise, Matt. I think Masimo financing came in better. Maybe it's looking at close to $0.10 contribution. I think 2Q, the beat ex Masimo was probably $0.07, $0.08. When you look at second quarter performance with Masimo coming in, it's probably $0.17, $0.18 in incremental versus prior expectations. Guide raise was, I think, around $0.08. Is this some conservatism, or is this a reflection on Masimo, maybe some investments needed in Masimo? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Sure, Vijay. I'll just give you the moving pieces here in terms of the guide raise. We're taking the guidance to $8.45-$8.60 for the year. That increase reflects a better Q2 performance as well. Call it $0.07-$0.08 from closing Masimo early. Remember that initial range we gave for Masimo EPS was assuming an end of the year 2026 close, so that was a 2027 number. $0.07, $0.08 for Masimo, off to a very good start here. Rainer talked about core growth, high single digits, even a little bit better than we expected. There is some partial offset here from mix and FX, and I think we wanted to build a little bit of a hedge here in the second half given the current environment. EPS range at the midpoint, that implies nearly 10% EPS growth. We think that's a good place to be halfway through the year and balance a strong fall through while being able to reinvest for growth.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Dan Brennan with TD Cowen. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Dan Brennan",
+   "title": "Analyst, TD Cowen",
+   "content": "Thank you. Thanks. Good morning, Rainer. Good morning, Matt. Thanks for the questions. Just on bioprocess, the guide is mid-single for the year, we assume five. And I think, Matt, you talked about a little over $100 million of a push out, that's just shy of 2%. The five seems like maybe it's just under seven for the full year. I think your prior guide was high single, so maybe it was a bit higher than that, seven to eight. I'm just trying to do the math. I mean, it could be a little in the weeks, but I think investors getting confidence in the bioprocess outlooks important. I'm just wondering if these push outs don't come back in the fourth quarter, as you guys don't expect, is there some extra cushion in the bioprocess guide? Just want to get some color on that.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Matt Gugino",
+   "title": "Executive Vice President and Chief Financial Officer",
+   "content": "Yeah. Dan, like we talked about, we're a little bit north of $100 million that shifted primarily out of Q2 and Q3 into next year. That's a couple hundred basis points impact to bioprocessing growth for the full year. As we mentioned, there is some chance this moves back into Q4. That's not in our planning assumption today, but as you think about the progression through the year, we're talking about mid singles here for Q3. We're probably exiting more in that mid to high single digits in Q4 as we go forward.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Dan Brennan",
+   "title": "Analyst, TD Cowen",
+   "content": "Got it. Okay, thanks, Matt. Then sorry for a double dip here in bioprocess, I think it's fairly important. Just back to Leonard's question, just on any commonality in the customers. I know Rainer, you basically said it's a couple of resin push outs but is there anything from a therapeutic area or geographic area that together you think it's more of a market issue or really specific to a few molecules that you guys spec'd in on. Is there any reason why next year that wouldn't come back? I'm just thinking ahead if, say these customers' biologic script plans were coming in below plan, do they have recourse to say we're going to cut the expectation of what we need or any protections you guys might have on that? Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Dan, the commonality is really just around the product resins. Of course, these are just by the nature of this large batch production, large numbers, for these commercial molecules. In this case, these are not the same molecules and it's across a couple of geographies, we don't see that really being the commonality. We think it's highly unlikely that it does not return in 2027. We believe, without talking specifically to 2027, that these push outs to 2027 would likely then ultimately ship in 2027.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. Our next question will come from Casey Woodring with J.P. Morgan. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Casey Woodring",
+   "title": "Analyst, J.P. Morgan",
+   "content": "Morning. Yeah, thanks for taking my questions. Maybe just one more on bioprocessing. Not to beat a dead horse, but I just wanted to clarify. The consumables order growth of mid-teens, does that include the pushed out revenue here? Then if you could just maybe elaborate on the lead time dynamics you mentioned earlier, Rainer. Like mid-teens order growth in consumables in 2Q, that theoretically has a much shorter turnaround time than equipment. Just maybe walk us through how you're thinking about the consumables piece for the back half and into 2027.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "These larger orders, Casey, that we're referring to in terms of pushing out, weren't in-quarter book and turn. These were on the books and in the backlog for shipment, and ultimately, late in the quarter, the customers made the decision to reprogram production schedules and some site readiness issues. That's really not the case. What we see is broad-based growth across our customer base of these in the mid-teens of both consumables, as well as equipment. Consumable lead times are shorter than equipment, no doubts about that. It is rare that you get a consumable order, especially on these larger sized ones, that book in the quarter and ship in the same quarter. It happens, but it's not really the nature of the business. The majority of the business is shipped in the quarter that comes out of backlog. At the margin, you'll get some orders and quick turns.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Casey Woodring",
+   "title": "Analyst, J.P. Morgan",
+   "content": "Got it. That's helpful. Then maybe just in the diagnostics business, can you just elaborate on updated expectations for Radiometer and Leica, and some of the more instrument-heavy focused businesses there, how you're thinking about the back half of the year?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "These continue to be Radiometer and Leica Biosystems, our specialty diagnostics businesses for us that continue to grow in the high single-digit range. We really like what we see there. Continued innovation, continued commercial excellence. I might add the StatLab acquisition that really strengthens Leica Biosystems offering across the entire workflow and provides leverage across that entire workflow. It's very compatible, StatLab, with the existing portfolio. It's 85% consumables. It's got great economics, and we expect that to grow high single digits here in the long term as well. Leica Biosystems and Radiometer are solidly into the high single digits here, and we believe that continues for the long term.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. We will take our last question from Patrick Donnelly with Citi. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Patrick Donnelly",
+   "title": "Analyst, Citi",
+   "content": "Hey, guys. Hey, Rainer. Thanks for taking the question. Maybe another one on the bioprocessing piece. Just in terms of seeing multiple customers all push out within a few weeks of each other, seemingly all into 2027, I guess the confidence that it's just resin, is it not leaking into single use? I guess why would multiple customers all at essentially the same time do this push out? I mean, what were you hearing in terms of, I understand the resins piece, but any other common themes that you were picking up that drove this push out?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "I wouldn't characterize it as multiple customers. I would really characterize it as a few customers that happen to be very large. From time to time, they'll make these kinds of calls. I think it's important to note, again, on the orders, that we see broad-based orders here, growth in the mid-teens, in the consumables area and in the equipment area. You're speaking of consumables. We really believe that this is limited to this subset of special circumstances. As it relates to our other consumables, whether that's single use, whether that's upstream in the bioreactor area and so forth, our growth is very strong there in the upstream area as well.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Patrick Donnelly",
+   "title": "Analyst, Citi",
+   "content": "Understood. Maybe just another one on the life side. Again, encouraging result there. Can you just talk a little more about what you're seeing from the customer base confidence that that market's turning? Obviously, been a little bit challenging for you guys in the past with SCIEX and some of the waits, but it does seem like this result is pretty encouraging. I guess the confidence in the life side, you talked a little bit about the second half conservatism, but whether it's mass spec chrome, would love just a little more details on what you saw in the quarter and confidence moving forward there. Thank you so much.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rainer M. Blair",
+   "title": "President and Chief Executive Officer",
+   "content": "Yeah, I mean, we agree. This is a really encouraging result and exceeded our expectations. We finished at 5.5% growth, and that was really across the portfolio. If we start with end markets, they're getting a little better across the portfolio. Large pharma and biopharma customers are progressing back to normal; we continue to see that. Better biotech funding is starting to read through, we saw a little bit more of that in Q2 than we had seen previously, I think that's noteworthy. Academic, as we mentioned with Scott here, remains below normal, but we did see some improvement in the back half of the quarter. Generally speaking, we don't see as large of a recovery dynamic in academia. As I mentioned, that's less than 5% of what we do. We did see continued strength in clinical and in the applied markets. We talked a little bit about Pall, but also in our other applied end markets, we saw that continued strength. I think it's also important to say that we see good traction on our recent commercial and growth initiatives. Abcam delivered their strongest quarter since acquisition, and they benefited from improved commercial execution, certainly. We're also taking some share here and making headway in other end markets to skew away a little bit from academic. We also think the new products are contributing to our growth in our life science instrument businesses, flow cytometry at Beckman, the novus V55 and 8600 at SCIEX. All those things are helpful. We're starting to see these little green shoots around the AI dynamic. We are seeing demand across our portfolio, including at Beckman, with increased automation for these lab-in-a-loop or autonomous science applications. We're starting to see that as well. We expect this momentum continues in the second half, and that's what gave us confidence here to raise our full year life science guide.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. We have now reached our allotted time for questions. I will now turn the call back over to Rachel Vatnsdal for final comments.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Rachel Vatnsdal",
+   "title": "Vice President, Investor Relations",
+   "content": "Great. Thank you everyone for joining us this morning. We'll be around the rest of the day and the rest of the week as well for follow-ups. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. This brings us to the end of today's meeting. We appreciate your time and participation. You may now disconnect.",
+   "sentiment": "0.0"
+  }
+ ]
+}

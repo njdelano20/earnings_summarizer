@@ -8,6 +8,8 @@ usable yet, that's stated plainly rather than silently backfilled from somewhere
 
 ## 1. Headline scoreboard
 
+![Headline scoreboard](sample_AAPL_Q3_2026_scoreboard.png)
+
 | Metric | Actual (June qtr) | vs. prior guidance |
 |---|---|---|
 | Revenue | $109.40B (+16% yoy) | not available — no AAPL call before this one in the dataset |
@@ -17,14 +19,15 @@ usable yet, that's stated plainly rather than silently backfilled from somewhere
 
 `AAPL_2026_3-001`, `AAPL_2026_3-013`, `AAPL_2026_3-006`, `AAPL_2026_3-015`
 
-*The "vs. prior guidance" column is designed to compare this quarter's actual against what
-was guided into it last call — the existing `trajectory` logic in `snapshot.py` already does
-this comparison, it just needs the prior quarter's AAPL call in the gold set to populate it.*
+*The chart shows yoy deltas as stat tiles — the real comparison available today, not the
+actual-vs-guided delta bars the template design calls for. That "vs. prior guidance" column
+is designed to compare this quarter's actual against what was guided into it last call — the
+existing `trajectory` logic in `snapshot.py` already does this comparison, it just needs the
+prior quarter's AAPL call in the gold set to populate it.*
 
 ## 2. Business segments
 
-**[CHART: revenue by segment — see `sample_AAPL_Q3_2026_segments.png`, generated from the
-real numbers below]**
+![Revenue by segment](sample_AAPL_Q3_2026_segments.png)
 
 | Segment | Revenue | Growth (yoy) | Gross margin |
 |---|---|---|---|
@@ -48,7 +51,7 @@ management, despite a 110bp sequential gross-margin dip attributed to product mi
 
 ## 3. Margin trend
 
-**[CHART: gross margin over time — only 2 real points available: March 49.3%, June 50.1%]**
+![Gross margin trend](sample_AAPL_Q3_2026_margin.png)
 
 *Both points are transcript-reported, not from MarketDataLibrary — `financials` is annual
 (FY) + TTM only today, not quarterly, so a real trailing-quarters margin trend isn't
@@ -57,6 +60,8 @@ will only become useful once either quarterly financials exist or enough consecu
 calls accumulate in the gold set.*
 
 ## 4. Capital allocation
+
+![Capital allocation](sample_AAPL_Q3_2026_capital.png)
 
 | Use of cash | Amount (June qtr) |
 |---|---|
@@ -76,6 +81,8 @@ finding from tonight, same root cause as the balance_sheet gap, not yet fixed. U
 this section is whatever capital-return figures the call states — real, but partial.*
 
 ## 5. Balance sheet snapshot
+
+![Balance sheet snapshot](sample_AAPL_Q3_2026_balance.png)
 
 | | June quarter |
 |---|---|
@@ -143,12 +150,24 @@ Apple's U.S. manufacturing program.
 side), forward guidance, competitive environment, product development, macro/regulatory —
 sections 1, 2 (partial), 6, 7, 8, 9.
 
-**Blocked on MarketDataLibrary fixes that exist but haven't run at scale**: margin trend
+**Chart rendering built 2026-09-22 (`charts.py`, `py charts.py --demo` regenerates all five
+PNGs in this doc).** All five chart-bearing sections now render real, not-hand-drawn charts
+from the same numbers already in this doc's tables — including sections 3-5, which are still
+data-limited (see below), so their charts are honestly thin/partial rather than faked full.
+Palette and color usage (categorical for true nominal categories like capital-allocation uses;
+status green/red reserved for actual good/bad readings like segment growth direction or net
+cash vs. debt; a labeled gray "not stated" bar rather than a fabricated number for CapEx/M&A)
+follow the dataviz skill's validated default. Pixel-level polish (rounded bar caps, the 2px
+inter-bar gap spec) was skipped as not worth the complexity for a local static-PNG report;
+the substantive checks (correct color job, direct value labels, recessive gridlines, a table
+next to every chart as the accessible alternative) are all honored.
+
+**Still blocked on MarketDataLibrary fixes that exist but haven't run at scale**: margin trend
 (needs quarterly financials, which don't exist in any form yet — bigger lift), capital
 allocation (needs the `cash_flow` Financing/Investing gap fixed — not yet written), balance
-sheet snapshot (fix written, not yet run) — sections 3, 4, 5.
+sheet snapshot (fix written, not yet run) — sections 3, 4, 5. The charts for these sections
+are real, but only as good as the transcript-only data feeding them today.
 
 **Not started**: the actual sentence-to-segment matching engine that would replace this
-hand-assembly with real code, and real chart-generation for the other four visual slots
-(only the segment-revenue chart was actually rendered tonight, as a concrete proof of
-concept rather than a placeholder).
+hand-assembly with real code (deliberately deferred again this session in favor of the chart
+work — still the real remaining engineering item for section 2).

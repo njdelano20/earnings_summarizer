@@ -19,6 +19,14 @@ https://www.sec.gov/os/webmaster-faq#developers) and asks for no more than ~10 r
 SEC_EDGAR_CONTACT to "Your Name your@email.com" -- never hardcoded; read from the environment only, the same
 discipline as ALPHAVANTAGE_API_KEY / GEMINI_API_KEY, since this is sent to a third party on every request.
 
+Also uses SEC's submissions API (a company's full filing history -- form, filing date, and the actual period the
+filing COVERS) to sharpen the quarter match: the caller (batch.py) only knows a call's quarter as year+month
+(periods.py tracks no exact day) and approximates the period-end as that month's last calendar day, which can be a
+few days off a real 52/53-week fiscal calendar. `_refine_period_end()` looks up the nearest real 10-Q/10-K
+`reportDate` to that guess and, when one is close enough to trust, matches against it exactly instead of the fuzzy
+approximation -- never required (falls back to the original guess with the wider tolerance if submissions has
+nothing close, or the lookup fails for any reason).
+
     py sec_edgar.py AMD                     fetch/cache AMD's XBRL company facts, print what's available
     py sec_edgar.py AMD --check HESM_2026Q2  won't do anything for AMD/HESM mismatch -- see batch.py, which wires
                                              the real per-call check in automatically
@@ -42,7 +50,12 @@ CIKS_FILE = ROOT / "sec" / "ciks.json"
 METRICS_FILE = ROOT / "sec" / "metrics.json"
 CACHE_DIR = ROOT / "data" / "raw" / "sec"
 EDGAR_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
+EDGAR_SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
 DEFAULT_CONTACT = "earnings_summarizer (contact not set: set SEC_EDGAR_CONTACT to 'Name email@example.com')"
+# how far the caller's crude year+month guess may be from a real filed reportDate before that filing is not
+# trusted as "the same quarter" -- wide enough to survive fiscal-calendar drift, tight enough to never cross into
+# an adjacent quarter (quarters are ~91 days apart, so half that is a safe ceiling).
+_REFINE_SEARCH_DAYS = 45
 
 # A quarterly (not YTD, not annual) duration is close to 91 days; SEC filings vary a little either side.
 _QUARTER_DAYS = (75, 100)
@@ -102,18 +115,37 @@ def fetch_company_facts(symbol: str, cache_dir: Path = CACHE_DIR, contact: str |
         age = date.today() - date.fromtimestamp(cache_path.stat().st_mtime)
         if age <= timedelta(days=max_age_days):
             return json.loads(cache_path.read_text(encoding="utf-8"))
-    payload = _request(cik, _contact(contact))
+    payload = _request(EDGAR_URL.format(cik=cik), _contact(contact))
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
     return payload
 
 
-def _request(cik: str, contact: str) -> dict:
+def fetch_submissions(symbol: str, cache_dir: Path = CACHE_DIR, contact: str | None = None,
+                      refresh: bool = False, max_age_days: int = 3) -> dict:
+    """This symbol's full SEC filing history (form, filing date, and the period each filing COVERS). Cached
+    separately from company facts, same freshness rule."""
+    cik = cik_for(symbol)
+    if not cik:
+        raise SECEdgarError(f"No CIK on file for {symbol!r} (run py refresh_ciks.py, or the symbol is not a common "
+                            f"stock in the MarketDataLibrary).")
+    cache_path = Path(cache_dir) / "submissions" / f"{symbol.strip().upper()}.json"
+    if cache_path.exists() and not refresh:
+        age = date.today() - date.fromtimestamp(cache_path.stat().st_mtime)
+        if age <= timedelta(days=max_age_days):
+            return json.loads(cache_path.read_text(encoding="utf-8"))
+    payload = _request(EDGAR_SUBMISSIONS_URL.format(cik=cik), _contact(contact))
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    cache_path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    return payload
+
+
+def _request(url: str, contact: str) -> dict:
     import requests
 
-    resp = requests.get(EDGAR_URL.format(cik=cik), headers={"User-Agent": contact}, timeout=30)
+    resp = requests.get(url, headers={"User-Agent": contact}, timeout=30)
     if resp.status_code == 404:
-        raise SECEdgarError(f"No XBRL company facts for CIK {cik} (SEC returned 404 -- not all filers have any).")
+        raise SECEdgarError(f"SEC EDGAR returned 404 for {url} (not all filers have this).")
     try:
         resp.raise_for_status()
     except requests.RequestException as exc:
@@ -122,6 +154,31 @@ def _request(cik: str, contact: str) -> dict:
         return resp.json()
     except ValueError as exc:
         raise SECEdgarError(f"Non-JSON response from SEC EDGAR: {resp.text[:200]!r}") from exc
+
+
+def _refine_period_end(symbol: str, approx_period_end: date, cache_dir: Path = CACHE_DIR,
+                       contact: str | None = None) -> tuple[date, bool]:
+    """(period_end, exact). Looks up the nearest real 10-Q/10-K reportDate to the caller's guess; exact=True only
+    when one was found within _REFINE_SEARCH_DAYS, meaning the caller can match against it tightly instead of the
+    fuzzy month-end approximation. Never raises -- any lookup failure just means exact=False."""
+    try:
+        subs = fetch_submissions(symbol, cache_dir=cache_dir, contact=contact)
+    except SECEdgarError:
+        return approx_period_end, False
+    recent = subs.get("filings", {}).get("recent", {})
+    forms, report_dates = recent.get("form", []), recent.get("reportDate", [])
+    best, best_gap = None, None
+    for form, rd in zip(forms, report_dates):
+        if form not in ("10-Q", "10-K") or not rd:
+            continue
+        try:
+            d = date.fromisoformat(rd)
+        except ValueError:
+            continue
+        gap = abs((d - approx_period_end).days)
+        if gap <= _REFINE_SEARCH_DAYS and (best_gap is None or gap < best_gap):
+            best, best_gap = d, gap
+    return (best, True) if best is not None else (approx_period_end, False)
 
 
 # --------------------------------------------------------------------------- #
@@ -188,17 +245,20 @@ def check_against_sec(facts_result: dict, symbol: str, period_end: date, cache_d
     except SECEdgarError as exc:
         return [{"name": "sec_xbrl", "status": "no_data", "detail": str(exc)}]
 
+    exact_period_end, is_exact = _refine_period_end(symbol, period_end, cache_dir=cache_dir, contact=contact)
+    tolerance_days = 1 if is_exact else _DEFAULT_TOLERANCE_DAYS
+
     ledger = {f["metric"]: f for f in facts_result["facts"]
              if f["kind"] == "reported" and f["stat"] == "level" and (f["segment"] or "total") == "total"}
     for metric in sorted(metric_map()):
         f = ledger.get(metric)
         if f is None or f["value"] is None:
             continue                                       # nothing extracted for this metric: nothing to check
-        sec_fact = find_quarterly_value(edgar_facts, metric, period_end)
+        sec_fact = find_quarterly_value(edgar_facts, metric, exact_period_end, tolerance_days=tolerance_days)
         if sec_fact is None:
             checks.append({"name": f"sec_xbrl[{metric}]", "status": "no_data",
-                          "detail": f"no matching SEC quarterly figure for {metric} near {period_end.isoformat()} "
-                                    f"(filing may not be out yet)"})
+                          "detail": f"no matching SEC quarterly figure for {metric} near "
+                                    f"{exact_period_end.isoformat()} (filing may not be out yet)"})
             continue
         extracted, sec_value = f["value"], sec_fact["value"]
         rel_diff = abs(extracted - sec_value) / max(1.0, abs(sec_value))

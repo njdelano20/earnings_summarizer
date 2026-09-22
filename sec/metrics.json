@@ -1,0 +1,15 @@
+{
+  "note": "Maps OUR metric names (facts.py) to the standard us-gaap XBRL concept(s) that report them, in priority order (different filers occasionally use a different but equivalent tag; the first one present wins). Deliberately limited to metrics with one clean, near-universal GAAP tag: total debt, free cash flow and most vocabulary-pack metrics have no single canonical tag (debt splits across several line items; free cash flow and pack metrics like AFFO/EBITDA are non-GAAP, not separately standardized in XBRL) and would need per-company judgment a mapping table can't safely automate, so they are left out rather than guessed.",
+  "metrics": {
+    "revenue": {"kind": "duration", "unit": "USD",
+                "concepts": ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues", "SalesRevenueNet"]},
+    "net_income": {"kind": "duration", "unit": "USD",
+                   "concepts": ["NetIncomeLoss", "ProfitLoss"]},
+    "operating_income": {"kind": "duration", "unit": "USD",
+                         "concepts": ["OperatingIncomeLoss"]},
+    "gross_profit": {"kind": "duration", "unit": "USD",
+                     "concepts": ["GrossProfit"]},
+    "eps": {"kind": "duration", "unit": "USD_per_share",
+           "concepts": ["EarningsPerShareDiluted", "EarningsPerShareBasic"]}
+  }
+}

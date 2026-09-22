@@ -263,6 +263,59 @@ class MarkdownFencedJson(unittest.TestCase):
         self.assertEqual(out, {"expected": [], "unmapped": []})
 
 
+class DailyQuota(unittest.TestCase):
+    """The 2026-09-22 incident: gemini-flash-latest's free tier turned out to be 20 requests/DAY, and blind
+    retrying (plus a schema-less fallback against the SAME model) just burned through it faster. These pin the fix."""
+
+    def _daily_quota_resp(self):
+        resp = mock.Mock(status_code=429)
+        resp.json.return_value = {"error": {"code": 429, "status": "RESOURCE_EXHAUSTED",
+            "message": "Quota exceeded ... Please retry in 59s.",
+            "details": [{"@type": "type.googleapis.com/google.rpc.QuotaFailure",
+                        "violations": [{"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"}]}]}}
+        resp.raise_for_status.side_effect = __import__("requests").HTTPError("429")
+        return resp
+
+    def test_quota_is_daily_detects_the_real_response_shape(self):
+        self.assertTrue(D._quota_is_daily(self._daily_quota_resp()))
+
+    def test_quota_is_daily_is_false_for_an_ordinary_429_with_no_quota_details(self):
+        resp = mock.Mock(status_code=429)
+        resp.json.return_value = {"error": {"code": 429, "status": "RESOURCE_EXHAUSTED", "message": "slow down"}}
+        self.assertFalse(D._quota_is_daily(resp))
+
+    def test_a_daily_quota_429_is_not_retried_at_all(self):
+        with mock.patch("requests.post", return_value=self._daily_quota_resp()) as post, mock.patch("time.sleep") as sleep:
+            with self.assertRaises(D.QuotaExhaustedError):
+                D._post_once("prompt", KEY, D.DEFAULT_MODEL, {"type": "OBJECT"}, 30, max_retries=4, base_delay=1.0, scrub=str)
+        self.assertEqual(post.call_count, 1)      # no retry burned against an exhausted daily quota
+        sleep.assert_not_called()
+
+    def test_call_gemini_does_not_attempt_the_schema_less_fallback_on_a_daily_quota_error(self):
+        with mock.patch("requests.post", return_value=self._daily_quota_resp()) as post, mock.patch("time.sleep"):
+            with self.assertRaises(D.QuotaExhaustedError) as ctx:
+                D.call_gemini("prompt", {"type": "OBJECT"}, KEY, D.DEFAULT_MODEL)
+        self.assertEqual(post.call_count, 1)      # the fallback (a second full request) never happens
+        self.assertNotIn(KEY, str(ctx.exception))
+
+    def test_a_plain_rate_limited_429_still_retries_normally(self):
+        # a per-minute-style 429 with no daily-quota body: should NOT be treated as unrecoverable
+        busy = mock.Mock(status_code=429)
+        busy.json.return_value = {"error": {"code": 429, "message": "rate limited, try again shortly"}}
+        good = self._resp_ok_static()
+        with mock.patch("requests.post", side_effect=[busy, good]), mock.patch("time.sleep") as sleep:
+            out = D._post_once("prompt", KEY, D.DEFAULT_MODEL, {"type": "OBJECT"}, 30, max_retries=2, base_delay=1.0, scrub=str)
+        self.assertEqual(out, {"candidates": [{"content": {"parts": [{"text": "{}"}]}}]})
+        self.assertEqual(sleep.call_count, 1)
+
+    @staticmethod
+    def _resp_ok_static():
+        resp = mock.Mock(status_code=200)
+        resp.raise_for_status.return_value = None
+        resp.json.return_value = {"candidates": [{"content": {"parts": [{"text": "{}"}]}}]}
+        return resp
+
+
 class VerifySample(unittest.TestCase):
     def test_sample_is_reproducible_and_never_exceeds_the_pool(self):
         entries = [{"kind": "reported", "metric": "revenue", "segment": "total", "stat": "level", "unit": "USD",

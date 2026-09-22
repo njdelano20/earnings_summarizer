@@ -48,7 +48,9 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:ge
 # "-latest" aliases keep pointing at whatever Google currently serves, so this does not go stale the way a pinned
 # version does (gemini-2.0-flash 404'd within this project's lifetime). List what your key can use with:
 #   py draft_gold.py --list-models
-DEFAULT_MODEL = "gemini-flash-latest"
+# Prefer the lite alias: the full "-latest" flash model's free tier can be as low as 20 requests/DAY (hit in
+# practice) -- a lite model is a separate quota pool, usually more generous, and still an alias that self-updates.
+DEFAULT_MODEL = "gemini-flash-lite-latest"
 
 _KINDS = ["reported", "guidance"]
 _STATS = ["level", "growth", "change"]
@@ -73,6 +75,26 @@ _FEW_SHOT = [
 
 class GeminiError(RuntimeError):
     """Gemini answered, but with an error, or not in the shape expected."""
+
+
+class QuotaExhaustedError(GeminiError):
+    """The free tier's PER-DAY quota for this specific model is used up. Retrying now cannot help -- the daily
+    quota does not refill on a short timer the way a per-minute rate limit does -- so the caller should stop
+    immediately rather than retry or try a schema-less fallback against the same model."""
+
+
+def _quota_is_daily(resp) -> bool:
+    """True if a 429 response is specifically a per-day quota violation (not a short-lived per-minute limit)."""
+    try:
+        body = resp.json()
+    except ValueError:
+        return False
+    violations = (body.get("error", {}).get("details") or [{}])
+    for d in violations:
+        for v in d.get("violations", []):
+            if "PerDay" in (v.get("quotaId") or ""):
+                return True
+    return "per day" in json.dumps(body).lower()
 
 
 def _scrub(text: str, key: str | None) -> str:
@@ -225,6 +247,11 @@ def _post_once(prompt: str, api_key: str, model: str, schema: dict | None, timeo
                   f"({attempt + 1}/{max_retries})...", file=sys.stderr)
             time.sleep(delay)
             continue
+        if resp.status_code == 429 and _quota_is_daily(resp):
+            raise QuotaExhaustedError(
+                f"The free-tier daily quota for model {model!r} is used up. This will not recover with a retry "
+                f"(it is a per-day limit, not a short rate limit) -- try again tomorrow, or pass --model with a "
+                f"different model (a lite variant has a separate quota; see --list-models).")
         if resp.status_code in _RETRYABLE_STATUS and attempt < max_retries:
             delay = base_delay * 2 ** attempt
             print(f"Gemini returned {resp.status_code} (temporary, likely just overloaded); retrying in {delay:.0f}s "
@@ -282,6 +309,8 @@ def call_gemini(prompt: str, schema: dict, api_key: str, model: str, timeout: in
 
     try:
         data = _post_once(prompt, api_key, model, schema, timeout, max_retries, base_delay, scrub)
+    except QuotaExhaustedError:
+        raise  # the fallback would hit the identical per-model daily quota: no point spending it too
     except GeminiError as structured_exc:
         print(f"Structured-output request failed ({structured_exc}); retrying without response-schema "
               f"enforcement...", file=sys.stderr)

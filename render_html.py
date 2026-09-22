@@ -318,11 +318,22 @@ JS = """
 """
 
 
+def _find_snapshots() -> dict[str, Path]:
+    """{stem: snapshot path}, across output/*_snapshot.json (py main.py) and every output/batch/<season>/calls/
+    (py batch.py). The same call can exist in both (or in more than one season's batch run); the newest file wins,
+    so a rescore after an extractor change is reflected without needing to touch this script."""
+    found: dict[str, Path] = {}
+    for snap_path in list(OUT.glob("*_snapshot.json")) + list(OUT.glob("batch/*/calls/*_snapshot.json")):
+        stem = snap_path.name[: -len("_snapshot.json")]
+        if stem not in found or snap_path.stat().st_mtime > found[stem].stat().st_mtime:
+            found[stem] = snap_path
+    return found
+
+
 def main() -> int:
     calls = []
-    for snap_path in sorted(OUT.glob("*_snapshot.json")):
-        stem = snap_path.name[: -len("_snapshot.json")]
-        facts_path = OUT / f"{stem}_facts.json"
+    for stem, snap_path in sorted(_find_snapshots().items()):
+        facts_path = snap_path.with_name(f"{stem}_facts.json")
         if not facts_path.exists():
             continue
         snap = json.loads(snap_path.read_text(encoding="utf-8"))
@@ -330,7 +341,7 @@ def main() -> int:
         gold = (ROOT / "gold" / "snapshot" / f"{stem}.json").exists()
         calls.append((stem, snap, facts_result, gold))
     if not calls:
-        print("No snapshots in output/. Run py main.py first.")
+        print("No snapshots found in output/ or output/batch/*/calls/. Run py main.py or py batch.py first.")
         return 1
     calls.sort(key=lambda c: (c[3], c[0]))            # calls nothing was tuned on first
     tabs = "".join(f'<button class="tab" role="tab" data-call="{esc(k)}" aria-selected="false">{esc(call_title(s["meta"]))}'

@@ -100,9 +100,12 @@ def headline_scoreboard_chart(metrics: list[dict], title: str, out_path: Path) -
     """metrics: [{"label": "Revenue", "value": "$109.40B", "delta": "+16% yoy", "good": True,
     "beat": "Beat by 0.4%", "beat_good": True, "guidance": "Sept guide: 9-11% (Street: +10.9%)"},
     ...]. `delta`/`good` (yoy or qoq change), `beat`/`beat_good` (vs. analyst consensus), and
-    `guidance` (next quarter's guided range for this metric, when AAPL actually guides it) are
-    all optional and independent -- a metric with nothing real to show for one of them just
-    leaves that line out entirely, never a placeholder like "n/a" or "not estimated". A wide,
+    `guidance` (forward-looking line for next period) are all optional and independent -- a
+    metric with nothing real to show for one of them just leaves that line out entirely, never
+    a placeholder like "n/a" or "not estimated". `guidance` prefers the company's own stated
+    guide when one exists (e.g. AAPL guides revenue growth and gross margin directly); when it
+    doesn't (AAPL never guides EPS itself), fall back to the analyst consensus estimate for that
+    period instead, labeled "Street ..." so it's never mistaken for a company guide. A wide,
     short banner -- meant to span the full page width, not sit in a half-width column."""
     n = len(metrics)
     fig, axes = plt.subplots(1, n, figsize=(3.1 * n, 2.7), dpi=150)

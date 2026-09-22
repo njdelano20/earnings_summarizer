@@ -155,6 +155,7 @@ def _response_schema(metric_names: list[str]) -> dict:
 def build_prompt(transcript, metrics: dict[str, str]) -> str:
     metric_lines = "\n".join(f'  {name}: matches phrasing like "{pattern}"' for name, pattern in sorted(metrics.items()))
     examples = "\n".join(json.dumps(e) for e in _FEW_SHOT)
+    quantity_only = ", ".join(sorted(QUANTITY_ONLY_METRICS & set(metrics))) or "(none for this call)"
     return f"""You are drafting a GOLD ANSWER KEY for a fact-extraction system that reads earnings-call transcripts. \
 Read ONLY the transcript at the end of this prompt. Do not use any outside knowledge about this company. List every \
 quantitative claim management makes about the business -- both reported results and forward guidance -- as one JSON \
@@ -191,6 +192,11 @@ Rules:
   * A number that is a comparison point ("up from $X a year ago") or an industry/market statistic (not this specific
     company's own result) is not a fact to include.
   * If the same fact is stated more than once (e.g. by both the CEO and the CFO), include it only once.
+  * These metrics are PHYSICAL QUANTITIES (barrels, cubic feet, subscribers, units, megawatts, transactions, ...),
+    never a dollar amount: {quantity_only}. For these, only report a GROWTH RATE (stat="growth", unit="pct") if the
+    call states one. NEVER invent a "level" value in USD for one of these -- there is no dollar-based way to state
+    a physical quantity, so guessing one is always wrong. If the call states an absolute count for one of these with
+    no percent change, add a short note about it to "unmapped" instead of forcing a unit that does not fit.
 
 Transcript (management speech only):
 ---
@@ -319,8 +325,22 @@ def call_gemini(prompt: str, schema: dict, api_key: str, model: str, timeout: in
     return _extract_json(data, scrub)
 
 
+# Metrics whose real-world unit is a physical quantity (barrels/day, cubic feet/day, subscriber counts, unit
+# shipments, megawatts, transaction counts, ...) that the schema's unit enum (USD/USD_per_share/pct/bps/pp) cannot
+# represent. Found in practice (HESM draft, 2026-09-22): asked for "throughput", the schema forced a USD unit, and
+# the model invented a dollar figure for "121,000 barrels of water per day" that the call never stated -- a fact
+# that passed both the metric-in-vocabulary and where-verbatim checks, because neither one looks at whether the
+# VALUE makes sense. A "level" in USD/USD_per_share for one of these is always wrong until facts.py gains a real
+# quantity figure type; only a growth rate (stat="growth", unit="pct") is trustworthy for them today.
+QUANTITY_ONLY_METRICS = {
+    "production", "reserves", "throughput", "customers_served", "generating_capacity", "generation", "subscribers",
+    "net_adds", "units_shipped", "unit_count", "deliveries", "vehicle_production", "capacity", "shipment_volume",
+    "volumes_sold", "procedure_volume", "installed_base", "membership", "admissions", "units", "processed_transactions",
+}
+
+
 def filter_entries(raw_expected: list[dict], metrics: dict[str, str], text_lower: str) -> tuple[list[dict], list[dict]]:
-    """(kept, rejected). Every kept entry passed both automatic checks; every rejected one carries why."""
+    """(kept, rejected). Every kept entry passed all automatic checks; every rejected one carries why."""
     kept, rejected = [], []
     for e in raw_expected:
         where = (e.get("where") or "").strip()
@@ -329,6 +349,11 @@ def filter_entries(raw_expected: list[dict], metrics: dict[str, str], text_lower
             reason = f"metric {e.get('metric')!r} is not in this call's vocabulary"
         elif not where or where.lower() not in text_lower:
             reason = "'where' phrase not found verbatim in the transcript (likely paraphrased or hallucinated)"
+        elif e.get("metric") in QUANTITY_ONLY_METRICS and e.get("unit") in ("USD", "USD_per_share") \
+                and e.get("stat") != "growth":
+            reason = (f"{e.get('metric')!r} is a physical quantity, not a dollar figure -- the model was forced "
+                      f"into unit={e.get('unit')!r} by the schema and likely invented the value (see "
+                      f"QUANTITY_ONLY_METRICS); wait for a real quantity figure type")
         if reason:
             rejected.append({**e, "_rejected_reason": reason})
         else:

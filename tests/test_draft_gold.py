@@ -105,6 +105,22 @@ class Filtering(unittest.TestCase):
             self.metrics, self.text_lower)
         self.assertEqual(len(kept), 1)
 
+    def test_a_physical_quantity_forced_into_usd_is_rejected(self):
+        # the real 2026-09-22 incident: "121,000 barrels of water per day" came back as {"unit": "USD", "value": 121000}
+        entry = {"kind": "reported", "metric": "throughput", "segment": "total", "stat": "level", "unit": "USD",
+                 "value": 121000, "where": "121,000 barrels of water per day for water gathering"}
+        kept, rejected = D.filter_entries([entry], self.metrics, self.text_lower)
+        self.assertEqual(kept, [])
+        self.assertEqual(len(rejected), 1)
+        self.assertIn("physical quantity", rejected[0]["_rejected_reason"])
+
+    def test_a_quantity_only_metric_reported_as_a_growth_rate_is_still_kept(self):
+        entry = {"kind": "reported", "metric": "throughput", "segment": "total", "stat": "growth", "unit": "pct",
+                 "value": 5, "where": "net income was $174 million"}          # any verbatim phrase for this test
+        kept, rejected = D.filter_entries([entry], self.metrics, self.text_lower)
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(rejected, [])
+
 
 class EndToEndMocked(unittest.TestCase):
     """draft() with requests.post mocked to return a Gemini-shaped response -- no real network call."""

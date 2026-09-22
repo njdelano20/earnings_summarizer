@@ -99,26 +99,31 @@ def _save(fig, out_path: Path) -> Path:
 def headline_scoreboard_chart(metrics: list[dict], title: str, out_path: Path) -> Path:
     """metrics: [{"label": "Revenue", "value": "$109.40B", "delta": "+16% yoy", "good": True}, ...]
     `delta`/`good` are optional (None when no comparison is available yet, e.g. no prior-quarter
-    guidance in the gold set) -- a tile with no delta just shows the value, never a fabricated one."""
+    guidance in the gold set) -- a tile with no delta just shows the value, never a fabricated one.
+    A wide, short banner -- meant to span the full page width, not sit in a half-width column."""
     n = len(metrics)
-    fig, axes = plt.subplots(1, n, figsize=(2.4 * n, 2.6), dpi=150)
+    fig, axes = plt.subplots(1, n, figsize=(3.1 * n, 2.0), dpi=150)
     fig.patch.set_facecolor(SURFACE)
     if n == 1:
         axes = [axes]
-    for ax, m in zip(axes, metrics):
+    for i, (ax, m) in enumerate(zip(axes, metrics)):
         ax.set_facecolor(SURFACE)
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
         ax.axis("off")
-        ax.text(0.5, 0.78, m["label"], ha="center", va="center", fontsize=11,
-                color=INK_SECONDARY, transform=ax.transAxes)
-        ax.text(0.5, 0.48, m["value"], ha="center", va="center", fontsize=20,
-                color=INK_PRIMARY, fontweight="bold", transform=ax.transAxes)
+        if i > 0:
+            ax.axvline(-0.06, ymin=0.08, ymax=0.92, color=GRIDLINE, linewidth=1, clip_on=False)
+        ax.text(0.5, 0.82, m["label"], ha="center", va="center", fontsize=12, color=INK_SECONDARY)
+        ax.text(0.5, 0.46, m["value"], ha="center", va="center", fontsize=24,
+                color=INK_PRIMARY, fontweight="bold")
         delta = m.get("delta")
         if delta:
             good = m.get("good")
             color = STATUS_GOOD if good else STATUS_CRITICAL if good is False else INK_MUTED
-            ax.text(0.5, 0.18, delta, ha="center", va="center", fontsize=10.5,
-                    color=color, fontweight="bold", transform=ax.transAxes)
-    fig.suptitle(title, fontsize=13, color=INK_PRIMARY, x=0.02, ha="left", fontweight="bold")
+            ax.text(0.5, 0.12, delta, ha="center", va="center", fontsize=12,
+                    color=color, fontweight="bold")
+    fig.suptitle(title, fontsize=14, color=INK_PRIMARY, x=0.015, ha="left", fontweight="bold", y=1.04)
+    fig.subplots_adjust(wspace=0.05)
     return _save(fig, out_path)
 
 
@@ -128,7 +133,7 @@ def headline_scoreboard_chart(metrics: list[dict], title: str, out_path: Path) -
 
 def segment_revenue_chart(segments: list[dict], title: str, out_path: Path) -> Path:
     """segments: [{"name": "iPhone", "revenue_b": 54.3, "yoy_pct": 22}, ...]"""
-    fig, ax = _new_fig(figsize=(9, 5.2))
+    fig, ax = _new_fig(figsize=(8.5, 7.5))
     names = [s["name"] for s in segments]
     values = [s["revenue_b"] for s in segments]
     colors = [STATUS_GOOD if s["yoy_pct"] >= 0 else STATUS_CRITICAL for s in segments]

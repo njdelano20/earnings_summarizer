@@ -39,9 +39,10 @@ code { background: #f2f1ec; padding: 1px 5px; border-radius: 3px; font-size: 0.8
 em { color: #52514e; }
 hr { border: none; border-top: 1px solid #e1e0d9; margin: 2.5em 0; }
 .section-row { display: flex; gap: 32px; align-items: flex-start; margin-top: 12px; }
-.section-row > .chart-col { flex: 0 0 46%; }
+.section-row > .chart-col { flex: 0 0 52%; }
 .section-col { flex: 1 1 auto; min-width: 0; }
 .section-full { margin-top: 12px; }
+.section-full.banner img { width: 100%; }
 @media (max-width: 860px) { .section-row { flex-direction: column; } .section-row > .chart-col { flex-basis: auto; } }
 """
 
@@ -86,7 +87,8 @@ def render(md_path: Path) -> str:
                 continue
             rest.append(el)
 
-        if img is not None:
+        has_text = any(el.get_text(strip=True) for el in rest) if rest else False
+        if img is not None and has_text:
             row = out.new_tag("div", **{"class": "section-row"})
             chart_col = out.new_tag("div", **{"class": "chart-col"})
             chart_col.append(img)
@@ -96,6 +98,12 @@ def render(md_path: Path) -> str:
             row.append(chart_col)
             row.append(text_col)
             out.append(row)
+        elif img is not None:
+            # no other content in this section -- a full-width banner, not a two-column row
+            # with an empty second half (e.g. the headline scoreboard, chart-only by design)
+            wrap = out.new_tag("div", **{"class": "section-full banner"})
+            wrap.append(img)
+            out.append(wrap)
         else:
             wrap = out.new_tag("div", **{"class": "section-full"})
             for el in rest:

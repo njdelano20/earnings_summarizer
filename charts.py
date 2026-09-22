@@ -98,13 +98,14 @@ def _save(fig, out_path: Path) -> Path:
 
 def headline_scoreboard_chart(metrics: list[dict], title: str, out_path: Path) -> Path:
     """metrics: [{"label": "Revenue", "value": "$109.40B", "delta": "+16% yoy", "good": True,
-    "beat": "Beat by 0.4%", "beat_good": True}, ...]. `delta`/`good` (yoy or qoq change) and
-    `beat`/`beat_good` (vs. analyst consensus, when a real estimate exists -- e.g. no consensus
-    field exists for gross margin or operating cash flow, so those tiles just omit it rather
-    than invent one) are both optional and independent. A wide, short banner -- meant to span
-    the full page width, not sit in a half-width column."""
+    "beat": "Beat by 0.4%", "beat_good": True, "guidance": "Sept guide: 9-11% (Street: +10.9%)"},
+    ...]. `delta`/`good` (yoy or qoq change), `beat`/`beat_good` (vs. analyst consensus), and
+    `guidance` (next quarter's guided range for this metric, when AAPL actually guides it) are
+    all optional and independent -- a metric with nothing real to show for one of them just
+    leaves that line out entirely, never a placeholder like "n/a" or "not estimated". A wide,
+    short banner -- meant to span the full page width, not sit in a half-width column."""
     n = len(metrics)
-    fig, axes = plt.subplots(1, n, figsize=(3.1 * n, 2.3), dpi=150)
+    fig, axes = plt.subplots(1, n, figsize=(3.1 * n, 2.7), dpi=150)
     fig.patch.set_facecolor(SURFACE)
     if n == 1:
         axes = [axes]
@@ -114,22 +115,26 @@ def headline_scoreboard_chart(metrics: list[dict], title: str, out_path: Path) -
         ax.set_ylim(0, 1)
         ax.axis("off")
         if i > 0:
-            ax.axvline(-0.06, ymin=0.05, ymax=0.95, color=GRIDLINE, linewidth=1, clip_on=False)
-        ax.text(0.5, 0.86, m["label"], ha="center", va="center", fontsize=12, color=INK_SECONDARY)
-        ax.text(0.5, 0.56, m["value"], ha="center", va="center", fontsize=23,
+            ax.axvline(-0.06, ymin=0.04, ymax=0.96, color=GRIDLINE, linewidth=1, clip_on=False)
+        ax.text(0.5, 0.89, m["label"], ha="center", va="center", fontsize=12, color=INK_SECONDARY)
+        ax.text(0.5, 0.66, m["value"], ha="center", va="center", fontsize=22,
                 color=INK_PRIMARY, fontweight="bold")
         delta = m.get("delta")
         if delta:
             good = m.get("good")
             color = STATUS_GOOD if good else STATUS_CRITICAL if good is False else INK_MUTED
-            ax.text(0.5, 0.30, delta, ha="center", va="center", fontsize=11.5,
+            ax.text(0.5, 0.45, delta, ha="center", va="center", fontsize=11.5,
                     color=color, fontweight="bold")
         beat = m.get("beat")
         if beat:
             beat_good = m.get("beat_good")
             color = STATUS_GOOD if beat_good else STATUS_CRITICAL if beat_good is False else INK_MUTED
-            ax.text(0.5, 0.09, beat, ha="center", va="center", fontsize=10.5, color=color)
-    fig.suptitle(title, fontsize=14, color=INK_PRIMARY, x=0.015, ha="left", fontweight="bold", y=1.03)
+            ax.text(0.5, 0.27, beat, ha="center", va="center", fontsize=10.5, color=color)
+        guidance = m.get("guidance")
+        if guidance:
+            ax.text(0.5, 0.06, guidance, ha="center", va="center", fontsize=9.5,
+                    color=INK_MUTED, style="italic")
+    fig.suptitle(title, fontsize=14, color=INK_PRIMARY, x=0.015, ha="left", fontweight="bold", y=1.02)
     fig.subplots_adjust(wspace=0.05)
     return _save(fig, out_path)
 
@@ -264,13 +269,13 @@ def balance_sheet_chart(cash_b: float, debt_b: float, net_b: float, title: str, 
 def _demo() -> None:
     headline_scoreboard_chart(
         [{"label": "Revenue", "value": "$109.4B", "delta": "+16% yoy", "good": True,
-          "beat": "Beat consensus by +0.4%", "beat_good": True},
+          "beat": "Beat consensus by +0.4%", "beat_good": True,
+          "guidance": "Sept guide: +9-11% yoy (Street: +10.9%)"},
          {"label": "EPS", "value": "$2.02", "delta": "+29% yoy", "good": True,
           "beat": "Beat consensus by +6.7%", "beat_good": True},
          {"label": "Gross margin", "value": "50.1%", "delta": "+80 bps qoq", "good": True,
-          "beat": "No consensus estimate", "beat_good": None},
-         {"label": "Operating cash flow", "value": "$34.4B", "delta": None, "good": None,
-          "beat": "Not analyst-estimated", "beat_good": None}],
+          "guidance": "Sept guide: 47-48%"},
+         {"label": "Operating cash flow", "value": "$34.4B", "delta": None, "good": None}],
         "AAPL Q3 2026 (June quarter) -- Headline scoreboard",
         DOCS / "sample_AAPL_Q3_2026_scoreboard.png")
 

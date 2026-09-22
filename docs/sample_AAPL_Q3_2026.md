@@ -90,24 +90,7 @@ a fresh decision to sell. The exception is Director Arthur Levinson, whose
 $86.7M sale has no corresponding equity award that quarter, making it the more
 standalone data point. No insider bought shares on the open market this quarter.
 
-## 6. Forward guidance
-
-| Metric | Guided (September qtr) | Analyst consensus | vs. consensus |
-|---|---|---|---|
-| Revenue growth (yoy) | 9% to 11% | +10.9% ($113.62B est.) | At top of range |
-| Gross margin | 47% to 48% | — (no consensus field) | — |
-| Operating expenses | $19.10B to $19.40B | — | — |
-| Tax rate | ~16.5% | — | — |
-| FX impact on revenue | ~2.5 pp unfavorable | — | — |
-
-Revenue is the one line with a real Street number to check against: analysts already
-expected +10.9% yoy growth (implied by their $113.62B consensus vs. last September
-quarter's actual $102.47B) — right at the top of AAPL's own 9-11% guided range. That
-reads as guidance roughly confirming what was already priced in, not a clear raise or
-lower. No consensus exists for margin, opex, tax rate, or FX impact, so those rows
-are left blank rather than guessed.
-
-## 7. Competitive environment
+## 6. Competitive environment
 
 AAPL reported IDC-sourced share gains in both iPhone and Mac this quarter —
 third-party data, directional rather than precise. On Mac, roughly half of
@@ -117,7 +100,7 @@ distant third choice. If it holds across future quarters, it points to Mac's
 competitive position genuinely strengthening there; one quarter isn't enough to
 call it a durable trend yet.
 
-## 8. Product development
+## 7. Product development
 
 - **Siri AI rebuild** — a from-scratch redesign integrated across Apple's
   platforms. The most consequential software item this quarter: Siri's AI
@@ -135,7 +118,7 @@ call it a durable trend yet.
   Apple's U.S. manufacturing program. A supply-chain move, not a completed
   acquisition (see Capital allocation).
 
-## 9. Macro / regulatory
+## 8. Macro / regulatory
 
 - **Tariffs** — a net tailwind this quarter ($0.11/sh EPS benefit, ~2pp gross
   margin benefit), guided to shrink to ~1pp next quarter. Fading, not a new

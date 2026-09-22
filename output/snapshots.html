@@ -19,7 +19,7 @@ h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mu
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:12px 0;margin-inline:-16px;padding-inline:16px}
 .top .wrap{display:flex;flex-wrap:wrap;align-items:end;gap:6px 24px}
 .brand{font-weight:600;font-size:.95rem;padding-bottom:10px;color:var(--muted)}
-.tabs{display:flex;gap:2px;flex-wrap:wrap}
+.tabs{display:flex;gap:2px;flex-wrap:wrap;max-height:136px;overflow-y:auto;padding-right:2px}
 .tab{appearance:none;border:0;background:none;font:inherit;color:var(--muted);padding:9px 14px;border-bottom:3px solid transparent;cursor:pointer;font-weight:500}
 .tab[aria-selected="true"]{color:var(--text);border-bottom-color:var(--accent)}.tab:hover{color:var(--text)}
 .tab small{display:block;font-size:.68rem;font-weight:400;color:var(--muted)}
@@ -38,7 +38,7 @@ th,td{padding:7px 12px;border-bottom:1px solid var(--line);vertical-align:top}tb
 .p-neu{color:var(--neu);background:var(--neu-bg)}.p-acc{color:var(--accent);background:var(--surface2)}
 .bar{display:inline-flex;width:88px;height:8px;border-radius:99px;overflow:hidden;background:var(--surface2);vertical-align:middle}
 .b-conf{background:var(--accent)}.b-caut{background:var(--mix)}
-.filters{position:sticky;top:calc(env(safe-area-inset-top,0px) + 50px);z-index:4;display:flex;flex-wrap:wrap;gap:6px;align-items:center;background:var(--bg);padding-block:8px;border-bottom:1px solid var(--line)}
+.filters{position:sticky;top:calc(env(safe-area-inset-top,0px) + 148px);z-index:4;display:flex;flex-wrap:wrap;gap:6px;align-items:center;background:var(--bg);padding-block:8px;border-bottom:1px solid var(--line)}
 .filters .lbl{font-size:.75rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-right:4px}
 .fchip{appearance:none;font:inherit;font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:99px;padding:3px 12px;cursor:pointer}
 .fchip[aria-pressed="false"]{color:var(--muted);text-decoration:line-through;background:transparent}

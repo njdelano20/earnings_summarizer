@@ -17,11 +17,17 @@ not out yet is retried later, a rate limit stops the run cleanly, and one bad sy
 in data/raw/alphavantage/ cost nothing.
 
 Everything lands in output/batch/<season>/ :
-    calls/<CALL>_facts.json, _snapshot.md/.json, _score.json      the pipeline's outputs for each call
+    calls/<CALL>_facts.json, _snapshot.md/.json, _score.json, _sec.json   the pipeline's outputs for each call
     scorecard.csv / .json      one row per symbol: how many facts, how many verified, how many figures went unclaimed,
-                               period check, checks, gold result if a gold file exists, and `db_eligible`
+                               period check, checks, SEC cross-check counts, gold result if a gold file exists, and
+                               `db_eligible`
     review_queue.csv           every non-high-confidence fact and every figure the extractor could not attach to a metric,
                                each with its source sentence: the to-do list for a human (or a short Claude session)
+    sec_checks.csv             every headline metric checked against SEC EDGAR's filed XBRL figures (revenue, net
+                               income, operating income, gross profit, EPS): pass / warn (a real mismatch) /
+                               unlabeled_accounting_basis (the numbers differ but the extracted figure isn't
+                               confirmed GAAP, so it may just be the company's own non-GAAP figure -- see
+                               sec_edgar.py) / no_data (no filing yet, or no CIK on file)
     audit_sample.csv           a few random high-confidence facts per call; fill in the `verdict` column (ok / wrong)
     state.json, summary.md     per-symbol status (ok / no_transcript / rate_limited / error) and a readable summary
 plus output/batch/scorecard_all.csv (every season) and batch.log.
@@ -46,6 +52,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 import periods
+import sec_edgar
 from evaluate import evaluate, evaluate_snapshot, facts_ok, snapshot_ok
 from facts import extract_facts
 from fetchers import AlphaVantageError, NoTranscriptError, fetch_from_alphavantage, scrub_secrets
@@ -64,9 +71,11 @@ SCORE_COLUMNS = [
     "words", "facts", "high", "medium", "low", "unverified", "verified_pct", "unclaimed_figures", "claimed_share",
     "conflicts", "checks_failed", "checks_warn", "period_check", "signals", "selected", "trajectory_rows",
     "snapshot_checks_failed", "snapshot_checks_warn", "registry", "unmapped_segments", "gold_facts", "gold_snapshot",
-    "db_eligible", "attention"]
+    "sec_pass", "sec_warn", "sec_ambiguous", "sec_no_data", "db_eligible", "attention"]
 REVIEW_COLUMNS = ["symbol", "season", "kind", "fact_id", "metric", "segment", "stat", "value", "period", "confidence",
                   "flags_or_reason", "section", "speaker", "sentence"]
+SEC_COLUMNS = ["symbol", "season", "metric", "status", "extracted", "sec_value", "sec_form", "sec_period_end",
+              "fact_id", "detail"]
 AUDIT_COLUMNS = ["symbol", "season", "fact_id", "metric", "segment", "stat", "value", "period", "confidence", "section",
                  "speaker", "sentence", "verdict", "note"]
 
@@ -243,6 +252,13 @@ def gold_status(stem: str) -> tuple[str, str]:
     return out[0], out[1]
 
 
+def sec_check_rows(symbol: str, season: str, checks: list[dict]) -> list[dict]:
+    return [{"symbol": symbol, "season": season, "metric": c["name"].removeprefix("sec_xbrl[").removesuffix("]"),
+            "status": c["status"], "extracted": c.get("extracted", ""), "sec_value": c.get("sec_value", ""),
+            "sec_form": c.get("sec_form", ""), "sec_period_end": c.get("sec_period_end", ""),
+            "fact_id": c.get("fact_id", ""), "detail": c["detail"]} for c in checks]
+
+
 def attention_flags(row: dict) -> list[str]:
     flags = []
     if row["period_check"] == "warn":
@@ -263,15 +279,20 @@ def attention_flags(row: dict) -> list[str]:
         flags.append("assumed_calendar_year")
     if "fail" in (row["gold_facts"], row["gold_snapshot"]):
         flags.append("gold_fail")
+    if row["sec_warn"]:
+        flags.append("sec_mismatch")
     return flags
 
 
-def score_call(symbol: str, season: str, cq, item: dict, transcript, result: dict, snapshot: dict, check: dict) -> dict:
+def score_call(symbol: str, season: str, cq, item: dict, transcript, result: dict, snapshot: dict, check: dict,
+              sec_checks: list[dict]) -> dict:
     stats, sstats = result["stats"], snapshot["stats"]
     by_conf = stats["by_confidence"]
     n, unclaimed = stats["facts"], stats["unclaimed_figures"]
     stem = Path(item["filename"]).stem
     gold_f, gold_s = gold_status(stem)
+    from collections import Counter
+    sec_by_status = Counter(c["status"] for c in sec_checks)
     row = {
         "symbol": symbol, "season": season, "status": "ok", "detail": "", "fiscal_label": cq.fiscal_label,
         "period_end": f"{cq.period_end_year}-{cq.period_end_month:02d}",
@@ -289,9 +310,12 @@ def score_call(symbol: str, season: str, cq, item: dict, transcript, result: dic
         "registry": "curated" if snapshot["coverage"]["registry"] == "curated" else "auto",
         "unmapped_segments": len(snapshot["coverage"]["unmapped_fact_segments"]),
         "gold_facts": gold_f, "gold_snapshot": gold_s,
+        "sec_pass": sec_by_status.get("pass", 0), "sec_warn": sec_by_status.get("warn", 0),
+        "sec_ambiguous": sec_by_status.get("unlabeled_accounting_basis", 0), "sec_no_data": sec_by_status.get("no_data", 0),
     }
     row["db_eligible"] = bool(check["status"] == "pass" and row["unverified"] == 0 and row["checks_failed"] == 0
-                              and row["snapshot_checks_failed"] == 0 and "fail" not in (gold_f, gold_s) and n > 0)
+                              and row["snapshot_checks_failed"] == 0 and "fail" not in (gold_f, gold_s) and n > 0
+                              and row["sec_warn"] == 0)
     row["attention"] = "; ".join(attention_flags(row))
     return row
 
@@ -353,8 +377,9 @@ def append_audit(folder: Path, symbol: str, season: str, result: dict, per_call:
 
 
 def rebuild_season(folder: Path, season: str, state: dict) -> tuple[list[dict], list[dict]]:
-    """Regenerate scorecard / review queue / summary from the per-call files, so partial runs never leave them stale."""
-    score_rows, queue = [], []
+    """Regenerate scorecard / review queue / SEC checks / summary from the per-call files, so partial runs never
+    leave them stale."""
+    score_rows, queue, sec_rows = [], [], []
     for symbol, entry in sorted(state["symbols"].items()):
         stem = entry.get("stem")
         score_path = folder / "calls" / f"{stem}_score.json" if stem else None
@@ -363,12 +388,16 @@ def rebuild_season(folder: Path, season: str, state: dict) -> tuple[list[dict], 
             facts_path = folder / "calls" / f"{stem}_facts.json"
             if facts_path.exists():
                 queue += review_rows(symbol, season, json.loads(facts_path.read_text(encoding="utf-8")))
+            sec_path = folder / "calls" / f"{stem}_sec.json"
+            if sec_path.exists():
+                sec_rows += sec_check_rows(symbol, season, json.loads(sec_path.read_text(encoding="utf-8")))
         else:
             score_rows.append(blank_row(symbol, season, entry))
     folder.mkdir(parents=True, exist_ok=True)
     _write_csv(folder / "scorecard.csv", SCORE_COLUMNS, score_rows)
     (folder / "scorecard.json").write_text(json.dumps(score_rows, indent=1, ensure_ascii=False), encoding="utf-8")
     _write_csv(folder / "review_queue.csv", REVIEW_COLUMNS, queue)
+    _write_csv(folder / "sec_checks.csv", SEC_COLUMNS, sec_rows)
     _write_summary(folder, season, score_rows, len(queue))
     return score_rows, queue
 
@@ -415,6 +444,19 @@ def _write_summary(folder: Path, season: str, rows: list[dict], queue_len: int) 
 # running
 # --------------------------------------------------------------------------- #
 
+def _sec_checks_for(symbol: str, cq, result: dict) -> list[dict]:
+    """Cross-check the call's headline figures against SEC EDGAR's filed XBRL data. Never raises: SEC EDGAR being
+    unreachable, a symbol with no CIK on file, or any other problem here must never fail the whole batch run --
+    it just means no SEC data for this call, same as periods.py's own checks degrade gracefully."""
+    import calendar
+    last_day = calendar.monthrange(cq.period_end_year, cq.period_end_month)[1]
+    approx_end = date(cq.period_end_year, cq.period_end_month, last_day)   # periods.py tracks no exact day
+    try:
+        return sec_edgar.check_against_sec(result, symbol, approx_end)
+    except Exception as exc:                            # noqa: BLE001 -- deliberately broad, see docstring
+        return [{"name": "sec_xbrl", "status": "no_data", "detail": f"{type(exc).__name__}: {exc}"}]
+
+
 def run_call(symbol: str, season: str, folder: Path, audit_per_call: int) -> dict:
     """Fetch (or read from the cache), extract, snapshot, write, score. Raises on any problem."""
     cq = periods.resolve(symbol, season)
@@ -429,8 +471,11 @@ def run_call(symbol: str, season: str, folder: Path, audit_per_call: int) -> dic
     write_snapshot(item["filename"], snapshot, result, str(calls))
     import annotate                       # imported here because annotate imports helpers from this module
     annotate.write_page(transcript, result, calls)          # the readable, UNCHECKED page for this call
-    row = score_call(symbol, season, cq, item, transcript, result, snapshot, check)
+    sec_checks = _sec_checks_for(symbol, cq, result)
     stem = Path(item["filename"]).stem
+    calls.mkdir(parents=True, exist_ok=True)
+    (calls / f"{stem}_sec.json").write_text(json.dumps(sec_checks, indent=1, ensure_ascii=False), encoding="utf-8")
+    row = score_call(symbol, season, cq, item, transcript, result, snapshot, check, sec_checks)
     (calls / f"{stem}_score.json").write_text(json.dumps(row, indent=1, ensure_ascii=False), encoding="utf-8")
     append_audit(folder, symbol, season, result, audit_per_call)
     row["_stem"] = stem

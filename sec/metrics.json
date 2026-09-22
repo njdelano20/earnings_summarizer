@@ -21,6 +21,22 @@
                     "concepts": ["RepaymentsOfLongTermDebt", "RepaymentsOfNotesPayable", "RepaymentsOfDebt"]},
     "acquisitions": {"kind": "duration", "unit": "USD",
                      "concepts": ["PaymentsToAcquireBusinessesNetOfCashAcquired",
-                                  "PaymentsToAcquireBusinessesGross"]}
+                                  "PaymentsToAcquireBusinessesGross"]},
+    "dividends_paid": {"kind": "duration", "unit": "USD",
+                       "concepts": ["PaymentsOfDividends", "PaymentsOfDividendsCommonStock"]},
+    "buybacks": {"kind": "duration", "unit": "USD",
+                "concepts": ["PaymentsForRepurchaseOfCommonStock"]},
+    "debt_maturity_1y": {"kind": "instant", "unit": "USD",
+                         "concepts": ["LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths"]},
+    "debt_maturity_2y": {"kind": "instant", "unit": "USD",
+                         "concepts": ["LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo"]},
+    "debt_maturity_3y": {"kind": "instant", "unit": "USD",
+                         "concepts": ["LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree"]},
+    "debt_maturity_4y": {"kind": "instant", "unit": "USD",
+                         "concepts": ["LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour"]},
+    "debt_maturity_5y": {"kind": "instant", "unit": "USD",
+                         "concepts": ["LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive"]},
+    "debt_maturity_after_5y": {"kind": "instant", "unit": "USD",
+                               "concepts": ["LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive"]}
   }
 }

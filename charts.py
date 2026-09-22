@@ -189,9 +189,20 @@ def capital_allocation_chart(uses: dict[str, float], title: str, out_path: Path)
 # 4. balance sheet snapshot -- cash/debt are neutral categories; net position is status-colored
 # --------------------------------------------------------------------------- #
 
-def balance_sheet_chart(cash_b: float, debt_b: float, net_b: float, title: str,
-                        out_path: Path) -> Path:
-    fig, ax = _new_fig(figsize=(6.5, 4.4))
+def balance_sheet_chart(cash_b: float, debt_b: float, net_b: float, title: str, out_path: Path,
+                        maturity_b: dict[str, float] | None = None,
+                        maturity_as_of: str | None = None) -> Path:
+    """maturity_b: {"Next 12mo": 12.4, "Year 2": 10.1, ...} -- real filed principal-repayment
+    amounts by year bucket (SEC's own debt-maturity-ladder tags), optional. When given, renders as
+    a second panel next to the cash/debt/net bars rather than a separate image -- these two are
+    read as one "balance sheet" picture, and the two-column layout only pulls one image per
+    section."""
+    n_panels = 2 if maturity_b else 1
+    fig, axes = plt.subplots(1, n_panels, figsize=(6.5 * n_panels, 4.4), dpi=150)
+    fig.patch.set_facecolor(SURFACE)
+    ax = axes[0] if maturity_b else axes
+    ax.set_facecolor(SURFACE)
+
     bars_spec = [("Cash & securities", cash_b, CATEGORICAL[0]),
                 ("Total debt", debt_b, CATEGORICAL[1]),
                 ("Net cash" if net_b >= 0 else "Net debt", net_b,
@@ -211,6 +222,29 @@ def balance_sheet_chart(cash_b: float, debt_b: float, net_b: float, title: str,
     ax.set_yticks(ax.get_yticks())
     ax.set_yticklabels([f"{int(t)}" for t in ax.get_yticks()])
     _title(ax, title)
+
+    if maturity_b:
+        ax2 = axes[1]
+        ax2.set_facecolor(SURFACE)
+        names = list(maturity_b.keys())
+        values = list(maturity_b.values())
+        mtop = max(values) or 1.0
+        ax2.bar(range(len(names)), values, color=CATEGORICAL[0], width=0.6, zorder=3)
+        for i, v in enumerate(values):
+            ax2.text(i, v + mtop * 0.02, f"${v:.1f}B", ha="center", va="bottom",
+                     fontsize=9, color=INK_PRIMARY)
+        ax2.set_xticks(range(len(names)))
+        ax2.set_xticklabels(names, fontsize=9, color=INK_PRIMARY)
+        ax2.set_ylim(0, mtop * 1.25)
+        ax2.set_ylabel("$B", fontsize=10, color=INK_SECONDARY)
+        _style_ax(ax2)
+        ax2.set_yticks(ax2.get_yticks())
+        ax2.set_yticklabels([f"{int(t)}" for t in ax2.get_yticks()])
+        subtitle = "Debt principal due by year"
+        if maturity_as_of:
+            subtitle += f" (as of {maturity_as_of})"
+        _title(ax2, subtitle)
+
     return _save(fig, out_path)
 
 
@@ -244,7 +278,10 @@ def _demo() -> None:
     balance_sheet_chart(
         147, 84, 63,
         "AAPL Q3 2026 (June quarter) -- Balance sheet snapshot",
-        DOCS / "sample_AAPL_Q3_2026_balance.png")
+        DOCS / "sample_AAPL_Q3_2026_balance.png",
+        maturity_b={"Next 12mo": 12.4, "Year 2": 10.1, "Year 3": 9.3,
+                   "Year 4": 5.2, "Year 5": 5.0, "After 5yr": 49.3},
+        maturity_as_of="FY2025 10-K, Sep 2025")
 
     print(f"Wrote 4 charts to {DOCS}")
 

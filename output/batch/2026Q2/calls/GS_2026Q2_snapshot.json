@@ -1,0 +1,5603 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "GS",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "GS",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 3,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "David Solomon",
+    "role": "management"
+   },
+   {
+    "name": "Denis Coleman",
+    "role": "management"
+   },
+   {
+    "name": "Glenn Schorr",
+    "role": "analyst"
+   },
+   {
+    "name": "Ebrahim Poonawala",
+    "role": "analyst"
+   },
+   {
+    "name": "Erika Najarian",
+    "role": "analyst"
+   },
+   {
+    "name": "Christian Bolu",
+    "role": "analyst"
+   },
+   {
+    "name": "Mike Mayo",
+    "role": "analyst"
+   },
+   {
+    "name": "Manan Gosalia",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter 2026",
+   "detail": "the call says 'second quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "GS_2026Q2.json",
+  "vocabulary_packs": [
+   "asset_management"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $20.98/sh",
+   "fact_ids": [
+    "GS_2026_2-002"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is accelerating: guided up",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.67, qa +0.50",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "GS_2026_2-S030",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "long_term",
+   "name": "Long-Term",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "banking_markets",
+   "name": "Banking & Markets",
+   "depth": 0,
+   "revenue": {
+    "value": 15500000000.0,
+    "fact_id": "GS_2026_2-006"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "page_four_advisory",
+   "name": "Page Four, Advisory",
+   "depth": 0,
+   "revenue": {
+    "value": 1400000000.0,
+    "fact_id": "GS_2026_2-007"
+   },
+   "growth": {
+    "value": 17.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "equity_underwriting",
+   "name": "Equity Underwriting",
+   "depth": 0,
+   "revenue": {
+    "value": 985000000.0,
+    "fact_id": "GS_2026_2-008"
+   },
+   "growth": {
+    "value": 130.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-008",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "debt_underwriting",
+   "name": "Debt Underwriting",
+   "depth": 0,
+   "revenue": {
+    "value": 1000000000.0,
+    "fact_id": "GS_2026_2-009"
+   },
+   "growth": {
+    "value": 75.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-009",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "intermediation",
+   "name": "Intermediation",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 39.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-011",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "financing",
+   "name": "Financing",
+   "depth": 0,
+   "revenue": {
+    "value": 7400000000.0,
+    "fact_id": "GS_2026_2-013"
+   },
+   "growth": {
+    "value": 14.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-012",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 17
+  },
+  {
+   "node": "equities_intermediation",
+   "name": "Equities Intermediation",
+   "depth": 0,
+   "revenue": {
+    "value": 4200000000.0,
+    "fact_id": "GS_2026_2-014"
+   },
+   "growth": {
+    "value": 60.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-014",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "ficc_and_equities_financing",
+   "name": "Ficc And Equities, Financing",
+   "depth": 0,
+   "revenue": {
+    "value": 4500000000.0,
+    "fact_id": "GS_2026_2-015"
+   },
+   "growth": {
+    "value": 62.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-015",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "asset_and_wealth_management",
+   "name": "Asset And Wealth Management",
+   "depth": 0,
+   "revenue": {
+    "value": 4600000000.0,
+    "fact_id": "GS_2026_2-017"
+   },
+   "growth": {
+    "value": 20.0,
+    "period": "second quarter",
+    "fact_id": "GS_2026_2-016",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "private_banking_and_lending",
+   "name": "Private Banking And Lending",
+   "depth": 0,
+   "revenue": {
+    "value": 689000000.0,
+    "fact_id": "GS_2026_2-019"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "investments",
+   "name": "Investments",
+   "depth": 0,
+   "revenue": {
+    "value": 441000000.0,
+    "fact_id": "GS_2026_2-020"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 9
+  },
+  {
+   "node": "page_eight_platform_solutions",
+   "name": "Page Eight, Platform Solutions",
+   "depth": 0,
+   "revenue": {
+    "value": 221000000.0,
+    "fact_id": "GS_2026_2-023"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "quarterly",
+   "name": "Quarterly",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "GS_2026_2-024",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": "broadly consistent with the second quarter"
+   },
+   "stance": {},
+   "n_mentions": 5
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "GS_2026_2-025",
+   "GS_2026_2-002",
+   "GS_2026_2-004",
+   "GS_2026_2-005",
+   "GS_2026_2-026",
+   "GS_2026_2-027"
+  ],
+  "signal_ids": [
+   "GS_2026_2-S003",
+   "GS_2026_2-S006",
+   "GS_2026_2-S008",
+   "GS_2026_2-S022",
+   "GS_2026_2-S023",
+   "GS_2026_2-S027",
+   "GS_2026_2-S028",
+   "GS_2026_2-S029",
+   "GS_2026_2-S030",
+   "GS_2026_2-S038",
+   "GS_2026_2-S039",
+   "GS_2026_2-S048",
+   "GS_2026_2-S061",
+   "GS_2026_2-S062",
+   "GS_2026_2-S106",
+   "GS_2026_2-S107",
+   "GS_2026_2-S109"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "long_term",
+   "name": "Long-Term",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "GS_2026_2-S058",
+    "GS_2026_2-S090",
+    "GS_2026_2-S091",
+    "GS_2026_2-S092"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "banking_markets",
+   "name": "Banking & Markets",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-006"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S010",
+    "GS_2026_2-S042",
+    "GS_2026_2-S043",
+    "GS_2026_2-S044"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "page_four_advisory",
+   "name": "Page Four, Advisory",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-007"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "equity_underwriting",
+   "name": "Equity Underwriting",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-008"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S045"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "debt_underwriting",
+   "name": "Debt Underwriting",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-009"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S046"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "intermediation",
+   "name": "Intermediation",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-011"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S017",
+    "GS_2026_2-S018",
+    "GS_2026_2-S049"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "financing",
+   "name": "Financing",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-012",
+    "GS_2026_2-013"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S009",
+    "GS_2026_2-S011",
+    "GS_2026_2-S036",
+    "GS_2026_2-S037",
+    "GS_2026_2-S050",
+    "GS_2026_2-S051",
+    "GS_2026_2-S053",
+    "GS_2026_2-S074",
+    "GS_2026_2-S114",
+    "GS_2026_2-S117",
+    "GS_2026_2-S121",
+    "GS_2026_2-S124"
+   ],
+   "n_home_signals": 16,
+   "n_mentions": 17,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "equities_intermediation",
+   "name": "Equities Intermediation",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-014"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S052"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ficc_and_equities_financing",
+   "name": "Ficc And Equities, Financing",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-015"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "asset_and_wealth_management",
+   "name": "Asset And Wealth Management",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-016",
+    "GS_2026_2-017",
+    "GS_2026_2-018"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S020",
+    "GS_2026_2-S054",
+    "GS_2026_2-S126"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "private_banking_and_lending",
+   "name": "Private Banking And Lending",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-019"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S056"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "investments",
+   "name": "Investments",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-020"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S057",
+    "GS_2026_2-S075",
+    "GS_2026_2-S076",
+    "GS_2026_2-S101",
+    "GS_2026_2-S102"
+   ],
+   "n_home_signals": 9,
+   "n_mentions": 9,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "alternative",
+   "name": "Alternative",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-022"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "page_eight_platform_solutions",
+   "name": "Page Eight, Platform Solutions",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-023"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "quarterly",
+   "name": "Quarterly",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "GS_2026_2-024"
+   ],
+   "signal_ids": [
+    "GS_2026_2-S033",
+    "GS_2026_2-S041",
+    "GS_2026_2-S060",
+    "GS_2026_2-S063",
+    "GS_2026_2-S069"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": [
+    "quarterly:revenue"
+   ]
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "GS_2026_2-S030",
+    "direction_word": "up",
+    "text": "We will continue to evaluate opportunities to expand our client offering, strengthen our franchise, and accelerate growth.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  },
+  {
+   "key": "quarterly:revenue",
+   "node": "quarterly",
+   "name": "Quarterly",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": "broadly consistent with the second quarter",
+    "period": "second quarter",
+    "source": "ledger",
+    "id": "GS_2026_2-024",
+    "direction_word": "flat",
+    "text": "broadly consistent with the second quarter",
+    "confidence": "high"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "high",
+   "note": "no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.67
+   },
+   "qa": {
+    "confident": 3,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.5
+   }
+  },
+  "speakers": {
+   "David Solomon": {
+    "cautious": 2,
+    "confident": 4
+   },
+   "Denis Coleman": {
+    "confident": 4
+   }
+  },
+  "notable_confident": [
+   "GS_2026_2-S048",
+   "GS_2026_2-S038",
+   "GS_2026_2-S040",
+   "GS_2026_2-S065"
+  ],
+  "notable_cautious": [
+   "GS_2026_2-S030",
+   "GS_2026_2-S093"
+  ],
+  "withheld": [],
+  "revisions": [
+   "GS_2026_2-S067"
+  ]
+ },
+ "signals": [
+  {
+   "id": "GS_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 5,
+   "sentence": "We delivered record results for the second quarter and year to date.",
+   "ev_start": 1000,
+   "ev_end": 1068,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GS_2026_2-001",
+    "GS_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record",
+     "earnings"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 6,
+   "sentence": "In the quarter, we generated record revenues of $20.3 billion, record earnings per share of $20.98, and an ROE of 23.5% and an ROTE of 25.5%.",
+   "ev_start": 1069,
+   "ev_end": 1210,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S003",
+   "topics": [
+    "competition",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "accelerated"
+    ],
+    "competition": [
+     "compete"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "momentum",
+     "accelerated"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 8,
+   "sentence": "Momentum across our franchise has accelerated as clients continue to pursue greater scale to invest and compete more effectively.",
+   "ev_start": 1404,
+   "ev_end": 1533,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S004",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 90"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 9,
+   "sentence": "This desire for scale has driven a significant increase in strategic deal-making activity with large cap corporate M&A volumes up 90% through the first half of 2026.",
+   "ev_start": 1534,
+   "ev_end": 1699,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 10,
+   "sentence": "At the same time, the AI investment cycle is expanding capital needs beyond core technology into infrastructure, energy and data centers, generating a ripple effect across industries.",
+   "ev_start": 1700,
+   "ev_end": 1883,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S006",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beyond the"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "product": [
+     "integrate"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 12,
+   "sentence": "Beyond the infrastructure buildout, companies large and small are working to integrate AI into their operations, increasing demand for advice and execution capabilities as they adapt to a rapidly evolving competitive landscape.",
+   "ev_start": 2067,
+   "ev_end": 2294,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 14,
+   "sentence": "This includes acting as lead left bookrunner on the record-breaking IPO for SpaceX and equity raise for Alphabet, as well as advising Dominion Energy's sale to NextEra Energy and Comcast spinoff of NBCUniversal.",
+   "ev_start": 2474,
+   "ev_end": 2685,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S008",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 15,
+   "sentence": "We have further expanded our lead as the number one M&A advisor and earlier this year became the first bank to cross the $1 trillion in announced volumes over a six-month period.",
+   "ev_start": 2686,
+   "ev_end": 2864,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S009",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.77,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 18,
+   "sentence": "What starts as an advisory mandate in the boardroom increasingly extends into opportunities for our Capital Solutions Group, including financing, risk management, capital markets execution, and distribution, as well as investment opportunities for Asset Wealth Management clients.",
+   "ev_start": 3072,
+   "ev_end": 3352,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking_markets"
+   ],
+   "home": "banking_markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "collaborate"
+    ]
+   },
+   "score": 3.27,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 19,
+   "sentence": "While we have made considerable progress strengthening connectivity across the firm, we continue to see opportunities to further collaborate across our Global Banking & Markets and Asset Wealth Management franchise.",
+   "ev_start": 3353,
+   "ev_end": 3568,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S011",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing",
+    "long_term"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 20,
+   "sentence": "We believe there is substantial runway to deepen the connectivity between advisory financing and capital markets, investing and wealth management in ways that will enhance value for our clients and drive long-term growth.",
+   "ev_start": 3569,
+   "ev_end": 3790,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S012",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "highest",
+     "record",
+     "strength"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "backlog",
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 22,
+   "sentence": "Even with very strong investment banking revenues this quarter, our backlog increased to its highest level in 5 years and its second highest level on record, underpinned by a record advisory backlog and reflecting the strength and breadth of our client engagement.",
+   "ev_start": 3893,
+   "ev_end": 4157,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S013",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "accelerated"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "momentum",
+     "accelerated"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 23,
+   "sentence": "Beyond investment banking, momentum also accelerated across our equities and FICC businesses.",
+   "ev_start": 4158,
+   "ev_end": 4251,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 24,
+   "sentence": "Equities produced record revenues amid shifting market dynamics and elevated activity levels as single stock volatility and dispersion remained high.",
+   "ev_start": 4252,
+   "ev_end": 4401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S015",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "robust"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 25,
+   "sentence": "Client activity was particularly strong in Asia, driven in part by robust AI capital formation and investment.",
+   "ev_start": 4402,
+   "ev_end": 4512,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S016",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "record"
+    ],
+    "product": [
+     "deployed"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 26,
+   "sentence": "This strength also extended into financing, where we generated another quarter of record revenues as we deployed our balance sheet to support clients with average prime balances rising to another record.",
+   "ev_start": 4513,
+   "ev_end": 4716,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "intermediation",
+    "financing"
+   ],
+   "home": "intermediation",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "performance": []
+   },
+   "score": 2.78,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 27,
+   "sentence": "We also delivered a very strong performance in FICC with broad-based strength across both intermediation and financing as we supported clients globally.",
+   "ev_start": 4717,
+   "ev_end": 4869,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "intermediation"
+   ],
+   "home": "intermediation",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 28,
+   "sentence": "In intermediation, performance was driven by robust activity as clients turned to us for principal liquidity and risk management amid ongoing volatility in rates and commodities.",
+   "ev_start": 4870,
+   "ev_end": 5048,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong"
+    ],
+    "performance": [
+     "record",
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 29,
+   "sentence": "In financing, we generated record revenues reflecting the continued strong demand for asset secured financing solutions.",
+   "ev_start": 5049,
+   "ev_end": 5169,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "asset_and_wealth_management"
+   ],
+   "home": "asset_and_wealth_management",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 30,
+   "sentence": "Across asset and wealth management, we are relentlessly driving our growth strategy forward with management and other fees up 20% year-over-year.",
+   "ev_start": 5170,
+   "ev_end": 5315,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "surpassed"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 32,
+   "sentence": "Our wealth management client assets reached a record of roughly $2 trillion, and our total assets under supervision surpassed a record $4 trillion.",
+   "ev_start": 5428,
+   "ev_end": 5575,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S022",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 35,
+   "sentence": "Combining trusted advice with access to differentiated investment opportunities across our platform.",
+   "ev_start": 5909,
+   "ev_end": 6009,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S023",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.44,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 36,
+   "sentence": "Since the start of 2025, we've seen nearly 900 referrals to wealth management from investment banking, demonstrating the benefits of our One Goldman Sachs operating approach.",
+   "ev_start": 6010,
+   "ev_end": 6184,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S024",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "record"
+    ],
+    "product": [
+     "partner"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 38,
+   "sentence": "We raised $31 billion in private credit this quarter alone, a testament to our strong track record of performance and our clients' continued desire to partner with experienced investors like Goldman Sachs.",
+   "ev_start": 6434,
+   "ev_end": 6639,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S025",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "competition": [
+     "differentiate"
+    ],
+    "product": [
+     "deploy"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 39,
+   "sentence": "More broadly, demand for private markets remains robust as clients deploy capital across credit, equity, and real assets, and our ability to originate and structure opportunities continues to differentiate our offering.",
+   "ev_start": 6640,
+   "ev_end": 6859,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S026",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "growing",
+     "demand"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 41,
+   "sentence": "These mandates from large, sophisticated corporate pension sponsors underscore the growing demand for comprehensive, integrated OCIO solutions capable of managing complex portfolios across public and private markets.",
+   "ev_start": 7072,
+   "ev_end": 7288,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S027",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well-positioned"
+    ],
+    "competition": [
+     "leading provider"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 42,
+   "sentence": "As a leading provider of OCIO services globally, we are well-positioned to capture this attractive secular growth opportunity.",
+   "ev_start": 7289,
+   "ev_end": 7415,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S028",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "strategy": [
+     "acquisitions"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 3.77,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 43,
+   "sentence": "We are also further accelerating growth across Asset & Wealth Management through targeted acquisitions that are enhancing and scaling our capabilities.",
+   "ev_start": 7416,
+   "ev_end": 7567,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S029",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "momentum"
+    ],
+    "product": [
+     "innovator",
+     "integration"
+    ],
+    "strategy": [
+     "acquisitions"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 44,
+   "sentence": "Our recent acquisitions, Industry Ventures and Innovator, are both showing solid momentum in the first few months of integration.",
+   "ev_start": 7568,
+   "ev_end": 7697,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate",
+     "expand"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ],
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 45,
+   "sentence": "We will continue to evaluate opportunities to expand our client offering, strengthen our franchise, and accelerate growth.",
+   "ev_start": 7698,
+   "ev_end": 7820,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S031",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulators",
+     "regulatory"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 47,
+   "sentence": "We remain very engaged with our regulators to ensure better alignment of regulatory outcomes with underlying risk and look forward to swift progress towards a more balanced framework.",
+   "ev_start": 7874,
+   "ev_end": 8057,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S032",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "strategy": [
+     "disciplined",
+     "accretive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 48,
+   "sentence": "As we again demonstrated this quarter, our robust capital position and disciplined dynamic resource management enable us to support clients across market conditions and drive accretive returns.",
+   "ev_start": 8058,
+   "ev_end": 8251,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S033",
+   "topics": [
+    "momentum",
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "quarterly"
+   ],
+   "home": "quarterly",
+   "fact_ids": [
+    "GS_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "dividend"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 50,
+   "sentence": "In line with our priority to sustainably grow our dividend, we recently announced an increase in our quarterly dividend to $5 a share, representing a 25% increase versus a year ago and 150% increase over the last five years.",
+   "ev_start": 8318,
+   "ev_end": 8542,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S034",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "GS_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 51,
+   "sentence": "We also repurchased $4 billion of common stock in the quarter.",
+   "ev_start": 8543,
+   "ev_end": 8605,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 55,
+   "sentence": "It's also clear that we are seeing broad-based momentum across the franchise and a very strong environment for client activity.",
+   "ev_start": 8942,
+   "ev_end": 9069,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 57,
+   "sentence": "We believe this multi-year investment cycle will continue to drive elevated levels of strategic activity, financing, and capital formation across markets.",
+   "ev_start": 9134,
+   "ev_end": 9288,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S037",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 59,
+   "sentence": "Very few firms have the global breadth of relationships, the depth of talent, the engineering capabilities, differentiated data, market insights, and financial resources to serve clients and capitalize on this opportunity set.",
+   "ev_start": 9389,
+   "ev_end": 9615,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 66,
+   "sentence": "Reflecting on our record results, I'm proud of our people and our performance.",
+   "ev_start": 10170,
+   "ev_end": 10248,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "disciplined",
+     "invest"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 68,
+   "sentence": "We will remain disciplined in how we invest and manage risk.",
+   "ev_start": 10339,
+   "ev_end": 10399,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S040",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.44,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 69,
+   "sentence": "I feel very confident about the forward trajectory of Goldman Sachs as a result of years of strategic execution to strengthen our businesses, enhance connectivity across the firm.",
+   "ev_start": 10400,
+   "ev_end": 10579,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "quarterly"
+   ],
+   "home": "quarterly",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "In the second quarter, we generated our highest net revenues of $20.3 billion, as well as our highest earnings per share of $20.98, which drove a quarterly ROE of 23.5% and ROTE of 25.5%.",
+   "ev_start": 10884,
+   "ev_end": 11071,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking_markets"
+   ],
+   "home": "banking_markets",
+   "fact_ids": [
+    "GS_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Global Banking & Markets revenues were a record $15.5 billion in the second quarter, contributing to a segment ROE of 25% for the first half of the year.",
+   "ev_start": 11128,
+   "ev_end": 11281,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S043",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking_markets"
+   ],
+   "home": "banking_markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the year"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 5.72,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "For the year to date, we extended our number one league table position for announced and completed M&A volume.",
+   "ev_start": 11408,
+   "ev_end": 11518,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking_markets"
+   ],
+   "home": "banking_markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Through the first half of the year, we advised on $1.2 trillion in announced deal volumes with a lead of approximately $425 billion ahead of our closest peer.",
+   "ev_start": 11519,
+   "ev_end": 11677,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "equity_underwriting"
+   ],
+   "home": "equity_underwriting",
+   "fact_ids": [
+    "GS_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "up 130"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "In equity underwriting, revenues were $985 million, up 130% year-over-year, supported by robust deal volumes across a broad range of transactions, including the marquee mandates for Alphabet and SpaceX, helping to drive our number one league table position through the first half of the year.",
+   "ev_start": 11678,
+   "ev_end": 11970,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "debt_underwriting"
+   ],
+   "home": "debt_underwriting",
+   "fact_ids": [
+    "GS_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "record",
+     "stronger"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "In debt underwriting, revenues were $1 billion, up 75% year-over-year, representing our best quarter on record, driven by stronger performance in leveraged finance and asset-backed activity.",
+   "ev_start": 11971,
+   "ev_end": 12161,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S047",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "strong"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "backlog",
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "As David noted, our investment banking backlog increased to its highest level in five years, even with the very strong revenue production this quarter.",
+   "ev_start": 12257,
+   "ev_end": 12408,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S048",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We remain optimistic on the investment banking outlook as strategic dialogue remains robust.",
+   "ev_start": 12409,
+   "ev_end": 12501,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "intermediation"
+   ],
+   "home": "intermediation",
+   "fact_ids": [
+    "GS_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "up 39"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Intermediation revenues were up 39% on stronger performance across interest rate products, commodities, and mortgages.",
+   "ev_start": 12713,
+   "ev_end": 12831,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [
+    "GS_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "increased 14"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "Financing revenues increased 14% to a new record and included strong performance in mortgages and structured lending.",
+   "ev_start": 12832,
+   "ev_end": 12949,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [
+    "GS_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "Equities net revenues were a record $7.4 billion for the second quarter.",
+   "ev_start": 12950,
+   "ev_end": 13022,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "equities_intermediation",
+    "intermediation"
+   ],
+   "home": "equities_intermediation",
+   "fact_ids": [
+    "GS_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "stronger",
+     "increased 60"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Record equities intermediation revenues of $4.2 billion increased 60% year-over-year, reflecting stronger activity across derivatives and cash products.",
+   "ev_start": 13023,
+   "ev_end": 13175,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S053",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strength",
+     "up 91"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Equity financing was also a record, up 91% year-over-year, driven by continued strength in Asia and another record for average prime balances.",
+   "ev_start": 13176,
+   "ev_end": 13318,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "asset_and_wealth_management"
+   ],
+   "home": "asset_and_wealth_management",
+   "fact_ids": [
+    "GS_2026_2-016",
+    "GS_2026_2-017"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 20"
+    ],
+    "performance": []
+   },
+   "score": 4.05,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "Asset and Wealth Management revenues were up 20% year-over-year to $4.6 billion.",
+   "ev_start": 13491,
+   "ev_end": 13571,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "up 20"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Management and other fees were up 20% year-over-year to a record $3.4 billion, primarily on higher average assets under supervision.",
+   "ev_start": 13632,
+   "ev_end": 13764,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "private_banking_and_lending"
+   ],
+   "home": "private_banking_and_lending",
+   "fact_ids": [
+    "GS_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Private banking and lending revenues were $689 million, and we continue to see strong loan growth with balances rising to $48 billion.",
+   "ev_start": 13874,
+   "ev_end": 14008,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [
+    "GS_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Investments revenues of $441 million were up significantly year-over-year from substantially higher net gains on investments in private equity.",
+   "ev_start": 14009,
+   "ev_end": 14152,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "long_term"
+   ],
+   "home": "long_term",
+   "fact_ids": [
+    "GS_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Total assets under supervision ended the quarter at a record $4 trillion, supported by $91 billion of long-term net inflows across asset classes, particularly in equity assets.",
+   "ev_start": 14177,
+   "ev_end": 14353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "Gross third-party alternatives fundraising was a record $59 billion for the quarter and $85 billion for the first half of the year.",
+   "ev_start": 14591,
+   "ev_end": 14722,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S060",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "quarterly"
+   ],
+   "home": "quarterly",
+   "fact_ids": [
+    "GS_2026_2-024"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We expect quarterly revenues for the remainder of the year to be broadly consistent with the second quarter.",
+   "ev_start": 14904,
+   "ev_end": 15012,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 3",
+     "reflecting growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "Our total loan portfolio increased 3% sequentially to $261 billion, primarily reflecting growth in other collateralized and residential real estate loans.",
+   "ev_start": 15095,
+   "ev_end": 15249,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "Through the first half of the year, we generated material operating leverage with an efficiency ratio of 58.8%, improving 320 basis points from the prior year period, helped by a decline in our compensation ratio net of provisions to 31%.",
+   "ev_start": 15487,
+   "ev_end": 15725,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "quarterly"
+   ],
+   "home": "quarterly",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "Quarterly non-compensation expenses increased from the prior year to $5.6 billion, with the increase driven by transaction-based expenses tied to robust activity levels, particularly in equities.",
+   "ev_start": 15726,
+   "ev_end": 15921,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S064",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "Even in a stronger revenue backdrop, we remain focused on disciplined expense management and driving efficiencies over time.",
+   "ev_start": 15922,
+   "ev_end": 16046,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S065",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "We were pleased with our results in the recent CCAR test, which demonstrated the strength of our balance sheet under a severely adverse economic scenario.",
+   "ev_start": 16377,
+   "ev_end": 16531,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S066",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulatory"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "A more balanced and risk-sensitive regulatory approach will be supportive of bank lending and capital formation and ultimately constructive for the broader economy.",
+   "ev_start": 16868,
+   "ev_end": 17032,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S067",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "invest",
+     "dividend"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Our capital management priorities remain unchanged, which are to invest in our business at attractive returns, sustainably grow our dividend, and return excess capital to shareholders through buybacks.",
+   "ev_start": 17033,
+   "ev_end": 17234,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S068",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "Our capital actions this quarter reflect our continued disciplined approach across each of these priorities to support clients and also enhance shareholder value.",
+   "ev_start": 17235,
+   "ev_end": 17397,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S069",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "quarterly"
+   ],
+   "home": "quarterly",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "dividend"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "We recently announced an increase to our quarterly common stock dividend to $5 per share.",
+   "ev_start": 17398,
+   "ev_end": 17487,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S070",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchased"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "We repurchased $4 billion of our common stock this past quarter.",
+   "ev_start": 17488,
+   "ev_end": 17552,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strength"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "In conclusion, our record results reflect the strength, scale, and diversification of our world-class interconnected client franchises.",
+   "ev_start": 17553,
+   "ev_end": 17688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S072",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "robust"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "With a strong operating environment driving a robust flywheel of activity across our franchise, we're confident in our ability to continue to deliver for clients and generate more durable returns for shareholders.",
+   "ev_start": 18070,
+   "ev_end": 18283,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S073",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 4,
+   "sentence": "Obviously, the performance of our equities business in the last quarter is the result of a number of multi-year investments.",
+   "ev_start": 19520,
+   "ev_end": 19644,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S074",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "commitment"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 5,
+   "sentence": "We obviously identified a long time ago, particularly on the equity financing piece of the equation, a commitment to grow that as a component of our GBM public business, and we've been putting in place the talent, the risk management capabilities.",
+   "ev_start": 19645,
+   "ev_end": 19892,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S075",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 6,
+   "sentence": "We're making multiple years of technological investments to underpin our capabilities, particularly in international jurisdictions such as Asia.",
+   "ev_start": 19893,
+   "ev_end": 20037,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S076",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "competition": [
+     "competitive",
+     "market share"
+    ],
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 7,
+   "sentence": "We, on the heels of some of the regulatory capital relief that we received at the turn of the year, identified the people that we were going to deploy more by way of financial resources and try and capture what we viewed as a competitive shortcoming in Asia, where we wanted to, in particular, improve our market share and capture more share in that part of the world.",
+   "ev_start": 20038,
+   "ev_end": 20406,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S077",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 8,
+   "sentence": "It required the investment across the board in terms of people and technology and resources.",
+   "ev_start": 20407,
+   "ev_end": 20499,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 9,
+   "sentence": "We've made those investments.",
+   "ev_start": 20500,
+   "ev_end": 20529,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S079",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 10,
+   "sentence": "We've sustained our commitment to those activities, and over the balance of the first half of this year, we've had a very favorable operating environment that's enabled us to capture that.",
+   "ev_start": 20530,
+   "ev_end": 20718,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S080",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "improve"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 11,
+   "sentence": "We remain very focused around the world for the equities business, frankly, for all of our activities across the firm, trying to identify pockets where we have bigger opportunities to grow our share with clients, improve our performance, and we'll try to strategically invest in and feed those areas so we can improve our overall leadership positions.",
+   "ev_start": 20719,
+   "ev_end": 21070,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S081",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand",
+     "grow"
+    ],
+    "product": [
+     "deploying"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 5,
+   "sentence": "We have been undertaking an effort to expand our overall share across the client base, deploying, as I said, the human capital technology and financial resources to do that, and being thoughtful about the overall portfolio composition as we grow.",
+   "ev_start": 21980,
+   "ev_end": 22226,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S082",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 2,
+   "sentence": "The real strength of our global footprint and our ability to really connect our activities globally and manage our activities globally is an advantage that we're feeling more directly at this moment.",
+   "ev_start": 22964,
+   "ev_end": 23163,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "accretive"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "It is always our desire to take our capital and allocate it toward supporting our clients and their activities when we can do so in a way that produces benefit for our clients and accretive returns for our shareholders.",
+   "ev_start": 24109,
+   "ev_end": 24328,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S084",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "accretive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "In fact, if we could do that and have no excess capital, we would, obviously with a buffer, but no excess capital for buybacks if it's generating accretive returns.",
+   "ev_start": 24366,
+   "ev_end": 24530,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S085",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined",
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 7,
+   "sentence": "We also generate a lot of capital, we are extremely disciplined about looking for places where we can invest in the client franchise.",
+   "ev_start": 24631,
+   "ev_end": 24764,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S086",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "If we don't see opportunities or we're generating capital and we don't see opportunities to deploy it, we're going to nimbly get it back to shareholders as quickly as possible.",
+   "ev_start": 24948,
+   "ev_end": 25124,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S087",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 11,
+   "sentence": "I think we've been quite disciplined about that.",
+   "ev_start": 25125,
+   "ev_end": 25173,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S088",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployed"
+    ],
+    "strategy": [
+     "accretive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 13,
+   "sentence": "We delivered a bunch of capital back to shareholders, but you also saw we deployed more into client resources out of accretive returns.",
+   "ev_start": 25273,
+   "ev_end": 25408,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S089",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 16,
+   "sentence": "We have good discipline processes, nimble processes to look at that, change directions quickly, if we don't see ways to deploy it, we're going to consistently work to get it back to you.",
+   "ev_start": 25484,
+   "ev_end": 25670,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "long_term"
+   ],
+   "home": "long_term",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 6,
+   "sentence": "I will tell you that when you look over a three-year period or a five-year period, we're investing in long-term growth to support this.",
+   "ev_start": 27231,
+   "ev_end": 27366,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S091",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "long_term"
+   ],
+   "home": "long_term",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 8,
+   "sentence": "We see lots of opportunities to deploy capital to our clients to finance this infrastructure build-out.",
+   "ev_start": 27425,
+   "ev_end": 27528,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S092",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "long_term"
+   ],
+   "home": "long_term",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "deploying"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 9,
+   "sentence": "We're very disciplined about the returns we expect for deploying that capital.",
+   "ev_start": 27529,
+   "ev_end": 27607,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S093",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 10,
+   "sentence": "It feels like that will continue, I know that it won't be a straight line, and there'll be bumps and there'll be recalibrations because there's a lot of uncertainty around how not only is the infrastructure going to be built, but once the infrastructure is built, how enterprises will buy that infrastructure, how it will be priced, how greater efficiencies will come from chips, then the pricing, ultimately of the technology.",
+   "ev_start": 27608,
+   "ev_end": 28035,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 13,
+   "sentence": "We're excited about it.",
+   "ev_start": 28299,
+   "ev_end": 28322,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "earnings",
+     "momentum"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 16,
+   "sentence": "That cycle is contributing to our earnings momentum, but also just highlights the breadth, depth and diversity of the firm, its franchise, the scale of our management fees across the firm of our more durable revenues.",
+   "ev_start": 28411,
+   "ev_end": 28628,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S096",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 17,
+   "sentence": "Those are all things we've been investing in over the last seven or eight years that have made the firm broadly much more diverse.",
+   "ev_start": 28629,
+   "ev_end": 28759,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S097",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "earnings"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 19,
+   "sentence": "We're focused on how we're going to grow earnings from here over the next three to five years.",
+   "ev_start": 28821,
+   "ev_end": 28915,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S098",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 20,
+   "sentence": "We have a high level of confidence that we can deliver on that.",
+   "ev_start": 28916,
+   "ev_end": 28979,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S099",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "grow"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 8,
+   "sentence": "On the prime side of the equation, it is always the case that we try to grow that in a strategic, disciplined fashion, and think about where the best opportunities are to support our most important clients and also grow our franchise.",
+   "ev_start": 30386,
+   "ev_end": 30620,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 11,
+   "sentence": "We made the decision to start ramping that up in the first quarter, gave rise to questions as to could we sustain that investment.",
+   "ev_start": 30671,
+   "ev_end": 30801,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S101",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 12,
+   "sentence": "You obviously see we're at the end of the second quarter, and we have revenues that are resulting from those investments that we made, and we're entering the second half with a capital cushion that's even larger.",
+   "ev_start": 30802,
+   "ev_end": 31014,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S102",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 13,
+   "sentence": "We feel like we're on plan to support clients and help them take advantage of that.",
+   "ev_start": 31015,
+   "ev_end": 31098,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S103",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 15,
+   "sentence": "There are some participants in the market that are also, I'll say, being more disciplined, and there's a lot of desire from our clients to engage.",
+   "ev_start": 31145,
+   "ev_end": 31291,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 16,
+   "sentence": "We're going to remain selective and careful about how we grow the business.",
+   "ev_start": 31292,
+   "ev_end": 31367,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S105",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 18,
+   "sentence": "There's a secular growth opportunity that, given the multi-year set of investments we've made, it's something that we can capture.",
+   "ev_start": 31403,
+   "ev_end": 31533,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S106",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 0,
+   "sentence": "As you've heard us say multiple times before, we have a number of different, often oscillating, binding constraints as a firm.",
+   "ev_start": 32153,
+   "ev_end": 32279,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S107",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 7,
+   "sentence": "We'll look at all of those various constraints on a very dynamic basis.",
+   "ev_start": 32837,
+   "ev_end": 32908,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S108",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 2,
+   "sentence": "Obviously we've just developed a tremendous amount of operating leverage, given the performance of the firm.",
+   "ev_start": 33462,
+   "ev_end": 33570,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "We've been able to grow our revs at about 40%, revs net of PCL slightly higher.",
+   "ev_start": 33571,
+   "ev_end": 33650,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S110",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 5,
+   "sentence": "There's been disciplined growth on the expense side relative to top line.",
+   "ev_start": 33708,
+   "ev_end": 33781,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S111",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 6,
+   "sentence": "We expect that we will have the capacity to continue to invest and fuel productivity opportunities that arise from AI and from general firm process rewiring.",
+   "ev_start": 33782,
+   "ev_end": 33939,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S112",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launching"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 7,
+   "sentence": "I think one of the greatest benefits from our launching our 3.0 Initiative is that we have galvanized the entire firm to understand that making efforts to scale our company and build more resilient, more automated platforms that can help us capture",
+   "ev_start": 33940,
+   "ev_end": 34188,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S113",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "When you get an environment like this where there's a lot of strategic activity, you obviously get benefit in the advisory line, and you see our market share performance in the advisory line.",
+   "ev_start": 35944,
+   "ev_end": 36135,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S114",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrates"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 5,
+   "sentence": "You get it spilling through in so many other things because that advice and that trust leads them when they think about financing, they think about hedging, they think about how it all integrates.",
+   "ev_start": 36136,
+   "ev_end": 36332,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S115",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 8,
+   "sentence": "We get it by giving asset management and our clients in asset management the opportunity to invest in a lot of this stuff, and we get earlier looks.",
+   "ev_start": 36564,
+   "ev_end": 36712,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S116",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 16,
+   "sentence": "I can't give you a percentage, but it's a meaningful part of the integrated performance of the firm and our One GS operating ethos.",
+   "ev_start": 37401,
+   "ev_end": 37532,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S117",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 0,
+   "sentence": "In the case of prime, also in the case of FICC financing, as has been the case, there continues to be far more demand across the client segment than we're willing to engage when we sort of balance our objectives of serving our clients, driving market share, also being balanced, diversified, and focusing on risk management.",
+   "ev_start": 37662,
+   "ev_end": 37986,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S118",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "It's a function of deploying our resources as efficiently as we can, to serve our clients as best we can.",
+   "ev_start": 38342,
+   "ev_end": 38447,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S119",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 3,
+   "sentence": "One area that we called out in the first quarter, is we called out deploying capital into our deals book.",
+   "ev_start": 39167,
+   "ev_end": 39272,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S120",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing",
+     "m&a"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 5,
+   "sentence": "In addition to, call it, regular way financing of investing client activities, and provision of clients to our wealth franchise, and provision of clients to our wealth franchise, there's event-driven demand for financing, M&A-linked demand for financing.",
+   "ev_start": 39363,
+   "ev_end": 39617,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S121",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "David Solomon",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 7,
+   "sentence": "We are prioritizing deployment of capital into our deals book.",
+   "ev_start": 39684,
+   "ev_end": 39746,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing"
+    ]
+   },
+   "score": 2.28,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 0,
+   "sentence": "As you talk about the growth that you're recognizing in terms of loans on a sequential basis, the other collateralized largely relates to what we report as FICC financing, which connects to the prior question where we're growing that.",
+   "ev_start": 39763,
+   "ev_end": 39997,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S123",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 1,
+   "sentence": "We continue to be disciplined in terms of how we grow that.",
+   "ev_start": 39998,
+   "ev_end": 40057,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S124",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "financing"
+   ],
+   "home": "financing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 2,
+   "sentence": "Increasingly, with the formation of our Capital Solutions Group, again, to this point that there's sort of more demand than necessarily availability.",
+   "ev_start": 40058,
+   "ev_end": 40207,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S125",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "investments",
+    "asset_and_wealth_management"
+   ],
+   "home": "investments",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "We are using our origination capabilities, where we can originate and structure very high-quality investments in fixed income space, and we're routing it to our asset and wealth management business.",
+   "ev_start": 40208,
+   "ev_end": 40406,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "GS_2026_2-S126",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "asset_and_wealth_management"
+   ],
+   "home": "asset_and_wealth_management",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing",
+     "invest"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Denis Coleman",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 4,
+   "sentence": "Because there are clients that we have in asset and wealth management that are very interested in getting exposure and investing in the same kinds of products that we used to invest only for ourselves on our balance sheet.",
+   "ev_start": 40407,
+   "ev_end": 40629,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "GS_2026_2-S058",
+  "GS_2026_2-S090",
+  "GS_2026_2-S091",
+  "GS_2026_2-S092",
+  "GS_2026_2-S010",
+  "GS_2026_2-S042",
+  "GS_2026_2-S043",
+  "GS_2026_2-S044",
+  "GS_2026_2-S045",
+  "GS_2026_2-S046",
+  "GS_2026_2-S017",
+  "GS_2026_2-S018",
+  "GS_2026_2-S049",
+  "GS_2026_2-S009",
+  "GS_2026_2-S011",
+  "GS_2026_2-S036",
+  "GS_2026_2-S037",
+  "GS_2026_2-S050",
+  "GS_2026_2-S051",
+  "GS_2026_2-S053",
+  "GS_2026_2-S074",
+  "GS_2026_2-S114",
+  "GS_2026_2-S117",
+  "GS_2026_2-S121",
+  "GS_2026_2-S124",
+  "GS_2026_2-S052",
+  "GS_2026_2-S020",
+  "GS_2026_2-S054",
+  "GS_2026_2-S126",
+  "GS_2026_2-S056",
+  "GS_2026_2-S057",
+  "GS_2026_2-S075",
+  "GS_2026_2-S076",
+  "GS_2026_2-S101",
+  "GS_2026_2-S102",
+  "GS_2026_2-S033",
+  "GS_2026_2-S041",
+  "GS_2026_2-S060",
+  "GS_2026_2-S063",
+  "GS_2026_2-S069",
+  "GS_2026_2-S003",
+  "GS_2026_2-S006",
+  "GS_2026_2-S008",
+  "GS_2026_2-S022",
+  "GS_2026_2-S023",
+  "GS_2026_2-S027",
+  "GS_2026_2-S028",
+  "GS_2026_2-S029",
+  "GS_2026_2-S030",
+  "GS_2026_2-S038",
+  "GS_2026_2-S039",
+  "GS_2026_2-S048",
+  "GS_2026_2-S061",
+  "GS_2026_2-S062",
+  "GS_2026_2-S106",
+  "GS_2026_2-S107",
+  "GS_2026_2-S109"
+ ],
+ "surfaced_signal_ids": [
+  "GS_2026_2-S058",
+  "GS_2026_2-S090",
+  "GS_2026_2-S091",
+  "GS_2026_2-S092",
+  "GS_2026_2-S010",
+  "GS_2026_2-S042",
+  "GS_2026_2-S043",
+  "GS_2026_2-S044",
+  "GS_2026_2-S045",
+  "GS_2026_2-S046",
+  "GS_2026_2-S017",
+  "GS_2026_2-S018",
+  "GS_2026_2-S049",
+  "GS_2026_2-S009",
+  "GS_2026_2-S011",
+  "GS_2026_2-S036",
+  "GS_2026_2-S037",
+  "GS_2026_2-S050",
+  "GS_2026_2-S051",
+  "GS_2026_2-S053",
+  "GS_2026_2-S074",
+  "GS_2026_2-S114",
+  "GS_2026_2-S117",
+  "GS_2026_2-S121",
+  "GS_2026_2-S124",
+  "GS_2026_2-S052",
+  "GS_2026_2-S020",
+  "GS_2026_2-S054",
+  "GS_2026_2-S126",
+  "GS_2026_2-S056",
+  "GS_2026_2-S057",
+  "GS_2026_2-S075",
+  "GS_2026_2-S076",
+  "GS_2026_2-S101",
+  "GS_2026_2-S102",
+  "GS_2026_2-S033",
+  "GS_2026_2-S041",
+  "GS_2026_2-S060",
+  "GS_2026_2-S063",
+  "GS_2026_2-S069",
+  "GS_2026_2-S003",
+  "GS_2026_2-S006",
+  "GS_2026_2-S008",
+  "GS_2026_2-S022",
+  "GS_2026_2-S023",
+  "GS_2026_2-S027",
+  "GS_2026_2-S028",
+  "GS_2026_2-S029",
+  "GS_2026_2-S030",
+  "GS_2026_2-S038",
+  "GS_2026_2-S039",
+  "GS_2026_2-S048",
+  "GS_2026_2-S061",
+  "GS_2026_2-S062",
+  "GS_2026_2-S106",
+  "GS_2026_2-S107",
+  "GS_2026_2-S109",
+  "GS_2026_2-S040",
+  "GS_2026_2-S065",
+  "GS_2026_2-S093",
+  "GS_2026_2-S067"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "long_term",
+   "banking_markets",
+   "page_four_advisory",
+   "equity_underwriting",
+   "debt_underwriting",
+   "intermediation",
+   "financing",
+   "equities_intermediation",
+   "ficc_and_equities_financing",
+   "asset_and_wealth_management",
+   "private_banking_and_lending",
+   "investments",
+   "alternative",
+   "page_eight_platform_solutions",
+   "quarterly"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "page_four_advisory",
+   "ficc_and_equities_financing",
+   "alternative",
+   "page_eight_platform_solutions"
+  ],
+  "commentary_without_facts": [
+   "long_term"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "GS_2026_2-001",
+   "GS_2026_2-003",
+   "GS_2026_2-010",
+   "GS_2026_2-021"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "warn",
+   "detail": "the ledger flagged conflicting total-company revenue figures ['GS_2026_2-001', 'GS_2026_2-010']: a segment figure may be filed as the company total (sentences like 'Revenue was...' inside a segment paragraph). Check the source sentences before quoting total revenue from this call."
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "4 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 126,
+  "signals_usable": 126,
+  "selected": 57,
+  "by_topic": {
+   "momentum": 53,
+   "competition": 11,
+   "strategy": 54,
+   "product": 26,
+   "pressure": 5
+  },
+  "by_horizon": {
+   "current": 113,
+   "forward": 13
+  },
+  "trajectory_rows": 2,
+  "blocks_with_content": 15,
+  "checks_failed": 0,
+  "checks_warn": 3
+ }
+}

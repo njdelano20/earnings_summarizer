@@ -1,0 +1,6759 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "CMCSA",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "CMCSA",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Marci Ryvicker",
+    "role": "ir"
+   },
+   {
+    "name": "Brian Roberts",
+    "role": "management"
+   },
+   {
+    "name": "Michael Cavanagh",
+    "role": "management"
+   },
+   {
+    "name": "Jason Armstrong",
+    "role": "management"
+   },
+   {
+    "name": "Steven Croney",
+    "role": "management"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter",
+   "detail": "the call says 'Second Quarter', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "CMCSA_2026Q2.json",
+  "vocabulary_packs": [
+   "telecom"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue growth 5%, second quarter",
+   "fact_ids": [
+    "CMCSA_2026_2-002"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $1.04/sh",
+   "fact_ids": [
+    "CMCSA_2026_2-004"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $4.60B",
+   "fact_ids": [
+    "CMCSA_2026_2-005"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "annual",
+   "name": "Annual",
+   "depth": 0,
+   "revenue": {
+    "value": 2000000000.0,
+    "fact_id": "CMCSA_2026_2-001"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "result_broadband",
+   "name": "Result, Broadband",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "broadband",
+   "name": "Broadband",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 17
+  },
+  {
+   "node": "convergence",
+   "name": "Convergence",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -3.2,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-010",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 7
+  },
+  {
+   "node": "business_services",
+   "name": "Business Services",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 3.7,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-011",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "content_experiences",
+   "name": "Content & Experiences",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 3.0,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-013",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "media",
+   "name": "Media",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 25.0,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-016",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "CMCSA_2026_2-S027",
+    "delta_pp": -20.0,
+    "guided_lo": 4.0,
+    "guided_hi": 6.0,
+    "guided_descriptor": "mid-single-digit"
+   },
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 9
+  },
+  {
+   "node": "peacock",
+   "name": "Peacock",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 54.0,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-018",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 11
+  },
+  {
+   "node": "distribution",
+   "name": "Distribution",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "paid",
+   "name": "Paid",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 7
+  },
+  {
+   "node": "advertising",
+   "name": "Advertising",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 70.0,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-021",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "CMCSA_2026_2-002",
+   "CMCSA_2026_2-003",
+   "CMCSA_2026_2-004",
+   "CMCSA_2026_2-005",
+   "CMCSA_2026_2-006",
+   "CMCSA_2026_2-007"
+  ],
+  "signal_ids": [
+   "CMCSA_2026_2-S001",
+   "CMCSA_2026_2-S006",
+   "CMCSA_2026_2-S033",
+   "CMCSA_2026_2-S038",
+   "CMCSA_2026_2-S040",
+   "CMCSA_2026_2-S051",
+   "CMCSA_2026_2-S071",
+   "CMCSA_2026_2-S072",
+   "CMCSA_2026_2-S074",
+   "CMCSA_2026_2-S087",
+   "CMCSA_2026_2-S096",
+   "CMCSA_2026_2-S117",
+   "CMCSA_2026_2-S141",
+   "CMCSA_2026_2-S142",
+   "CMCSA_2026_2-S146",
+   "CMCSA_2026_2-S153",
+   "CMCSA_2026_2-S158"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "annual",
+   "name": "Annual",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-001"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S152"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "result_broadband",
+   "name": "Result, Broadband",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-008"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S050"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "broadband",
+   "name": "Broadband",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-009"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S020",
+    "CMCSA_2026_2-S041",
+    "CMCSA_2026_2-S049",
+    "CMCSA_2026_2-S057",
+    "CMCSA_2026_2-S058",
+    "CMCSA_2026_2-S059",
+    "CMCSA_2026_2-S119",
+    "CMCSA_2026_2-S121",
+    "CMCSA_2026_2-S123"
+   ],
+   "n_home_signals": 14,
+   "n_mentions": 17,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "convergence",
+   "name": "Convergence",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-010"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S042",
+    "CMCSA_2026_2-S043",
+    "CMCSA_2026_2-S044",
+    "CMCSA_2026_2-S054",
+    "CMCSA_2026_2-S056",
+    "CMCSA_2026_2-S061",
+    "CMCSA_2026_2-S067"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 7,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "business_services",
+   "name": "Business Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-011",
+    "CMCSA_2026_2-012"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S068",
+    "CMCSA_2026_2-S122"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "content_experiences",
+   "name": "Content & Experiences",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-013",
+    "CMCSA_2026_2-014"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S073"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "media",
+   "name": "Media",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-016",
+    "CMCSA_2026_2-015"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S004",
+    "CMCSA_2026_2-S009",
+    "CMCSA_2026_2-S027",
+    "CMCSA_2026_2-S030",
+    "CMCSA_2026_2-S128",
+    "CMCSA_2026_2-S159"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 9,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": [
+    "media:revenue"
+   ]
+  },
+  {
+   "id": "peacock",
+   "name": "Peacock",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-018",
+    "CMCSA_2026_2-017"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S011",
+    "CMCSA_2026_2-S012",
+    "CMCSA_2026_2-S028",
+    "CMCSA_2026_2-S037",
+    "CMCSA_2026_2-S078",
+    "CMCSA_2026_2-S129",
+    "CMCSA_2026_2-S151"
+   ],
+   "n_home_signals": 8,
+   "n_mentions": 11,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "distribution",
+   "name": "Distribution",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-023"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S079",
+    "CMCSA_2026_2-S080",
+    "CMCSA_2026_2-S081",
+    "CMCSA_2026_2-S082",
+    "CMCSA_2026_2-S083"
+   ],
+   "n_home_signals": 5,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "paid",
+   "name": "Paid",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-020"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S010",
+    "CMCSA_2026_2-S021",
+    "CMCSA_2026_2-S022",
+    "CMCSA_2026_2-S023",
+    "CMCSA_2026_2-S060",
+    "CMCSA_2026_2-S066"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 7,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "advertising",
+   "name": "Advertising",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CMCSA_2026_2-021"
+   ],
+   "signal_ids": [
+    "CMCSA_2026_2-S035",
+    "CMCSA_2026_2-S150"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "media:revenue",
+   "node": "media",
+   "name": "Media",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 25.0,
+    "period": "second quarter",
+    "fact_id": "CMCSA_2026_2-016",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 4.0,
+    "hi": 6.0,
+    "descriptor": "mid-single-digit",
+    "period": null,
+    "source": "signal_text",
+    "id": "CMCSA_2026_2-S027",
+    "direction_word": "down",
+    "text": "The Media segment had a strong quarter, generating mid-single-digit EBITDA growth with Peacock delivering meaningful profitability for the first time even as we absorbed the final quarter of the first full year of our NBA contract.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -20.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 17,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "Brian Roberts": {
+    "confident": 7
+   },
+   "Michael Cavanagh": {
+    "confident": 12
+   },
+   "Jason Armstrong": {
+    "confident": 3
+   }
+  },
+  "notable_confident": [
+   "CMCSA_2026_2-S005",
+   "CMCSA_2026_2-S125",
+   "CMCSA_2026_2-S146",
+   "CMCSA_2026_2-S143"
+  ],
+  "notable_cautious": [],
+  "withheld": [],
+  "revisions": [
+   "CMCSA_2026_2-S033",
+   "CMCSA_2026_2-S066"
+  ]
+ },
+ "signals": [
+  {
+   "id": "CMCSA_2026_2-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "Before Mike and Jason take you through the quarter, I'd like to spend a few minutes on the separation we announced 3 weeks ago.",
+   "ev_start": 1053,
+   "ev_end": 1180,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "I feel more positive and energized today than I was on the day we announced it.",
+   "ev_start": 1341,
+   "ev_end": 1420,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S003",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excitement"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "There's real excitement about taking 2 exceptional companies and giving each the focus and agility to win in markets that are changing fast.",
+   "ev_start": 1496,
+   "ev_end": 1636,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S004",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ],
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "We've also spent time with leaders across media and tech, and we've come away more optimistic than ever about the next wave of innovation.",
+   "ev_start": 1637,
+   "ev_end": 1775,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S005",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous",
+     "enthusiasm",
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "He's been welcomed back with tremendous enthusiasm and confidence.",
+   "ev_start": 2263,
+   "ev_end": 2329,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "He knows this company and his return will help accelerate the work Steve and the team already have underway.",
+   "ev_start": 2377,
+   "ev_end": 2485,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S007",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "We're building this business on top of a deep customer base, leadership in WiFi, strong wireless partnerships and products that are already in tens of millions of homes and businesses.",
+   "ev_start": 2813,
+   "ev_end": 2997,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S008",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "On the media and entertainment side, with NBCUniversal and Sky, we're equally excited about the next chapter.",
+   "ev_start": 2998,
+   "ev_end": 3107,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "The strength of these businesses isn't just the world-class assets we own, it's the role we play as a trusted partner to talent, creators, sports leagues and platforms throughout the industry.",
+   "ev_start": 3108,
+   "ev_end": 3300,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S010",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "paid"
+   ],
+   "home": "paid",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "extraordinary"
+    ],
+    "performance": [
+     "viewership",
+     "profitability"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "We've added 2 million paid subscribers in each of the last 2 quarters, had our biggest viewership month ever in June and reached profitability, all anchored by what NBCUniversal does best, premium entertainment, live sports, news and extraordinary storytelling.",
+   "ev_start": 3392,
+   "ev_end": 3653,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S011",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock",
+    "media"
+   ],
+   "home": "peacock",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will",
+     "well positioned"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "With the combined reach of NBC, Peacock, Telemundo, Bravo, Sky and possibly ITV, and the many relationships we've built with partners across tech and streaming, we will be well positioned as an independent media company to drive engagement and growth.",
+   "ev_start": 3654,
+   "ev_end": 3905,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock"
+   ],
+   "home": "peacock",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "best"
+    ],
+    "product": [
+     "collaboration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "And when you look at things like the amazing and recent success of The Odyssey and Christopher Nolan and the strength of our film slate, it underscores that creativity and collaboration with the world's best talent.",
+   "ev_start": 3906,
+   "ev_end": 4121,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "We spent years investing to build these 2 great companies, each with distinct world-class assets and leaders I trust deeply.",
+   "ev_start": 4228,
+   "ev_end": 4352,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcement"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "When we made the announcement, we were clear about the core assets that would sit within each company.",
+   "ev_start": 4706,
+   "ev_end": 4808,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S015",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "A key part of our work is on the balance sheet and capital structure as our intention is to set both companies up with strong investment-grade profiles and the financial strength and flexibility to pursue their respective growth strategies.",
+   "ev_start": 5138,
+   "ev_end": 5378,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S016",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "launch"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "That pivot has included significant changes in pricing and packaging to make our value proposition clearer and more predictable, continued investment in a simpler, more seamless customer experience and a more aggressive push into wireless, both through free lines to build awareness in the market and through the launch of our premium unlimited plans.",
+   "ev_start": 5617,
+   "ev_end": 5968,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S017",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "These actions are intended to address the areas we need to improve while leaning on the structural advantages we already have, a scaled network, industry-leading WiFi and a capital-efficient mobile platform.",
+   "ev_start": 5969,
+   "ev_end": 6176,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S018",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "While this pivot comes with investment that is weighing on financial results in the near term, we are making real progress against the objectives we set out, which are to build a durable converged customer base, deepen our relationships and transform the experience so as to position this business for long-term growth, and we are pleased with the progress we are making.",
+   "ev_start": 6177,
+   "ev_end": 6548,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "Broadband subscriber losses in the second quarter improved year-over-year.",
+   "ev_start": 6549,
+   "ev_end": 6623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S020",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "resonating"
+    ],
+    "product": [
+     "resonating"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "We also continue to see year-over-year gains in our Net Promoter Scores, which is an important signal that our moves in pricing, packaging and experience are resonating with customers.",
+   "ev_start": 6624,
+   "ev_end": 6808,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "paid"
+   ],
+   "home": "paid",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "record",
+     "stronger",
+     "improved"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "We just had our best quarter ever with 448,000 net line additions, our second consecutive record quarter, supported by stronger gross additions and improved churn, even as the initial cohort of free lines began rolling into the paid base.",
+   "ev_start": 6870,
+   "ev_end": 7108,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "paid"
+   ],
+   "home": "paid",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "through the year"
+    ],
+    "performance": [
+     "traction",
+     "customers"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "And importantly, we are seeing positive early traction converting those free lines into paid wireless relationships, which reinforces the value customers are seeing in our products and which will support better monetization as we move through the year.",
+   "ev_start": 7154,
+   "ev_end": 7406,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "paid"
+   ],
+   "home": "paid",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "This quarter, we went live with our T-Mobile MVNO partnership for business customers and the early signs are encouraging.",
+   "ev_start": 7487,
+   "ev_end": 7608,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Separately, we continue to win significant new contracts in enterprise, which reinforces the strength of our position as the fastest-growing enterprise provider in the market.",
+   "ev_start": 7681,
+   "ev_end": 7856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S025",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "So while the environment remains highly competitive, we like the progress we are making on the things we can control.",
+   "ev_start": 7857,
+   "ev_end": 7974,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "Wireless is scaling quickly, Enterprise continues to gain momentum and the work underway across pricing and the overall experience is strengthening the foundation for a converged valuable customer base over time.",
+   "ev_start": 7975,
+   "ev_end": 8187,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media",
+    "peacock"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": {
+    "node": "media",
+    "metric": "revenue",
+    "descriptor": "mid-single-digit",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "strong",
+     "mid-single-digit"
+    ],
+    "forward": [
+     "full year"
+    ],
+    "performance": [
+     "ebitda",
+     "growth",
+     "profitability"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "The Media segment had a strong quarter, generating mid-single-digit EBITDA growth with Peacock delivering meaningful profitability for the first time even as we absorbed the final quarter of the first full year of our NBA contract.",
+   "ev_start": 8222,
+   "ev_end": 8453,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S028",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock",
+    "media",
+    "advertising"
+   ],
+   "home": "peacock",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "profitability"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "That performance reinforces the value of NBC, Telemundo, Bravo and Peacock together as one integrated Media business with continued opportunity to drive stronger engagement, advertising and profitability into the future.",
+   "ev_start": 8454,
+   "ev_end": 8674,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "robust"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.27,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "The NBA, Love Island and the World Cup are all contributing to strong engagement and robust ad sales across both linear and streaming.",
+   "ev_start": 9148,
+   "ev_end": 9282,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media",
+    "peacock"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "The World Cup has been terrific for us, delivering the biggest Spanish language sporting event in U.S. media history and record engagement for Telemundo and Peacock.",
+   "ev_start": 9283,
+   "ev_end": 9448,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Our Studios business is having a great year with momentum across franchises, animation, originals and specialty titles.",
+   "ev_start": 9530,
+   "ev_end": 9649,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "And just last week, The Odyssey became one of the defining theatrical events of the year, reinforcing the power of our creative partnerships and ambitious storytelling with the Odyssey becoming Nolan's biggest global opening of all time.",
+   "ev_start": 10138,
+   "ev_end": 10375,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S033",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressures"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "pressure": [
+     "pressures"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Despite these near-term pressures, our outlook for the long-term opportunity in Parks is unchanged.",
+   "ev_start": 11052,
+   "ev_end": 11151,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S034",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "We have great brands, great locations and a proven playbook for investing behind attractions and experiences that create real consumer demand and strong returns.",
+   "ev_start": 11152,
+   "ev_end": 11313,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "The transaction will enhance Sky's streaming and advertising capabilities, create meaningful operating efficiencies and broaden the opportunities to grow customer relationships.",
+   "ev_start": 11890,
+   "ev_end": 12067,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "sale of"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 2,
+   "sentence": "Before I begin, I want to note this morning, we issued updated pro forma trending schedules to reflect the removal of Sky Germany from our consolidated results following the sale of that business on May 31.",
+   "ev_start": 12340,
+   "ev_end": 12546,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock"
+   ],
+   "home": "peacock",
+   "fact_ids": [
+    "CMCSA_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 5"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.33,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 5,
+   "sentence": "In the second quarter, revenue increased 5%, in part benefiting from Telemundo and Peacock's successful airing of the FIFA World Cup.",
+   "ev_start": 12825,
+   "ev_end": 12958,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S038",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CMCSA_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "ebitda",
+     "declined"
+    ]
+   },
+   "score": 4.98,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 6,
+   "sentence": "Adjusted EBITDA declined 5%, reflecting pressure from 2 areas.",
+   "ev_start": 12959,
+   "ev_end": 13021,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 7,
+   "sentence": "In Connectivity & Platforms, as we have discussed, we are investing behind the go-to-market pivot we began last year with a focus on simpler pricing and packaging and an improved customer experience.",
+   "ev_start": 13022,
+   "ev_end": 13221,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CMCSA_2026_2-004",
+    "CMCSA_2026_2-005",
+    "CMCSA_2026_2-006",
+    "CMCSA_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "Adjusted earnings per share were $1.04, and we generated $4.6 billion of free cash flow in the quarter, of which we returned $2.1 billion to shareholders, including $900 million in share repurchases.",
+   "ev_start": 13400,
+   "ev_end": 13599,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S041",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 13,
+   "sentence": "The broadband market remains highly competitive.",
+   "ev_start": 13813,
+   "ev_end": 13861,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence"
+   ],
+   "home": "convergence",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 14,
+   "sentence": "Fiber continues to expand, fixed wireless remains aggressive, satellite is emerging as another alternative and convergence-based promotional activity remains elevated across the industry.",
+   "ev_start": 13862,
+   "ev_end": 14049,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S043",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence"
+   ],
+   "home": "convergence",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "market will remain"
+    ],
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 15,
+   "sentence": "We are operating under the assumption that the market will remain intensely competitive.",
+   "ev_start": 14050,
+   "ev_end": 14138,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S044",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence"
+   ],
+   "home": "convergence",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete",
+     "competitive"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "Against that backdrop, at the end of the second quarter of last year, we made a deliberate shift in how we go to market to compete more effectively in a competitive environment increasingly defined by convergence.",
+   "ev_start": 14139,
+   "ev_end": 14352,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S045",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "improving"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 17,
+   "sentence": "Since then, we have focused on simplifying pricing, improving transparency, streamlining the customer experience, investing in our best-in-class network and products and leaning further into wireless, including through our free wireless offer.",
+   "ev_start": 14353,
+   "ev_end": 14596,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 19,
+   "sentence": "Broadband losses improved versus last year.",
+   "ev_start": 14654,
+   "ev_end": 14697,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "improved"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 21,
+   "sentence": "Wireless net additions reached a new record and NPS improved again year-over-year, reflecting better customer perception of our service experience.",
+   "ev_start": 14799,
+   "ev_end": 14946,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S048",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "At the same time, we have been transparent that this pivot comes with investment.",
+   "ev_start": 14947,
+   "ev_end": 15028,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S049",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "dilutive"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "At the same time, we continue to see strong adoption of free wireless lines, which is initially dilutive to broadband ARPU.",
+   "ev_start": 15273,
+   "ev_end": 15396,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "result_broadband",
+    "broadband"
+   ],
+   "home": "result_broadband",
+   "fact_ids": [
+    "CMCSA_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 26,
+   "sentence": "As a result, broadband ARPU declined 3.8% in the quarter.",
+   "ev_start": 15397,
+   "ev_end": 15454,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S051",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "decline",
+     "ebitda"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "Additionally, we continue to invest in the customer experience and go-to-market capabilities needed to support this broader shift, which contributed to a 5.8% decline in Connectivity & Platforms EBITDA.",
+   "ev_start": 15455,
+   "ev_end": 15657,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S052",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "earnings",
+     "ebitda",
+     "growth"
+    ]
+   },
+   "score": 3.84,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 28,
+   "sentence": "These results are consistent with our remarks on last quarter's earnings call, where we previewed incremental pressure on both ARPU and EBITDA growth.",
+   "ev_start": 15658,
+   "ev_end": 15808,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S053",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "beyond the"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 29,
+   "sentence": "At the same time, we indicated that trends should improve beyond the second quarter as we lap the initial go-to-market investments and as free wireless lines convert into paying relationships in greater volumes.",
+   "ev_start": 15809,
+   "ev_end": 16020,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S054",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence"
+   ],
+   "home": "convergence",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 32,
+   "sentence": "We believe we have a strong position to compete in convergence.",
+   "ev_start": 16246,
+   "ev_end": 16309,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expands"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 37,
+   "sentence": "Broadband remains the anchor product, but the value of the relationship expands meaningfully when we add wireless.",
+   "ev_start": 16870,
+   "ev_end": 16984,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S056",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence",
+    "broadband"
+   ],
+   "home": "convergence",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.78,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 38,
+   "sentence": "At roughly $85, our convergence ARPA remains well below levels reported by telecom competitors, which highlights the long runway and opportunity we have ahead of us, particularly as we stabilize broadband and continue to scale wireless.",
+   "ev_start": 16985,
+   "ev_end": 17221,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 40,
+   "sentence": "Broadband subscriber losses improved by 34,000 year-over-year to a loss of 167,000.",
+   "ev_start": 17333,
+   "ev_end": 17416,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S058",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "performance": [
+     "traction"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 41,
+   "sentence": "That improvement reflects continued traction from our new go-to-market strategy even as we continue to operate in a highly competitive environment across our footprint.",
+   "ev_start": 17417,
+   "ev_end": 17585,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [
+    "CMCSA_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 42,
+   "sentence": "Broadband ARPU declined 3.8%.",
+   "ev_start": 17586,
+   "ev_end": 17615,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S060",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "paid"
+   ],
+   "home": "paid",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "launch"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 43,
+   "sentence": "As I said earlier, we expect to see modest improvement as we anniversary the launch of the go-to-market strategy and as free wireless lines begin converting into paid relationships in greater volume as we exit this year.",
+   "ev_start": 17616,
+   "ev_end": 17836,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S061",
+   "topics": [
+    "momentum",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence",
+    "broadband"
+   ],
+   "home": "convergence",
+   "fact_ids": [
+    "CMCSA_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "revenue",
+     "declined",
+     "growth"
+    ]
+   },
+   "score": 4.78,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 45,
+   "sentence": "Convergence revenue declined 3.2% and convergence ARPA declined 1.5%, reflecting the pressure on broadband revenue, partially offset by 14% growth in wireless service revenue.",
+   "ev_start": 17861,
+   "ev_end": 18036,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "record"
+    ],
+    "performance": [
+     "record",
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 48,
+   "sentence": "That's our best quarter on record with roughly half of our residential postpaid phone connects coming from customers taking a free line.",
+   "ev_start": 18107,
+   "ev_end": 18243,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 51,
+   "sentence": "It's building awareness, it's driving attachment and it's expanding the base of customers we can convert into paying wireless relationships over time.",
+   "ev_start": 18338,
+   "ev_end": 18488,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S064",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining"
+    ],
+    "competition": [
+     "compete",
+     "competitor"
+    ],
+    "performance": [
+     "traction"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 53,
+   "sentence": "We compete effectively in value-oriented segments with substantial savings offered relative to competitor offerings, and we are also gaining traction in the higher value segment of the wireless market.",
+   "ev_start": 18587,
+   "ev_end": 18788,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S065",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ],
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 54,
+   "sentence": "In fact, premium unlimited plans accounted for roughly 30% of postpaid phone connects, demonstrating that we are now competing very effectively in a segment of the market that carries higher expectations around network quality and data allotments as well as handset availability and refreshment.",
+   "ev_start": 18789,
+   "ev_end": 19084,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "paid"
+   ],
+   "home": "paid",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "customers",
+     "accelerate"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 57,
+   "sentence": "Early free line conversion cohorts are tracking in line with our expectations, and we continue to expect a significant majority of these customers to convert to paid relationships as roll-offs accelerate in the second half of the year.",
+   "ev_start": 19505,
+   "ev_end": 19740,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "convergence"
+   ],
+   "home": "convergence",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 58,
+   "sentence": "Over time, that should provide a real tailwind to convergence revenue and ARPA growth.",
+   "ev_start": 19741,
+   "ev_end": 19827,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "business_services"
+   ],
+   "home": "business_services",
+   "fact_ids": [
+    "CMCSA_2026_2-011",
+    "CMCSA_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "increased 5"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "ebitda"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 60,
+   "sentence": "Revenue grew 3.7% and EBITDA increased 5%.",
+   "ev_start": 19858,
+   "ev_end": 19900,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S069",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 63,
+   "sentence": "That's consistent with the trend we have seen over the past year after adjusting for the Nitel acquisition, which we have now lapped.",
+   "ev_start": 20073,
+   "ev_end": 20206,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum",
+     "demand",
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 64,
+   "sentence": "Growth continues to be driven by strong momentum in Enterprise Solutions, where we are seeing demand from larger customers with more complex connectivity, security and managed services needs.",
+   "ev_start": 20207,
+   "ev_end": 20398,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S071",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "competition"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 68,
+   "sentence": "At SMB, competition remains elevated, but we continue to drive ARPU growth by deepening relationships through a strong mix of advanced solutions.",
+   "ev_start": 20676,
+   "ev_end": 20821,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S072",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "expanded"
+    ],
+    "competition": [
+     "differentiated",
+     "compete"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 5.22,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 69,
+   "sentence": "We also recently launched our T-Mobile MVNO, adding expanded business mobile capabilities and another differentiated product to the portfolio as we compete for business customers across every segment of the market.",
+   "ev_start": 20822,
+   "ev_end": 21036,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "content_experiences"
+   ],
+   "home": "content_experiences",
+   "fact_ids": [
+    "CMCSA_2026_2-013",
+    "CMCSA_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 3"
+    ],
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "revenue",
+     "ebitda",
+     "declined"
+    ]
+   },
+   "score": 4.48,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 72,
+   "sentence": "At Theme Parks, revenue increased 3%, while EBITDA declined 5%.",
+   "ev_start": 21115,
+   "ev_end": 21178,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S074",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline",
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "ebitda",
+     "decline"
+    ]
+   },
+   "score": 4.48,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 73,
+   "sentence": "The EBITDA decline was primarily driven by continued pressure at our Osaka park, where China-related travel restrictions are still impacting attendance.",
+   "ev_start": 21179,
+   "ev_end": 21331,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S075",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 74,
+   "sentence": "That pressure was partially offset by growth at our U.S. parks.",
+   "ev_start": 21332,
+   "ev_end": 21395,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "ebitda",
+     "grew"
+    ]
+   },
+   "score": 2.98,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 75,
+   "sentence": "In Orlando, revenue and EBITDA grew as we compared to the partial opening period of Epic in last year's second quarter.",
+   "ev_start": 21396,
+   "ev_end": 21515,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S077",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved",
+     "improvement"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "expect",
+     "later this year"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 77,
+   "sentence": "And at Hollywood, results improved as we began to lap the initial pressure we experienced last year, though we do not expect a more meaningful improvement until the new Fast & Furious roller coaster opens later this year.",
+   "ev_start": 21665,
+   "ev_end": 21886,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock",
+    "distribution",
+    "advertising"
+   ],
+   "home": "peacock",
+   "fact_ids": [
+    "CMCSA_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 54"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 82,
+   "sentence": "Digging into Peacock specifically, revenue increased 54%, driven by strong growth in both distribution and advertising revenue.",
+   "ev_start": 22446,
+   "ev_end": 22573,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "distribution",
+    "paid"
+   ],
+   "home": "distribution",
+   "fact_ids": [
+    "CMCSA_2026_2-019",
+    "CMCSA_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 83,
+   "sentence": "Distribution revenue grew over 50% with paid subscribers up $7 million year-over-year and $2 million sequentially, reaching $48 million.",
+   "ev_start": 22574,
+   "ev_end": 22710,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "distribution"
+   ],
+   "home": "distribution",
+   "fact_ids": [
+    "CMCSA_2026_2-022",
+    "CMCSA_2026_2-023"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increasing 25"
+    ],
+    "performance": [
+     "revenue",
+     "ebitda"
+    ]
+   },
+   "score": 4.2,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 85,
+   "sentence": "At Studios, we had another strong quarter with revenue increasing 25% and EBITDA increasing $141 million year-over-year.",
+   "ev_start": 22918,
+   "ev_end": 23038,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S081",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "distribution"
+   ],
+   "home": "distribution",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "releases"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 86,
+   "sentence": "Results were driven by recent theatrical releases, including the Super Mario Galaxy movie, Obsession and the international distribution of Michael.",
+   "ev_start": 23039,
+   "ev_end": 23186,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S082",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "distribution"
+   ],
+   "home": "distribution",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 87,
+   "sentence": "As always, Studios will have some quarter-to-quarter volatility based on theatrical release timing and licensing activity.",
+   "ev_start": 23187,
+   "ev_end": 23309,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "distribution"
+   ],
+   "home": "distribution",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 88,
+   "sentence": "But this quarter was another good example of the breadth of the portfolio with strength across franchise animation, specialty titles, filmmaker-driven projects and international distribution.",
+   "ev_start": 23310,
+   "ev_end": 23501,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S084",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "capital allocation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 89,
+   "sentence": "Now let me wrap up with free cash flow and capital allocation.",
+   "ev_start": 23502,
+   "ev_end": 23564,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S085",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 90,
+   "sentence": "In the second quarter, we generated $4.6 billion of free cash flow, underscoring the strength of our businesses even as we make meaningful investments that I've highlighted.",
+   "ev_start": 23565,
+   "ev_end": 23738,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S086",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 91,
+   "sentence": "This quarter, we returned $2.1 billion to shareholders, including $900 million in share repurchases.",
+   "ev_start": 23739,
+   "ev_end": 23839,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S087",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 92,
+   "sentence": "As we recently announced on our separation call, we did pause share repurchases as of July 1 and expect to remain paused through our separation.",
+   "ev_start": 23840,
+   "ev_end": 23984,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S088",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 93,
+   "sentence": "Our priority is to ensure both businesses are well capitalized with favorable investment-grade ratings to provide both the financial foundation to pursue their respective growth strategies.",
+   "ev_start": 23985,
+   "ev_end": 24174,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S089",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition",
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 2,
+   "sentence": "Competition remains intense, and we are operating under the assumption that the market will become increasingly competitive.",
+   "ev_start": 24558,
+   "ev_end": 24682,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S090",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 4,
+   "sentence": "Although not meaningful to us now, satellite is emerging as another competitor in that space.",
+   "ev_start": 24774,
+   "ev_end": 24867,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S091",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 9,
+   "sentence": "But foundationally, nothing beats a wire into the home with differentiated reliable WiFi and great customer experience.",
+   "ev_start": 25152,
+   "ev_end": 25271,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S092",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 13,
+   "sentence": "It's improved our time to market and our reaction time to competitive changes and enables us to respond in much more targeted ways while maintaining our discipline.",
+   "ev_start": 25559,
+   "ev_end": 25723,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S093",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 14,
+   "sentence": "Most importantly, though, we remain focused on the end state, and that's two multi-gig scaled competitors or two multi-gig scaled pipes to the home, and we are one of those.",
+   "ev_start": 25724,
+   "ev_end": 25897,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S094",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 15,
+   "sentence": "Additionally, fixed wireless and satellite will remain competitive in that space.",
+   "ev_start": 25898,
+   "ev_end": 25979,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S095",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenger"
+    ],
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 17,
+   "sentence": "Our converged offerings provide a significant advantage, and we really like our challenger position when it comes to that.",
+   "ev_start": 26025,
+   "ev_end": 26147,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S096",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 18,
+   "sentence": "We recently crossed the 10 million mark, and we like that, and we also had record-setting mobile line net adds in the quarter.",
+   "ev_start": 26148,
+   "ev_end": 26274,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S097",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 20,
+   "sentence": "We have a converged ARPA of $85, which is significantly below the competition, and this provides a long runway for us ahead.",
+   "ev_start": 26325,
+   "ev_end": 26449,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S098",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 3,
+   "sentence": "So on Starlink specifically, I would say right now, we currently are not seeing them as a meaningful competitive factor in our markets.",
+   "ev_start": 27164,
+   "ev_end": 27299,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S099",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "We fully expect to see them as more of a competitor over time.",
+   "ev_start": 27373,
+   "ev_end": 27435,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S100",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 9,
+   "sentence": "And I think that's realistic that we're going to see them as more of a competitor in those markets.",
+   "ev_start": 27783,
+   "ev_end": 27882,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S101",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "taking share"
+    ],
+    "competition": [
+     "taking share"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 10,
+   "sentence": "I think as we step back, how effective they are or anyone else is in taking share from us, we have a good degree of control over.",
+   "ev_start": 27883,
+   "ev_end": 28012,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S102",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 11,
+   "sentence": "There's a new competitive category.",
+   "ev_start": 28013,
+   "ev_end": 28048,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S103",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 14,
+   "sentence": "How do we address any vulnerabilities that we have from a competitive standpoint.",
+   "ev_start": 28220,
+   "ev_end": 28301,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S104",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 25,
+   "sentence": "We actually love the fact that it's active all the way into the home in an AI-driven world, having active components from head end to node to amps all the way into customer premise equipment, we actually think will be a big advantage in the long term.",
+   "ev_start": 28920,
+   "ev_end": 29171,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S105",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 26,
+   "sentence": "So we're very comfortable with where we are in network.",
+   "ev_start": 29172,
+   "ev_end": 29227,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S106",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 29,
+   "sentence": "And so I would say that's an advantage.",
+   "ev_start": 29463,
+   "ev_end": 29502,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S107",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 30,
+   "sentence": "We actually think we can press as we take a look at the pipeline of what we can go attach to our product in the home, exciting things coming down the map and a great position to sort of build from.",
+   "ev_start": 29503,
+   "ev_end": 29700,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S108",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 31,
+   "sentence": "The opening that we've seen for competitors, this is true largely a fixed wireless has been around our experience.",
+   "ev_start": 29701,
+   "ev_end": 29815,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S109",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 36,
+   "sentence": "So I would step back and say, whether it's fixed wireless, fiber, satellite, all these are in a sort of a new-ish competitive category.",
+   "ev_start": 30219,
+   "ev_end": 30354,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S110",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 40,
+   "sentence": "It's why we're making the investments we're making.",
+   "ev_start": 30559,
+   "ev_end": 30610,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S111",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 41,
+   "sentence": "Vikash, I could just get to your question quickly on potential partnerships.",
+   "ev_start": 30611,
+   "ev_end": 30687,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S112",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 44,
+   "sentence": "We've got a long history in the connectivity business of partnerships, whether that's multiple MVNOs at this point, deep syndication relationships across the cable industry, and that's a global cable industry.",
+   "ev_start": 30755,
+   "ev_end": 30964,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S113",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 49,
+   "sentence": "We have a partnership within Comcast Business, combining our managed connectivity portfolio with their satellite capabilities for enterprise customers.",
+   "ev_start": 31273,
+   "ev_end": 31424,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S114",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well positioned"
+    ],
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 2,
+   "sentence": "And as I mentioned, about 7% penetration to the overall addressable market, and we're well positioned to take advantage of the opportunity.",
+   "ev_start": 31785,
+   "ev_end": 31924,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S115",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 3,
+   "sentence": "Our competitive strengths include 2 strong MVNOs, one residential, one in business, and we're just activating the business MVNO now.",
+   "ev_start": 31925,
+   "ev_end": 32057,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S116",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ],
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 7,
+   "sentence": "And that, along with our lower acquisition costs has provided a great cost structure, and we've been able to offer our customers a great value proposition that significantly undercuts the competition.",
+   "ev_start": 32257,
+   "ev_end": 32457,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S117",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeding"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Steven Croney",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 10,
+   "sentence_index": 14,
+   "sentence": "Additionally, our premium mobile adoption continues to strengthen, and we're now exceeding 30% sell-in.",
+   "ev_start": 33113,
+   "ev_end": 33216,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S118",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubled",
+     "best"
+    ],
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 7,
+   "sentence": "Second, we invested in both current and future customer experience, as Steve mentioned, and doubled down to ensure our network and product offerings remain best-in-class.",
+   "ev_start": 34695,
+   "ev_end": 34865,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S119",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure",
+     "declining"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "declining",
+     "ebitda"
+    ]
+   },
+   "score": 5.34,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 8,
+   "sentence": "Those actions created pressure, as you've seen, stemming from broadband ARPU and ultimately manifesting as declining EBITDA, which you saw this quarter at 5.8%.",
+   "ev_start": 34866,
+   "ev_end": 35026,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S120",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves",
+     "improvement"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 9,
+   "sentence": "From here, if you use those same factors and ask what improves and what gives us confidence in saying modest improvement in the third quarter, consider each one.",
+   "ev_start": 35027,
+   "ev_end": 35188,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "demand",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 18,
+   "sentence": "Looking at broader secular factors, traffic demand on broadband continues to grow rapidly, which is in our favor.",
+   "ev_start": 36035,
+   "ev_end": 36148,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "business_services"
+   ],
+   "home": "business_services",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 22,
+   "sentence": "Finally, business services, which haven't been mentioned yet, are growing at roughly a 3% rate with a lot of room to run, particularly in enterprise, where we are the fastest-growing provider right now.",
+   "ev_start": 36431,
+   "ev_end": 36633,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S123",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 2,
+   "sentence": "If you look even longer than just a couple of quarters of what's actually happening from the consumer with their broadband and what is likely to be the most likely scenario for future.",
+   "ev_start": 36797,
+   "ev_end": 36981,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S124",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves"
+    ],
+    "forward": [
+     "are going to"
+    ],
+    "competition": [
+     "differentiates"
+    ],
+    "product": [
+     "innovation",
+     "new capability"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 8,
+   "sentence": "And if you roll that forward and with the innovation, the speed of change and all the different applications that are going to bolt on to this new capability in society, our road map, which is baked into our plans is to have multi-gig symmetrical, low latency network, which Steve talked about, with intelligence in that network that improves the experience and differentiates us from every other network.",
+   "ev_start": 37270,
+   "ev_end": 37675,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S125",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "product": [
+     "next generation"
+    ],
+    "confident": [
+     "confidence",
+     "excitement"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 10,
+   "sentence": "So our network is robust and ready for the next generation, and that gives me greater confidence and excitement.",
+   "ev_start": 37785,
+   "ev_end": 37897,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S126",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 5,
+   "sentence": "And we think that separating the business, setting it up on its own is going to give it the focus and opportunity and platform to invest behind the growth opportunities that it has in its own businesses and the spaces around these businesses that offer growth and where the business has the right to play.",
+   "ev_start": 38563,
+   "ev_end": 38868,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S127",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 6,
+   "sentence": "I think larger consolidation and the implications of that, we've been competing against all these players in these businesses for many years.",
+   "ev_start": 38869,
+   "ev_end": 39010,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i do believe"
+    ],
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 7,
+   "sentence": "And when you really look at what the business as it stands today has accomplished, I do believe that NBCUniversal and Sky do have the heft and the relationships and the operational capabilities to continue to be a major player as an independent, as Brian talked about earlier, player in the media space that's in a great position to partner with others.",
+   "ev_start": 39011,
+   "ev_end": 39364,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S129",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock"
+   ],
+   "home": "peacock",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "incredible"
+    ],
+    "performance": [],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 3.1,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 10,
+   "sentence": "Peacock will spend more time talking about that, but in six years, as Brian said, it's gotten to an incredible scale at a pace that we're very proud of and very much dovetails with the strategy for how we build and program NBC itself.",
+   "ev_start": 39561,
+   "ev_end": 39795,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S130",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing",
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 14,
+   "sentence": "We really look at them, each of them competing really well against their natural competitors and producing great results.",
+   "ev_start": 40105,
+   "ev_end": 40226,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S131",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 19,
+   "sentence": "So I think we do definitely have the scale that is needed to compete.",
+   "ev_start": 40595,
+   "ev_end": 40664,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S132",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "expanding"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 23,
+   "sentence": "We've built very long-standing relationships that are growing their audiences, elevating the presentation of their sports for the long term and expanding the value of their rights, frankly.",
+   "ev_start": 41039,
+   "ev_end": 41228,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S133",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 25,
+   "sentence": "We've had partnerships that go 40 years with the Olympics, long-standing relationships with the Premier League, Sunday Night Football, the best show on television, et cetera, et cetera.",
+   "ev_start": 41401,
+   "ev_end": 41586,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S134",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 26,
+   "sentence": "So I think the point is that we do feel really good about the business that we have.",
+   "ev_start": 41587,
+   "ev_end": 41671,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S135",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 31,
+   "sentence": "And I think one thing to add that Brian may want to pile on, I think as an independent, we take all these great assets and we are willing to partner with others.",
+   "ev_start": 41949,
+   "ev_end": 42110,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S136",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 33,
+   "sentence": "Our approach is to build great businesses that serve our own platforms, but look for opportunities to partner, bundle and exhibit other people's IP in our parks and create IP in our studios that go to other platforms.",
+   "ev_start": 42162,
+   "ev_end": 42379,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S137",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 35,
+   "sentence": "So we're excited about what we have ahead.",
+   "ev_start": 42515,
+   "ev_end": 42557,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S138",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ],
+    "confident": [
+     "excitement"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 1,
+   "sentence": "I think you perfectly covered why there's so much excitement both in the company and from people to partner with us.",
+   "ev_start": 42598,
+   "ev_end": 42714,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S139",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 2,
+   "sentence": "And we're unique in being independent, we don't have any other agenda other than to do the things you just laid out perfectly, which is partner well and to bring to life people's dreams and content and sporting events and the like.",
+   "ev_start": 42715,
+   "ev_end": 42946,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S140",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Roberts",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 3,
+   "sentence": "And so we just came from one of the conferences, and there's just great ideas, and I'm excited about the road ahead to expand the partnerships we've already got.",
+   "ev_start": 42947,
+   "ev_end": 43108,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S141",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softness",
+     "weakness"
+    ],
+    "pressure": [
+     "softness",
+     "weakness"
+    ],
+    "performance": [
+     "softness",
+     "weakness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "In Orlando, the softness affecting this quarter and continuing into June is essentially weakness in attendance.",
+   "ev_start": 43781,
+   "ev_end": 43892,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S142",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weakness"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "pressure": [
+     "weakness"
+    ],
+    "performance": [
+     "weakness",
+     "demand"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "We believe that is driven by some weakness in consumer sentiment and higher travel costs affecting demand.",
+   "ev_start": 43893,
+   "ev_end": 43999,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S143",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "confident": [
+     "excitement"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "While we see it continuing into the third quarter, we do not think it represents a permanent change in the outlook because we continue to see strong consumer appeal and satisfaction based on the metrics we track and the excitement people have about our parks.",
+   "ev_start": 44000,
+   "ev_end": 44259,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S144",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "we will"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 8,
+   "sentence": "When you have a great product like ours, we fully expect that once economic conditions and consumer demand stabilize, attendance will return and we will again thrill our fans in these parks because they are such good businesses and experiences, and we are proud of the product.",
+   "ev_start": 44296,
+   "ev_end": 44573,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S145",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "unique position"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 14,
+   "sentence": "John, to your question, we think this is, as I said earlier, a unique position given the capabilities and experience of the leadership team, including Mark Woodbury and others who have created these parks over the last quarter century and more.",
+   "ev_start": 44956,
+   "ev_end": 45200,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S146",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "roadmap"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 16,
+   "sentence": "We feel very confident in the long-term opportunity and in our roadmap to continue investing behind this team and in future opportunities like the U.K. park and other projects down the road.",
+   "ev_start": 45269,
+   "ev_end": 45459,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S147",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 18,
+   "sentence": "We have learned from our investments and the technological advances we have made with new parks like Epic, and we will carry that forward to continue building this very long-cycle but special business.",
+   "ev_start": 45558,
+   "ev_end": 45759,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S148",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 19,
+   "sentence": "We have a lot of confidence in it.",
+   "ev_start": 45760,
+   "ev_end": 45794,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S149",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock"
+   ],
+   "home": "peacock",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel great about"
+    ]
+   },
+   "score": 1.42,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 2,
+   "sentence": "We feel great about it; we talked about approaching profitability this quarter, and for all the reasons mentioned earlier, it was strongly profitable, nearly $200 million of profits in Peacock for the quarter.",
+   "ev_start": 46271,
+   "ev_end": 46480,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S150",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "advertising"
+   ],
+   "home": "advertising",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 9,
+   "sentence": "Again, Love Island, the World Cup, next-day NBC and Bravo programming and the rest of the slate helped really support strong engagement, very good subscriber trends, great advertising demand and thus overall monetization.",
+   "ev_start": 47151,
+   "ev_end": 47372,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S151",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "peacock",
+    "annual"
+   ],
+   "home": "peacock",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "profitability"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 11,
+   "sentence": "As to Peacock profitability itself, we do expect it to continue to improve on an annual basis, but profitability will vary quarter to quarter based on the timing of sports schedules and other content hitting in one quarter versus another.",
+   "ev_start": 47596,
+   "ev_end": 47834,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S152",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "annual"
+   ],
+   "home": "annual",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "forward": [
+     "we see that"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 12,
+   "sentence": "Think of it on an annual basis rather than focusing on the lumpiness quarter to quarter; it has been improving steadily and we see that continuing to be the case.",
+   "ev_start": 47835,
+   "ev_end": 47997,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S153",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "announcement"
+    ],
+    "strategy": [
+     "capital allocation"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 2,
+   "sentence": "So nothing to add relative to what we said 3 weeks ago upon announcement, which is we will take the coming months, obviously, to work through capital allocation, capital structure policies.",
+   "ev_start": 48384,
+   "ev_end": 48573,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S154",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investment",
+     "invest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jason Armstrong",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "But stepping back, the clear goal here was to create 2 scaled and focused industry leaders to put strong leadership in place to create the 2 with strong investment-grade balance sheets and really the ability to go invest and pursue growth agendas.",
+   "ev_start": 48574,
+   "ev_end": 48821,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S155",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.82,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 3,
+   "sentence": "Going back to some of the points Brian made at the beginning, we feel the separation is exciting and we're creating two exceptional companies with the great leadership teams across the two businesses, giving focus and agility to win in markets that are changing fast.",
+   "ev_start": 48938,
+   "ev_end": 49205,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S156",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "broadband"
+   ],
+   "home": "broadband",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.32,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 5,
+   "sentence": "Looking at the quarter, I'm really proud of the progress we're making on the strategic pivot in broadband that Steve spoke about.",
+   "ev_start": 49245,
+   "ev_end": 49374,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S157",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "gaining"
+    ],
+    "performance": [
+     "traction"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 6,
+   "sentence": "It's gaining traction, and we're happy with that.",
+   "ev_start": 49375,
+   "ev_end": 49424,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S158",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "record"
+    ],
+    "performance": [
+     "growth",
+     "record"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 7,
+   "sentence": "We're quite pleased with the significant growth in wireless, the best quarter on record as Brian and Steve covered.",
+   "ev_start": 49425,
+   "ev_end": 49540,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S159",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "media",
+    "peacock"
+   ],
+   "home": "media",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single-digit"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "ebitda",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 9,
+   "sentence": "The integrated media strategy I just talked about shows mid-single-digit EBITDA growth overall, even with the quarter being the last quarter of the first year of the NBA and with Peacock continuing to scale.",
+   "ev_start": 49644,
+   "ev_end": 49851,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CMCSA_2026_2-S160",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "softness"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Cavanagh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 11,
+   "sentence": "Finally, with parks, our view is that the softness we're seeing does not dim our view of the long-term health of the business.",
+   "ev_start": 49970,
+   "ev_end": 50096,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "CMCSA_2026_2-S152",
+  "CMCSA_2026_2-S050",
+  "CMCSA_2026_2-S020",
+  "CMCSA_2026_2-S041",
+  "CMCSA_2026_2-S049",
+  "CMCSA_2026_2-S057",
+  "CMCSA_2026_2-S058",
+  "CMCSA_2026_2-S059",
+  "CMCSA_2026_2-S119",
+  "CMCSA_2026_2-S121",
+  "CMCSA_2026_2-S123",
+  "CMCSA_2026_2-S042",
+  "CMCSA_2026_2-S043",
+  "CMCSA_2026_2-S044",
+  "CMCSA_2026_2-S054",
+  "CMCSA_2026_2-S056",
+  "CMCSA_2026_2-S061",
+  "CMCSA_2026_2-S067",
+  "CMCSA_2026_2-S068",
+  "CMCSA_2026_2-S122",
+  "CMCSA_2026_2-S073",
+  "CMCSA_2026_2-S004",
+  "CMCSA_2026_2-S009",
+  "CMCSA_2026_2-S027",
+  "CMCSA_2026_2-S030",
+  "CMCSA_2026_2-S128",
+  "CMCSA_2026_2-S159",
+  "CMCSA_2026_2-S011",
+  "CMCSA_2026_2-S012",
+  "CMCSA_2026_2-S028",
+  "CMCSA_2026_2-S037",
+  "CMCSA_2026_2-S078",
+  "CMCSA_2026_2-S129",
+  "CMCSA_2026_2-S151",
+  "CMCSA_2026_2-S079",
+  "CMCSA_2026_2-S080",
+  "CMCSA_2026_2-S081",
+  "CMCSA_2026_2-S082",
+  "CMCSA_2026_2-S083",
+  "CMCSA_2026_2-S010",
+  "CMCSA_2026_2-S021",
+  "CMCSA_2026_2-S022",
+  "CMCSA_2026_2-S023",
+  "CMCSA_2026_2-S060",
+  "CMCSA_2026_2-S066",
+  "CMCSA_2026_2-S035",
+  "CMCSA_2026_2-S150",
+  "CMCSA_2026_2-S001",
+  "CMCSA_2026_2-S006",
+  "CMCSA_2026_2-S033",
+  "CMCSA_2026_2-S038",
+  "CMCSA_2026_2-S040",
+  "CMCSA_2026_2-S051",
+  "CMCSA_2026_2-S071",
+  "CMCSA_2026_2-S072",
+  "CMCSA_2026_2-S074",
+  "CMCSA_2026_2-S087",
+  "CMCSA_2026_2-S096",
+  "CMCSA_2026_2-S117",
+  "CMCSA_2026_2-S141",
+  "CMCSA_2026_2-S142",
+  "CMCSA_2026_2-S146",
+  "CMCSA_2026_2-S153",
+  "CMCSA_2026_2-S158"
+ ],
+ "surfaced_signal_ids": [
+  "CMCSA_2026_2-S152",
+  "CMCSA_2026_2-S050",
+  "CMCSA_2026_2-S020",
+  "CMCSA_2026_2-S041",
+  "CMCSA_2026_2-S049",
+  "CMCSA_2026_2-S057",
+  "CMCSA_2026_2-S058",
+  "CMCSA_2026_2-S059",
+  "CMCSA_2026_2-S119",
+  "CMCSA_2026_2-S121",
+  "CMCSA_2026_2-S123",
+  "CMCSA_2026_2-S042",
+  "CMCSA_2026_2-S043",
+  "CMCSA_2026_2-S044",
+  "CMCSA_2026_2-S054",
+  "CMCSA_2026_2-S056",
+  "CMCSA_2026_2-S061",
+  "CMCSA_2026_2-S067",
+  "CMCSA_2026_2-S068",
+  "CMCSA_2026_2-S122",
+  "CMCSA_2026_2-S073",
+  "CMCSA_2026_2-S004",
+  "CMCSA_2026_2-S009",
+  "CMCSA_2026_2-S027",
+  "CMCSA_2026_2-S030",
+  "CMCSA_2026_2-S128",
+  "CMCSA_2026_2-S159",
+  "CMCSA_2026_2-S011",
+  "CMCSA_2026_2-S012",
+  "CMCSA_2026_2-S028",
+  "CMCSA_2026_2-S037",
+  "CMCSA_2026_2-S078",
+  "CMCSA_2026_2-S129",
+  "CMCSA_2026_2-S151",
+  "CMCSA_2026_2-S079",
+  "CMCSA_2026_2-S080",
+  "CMCSA_2026_2-S081",
+  "CMCSA_2026_2-S082",
+  "CMCSA_2026_2-S083",
+  "CMCSA_2026_2-S010",
+  "CMCSA_2026_2-S021",
+  "CMCSA_2026_2-S022",
+  "CMCSA_2026_2-S023",
+  "CMCSA_2026_2-S060",
+  "CMCSA_2026_2-S066",
+  "CMCSA_2026_2-S035",
+  "CMCSA_2026_2-S150",
+  "CMCSA_2026_2-S001",
+  "CMCSA_2026_2-S006",
+  "CMCSA_2026_2-S033",
+  "CMCSA_2026_2-S038",
+  "CMCSA_2026_2-S040",
+  "CMCSA_2026_2-S051",
+  "CMCSA_2026_2-S071",
+  "CMCSA_2026_2-S072",
+  "CMCSA_2026_2-S074",
+  "CMCSA_2026_2-S087",
+  "CMCSA_2026_2-S096",
+  "CMCSA_2026_2-S117",
+  "CMCSA_2026_2-S141",
+  "CMCSA_2026_2-S142",
+  "CMCSA_2026_2-S146",
+  "CMCSA_2026_2-S153",
+  "CMCSA_2026_2-S158",
+  "CMCSA_2026_2-S005",
+  "CMCSA_2026_2-S125",
+  "CMCSA_2026_2-S143"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "annual",
+   "result_broadband",
+   "broadband",
+   "convergence",
+   "business_services",
+   "content_experiences",
+   "media",
+   "peacock",
+   "distribution",
+   "paid",
+   "advertising"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "CMCSA_2026_2-019",
+   "CMCSA_2026_2-022"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "2 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 160,
+  "signals_usable": 160,
+  "selected": 64,
+  "by_topic": {
+   "product": 35,
+   "momentum": 67,
+   "strategy": 26,
+   "competition": 38,
+   "pressure": 11
+  },
+  "by_horizon": {
+   "current": 133,
+   "forward": 27
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 11,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

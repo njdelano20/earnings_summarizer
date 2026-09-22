@@ -272,6 +272,114 @@
    "detail": "",
    "stem": "RTX_2026Q2",
    "processed": "2026-09-21T22:01:19"
+  },
+  "CMCSA": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "CMCSA_2026Q2",
+   "processed": "2026-09-21T22:01:22"
+  },
+  "DIS": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q3",
+   "status": "ok",
+   "detail": "",
+   "stem": "DIS_2026Q3",
+   "processed": "2026-09-21T22:01:24"
+  },
+  "BAC": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "BAC_2026Q2",
+   "processed": "2026-09-21T22:01:27"
+  },
+  "WFC": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "WFC_2026Q2",
+   "processed": "2026-09-21T22:01:30"
+  },
+  "GS": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "GS_2026Q2",
+   "processed": "2026-09-21T22:01:33"
+  },
+  "SCHW": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "SCHW_2026Q2",
+   "processed": "2026-09-21T22:01:36"
+  },
+  "AXP": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "AXP_2026Q2",
+   "processed": "2026-09-21T22:01:38"
+  },
+  "PYPL": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "PYPL_2026Q2",
+   "processed": "2026-09-21T22:01:41"
+  },
+  "MET": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "MET_2026Q2",
+   "processed": "2026-09-21T22:01:43"
+  },
+  "AIG": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "AIG_2026Q2",
+   "processed": "2026-09-21T22:01:45"
+  },
+  "CVX": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "CVX_2026Q2",
+   "processed": "2026-09-21T22:01:48"
+  },
+  "UPS": {
+   "attempts": 1,
+   "last_attempt": "2026-09-21",
+   "fiscal_label": "2026Q2",
+   "status": "ok",
+   "detail": "",
+   "stem": "UPS_2026Q2",
+   "processed": "2026-09-21T22:01:50"
   }
  }
 }

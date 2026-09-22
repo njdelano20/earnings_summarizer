@@ -1,0 +1,5201 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "MET",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "MET",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "John Hall",
+    "role": "ir"
+   },
+   {
+    "name": "Michel Khalaf",
+    "role": "management"
+   },
+   {
+    "name": "John McCallion",
+    "role": "management"
+   },
+   {
+    "name": "Ryan Krueger",
+    "role": "analyst"
+   },
+   {
+    "name": "Ramy Tadros",
+    "role": "management"
+   },
+   {
+    "name": "Pablo Singzon",
+    "role": "analyst"
+   },
+   {
+    "name": "Suneet Kamath",
+    "role": "analyst"
+   },
+   {
+    "name": "Lyndon Oliver",
+    "role": "management"
+   },
+   {
+    "name": "Thomas Gallagher",
+    "role": "analyst"
+   },
+   {
+    "name": "Wilma Jackson Burdis",
+    "role": "analyst"
+   },
+   {
+    "name": "Joel Hurwitz",
+    "role": "analyst"
+   },
+   {
+    "name": "Wesley Carmichael",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "MET_2026Q2.json",
+  "vocabulary_packs": [
+   "insurance"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided flat",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.64, qa +1.00",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "MET_2026_2-S064",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "premiums_fees_and_other",
+   "name": "Premiums, Fees And Other",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "MET_2026_2-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "metlife_investment_management",
+   "name": "Metlife Investment Management",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "MET_2026_2-008",
+   "MET_2026_2-001",
+   "MET_2026_2-009",
+   "MET_2026_2-014",
+   "MET_2026_2-005",
+   "MET_2026_2-011",
+   "MET_2026_2-013",
+   "MET_2026_2-012",
+   "MET_2026_2-007"
+  ],
+  "signal_ids": [
+   "MET_2026_2-S029",
+   "MET_2026_2-S039",
+   "MET_2026_2-S040",
+   "MET_2026_2-S043",
+   "MET_2026_2-S044",
+   "MET_2026_2-S056",
+   "MET_2026_2-S061",
+   "MET_2026_2-S064",
+   "MET_2026_2-S068",
+   "MET_2026_2-S088",
+   "MET_2026_2-S090",
+   "MET_2026_2-S092",
+   "MET_2026_2-S099",
+   "MET_2026_2-S118",
+   "MET_2026_2-S128"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "premiums_fees_and_other",
+   "name": "Premiums, Fees And Other",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MET_2026_2-002"
+   ],
+   "signal_ids": [
+    "MET_2026_2-S006"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "metlife_investment_management",
+   "name": "Metlife Investment Management",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "MET_2026_2-010"
+   ],
+   "signal_ids": [
+    "MET_2026_2-S003",
+    "MET_2026_2-S082"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "MET_2026_2-S064",
+    "direction_word": "flat",
+    "text": "Retained liability exposures grew 3% year-over-year at the low end of our 2026 outlook range, consistent with our expectation that growth would build over the year.",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 9,
+    "cautious": 2,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.64
+   },
+   "qa": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   }
+  },
+  "speakers": {
+   "Michel Khalaf": {
+    "cautious": 1,
+    "confident": 5
+   },
+   "John McCallion": {
+    "cautious": 1,
+    "confident": 6
+   },
+   "Ramy Tadros": {
+    "confident": 2
+   },
+   "Lyndon Oliver": {
+    "confident": 1
+   }
+  },
+  "notable_confident": [
+   "MET_2026_2-S040",
+   "MET_2026_2-S106",
+   "MET_2026_2-S083",
+   "MET_2026_2-S089"
+  ],
+  "notable_cautious": [
+   "MET_2026_2-S050",
+   "MET_2026_2-S013"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "MET_2026_2-S001",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see the"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "This was an outstanding quarter and another clear demonstration of how our New Frontier strategy is working as intended and how repeatable our model is built on a powerful recurring revenue base and the flexibility to invest where we see the most compelling global risk-adjusted opportunities.",
+   "ev_start": 1626,
+   "ev_end": 1919,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S002",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "The other is capital-driven, where our retirement and spread-based businesses leverage our origination, investment and risk management capabilities to put our balance sheet to work at attractive risk-adjusted returns.",
+   "ev_start": 2212,
+   "ev_end": 2429,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S003",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "metlife_investment_management"
+   ],
+   "home": "metlife_investment_management",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth",
+     "earnings"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Our capital-driven businesses originate assets that are managed by MetLife Investment Management, supporting the growth of our asset management platform and expanding our capital-light earnings over time.",
+   "ev_start": 2482,
+   "ev_end": 2686,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 15"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Adjusted earnings increased 15% from the prior year period.",
+   "ev_start": 3438,
+   "ev_end": 3497,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 20"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "Adjusted earnings per share increased 20%, faster than earnings growth, reflecting our measured and consistent approach to capital management.",
+   "ev_start": 3498,
+   "ev_end": 3640,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "premiums_fees_and_other"
+   ],
+   "home": "premiums_fees_and_other",
+   "fact_ids": [
+    "MET_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 5"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "Adjusted premiums, fees and other revenues, excluding pension risk transfers, increased 5% year-over-year.",
+   "ev_start": 3641,
+   "ev_end": 3747,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "Sales rose 7%, led by strong growth across our international businesses.",
+   "ev_start": 3748,
+   "ev_end": 3820,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S008",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Variable investment income totaled $231 million pretax and was higher than the prior year period.",
+   "ev_start": 3821,
+   "ev_end": 3918,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S009",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "We achieved this despite approximately 50 basis points of impact from the addition of PineBridge Investments, a fee-based business with a structurally higher expense profile.",
+   "ev_start": 4196,
+   "ev_end": 4370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "Even as we integrate that business, we remain on target through rigorous expense management and productivity gains from AI and other technologies.",
+   "ev_start": 4371,
+   "ev_end": 4517,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S011",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "sets us apart"
+    ],
+    "competition": [
+     "advantage",
+     "sets us apart"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "To that point, AI is becoming a structural advantage for MetLife and our scale sets us apart.",
+   "ev_start": 4518,
+   "ev_end": 4611,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth",
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Over time, we expect that to be a meaningful and durable tailwind to both growth and productivity while creating an even more seamless experience for our customers.",
+   "ev_start": 4765,
+   "ev_end": 4929,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ],
+    "hedge": [
+     "monitor"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Critically, we carefully monitor our AI-related investments and expenses, including model usage and token costs.",
+   "ev_start": 4930,
+   "ev_end": 5042,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "They're held to the same return standards we have for any other investments we make or expenses we have.",
+   "ev_start": 5043,
+   "ev_end": 5147,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "And the gains we're achieving in growth, productivity and customer service, which is evident in our direct expense ratio, far exceed the costs.",
+   "ev_start": 5148,
+   "ev_end": 5291,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S016",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 2.46,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "And above all, governance and risk oversight remains central to how we deploy AI, consistent with the trust our customers place in MetLife.",
+   "ev_start": 5292,
+   "ev_end": 5431,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 25"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "The segment generated adjusted earnings of $503 million, up 25% year-over-year.",
+   "ev_start": 5536,
+   "ev_end": 5615,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 9"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "Year-to-date sales are up 9% with regional business advancing 11% led by the under-1,000 employee market.",
+   "ev_start": 5868,
+   "ev_end": 5973,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit",
+     "strength"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We saw double-digit sales gains year-to-date in disability and voluntary products with particular strength in A&H. These results demonstrate the quality of this flagship franchise.",
+   "ev_start": 5974,
+   "ev_end": 6154,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S020",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "set us apart"
+    ],
+    "competition": [
+     "set us apart"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Our scale, broad product set and long-standing customer relationships set us apart and position us well to meet the evolving needs of employers and employees, while delivering responsible growth over time.",
+   "ev_start": 6155,
+   "ev_end": 6360,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 2"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "Moving to Retirement and Income Solutions, or RIS, we reported adjusted earnings of $377 million, up 2% from a year ago.",
+   "ev_start": 6361,
+   "ev_end": 6481,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 19"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "Adjusted PFOs, excluding pension risk transfers, increased 19%, driven primarily by U.K. longevity reinsurance and structured settlement sales.",
+   "ev_start": 6482,
+   "ev_end": 6625,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S023",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.96,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "And MetLife has the origination capabilities, investment expertise and product breadth to serve that demand across key global markets.",
+   "ev_start": 6774,
+   "ev_end": 6908,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S024",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 2.46,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "This breadth affords MetLife the capacity to be selective in deploying capital, choosing to pursue only the highest returning risk-adjusted opportunities.",
+   "ev_start": 7011,
+   "ev_end": 7165,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 21"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "Adjusted earnings of $420 million increased 21% on a reported basis and 25% on a constant currency basis.",
+   "ev_start": 7187,
+   "ev_end": 7292,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "sales",
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "Sales advanced 17% on a constant currency basis, reflecting strong performance across markets, particularly in Korea, where we continue to see momentum.",
+   "ev_start": 7293,
+   "ev_end": 7445,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S027",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid",
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "And Japan countered a solid year-ago sales quarter for life and annuities with almost 90% A&H growth on a constant currency basis following a newly launched medical product.",
+   "ev_start": 7446,
+   "ev_end": 7619,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S028",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "And with favorable demographics, deep distribution and continued product innovation, we see meaningful opportunities ahead.",
+   "ev_start": 7777,
+   "ev_end": 7900,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "earnings",
+     "record"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "In Latin America, adjusted earnings of $268 million represented a quarterly record and an increase of 15% and 4% on a constant currency basis.",
+   "ev_start": 7901,
+   "ev_end": 8043,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust",
+     "solid",
+     "increased 6"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "Adjusted PFOs increased 6% on a constant currency basis, reflecting robust growth and solid persistency across the region.",
+   "ev_start": 8044,
+   "ev_end": 8166,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Latin America continues to demonstrate the value of our leading market positions, multipronged distribution and ability to serve a growing need for protection, health and retirement solutions.",
+   "ev_start": 8200,
+   "ev_end": 8392,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 8"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "Adjusted earnings of $108 million increased 8% or 11% on a constant currency basis.",
+   "ev_start": 8410,
+   "ev_end": 8493,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "sales"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "Adjusted PFOs grew 12% on a constant currency basis, supported by sales and renewal activity across the region.",
+   "ev_start": 8494,
+   "ev_end": 8605,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 15"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "Sales increased 15%, reflecting sustained and broad-based growth.",
+   "ev_start": 8606,
+   "ev_end": 8671,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 6"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "The segment generated adjusted earnings of $57 million, up 6%.",
+   "ev_start": 8727,
+   "ev_end": 8789,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S036",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrating"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Growth reflected the contribution from integrating PineBridge Investments and expense management.",
+   "ev_start": 8790,
+   "ev_end": 8887,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S037",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "Our second quarter performance illustrates the advantage of diversification.",
+   "ev_start": 8987,
+   "ev_end": 9063,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S038",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "During the quarter, we repurchased approximately $700 million of common shares.",
+   "ev_start": 9312,
+   "ev_end": 9391,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "Year-to-date through July, we have returned over $2.4 billion to MetLife shareholders through a combination of stock buybacks and common dividends.",
+   "ev_start": 9392,
+   "ev_end": 9539,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S040",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "repurchase"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 7.22,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "Last night, we announced a new $3 billion share repurchase authorization, reflecting our confidence in MetLife's capital generation and long-term outlook.",
+   "ev_start": 9540,
+   "ev_end": 9694,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "Our approach to capital deployment and allocation remains consistent.",
+   "ev_start": 9848,
+   "ev_end": 9917,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S042",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "Our first priority is to fund responsible organic growth where MetLife has structural advantages and opportunities to earn attractive risk-adjusted returns.",
+   "ev_start": 9918,
+   "ev_end": 10074,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S043",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "We will pursue inorganic investments when they add strategic capabilities, meet our financial criteria and create value.",
+   "ev_start": 10075,
+   "ev_end": 10195,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S044",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "future"
+    ],
+    "product": [
+     "deployment"
+    ],
+    "strategy": [
+     "disciplined",
+     "invest"
+    ],
+    "performance": [
+     "earnings",
+     "cash flow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Disciplined strategic capital deployment fuels future earnings and strong recurring free cash flow enables us to invest in our businesses and also return capital consistently.",
+   "ev_start": 10626,
+   "ev_end": 10801,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S045",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "In closing, this was an excellent quarter that once again demonstrated the investment case for MetLife under New Frontier.",
+   "ev_start": 10802,
+   "ev_end": 10924,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "They create a more balanced and durable earnings profile, along with a stronger foundation for long-term value creation.",
+   "ev_start": 11029,
+   "ev_end": 11149,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S047",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 83,
+   "sentence": "We are pleased with our progress.",
+   "ev_start": 11150,
+   "ev_end": 11183,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "We have confidence in the strengths we have built over time, the momentum across our businesses and our ability to execute through a range of environments.",
+   "ev_start": 11184,
+   "ev_end": 11339,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "This quarter is another strong demonstration of MetLife's earnings power and the strength of our business model.",
+   "ev_start": 11583,
+   "ev_end": 11695,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S050",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "hedge": [
+     "prudently"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "We generated broad-based growth across the enterprise, delivered excellent underwriting results, maintained disciplined expense management and continue to deploy capital prudently.",
+   "ev_start": 11696,
+   "ev_end": 11876,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceed"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 4,
+   "sentence": "It was an excellent quarter, and the combination of growth, returns and execution enabled us to meet or exceed our key financial commitments once again.",
+   "ev_start": 12003,
+   "ev_end": 12155,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Adjusted EPS grew 20%, while adjusted ROE reached 17% at the top end of our 15% to 17% target range.",
+   "ev_start": 12156,
+   "ev_end": 12256,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S053",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "The difference between net income and adjusted earnings was primarily driven by mark-to-market accounting on our derivatives and net investment losses.",
+   "ev_start": 12458,
+   "ev_end": 12609,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 15"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "Adjusted earnings increased 15% year-over-year or 14% on a constant currency basis.",
+   "ev_start": 12733,
+   "ev_end": 12816,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S055",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "strong"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth",
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "Growth was balanced across the enterprise, driven by favorable underwriting margins, strong volume growth across all segments and higher investment margins, partially offset by less favorable expense margins.",
+   "ev_start": 12817,
+   "ev_end": 13025,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S056",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 20"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Adjusted earnings per share were up 20% and 19% on a constant currency basis, with strong earnings growth supported by disciplined capital management.",
+   "ev_start": 13026,
+   "ev_end": 13176,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "up 25"
+    ],
+    "performance": [
+     "earnings",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Group Benefits had an outstanding quarter, generating adjusted earnings of $503 million, up 25% year-over-year, driven by favorable underwriting margins and volume growth.",
+   "ev_start": 13207,
+   "ev_end": 13378,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "Growth remains healthy across the franchise.",
+   "ev_start": 13775,
+   "ev_end": 13819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 9",
+     "increased 1",
+     "up 4",
+     "reflecting growth"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "Sales were up 9% year-to-date and adjusted PFOs increased 1% and up 4%, excluding participating contracts, reflecting growth in both national accounts and regional business.",
+   "ev_start": 13820,
+   "ev_end": 13993,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S060",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "up 2"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "earnings",
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "Adjusted earnings were $377 million, up 2% year-over-year, driven by favorable recurring interest margins and volume growth, partially offset by lower variable investment income.",
+   "ev_start": 14010,
+   "ev_end": 14188,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S061",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weaker"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 5.72,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "Total investment spread was 97 basis points in the second quarter, below our guidance range of 100 to 120 basis points, driven by weaker private equity returns within VII.",
+   "ev_start": 14189,
+   "ev_end": 14360,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 5",
+     "improved"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "While core spread, excluding VII, was 100 basis points, up 5 basis points sequentially, reflecting the benefit of asset deployment along with improved real estate equity income.",
+   "ev_start": 14361,
+   "ev_end": 14538,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 19"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "RIS adjusted PFOs, excluding pension risk transfers, were up 19%, driven by strong growth in U.K. longevity reinsurance and structured settlements.",
+   "ev_start": 14611,
+   "ev_end": 14758,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Retained liability exposures grew 3% year-over-year at the low end of our 2026 outlook range, consistent with our expectation that growth would build over the year.",
+   "ev_start": 14759,
+   "ev_end": 14923,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 21"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Asia adjusted earnings were $420 million, up 21% and 25% on a constant currency basis.",
+   "ev_start": 15283,
+   "ev_end": 15369,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S066",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "favorable"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Results reflect strength across the business, supported by favorable equity markets, higher variable investment income and continued volume growth.",
+   "ev_start": 15370,
+   "ev_end": 15517,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Asia's key top line growth metrics continued their strong momentum in Q2.",
+   "ev_start": 15518,
+   "ev_end": 15591,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S068",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwinds"
+    ],
+    "product": [
+     "launches"
+    ],
+    "performance": [
+     "sales",
+     "traction"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Sales rose 17% on a constant currency basis, fueled by equity market tailwinds in Korea plus traction from recent product launches.",
+   "ev_start": 15692,
+   "ev_end": 15823,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 2"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "In Japan, sales increased 2% year-over-year against a strong prior year comparison and 13% sequentially.",
+   "ev_start": 15824,
+   "ev_end": 15928,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "Taken together, these results reinforce our confidence in Asia's long-term growth trajectory and the strength of our franchise across the region.",
+   "ev_start": 15929,
+   "ev_end": 16074,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 15"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Latin America delivered adjusted earnings of $268 million, up 15% year-over-year or 4% on a constant currency basis.",
+   "ev_start": 16075,
+   "ev_end": 16191,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "favorable"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "Results were driven by strong volume growth as well as favorable market factors, including an elevated encaje return of 5.6% in the second quarter and lower taxes.",
+   "ev_start": 16192,
+   "ev_end": 16355,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "strong",
+     "up 9",
+     "up 16"
+    ],
+    "performance": [
+     "momentum",
+     "sales"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Top line momentum remained strong with sales up 9% on a constant currency basis and adjusted PFOs up 16% or 6% on a constant currency basis.",
+   "ev_start": 16422,
+   "ev_end": 16562,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "favorable",
+     "accelerator"
+    ],
+    "performance": [
+     "growth",
+     "demand",
+     "accelerator"
+    ]
+   },
+   "score": 1.46,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "And we continue to see attractive growth opportunities across the region, supported by strong distribution capabilities, favorable product demand and the increasing reach of our MetLife Accelerator platform.",
+   "ev_start": 16638,
+   "ev_end": 16845,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 8"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "EMEA delivered adjusted earnings of $108 million, up 8% year-over-year or 11% on a constant currency basis.",
+   "ev_start": 16846,
+   "ev_end": 16953,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Results were driven by strong volume growth, partially offset by higher expenses in the quarter.",
+   "ev_start": 16954,
+   "ev_end": 17050,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum",
+     "solid",
+     "up 12"
+    ],
+    "performance": [
+     "sales",
+     "momentum"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "EMEA's top line remained strong with adjusted PFOs up 12%, supported by ongoing sales momentum and solid renewal activity across the region.",
+   "ev_start": 17051,
+   "ev_end": 17191,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 15"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "Sales increased 15% on a constant currency basis, reflecting broad gains across markets and geographies.",
+   "ev_start": 17192,
+   "ev_end": 17296,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "Adjusted earnings were $57 million, up 6%, driven by solid business growth and expense management.",
+   "ev_start": 17493,
+   "ev_end": 17591,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "Momentum is building across the platform.",
+   "ev_start": 17592,
+   "ev_end": 17633,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S081",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "And as integration benefits continue to emerge, we expect adjusted earnings to maintain their upward trajectory through the second half of the year.",
+   "ev_start": 17634,
+   "ev_end": 17782,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "metlife_investment_management"
+   ],
+   "home": "metlife_investment_management",
+   "fact_ids": [
+    "MET_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "forward": [
+     "full year",
+     "guidance"
+    ],
+    "performance": [
+     "growth",
+     "margin",
+     "earnings"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "This growth, combined with a 410 basis point improvement in operating margin during the quarter, positions MIM to deliver full year adjusted earnings within its guidance range of $240 million to $280 million, though likely toward the low end.",
+   "ev_start": 17925,
+   "ev_end": 18167,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S083",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "We remain confident in the sustained success of this business and our 2027 guidance remains intact.",
+   "ev_start": 18168,
+   "ev_end": 18267,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S084",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "And the company's effective tax rate on adjusted earnings in the quarter was 23%, below our 2026 guidance range of 24% to 26%.",
+   "ev_start": 18626,
+   "ev_end": 18752,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S085",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "Pretax variable investment income was $231 million in the second quarter of 2026.",
+   "ev_start": 18775,
+   "ev_end": 18856,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S086",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "Looking ahead, we expect stronger private equity returns in the third quarter, particularly from our venture capital investments, supported by elevated IPO activity and higher public market valuations.",
+   "ev_start": 19187,
+   "ev_end": 19388,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S087",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year",
+     "outlook"
+    ],
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "While VII can vary from quarter-to-quarter, we manage the business for normalized returns over time and remain comfortable with our full year outlook.",
+   "ev_start": 19632,
+   "ev_end": 19782,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S088",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "Strong PFO growth and continued expense discipline enabled us to absorb the previously disclosed roughly 50 basis point impact from the PineBridge acquisition.",
+   "ev_start": 19957,
+   "ev_end": 20116,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S089",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "We manage expenses on a full year basis and we remain confident in our ability to beat our 2026 target of 12.1%.",
+   "ev_start": 20117,
+   "ev_end": 20229,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S090",
+   "topics": [
+    "competition",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator"
+    ],
+    "competition": [
+     "differentiator"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.96,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Our consistent execution continues to be a MetLife differentiator, reinforcing the durability of our earnings and our ability to invest in growth, while delivering on our financial commitments.",
+   "ev_start": 20230,
+   "ev_end": 20423,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S091",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "In the second quarter, we returned approximately $1.1 billion to shareholders, including approximately $700 million of share repurchases.",
+   "ev_start": 20668,
+   "ev_end": 20805,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S092",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "MET_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 78,
+   "sentence": "We also repurchased approximately $225 million of additional shares in July.",
+   "ev_start": 20806,
+   "ev_end": 20882,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "performance": [
+     "earnings",
+     "cash flow"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "These actions underscore the confidence in MetLife's earnings power, the strength of our balance sheet and our ability to generate durable free cash flow over time.",
+   "ev_start": 20883,
+   "ev_end": 21047,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S094",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 82,
+   "sentence": "While results will vary year-to-year, we are comfortable managing ESR anywhere within this range.",
+   "ev_start": 21430,
+   "ev_end": 21527,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S095",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "deploy"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "We generated strong and broad-based growth, produced attractive returns, maintained disciplined expense management and continued to deploy capital from a position of strength.",
+   "ev_start": 21587,
+   "ev_end": 21762,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S096",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "i will"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "So first, what I will say is that nothing has really changed for us in terms of our M&A philosophy and approach.",
+   "ev_start": 22734,
+   "ev_end": 22846,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S097",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 4,
+   "sentence": "We've always viewed M&A as a strategic capability.",
+   "ev_start": 22847,
+   "ev_end": 22897,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S098",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 1.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 5,
+   "sentence": "And to your direct question, I've talked in the past about two areas where potentially, we would be likely to consider M&A. And those are asset management and group.",
+   "ev_start": 22898,
+   "ev_end": 23063,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S099",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantage"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 8,
+   "sentence": "We've invested heavily, as you know, in technology as well, and that's really helping us further drive our competitive advantage.",
+   "ev_start": 23220,
+   "ev_end": 23349,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S100",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new capabilities"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 12,
+   "sentence": "So we're always open to considering new capabilities or solutions if that makes sense.",
+   "ev_start": 23688,
+   "ev_end": 23774,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S101",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 14,
+   "sentence": "The more likely area I would say is asset management, and you saw us do the PineBridge Investments deal late last year.",
+   "ev_start": 23844,
+   "ev_end": 23963,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 16,
+   "sentence": "We have a good path to growing organically this business, but we would be open to complementing that with inorganic complementary opportunities.",
+   "ev_start": 24114,
+   "ev_end": 24258,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S103",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ],
+    "strategy": [
+     "disciplined",
+     "m&a"
+    ]
+   },
+   "score": 3.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 18,
+   "sentence": "I would also point out that we have a history of being very disciplined with capital deployment and M&A. And we have a high bar to clear to ensure that we create long-term value for our shareholders.",
+   "ev_start": 24351,
+   "ev_end": 24550,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 3,
+   "sentence": "We're coming off a record year in 2025.",
+   "ev_start": 29412,
+   "ev_end": 29451,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S105",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 9,
+   "sentence": "We're going to always be disciplined in terms of how we price this business and focus on generating attractive risk-adjusted returns.",
+   "ev_start": 29813,
+   "ev_end": 29946,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growth of 3"
+    ],
+    "forward": [
+     "for the full year"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 18,
+   "sentence": "So net-net, if you look at all of RIS, we're pretty confident that we're going to be within our retained balance growth of 3% to 5% for the full year, reflecting the strength of the franchise and the product portfolio that we have.",
+   "ev_start": 30822,
+   "ev_end": 31053,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S107",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.22,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 1,
+   "sentence": "We're really pleased with the sales performance that we've seen all across Asia, not just in Japan.",
+   "ev_start": 31548,
+   "ev_end": 31647,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 17"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "If we look at the second quarter, sales were up 17%.",
+   "ev_start": 31648,
+   "ev_end": 31700,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 19"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "Year-to-date, sales are up 19% year-over-year.",
+   "ev_start": 31701,
+   "ev_end": 31747,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 5,
+   "sentence": "What's driving it is we've seen sustained momentum this year, a payoff from a lot of actions we've taken.",
+   "ev_start": 31797,
+   "ev_end": 31902,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S111",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 7,
+   "sentence": "We have product innovation, strong product development, both in U.S. dollar as well as local currency products.",
+   "ev_start": 32043,
+   "ev_end": 32154,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 13,
+   "sentence": "But our sales through June have been strong.",
+   "ev_start": 32581,
+   "ev_end": 32625,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S113",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 14,
+   "sentence": "And into July, that momentum is continuing.",
+   "ev_start": 32626,
+   "ev_end": 32669,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S114",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "Nothing has changed in terms of how we think about M&A here.",
+   "ev_start": 33512,
+   "ev_end": 33572,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S115",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined",
+     "m&a"
+    ]
+   },
+   "score": 1.86,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 7,
+   "sentence": "But I would emphasize that we are very disciplined when it comes to M&A. We have a high bar to clear here, and we compare M&A to other potential uses of capital as well.",
+   "ev_start": 33747,
+   "ev_end": 33916,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S116",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.64,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 8,
+   "sentence": "With regards to Latin America, I would add that we're really pleased with our business in Latin America.",
+   "ev_start": 33917,
+   "ev_end": 34021,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S117",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 10,
+   "sentence": "You can see from our results that Latin America is very much on a path to generate $1 billion in earnings this year, which is roughly double from pre-pandemic levels, and this is being fueled by sustained growth there.",
+   "ev_start": 34092,
+   "ev_end": 34310,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "sales"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 11,
+   "sentence": "Our business in Brazil has been the fastest-growing life insurer in that market for several years and is now contributing about 20% of overall Latin America sales.",
+   "ev_start": 34311,
+   "ev_end": 34474,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S119",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michel Khalaf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 12,
+   "sentence": "So really pleased with the momentum there as well.",
+   "ev_start": 34475,
+   "ev_end": 34525,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S120",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 1,
+   "sentence": "When we have the opportunity to reinvest, we leverage the collective power of all our differentiated investment capabilities.",
+   "ev_start": 35021,
+   "ev_end": 35146,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 8,
+   "sentence": "But over time, higher rates do provide positive momentum.",
+   "ev_start": 35579,
+   "ev_end": 35636,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S122",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 1,
+   "sentence": "Given we're in a relatively higher rate environment than several years ago, over time we would probably see a slightly lower allocation to private equity, albeit we're still investing.",
+   "ev_start": 36115,
+   "ev_end": 36299,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S123",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 5,
+   "sentence": "So directionally, the trend is a modest decline over time on private equity allocation, but that doesn't mean we won't continue to invest in the space.",
+   "ev_start": 36566,
+   "ev_end": 36717,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 1,
+   "sentence": "The headline for group from a top line perspective is we're seeing really good momentum.",
+   "ev_start": 37197,
+   "ev_end": 37285,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 7,
+   "sentence": "We continue to see rising participation rates within the employee population and continued double-digit growth in the voluntary suite of products.",
+   "ev_start": 37646,
+   "ev_end": 37792,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S126",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 12,
+   "sentence": "We're pleased with the growth, and we're pleased to be in the range.",
+   "ev_start": 38043,
+   "ev_end": 38111,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S127",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "going forward"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 29,
+   "sentence_index": 13,
+   "sentence": "We see very good momentum going forward across all markets in this business.",
+   "ev_start": 38112,
+   "ev_end": 38188,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introduction"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 3,
+   "sentence": "PFML products have a claim pattern where you have higher upfront claims that tend to normalize after a few months of introduction.",
+   "ev_start": 38654,
+   "ev_end": 38784,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S129",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "improved"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Ramy Tadros",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 8,
+   "sentence": "This is intentional given the investments we're making in the business, investments in data analytics and AI that are driving improved recoveries, which is giving us positive results this quarter.",
+   "ev_start": 39267,
+   "ev_end": 39463,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S130",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 1,
+   "sentence": "We also sell FAS 60 type business as well, and that has been a growing part of our business.",
+   "ev_start": 40167,
+   "ev_end": 40259,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S131",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.92,
+   "speaker": "Lyndon Oliver",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 3,
+   "sentence": "So we'll continue to see PFOs grow, but really the bulk of our business continues to be AUM focused.",
+   "ev_start": 40409,
+   "ev_end": 40509,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "MET_2026_2-S132",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "John McCallion",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 3,
+   "sentence": "We knew asset deployment would occur and we saw a bit of improved real estate equity income in the quarter that is likely to seasonally reverse in the third quarter.",
+   "ev_start": 41284,
+   "ev_end": 41449,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "MET_2026_2-S006",
+  "MET_2026_2-S003",
+  "MET_2026_2-S082",
+  "MET_2026_2-S029",
+  "MET_2026_2-S039",
+  "MET_2026_2-S040",
+  "MET_2026_2-S043",
+  "MET_2026_2-S044",
+  "MET_2026_2-S056",
+  "MET_2026_2-S061",
+  "MET_2026_2-S064",
+  "MET_2026_2-S068",
+  "MET_2026_2-S088",
+  "MET_2026_2-S090",
+  "MET_2026_2-S092",
+  "MET_2026_2-S099",
+  "MET_2026_2-S118",
+  "MET_2026_2-S128"
+ ],
+ "surfaced_signal_ids": [
+  "MET_2026_2-S006",
+  "MET_2026_2-S003",
+  "MET_2026_2-S082",
+  "MET_2026_2-S029",
+  "MET_2026_2-S039",
+  "MET_2026_2-S040",
+  "MET_2026_2-S043",
+  "MET_2026_2-S044",
+  "MET_2026_2-S056",
+  "MET_2026_2-S061",
+  "MET_2026_2-S064",
+  "MET_2026_2-S068",
+  "MET_2026_2-S088",
+  "MET_2026_2-S090",
+  "MET_2026_2-S092",
+  "MET_2026_2-S099",
+  "MET_2026_2-S118",
+  "MET_2026_2-S128",
+  "MET_2026_2-S106",
+  "MET_2026_2-S083",
+  "MET_2026_2-S089",
+  "MET_2026_2-S050",
+  "MET_2026_2-S013"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "premiums_fees_and_other",
+   "metlife_investment_management"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {
+   "other": 1
+  },
+  "held_back_low_confidence_facts": [
+   "MET_2026_2-004",
+   "MET_2026_2-006",
+   "MET_2026_2-015"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "warn",
+   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'other': 1}"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "3 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 132,
+  "signals_usable": 132,
+  "selected": 18,
+  "by_topic": {
+   "strategy": 42,
+   "momentum": 77,
+   "product": 19,
+   "competition": 7
+  },
+  "by_horizon": {
+   "forward": 17,
+   "current": 115
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 2,
+  "checks_failed": 0,
+  "checks_warn": 3
+ }
+}

@@ -1,0 +1,5661 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "UPS",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "UPS",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "P.J. Guido",
+    "role": "ir"
+   },
+   {
+    "name": "Carol Tomé",
+    "role": "management"
+   },
+   {
+    "name": "Brian Dykes",
+    "role": "management"
+   },
+   {
+    "name": "Jordan Alliger",
+    "role": "analyst"
+   },
+   {
+    "name": "Scott Group",
+    "role": "analyst"
+   },
+   {
+    "name": "Thomas Wadewitz",
+    "role": "analyst"
+   },
+   {
+    "name": "Christian Wetherbee",
+    "role": "analyst"
+   },
+   {
+    "name": "Ken Hoexter",
+    "role": "analyst"
+   },
+   {
+    "name": "David Vernon",
+    "role": "analyst"
+   },
+   {
+    "name": "Jonathan Chappell",
+    "role": "analyst"
+   },
+   {
+    "name": "Ariel Rosa",
+    "role": "analyst"
+   },
+   {
+    "name": "Brian Ossenbeck",
+    "role": "analyst"
+   },
+   {
+    "name": "Brandon Oglenski",
+    "role": "analyst"
+   },
+   {
+    "name": "Bascome Majors",
+    "role": "analyst"
+   },
+   {
+    "name": "J. Bruce Chan",
+    "role": "analyst"
+   },
+   {
+    "name": "Ravi Shanker",
+    "role": "analyst"
+   },
+   {
+    "name": "Jeffrey Kauffman",
+    "role": "analyst"
+   },
+   {
+    "name": "Stephanie Benjamin Moore",
+    "role": "analyst"
+   },
+   {
+    "name": "Elliot Alper",
+    "role": "analyst"
+   },
+   {
+    "name": "Kathleen Gutmann",
+    "role": "management"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "UPS_2026Q2.json",
+  "vocabulary_packs": [
+   "transportation_logistics"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $22.80B (+7.6% yoy), second quarter",
+   "fact_ids": [
+    "UPS_2026_2-001"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS approximately $7.22/sh",
+   "fact_ids": [
+    "UPS_2026_2-029"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating margin 9.2% (+40 bps, +300 bps)",
+   "fact_ids": [
+    "UPS_2026_2-003"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Free cash flow $1.60B",
+   "fact_ids": [
+    "UPS_2026_2-026"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "Operating cash flow $3.10B",
+   "fact_ids": [
+    "UPS_2026_2-025"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided approximately flat vs 7.6% reported",
+   "fact_ids": [
+    "UPS_2026_2-033",
+    "UPS_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +1.00, qa +0.65",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 22800000000.0,
+    "fact_id": "UPS_2026_2-001"
+   },
+   "growth": {
+    "value": 7.6,
+    "period": "second quarter",
+    "fact_id": "UPS_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "UPS_2026_2-033",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": "approximately flat"
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "dap",
+   "name": "Dap",
+   "depth": 0,
+   "revenue": {
+    "value": 1000000000.0,
+    "fact_id": "UPS_2026_2-005"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "international",
+   "name": "International",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "cautious": 1,
+    "confident": 1
+   },
+   "n_mentions": 10
+  },
+  {
+   "node": "supply_chain_solutions",
+   "name": "Supply Chain Solutions",
+   "depth": 0,
+   "revenue": {
+    "value": 2900000000.0,
+    "fact_id": "UPS_2026_2-019"
+   },
+   "growth": {
+    "value": 8.1,
+    "period": "second quarter",
+    "fact_id": "UPS_2026_2-020",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "UPS_2026_2-S059",
+    "delta_pp": -0.1,
+    "guided_lo": 7.0,
+    "guided_hi": 9.0,
+    "guided_descriptor": "high single digits"
+   },
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "logistics",
+   "name": "Logistics",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 4.3,
+    "period": "second quarter",
+    "fact_id": "UPS_2026_2-021",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 8
+  },
+  {
+   "node": "ups_digital",
+   "name": "Ups Digital",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 30.0,
+    "period": "second quarter of 2025",
+    "fact_id": "UPS_2026_2-022",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "domestic",
+   "name": "Domestic",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 6
+  },
+  {
+   "node": "u_s_domestic",
+   "name": "U.S. Domestic",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "UPS_2026_2-012",
+   "UPS_2026_2-011",
+   "UPS_2026_2-016",
+   "UPS_2026_2-001",
+   "UPS_2026_2-003",
+   "UPS_2026_2-029",
+   "UPS_2026_2-030",
+   "UPS_2026_2-026",
+   "UPS_2026_2-025",
+   "UPS_2026_2-046",
+   "UPS_2026_2-027",
+   "UPS_2026_2-040",
+   "UPS_2026_2-036",
+   "UPS_2026_2-033",
+   "UPS_2026_2-038",
+   "UPS_2026_2-006",
+   "UPS_2026_2-028",
+   "UPS_2026_2-037",
+   "UPS_2026_2-041",
+   "UPS_2026_2-045",
+   "UPS_2026_2-044"
+  ],
+  "signal_ids": [
+   "UPS_2026_2-S002",
+   "UPS_2026_2-S010",
+   "UPS_2026_2-S011",
+   "UPS_2026_2-S019",
+   "UPS_2026_2-S030",
+   "UPS_2026_2-S031",
+   "UPS_2026_2-S036",
+   "UPS_2026_2-S043",
+   "UPS_2026_2-S049",
+   "UPS_2026_2-S052",
+   "UPS_2026_2-S057",
+   "UPS_2026_2-S063",
+   "UPS_2026_2-S066",
+   "UPS_2026_2-S077",
+   "UPS_2026_2-S082",
+   "UPS_2026_2-S113",
+   "UPS_2026_2-S122"
+  ],
+  "trajectory": [
+   "total:revenue",
+   "total:operating_margin"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "meaningful",
+   "name": "Meaningful",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-004"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "dap",
+   "name": "Dap",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-005"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S015"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "international",
+   "name": "International",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-017",
+    "UPS_2026_2-018"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S041",
+    "UPS_2026_2-S056",
+    "UPS_2026_2-S084",
+    "UPS_2026_2-S087",
+    "UPS_2026_2-S103",
+    "UPS_2026_2-S108",
+    "UPS_2026_2-S110"
+   ],
+   "n_home_signals": 10,
+   "n_mentions": 10,
+   "stance": {
+    "cautious": 1,
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "supply_chain_solutions",
+   "name": "Supply Chain Solutions",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-020",
+    "UPS_2026_2-019",
+    "UPS_2026_2-042",
+    "UPS_2026_2-043"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S044",
+    "UPS_2026_2-S059",
+    "UPS_2026_2-S061"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": [
+    "supply_chain_solutions:revenue"
+   ]
+  },
+  {
+   "id": "logistics",
+   "name": "Logistics",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-021"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S016",
+    "UPS_2026_2-S045",
+    "UPS_2026_2-S090",
+    "UPS_2026_2-S091",
+    "UPS_2026_2-S092",
+    "UPS_2026_2-S126",
+    "UPS_2026_2-S127"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 8,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ups_digital",
+   "name": "Ups Digital",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-022",
+    "UPS_2026_2-023",
+    "UPS_2026_2-024"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S046"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "domestic",
+   "name": "Domestic",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-031",
+    "UPS_2026_2-032"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S039",
+    "UPS_2026_2-S051",
+    "UPS_2026_2-S107"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 6,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "u_s_domestic",
+   "name": "U.S. Domestic",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "UPS_2026_2-035"
+   ],
+   "signal_ids": [
+    "UPS_2026_2-S054"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 7.6,
+    "period": "second quarter",
+    "fact_id": "UPS_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": "approximately flat",
+    "period": "third quarter",
+    "source": "ledger",
+    "id": "UPS_2026_2-033",
+    "direction_word": "flat",
+    "text": "approximately flat",
+    "confidence": "high"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "key": "supply_chain_solutions:revenue",
+   "node": "supply_chain_solutions",
+   "name": "Supply Chain Solutions",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 8.1,
+    "period": "second quarter",
+    "fact_id": "UPS_2026_2-020",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 7.0,
+    "hi": 9.0,
+    "descriptor": "high single digits",
+    "period": null,
+    "source": "signal_text",
+    "id": "UPS_2026_2-S059",
+    "direction_word": null,
+    "text": "Lastly, in Supply Chain Solutions, we expect full year 2026 revenue growth in the high single digits, driven by growth in forwarding and health care logistics.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": -0.1,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "total:operating_margin",
+   "node": "total",
+   "name": "Total company",
+   "metric": "operating_margin",
+   "kind": "level",
+   "reported": {
+    "value": 9.2,
+    "period": "first quarter",
+    "fact_id": "UPS_2026_2-003",
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 10.0,
+    "hi": 11.0,
+    "descriptor": null,
+    "period": "full year",
+    "source": "ledger",
+    "id": "UPS_2026_2-041",
+    "direction_word": null,
+    "text": "10% and 11%",
+    "confidence": "high"
+   },
+   "direction": "up",
+   "delta_pp": 1.3,
+   "confidence": "high",
+   "note": ""
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 5,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 1.0
+   },
+   "qa": {
+    "confident": 14,
+    "cautious": 3,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.65
+   }
+  },
+  "speakers": {
+   "Carol Tomé": {
+    "confident": 13
+   },
+   "Brian Dykes": {
+    "confident": 6,
+    "cautious": 3
+   }
+  },
+  "notable_confident": [
+   "UPS_2026_2-S105",
+   "UPS_2026_2-S068",
+   "UPS_2026_2-S070",
+   "UPS_2026_2-S002"
+  ],
+  "notable_cautious": [
+   "UPS_2026_2-S081",
+   "UPS_2026_2-S087",
+   "UPS_2026_2-S098"
+  ],
+  "withheld": [],
+  "revisions": [
+   "UPS_2026_2-S049"
+  ]
+ },
+ "signals": [
+  {
+   "id": "UPS_2026_2-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.53,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "Eighteen months ago, we announced our Amazon glide down and network reconfiguration plan.",
+   "ev_start": 1757,
+   "ev_end": 1846,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S002",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "sets ups apart"
+    ],
+    "competition": [
+     "sets ups apart"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 4.32,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Today, I'm pleased to say we executed that plan exactly as designed while continuing to deliver the industry-leading service that sets UPS apart.",
+   "ev_start": 1847,
+   "ev_end": 1992,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S003",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "collaborating"
+    ]
+   },
+   "score": 2.53,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "And I also want to thank our partners at Amazon for collaborating with us on what was truly a complex undertaking.",
+   "ev_start": 2073,
+   "ev_end": 2187,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S004",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "I'm incredibly proud of what we have accomplished.",
+   "ev_start": 2559,
+   "ev_end": 2609,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "volume",
+     "grows"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "We now have a leaner, more automated, more agile network that will deliver operating leverage as volume grows.",
+   "ev_start": 2685,
+   "ev_end": 2795,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 300"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "And consolidated operating margin was 9.2%, a year-over-year increase of 40 basis points and up 300 basis points from the first quarter of this year.",
+   "ev_start": 3233,
+   "ev_end": 3382,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "All three segments contributed to our strong second quarter revenue performance, and underscoring the strength of the quarter, U.S.",
+   "ev_start": 3582,
+   "ev_end": 3713,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S008",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "As part of our transformation, we continue to invest in RFID and artificial intelligence, or AI.",
+   "ev_start": 3798,
+   "ev_end": 3894,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S009",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "We've completed deployment of RFID sensing technology across all of our U.S. delivery facilities and package cars.",
+   "ev_start": 4475,
+   "ev_end": 4589,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S010",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "shipped"
+    ]
+   },
+   "score": 4.21,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "We're also enabling our customers with RFID label printers, and every package shipped at our 5,500 UPS Stores is RFID-enabled.",
+   "ev_start": 4628,
+   "ev_end": 4754,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S011",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "delays"
+    ],
+    "pressure": [
+     "delays"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "This strengthens our ability to dynamically adapt to changing conditions like weather delays or volume forecast changes.",
+   "ev_start": 4980,
+   "ev_end": 5100,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S012",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "The result is an integrated network that is even more efficient and reliable with enhanced end-to-end visibility and an unmatched premium experience for our customers.",
+   "ev_start": 5222,
+   "ev_end": 5389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S013",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "volume",
+     "customers",
+     "revenue",
+     "margin"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We're fully focused on capturing premium volume, like from small and medium-sized businesses, health care and B2B customers with a clear emphasis on revenue quality and margin expansion.",
+   "ev_start": 5459,
+   "ev_end": 5645,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 4"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "This quarter was broad-based across nearly all industry sectors, delivering SMB average daily volume growth of 4.3%.",
+   "ev_start": 5646,
+   "ev_end": 5762,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S015",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "dap"
+   ],
+   "home": "dap",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "The SMBs continue to value the reliability of our integrated network and the capabilities we provide, including end-to-end visibility solutions, our digital access program, or DAP, our UPS Stores, and box-free label-free returns.",
+   "ev_start": 5763,
+   "ev_end": 5992,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "demand",
+     "accelerating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "Demand for cold chain logistics is accelerating and to further strengthen our global cold chain capabilities, we have added 27 temperature-controlled cross-dock facilities to our network.",
+   "ev_start": 6695,
+   "ev_end": 6882,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S017",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "regulations"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "Looking at our industrial and automotive customers, they continue to operate in a complex environment shaped by shifting trade patterns, evolving regulations and ongoing supply chain disruption.",
+   "ev_start": 7233,
+   "ev_end": 7427,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "product": [
+     "integrated",
+     "new capabilities"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "We're helping them navigate these complexities by combining the strength of our integrated network and RFID-enabled visibility with additional new capabilities.",
+   "ev_start": 7428,
+   "ev_end": 7588,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S019",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "expanding"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "Here, we're expanding North American air freight services between the U.S. and Mexico, and we've launched a dedicated team of over 300 specialists with deep expertise in the supply chain needs of automotive and industrial manufacturing customers.",
+   "ev_start": 7589,
+   "ev_end": 7835,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S020",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "Going forward, our number one priority remains moving the right packages and the right mix of volume through our network.",
+   "ev_start": 8138,
+   "ev_end": 8259,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S021",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "I'm pleased with the growth we've seen in our forwarding business as they have been focused on driving premium volume.",
+   "ev_start": 8330,
+   "ev_end": 8448,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "beginning in"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "Encouragingly, we are seeing momentum on the China to U.S. lane which returned to year-over-year growth beginning in May.",
+   "ev_start": 8629,
+   "ev_end": 8750,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "As we enter the second half of the year, we've got momentum, even in the face of external factors that could influence our results like war and fuel price volatility.",
+   "ev_start": 8751,
+   "ev_end": 8917,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S024",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year",
+     "outlook"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Based on our year-to-date results, today, we are raising our full year 2026 consolidated revenue outlook to approximately $91.2 billion.",
+   "ev_start": 8918,
+   "ev_end": 9054,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S025",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-007",
+    "UPS_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "We are raising our consolidated operating profit expectation to approximately $8.65 billion and lifting our diluted earnings per share guidance to approximately $7.22.",
+   "ev_start": 9055,
+   "ev_end": 9222,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S026",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "With the foundational groundwork now in place, we are excited about the opportunities that lie ahead.",
+   "ev_start": 9268,
+   "ev_end": 9369,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "revenue",
+     "profit"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "While higher fuel prices were positive to revenue, the corresponding increase in expense meant that the net impact to consolidated operating profit dollars was modest.",
+   "ev_start": 10210,
+   "ev_end": 10377,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 3.3"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "For the quarter, Total U.S. average daily volume was down 3.3% versus the second quarter of last year.",
+   "ev_start": 10759,
+   "ev_end": 10861,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 2.3"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Total air average daily volume was down 2.3% year-over-year.",
+   "ev_start": 10862,
+   "ev_end": 10922,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 1.2"
+    ],
+    "performance": [
+     "volume",
+     "customers"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Excluding Amazon, total Air average daily volume increased 1.2% year-over-year, driven by food & beverage and health care customers.",
+   "ev_start": 10923,
+   "ev_end": 11055,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 3.5",
+     "decline"
+    ],
+    "performance": [
+     "volume",
+     "decline"
+    ]
+   },
+   "score": 4.03,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Ground average daily volume was down 3.5% compared to the second quarter of 2025 with most of the decline attributable to our planned Amazon glide down.",
+   "ev_start": 11056,
+   "ev_end": 11208,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "improvements"
+    ],
+    "performance": [
+     "volume",
+     "grew"
+    ]
+   },
+   "score": 2.53,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "Notably, when adjusting for Amazon and actions taken on other lower-yielding volume, average daily volume grew year-over-year in the second quarter, underscoring the improvements we're making through the execution of our strategy.",
+   "ev_start": 11209,
+   "ev_end": 11439,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 4.3",
+     "with growth"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "SMB average daily volume increased 4.3% year-over-year with growth from nearly all industries, led by high-tech and health care.",
+   "ev_start": 11497,
+   "ev_end": 11625,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 34.5"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "In the second quarter, SMBs made up 34.5% of total U.S. volume, an increase of 250 basis points compared to the second quarter of last year.",
+   "ev_start": 11626,
+   "ev_end": 11766,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 3.2",
+     "decline"
+    ],
+    "performance": [
+     "volume",
+     "decline"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "And looking at B2B, while average daily volume was down 3.2% year-over-year, the rate of decline was 190 basis points better compared to the first quarter with bright spots in the high-tech and automotive sectors.",
+   "ev_start": 11767,
+   "ev_end": 11980,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 9.3"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Growth in revenue per piece was strong and increased 9.3% compared to the second quarter of last year.",
+   "ev_start": 12236,
+   "ev_end": 12338,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S037",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "improvement"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "More than half of the growth in revenue per piece was driven by healthy base rates and customer mix improvement, with fuel contributing the remainder of the increase.",
+   "ev_start": 12339,
+   "ev_end": 12505,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth",
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "Strong base rate growth and increased productivity in our reconfigured network contributed to revenue per piece growing 130 basis points faster than the cost per piece growth rate, demonstrating the operating leverage we expected from our network reconfiguration.",
+   "ev_start": 12677,
+   "ev_end": 12940,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "domestic"
+   ],
+   "home": "domestic",
+   "fact_ids": [
+    "UPS_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "performance": [
+     "profit"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Domestic segment delivered $1.2 billion in operating profit, a 21% increase year-over-year and more than double the operating profit delivered in the first quarter of this year.",
+   "ev_start": 12950,
+   "ev_end": 13127,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expansion"
+    ],
+    "performance": [
+     "growth",
+     "revenue"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "In the second quarter, we delivered strong top line growth with all regions generating year-over-year expansion, driven by strong revenue quality.",
+   "ev_start": 13344,
+   "ev_end": 13490,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international",
+    "domestic"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "declines"
+    ],
+    "performance": [
+     "volume",
+     "declined",
+     "declines"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "In the second quarter, total international average daily volume declined 5.8%, led by domestic declines in Europe.",
+   "ev_start": 13491,
+   "ev_end": 13605,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "volume",
+     "decreased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "On the export side, average daily volume in the second quarter decreased 4.2% year-over-year.",
+   "ev_start": 13606,
+   "ev_end": 13699,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S043",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 13.6"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Additionally, Asia-to-Asia export volume increased 13.6% compared to last year, enabled by our recent investments in the region.",
+   "ev_start": 13866,
+   "ev_end": 13994,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain_solutions"
+   ],
+   "home": "supply_chain_solutions",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "improvements"
+    ],
+    "performance": [
+     "profit",
+     "growth",
+     "units"
+    ]
+   },
+   "score": 3.16,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "For the second quarter in a row, Supply Chain Solutions delivered strong operating profit growth year-over-year driven by improvements across multiple business units.",
+   "ev_start": 14636,
+   "ev_end": 14802,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S045",
+   "topics": [
+    "momentum",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [
+    "UPS_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "increased 4.3"
+    ],
+    "product": [
+     "innovations"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Logistics revenue increased 4.3% year-over-year, driven by strong growth in health care logistics, partially offset by our Mail Innovations business.",
+   "ev_start": 15000,
+   "ev_end": 15149,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ups_digital"
+   ],
+   "home": "ups_digital",
+   "fact_ids": [
+    "UPS_2026_2-024"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 220",
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Operating margin was 10.2%, up 220 basis points compared to last year and the third quarter in a row of year-over-year operating margin expansion.",
+   "ev_start": 15418,
+   "ev_end": 15564,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S047",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-027"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "And so far this year, UPS has paid $2.7 billion in dividends.",
+   "ev_start": 15911,
+   "ev_end": 15972,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S048",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.53,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "Our engineering and operations teams executed the Amazon glide down exceptionally well, and we're pleased to have successfully completed this part of our strategy.",
+   "ev_start": 16669,
+   "ev_end": 16832,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S049",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-028"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "revised"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "We now expect consolidated revenue of approximately $91.2 billion and consolidated operating profit of approximately $8.65 billion.",
+   "ev_start": 17325,
+   "ev_end": 17456,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S050",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-029"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "This implies full year diluted earnings per share of approximately $7.22.",
+   "ev_start": 17457,
+   "ev_end": 17530,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "domestic"
+   ],
+   "home": "domestic",
+   "fact_ids": [
+    "UPS_2026_2-031",
+    "UPS_2026_2-032"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 1"
+    ],
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "performance": [
+     "revenue",
+     "margin"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "Starting with domestic, we expect full year 2026 revenue of approximately $60 billion, up 1% year-over-year and an operating margin of approximately 7.5%.",
+   "ev_start": 17694,
+   "ev_end": 17848,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-single digits"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "volume",
+     "decline"
+    ]
+   },
+   "score": 5.03,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 74,
+   "sentence": "Looking at the third quarter, we expect average daily volume to decline mid-single digits, reflecting a seasonal decline as well as the impact of this year's Amazon glide down, which completed in June.",
+   "ev_start": 17849,
+   "ev_end": 18050,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S053",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-033",
+    "UPS_2026_2-034"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 75,
+   "sentence": "We expect revenue to be approximately flat year-over-year and a third quarter operating margin of approximately 7%.",
+   "ev_start": 18051,
+   "ev_end": 18166,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "u_s_domestic",
+    "domestic"
+   ],
+   "home": "u_s_domestic",
+   "fact_ids": [
+    "UPS_2026_2-035"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 76,
+   "sentence": "Lastly, in the back half of the year, we expect the U.S. domestic operating margin to be approximately 8.8%, reflecting year-over-year margin expansion in both the third and fourth quarters.",
+   "ev_start": 18167,
+   "ev_end": 18357,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-036"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "strong"
+    ],
+    "forward": [
+     "full year",
+     "anticipate"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 78,
+   "sentence": "And starting with the full year, we anticipate revenue growth in the mid-single digits year-over-year, driven by strong revenue per piece growth.",
+   "ev_start": 18396,
+   "ev_end": 18541,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [
+    "UPS_2026_2-037"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "forward": [
+     "is expected"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "Operating margin in the International segment is expected to be in the mid-teens.",
+   "ev_start": 18542,
+   "ev_end": 18623,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-038"
+   ],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-single digits",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single digits",
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 80,
+   "sentence": "We expect a similar performance in the third quarter with revenue up mid-single digits, driven by strong revenue per piece.",
+   "ev_start": 18624,
+   "ev_end": 18747,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S058",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-039"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "And we expect the operating margin to be between 13% and 14%.",
+   "ev_start": 18748,
+   "ev_end": 18809,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain_solutions",
+    "logistics"
+   ],
+   "home": "supply_chain_solutions",
+   "fact_ids": [
+    "UPS_2026_2-040"
+   ],
+   "guided": {
+    "node": "supply_chain_solutions",
+    "metric": "revenue",
+    "descriptor": "high single digits",
+    "band": [
+     7.0,
+     9.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high single digits"
+    ],
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 6.16,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 82,
+   "sentence": "Lastly, in Supply Chain Solutions, we expect full year 2026 revenue growth in the high single digits, driven by growth in forwarding and health care logistics.",
+   "ev_start": 18810,
+   "ev_end": 18969,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S060",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-041"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 83,
+   "sentence": "We expect full year operating margin to be between 10% and 11%.",
+   "ev_start": 18970,
+   "ev_end": 19033,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S061",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "supply_chain_solutions"
+   ],
+   "home": "supply_chain_solutions",
+   "fact_ids": [
+    "UPS_2026_2-042",
+    "UPS_2026_2-043"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 3.16,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "In the third quarter, we expect Supply Chain Solutions revenue growth in the low double digits year-over-year and operating margin between 10% and 11%.",
+   "ev_start": 19034,
+   "ev_end": 19185,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S062",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-045"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 87,
+   "sentence": "We expect free cash flow to be approximately $5.5 billion, which includes the payments for the Driver Choice program I mentioned earlier.",
+   "ev_start": 19399,
+   "ev_end": 19536,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S063",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "UPS_2026_2-046"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "Lastly, we are still planning to pay out around $5.4 billion in dividends in 2026, subject to Board approval.",
+   "ev_start": 19537,
+   "ev_end": 19646,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [
+     "revenue",
+     "profit",
+     "growth",
+     "margin"
+    ]
+   },
+   "score": 2.85,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 89,
+   "sentence": "The successful completion of the Amazon glide down and related network reconfiguration marks an important inflection point for UPS, setting us up to deliver consolidated revenue and operating profit growth and expand operating margin.",
+   "ev_start": 19647,
+   "ev_end": 19881,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "growing"
+    ],
+    "performance": [
+     "growth",
+     "growing",
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 90,
+   "sentence": "As we move into the next chapter of growth, our focus is on growing premium, high-quality volume around the world, leveraging the full strength of our portfolio solutions.",
+   "ev_start": 19882,
+   "ev_end": 20053,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S066",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well positioned"
+    ],
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 91,
+   "sentence": "With the power of our integrated global network, we are well positioned to deliver sustainable profitable growth and create long-term shareowner value.",
+   "ev_start": 20054,
+   "ev_end": 20205,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S067",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "by the end of"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 3,
+   "sentence": "By the end of the second quarter, 68.5% of the volume in our U.S. business was flowing through an automated building compared to 64% one year ago.",
+   "ev_start": 20799,
+   "ev_end": 20945,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S068",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 5,
+   "sentence_index": 5,
+   "sentence": "So that gives us confidence in the productivity that we should continue to deliver going forward.",
+   "ev_start": 21054,
+   "ev_end": 21151,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced",
+     "declined"
+    ],
+    "performance": [
+     "declined",
+     "volume"
+    ]
+   },
+   "score": 2.53,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 1,
+   "sentence": "And I think, Carol, in addition to the automation you mentioned, it's important that we recognize we've also reduced capacity as we've declined the Amazon volume.",
+   "ev_start": 21225,
+   "ev_end": 21387,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S070",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 4,
+   "sentence": "That lowers the structural cost of the network, which you're starting to see show up in the margin, and gives us a lot of confidence that we can carry that through in the second half.",
+   "ev_start": 21732,
+   "ev_end": 21915,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S071",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "strategy": [
+     "accretion"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 8,
+   "sentence": "Jordan, the way to think about it is a roughly 50 to 100 basis point spread between revenue per piece and cost per piece will help drive margin accretion in our U.S. business going forward.",
+   "ev_start": 22204,
+   "ev_end": 22393,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "mid-teens",
+    "band": [
+     14.0,
+     16.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "earnings",
+     "decline",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "And look, if you take a step back and think about our original guide, we had anticipated an earnings decline in the first half and an earnings increase in the second half when you normalize for the sale-leaseback transactions in the third quarter of last year, now mid-teens EPS growth in both the third quarter and the fourth quarter.",
+   "ev_start": 23399,
+   "ev_end": 23734,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S073",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "domestic"
+   ],
+   "home": "domestic",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 6,
+   "sentence": "The first half performance gives us a lot of confidence that we can hit that and domestic is just going to perform under normal seasonality as we go into Q3 and Q4.",
+   "ev_start": 23775,
+   "ev_end": 23939,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S074",
+   "topics": [
+    "competition",
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "competition": [
+     "gain share",
+     "differentiating"
+    ],
+    "product": [
+     "new enabling capabilities"
+    ],
+    "performance": [
+     "growing",
+     "customers"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 0,
+   "sentence": "As it relates to how we're going to gain share, our focus on growing our company is to retain the customers we have and then bring new customers into our network by differentiating with new enabling capabilities.",
+   "ev_start": 23953,
+   "ev_end": 24165,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S075",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 3,
+   "sentence": "That gives us control and visibility and separates us from the competition.",
+   "ev_start": 24364,
+   "ev_end": 24439,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S076",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "traction"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 6,
+   "sentence": "So if you think about RFID and the initiatives that we launched now a few years ago, Scott, it's really starting to take traction.",
+   "ev_start": 24557,
+   "ev_end": 24687,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S077",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 10,
+   "sentence": "We recently converted a high-end jeweler from a competitor into our network because of RFID at the origin.",
+   "ev_start": 24940,
+   "ev_end": 25046,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S078",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 16,
+   "sentence": "These enabling capabilities are differentiating.",
+   "ev_start": 25408,
+   "ev_end": 25456,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.89,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 19,
+   "sentence": "That's a really powerful way to grow, but it doesn't stop with RFID.",
+   "ev_start": 25539,
+   "ev_end": 25607,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S080",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "competition": [
+     "differentiating"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 23,
+   "sentence": "So these enabling capabilities are differentiating and will allow us to grow.",
+   "ev_start": 25861,
+   "ev_end": 25938,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S081",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half",
+     "we will"
+    ],
+    "hedge": [
+     "we will see"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "As we transition from the first half to the second half, we are wrapping some material pricing changes we made last year, so we will see both numbers come down a little.",
+   "ev_start": 26560,
+   "ev_end": 26729,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 9"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.53,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 1,
+   "sentence": "As a percent of our total revenue, Amazon made up 9%.",
+   "ev_start": 28203,
+   "ev_end": 28256,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S083",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 3,
+   "sentence": "As we think about going forward, it's all about optimizing the volume that comes into our network, and we are working together as partners to make that happen.",
+   "ev_start": 28378,
+   "ev_end": 28537,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 1,
+   "sentence": "When you look at it, we do start to see momentum in some really important international trade lanes, and that momentum will carry through into the back half.",
+   "ev_start": 29271,
+   "ev_end": 29428,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "momentum"
+    ],
+    "performance": [
+     "volume",
+     "momentum"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 4,
+   "sentence": "I would add that our international business will perform slightly better than seasonality because of the volume momentum into the fourth quarter, especially with the surcharges and fees we typically see in the market.",
+   "ev_start": 29622,
+   "ev_end": 29839,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S086",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.03,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 6,
+   "sentence": "And to add to Carol's point on the U.S., Ken, we expect volume growth excluding Amazon in the back half of this year across all segments.",
+   "ev_start": 29865,
+   "ev_end": 30002,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S087",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "hedge": [
+     "we will see"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 7,
+   "sentence": "We talked about SMB, but we will see volume growth in the back half of this year.",
+   "ev_start": 30003,
+   "ev_end": 30084,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S088",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 0,
+   "sentence": "Well, David, we look at the competitive landscape broadly because candidly, there are a lot of competitors out there.",
+   "ev_start": 30655,
+   "ev_end": 30772,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S089",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors",
+     "differentiating"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "And we look at the offerings that all competitors are presenting to customers and then focus on how we are differentiating the offer that we provide.",
+   "ev_start": 30773,
+   "ev_end": 30922,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S090",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 2,
+   "sentence": "Those points of differentiation, which I mentioned earlier, include our cold chain logistics capabilities, our reverse logistics capabilities, our RFID labeling capabilities and that visibility end-to-end, of course, time-definite delivery and special operating plans.",
+   "ev_start": 30923,
+   "ev_end": 31191,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S091",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "So we create relationships and partnerships with our customers to ensure that we are meeting them where they want us to be.",
+   "ev_start": 31192,
+   "ev_end": 31315,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S092",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "That's an important point of differentiation - it's also about relationship building.",
+   "ev_start": 31316,
+   "ev_end": 31401,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S093",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 8,
+   "sentence": "And these relationships create an element of trust, and trust matters as competition comes knocking on the door - because it does.",
+   "ev_start": 31638,
+   "ev_end": 31768,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S094",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 9,
+   "sentence": "So when competition comes knocking on the door, we're there to meet that competition with our enabling capabilities.",
+   "ev_start": 31769,
+   "ev_end": 31885,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S095",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitor"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 10,
+   "sentence": "I am not aware of any volume that we've lost to that competitor that you mentioned.",
+   "ev_start": 31886,
+   "ev_end": 31969,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S096",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "anticipate"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 7,
+   "sentence": "We've been targeting trying to get to an optimal capacity for the delivery volume that we anticipate having in the U.S.",
+   "ev_start": 33188,
+   "ev_end": 33307,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S097",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 11,
+   "sentence": "So we feel really good about that.",
+   "ev_start": 33770,
+   "ev_end": 33804,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S098",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 12,
+   "sentence": "And we think that it aligns really well with the demand environment and what we think we'll see for peak seasons now that we've got a much more manageable peak with a more stable set of customers.",
+   "ev_start": 33805,
+   "ev_end": 34001,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S099",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 0,
+   "sentence": "I feel very good about the capacity.",
+   "ev_start": 34015,
+   "ev_end": 34051,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S100",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "That creates a tremendous amount of capacity to pull more volume through.",
+   "ev_start": 34246,
+   "ev_end": 34319,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "volume",
+     "grew"
+    ]
+   },
+   "score": 2.03,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 5,
+   "sentence": "And as you heard, if you ignore Amazon and the volume that we intentionally made available to the market, we actually grew our volume in the second quarter.",
+   "ev_start": 34344,
+   "ev_end": 34500,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S102",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "So it's the relationship that we formed with our customers, the trust that we've built with our customers, the confidence in our ability to manage through contract negotiations that are a long ways out gives us the ability to continue to drive our business.",
+   "ev_start": 35469,
+   "ev_end": 35726,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 6,
+   "sentence": "On the international side, it's more impacted by fuel because you have more air volume, you have longer fly distances, it's a bigger proportion of the total cost base.",
+   "ev_start": 36815,
+   "ev_end": 36982,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 12,
+   "sentence": "Adjusted for the sale-leaseback, it's going to be mid-teens EPS growth.",
+   "ev_start": 37491,
+   "ev_end": 37562,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 13,
+   "sentence": "I would say the first half of the year performance gives us a lot of confidence in the momentum that we're seeing that's going to help us deliver the second half of the year, and we want to make sure that we hit the numbers that we laid out.",
+   "ev_start": 37563,
+   "ev_end": 37804,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S106",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 14,
+   "sentence": "So I think it's pretty close to normal seasonality, and we feel really confident in our ability to deliver.",
+   "ev_start": 37805,
+   "ev_end": 37912,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S107",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "domestic"
+   ],
+   "home": "domestic",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 1,
+   "sentence": "So there's a little bit of a year-over-year comp, but we're very excited that we're going to be expanding margin in both Q3 and Q4 in our domestic business.",
+   "ev_start": 38109,
+   "ev_end": 38265,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S108",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ],
+    "confident": [
+     "wonderful"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 0,
+   "sentence": "So if you look at our international volume, first on the export side, as Brian mentioned and I mentioned in my prepared remarks, we saw a return to volume growth in the China-U.S. trade lane, which is great, as well as Asia-to-Asia trade lanes, which is wonderful because we've made investments there.",
+   "ev_start": 38688,
+   "ev_end": 38989,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S109",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 1,
+   "sentence": "We have seen, though, tariffs impact volume in certain areas.",
+   "ev_start": 38990,
+   "ev_end": 39051,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S110",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 2,
+   "sentence": "Tariffs have certainly impacted volume from Canada to the United States, and that's actually our largest partner.",
+   "ev_start": 39052,
+   "ev_end": 39165,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S111",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 3,
+   "sentence": "So we are just working through the tariff noise, if you will.",
+   "ev_start": 39166,
+   "ev_end": 39227,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declines"
+    ],
+    "performance": [
+     "volume",
+     "declines"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 4,
+   "sentence": "And then because of the disruption in the Middle East, we've seen some volume declines in Europe exports as well.",
+   "ev_start": 39228,
+   "ev_end": 39341,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S113",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 5,
+   "sentence": "Some of that's tariff, but mostly because of the disruption in the Middle East.",
+   "ev_start": 39342,
+   "ev_end": 39421,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S114",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 7,
+   "sentence": "And we're really pleased with that because it's going to position us for good things to come.",
+   "ev_start": 39538,
+   "ev_end": 39631,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 2,
+   "sentence": "Where you're seeing the improvement is in the international business.",
+   "ev_start": 40279,
+   "ev_end": 40348,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S116",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "we see that"
+    ],
+    "performance": [
+     "momentum",
+     "volume"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 4,
+   "sentence": "This momentum that we talked about, right, that we see volume performing well in Asia, and we see that carrying through.",
+   "ev_start": 40383,
+   "ev_end": 40503,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S117",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international"
+   ],
+   "home": "international",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 7,
+   "sentence": "International, you're going to see steady improvement as we go through the back half that makes it look a little bit better in total.",
+   "ev_start": 40782,
+   "ev_end": 40915,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S118",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 4,
+   "sentence": "We feel very good about our offering.",
+   "ev_start": 41401,
+   "ev_end": 41438,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S119",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "competition": [
+     "competition"
+    ],
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 6,
+   "sentence": "So we always look at the competition, but I feel very good about where we are and the strong relationships that we have with the various e-commerce platforms that are using our program.",
+   "ev_start": 41522,
+   "ev_end": 41707,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S120",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "sale of"
+    ]
+   },
+   "score": 3.03,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 2,
+   "sentence": "Look, as part of the Amazon drawdown plan that we included in our guide that we've been executing over the last couple of years, there's buy and sale of real estate.",
+   "ev_start": 42245,
+   "ev_end": 42410,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Dykes",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 3,
+   "sentence": "There's also the offset of asset write-offs, accelerated depreciation, and impairments.",
+   "ev_start": 42411,
+   "ev_end": 42498,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S122",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 5.03,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 0,
+   "sentence": "On the competitive question, I expect you should ask Amazon about what volume they're going after.",
+   "ev_start": 42741,
+   "ev_end": 42839,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "grow"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 3,
+   "sentence": "We're going to lean into the parts of the market that we want to grow with enabling capabilities that we will do better than anybody else.",
+   "ev_start": 42992,
+   "ev_end": 43130,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grows"
+    ],
+    "performance": [
+     "revenue",
+     "grows"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 0,
+   "sentence": "So as revenue grows, our capital dollars will increase, but that 3.5% is a good number to think about for you.",
+   "ev_start": 44106,
+   "ev_end": 44216,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S125",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 3,
+   "sentence": "But where we have opportunities, trust us, we'll be investing in those.",
+   "ev_start": 44431,
+   "ev_end": 44502,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S126",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 27"
+    ],
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 4,
+   "sentence": "For example, we just announced that we opened up 27 cold chain cross-dock facilities that cements our leadership position around the world for complex health care logistics.",
+   "ev_start": 44503,
+   "ev_end": 44676,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S127",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "logistics"
+   ],
+   "home": "logistics",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenges"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "customers",
+     "growth"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 5,
+   "sentence": "We just announced that we invested $50 million in North American air freight to support automotive and industrial customers and their growth and some of the challenges that they're facing given today's supply chain.",
+   "ev_start": 44677,
+   "ev_end": 44892,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S128",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 41,
+   "sentence_index": 7,
+   "sentence": "So where we see opportunities to invest for growth, we will.",
+   "ev_start": 44911,
+   "ev_end": 44971,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S129",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance",
+     "expect"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Carol Tomé",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 2,
+   "sentence": "But as we build our financial plan that supports the guidance that we just gave, we expect the volume sequentially in the United States to lift about 24% from Q3 to Q4, much like it did last year.",
+   "ev_start": 45328,
+   "ev_end": 45524,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S130",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Kathleen Gutmann",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 1,
+   "sentence": "I mean it is a differentiated solution.",
+   "ev_start": 47596,
+   "ev_end": 47635,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S131",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Kathleen Gutmann",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "That is a big differentiation.",
+   "ev_start": 47714,
+   "ev_end": 47744,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "UPS_2026_2-S132",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growing",
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Kathleen Gutmann",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 5,
+   "sentence": "Right now, the cold chain new investment is growing double digits - and revenue per kilo is as well.",
+   "ev_start": 47844,
+   "ev_end": 47944,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "UPS_2026_2-S015",
+  "UPS_2026_2-S041",
+  "UPS_2026_2-S056",
+  "UPS_2026_2-S084",
+  "UPS_2026_2-S087",
+  "UPS_2026_2-S103",
+  "UPS_2026_2-S108",
+  "UPS_2026_2-S110",
+  "UPS_2026_2-S044",
+  "UPS_2026_2-S059",
+  "UPS_2026_2-S061",
+  "UPS_2026_2-S016",
+  "UPS_2026_2-S045",
+  "UPS_2026_2-S090",
+  "UPS_2026_2-S091",
+  "UPS_2026_2-S092",
+  "UPS_2026_2-S126",
+  "UPS_2026_2-S127",
+  "UPS_2026_2-S046",
+  "UPS_2026_2-S039",
+  "UPS_2026_2-S051",
+  "UPS_2026_2-S107",
+  "UPS_2026_2-S054",
+  "UPS_2026_2-S002",
+  "UPS_2026_2-S010",
+  "UPS_2026_2-S011",
+  "UPS_2026_2-S019",
+  "UPS_2026_2-S030",
+  "UPS_2026_2-S031",
+  "UPS_2026_2-S036",
+  "UPS_2026_2-S043",
+  "UPS_2026_2-S049",
+  "UPS_2026_2-S052",
+  "UPS_2026_2-S057",
+  "UPS_2026_2-S063",
+  "UPS_2026_2-S066",
+  "UPS_2026_2-S077",
+  "UPS_2026_2-S082",
+  "UPS_2026_2-S113",
+  "UPS_2026_2-S122"
+ ],
+ "surfaced_signal_ids": [
+  "UPS_2026_2-S015",
+  "UPS_2026_2-S041",
+  "UPS_2026_2-S056",
+  "UPS_2026_2-S084",
+  "UPS_2026_2-S087",
+  "UPS_2026_2-S103",
+  "UPS_2026_2-S108",
+  "UPS_2026_2-S110",
+  "UPS_2026_2-S044",
+  "UPS_2026_2-S059",
+  "UPS_2026_2-S061",
+  "UPS_2026_2-S016",
+  "UPS_2026_2-S045",
+  "UPS_2026_2-S090",
+  "UPS_2026_2-S091",
+  "UPS_2026_2-S092",
+  "UPS_2026_2-S126",
+  "UPS_2026_2-S127",
+  "UPS_2026_2-S046",
+  "UPS_2026_2-S039",
+  "UPS_2026_2-S051",
+  "UPS_2026_2-S107",
+  "UPS_2026_2-S054",
+  "UPS_2026_2-S002",
+  "UPS_2026_2-S010",
+  "UPS_2026_2-S011",
+  "UPS_2026_2-S019",
+  "UPS_2026_2-S030",
+  "UPS_2026_2-S031",
+  "UPS_2026_2-S036",
+  "UPS_2026_2-S043",
+  "UPS_2026_2-S049",
+  "UPS_2026_2-S052",
+  "UPS_2026_2-S057",
+  "UPS_2026_2-S063",
+  "UPS_2026_2-S066",
+  "UPS_2026_2-S077",
+  "UPS_2026_2-S082",
+  "UPS_2026_2-S113",
+  "UPS_2026_2-S122",
+  "UPS_2026_2-S105",
+  "UPS_2026_2-S068",
+  "UPS_2026_2-S070",
+  "UPS_2026_2-S081",
+  "UPS_2026_2-S098"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "meaningful",
+   "dap",
+   "international",
+   "supply_chain_solutions",
+   "logistics",
+   "ups_digital",
+   "domestic",
+   "u_s_domestic"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "meaningful"
+  ],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "UPS_2026_2-002",
+   "UPS_2026_2-007",
+   "UPS_2026_2-008",
+   "UPS_2026_2-009",
+   "UPS_2026_2-010",
+   "UPS_2026_2-013",
+   "UPS_2026_2-014",
+   "UPS_2026_2-015",
+   "UPS_2026_2-034",
+   "UPS_2026_2-039"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "10 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 132,
+  "signals_usable": 132,
+  "selected": 40,
+  "by_topic": {
+   "product": 16,
+   "competition": 17,
+   "momentum": 62,
+   "strategy": 11,
+   "pressure": 6
+  },
+  "by_horizon": {
+   "current": 96,
+   "forward": 36
+  },
+  "trajectory_rows": 3,
+  "blocks_with_content": 8,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

@@ -1,0 +1,396 @@
+{
+ "symbol": "BAC",
+ "quarter": "2026Q2",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "It is now my pleasure to turn the meeting over to Lee McEntire, Bank of America. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Lee McEntire",
+   "title": "Moderator - Bank of America",
+   "content": "Thank you. Good morning, everyone, and thank you for joining us to talk through our second quarter results in what is a busy bank earnings day. As always, the earnings release and presentation are posted on the investor relations section of bankofamerica.com, and we'll reference those materials during the call. Before we begin, a quick reminder that during the call, we may make forward-looking statements and refer to non-GAAP financial measures. These measures reflect management's current views and are subject to risks and uncertainties, which are outlined, along with the relevant GAAP reconciliations in our earnings materials and our SEC filings on our website. With that, I'll turn the call over to Brian Moynihan, our CEO.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "Good morning, and thank you for joining us. Once again, our team delivered strong second quarter results, extending our momentum of the past several quarters. Our revenue grew 15% year-over-year to $31.6 billion. Our net income was $9.1 billion, up 27% from last year. Our EPS increased 34% to $1.21 a share. Our results show organic growth, operating leverage, and efficiency ratio improvement in every business segment. Along the bottom of slide two, you can see the progress against several of our key financial metrics for the firm. For the quarter, we delivered 6.6% operating leverage, and our efficiency ratio improved to 59%. We generated return on tangible common equity of 17%. In short, organic growth was broad-based and coupled with operating leverage, which translated into stronger returns on both equity and assets. Slide three shows the contributions and growth of each business segment. Every business segment contributed to our year-over-year growth. Average deposits and loan balances continued to grow, supported by healthy client engagement. Revenue and net income increased in every business segment. Each segment generated operating leverage. Each segment improved its efficiency ratio. Each segment demonstrated the benefits of its scale. Together, those results drive stronger returns across the company. Let me touch on a few earnings highlights from slide four, starting with revenue. Revenue growth was broad-based, led by NII, investment banking, wealth management fees, and sales and trading revenue. First, net interest income. It continued to perform well. On an FTE basis, NII was approximately $16.2 billion, up 9% over last year's second quarter. This is driven by the strength of our core lending and deposit-gathering franchises. It also includes our lending in our Global Markets business and the impact thereof. We also have added the benefit of ongoing repricing with lower-yielding assets and a repayment of higher-cost funding. Second, our fee-based businesses delivered exceptional results, translating into 22% non-interest income growth. Wealth management, investment banking, and markets all benefit from healthy client activity in favorable capital markets conditions. Merrill and the Private Bank advisors drove the 18% growth in investment brokerage fees. Investment banking fees increased 50% year-over-year to more than $2.1 billion. While sales and trading generated $7.2 billion in revenue, up 33%. Third, we manage cost while we continue to invest in a franchise, our brand, our people, our technology, and our AI-enabled productivity. Asset quality also remains stable and consistent with the strong underwriting discipline that has characterized our company for many years. Finally, capital generation and capital returns to investors remain strong. We've returned $8 billion to you through dividends and share repurchases this quarter. We ended the quarter with common equity Tier 1 capital of nearly $202 billion and a common equity Tier 1 ratio of 11.2%. The economic backdrop remains very constructive, as slide five illustrates. Last week, our research team raised its 2026 U.S. GDP growth forecast to 2.2%. They also have global growth expected to remain steady at 3.2% in 2026 and grow to 3.5% in 2027. As noted on the slide, consumer spending has recently expanded and continued to outperform our expectations. While the slide reflects 5% growth in year-over-year spending for the first half, the spending picked up during the second quarter and now is running at 6% plus year-over-year comparison. Overall, the U.S. economy has proved more durable than expected, supported by the strong consumer, ongoing AI-driven investments across the board, and easing energy costs, though inflation and tighter monetary policy remain key risks. Before I turn it over to Alastair, I want to bring your attention to a couple slides. First, we have our digital slides in the appendix. In addition, we added a slide on AI. It's slide 20, which shows how our over 200,000 teammates are actively using AI-enabled capabilities across our company. These range from productivity tools to more advanced agentic workflows and coding support. Our associates are generating more than 400,000 prompts a day, and as of last week, we had over 300 AI use cases approved, all of which have good economics, of which 114 are live generative AI use cases. Thirty-four of those cases are fully implemented, and we see new capabilities coming on every week. These tools are designed to help our customer relationship managers prepare more thoroughly for the client meetings. Our bankers automate the research and presentation materials. Our developers code more efficiently, and all our teammates improve productivity, consistency, and client service while creating significant opportunities ahead of us. Now I'm going to turn it over to Alastair. Alastair?",
+   "sentiment": "0.9"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "Thanks, Brian. I'm going to pick up on slide six and start with the balance sheet, where you can see it remained a source of strength, and we continued to support client activity across the franchise. Our ending assets were steady at $3.5 trillion, steady compared to the first quarter, and primarily reflecting lower securities balances replaced by loan growth and Global Markets activity. We maintained strong liquidity and funding while we optimized our balance sheet, and we supported all that with diversified funding and healthy client-driven growth. When you look at regulatory capital, we remain in a strong position with our CET1 ratio stable at 11.2%, and that remains well ahead of our 10% minimum ratio. Tier 1 common equity grew to nearly $202 billion, while our RWA increased to $1.8 trillion, driven by loan growth and capital markets activity. Supplementary leverage remains strong and well above our minimums. When we turn to slide seven, you can see deposits remain a key competitive advantage and a source of strength for our company. Average deposits were $2.02 trillion, up $49 billion or 2.5% from a year ago, and importantly, included non-interest-bearing growth of $19 billion, up 4%. This marks our 12th consecutive quarter of average deposit growth. Growth was primarily driven by Global Banking, where deposits increased 8% year-over-year, reflecting continued client engagement and operating account growth. The second quarter saw muted sequential growth in average deposits because it was impacted by typical seasonal tax-related outflows. Otherwise, underlying client activity remains healthy and on track with our expectations. Importantly, our deposit base remains highly diversified across consumer, wealth, commercial, and corporate clients, providing a stable and attractive funding advantage. Our strong liquidity and funding position means we don't need to change cash rate-sensitive balances. With the other relationship values like rewards, digital, and security features, it allows us to offer customers attractive rates and grow balances. We continue to see growth in both interest-bearing and non-interest-bearing balances. As shown in the upper right, rate paid was modestly lower this quarter, led by consumer deposits of 48 basis points on $957 billion in balances, so favorable balance moves. Turning to slide eight, loan growth remains strong and broad-based. Average loans and leases increased to $1.2 trillion, up $88 billion or 8% from a year ago. Ending loans were also $1.22 trillion, up $71 billion or 6%, marking the ninth consecutive quarter of both average and ending loan growth. Commercial lending continues to lead growth, with average commercial loans increasing to $733 billion, up $75 billion or 11% from a year ago. We've seen growth both domestically as well as internationally, illustrated by the chart at the bottom right of slide eight. Additionally, commercial growth has broadened away from the Global Markets activity that we saw last year. Consumer loans increased 3% year-over-year, led by growth in securities-based lending and credit card balances. Credit card grew 4% year-over-year as we increased marketing and enhanced product offerings. The combination of first and second lien mortgage balances remains relatively stable, reflecting elevated rates, and included the ninth consecutive quarter of average home equity growth. These trends reflect healthy client activity across both commercial and consumer businesses, and they demonstrate the benefits of our diversified lending franchise. Turning to slide nine, net interest income continues to perform well despite a modestly lower short rate environment, which impacted variable rate asset yields. NII on an FTE basis was approximately $16.2 billion, an increase of $253 million from the first quarter and $1.3 billion or 9% from a year ago. On a year-over-year basis, growth was driven by higher loan and deposit balances, fixed rate asset repricing, and Global Markets-related activity. This was partially offset by the impact of lower average short-term rates. We've seen steady improvement now since the second quarter of 2024, when NII was $13.9 billion to now $16.2 billion. Net interest yield was 2.08%. That's up 1 basis point from Q1 and 14 basis points from a year ago, reflecting favorable asset and liability mix and loan and deposit growth, partly offset by Global Markets balance sheet growth. Bank of America's banking book remains asset sensitive; on a dynamic deposit basis, a 100 basis points parallel shift above the forward curve is expected to increase NII by $1 billion over the next 12-month period. Looking ahead on NII expectations, in January, we told you to expect 5% to 7% full year NII growth. In April, we raised that full year range to be 6% to 8%. We now expect full year 2026 NII growth to be at the upper end of that 6% to 8% range, supported by anticipated loan and deposit growth, fixed rate asset repricing, and balance sheet optimization. This assumes modest loan and deposit growth in the second half of the year, and it's based on the current forward curve, which has one 25 basis points rate hike in September. Overall, NII remains a significant contributor to earnings growth and reflects the core franchise advantages of our scale and diversified balance sheet. Non-interest expense on slide 10 was approximately $18.6 billion, up roughly $100 million from the first quarter and $1.4 billion from the second quarter of 2025, reflecting continued investment in technology, sales teams, financial centers, and brand marketing. It also includes higher activity-related costs that come from trading in our Global Markets business, particularly in our overseas markets. With those investments, we generated 660 basis points of operating leverage and improved our efficiency ratio to 59%, highlighting the performance of the franchise and the return on our investments. AI-enabled tools are now more embedded in workflows across operations, risk, finance, technology, and our client-facing teams. That's helped reduce manual work, improve speed, and enhance consistency for clients and teammates. On our first quarter earnings call in April, we told you we expected full-year operating leverage of more than 200 basis points. Operating leverage for the first half of 2026 has now exceeded 450 basis points. With that first half performance and our continued expectations for a strong second half, we now expect full-year operating leverage to be in the range of 300 to 400 basis points. Turning to slides 11 and 12, you can see credit quality remains stable and consistent with the strong underwriting discipline that's characterized our portfolio for many years. Provision expense was approximately $1.4 billion. Net charge-offs were also $1.4 billion, and both were largely unchanged from Q1. Consumer card charge-offs and delinquencies improved both year-over-year and quarter-over-quarter. Commercial credit also remained solid, with CRE improvement offset by some isolated corporate and commercial lending losses. Reservable criticized commercial exposures declined by approximately $2.3 billion from Q1 to roughly $22 billion, driven primarily by CRE improvement. Non-performing loans remained stable at approximately $5.8 billion, and we recorded a modest reserve release. Overall, our portfolio remains well-positioned, supported by strong client fundamentals and disciplined risk management. Turning to slide 13, now we get into the business segments. Consumer Banking delivered another strong quarter, combining solid financial performance with continued investment in growth, innovation, and client engagement. Over the past few months, we refreshed our rewards program, that's generating more than 2 million enrollments since the late May relaunch. We also launched one of our largest consumer marketing campaigns around the FIFA World Cup. We expanded our financial center network in new and growth markets, introduced new card products, and deployed new AI-enabled tools designed to enhance both the client and teammate experience. All of these investments help to strengthen the franchise and drive organic growth. Net income increased 10% year-over-year to approximately $3.3 billion, while revenue rose 5% to $11.3 billion. Through strong expense discipline, we generated our fifth consecutive quarter of positive operating leverage, maintained a strong 51% efficiency ratio, and delivered a 29% return on allocated capital. With regard to client activity, our deposit franchise remains a key competitive advantage. Average deposits rose to $957 billion, our fifth consecutive quarter of year-over-year growth. Client engagement was also strong with record checking account balances, 162,000 net new checking accounts, and card spending up 9% year-over-year to $266 billion. We continued to deepen relationships across the enterprise, consumer investment assets reached a record $640 billion, up 18% year-over-year, supported by strong market levels and net client flows. Digital engagement remains a clear differentiator, with roughly 50 million active digital users, more than 24 million active Erica users, and digital sales representing 70% of total sales. New AI capabilities have improved service, increased efficiency, and allowed teammates to focus on higher-value client interactions. Finally, consumers remain resilient as average deposit investment balances and spending all showed linked quarter increases. Additionally, consumer credit quality remains strong and in line with expectations, reflecting the strength of our customer base and our disciplined approach to risk management. Overall, Consumer Banking continues to demonstrate the power of our scale, digital leadership, and relationship-based model, positioning the business for sustainable and attractive long-term growth. Turning to slide 14, GWIM delivered another outstanding quarter, highlighted by record revenue and pre-tax income, expanded profit margins, and continued client growth. Clients continue to consolidate more of their financial lives with Bank of America. During the quarter, we added another 6,000 net new affluent households to serve, the continued strong growth in banking relationships and lending balances demonstrates the power of our integrated wealth and banking model. At the same time, both Merrill and the Private Bank continue to attract talented advisors who are drawn to the breadth of our platform and our ability to deliver comprehensive solutions for clients. Franchise continued to benefit from strong advisor productivity, growing digital engagement, and new AI-enabled tools that help advisors prepare for client conversations, identify opportunities, and deliver more personalized advice at scale. Net income for the segment increased 42% year-over-year to $1.4 billion, while revenue grew 16% to a record $6.9 billion, driven by higher asset management fees, strong flows, higher market valuations, and higher NII. With good expense discipline, we generated another quarter of positive operating leverage and saw pre-tax margins expand to more than 27%, demonstrating the scalability of this business. Client balances reached a record $4.9 trillion, up 12% from a year ago. Assets under management grew 17% year-over-year to $2.3 trillion, supported by approximately $14 billion of AUM flows this quarter and $78 billion of AUM flows over the past four quarters. Loans grew $13 billion or 5% linked quarter to $277 billion, driven by custom and securities-based lending demand. Overall, GWIM continued to demonstrate the strength of our advice-led, relationship-based model and remains well-positioned for sustainable growth. Moving to our commercial and corporate client-facing businesses in Global Banking on slide 15, where Global Banking delivered strong results in the second quarter, reflecting healthy client activity, near-record investment banking performance, strong treasury service revenue, and continued balance sheet growth. Client engagement remained broad-based with activity across capital markets, strategic transactions, liquidity management, we continued our program of growth investments, including technology modernization, digital infrastructure, and AI-related initiatives. We're also using AI-enabled tools to help bankers accelerate their research, prepare materials, and identify relevant client opportunities more efficiently. Revenue increased 10% year-over-year to $6.2 billion, while net income grew 20% to more than $2 billion. Investment banking was a particular highlight. Total corporate investment banking fees, excluding self-led transactions, increased 50% year-over-year to more than $2.1 billion, reflecting strength across debt underwriting, advisory, and equity underwriting. Average loans increased 7% to $413 billion, while average deposits increased 8% to $652 billion, demonstrating continued franchise growth and client confidence. Credit quality remained solid, returns remained healthy with a 15% return on allocated capital. Turning to slide 16, Global Markets delivered an exceptional quarter. Excluding DVA, net income was $2.7 billion, up 70% from a year ago. Sales and trading revenue, excluding DVA, increased 33% to $7.2 billion. Equities delivered a record $3.6 billion of revenue, up 70%, driven by client financing activity and strong trading performance in derivatives and cash. FICC generated $3.5 billion, its strongest quarter in more than a decade. Growth was broad-based across the franchise. Domestically, our revenue in the U.S. increased 31%, while our international business delivered a 38% improvement, with Asia-Pacific as the standout. This is generally consistent with our Investor Day messaging of continuing our improved performance internationally. Perhaps what stands out most is the consistency of our performance, because we've now delivered 17 consecutive quarters of year-over-year sales and trading revenue growth and 14 consecutive quarters of year-over-year net income growth. Combined with 16% operating leverage and a 20% return on allocated capital, these results reflect the strength of our client franchise, diversified platform, and disciplined execution. Client activity remains strong and the connectivity between markets, Global Banking, and Wealth and Investment Management continues to create value for clients. Investments in technology and AI are helping teams deliver insights faster, operate more efficiently, and further strengthen our competitive position. This was a record quarter built on scale, client engagement, and consistent execution across the franchise. Moving to all other on slide 17. We recorded a $292 million net loss in the quarter, which is larger than the year ago with no significant drivers to note. We reported an overall tax rate of 21.5%, consistent with our full-year guidance. In closing, the second quarter reflects the strength of our diversified operating model. We produced double-digit revenue growth and more than $9 billion of net income, with EPS growth of 34% and return on tangible common equity of 17%. We also delivered strong operating leverage while continuing to invest in the franchise and supporting our clients. Across the company, clients continued to invest, transact, and grow. Activity remains healthy across lending, payments, investment banking, markets, and wealth management, including technology, digital infrastructure, and AI-related opportunities. We also see meaningful opportunities to continue using AI and automation ourselves to improve productivity, strengthen client engagement, and support disciplined growth across the company. Taken together, these trends simply reinforce our confidence in the long-term earnings power of the franchise and our ability to deliver responsible growth and attractive returns for shareholders.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "With that, Leo, let's open it up and we'll see what questions we can answer.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. If you'd like to ask a question, press star one on your keypad. To leave the queue at any time, press star two. Once again, that is star one to ask a question, and we'll pause for just a moment to allow everyone a chance to join the queue. Thank you. Our first question comes from Chris McGratty with KBW. Please go ahead. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Chris McGratty",
+   "title": "Analyst - KBW",
+   "content": "Great. Good morning. Thanks for the question. Notice the deposit discipline in the quarter. Alastair, I'm interested in your thoughts about pricing in a higher-for-longer environment. I know you didn't change the full-year NII guide, but your deposit pricing outperformed some of your peers this quarter. Any comments on the near-term outlook would be great. Thanks.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "I'd say we kind of just kept nudging NII a little bit higher as we've gone through the year, first from that five-seven up to the six-eight, then more recently saying we're probably going to be at the top end of that range. We've tried to express our confidence in the momentum of NII. Some of that comes from the deposit gathering. We have a lot of liquidity. We're not loaned up at this point. We've got $800 billion of excess between our cash and securities over our loans. That really allows us to concentrate on our strategy. Our strategy is very clear. We're trying to grow clients and operating accounts. That's the highest quality growth. It's the highest quality clients. Because when you get that operating account, it's key to the financial lives. When consumer puts up 162,000 of net new checking accounts, or when we grow non-interest bearing for seven consecutive quarters, that's what helps us to drive the non-interest-bearing up 4%. The lower rate paid is really about mix, Chris. We're competing out there for deposits like everyone else. We compete tooth and nail to get deposits where we can. At the end of the day, our strategy is about relationship value, all the things around digital and security and rewards that we talk about. It's that favorable mix of growing the non-interest bearing that makes a difference.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Chris McGratty",
+   "title": "Analyst - KBW",
+   "content": "Okay. That's helpful. I appreciate that. On the operating leverage conversation in the new slide. I'm interested the 200-300 basis points plus of operating leverage that you talked about in November. You're clearly off to a great start. I'm interested in kind of the sustainability. Obviously, the comps will be a factor, but the influence that AI might have on that over time.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "There are two elements to that. First, we said at Investor Day the sustainable thing we're aiming for is something like 200 to 300 basis points. Right now we're outperforming that. We've had a terrific first half at 450 basis points. That's what's giving us the confidence for the full year to say it's going to be above the range. AI plays a role in two ways. The first one is on the revenue side. There's obviously a big AI theme going on in the world. We're leading in investment banking and Global Markets around capital raising, financing that massive capital investment and infrastructure build around the world. That's helping us there. On sustainability going forward, can AI help us with our own operations? The answer is yes. That's why we put that slide in. If you go to the slide, it's slide number 20. We've been at this for a little while now, but you can begin to see now in these general purpose productivity tools or the tools that are aimed at specific functions like the bankers or the wealth professionals or the software developers. There's another layer of AI on top of that that accesses a lot of the company. On the right-hand side, here's what's going to come out of that, we believe: growth, efficiency, risk management, and resiliency. We're updating you on AI as we progress. At this point, we have about 300 approved model cases and 114 live generative AI use cases. This is going to be something for the future, and we're working our way through it.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Chris McGratty",
+   "title": "Analyst - KBW",
+   "content": "Understood. Thanks so much.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. We'll now move on to Glenn Schorr with Evercore. Your line is now open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "Morning, Glenn.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Mr. Schorr.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "You there?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Mr. Schorr, please check your mute switch. Your line is open. We'll move on to Ken Usdin with Autonomous Research. Your line is now open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ken Usdin",
+   "title": "Analyst - Autonomous Research",
+   "content": "Hi, thanks a lot. Hey, Alastair, just on the positive operating leverage point, I think you've made it very clear about the comps getting a little harder in the second half because of the ramp you had last year, starting with the NII and also markets. Can you just help us put it into some kind of context? Obviously, with 300 and 660 basis points of leverage and now talking to a full year of 300-400, just how do we kind of box the operating leverage potential for the second half as we get into this kind of tougher comps, albeit with the good top-line revenue growth continuing? Thanks.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "We're offering the 300 to 400, recognizing that we've already booked 450 for the first half, so that's good. We're just trying to give you a range, Ken, that allows you to work backwards, because as you point out, in the second half of last year, NII went up more than the first half. Now, we think that'll happen this year as well, but it might not. The numbers are bigger this year, so the percentages change a little bit. Remember, second quarter last year was a slower quarter for investment banking for the industry. If we put up $2.1 billion of investment banking this year, up 50%, if you sustain that relative to what we did in the third quarter of last year, you don't get the same kind of uplift in the second half. That's what we've got our minds on. Otherwise, business conditions are very good. We're trying to maximize operating leverage where we can.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Ken Usdin",
+   "title": "Analyst - Autonomous Research",
+   "content": "Okay. Got it. You mentioned balance sheet optimization from here. Can you talk about where you have that room to continue to optimize, well, across the balance sheet, I guess, on both the asset side and the liability side as you focus more on that? Thanks.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "There are really two places you'll see it. First, we've talked about the fact that we believe we can improve net interest yield over time. We've done that. We're at 2.08% now, up from 1.94% a year ago. That's been a contributor to some of the NII gains. We've talked that we still carry some repo and some institutional CDs that over time we're continuing to pay down. If those are invested at the Fed, we're not capturing a lot of spread. It doesn't do anything for NII; it actually hurts net interest yield. It also ties up a little bit of capital. As we continue to pay that down, which I think you'll see more of in the second half of this year, that'll free up more capital. It'll help us on return on tangible common equity as well. We're sticking to that program. We'll have a pretty good opportunity in the second half.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "Just note that there's no constraint on the growth of loans or core deposits. That all can grow because it's all going to give good returns. It's really a question of the centralized security portfolio, the term debt, the repos. A lot of the buildup came because of rules changing, and now we're through that and on the other side of it.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Ken Usdin",
+   "title": "Analyst - Autonomous Research",
+   "content": "Okay. Got it. Thanks, guys. Appreciate it.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll move on to Manan Gosalia with Morgan Stanley. Your line is open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Manan Gosalia",
+   "title": "Analyst - Morgan Stanley",
+   "content": "Hey, good morning. Alastair, I know you outlined higher rates as a positive. If you can talk a little bit about if the rate environment changes here because we're getting a lot of changes overall. Would that impact the NII guide and as we think about just markets NII overall as well, given that prime brokerage and some of the other businesses are doing better, if there's any offset to getting to the high end of the 6%-8% NII guide.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "If there's one rate hike in the curve, it's in September. Its impact this year is modest because you only capture anything in October, November, and December. We will adjust pricing in each of our segments for any rate hike. Net-net, we expect that to be a positive and that's in our guide where we're saying it's going to be at the top end of that range. Generally, because the banking book is liability insensitive, that's the predominant benefit. The markets business is slightly liability sensitive, so that's a slight offset. Net-net, it's a positive for us, and that's what we're communicating.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Manan Gosalia",
+   "title": "Analyst - Morgan Stanley",
+   "content": "Got it. All right. Thank you. Apologies if I missed it, as you think about loan growth in the back half of the year and you think about middle market C&I growth, how is that trending, and what do you expect overall as we get into the back half of the year?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "If we look at the middle market, we're growing like commercial loans overall. They're growing around 8% or so. Middle market's in there; larger cap corporates are in there. The growth looks pretty good. Over 9 or 10 quarters, we've been growing loans at about $20 billion per quarter—7% last year, 8% this year. Commercial growth's there. We don't see that changing. It feels like we're in a good environment for loan growth. Also keep an eye on card where Holly laid out a plan to get back towards 5% card growth. We were at 1%, then 2%, then 3%. This quarter we're at 4%. Some good news on the consumer side. Securities-based lending has been positive with market performance and wealth clients' demand. We remain constructive on loan growth in the second half. No changes there.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Manan Gosalia",
+   "title": "Analyst - Morgan Stanley",
+   "content": "Great. Thank you.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll move next to Ben Gerlinger with Citi. Your line is open. Please go ahead.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Ben Gerlinger",
+   "title": "Analyst - Citi",
+   "content": "Hi. Good morning. I was curious. I get that the updated guide closer to the higher end of NII includes the forward hike potential. I was curious if that also incorporates a little bit more productivity on the average earning asset mix? I know you guys have alluded to a little bit more productivity down the road, and I get that that takes time. Just kind of curious, is the guidance based on a static balance sheet or the continuation of a little bit more loans in the average earning assets?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "Yes. The updated guide essentially assumes the following. First, modest deposit growth similar to what we've been seeing. Second, good continued loan growth in the second half, similar to what we've been seeing. We haven't changed our perspectives on either of those. We'll get the benefit from some fixed rate asset repricing, more in the second half than the first half. Otherwise, it's mostly balance sheet gains. What I described in terms of balance sheet efficiency is more about net interest yield and less about NII.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Ben Gerlinger",
+   "title": "Analyst - Citi",
+   "content": "Gotcha. That's helpful. If I could do a follow-up in terms of operating leverage. I get that you've increased the guide for the full year this year. When you think about just the higher revenue production that you kind of alluded to, do you run the risk of potentially under-investing? I get that you're probably ahead of peers across every major category of AI and technology and just being a bit more digital. If you have more revenue, do you think you could potentially speed up the spending so it pulls forward into this year, reducing that leverage?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "I think we are spending at a good clip overall in technology and dedicating a lot of time in the company towards careful examination and implementation of AI projects. We gave you the outline on slide 20. There's productivity increases and a lot of spending. Whether that increases expenditures dramatically depends on a couple of things: one, the shifting of spending towards it; and two, even the coding process has become more efficient using these tools. The same amount of money in 2027 will get us more code in 2028. We're driving everything as hard as we can. Our focus on operating leverage—we raised it above the normalized range and we're continuing to invest in places that grow the business, especially around Consumer Banking: financial centers and new markets done on a rational, full market build-out basis. We continue to drive the marketing capabilities of the firm and our consumer scores have reached all-time highs. We invested heavily in our rewards program, which helps cement relationships with a good deposit mix and favorable cost of funds. We're spending. I don't think you'll see a major change in our methodology of how we think about spending. A lot of incremental expense growth from this quarter versus last year was due to incentives and brokerage clearing expenses. If revenue keeps going, we'll be happy because that means revenue has to grow. If revenue slows down, expense growth will slow down, and it will affect operating leverage as Alastair described.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Ben Gerlinger",
+   "title": "Analyst - Citi",
+   "content": "Great. Thank you.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll now move on to Erika Najarian with UBS. The line is now open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Erika Najarian",
+   "title": "Analyst - UBS",
+   "content": "Hi. Good morning. The investor feedback so far is that they feel the net interest income guide is conservative. Maybe I'll just re-unpack the number of questions that you've gotten already on this, Alastair. The first half of the year, NII growth is up nine. Clearly the second half of the year is tougher comps, right? Which you're saying would get you within the range. We just wanted to understand. You mentioned that included in your guide is modest deposit growth, good loan growth, improving card growth, which obviously is coming at a better yield. Are we getting earning asset growth for the second half of the year, but not much NIM expansion? I guess we're just trying to think about the jumping-off point that will slow your NII growth from the 9% that you've printed for the first half of the year.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "It's not slowing it much. Most of the NII build last year was in the second half. We're just up against tougher comps, that's all. We have to keep doing what we're doing: grow loans, grow deposits with focus on operating accounts and non-interest-bearing balances. We'll get some benefit from fixed rate asset repricing as we do. We've invested in Global Markets with their balance sheet; that's a net positive but not a big driver in the second half because markets are at a good run rate right now. We feel like it looks more like 8% for the full year based on the comps.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Erika Najarian",
+   "title": "Analyst - UBS",
+   "content": "Got it. My second question is, Brian, you printed a return of 17% on tangible common equity this quarter. Granted, the equities number and the IB numbers are huge. I guess a two-part question. Number one, reaffirm that your positive operating leverage being better in the full year but slower in the first half is only due to the seasonal revenue factors that you're taking into account. In theory, if the pipeline continues to be robust in banking and markets, it could be better, right? Second, as you think about a very strong year in terms of returns, are you willing to invest in perhaps slightly lower-return businesses like equities financing, for example, to continue to set yourself up for earnings growth going forward?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "There's a lot in the assumptions. The return on tangible common equity was 17%. We thought it would take us longer to get there. That has been driven by strong performance across businesses getting good operating leverage, Consumer Banking, Global Banking, and the NII lift as well as markets. We expect strong performance this quarter and believe it can continue based on market conditions, though geopolitical events could affect outcomes. The pipelines are good. Loan growth and deposit growth continue. We feel good about the returns and maintaining those returns. If you look at expense growth, it's related to fee-based businesses and the rest is a rational amount of expense growth. That's why EPS grew over 34%. Whether we accept lower-returning business or not, we always evaluate businesses by return on tangible common equity. We push to swap lower-return activities for higher-return ones. We expect to be around our targeted levels and when optimization opportunities exist, businesses must grow the bottom line or reallocate capital accordingly.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Erika Najarian",
+   "title": "Analyst - UBS",
+   "content": "Got it. Thanks.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll now move on to Mike Mayo with Wells Fargo. Your line is now open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Mike Mayo",
+   "title": "Analyst - Wells Fargo",
+   "content": "Hi. Could you elaborate more on the change in your operating leverage guide? That's quite a big lift there. You did address the NII. That all falls to the bottom line. I get that part, and we get the equities trading going up more. Aside from that, it still seems to be guided quite a bit higher. Your marginal margin or the scalability of your model, I think you've been kind of waiting for this moment when you can layer on more revenues at lower marginal cost. Can you highlight the areas that's impacting that the most?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "At Investor Day we outlined that creating 200 basis points of operating leverage from organic growth and expense discipline was our sustainable target. We felt we could commit to 200 to 300 basis points over the next three to five years. We have outperformed in the first six months. The two reasons are: first, NII keeps grinding higher and all of that's dropping to the bottom line; second, terrific fee-based performance—AUM, sales and trading, investment banking—all boosted results. Halfway through the year with 450 basis points, it's clear we're going to be above 300. We know we've got tougher comps in the second half, but it's still a strong half. We're aiming to report full-year results in that range.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Mike Mayo",
+   "title": "Analyst - Wells Fargo",
+   "content": "Did you provide any expense guidance for the year or the second half?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "No. We've largely moved away from giving specific expense guidance because when revenues increase rapidly, some of those revenues come with increased clearing and exchange costs or FA incentives, which makes quarterly expense harder to forecast. Our shareholders find operating leverage more useful. Core measures like headcount have been well-disciplined—flat to slightly down over the last six quarters. We expect good core expense discipline. Expense will be influenced by revenue: if revenue slows, expense growth will slow; if revenue sustains, you'll see the costs to operate the company at that revenue level.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Mike Mayo",
+   "title": "Analyst - Wells Fargo",
+   "content": "As a follow-up, going back to Investor Day, I think you're looking for cards to grow 5%, and as you said, it's gone from 1%, 2%, 3%, now 4%, that's there. You also are hoping for net new asset growth at 5%. I don't think this quarter the net client flows weren't as good. Just if you could comment on that. Lastly, on commercial loan growth, traditional C&I growth away from the hyperscalers and all that. I'm trying to figure out if that's actually coming back or not. Your being across the U.S. is a good guide for that.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "On Merrill's target, we're aiming for 5% over the next three to five years. We've added net new households again this quarter and AUM flows were good. Loans grew and advisor attrition is near historic lows. We're off to a good start. On commercial loan growth, it's broader than just AI. The AI theme helps because there's substantial capital investment globally. Our Global Banking shows growth across business banking, commercial bank and corporate bank; it's very broad-based commercial loan growth, which supports our NII guide for the second half.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Mike Mayo",
+   "title": "Analyst - Wells Fargo",
+   "content": "All right. Thank you.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll now move on to Gerard Cassidy with RBC. Your line is now open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Gerard Cassidy",
+   "title": "Analyst - RBC",
+   "content": "Hi, Brian. Hi, Alastair. Can you take a step back and just give us a sense, what are you seeing in the underwriting area for credit? Is there risk ongoing? I mean, numbers are great for you and your peers. The economy is healthy. What are you guys seeing for the trends there?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "Overall, we stick to consistent underwriting. It's been long-term and consistent. We can maintain that while growing in core middle market areas, small business, and so on. We feel good about credit quality and underwriting. Some excesses are outside the banking system; some of that has to be put back on bank-lendable terms, which may change dynamics. We have seen price pressure in more liquid products like auto loans, and we adjusted pricing where necessary. Overall, credit quality is high, underwriting is strong, and credit costs are steady. The economy is constructive—unemployment around 4.2% and new claims are low—so that supports the portfolio. Concerns like real estate or private capital lending have not surfaced materially the way some expected.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Gerard Cassidy",
+   "title": "Analyst - RBC",
+   "content": "Very good. Thank you. As a follow-up, I don't know if you guys could frame this out, AI is such a powerful economic force in this country. Have you guys been able to frame out, not exposure to data center build-out, but the second derivative? Because you wonder two, three, four years from now if AI ever kind of slows down or rolls over. What's the second derivative credit aspect from that? Have you guys given that much thought?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "When we work with clients, underwriting factors include the impact of AI on the industry and company. It will take time, and we continue to watch it. We look at deals considering credit, capability, and earnings power of underlying businesses driving revenue to build-outs. We also see the impact on our company and our ability to use AI effectively. It's a powerful tool with great utility, but it must be carefully managed: data integrity, rule bases, and process design are important to prevent mistakes. We encourage our clients to adopt AI responsibly so they don't get left behind while protecting data and security. We feel good about it as a powerful force for the economy.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Gerard Cassidy",
+   "title": "Analyst - RBC",
+   "content": "Thank you, Brian.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "We'll now move on to Matt O'Connor with Deutsche Bank. Your line is now open.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Matt O'Connor",
+   "title": "Analyst - Deutsche Bank",
+   "content": "Good morning. Just a quick follow-up on net interest income. The guidance for this year is essentially to be up 8%. What is that ex markets?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "I need to work that back. I can help with that offline once we finish. It's not a big factor because markets NII is probably pretty stable here; it could even go down with a rate cut in the fourth quarter. Most of the growth is going to come from the Global Banking books.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Matt O'Connor",
+   "title": "Analyst - Deutsche Bank",
+   "content": "Okay. Yeah, that number would be helpful. I think on a year-over-year basis, I would think it's up just given it was going up throughout last year.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "Year-over-year it'll be up because we've put more balance sheet into the business. I'm just saying if you were to look at first quarter, second quarter, kind of expect a similar number in third and fourth. We don't normally provide guidance ex Global Markets because there are lots of moving pieces and loans in markets, which can get confusing. Bottom line is markets NII will be flattish or slightly down with a rate move, but it's not the driver of second-half NII performance.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Matt O'Connor",
+   "title": "Analyst - Deutsche Bank",
+   "content": "Okay. That's helpful. Longer term, you talked about NIM grinding higher, and I know this was a while ago, but you talked about a two-three or a two-four NIM, but obviously the balance sheet's a lot bigger. There's been some mix shift. Just any updated thoughts on the NIM over time?",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Alastair Borthwick",
+   "title": "CFO",
+   "content": "We still feel good about that 230 number we're aiming for. When we started, we said it would be two to three years and we're probably a couple of years closer now based on progress. Because we've grown the markets business, which has a lower net interest yield, that has suppressed the overall yield. The banking yields have been encouraging. It's been a conscious choice to invest in markets, and that's been good this quarter. It's less about net interest yield and more about net interest income. At the margin, we'll get net interest yield and we're still confident we're on track to reach 230.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Matt O'Connor",
+   "title": "Analyst - Deutsche Bank",
+   "content": "Okay. Thank you.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "There are no further questions in queue. I'd be happy to return the call to Brian Moynihan.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Moynihan",
+   "title": "CEO",
+   "content": "I thank all of you for joining us. The consistency is key as you look across all our metrics in every area, whether it's NII, fees, and so on. The second thing is to keep in mind that the revenue growth is strong but also very diversified across lots of different businesses and outcomes. Third, credit costs have flattened at very strong historical levels, and we continue to feel good about delinquencies and everything that we show improving. If you think about all that, we gave you guidance that we're at the top end of a range in operating leverage; all that backs into a strong second half ahead of us. When you think about the atmosphere we operate in, it's a constructive environment: full pipelines in markets, strong investor demand for debt and equity, commercial lending strengthening and broadening out, and strong consumer spending activity, which shores up the economy. Our company is well-positioned to be a part of that growth, and we look forward to talking to you next time. Thank you.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Thank you. This brings us to the end of today's meeting. We appreciate your time and participation. You may now disconnect.",
+   "sentiment": "0.0"
+  }
+ ]
+}

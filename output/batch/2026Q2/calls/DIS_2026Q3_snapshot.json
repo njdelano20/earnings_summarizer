@@ -1,0 +1,4088 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "DIS",
+  "fiscal_quarter": 3,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q3",
+  "symbol": "DIS",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q3",
+  "period_end": "2026-06",
+  "fye_month": 9,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 44,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Ben Swinburne",
+    "role": "ir"
+   },
+   {
+    "name": "Josh D'Amaro",
+    "role": "management"
+   },
+   {
+    "name": "Robert Fishman",
+    "role": "analyst"
+   },
+   {
+    "name": "Laura Martin",
+    "role": "analyst"
+   },
+   {
+    "name": "Hugh Johnston",
+    "role": "management"
+   },
+   {
+    "name": "Rich Greenfield",
+    "role": "analyst"
+   },
+   {
+    "name": "Barton Crockett",
+    "role": "analyst"
+   },
+   {
+    "name": "Mike Morris",
+    "role": "analyst"
+   },
+   {
+    "name": "Kannan Venkateshwar",
+    "role": "analyst"
+   },
+   {
+    "name": "David Karnovsky",
+    "role": "analyst"
+   },
+   {
+    "name": "Peter Supino",
+    "role": "analyst"
+   },
+   {
+    "name": "Steven Cahall",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Ng",
+    "role": "analyst"
+   },
+   {
+    "name": "Jessica Reif Ehrlich",
+    "role": "analyst"
+   },
+   {
+    "name": "Sean Diffley",
+    "role": "analyst"
+   },
+   {
+    "name": "Bryan Kraft",
+    "role": "analyst"
+   },
+   {
+    "name": "Batya Levi",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Third Quarter",
+   "detail": "the call says 'Third Quarter', matching 2026Q3"
+  },
+  "reported_period_label": "q3",
+  "source_file": "DIS_2026Q3.json",
+  "vocabulary_packs": [
+   "media_entertainment"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue $10B (+7% yoy), q3",
+   "fact_ids": [
+    "DIS_2026_3-003",
+    "DIS_2026_3-002"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is accelerating: guided 8% to 9% vs 7% reported",
+   "fact_ids": [
+    "DIS_2026_3-002"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.67",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": {
+    "value": 10000000000.0,
+    "fact_id": "DIS_2026_3-003"
+   },
+   "growth": {
+    "value": 7.0,
+    "period": "q3",
+    "fact_id": "DIS_2026_3-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "DIS_2026_3-S035",
+    "delta_pp": 1.5,
+    "guided_lo": 8.0,
+    "guided_hi": 9.0,
+    "guided_descriptor": "high-single-digit"
+   },
+   "stance": {},
+   "n_mentions": 0
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "DIS_2026_3-002",
+   "DIS_2026_3-003",
+   "DIS_2026_3-004"
+  ],
+  "signal_ids": [
+   "DIS_2026_3-S001",
+   "DIS_2026_3-S002",
+   "DIS_2026_3-S004",
+   "DIS_2026_3-S007",
+   "DIS_2026_3-S009",
+   "DIS_2026_3-S012",
+   "DIS_2026_3-S021",
+   "DIS_2026_3-S032",
+   "DIS_2026_3-S040",
+   "DIS_2026_3-S042",
+   "DIS_2026_3-S043",
+   "DIS_2026_3-S044",
+   "DIS_2026_3-S074",
+   "DIS_2026_3-S078",
+   "DIS_2026_3-S079",
+   "DIS_2026_3-S092",
+   "DIS_2026_3-S102"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 7.0,
+    "period": "q3",
+    "fact_id": "DIS_2026_3-002",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 8.0,
+    "hi": 9.0,
+    "descriptor": "high-single-digit",
+    "period": null,
+    "source": "signal_text",
+    "id": "DIS_2026_3-S035",
+    "direction_word": null,
+    "text": "So looking forward, while we haven't provided a longer-term revenue or margin outlook for the segment, we did just this morning guide to the high end of our prior high-single-digit OI growth for fiscal year '26, and that excludes the 53rd week.",
+    "position": "high_end",
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": 1.5,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 15,
+    "cautious": 3,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.67
+   },
+   "qa": {
+    "confident": 0,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": null
+   }
+  },
+  "speakers": {
+   "Josh D'Amaro": {
+    "cautious": 3,
+    "confident": 8
+   },
+   "Hugh Johnston": {
+    "confident": 7
+   }
+  },
+  "notable_confident": [
+   "DIS_2026_3-S033",
+   "DIS_2026_3-S094",
+   "DIS_2026_3-S038",
+   "DIS_2026_3-S074"
+  ],
+  "notable_cautious": [
+   "DIS_2026_3-S004",
+   "DIS_2026_3-S034",
+   "DIS_2026_3-S031"
+  ],
+  "withheld": [],
+  "revisions": [
+   "DIS_2026_3-S043"
+  ]
+ },
+ "signals": [
+  {
+   "id": "DIS_2026_3-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DIS_2026_3-001",
+    "DIS_2026_3-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "up 21",
+     "growth of 7"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "record"
+    ]
+   },
+   "score": 5.44,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Total segment operating income came in ahead of our prior guidance, up 21% with total company revenue growth of 7%, and Disney Experiences delivered record fiscal Q3 revenue and segment OI.",
+   "ev_start": 1832,
+   "ev_end": 2021,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "Our core platforms, Disney Experiences, Disney+ and ESPN grew guests, users and audiences, respectively, versus the prior year quarter.",
+   "ev_start": 2022,
+   "ev_end": 2157,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "We are executing well across our businesses and delivering on the back half acceleration commitments we made to investors.",
+   "ev_start": 2158,
+   "ev_end": 2280,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S004",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "uncertainty"
+    ],
+    "forward": [
+     "on track to"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "And despite the continued macroeconomic uncertainty, we're on track to finish the year strong.",
+   "ev_start": 2281,
+   "ev_end": 2375,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S005",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Disney's fundamental advantage is the depth of our fan relationships, and that translates directly to durable financial returns.",
+   "ev_start": 2651,
+   "ev_end": 2779,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S006",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 1.55,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "This success reflects our continued execution across our three strategic priorities: first, investing in creative excellence and world-class IP; second, leveraging technology to accelerate growth and drive returns; and third, deepening our direct relationships with fans by creating a more connected Disney experience.",
+   "ev_start": 2960,
+   "ev_end": 3278,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "First, we grew our global guests 4% year-over-year with particular strength at Walt Disney World, while also benefiting from additional capacity at Disney Cruise Line.",
+   "ev_start": 3630,
+   "ev_end": 3797,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "bookings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Forward bookings at Walt Disney World and Disney Cruise Line remain healthy.",
+   "ev_start": 3798,
+   "ev_end": 3874,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S009",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "proud"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "We're proud of the growth that we've had this year, and we're investing to sustain that growth and over the lifetime of these projects, deliver double-digit returns.",
+   "ev_start": 4391,
+   "ev_end": 4556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S010",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "strategy": [
+     "disciplined",
+     "capital allocation"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "As always, we're being disciplined in our capital allocation with a focus on expanding our capacity around the world and driving incremental demand.",
+   "ev_start": 4557,
+   "ev_end": 4705,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S011",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "product": [
+     "announced",
+     "ship"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "The pipeline includes major attractions at every site, including Villains Land in Orlando and the Avengers Campus expansion in Anaheim, amongst others in the U.S. and our previously announced cruise ship expansion.",
+   "ev_start": 4706,
+   "ev_end": 4920,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S012",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 4.05,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "At our studios, the blockbuster success of the latest Toy Story installment shows exactly why Disney is different from the competition and how our stories translate into recurring earnings power.",
+   "ev_start": 4921,
+   "ev_end": 5116,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 3.55,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "Across all retailers, Toy Story generates more than $1 billion in annual global retail sales and reaches fans across every Disney park and cruise ship, including four immersive lands, 19 attractions and two hotels.",
+   "ev_start": 5242,
+   "ev_end": 5456,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S014",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "That integration creates a structure no one else has been able to replicate.",
+   "ev_start": 5598,
+   "ev_end": 5674,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S015",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Even when our franchise films don't meet our box office expectations as with The Mandalorian and Grogu and the live-action Moana, our investments in these core properties fuel other parts of our company.",
+   "ev_start": 5675,
+   "ev_end": 5878,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "growth",
+     "sales"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "The Mandalorian and Grogu drove healthy growth in retail sales for the Star Wars franchise and drew guests to the updated Millennium Falcon attraction at Disneyland and Walt Disney World and led to significant engagement in gaming as well.",
+   "ev_start": 5879,
+   "ev_end": 6118,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "Of course, I'd be remiss not to acknowledge and congratulate everyone on this past weekend's record-breaking opening for Spider-Man.",
+   "ev_start": 6501,
+   "ev_end": 6633,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "popular"
+    ],
+    "product": [
+     "popular"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "Sixty-five years after his debut, Spider-Man remains one of the most popular characters through consumer products, parks and streaming.",
+   "ev_start": 6827,
+   "ev_end": 6962,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "We delivered a 13% SVOD operating margin in fiscal Q3, and we remain on track for double-digit margins in fiscal '26, excluding the 53rd week impact.",
+   "ev_start": 7598,
+   "ev_end": 7747,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Our strategy is clear: leverage regional relationships and bring local content onto Disney+ at scale, and that's how we'll grow internationally.",
+   "ev_start": 7906,
+   "ev_end": 8050,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S021",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "forward": [
+     "expect",
+     "beginning in"
+    ],
+    "product": [
+     "introduce"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "We expect to introduce elements of this expanded ecosystem beginning in spring of 2027.",
+   "ev_start": 8581,
+   "ev_end": 8668,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S022",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "Underpinning all of this work is our deep commitment to embracing emerging technology.",
+   "ev_start": 9670,
+   "ev_end": 9756,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S023",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "That's why we're leveraging AI to bring the most innovative tools to our storytellers.",
+   "ev_start": 9919,
+   "ev_end": 10005,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S024",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 2.05,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "That frees up capital to reinvest aggressively in what drives long-term value, new content, and next-generation guest experiences as well as technology infrastructure that keeps Disney at the forefront of entertainment.",
+   "ev_start": 10647,
+   "ev_end": 10866,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "And we know that when we operate in an integrated fashion with speed, discipline and efficiency, we can create long-term shareholder value.",
+   "ev_start": 11108,
+   "ev_end": 11247,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S026",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 5,
+   "sentence": "And we did this through investment in new initiatives.",
+   "ev_start": 12041,
+   "ev_end": 12095,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record",
+     "revenue"
+    ]
+   },
+   "score": 1.89,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 7,
+   "sentence": "It was another record revenue quarter for the Experiences segment.",
+   "ev_start": 12180,
+   "ev_end": 12246,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "records",
+     "strong"
+    ],
+    "performance": [
+     "margin",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.39,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 16,
+   "sentence": "And then just from an OI and margin perspective, the Experiences segment, again, delivered Q3 records, which was fueled by the strong revenue growth.",
+   "ev_start": 12800,
+   "ev_end": 12949,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S029",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 20,
+   "sentence": "It's important, I think, to highlight that we're performing significantly better than our competition.",
+   "ev_start": 13194,
+   "ev_end": 13296,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 21,
+   "sentence": "And in doing that, delivering strong volume and per-cap spending results.",
+   "ev_start": 13297,
+   "ev_end": 13370,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S031",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "And to remind everyone, we're achieving this even during a period where there's a fair amount of macro uncertainty.",
+   "ev_start": 13371,
+   "ev_end": 13486,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S032",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.55,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 24,
+   "sentence": "The consistent investments that we've made over time, combined with the fact that the experience Disney provides to its fans, it's truly differentiated and highly valued.",
+   "ev_start": 13561,
+   "ev_end": 13731,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S033",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investment",
+     "invest"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 25,
+   "sentence": "And I think that should give you and the broader investment community confidence that we will continue to grow over the years to come, especially as we continue to invest in our global capacity.",
+   "ev_start": 13732,
+   "ev_end": 13926,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S034",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "hedge": [
+     "evaluations"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 26,
+   "sentence": "Now in terms of future returns, having previously led the segment, I can also say that our capital investments, all of them, they go through very, very rigorous evaluations and are supported by clear and well-defined return expectations.",
+   "ev_start": 13927,
+   "ev_end": 14164,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high-single-digit",
+    "band": [
+     8.0,
+     9.0
+    ],
+    "position": "high_end",
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high-single-digit"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "revenue",
+     "margin",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "So looking forward, while we haven't provided a longer-term revenue or margin outlook for the segment, we did just this morning guide to the high end of our prior high-single-digit OI growth for fiscal year '26, and that excludes the 53rd week.",
+   "ev_start": 14165,
+   "ev_end": 14409,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 29,
+   "sentence": "So Robert, back to your specific question, we expect to balance both volume and yield, particularly as we're expanding through our capital plan so that ultimately, we can serve more fans and make the experience, whether that's on land or on sea, even more desirable.",
+   "ev_start": 14488,
+   "ev_end": 14754,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S037",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect",
+     "future"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "Our return on invested capital in Experiences has increased meaningfully over time, and we do expect strong returns into the future.",
+   "ev_start": 15306,
+   "ev_end": 15438,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S038",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 6,
+   "sentence_index": 7,
+   "sentence": "So we did try to help you all in the shareholder letter and the link we provided to give you a little bit more sense of the sequencing of the projects that are out there on the horizon, but we feel good about the returns of these projects well into the future.",
+   "ev_start": 15964,
+   "ev_end": 16224,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S039",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "We've been deploying promotional offers regularly.",
+   "ev_start": 17017,
+   "ev_end": 17067,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S040",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "softness"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "growth",
+     "softness"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "sentence_index": 13,
+   "sentence": "Now Rich, you asked about our domestic parks specifically, and we did see strong domestic tourists and local resident growth, and that growth helped offset continued international attendance softness, although we've seen some moderation in that regard.",
+   "ev_start": 18067,
+   "ev_end": 18319,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 10,
+   "sentence_index": 4,
+   "sentence": "First of all, as you can see in the numbers, demand is strong across domestic parks and cruises.",
+   "ev_start": 18669,
+   "ev_end": 18765,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S042",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": [
+     "bookings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 10,
+   "sentence_index": 6,
+   "sentence": "Looking forward, forward bookings at Walt Disney World are up nicely, and cruise line bookings also look very healthy as we look out to our book of business.",
+   "ev_start": 18853,
+   "ev_end": 19010,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S043",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": "high-single-digit",
+    "band": [
+     8.0,
+     9.0
+    ],
+    "position": "high_end",
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "high-single-digit"
+    ],
+    "forward": [
+     "expect",
+     "guidance"
+    ],
+    "product": [
+     "announcement"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 7.89,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 10,
+   "sentence_index": 10,
+   "sentence": "As you saw in the announcement and heard from Josh, we now expect the Experiences segment to deliver OI growth at the high end of the previously provided high-single-digit growth guidance for the fiscal year, excluding the 53rd week.",
+   "ev_start": 19298,
+   "ev_end": 19531,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S044",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs",
+     "tariff"
+    ]
+   },
+   "score": 4.44,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 10,
+   "sentence_index": 15,
+   "sentence": "Finally, on tariffs, we had about $100 million of tariff refunds in the quarter at Disney Experiences, which hit segment OI with no impact on revenue.",
+   "ev_start": 20042,
+   "ev_end": 20192,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S045",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 10,
+   "sentence_index": 16,
+   "sentence": "There will be a smaller benefit, if any, in Q4, and the full year impact will be immaterial because the costs associated with those tariffs were actually in the first half of '26.",
+   "ev_start": 20193,
+   "ev_end": 20372,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 2,
+   "sentence": "As you well know, our company generates a lot of free cash flow, and we do have a very strong balance sheet.",
+   "ev_start": 20973,
+   "ev_end": 21081,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S047",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "capital allocation",
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 7,
+   "sentence": "As we think about our capital allocation priorities, number one is always going to be investing back in the business to drive growth.",
+   "ev_start": 21394,
+   "ev_end": 21527,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S048",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "performance": [
+     "accelerated",
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 10,
+   "sentence": "And you can see the results on that in terms of the accelerated growth we're seeing in that business.",
+   "ev_start": 21634,
+   "ev_end": 21735,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we also plan"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 11,
+   "sentence": "We also plan to grow content spending from the current levels over time.",
+   "ev_start": 21736,
+   "ev_end": 21808,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S050",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "DIS_2026_3-004"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "capital allocation",
+     "dividend",
+     "repurchase"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 15,
+   "sentence": "And then as we think about shareholder returns in that aspect of capital allocation, I'd certainly highlight two things: number one is the semiannual dividend, which we've obviously been increasing; and number two, in terms of the share repurchase program, recall, we originally guided to about $7 billion in fiscal '26, and now we're up to at least $9 billion.",
+   "ev_start": 22036,
+   "ev_end": 22397,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S051",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 16,
+   "sentence": "And the reason we're doing that is largely to utilize the cash that had been set aside previously for the OpenAI deal and now from the expected proceeds from the A&E transaction, which was announced overnight.",
+   "ev_start": 22398,
+   "ev_end": 22607,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S052",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "improving"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 17,
+   "sentence": "One thing I'll add, Mike, as Josh said, we're highly focused on operating with speed and agility and improving productivity and efficiency across the company so we can invest in accelerating growth.",
+   "ev_start": 22608,
+   "ev_end": 22806,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S053",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 0.55,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 7,
+   "sentence": "And for us at Disney, I feel good about the fact that we're running our own playbook here, and it's working for us.",
+   "ev_start": 23652,
+   "ev_end": 23767,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S054",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete",
+     "competitive",
+     "advantages"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 8,
+   "sentence": "And in order for us to compete successfully in a media landscape that's changing so fast, we're clear on what we need to do, and that's invest in our core competitive advantages.",
+   "ev_start": 23768,
+   "ev_end": 23946,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S055",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 9,
+   "sentence": "And you're seeing that in our investments in content and in streaming and in experiences.",
+   "ev_start": 23947,
+   "ev_end": 24036,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S056",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "strategy": [
+     "m&a"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 13,
+   "sentence": "But Robert, what your question highlights is that the streaming industry, it's consolidating through M&A and through a growing number of partnerships.",
+   "ev_start": 24541,
+   "ev_end": 24691,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "restructuring",
+     "acquisition"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 16,
+   "sentence": "And we don't see Comcast restructuring or Fox's acquisition of Roku as moves that will change our own strategic path.",
+   "ev_start": 24791,
+   "ev_end": 24908,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S058",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "partnering"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 18,
+   "sentence": "A more consolidated industry is really a better investment backdrop, and we have a long history of partnering and streaming, and we believe that we can just keep building on that.",
+   "ev_start": 24995,
+   "ev_end": 25174,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S059",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator"
+    ],
+    "competition": [
+     "differentiator",
+     "competitors"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 20,
+   "sentence": "Where we're unique and where I'd point you, if you want the real differentiator, it's our ability to segment the marketplace through bundling in a way that I don't think our competitors can really do, at least domestically.",
+   "ev_start": 25362,
+   "ev_end": 25585,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improves"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 21,
+   "sentence": "When we look at customers who have been with us for a similar length of time, retention improves the further up that ladder they go from a single product up to a dual bundle to the Trio bundle.",
+   "ev_start": 25586,
+   "ev_end": 25779,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S061",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 5,
+   "sentence": "There's still work to be done on unifying the tech stacks between the legacy stand-alone services as well as on integrating what have historically been disparate datasets.",
+   "ev_start": 27768,
+   "ev_end": 27939,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S062",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "by the end of"
+    ],
+    "product": [
+     "new features",
+     "rolling out"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "And by the end of this calendar year, subscribers, they'll be able to see live TV and add-ons in addition to new features rolling out.",
+   "ev_start": 27940,
+   "ev_end": 28074,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S063",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 9,
+   "sentence": "So I'm pretty excited about that.",
+   "ev_start": 28294,
+   "ev_end": 28327,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S064",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "popular"
+    ],
+    "product": [
+     "popular"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 15,
+   "sentence": "This is a very popular bundle, and it works well for both us and Warner Bros.",
+   "ev_start": 28955,
+   "ev_end": 29032,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S065",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 18,
+   "sentence": "So I feel good about where we are from an integration standpoint and feel like these opportunities for bundling will be out there for us and will certainly help us from a churn and engagement perspective.",
+   "ev_start": 29199,
+   "ev_end": 29403,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S066",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "guidance",
+     "for the year"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 2,
+   "sentence": "First and foremost, it's worth highlighting that the Sports segment today is growing when you look at the guidance that we have for the year, which excludes the 53rd week.",
+   "ev_start": 29643,
+   "ev_end": 29814,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 6,
+   "sentence": "And in doing so, what we do is we focus on ESPN's contribution to the overall business and healthy consolidated earnings growth that we expect to deliver to shareholders.",
+   "ev_start": 30016,
+   "ev_end": 30186,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S068",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 24,
+   "sentence_index": 12,
+   "sentence": "Beyond our confidence in the financial model, we strongly believe that a large global user base is strategic to driving longer-term growth, especially as new technology cycles emerge like AI.",
+   "ev_start": 31862,
+   "ev_end": 32053,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S069",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 24,
+   "sentence_index": 13,
+   "sentence": "The consumer touch points our streaming platforms provide give us a global user base to communicate with and, importantly, a critical first-party dataset that will enable personalization and continued product innovation.",
+   "ev_start": 32054,
+   "ev_end": 32274,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S070",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "competition": [
+     "competitors"
+    ],
+    "performance": [
+     "accelerate",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 29,
+   "sentence_index": 4,
+   "sentence": "Second, unlike a lot of our AVOD competitors, we're fairly well sold, meaning more inventory would actually help us accelerate our ad revenue growth.",
+   "ev_start": 34808,
+   "ev_end": 34957,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S071",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announce"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 29,
+   "sentence_index": 6,
+   "sentence": "So nothing specific to announce today, but definitely something that we're considering.",
+   "ev_start": 35088,
+   "ev_end": 35175,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S072",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 2,
+   "sentence": "Look, overall, we're pleased with the upfront results, really driven by the unmatched live events calendar that we have, including the Super Bowl, the College Football National Championship, the Grammys, the Oscars.",
+   "ev_start": 35519,
+   "ev_end": 35734,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S073",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "tremendous"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 3,
+   "sentence": "We really have a tremendous calendar coming up.",
+   "ev_start": 35735,
+   "ev_end": 35782,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S074",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low teens"
+    ],
+    "product": [
+     "announce"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 5,
+   "sentence": "Sports volumes were up low teens, and we are very, very pleased to announce that we have sold out the Super Bowl inventory.",
+   "ev_start": 35881,
+   "ev_end": 36004,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S075",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 7,
+   "sentence": "But at the same time, competitive in streaming, especially given the growth of supply in the marketplace.",
+   "ev_start": 36161,
+   "ev_end": 36266,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S076",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "sales",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 8,
+   "sentence": "That supply, of course, is creating some pricing pressure for us and for others, which you saw in our SVOD ad sales growth rate this quarter.",
+   "ev_start": 36267,
+   "ev_end": 36408,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 9,
+   "sentence": "Across international, especially in EMEA, we're seeing real demand for Disney+ as we expand our ad tier and we optimize the sell-through in our growth markets.",
+   "ev_start": 36409,
+   "ev_end": 36568,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S078",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "negative": [
+     "softness"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "softness"
+    ],
+    "performance": [
+     "momentum",
+     "softness"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 31,
+   "sentence_index": 11,
+   "sentence": "We're seeing good momentum in health care and financial services and in the political categories, while telecom and restaurants and CPG are displaying some softness, as you would expect with the consumer environment these days.",
+   "ev_start": 36647,
+   "ev_end": 36874,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.05,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 3,
+   "sentence": "We're using AI strategically not only across our studios but across the entire enterprise to gain efficiency, move faster, accelerate velocity, and unleash creativity across Disney.",
+   "ev_start": 37141,
+   "ev_end": 37322,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S080",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation",
+     "innovating"
+    ]
+   },
+   "score": 3.38,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 5,
+   "sentence": "We've always pushed the cutting edge of innovation in storytelling - at ILM, Pixar, Disney Research Studios, Walt Disney Imagineering - and now we're building on years of machine learning experience by innovating with AI tools.",
+   "ev_start": 37435,
+   "ev_end": 37662,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S081",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 8,
+   "sentence": "We've cultivated the world's richest portfolio of IP and production experience across a century of filmmaking, and that gives us a huge advantage that I don't think any new entrant can quickly replicate.",
+   "ev_start": 37835,
+   "ev_end": 38038,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 10,
+   "sentence": "It lets us expand the number of titles we can offer in 3D, making more of our films available in premium formats that are in high demand.",
+   "ev_start": 38206,
+   "ev_end": 38343,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S083",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerates"
+    ],
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "performance": [
+     "accelerates"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 11,
+   "sentence": "It enables visual effects on more shots that previously would have been difficult or not economically viable, and it accelerates processes like rendering and denoising, reducing the time to complete shots.",
+   "ev_start": 38344,
+   "ev_end": 38549,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S084",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 14,
+   "sentence": "ESPN has done a lot in this space and has three goals that map to their AI workflows: fan engagement, including the recently launched SportsCenter for You - if you haven't tried that, you should; revenue growth, including brand-new ad formats; and productivity across initiatives like live captioning and highlight clipping, which they're executing well.",
+   "ev_start": 38805,
+   "ev_end": 39159,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S085",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 33,
+   "sentence_index": 17,
+   "sentence": "It's a pretty exciting time for us.",
+   "ev_start": 39491,
+   "ev_end": 39526,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S086",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 2,
+   "sentence": "It's actually a pretty good follow-up to the prior question on AI because we do think more broadly about the overall impact technology and innovation can have across all of our workflows and across all of our earnings base.",
+   "ev_start": 39804,
+   "ev_end": 40027,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S087",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 4,
+   "sentence": "Large companies with multiple businesses, especially ones that have been built over time through a series of acquisitions, they often end up with disparate datasets that sometimes don't talk to each other, and we're putting real resources behind fixing that.",
+   "ev_start": 40119,
+   "ev_end": 40377,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 7,
+   "sentence": "We're also investing pretty aggressively in technology that creates better experiences for our guests in our parks and our cruise ships.",
+   "ev_start": 40802,
+   "ev_end": 40938,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S089",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "next-generation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 8,
+   "sentence": "Our research and development labs are developing next-generation robotics that can interact with guests in personal and emotional ways, not just in functional ways.",
+   "ev_start": 40939,
+   "ev_end": 41103,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S090",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": -0.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 9,
+   "sentence": "And in Imagineering, our teams are using AI tools to let our Imagineers design more ambitious, more exciting experiences for fans around the world, and they're doing it a lot faster than they could do it before.",
+   "ev_start": 41104,
+   "ev_end": 41315,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S091",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 2.05,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 35,
+   "sentence_index": 12,
+   "sentence": "So I guess if you put it simply, we're focused on becoming a more effective, a more agile, more innovative company in everything that we do at Disney and technology is the connective tissue that makes all of that possible.",
+   "ev_start": 41583,
+   "ev_end": 41805,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S092",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcement"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 37,
+   "sentence_index": 1,
+   "sentence": "Well, this is a big announcement for us this morning and an important one as well.",
+   "ev_start": 42154,
+   "ev_end": 42236,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S093",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 39,
+   "sentence_index": 2,
+   "sentence": "We are actually highly, highly confident in those timelines.",
+   "ev_start": 43492,
+   "ev_end": 43552,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 39,
+   "sentence_index": 6,
+   "sentence": "So from that perspective, we certainly feel extremely confident that we will hit the timelines.",
+   "ev_start": 43822,
+   "ev_end": 43917,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S095",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 41,
+   "sentence_index": 5,
+   "sentence": "The consequence of that, of course, is right now, it's almost entirely driven by our own organic actions, the investments that we're making in the business, the marketing executions, all of what we're doing to drive attendance growth, in particular, in the domestic market.",
+   "ev_start": 44767,
+   "ev_end": 45040,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S096",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 43,
+   "sentence_index": 2,
+   "sentence": "No, in fact, tariffs really have nothing to do with it.",
+   "ev_start": 45379,
+   "ev_end": 45434,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S097",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 43,
+   "sentence_index": 3,
+   "sentence": "Everything that happened with tariffs - the tariffs we paid were in the first two quarters of this year, and the refund was in the third quarter.",
+   "ev_start": 45435,
+   "ev_end": 45580,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S098",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ],
+    "pressure": [
+     "tariffs"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 43,
+   "sentence_index": 5,
+   "sentence": "So for the full year, essentially tariffs have zero impact.",
+   "ev_start": 45655,
+   "ev_end": 45714,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 43,
+   "sentence_index": 7,
+   "sentence": "The cruise ships, of course, are driving strong growth.",
+   "ev_start": 45837,
+   "ev_end": 45892,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S100",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ],
+    "confident": [
+     "feel great about"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 43,
+   "sentence_index": 8,
+   "sentence": "We feel great about the attendance growth, we feel great about the per-caps we're receiving, and we think we're competing effectively in the marketplace, which is why we're doing so well.",
+   "ev_start": 45893,
+   "ev_end": 46080,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S101",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "uniquely"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "competition": [
+     "uniquely"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 1,
+   "sentence": "I think you can see in our results and here in our answers to your questions that we believe we are uniquely positioned in the global entertainment industry.",
+   "ev_start": 46261,
+   "ev_end": 46418,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "DIS_2026_3-S102",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 45,
+   "sentence_index": 5,
+   "sentence": "We look forward to continuing to engage with the investment community and our shareholders, including on our fiscal Q4 earnings call scheduled for November.",
+   "ev_start": 46761,
+   "ev_end": 46917,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "DIS_2026_3-S001",
+  "DIS_2026_3-S002",
+  "DIS_2026_3-S004",
+  "DIS_2026_3-S007",
+  "DIS_2026_3-S009",
+  "DIS_2026_3-S012",
+  "DIS_2026_3-S021",
+  "DIS_2026_3-S032",
+  "DIS_2026_3-S040",
+  "DIS_2026_3-S042",
+  "DIS_2026_3-S043",
+  "DIS_2026_3-S044",
+  "DIS_2026_3-S074",
+  "DIS_2026_3-S078",
+  "DIS_2026_3-S079",
+  "DIS_2026_3-S092",
+  "DIS_2026_3-S102"
+ ],
+ "surfaced_signal_ids": [
+  "DIS_2026_3-S001",
+  "DIS_2026_3-S002",
+  "DIS_2026_3-S004",
+  "DIS_2026_3-S007",
+  "DIS_2026_3-S009",
+  "DIS_2026_3-S012",
+  "DIS_2026_3-S021",
+  "DIS_2026_3-S032",
+  "DIS_2026_3-S040",
+  "DIS_2026_3-S042",
+  "DIS_2026_3-S043",
+  "DIS_2026_3-S044",
+  "DIS_2026_3-S074",
+  "DIS_2026_3-S078",
+  "DIS_2026_3-S079",
+  "DIS_2026_3-S092",
+  "DIS_2026_3-S102",
+  "DIS_2026_3-S033",
+  "DIS_2026_3-S094",
+  "DIS_2026_3-S038",
+  "DIS_2026_3-S034",
+  "DIS_2026_3-S031"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {
+   "segment": 1
+  },
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "warn",
+   "detail": "ledger segments missing from the registry (facts not shown per-segment): {'segment': 1}"
+  }
+ ],
+ "stats": {
+  "signals": 102,
+  "signals_usable": 102,
+  "selected": 17,
+  "by_topic": {
+   "momentum": 39,
+   "pressure": 11,
+   "competition": 11,
+   "strategy": 22,
+   "product": 26
+  },
+  "by_horizon": {
+   "forward": 20,
+   "current": 82
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 0,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

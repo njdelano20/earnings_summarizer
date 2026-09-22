@@ -58,3 +58,16 @@
 2026-09-21T22:01:14  DHR: ok (fetched) 2026Q2: 18 facts, 28 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
 2026-09-21T22:01:16  HON: ok (fetched) 2026Q2: 12 facts, 73 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
 2026-09-21T22:01:19  RTX: ok (fetched) 2026Q2: 11 facts, 70 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:22  CMCSA: ok (fetched) 2026Q2: 23 facts, 28 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T22:01:24  DIS: ok (fetched) 2026Q3: 4 facts, 18 unclaimed, period pass, ATTENTION: few_facts; many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:27  BAC: ok (fetched) 2026Q2: 49 facts, 83 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:30  WFC: ok (fetched) 2026Q2: 46 facts, 51 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T22:01:33  GS: ok (fetched) 2026Q2: 27 facts, 46 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:36  SCHW: ok (fetched) 2026Q2: 9 facts, 57 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:38  AXP: ok (fetched) 2026Q2: 22 facts, 61 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:41  PYPL: ok (fetched) 2026Q2: 15 facts, 45 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:43  MET: ok (fetched) 2026Q2: 15 facts, 115 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:45  AIG: ok (fetched) 2026Q2: 40 facts, 80 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:48  CVX: ok (fetched) 2026Q2: 6 facts, 33 unclaimed, period pass, ATTENTION: many_unclaimed_figures; no_segment_map
+2026-09-21T22:01:50  UPS: ok (fetched) 2026Q2: 46 facts, 47 unclaimed, period pass, ATTENTION: no_segment_map
+2026-09-21T22:01:50  Done: 40 of 43 symbols scored (20 fetched this run); review queue 2278 rows; see C:\Users\Nick Delano\OneDrive\Documents\Finance\earnings_summarizer\output\batch\2026Q2\summary.md

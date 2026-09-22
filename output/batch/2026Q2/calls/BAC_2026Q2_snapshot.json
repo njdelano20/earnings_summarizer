@@ -1,0 +1,5698 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "BAC",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "BAC",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Lee McEntire",
+    "role": "management"
+   },
+   {
+    "name": "Brian Moynihan",
+    "role": "management"
+   },
+   {
+    "name": "Alastair Borthwick",
+    "role": "management"
+   },
+   {
+    "name": "Chris McGratty",
+    "role": "analyst"
+   },
+   {
+    "name": "Ken Usdin",
+    "role": "analyst"
+   },
+   {
+    "name": "Manan Gosalia",
+    "role": "analyst"
+   },
+   {
+    "name": "Ben Gerlinger",
+    "role": "analyst"
+   },
+   {
+    "name": "Erika Najarian",
+    "role": "analyst"
+   },
+   {
+    "name": "Mike Mayo",
+    "role": "analyst"
+   },
+   {
+    "name": "Gerard Cassidy",
+    "role": "analyst"
+   },
+   {
+    "name": "Matt O'Connor",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter",
+   "detail": "the call says 'second quarter', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "BAC_2026Q2.json",
+  "vocabulary_packs": [
+   "bank"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $1.21/sh (+34%)",
+   "fact_ids": [
+    "BAC_2026_2-005"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided flat",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.33, qa +0.78",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "BAC_2026_2-S108",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "an_fte_basis",
+   "name": "An Fte Basis",
+   "depth": 0,
+   "revenue": {
+    "value": 7200000000.0,
+    "fact_id": "BAC_2026_2-010"
+   },
+   "growth": {
+    "value": 33.0,
+    "period": "second quarter",
+    "fact_id": "BAC_2026_2-010",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "average",
+   "name": "Average",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 6
+  },
+  {
+   "node": "consumer",
+   "name": "Consumer",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 19
+  },
+  {
+   "node": "increase",
+   "name": "Increase",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "non_performing",
+   "name": "Non-Performing",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "equities",
+   "name": "Equities",
+   "depth": 0,
+   "revenue": {
+    "value": 3600000000.0,
+    "fact_id": "BAC_2026_2-046"
+   },
+   "growth": {
+    "value": 70.0,
+    "period": "second quarter",
+    "fact_id": "BAC_2026_2-046",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "growing",
+   "name": "Growing",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 7
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "BAC_2026_2-004",
+   "BAC_2026_2-005",
+   "BAC_2026_2-011",
+   "BAC_2026_2-038",
+   "BAC_2026_2-023",
+   "BAC_2026_2-025",
+   "BAC_2026_2-026",
+   "BAC_2026_2-007",
+   "BAC_2026_2-012",
+   "BAC_2026_2-013",
+   "BAC_2026_2-021",
+   "BAC_2026_2-047",
+   "BAC_2026_2-024"
+  ],
+  "signal_ids": [
+   "BAC_2026_2-S001",
+   "BAC_2026_2-S003",
+   "BAC_2026_2-S014",
+   "BAC_2026_2-S015",
+   "BAC_2026_2-S036",
+   "BAC_2026_2-S043",
+   "BAC_2026_2-S054",
+   "BAC_2026_2-S065",
+   "BAC_2026_2-S077",
+   "BAC_2026_2-S078",
+   "BAC_2026_2-S080",
+   "BAC_2026_2-S087",
+   "BAC_2026_2-S097",
+   "BAC_2026_2-S098",
+   "BAC_2026_2-S101",
+   "BAC_2026_2-S115",
+   "BAC_2026_2-S120"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "an_fte_basis",
+   "name": "An Fte Basis",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-010",
+    "BAC_2026_2-009",
+    "BAC_2026_2-008"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S008",
+    "BAC_2026_2-S012"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "average",
+   "name": "Average",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-015",
+    "BAC_2026_2-041",
+    "BAC_2026_2-043"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S023",
+    "BAC_2026_2-S024",
+    "BAC_2026_2-S056",
+    "BAC_2026_2-S072"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "consumer",
+   "name": "Consumer",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-016",
+    "BAC_2026_2-020"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S017",
+    "BAC_2026_2-S026",
+    "BAC_2026_2-S029",
+    "BAC_2026_2-S030",
+    "BAC_2026_2-S046",
+    "BAC_2026_2-S047",
+    "BAC_2026_2-S048",
+    "BAC_2026_2-S053",
+    "BAC_2026_2-S057",
+    "BAC_2026_2-S091",
+    "BAC_2026_2-S092",
+    "BAC_2026_2-S116"
+   ],
+   "n_home_signals": 19,
+   "n_mentions": 19,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "ending",
+   "name": "Ending",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-018"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "average_commercial",
+   "name": "Average Commercial",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-019"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 0,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "increase",
+   "name": "Increase",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-022"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S034",
+    "BAC_2026_2-S122"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "non_performing",
+   "name": "Non-Performing",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-027"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S044"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "equities",
+   "name": "Equities",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-046"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S074"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "growing",
+   "name": "Growing",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "BAC_2026_2-049"
+   ],
+   "signal_ids": [
+    "BAC_2026_2-S060",
+    "BAC_2026_2-S104",
+    "BAC_2026_2-S105",
+    "BAC_2026_2-S128"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 7,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "BAC_2026_2-S108",
+    "direction_word": "flat",
+    "text": "Second, good continued loan growth in the second half, similar to what we've been seeing.",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 2,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.33
+   },
+   "qa": {
+    "confident": 8,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.78
+   }
+  },
+  "speakers": {
+   "Alastair Borthwick": {
+    "confident": 6
+   },
+   "Brian Moynihan": {
+    "cautious": 2,
+    "confident": 4
+   }
+  },
+  "notable_confident": [
+   "BAC_2026_2-S135",
+   "BAC_2026_2-S094",
+   "BAC_2026_2-S072",
+   "BAC_2026_2-S087"
+  ],
+  "notable_cautious": [
+   "BAC_2026_2-S086",
+   "BAC_2026_2-S119"
+  ],
+  "withheld": [],
+  "revisions": [
+   "BAC_2026_2-S036"
+  ]
+ },
+ "signals": [
+  {
+   "id": "BAC_2026_2-S001",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Lee McEntire",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 2,
+   "sentence": "As always, the earnings release and presentation are posted on the investor relations section of bankofamerica.com, and we'll reference those materials during the call.",
+   "ev_start": 267,
+   "ev_end": 435,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "Once again, our team delivered strong second quarter results, extending our momentum of the past several quarters.",
+   "ev_start": 918,
+   "ev_end": 1032,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-001",
+    "BAC_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Our revenue grew 15% year-over-year to $31.6 billion.",
+   "ev_start": 1033,
+   "ev_end": 1086,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Our results show organic growth, operating leverage, and efficiency ratio improvement in every business segment.",
+   "ev_start": 1183,
+   "ev_end": 1295,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "In short, organic growth was broad-based and coupled with operating leverage, which translated into stronger returns on both equity and assets.",
+   "ev_start": 1562,
+   "ev_end": 1705,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Average deposits and loan balances continued to grow, supported by healthy client engagement.",
+   "ev_start": 1844,
+   "ev_end": 1937,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S007",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.98,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Revenue growth was broad-based, led by NII, investment banking, wealth management fees, and sales and trading revenue.",
+   "ev_start": 2287,
+   "ev_end": 2405,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "an_fte_basis"
+   ],
+   "home": "an_fte_basis",
+   "fact_ids": [
+    "BAC_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 9"
+    ],
+    "performance": []
+   },
+   "score": 3.98,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "On an FTE basis, NII was approximately $16.2 billion, up 9% over last year's second quarter.",
+   "ev_start": 2464,
+   "ev_end": 2556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S009",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "favorable"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Wealth management, investment banking, and markets all benefit from healthy client activity in favorable capital markets conditions.",
+   "ev_start": 2958,
+   "ev_end": 3090,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S010",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 28,
+   "sentence": "Merrill and the Private Bank advisors drove the 18% growth in investment brokerage fees.",
+   "ev_start": 3091,
+   "ev_end": 3179,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S011",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 50"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Investment banking fees increased 50% year-over-year to more than $2.1 billion.",
+   "ev_start": 3180,
+   "ev_end": 3259,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S012",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "an_fte_basis"
+   ],
+   "home": "an_fte_basis",
+   "fact_ids": [
+    "BAC_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 33"
+    ],
+    "performance": [
+     "sales",
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "While sales and trading generated $7.2 billion in revenue, up 33%.",
+   "ev_start": 3260,
+   "ev_end": 3326,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S013",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Third, we manage cost while we continue to invest in a franchise, our brand, our people, our technology, and our AI-enabled productivity.",
+   "ev_start": 3327,
+   "ev_end": 3464,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "We've returned $8 billion to you through dividends and share repurchases this quarter.",
+   "ev_start": 3681,
+   "ev_end": 3767,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expected to"
+    ],
+    "performance": [
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "They also have global growth expected to remain steady at 3.2% in 2026 and grow to 3.5% in 2027.",
+   "ev_start": 4044,
+   "ev_end": 4140,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "outperform",
+     "expanded"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "As noted on the slide, consumer spending has recently expanded and continued to outperform our expectations.",
+   "ev_start": 4141,
+   "ev_end": 4249,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S017",
+   "topics": [
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "Overall, the U.S. economy has proved more durable than expected, supported by the strong consumer, ongoing AI-driven investments across the board, and easing energy costs, though inflation and tighter monetary policy remain key risks.",
+   "ev_start": 4438,
+   "ev_end": 4672,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S018",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "Our associates are generating more than 400,000 prompts a day, and as of last week, we had over 300 AI use cases approved, all of which have good economics, of which 114 are live generative AI use cases.",
+   "ev_start": 5059,
+   "ev_end": 5262,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S019",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new capabilities"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "Thirty-four of those cases are fully implemented, and we see new capabilities coming on every week.",
+   "ev_start": 5263,
+   "ev_end": 5362,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "healthy"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "We maintained strong liquidity and funding while we optimized our balance sheet, and we supported all that with diversified funding and healthy client-driven growth.",
+   "ev_start": 6175,
+   "ev_end": 6340,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Tier 1 common equity grew to nearly $202 billion, while our RWA increased to $1.8 trillion, driven by loan growth and capital markets activity.",
+   "ev_start": 6500,
+   "ev_end": 6643,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S022",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "When we turn to slide seven, you can see deposits remain a key competitive advantage and a source of strength for our company.",
+   "ev_start": 6711,
+   "ev_end": 6837,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [
+    "BAC_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 4"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Average deposits were $2.02 trillion, up $49 billion or 2.5% from a year ago, and importantly, included non-interest-bearing growth of $19 billion, up 4%.",
+   "ev_start": 6838,
+   "ev_end": 6992,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [
+    "BAC_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 8"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.36,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "Growth was primarily driven by Global Banking, where deposits increased 8% year-over-year, reflecting continued client engagement and operating account growth.",
+   "ev_start": 7060,
+   "ev_end": 7219,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "impacted by"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "The second quarter saw muted sequential growth in average deposits because it was impacted by typical seasonal tax-related outflows.",
+   "ev_start": 7220,
+   "ev_end": 7352,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S026",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Importantly, our deposit base remains highly diversified across consumer, wealth, commercial, and corporate clients, providing a stable and attractive funding advantage.",
+   "ev_start": 7443,
+   "ev_end": 7612,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "customers",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "With the other relationship values like rewards, digital, and security features, it allows us to offer customers attractive rates and grow balances.",
+   "ev_start": 7715,
+   "ev_end": 7863,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S028",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we continue to see growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "We continue to see growth in both interest-bearing and non-interest-bearing balances.",
+   "ev_start": 7864,
+   "ev_end": 7949,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [
+    "BAC_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 17,
+   "sentence": "As shown in the upper right, rate paid was modestly lower this quarter, led by consumer deposits of 48 basis points on $957 billion in balances, so favorable balance moves.",
+   "ev_start": 7950,
+   "ev_end": 8122,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [
+    "BAC_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 3"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "Consumer loans increased 3% year-over-year, led by growth in securities-based lending and credit card balances.",
+   "ev_start": 8795,
+   "ev_end": 8906,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S031",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "Credit card grew 4% year-over-year as we increased marketing and enhanced product offerings.",
+   "ev_start": 8907,
+   "ev_end": 8999,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "These trends reflect healthy client activity across both commercial and consumer businesses, and they demonstrate the benefits of our diversified lending franchise.",
+   "ev_start": 9187,
+   "ev_end": 9351,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "up 1"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.66,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 34,
+   "sentence": "That's up 1 basis point from Q1 and 14 basis points from a year ago, reflecting favorable asset and liability mix and loan and deposit growth, partly offset by Global Markets balance sheet growth.",
+   "ev_start": 10026,
+   "ev_end": 10222,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S034",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "increase"
+   ],
+   "home": "increase",
+   "fact_ids": [
+    "BAC_2026_2-022"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected"
+    ]
+   },
+   "score": 2.48,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Bank of America's banking book remains asset sensitive; on a dynamic deposit basis, a 100 basis points parallel shift above the forward curve is expected to increase NII by $1 billion over the next 12-month period.",
+   "ev_start": 10223,
+   "ev_end": 10437,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S035",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-023"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ]
+   },
+   "score": 2.98,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Looking ahead on NII expectations, in January, we told you to expect 5% to 7% full year NII growth.",
+   "ev_start": 10438,
+   "ev_end": 10537,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S036",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-024"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "full year"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "We now expect full year 2026 NII growth to be at the upper end of that 6% to 8% range, supported by anticipated loan and deposit growth, fixed rate asset repricing, and balance sheet optimization.",
+   "ev_start": 10595,
+   "ev_end": 10791,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S037",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "This assumes modest loan and deposit growth in the second half of the year, and it's based on the current forward curve, which has one 25 basis points rate hike in September.",
+   "ev_start": 10792,
+   "ev_end": 10966,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S038",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Overall, NII remains a significant contributor to earnings growth and reflects the core franchise advantages of our scale and diversified balance sheet.",
+   "ev_start": 10967,
+   "ev_end": 11119,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-025"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Non-interest expense on slide 10 was approximately $18.6 billion, up roughly $100 million from the first quarter and $1.4 billion from the second quarter of 2025, reflecting continued investment in technology, sales teams, financial centers, and brand marketing.",
+   "ev_start": 11120,
+   "ev_end": 11382,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S040",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "With those investments, we generated 660 basis points of operating leverage and improved our efficiency ratio to 59%, highlighting the performance of the franchise and the return on our investments.",
+   "ev_start": 11523,
+   "ev_end": 11721,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "AI-enabled tools are now more embedded in workflows across operations, risk, finance, technology, and our client-facing teams.",
+   "ev_start": 11722,
+   "ev_end": 11848,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S042",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full-year"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "On our first quarter earnings call in April, we told you we expected full-year operating leverage of more than 200 basis points.",
+   "ev_start": 11949,
+   "ev_end": 12077,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S043",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "Reservable criticized commercial exposures declined by approximately $2.3 billion from Q1 to roughly $22 billion, driven primarily by CRE improvement.",
+   "ev_start": 12871,
+   "ev_end": 13021,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S044",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "non_performing"
+   ],
+   "home": "non_performing",
+   "fact_ids": [
+    "BAC_2026_2-027"
+   ],
+   "guided": null,
+   "cues": {
+    "product": [
+     "release"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "Non-performing loans remained stable at approximately $5.8 billion, and we recorded a modest reserve release.",
+   "ev_start": 13022,
+   "ev_end": 13131,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S045",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "well-positioned"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "Overall, our portfolio remains well-positioned, supported by strong client fundamentals and disciplined risk management.",
+   "ev_start": 13132,
+   "ev_end": 13252,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S046",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "solid"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "Consumer Banking delivered another strong quarter, combining solid financial performance with continued investment in growth, innovation, and client engagement.",
+   "ev_start": 13313,
+   "ev_end": 13473,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S047",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "We also launched one of our largest consumer marketing campaigns around the FIFA World Cup.",
+   "ev_start": 13613,
+   "ev_end": 13704,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S048",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "product": [
+     "introduced",
+     "new card products",
+     "deployed",
+     "new ai-enabled tools"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.78,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "We expanded our financial center network in new and growth markets, introduced new card products, and deployed new AI-enabled tools designed to enhance both the client and teammate experience.",
+   "ev_start": 13705,
+   "ev_end": 13897,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S049",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 62,
+   "sentence": "All of these investments help to strengthen the franchise and drive organic growth.",
+   "ev_start": 13898,
+   "ev_end": 13981,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S050",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-028",
+    "BAC_2026_2-029",
+    "BAC_2026_2-030",
+    "BAC_2026_2-031"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 10"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "Net income increased 10% year-over-year to approximately $3.3 billion, while revenue rose 5% to $11.3 billion.",
+   "ev_start": 13982,
+   "ev_end": 14092,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S051",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "advantage"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "With regard to client activity, our deposit franchise remains a key competitive advantage.",
+   "ev_start": 14294,
+   "ev_end": 14384,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S052",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "record",
+     "up 9"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "Client engagement was also strong with record checking account balances, 162,000 net new checking accounts, and card spending up 9% year-over-year to $266 billion.",
+   "ev_start": 14480,
+   "ev_end": 14643,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S053",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "up 18"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "We continued to deepen relationships across the enterprise, consumer investment assets reached a record $640 billion, up 18% year-over-year, supported by strong market levels and net client flows.",
+   "ev_start": 14644,
+   "ev_end": 14840,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S054",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "differentiator"
+    ],
+    "competition": [
+     "differentiator"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 69,
+   "sentence": "Digital engagement remains a clear differentiator, with roughly 50 million active digital users, more than 24 million active Erica users, and digital sales representing 70% of total sales.",
+   "ev_start": 14841,
+   "ev_end": 15029,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S055",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "product": [
+     "new ai capabilities"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "New AI capabilities have improved service, increased efficiency, and allowed teammates to focus on higher-value client interactions.",
+   "ev_start": 15030,
+   "ev_end": 15162,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S056",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "Finally, consumers remain resilient as average deposit investment balances and spending all showed linked quarter increases.",
+   "ev_start": 15163,
+   "ev_end": 15287,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S057",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "strength"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "Additionally, consumer credit quality remains strong and in line with expectations, reflecting the strength of our customer base and our disciplined approach to risk management.",
+   "ev_start": 15288,
+   "ev_end": 15465,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "expanded"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "profit",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 74,
+   "sentence": "Turning to slide 14, GWIM delivered another outstanding quarter, highlighted by record revenue and pre-tax income, expanded profit margins, and continued client growth.",
+   "ev_start": 15665,
+   "ev_end": 15833,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S059",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 76,
+   "sentence": "During the quarter, we added another 6,000 net new affluent households to serve, the continued strong growth in banking relationships and lending balances demonstrates the power of our integrated wealth and banking model.",
+   "ev_start": 15918,
+   "ev_end": 16139,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S060",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "product": [
+     "new ai-enabled tools"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 78,
+   "sentence": "Franchise continued to benefit from strong advisor productivity, growing digital engagement, and new AI-enabled tools that help advisors prepare for client conversations, identify opportunities, and deliver more personalized advice at scale.",
+   "ev_start": 16339,
+   "ev_end": 16580,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-034",
+    "BAC_2026_2-035",
+    "BAC_2026_2-036",
+    "BAC_2026_2-037"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "increased 42",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "record"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "Net income for the segment increased 42% year-over-year to $1.4 billion, while revenue grew 16% to a record $6.9 billion, driven by higher asset management fees, strong flows, higher market valuations, and higher NII.",
+   "ev_start": 16581,
+   "ev_end": 16798,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "up 12"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "Client balances reached a record $4.9 trillion, up 12% from a year ago.",
+   "ev_start": 16986,
+   "ev_end": 17057,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 82,
+   "sentence": "Assets under management grew 17% year-over-year to $2.3 trillion, supported by approximately $14 billion of AUM flows this quarter and $78 billion of AUM flows over the past four quarters.",
+   "ev_start": 17058,
+   "ev_end": 17246,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S064",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-038"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "demand"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 83,
+   "sentence": "Loans grew $13 billion or 5% linked quarter to $277 billion, driven by custom and securities-based lending demand.",
+   "ev_start": 17247,
+   "ev_end": 17361,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "forward": [
+     "well-positioned"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 84,
+   "sentence": "Overall, GWIM continued to demonstrate the strength of our advice-led, relationship-based model and remains well-positioned for sustainable growth.",
+   "ev_start": 17362,
+   "ev_end": 17509,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S066",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "healthy",
+     "record"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "record",
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 85,
+   "sentence": "Moving to our commercial and corporate client-facing businesses in Global Banking on slide 15, where Global Banking delivered strong results in the second quarter, reflecting healthy client activity, near-record investment banking performance, strong treasury service revenue, and continued balance sheet growth.",
+   "ev_start": 17510,
+   "ev_end": 17822,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S067",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 86,
+   "sentence": "Client engagement remained broad-based with activity across capital markets, strategic transactions, liquidity management, we continued our program of growth investments, including technology modernization, digital infrastructure, and AI-related initiatives.",
+   "ev_start": 17823,
+   "ev_end": 18081,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 87,
+   "sentence": "We're also using AI-enabled tools to help bankers accelerate their research, prepare materials, and identify relevant client opportunities more efficiently.",
+   "ev_start": 18082,
+   "ev_end": 18238,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-039",
+    "BAC_2026_2-040"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 10",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 88,
+   "sentence": "Revenue increased 10% year-over-year to $6.2 billion, while net income grew 20% to more than $2 billion.",
+   "ev_start": 18239,
+   "ev_end": 18343,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S070",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 89,
+   "sentence": "Investment banking was a particular highlight.",
+   "ev_start": 18344,
+   "ev_end": 18390,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S071",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 90,
+   "sentence": "Total corporate investment banking fees, excluding self-led transactions, increased 50% year-over-year to more than $2.1 billion, reflecting strength across debt underwriting, advisory, and equity underwriting.",
+   "ev_start": 18391,
+   "ev_end": 18601,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [
+    "BAC_2026_2-041",
+    "BAC_2026_2-042",
+    "BAC_2026_2-043",
+    "BAC_2026_2-044"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 7",
+     "increased 8"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 91,
+   "sentence": "Average loans increased 7% to $413 billion, while average deposits increased 8% to $652 billion, demonstrating continued franchise growth and client confidence.",
+   "ev_start": 18602,
+   "ev_end": 18762,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 33"
+    ],
+    "performance": [
+     "sales",
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 95,
+   "sentence": "Sales and trading revenue, excluding DVA, increased 33% to $7.2 billion.",
+   "ev_start": 18997,
+   "ev_end": 19069,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "equities"
+   ],
+   "home": "equities",
+   "fact_ids": [
+    "BAC_2026_2-046"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record",
+     "strong",
+     "up 70"
+    ],
+    "performance": [
+     "record",
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 96,
+   "sentence": "Equities delivered a record $3.6 billion of revenue, up 70%, driven by client financing activity and strong trading performance in derivatives and cash.",
+   "ev_start": 19070,
+   "ev_end": 19222,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 31",
+     "improvement"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 99,
+   "sentence": "Domestically, our revenue in the U.S. increased 31%, while our international business delivered a 38% improvement, with Asia-Pacific as the standout.",
+   "ev_start": 19342,
+   "ev_end": 19491,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S076",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 102,
+   "sentence": "Combined with 16% operating leverage and a 20% return on allocated capital, these results reflect the strength of our client franchise, diversified platform, and disciplined execution.",
+   "ev_start": 19845,
+   "ev_end": 20029,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S077",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 103,
+   "sentence": "Client activity remains strong and the connectivity between markets, Global Banking, and Wealth and Investment Management continues to create value for clients.",
+   "ev_start": 20030,
+   "ev_end": 20190,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S078",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 104,
+   "sentence": "Investments in technology and AI are helping teams deliver insights faster, operate more efficiently, and further strengthen our competitive position.",
+   "ev_start": 20191,
+   "ev_end": 20341,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 105,
+   "sentence": "This was a record quarter built on scale, client engagement, and consistent execution across the franchise.",
+   "ev_start": 20342,
+   "ev_end": 20449,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "BAC_2026_2-048"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 110,
+   "sentence": "We produced double-digit revenue growth and more than $9 billion of net income, with EPS growth of 34% and return on tangible common equity of 17%.",
+   "ev_start": 20777,
+   "ev_end": 20924,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S081",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 111,
+   "sentence": "We also delivered strong operating leverage while continuing to invest in the franchise and supporting our clients.",
+   "ev_start": 20925,
+   "ev_end": 21040,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S082",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 112,
+   "sentence": "Across the company, clients continued to invest, transact, and grow.",
+   "ev_start": 21041,
+   "ev_end": 21109,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 113,
+   "sentence": "Activity remains healthy across lending, payments, investment banking, markets, and wealth management, including technology, digital infrastructure, and AI-related opportunities.",
+   "ev_start": 21110,
+   "ev_end": 21288,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S084",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 114,
+   "sentence": "We also see meaningful opportunities to continue using AI and automation ourselves to improve productivity, strengthen client engagement, and support disciplined growth across the company.",
+   "ev_start": 21289,
+   "ev_end": 21477,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S085",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 115,
+   "sentence": "Taken together, these trends simply reinforce our confidence in the long-term earnings power of the franchise and our ability to deliver responsible growth and attractive returns for shareholders.",
+   "ev_start": 21478,
+   "ev_end": 21674,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S086",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 0,
+   "sentence": "With that, Leo, let's open it up and we'll see what questions we can answer.",
+   "ev_start": 21692,
+   "ev_end": 21768,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 1,
+   "sentence": "We've tried to express our confidence in the momentum of NII.",
+   "ev_start": 22762,
+   "ev_end": 22823,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 8,
+   "sentence": "We're trying to grow clients and operating accounts.",
+   "ev_start": 23097,
+   "ev_end": 23149,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 9,
+   "sentence": "That's the highest quality growth.",
+   "ev_start": 23150,
+   "ev_end": 23184,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S090",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 162,000",
+     "grow",
+     "up 4"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 12,
+   "sentence": "When consumer puts up 162,000 of net new checking accounts, or when we grow non-interest bearing for seven consecutive quarters, that's what helps us to drive the non-interest-bearing up 4%.",
+   "ev_start": 23297,
+   "ev_end": 23487,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S091",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 14,
+   "sentence": "We're competing out there for deposits like everyone else.",
+   "ev_start": 23536,
+   "ev_end": 23594,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S092",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 15,
+   "sentence": "We compete tooth and nail to get deposits where we can.",
+   "ev_start": 23595,
+   "ev_end": 23650,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 17,
+   "sentence": "It's that favorable mix of growing the non-interest bearing that makes a difference.",
+   "ev_start": 23791,
+   "ev_end": 23875,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S094",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "for the full year"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 4,
+   "sentence": "That's what's giving us the confidence for the full year to say it's going to be above the range.",
+   "ev_start": 24526,
+   "ev_end": 24623,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S095",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.16,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 8,
+   "sentence": "We're leading in investment banking and Global Markets around capital raising, financing that massive capital investment and infrastructure build around the world.",
+   "ev_start": 24747,
+   "ev_end": 24910,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S096",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 16,
+   "sentence": "On the right-hand side, here's what's going to come out of that, we believe: growth, efficiency, risk management, and resiliency.",
+   "ev_start": 25425,
+   "ev_end": 25554,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S097",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "use cases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 18,
+   "sentence": "At this point, we have about 300 approved model cases and 114 live generative AI use cases.",
+   "ev_start": 25596,
+   "ev_end": 25687,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S098",
+   "topics": [
+    "pressure",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slower"
+    ],
+    "pressure": [
+     "slower"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 4,
+   "sentence": "Remember, second quarter last year was a slower quarter for investment banking for the industry.",
+   "ev_start": 27193,
+   "ev_end": 27289,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S099",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 50"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 5,
+   "sentence": "If we put up $2.1 billion of investment banking this year, up 50%, if you sustain that relative to what we did in the third quarter of last year, you don't get the same kind of uplift in the second half.",
+   "ev_start": 27290,
+   "ev_end": 27493,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 6,
+   "sentence": "If those are invested at the Fed, we're not capturing a lot of spread.",
+   "ev_start": 28293,
+   "ev_end": 28363,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S101",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraint"
+    ],
+    "pressure": [
+     "constraint"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 0,
+   "sentence": "Just note that there's no constraint on the growth of loans or core deposits.",
+   "ev_start": 28769,
+   "ev_end": 28846,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 1,
+   "sentence": "That all can grow because it's all going to give good returns.",
+   "ev_start": 28847,
+   "ev_end": 28909,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 0,
+   "sentence": "If we look at the middle market, we're growing like commercial loans overall.",
+   "ev_start": 30612,
+   "ev_end": 30689,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S104",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 1,
+   "sentence": "They're growing around 8% or so.",
+   "ev_start": 30690,
+   "ev_end": 30722,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [
+    "BAC_2026_2-049"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 4,
+   "sentence": "Over 9 or 10 quarters, we've been growing loans at about $20 billion per quarter - 7% last year, 8% this year.",
+   "ev_start": 30815,
+   "ev_end": 30925,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 12,
+   "sentence": "Securities-based lending has been positive with market performance and wealth clients' demand.",
+   "ev_start": 31225,
+   "ev_end": 31319,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S107",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 13,
+   "sentence": "We remain constructive on loan growth in the second half.",
+   "ev_start": 31320,
+   "ev_end": 31377,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S108",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 30,
+   "sentence_index": 3,
+   "sentence": "Second, good continued loan growth in the second half, similar to what we've been seeing.",
+   "ev_start": 32174,
+   "ev_end": 32263,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S109",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "invest"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.92,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 6,
+   "sentence": "Our focus on operating leverage - we raised it above the normalized range and we're continuing to invest in places that grow the business, especially around Consumer Banking: financial centers and new markets done on a rational, full market build-out basis.",
+   "ev_start": 33731,
+   "ev_end": 33988,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-time highs"
+    ],
+    "performance": [
+     "all-time"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 7,
+   "sentence": "We continue to drive the marketing capabilities of the firm and our consumer scores have reached all-time highs.",
+   "ev_start": 33989,
+   "ev_end": 34101,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S111",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 8,
+   "sentence": "We invested heavily in our rewards program, which helps cement relationships with a good deposit mix and favorable cost of funds.",
+   "ev_start": 34102,
+   "ev_end": 34231,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "revenue",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 12,
+   "sentence": "If revenue keeps going, we'll be happy because that means revenue has to grow.",
+   "ev_start": 34465,
+   "ev_end": 34543,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S113",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slow"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 32,
+   "sentence_index": 13,
+   "sentence": "If revenue slows down, expense growth will slow down, and it will affect operating leverage as Alastair described.",
+   "ev_start": 34544,
+   "ev_end": 34658,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 3,
+   "sentence": "We have to keep doing what we're doing: grow loans, grow deposits with focus on operating accounts and non-interest-bearing balances.",
+   "ev_start": 35752,
+   "ev_end": 35885,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S115",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 4.16,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 36,
+   "sentence_index": 5,
+   "sentence": "We've invested in Global Markets with their balance sheet; that's a net positive but not a big driver in the second half because markets are at a good run rate right now.",
+   "ev_start": 35951,
+   "ev_end": 36121,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S116",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 3,
+   "sentence": "That has been driven by strong performance across businesses getting good operating leverage, Consumer Banking, Global Banking, and the NII lift as well as markets.",
+   "ev_start": 37088,
+   "ev_end": 37252,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S117",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 7,
+   "sentence": "We feel good about the returns and maintaining those returns.",
+   "ev_start": 37466,
+   "ev_end": 37527,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 9,
+   "sentence": "That's why EPS grew over 34%.",
+   "ev_start": 37649,
+   "ev_end": 37678,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S119",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 10,
+   "sentence": "Whether we accept lower-returning business or not, we always evaluate businesses by return on tangible common equity.",
+   "ev_start": 37679,
+   "ev_end": 37796,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S120",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 38,
+   "sentence_index": 12,
+   "sentence": "We expect to be around our targeted levels and when optimization opportunities exist, businesses must grow the bottom line or reallocate capital accordingly.",
+   "ev_start": 37861,
+   "ev_end": 38018,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S121",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.48,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "sentence_index": 3,
+   "sentence": "The two reasons are: first, NII keeps grinding higher and all of that's dropping to the bottom line; second, terrific fee-based performance - AUM, sales and trading, investment banking - all boosted results.",
+   "ev_start": 38976,
+   "ev_end": 39183,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S122",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "increase"
+   ],
+   "home": "increase",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 0,
+   "sentence": "No. We've largely moved away from giving specific expense guidance because when revenues increase rapidly, some of those revenues come with increased clearing and exchange costs or FA incentives, which makes quarterly expense harder to forecast.",
+   "ev_start": 39513,
+   "ev_end": 39758,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S123",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 2,
+   "sentence": "Core measures like headcount have been well-disciplined - flat to slightly down over the last six quarters.",
+   "ev_start": 39813,
+   "ev_end": 39920,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S124",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "slow"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 4,
+   "sentence": "Expense will be influenced by revenue: if revenue slows, expense growth will slow; if revenue sustains, you'll see the costs to operate the company at that revenue level.",
+   "ev_start": 39961,
+   "ev_end": 40131,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S125",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 2,
+   "sentence": "Loans grew and advisor attrition is near historic lows.",
+   "ev_start": 40839,
+   "ev_end": 40894,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S126",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 5,
+   "sentence": "The AI theme helps because there's substantial capital investment globally.",
+   "ev_start": 40976,
+   "ev_end": 41051,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S127",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 6,
+   "sentence": "Our Global Banking shows growth across business banking, commercial bank and corporate bank; it's very broad-based commercial loan growth, which supports our NII guide for the second half.",
+   "ev_start": 41052,
+   "ev_end": 41240,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S128",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 2,
+   "sentence": "We can maintain that while growing in core middle market areas, small business, and so on.",
+   "ev_start": 41748,
+   "ev_end": 41838,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S129",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "growing"
+   ],
+   "home": "growing",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 3,
+   "sentence": "We feel good about credit quality and underwriting.",
+   "ev_start": 41839,
+   "ev_end": 41890,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S130",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 5,
+   "sentence": "We have seen price pressure in more liquid products like auto loans, and we adjusted pricing where necessary.",
+   "ev_start": 42020,
+   "ev_end": 42129,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S131",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 6,
+   "sentence": "We feel good about it as a powerful force for the economy.",
+   "ev_start": 43522,
+   "ev_end": 43580,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S132",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is going to"
+    ]
+   },
+   "score": 2.36,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 56,
+   "sentence_index": 3,
+   "sentence": "Most of the growth is going to come from the Global Banking books.",
+   "ev_start": 44089,
+   "ev_end": 44155,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S133",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "sentence_index": 0,
+   "sentence": "We still feel good about that 230 number we're aiming for.",
+   "ev_start": 45142,
+   "ev_end": 45200,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S134",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "sentence_index": 4,
+   "sentence": "It's been a conscious choice to invest in markets, and that's been good this quarter.",
+   "ev_start": 45485,
+   "ev_end": 45570,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S135",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "on track to"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Alastair Borthwick",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 60,
+   "sentence_index": 6,
+   "sentence": "At the margin, we'll get net interest yield and we're still confident we're on track to reach 230.",
+   "ev_start": 45642,
+   "ev_end": 45740,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 2,
+   "sentence": "The second thing is to keep in mind that the revenue growth is strong but also very diversified across lots of different businesses and outcomes.",
+   "ev_start": 46037,
+   "ev_end": 46182,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S137",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 3,
+   "sentence": "Third, credit costs have flattened at very strong historical levels, and we continue to feel good about delinquencies and everything that we show improving.",
+   "ev_start": 46183,
+   "ev_end": 46339,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "consumer"
+   ],
+   "home": "consumer",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 5,
+   "sentence": "When you think about the atmosphere we operate in, it's a constructive environment: full pipelines in markets, strong investor demand for debt and equity, commercial lending strengthening and broadening out, and strong consumer spending activity, which shores up the economy.",
+   "ev_start": 46504,
+   "ev_end": 46779,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "BAC_2026_2-S139",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "well-positioned"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Brian Moynihan",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 63,
+   "sentence_index": 6,
+   "sentence": "Our company is well-positioned to be a part of that growth, and we look forward to talking to you next time.",
+   "ev_start": 46780,
+   "ev_end": 46888,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "BAC_2026_2-S008",
+  "BAC_2026_2-S012",
+  "BAC_2026_2-S023",
+  "BAC_2026_2-S024",
+  "BAC_2026_2-S056",
+  "BAC_2026_2-S072",
+  "BAC_2026_2-S017",
+  "BAC_2026_2-S026",
+  "BAC_2026_2-S029",
+  "BAC_2026_2-S030",
+  "BAC_2026_2-S046",
+  "BAC_2026_2-S047",
+  "BAC_2026_2-S048",
+  "BAC_2026_2-S053",
+  "BAC_2026_2-S057",
+  "BAC_2026_2-S091",
+  "BAC_2026_2-S092",
+  "BAC_2026_2-S116",
+  "BAC_2026_2-S034",
+  "BAC_2026_2-S122",
+  "BAC_2026_2-S044",
+  "BAC_2026_2-S074",
+  "BAC_2026_2-S060",
+  "BAC_2026_2-S104",
+  "BAC_2026_2-S105",
+  "BAC_2026_2-S128",
+  "BAC_2026_2-S001",
+  "BAC_2026_2-S003",
+  "BAC_2026_2-S014",
+  "BAC_2026_2-S015",
+  "BAC_2026_2-S036",
+  "BAC_2026_2-S043",
+  "BAC_2026_2-S054",
+  "BAC_2026_2-S065",
+  "BAC_2026_2-S077",
+  "BAC_2026_2-S078",
+  "BAC_2026_2-S080",
+  "BAC_2026_2-S087",
+  "BAC_2026_2-S097",
+  "BAC_2026_2-S098",
+  "BAC_2026_2-S101",
+  "BAC_2026_2-S115",
+  "BAC_2026_2-S120"
+ ],
+ "surfaced_signal_ids": [
+  "BAC_2026_2-S008",
+  "BAC_2026_2-S012",
+  "BAC_2026_2-S023",
+  "BAC_2026_2-S024",
+  "BAC_2026_2-S056",
+  "BAC_2026_2-S072",
+  "BAC_2026_2-S017",
+  "BAC_2026_2-S026",
+  "BAC_2026_2-S029",
+  "BAC_2026_2-S030",
+  "BAC_2026_2-S046",
+  "BAC_2026_2-S047",
+  "BAC_2026_2-S048",
+  "BAC_2026_2-S053",
+  "BAC_2026_2-S057",
+  "BAC_2026_2-S091",
+  "BAC_2026_2-S092",
+  "BAC_2026_2-S116",
+  "BAC_2026_2-S034",
+  "BAC_2026_2-S122",
+  "BAC_2026_2-S044",
+  "BAC_2026_2-S074",
+  "BAC_2026_2-S060",
+  "BAC_2026_2-S104",
+  "BAC_2026_2-S105",
+  "BAC_2026_2-S128",
+  "BAC_2026_2-S001",
+  "BAC_2026_2-S003",
+  "BAC_2026_2-S014",
+  "BAC_2026_2-S015",
+  "BAC_2026_2-S036",
+  "BAC_2026_2-S043",
+  "BAC_2026_2-S054",
+  "BAC_2026_2-S065",
+  "BAC_2026_2-S077",
+  "BAC_2026_2-S078",
+  "BAC_2026_2-S080",
+  "BAC_2026_2-S087",
+  "BAC_2026_2-S097",
+  "BAC_2026_2-S098",
+  "BAC_2026_2-S101",
+  "BAC_2026_2-S115",
+  "BAC_2026_2-S120",
+  "BAC_2026_2-S135",
+  "BAC_2026_2-S094",
+  "BAC_2026_2-S086",
+  "BAC_2026_2-S119"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "an_fte_basis",
+   "average",
+   "consumer",
+   "ending",
+   "average_commercial",
+   "increase",
+   "non_performing",
+   "equities",
+   "growing"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [
+   "ending",
+   "average_commercial"
+  ],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "BAC_2026_2-001",
+   "BAC_2026_2-002",
+   "BAC_2026_2-003",
+   "BAC_2026_2-006",
+   "BAC_2026_2-014",
+   "BAC_2026_2-017",
+   "BAC_2026_2-028",
+   "BAC_2026_2-029",
+   "BAC_2026_2-030",
+   "BAC_2026_2-031",
+   "BAC_2026_2-032",
+   "BAC_2026_2-033",
+   "BAC_2026_2-034",
+   "BAC_2026_2-035",
+   "BAC_2026_2-036",
+   "BAC_2026_2-037",
+   "BAC_2026_2-039",
+   "BAC_2026_2-040",
+   "BAC_2026_2-042",
+   "BAC_2026_2-044",
+   "BAC_2026_2-045",
+   "BAC_2026_2-048"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "warn",
+   "detail": "the ledger flagged conflicting total-company revenue figures ['BAC_2026_2-001', 'BAC_2026_2-002', 'BAC_2026_2-030', 'BAC_2026_2-031', 'BAC_2026_2-036', 'BAC_2026_2-037', 'BAC_2026_2-039', 'BAC_2026_2-040']: a segment figure may be filed as the company total (sentences like 'Revenue was...' inside a segment paragraph). Check the source sentences before quoting total revenue from this call."
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "22 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 139,
+  "signals_usable": 139,
+  "selected": 43,
+  "by_topic": {
+   "product": 12,
+   "momentum": 72,
+   "strategy": 37,
+   "pressure": 4,
+   "competition": 8
+  },
+  "by_horizon": {
+   "current": 118,
+   "forward": 21
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 9,
+  "checks_failed": 0,
+  "checks_warn": 3
+ }
+}

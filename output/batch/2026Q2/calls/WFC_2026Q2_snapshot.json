@@ -1,0 +1,7817 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "WFC",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "WFC",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "John Campbell",
+    "role": "ir"
+   },
+   {
+    "name": "Charles W. Scharf",
+    "role": "management"
+   },
+   {
+    "name": "Michael Santomassimo",
+    "role": "management"
+   },
+   {
+    "name": "Ken Usdin",
+    "role": "analyst"
+   },
+   {
+    "name": "John McDonald",
+    "role": "analyst"
+   },
+   {
+    "name": "Erika Najarian",
+    "role": "analyst"
+   },
+   {
+    "name": "Ebrahim Poonawala",
+    "role": "analyst"
+   },
+   {
+    "name": "Manav Gosalia",
+    "role": "analyst"
+   },
+   {
+    "name": "Matt O'Connor",
+    "role": "analyst"
+   },
+   {
+    "name": "John Pancari",
+    "role": "analyst"
+   },
+   {
+    "name": "Chris McGratty",
+    "role": "analyst"
+   },
+   {
+    "name": "David Chiaverini",
+    "role": "analyst"
+   },
+   {
+    "name": "Vivek Janaeja",
+    "role": "analyst"
+   },
+   {
+    "name": "Gerard Cassidy",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "WFC_2026Q2.json",
+  "vocabulary_packs": [
+   "bank"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "EPS $2.00/sh (+25% yoy)",
+   "fact_ids": [
+    "WFC_2026_2-001"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is steady: guided flat",
+   "fact_ids": []
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.09, qa +0.54",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": {
+    "direction": "flat",
+    "source": "WFC_2026_2-S112",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "ago",
+   "name": "Ago",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 48
+  },
+  {
+   "node": "average",
+   "name": "Average",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "cautious": 1
+   },
+   "n_mentions": 15
+  },
+  {
+   "node": "corporate_and_investment_bank",
+   "name": "Corporate And Investment Bank",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 24.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-015",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 5
+  },
+  {
+   "node": "consumer_small_and_business_banking",
+   "name": "Consumer, Small And Business Banking",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 8.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-031",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "credit_card",
+   "name": "Credit Card",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 2.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-032",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "home_lending",
+   "name": "Home Lending",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -7.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-033",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "third_party_mortgage",
+   "name": "Third-Party Mortgage",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "auto",
+   "name": "Auto",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 33.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-035",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "banking",
+   "name": "Banking",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 20.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-037",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 18
+  },
+  {
+   "node": "commercial_real_estate",
+   "name": "Commercial Real Estate",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": -1.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-038",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "markets",
+   "name": "Markets",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 24.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-039",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "cautious": 2,
+    "confident": 5
+   },
+   "n_mentions": 29
+  },
+  {
+   "node": "wealth_and_investment_management",
+   "name": "Wealth And Investment Management",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 13.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-040",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 4
+  },
+  {
+   "node": "highlighted_average",
+   "name": "Highlighted, Average",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "trading_related",
+   "name": "Trading-Related",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 20.0,
+    "period": "second quarter",
+    "fact_id": "WFC_2026_2-045",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "medium"
+   },
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "WFC_2026_2-001",
+   "WFC_2026_2-007",
+   "WFC_2026_2-008",
+   "WFC_2026_2-030",
+   "WFC_2026_2-019",
+   "WFC_2026_2-024",
+   "WFC_2026_2-026",
+   "WFC_2026_2-003",
+   "WFC_2026_2-009",
+   "WFC_2026_2-025",
+   "WFC_2026_2-027",
+   "WFC_2026_2-044",
+   "WFC_2026_2-021",
+   "WFC_2026_2-041"
+  ],
+  "signal_ids": [
+   "WFC_2026_2-S017",
+   "WFC_2026_2-S023",
+   "WFC_2026_2-S024",
+   "WFC_2026_2-S027",
+   "WFC_2026_2-S047",
+   "WFC_2026_2-S048",
+   "WFC_2026_2-S066",
+   "WFC_2026_2-S072",
+   "WFC_2026_2-S077",
+   "WFC_2026_2-S083",
+   "WFC_2026_2-S085",
+   "WFC_2026_2-S086",
+   "WFC_2026_2-S112",
+   "WFC_2026_2-S128",
+   "WFC_2026_2-S160",
+   "WFC_2026_2-S165",
+   "WFC_2026_2-S178"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "ago",
+   "name": "Ago",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-004"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S006",
+    "WFC_2026_2-S011",
+    "WFC_2026_2-S028",
+    "WFC_2026_2-S062",
+    "WFC_2026_2-S075",
+    "WFC_2026_2-S096",
+    "WFC_2026_2-S143",
+    "WFC_2026_2-S144",
+    "WFC_2026_2-S147"
+   ],
+   "n_home_signals": 21,
+   "n_mentions": 48,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "average",
+   "name": "Average",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-022",
+    "WFC_2026_2-023",
+    "WFC_2026_2-006",
+    "WFC_2026_2-012",
+    "WFC_2026_2-013"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S012",
+    "WFC_2026_2-S013",
+    "WFC_2026_2-S014",
+    "WFC_2026_2-S041",
+    "WFC_2026_2-S042",
+    "WFC_2026_2-S084",
+    "WFC_2026_2-S110",
+    "WFC_2026_2-S115"
+   ],
+   "n_home_signals": 11,
+   "n_mentions": 15,
+   "stance": {
+    "cautious": 1
+   },
+   "trajectory": []
+  },
+  {
+   "id": "corporate_and_investment_bank",
+   "name": "Corporate And Investment Bank",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-015",
+    "WFC_2026_2-016"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S039",
+    "WFC_2026_2-S060",
+    "WFC_2026_2-S079"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 5,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "consumer_small_and_business_banking",
+   "name": "Consumer, Small And Business Banking",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-031"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "credit_card",
+   "name": "Credit Card",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-032"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S021",
+    "WFC_2026_2-S022",
+    "WFC_2026_2-S099"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "home_lending",
+   "name": "Home Lending",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-033"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S100"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "third_party_mortgage",
+   "name": "Third-Party Mortgage",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-034"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S101"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "auto",
+   "name": "Auto",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-035"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S029",
+    "WFC_2026_2-S103",
+    "WFC_2026_2-S175"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "banking",
+   "name": "Banking",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-037"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S044",
+    "WFC_2026_2-S052",
+    "WFC_2026_2-S054",
+    "WFC_2026_2-S088",
+    "WFC_2026_2-S098",
+    "WFC_2026_2-S145"
+   ],
+   "n_home_signals": 16,
+   "n_mentions": 18,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "commercial_real_estate",
+   "name": "Commercial Real Estate",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-038"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S051",
+    "WFC_2026_2-S106"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "markets",
+   "name": "Markets",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-039",
+    "WFC_2026_2-043"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S018",
+    "WFC_2026_2-S043",
+    "WFC_2026_2-S050",
+    "WFC_2026_2-S055",
+    "WFC_2026_2-S067",
+    "WFC_2026_2-S068",
+    "WFC_2026_2-S069",
+    "WFC_2026_2-S078",
+    "WFC_2026_2-S081",
+    "WFC_2026_2-S107",
+    "WFC_2026_2-S119",
+    "WFC_2026_2-S142",
+    "WFC_2026_2-S152"
+   ],
+   "n_home_signals": 26,
+   "n_mentions": 29,
+   "stance": {
+    "cautious": 2,
+    "confident": 5
+   },
+   "trajectory": []
+  },
+  {
+   "id": "wealth_and_investment_management",
+   "name": "Wealth And Investment Management",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-040"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S032",
+    "WFC_2026_2-S033",
+    "WFC_2026_2-S111"
+   ],
+   "n_home_signals": 4,
+   "n_mentions": 4,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "highlighted_average",
+   "name": "Highlighted, Average",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-042"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S114"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "trading_related",
+   "name": "Trading-Related",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "WFC_2026_2-045"
+   ],
+   "signal_ids": [
+    "WFC_2026_2-S146"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": null,
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "WFC_2026_2-S112",
+    "direction_word": "flat",
+    "text": "Turning to our 2026 outlook on Slide 17: we are maintaining our guidance of $50 billion plus or minus of net interest income for the full year, and similar to last year, we expect stronger growth in the second half of the year compared to the first half.",
+    "confidence": "medium"
+   },
+   "direction": "flat",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger; no reported growth figure for this segment"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 6,
+    "cautious": 5,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.09
+   },
+   "qa": {
+    "confident": 10,
+    "cautious": 3,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.54
+   }
+  },
+  "speakers": {
+   "Charles W. Scharf": {
+    "cautious": 5,
+    "confident": 11
+   },
+   "Michael Santomassimo": {
+    "confident": 5,
+    "cautious": 3
+   }
+  },
+  "notable_confident": [
+   "WFC_2026_2-S069",
+   "WFC_2026_2-S153",
+   "WFC_2026_2-S024",
+   "WFC_2026_2-S173"
+  ],
+  "notable_cautious": [
+   "WFC_2026_2-S132",
+   "WFC_2026_2-S165",
+   "WFC_2026_2-S067",
+   "WFC_2026_2-S018",
+   "WFC_2026_2-S013"
+  ],
+  "withheld": [],
+  "revisions": [
+   "WFC_2026_2-S112",
+   "WFC_2026_2-S113",
+   "WFC_2026_2-S117",
+   "WFC_2026_2-S119",
+   "WFC_2026_2-S158"
+  ]
+ },
+ "signals": [
+  {
+   "id": "WFC_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "I am going to provide some comments about our results and the momentum we are seeing across our business.",
+   "ev_start": 1583,
+   "ev_end": 1688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [
+    "WFC_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "up 25"
+    ],
+    "performance": [
+     "grew",
+     "earnings"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "We grew diluted earnings per share to $2.00 in the second quarter, up 25% from a year ago.",
+   "ev_start": 1927,
+   "ev_end": 2017,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [
+    "WFC_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 6,
+   "sentence": "Revenue grew 9% from a year ago.",
+   "ev_start": 2018,
+   "ev_end": 2050,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S004",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "strong",
+     "momentum",
+     "improved"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "We are clearly benefiting from the economic strength we see in the U.S., and the investments we are making and our improved operating discipline drove strong momentum and continued to result in improved performance.",
+   "ev_start": 2177,
+   "ev_end": 2392,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [
+    "WFC_2026_2-003",
+    "WFC_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "growing"
+    ],
+    "performance": [
+     "grew",
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "Net interest income grew 5% from a year ago, and noninterest income grew 13% as we are making good progress against our goal to create a more balanced revenue mix by growing fee-based revenues.",
+   "ev_start": 2393,
+   "ev_end": 2586,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S006",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Expenses increased 2% from a year ago, reflecting investments we are making offset by continued expense discipline.",
+   "ev_start": 2587,
+   "ev_end": 2702,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "revenue",
+     "declined"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Expenses, excluding revenue-related compensation, declined.",
+   "ev_start": 2703,
+   "ev_end": 2762,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "down 79,000"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "One of the ways you can clearly see the results of our efficiency initiatives is through headcount, which has declined for 24 consecutive quarters, and in the second quarter our headcount was 197,000, down 79,000 from six years ago, 15,000 from last year, and 3,500 from last quarter.",
+   "ev_start": 2763,
+   "ev_end": 3047,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S009",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments",
+     "investment"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We are using these efficiencies to offset broad-based investments across the company to drive growth, including adding branch bankers, investment advisers, commercial banking relationship managers, investment bankers, and traders.",
+   "ev_start": 3048,
+   "ev_end": 3278,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S010",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "strategy": [
+     "investments",
+     "investing"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "We are also increasing our marketing investments, accelerating product development, investing in AI, and increasing our cyber defenses.",
+   "ev_start": 3279,
+   "ev_end": 3414,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "Consumer and commercial credit quality remains strong across all portfolios, and net loan charge-offs declined 10 basis points from a year ago.",
+   "ev_start": 3415,
+   "ev_end": 3558,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S012",
+   "topics": [
+    "momentum",
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [
+    "WFC_2026_2-005",
+    "WFC_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "up 12",
+     "up 10"
+    ],
+    "competition": [
+     "competitors"
+    ],
+    "performance": [
+     "grow",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "After years of not being on a level playing field with our competitors because we could not grow our balance sheet, we had strong growth during the first half of this year, including in the second quarter, with average loans up 12% and average deposits up 10% from a year ago.",
+   "ev_start": 3559,
+   "ev_end": 3835,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S013",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "product": [
+     "deploying"
+    ],
+    "performance": [
+     "growth",
+     "grow"
+    ],
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "Just a reminder: growth can be risky and we are carefully deploying capital to grow and support our clients by taking risks that we think are prudent through economic cycles, not just the strong environment we see today.",
+   "ev_start": 3836,
+   "ev_end": 4056,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S014",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "dividend"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "As we previously announced, we expect to increase our third quarter common stock dividend by 11% to $0.50 per share, subject to approval by our Board of Directors at its meeting later this month.",
+   "ev_start": 4265,
+   "ev_end": 4460,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": []
+   },
+   "score": 3.22,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Our continued focus on improving returns was evident with RoTCE increasing from 15.2% a year ago to 17.7% in the second quarter and 16.1% in the first half of 2026.",
+   "ev_start": 4461,
+   "ev_end": 4625,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S016",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "While outsized venture capital equity gains favorably affected our returns this quarter, we have said that they can be lumpy, but that we do expect strong returns from these investments over time.",
+   "ev_start": 4626,
+   "ev_end": 4822,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "WFC_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "More importantly, the growth and efficiency improvements that we have seen over the past several years are now broader-based, and it is these trends that give us confidence in reaching our goal of a sustainable RoTCE of 17% to 18%.",
+   "ev_start": 4823,
+   "ev_end": 5054,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S018",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "performance": [],
+    "hedge": [
+     "hard to predict"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "We are often asked about the timing of achieving this goal, and I know you all understand that interest rates, markets, and credit impact us and are hard to predict, making it difficult to give a definitive answer.",
+   "ev_start": 5055,
+   "ev_end": 5269,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S019",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "But assuming favorable conditions continue to exist, we remain confident that our favorable trends will allow us to achieve this goal in a reasonable time frame and then reset the bar higher for the future.",
+   "ev_start": 5270,
+   "ev_end": 5476,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S020",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "After years of little to no growth in checking accounts, our investments in marketing and digital account openings are paying off, and we have grown consumer primary checking accounts year over year for 13 consecutive quarters.",
+   "ev_start": 5649,
+   "ev_end": 5876,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "credit_card",
+    "ago"
+   ],
+   "home": "credit_card",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved",
+     "increasing 46"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Over the past five years, we have enhanced our credit card products and improved the customer experience, which has driven new account and balance growth, including new accounts increasing 46% in the second quarter from a year ago.",
+   "ev_start": 6083,
+   "ev_end": 6314,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S022",
+   "topics": [
+    "product",
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "credit_card"
+   ],
+   "home": "credit_card",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressures"
+    ],
+    "product": [
+     "new products"
+    ],
+    "pressure": [
+     "pressures"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "profitability"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "Building a larger credit card business is an investment that pressures profitability in the initial years, with new products having significant upfront costs related to marketing, promotional rates, onboarding, and allowance.",
+   "ev_start": 6315,
+   "ev_end": 6540,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S023",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated",
+     "positive"
+    ],
+    "performance": [
+     "accelerated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "Our 2025 and 2026 vintages are bigger, as account openings have accelerated, so they offset some of the positive contribution from the earlier vintages.",
+   "ev_start": 6708,
+   "ev_end": 6860,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S024",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "we should see"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "profitability"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "Importantly, we have seen strong performance versus our original assumptions regarding new account acquisition and credit performance, which gives us confidence that we should see profitability and returns increase.",
+   "ev_start": 6861,
+   "ev_end": 7076,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S025",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 37,
+   "sentence": "We evaluate this each quarter and will continue to do so.",
+   "ev_start": 7319,
+   "ev_end": 7376,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "The momentum in our digital offerings continued, with mobile active users increasing to 33.7 million in the second quarter - that is 1.6 million more than a year ago.",
+   "ev_start": 7377,
+   "ev_end": 7543,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S027",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "Investments we have been making to improve the customer experience were reflected in the 2026 J.D.",
+   "ev_start": 7544,
+   "ev_end": 7642,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S028",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 13"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "We have been hiring licensed bankers and branch-based financial advisers, and that investment is helping to drive better results, with premier client assets up 13% from a year ago.",
+   "ev_start": 7775,
+   "ev_end": 7955,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "auto"
+   ],
+   "home": "auto",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "improve"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "Our auto business returned to growth last year after intentionally scaling back to improve our capabilities, and the momentum has continued.",
+   "ev_start": 7956,
+   "ev_end": 8096,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S030",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago",
+    "average"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 41",
+     "up 31"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 44,
+   "sentence": "Originations increased 41% from a year ago, and average balances were up 31%, in part due to becoming the preferred financing provider for Volkswagen and Audi vehicles in the U.S.",
+   "ev_start": 8097,
+   "ev_end": 8276,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S031",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wealth_and_investment_management",
+    "ago"
+   ],
+   "home": "wealth_and_investment_management",
+   "fact_ids": [
+    "WFC_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "Turning to wealth and investment management: revenue grew 13% from a year ago.",
+   "ev_start": 8364,
+   "ev_end": 8442,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S032",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wealth_and_investment_management",
+    "ago"
+   ],
+   "home": "wealth_and_investment_management",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "Wealth and Investment Management client assets grew 15% from a year ago to over $2.4 trillion, driven by increased market valuations and also benefiting from four consecutive quarters of positive net flows.",
+   "ev_start": 8443,
+   "ev_end": 8649,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S033",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wealth_and_investment_management"
+   ],
+   "home": "wealth_and_investment_management",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "grow"
+    ],
+    "product": [
+     "launched"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 48,
+   "sentence": "We have invested over $1 billion over the past several years to modernize the technology platform, and in the second quarter we launched Advisor Gateway, a new desktop technology with GenAI capabilities that gives advisers better tools to serve clients and grow their practices.",
+   "ev_start": 8650,
+   "ev_end": 8928,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S034",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving",
+     "improved"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 49,
+   "sentence": "Investments like this are improving productivity, strengthening the client experience, and driving improved adviser hiring and retention.",
+   "ev_start": 8929,
+   "ev_end": 9066,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [
+    "WFC_2026_2-012",
+    "WFC_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "expanding",
+     "up 10",
+     "up 12"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "We are also working to be our clients' primary bank by expanding our deposit and lending capabilities and are seeing strong results with average deposits up 10% and average loans up 12% from a year ago.",
+   "ev_start": 9067,
+   "ev_end": 9269,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S036",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 31"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "Securities-based lending has been a key driver of loan growth, with average balances up 31% from a year ago, reflecting our success in increasing the number of financial advisers offering this product to their clients.",
+   "ev_start": 9270,
+   "ev_end": 9488,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S037",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "Importantly, the opportunity in this business to grow investments and banking remains significant.",
+   "ev_start": 9489,
+   "ev_end": 9587,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S038",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "customers",
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "We estimate that our existing customers hold trillions in assets at other financial institutions and their lending, deposit, and payment needs are large and growing.",
+   "ev_start": 9588,
+   "ev_end": 9753,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S039",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "corporate_and_investment_bank",
+    "ago"
+   ],
+   "home": "corporate_and_investment_bank",
+   "fact_ids": [
+    "WFC_2026_2-014"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 4.97,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "Turning to our commercial businesses, starting with the Corporate and Investment Bank: revenue grew 16% from a year ago.",
+   "ev_start": 9754,
+   "ev_end": 9874,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets",
+    "ago",
+    "corporate_and_investment_bank"
+   ],
+   "home": "markets",
+   "fact_ids": [
+    "WFC_2026_2-015"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "In our markets business, revenue grew 24% from a year ago.",
+   "ev_start": 9875,
+   "ev_end": 9933,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S041",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "trading_related",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing",
+     "increasing 41"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 56,
+   "sentence": "We have been growing our balance sheet to support our clients with average trading-related assets increasing 41% from a year ago, driven primarily by financing-related activity.",
+   "ev_start": 9934,
+   "ev_end": 10111,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S042",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "share gains"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "We track this by client and we are seeing higher trading revenue and wallet share gains from customers we are providing financing to.",
+   "ev_start": 10288,
+   "ev_end": 10421,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S043",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets",
+    "banking"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are expected"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.97,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "While the most immediate revenue benefits are expected within markets, including trading, hedging and risk management products, these deeper client relationships also enhance opportunities across the broader Corporate and Investment Banking platform over time.",
+   "ev_start": 10422,
+   "ev_end": 10682,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "corporate_and_investment_bank"
+   ],
+   "home": "banking",
+   "fact_ids": [
+    "WFC_2026_2-016"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "In our banking business, revenue grew 20% as our focus on providing a broader set of capital and advisory solutions is working.",
+   "ev_start": 10683,
+   "ev_end": 10810,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S045",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 61,
+   "sentence": "This was a record quarter for investment banking teams across the firm.",
+   "ev_start": 10811,
+   "ev_end": 10882,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S046",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 62,
+   "sentence": "Our willingness to invest more in senior talent and in technology, and to dedicate more balance sheet to these activities is paying off.",
+   "ev_start": 10883,
+   "ev_end": 11019,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S047",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "strong"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "strategy": [
+     "m&a",
+     "investments"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 65,
+   "sentence": "The favorable environment for M&A financing is helping drive higher revenues across the industry, but our investments are also delivering strong results and we are increasing market share in key areas.",
+   "ev_start": 11284,
+   "ev_end": 11485,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S048",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "market share"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "In leveraged finance, our year-to-date market share is 7.2%, and we ranked number three.",
+   "ev_start": 11486,
+   "ev_end": 11574,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S049",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets",
+    "ago"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 74"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 67,
+   "sentence": "In equity capital markets, our shares increased 74 basis points from a year ago to 3.8%.",
+   "ev_start": 11575,
+   "ev_end": 11663,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S050",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 4.72,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 68,
+   "sentence": "In M&A, we have climbed from number nine to number four among U.S. advisers by announced deal volume, reflecting our active role in advising our clients on franchise-defining transactions.",
+   "ev_start": 11664,
+   "ev_end": 11852,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S051",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_real_estate",
+    "markets"
+   ],
+   "home": "commercial_real_estate",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "We also have strong share in commercial real estate capital markets, including being the number one non-agency CMBS bookrunner, number one in real estate loan syndications, and number one in CRE CLOs.",
+   "ev_start": 11853,
+   "ev_end": 12053,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S052",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "grow"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.97,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "This was a strong quarter across Corporate and Investment Banking, and we still have significant opportunity to grow each of the businesses.",
+   "ev_start": 12054,
+   "ev_end": 12194,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S053",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "The investments we have been making in the business over the past couple of years are driving strong results.",
+   "ev_start": 12292,
+   "ev_end": 12401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "average",
+    "ago"
+   ],
+   "home": "banking",
+   "fact_ids": [
+    "WFC_2026_2-017"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "Absent the transfers of loans and deposits to consumer banking and lending last year, average loans grew 9% and average deposits grew 10% from a year ago.",
+   "ev_start": 12402,
+   "ev_end": 12556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S055",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 74,
+   "sentence": "Our investments include targeted hiring in 20 high-density markets where we are underpenetrated relative to the rest of the country.",
+   "ev_start": 12557,
+   "ev_end": 12689,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "The plan is working, as we are seeing incremental client growth and higher loan and deposit balances and we expect this momentum to continue as we execute on our plan.",
+   "ev_start": 12690,
+   "ev_end": 12857,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "markets"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 76,
+   "sentence": "We have also focused on delivering investment banking and markets products for commercial banking clients.",
+   "ev_start": 12858,
+   "ev_end": 12964,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S058",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 77,
+   "sentence": "We have had success, which has helped drive revenue growth, but we still see significant opportunities to grow revenue here.",
+   "ev_start": 12965,
+   "ev_end": 13089,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "While commercial banking is one of our more mature businesses, we still have significant opportunities to grow.",
+   "ev_start": 13090,
+   "ev_end": 13201,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S060",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "corporate_and_investment_bank"
+   ],
+   "home": "corporate_and_investment_bank",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "embedded"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 4.47,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Our treasury management and payments revenues are embedded in our commercial bank and Corporate and Investment Bank results.",
+   "ev_start": 13202,
+   "ev_end": 13326,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [
+    "WFC_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 5"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "Across both segments, revenue was up 5% from a year ago.",
+   "ev_start": 13327,
+   "ev_end": 13383,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S062",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovate"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "We have been investing in coverage teams and payment platforms that are beginning to innovate using blockchain technology to create better payment solutions for our commercial customers.",
+   "ev_start": 13384,
+   "ev_end": 13570,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S063",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "Consumer spending is higher, charge-offs are lower, and savings and investments are growing across customer segments.",
+   "ev_start": 13843,
+   "ev_end": 13960,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S064",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "hedge": [
+     "cautious"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "Businesses are cautious, but balance sheets and cash flows remain strong, resulting in strong credit performance.",
+   "ev_start": 13961,
+   "ev_end": 14074,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "all-time highs"
+    ],
+    "performance": [
+     "all-time"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "Equity indices are at or near all-time highs, and credit spreads are narrow.",
+   "ev_start": 14075,
+   "ev_end": 14151,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S066",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 87,
+   "sentence": "Concerns around affordability and inflation exist, but the labor market and wage growth remain strong.",
+   "ev_start": 14152,
+   "ev_end": 14254,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S067",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "performance": [],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "The markets and U.S. economy have absorbed macroeconomic and geopolitical uncertainty well.",
+   "ev_start": 14255,
+   "ev_end": 14346,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S068",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 89,
+   "sentence": "Strong environments like this do not last forever, and we see large amounts of capital being deployed by both banks and nonbanks across a broad range of risk assets.",
+   "ev_start": 14347,
+   "ev_end": 14512,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S069",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ],
+    "confident": [
+     "proud",
+     "excited"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 91,
+   "sentence": "We are proud of the progress we have made and remain excited about our competitive position and ability to execute and drive toward our goal of industry leadership in the U.S.",
+   "ev_start": 14610,
+   "ev_end": 14785,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S070",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 92,
+   "sentence": "We will watch carefully for signs of outsized risks and stress and continue to deploy our resources carefully and deliberately to serve our clients and build sustainable, high returns and higher growth that can endure inevitable market shocks and economic cycles.",
+   "ev_start": 14786,
+   "ev_end": 15049,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 94,
+   "sentence": "Our metrics clearly show our momentum across all business segments, and we will continue to remain focused on driving toward higher sustainable returns.",
+   "ev_start": 15272,
+   "ev_end": 15424,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S072",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "improved"
+    ],
+    "forward": [
+     "i will"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "Since Charlie covered the drivers of our improved financial results and the momentum we are seeing across our businesses that we highlighted in the first two slides, I will start my comments on Slide 4.",
+   "ev_start": 15535,
+   "ev_end": 15737,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S073",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Our second quarter results were strong with broad-based revenue growth, disciplined expense management, and improved credit performance.",
+   "ev_start": 15738,
+   "ev_end": 15874,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 17",
+     "grew",
+     "up 25"
+    ],
+    "performance": [
+     "earnings",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Our earnings increased 17% from a year ago to $4.1 billion and our diluted earnings per share grew to $2.00, up 25% from a year ago.",
+   "ev_start": 15875,
+   "ev_end": 16007,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [
+    "WFC_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 2"
+    ],
+    "performance": []
+   },
+   "score": 3.92,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Turning to Slide 6: net interest income increased $690 million, or 5% from a year ago, and increased 2% from the first quarter.",
+   "ev_start": 16154,
+   "ev_end": 16281,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S076",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "The growth from the first quarter was driven by higher loan and investment securities balances as well as one additional day in the quarter.",
+   "ev_start": 16282,
+   "ev_end": 16422,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "decline"
+    ],
+    "performance": [
+     "margin",
+     "declined",
+     "decline"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "As expected, the net interest margin declined four basis points from the first quarter and down from the 13-basis-point decline we had last quarter.",
+   "ev_start": 16423,
+   "ev_end": 16571,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline",
+     "growth"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "The biggest driver of the decline in NIM in the second quarter and over the past year has been growth in interest-bearing deposits as well as continued growth in our markets business.",
+   "ev_start": 16572,
+   "ev_end": 16755,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S079",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "corporate_and_investment_bank"
+   ],
+   "home": "corporate_and_investment_bank",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "future"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 4.47,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "The success we are having growing interest-bearing deposits deepens our relationships with clients in the commercial bank and the Corporate and Investment Bank and gives us the opportunity to attract noninterest-bearing deposits in the future.",
+   "ev_start": 16756,
+   "ev_end": 16999,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S080",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "profitability",
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 10,
+   "sentence": "As Charles mentioned, while financing balances in the markets business are lower spread, they have good returns and profitability and position us to grow other activities with those clients.",
+   "ev_start": 17000,
+   "ev_end": 17190,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S081",
+   "topics": [
+    "momentum",
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets",
+    "ago"
+   ],
+   "home": "markets",
+   "fact_ids": [
+    "WFC_2026_2-020"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "competition": [
+     "market share"
+    ],
+    "performance": [
+     "revenue",
+     "growing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 11,
+   "sentence": "We see it in our results, including total revenue in the markets business growing 24% from a year ago as well as returns starting to increase along with our market share.",
+   "ev_start": 17191,
+   "ev_end": 17361,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "I would also note that even with the NIM compression, we grew net interest income versus last year and last quarter.",
+   "ev_start": 17362,
+   "ev_end": 17478,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "WFC_2026_2-021"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "we will",
+     "expect"
+    ],
+    "performance": [
+     "margin",
+     "decline"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "While we will talk more about our expectations for net interest income later on the call, we expect modest net interest margin compression in the third quarter, broadly in line with the second quarter's decline from the first quarter, before stabilizing in the fourth quarter.",
+   "ev_start": 17479,
+   "ev_end": 17755,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [
+    "WFC_2026_2-023"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "with growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 15,
+   "sentence": "Turning to deposits: average deposits increased $134 billion, or 10% from a year ago, with growth across our consumer and commercial businesses as well as higher corporate deposits.",
+   "ev_start": 17977,
+   "ev_end": 18158,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "WFC_2026_2-025"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "with growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 18,
+   "sentence": "We generated over $10 billion in noninterest income in the quarter with growth across most fee categories.",
+   "ev_start": 18430,
+   "ev_end": 18536,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S086",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 19,
+   "sentence": "We had strong performance from our venture capital investments, with $847 million in both unrealized and realized net equity gains, or $640 million after noncontrolling interest.",
+   "ev_start": 18537,
+   "ev_end": 18715,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S087",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "ago"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 21,
+   "sentence": "We also had double-digit growth in investment advisory fees, brokerage commissions, and investment banking fees from a year ago.",
+   "ev_start": 18802,
+   "ev_end": 18930,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S088",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 22,
+   "sentence": "We had over $900 million in investment banking fees in the second quarter, a new record.",
+   "ev_start": 18931,
+   "ev_end": 19019,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S089",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "We also have higher technology and advertising costs driven by the investments we are making in our businesses to generate growth.",
+   "ev_start": 19428,
+   "ev_end": 19558,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S090",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "We are pleased to see the continued execution of our efficiency initiatives quarter after quarter.",
+   "ev_start": 19698,
+   "ev_end": 19796,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S091",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "This is the 24th consecutive quarter of headcount reductions and along with other meaningful efficiency initiatives we have been able to continue to invest in our businesses while managing overall expense levels.",
+   "ev_start": 19797,
+   "ev_end": 20009,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S092",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago",
+    "average"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "down 10"
+    ],
+    "performance": []
+   },
+   "score": 3.42,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "Turning to credit quality on Slide 10: our credit performance in the second quarter remained strong with our net loan charge-off ratio down 10 basis points from a year ago to 34 basis points of average loans.",
+   "ev_start": 20107,
+   "ev_end": 20315,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S093",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "performance": [
+     "declining"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Commercial credit continued to be strong with net loan charge-offs declining to 10 basis points.",
+   "ev_start": 20316,
+   "ev_end": 20412,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "performance": [
+     "declining"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Consumer performance was also strong with loan charge-offs declining 74 basis points, with improvements across the portfolio from the first quarter and continued net recoveries in the residential mortgage portfolio.",
+   "ev_start": 20413,
+   "ev_end": 20628,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S095",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Nonperforming assets as a percentage of total loans declined from the first quarter and from a year ago with improvements in both commercial and consumer portfolios.",
+   "ev_start": 20629,
+   "ev_end": 20794,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S096",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [
+    "WFC_2026_2-030"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "strategy": [
+     "repurchased"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "We repurchased $3 billion of common stock in the second quarter, and common shares outstanding declined 6% from a year ago.",
+   "ev_start": 21419,
+   "ev_end": 21542,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S097",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchase"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "We continue to have capacity to repurchase shares while also supporting our clients.",
+   "ev_start": 21543,
+   "ev_end": 21627,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S098",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "consumer_small_and_business_banking",
+    "ago"
+   ],
+   "home": "banking",
+   "fact_ids": [
+    "WFC_2026_2-031"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 8"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 40,
+   "sentence": "Moving to our operating segments, starting with consumer banking and lending on Slide 12: Consumer, Small and Business banking revenue increased 8% from a year ago driven by higher deposit and loan balances, wider deposit spreads, and growth in noninterest income.",
+   "ev_start": 21628,
+   "ev_end": 21892,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S099",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "credit_card",
+    "ago"
+   ],
+   "home": "credit_card",
+   "fact_ids": [
+    "WFC_2026_2-032"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Credit card revenue grew 2% from a year ago due to higher loan balances.",
+   "ev_start": 21893,
+   "ev_end": 21965,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S100",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "home_lending",
+    "ago"
+   ],
+   "home": "home_lending",
+   "fact_ids": [
+    "WFC_2026_2-033"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined",
+     "reduction",
+     "slow"
+    ],
+    "performance": [
+     "revenue",
+     "declined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "Home lending revenue declined 7% from a year ago, reflecting lower home loan balances; however, the rate of reduction has continued to slow, with balances relatively stable from the first quarter.",
+   "ev_start": 21966,
+   "ev_end": 22162,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S101",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "third_party_mortgage",
+    "ago"
+   ],
+   "home": "third_party_mortgage",
+   "fact_ids": [
+    "WFC_2026_2-034"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduction",
+     "down 21"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "Lower revenue also reflected a continued reduction in the size of our servicing business with third-party mortgage loans serviced for others down 21% from a year ago.",
+   "ev_start": 22163,
+   "ev_end": 22329,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S102",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "auto",
+    "ago"
+   ],
+   "home": "auto",
+   "fact_ids": [
+    "WFC_2026_2-035"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 33"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "Auto revenue increased 33% from a year ago due to higher loan balances.",
+   "ev_start": 22330,
+   "ev_end": 22401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "auto"
+   ],
+   "home": "auto",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 41"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "Auto originations increased 41% year over year but were stable from the first quarter.",
+   "ev_start": 22402,
+   "ev_end": 22488,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S104",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "ago"
+   ],
+   "home": "banking",
+   "fact_ids": [
+    "WFC_2026_2-036"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 6"
+    ],
+    "strategy": [
+     "investments",
+     "investment"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "Turning to commercial banking results on Slide 13: revenue increased 6% from a year ago driven by noninterest income growth from equity investments, revenue from the financing we do for renewable energy projects that come in the form of tax credits, and investment banking as well as growth in net interest income from higher loan and interest-bearing deposit balances.",
+   "ev_start": 22489,
+   "ev_end": 22858,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S105",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking",
+    "ago",
+    "markets"
+   ],
+   "home": "banking",
+   "fact_ids": [
+    "WFC_2026_2-037"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "Turning to corporate investment banking on Slide 14: banking revenue increased 20% from a year ago with growth in investment banking fees and equity and debt capital markets, as well as higher loan and interest-bearing deposit balances.",
+   "ev_start": 22947,
+   "ev_end": 23183,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_real_estate",
+    "ago"
+   ],
+   "home": "commercial_real_estate",
+   "fact_ids": [
+    "WFC_2026_2-038"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "revenue",
+     "declined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "Commercial real estate revenue declined 1% from a year ago as higher capital market activity and loan balances were more than offset by the impact of lower interest rates.",
+   "ev_start": 23184,
+   "ev_end": 23355,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S107",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets",
+    "ago"
+   ],
+   "home": "markets",
+   "fact_ids": [
+    "WFC_2026_2-039"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 50,
+   "sentence": "Markets revenue grew 24% from a year ago driven by stronger performance in equities and higher revenue across most fixed income products, including the impact of balance sheet growth.",
+   "ev_start": 23356,
+   "ev_end": 23539,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S108",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "As you know, we have been growing our balance sheet in the markets business.",
+   "ev_start": 23540,
+   "ev_end": 23616,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S109",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "We track this on a granular basis and we will continue to optimize with clients to drive growth and returns.",
+   "ev_start": 23915,
+   "ev_end": 24023,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S110",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "banking",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew",
+     "with growth"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 4.47,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "Average loans in Corporate and Investment Banking grew 26% from a year ago with growth across all businesses, while utilization rates were relatively stable.",
+   "ev_start": 24024,
+   "ev_end": 24181,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S111",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "wealth_and_investment_management",
+    "ago"
+   ],
+   "home": "wealth_and_investment_management",
+   "fact_ids": [
+    "WFC_2026_2-040"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 13"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "revenue",
+     "growth"
+    ]
+   },
+   "score": 3.92,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 56,
+   "sentence": "On Slide 15, wealth and investment management revenue increased 13% from a year ago driven by growth in investment advisory fees from increased market valuations as well as higher net income due to lower deposit pricing and higher deposit and loan balances.",
+   "ev_start": 24182,
+   "ev_end": 24439,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S112",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "outlook",
+     "guidance",
+     "for the full year",
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 5.92,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "Turning to our 2026 outlook on Slide 17: we are maintaining our guidance of $50 billion plus or minus of net interest income for the full year, and similar to last year, we expect stronger growth in the second half of the year compared to the first half.",
+   "ev_start": 24653,
+   "ev_end": 24907,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S113",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [
+    "WFC_2026_2-041"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "for the full year"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "We still expect net interest income, excluding markets, to be approximately $48 billion for the full year.",
+   "ev_start": 24908,
+   "ev_end": 25014,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "highlighted_average",
+    "average",
+    "ago"
+   ],
+   "home": "highlighted_average",
+   "fact_ids": [
+    "WFC_2026_2-042"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Looking at the key drivers, starting with loans: as I highlighted, average loans in the second quarter grew 12% from a year ago.",
+   "ev_start": 25015,
+   "ev_end": 25143,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S115",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": {
+    "node": "average",
+    "metric": "revenue",
+    "descriptor": "mid-single-digit",
+    "band": [
+     4.0,
+     6.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "mid-single-digit"
+    ],
+    "forward": [
+     "outlook"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "So year over year, average loan growth in the fourth quarter will likely be higher than the mid-single-digit increase we assumed in our outlook back in January.",
+   "ev_start": 25144,
+   "ev_end": 25304,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S116",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "We have also successfully grown interest-bearing deposits, which is a good thing since these higher balances help us deepen relationships with our customers, and as I mentioned earlier, it gives us the opportunity to attract noninterest-bearing deposits in the future.",
+   "ev_start": 25357,
+   "ev_end": 25625,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S117",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "We had originally assumed some growth in noninterest-bearing deposits, but we now expect them to be relatively stable, which is a negative to our original expectation.",
+   "ev_start": 25626,
+   "ev_end": 25793,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S118",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "outlook"
+    ]
+   },
+   "score": 1.32,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 66,
+   "sentence": "While interest rates have been higher than we expected in our original outlook, which benefits NII excluding markets, the rate cuts we had originally assumed were expected later in the year, so the change is only a modest impact on this year's net interest income expectations.",
+   "ev_start": 25872,
+   "ev_end": 26149,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S119",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [
+    "WFC_2026_2-043"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "Higher short-term rates typically result in lower markets NII, but as of now we still expect markets NII to be approximately $2 billion in 2026.",
+   "ev_start": 26222,
+   "ev_end": 26366,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S120",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half",
+     "expect"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "As we look at the second half of the year, we expect revenue-related expenses to be somewhat higher than we expected at the beginning of the year, but we expect expenses in other areas to be lower through our continued focus on efficiency initiatives.",
+   "ev_start": 26741,
+   "ev_end": 26992,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S121",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "In summary, we had strong second quarter results that clearly demonstrate that the strategy we have been implementing to drive growth is working.",
+   "ev_start": 26993,
+   "ev_end": 27138,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S122",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "average",
+    "ago"
+   ],
+   "home": "average",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 76,
+   "sentence": "The asset cap came off last year, and we had double-digit growth in both average loans and deposits from a year ago.",
+   "ev_start": 27368,
+   "ev_end": 27484,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 79,
+   "sentence": "As Charlie highlighted, we are seeing strong momentum in key business drivers in every one of our businesses.",
+   "ev_start": 27690,
+   "ev_end": 27799,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S124",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 80,
+   "sentence": "The steady improvements in our returns continue to give us confidence in achieving our medium-term 17% to 18% RoTCE target.",
+   "ev_start": 27800,
+   "ev_end": 27923,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S125",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 3,
+   "sentence": "But we expect to see some growth in loans and securities.",
+   "ev_start": 29077,
+   "ev_end": 29134,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S126",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "confident": [
+     "feel very good about"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "sentence_index": 6,
+   "sentence": "It is not a bad assumption relative to what to expect, and we still feel very good about getting to that $50 billion in total.",
+   "ev_start": 29237,
+   "ev_end": 29363,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S127",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 1,
+   "sentence": "We do not expect the markets balance sheet to grow at the same pace, so the impact that we have seen over the last few quarters moderates.",
+   "ev_start": 29764,
+   "ev_end": 29902,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S128",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 4,
+   "sentence": "At this point, we expect just a small decline potentially in the third quarter, and then we stabilize from there.",
+   "ev_start": 30112,
+   "ev_end": 30225,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S129",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 1,
+   "sentence": "We expected a little bit more growth in noninterest-bearing deposits than we are seeing; we did see some growth from the first to second quarter, but expect them to be pretty stable from here.",
+   "ev_start": 32189,
+   "ev_end": 32381,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S130",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 2,
+   "sentence": "We are seeing success in growing interest-bearing deposits and other business such as payments and treasury management, and those things will bring noninterest-bearing deposits over time, but it takes a bit longer for onboarding and to see results.",
+   "ev_start": 32382,
+   "ev_end": 32630,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S131",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 3,
+   "sentence": "We are not seeing pricing pressure or client behavior driving the change.",
+   "ev_start": 32631,
+   "ev_end": 32704,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S132",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half",
+     "we will",
+     "full-year"
+    ],
+    "hedge": [
+     "we will see",
+     "plays out"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "On the second half, the market is pricing in a little over a one-quarter percent increase at this point; we will see how that plays out, but it will have very little impact on full-year results given timing.",
+   "ev_start": 33659,
+   "ev_end": 33866,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S133",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 2,
+   "sentence": "On deposits, we are seeing the pace of interest-bearing deposits grow at a good clip, particularly in the CIB and commercial bank where the majority of those deposits are interest-bearing.",
+   "ev_start": 33867,
+   "ev_end": 34055,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S134",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "Since they are growing faster and consumer noninterest-bearing deposits are stable, deposit cost will inch up a bit in the second half.",
+   "ev_start": 34056,
+   "ev_end": 34191,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive",
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "profitable"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 4,
+   "sentence": "That is fine and expected and actually positive because we are growing profitable balances across the business.",
+   "ev_start": 34192,
+   "ev_end": 34303,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "profitable",
+     "growth"
+    ]
+   },
+   "score": 2.64,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "Keep in mind our focus is growing NII over the long term by generating profitable business and relationships; you may see some volatility in NIM over quarters given the asset cap coming off and the pace of growth since then.",
+   "ev_start": 34411,
+   "ev_end": 34635,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S137",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "expanding"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.32,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 1,
+   "sentence": "Separate out the balance sheet into a couple of components: the core business that generates the majority of NII, which is very stable, and the businesses we are looking to grow, such as the markets business and expanding treasury management relationships.",
+   "ev_start": 34687,
+   "ev_end": 34943,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S138",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "In those newer or expanding businesses you are seeing growth in interest-bearing liabilities, which lower the NIM.",
+   "ev_start": 34944,
+   "ev_end": 35058,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S139",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "We are looking at these moves in terms of short-term profit growth and returns, and we feel good about that.",
+   "ev_start": 35059,
+   "ev_end": 35167,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S140",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 4,
+   "sentence": "Over time that should help us grow NII as we attract more noninterest-bearing deposits and generate stronger trading revenues.",
+   "ev_start": 35168,
+   "ev_end": 35294,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S141",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 0,
+   "sentence": "On the investment banking pipeline, it is quite strong and consistently supportive for a while now.",
+   "ev_start": 36046,
+   "ev_end": 36145,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S142",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.72,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 1,
+   "sentence": "The environment is supportive of deals; markets are wide open on equity and debt side, and M&A activity is active.",
+   "ev_start": 36146,
+   "ev_end": 36260,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S143",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantage"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "Our investments over the last three to four years have positioned us to take more advantage of this environment than we could several years ago, and we continue to make targeted investments in coverage sectors and product areas.",
+   "ev_start": 36261,
+   "ev_end": 36489,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S144",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 3,
+   "sentence": "Regarding the broader prime question, there is great competition and very large players in prime, but clients want more options and counterparties.",
+   "ev_start": 36490,
+   "ev_end": 36637,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S145",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 6,
+   "sentence": "We are very early in growing our prime business; there is nothing material in this quarter relative to that, but it is an opportunity we will pursue carefully alongside other trading flow and investment banking opportunities.",
+   "ev_start": 36817,
+   "ev_end": 37042,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S146",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "trading_related"
+   ],
+   "home": "trading_related",
+   "fact_ids": [
+    "WFC_2026_2-045"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased over 20"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 4,
+   "sentence": "Financing is up substantially year over year, and trading-related revenue increased over 20% off the back of that.",
+   "ev_start": 38127,
+   "ev_end": 38241,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S147",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 5,
+   "sentence": "When we examine individual clients where we are deploying incremental financing balance sheet, almost all of them have done significantly more business with us than a year ago.",
+   "ev_start": 38242,
+   "ev_end": 38418,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S148",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "ago"
+   ],
+   "home": "ago",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 24,
+   "sentence_index": 7,
+   "sentence": "We feel good about the trajectory.",
+   "ev_start": 38489,
+   "ev_end": 38523,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S149",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "we believe",
+     "future"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "profit",
+     "growth"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 2,
+   "sentence": "We are making these investments because we believe they will lead to stronger NIM in some businesses in the future by attracting noninterest-bearing deposits or additional trading, which should drive profit growth and higher returns.",
+   "ev_start": 38678,
+   "ev_end": 38911,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S150",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "share gains"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 4,
+   "sentence": "Right now our early indicators show we are getting paid for it - financing is yielding higher trading revenues and wallet share gains - and that gives us confidence.",
+   "ev_start": 38974,
+   "ev_end": 39139,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S151",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 1,
+   "sentence": "It is difficult to give a definitive date because we are subject to changes in interest rates, market, and credit conditions.",
+   "ev_start": 39632,
+   "ev_end": 39757,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S152",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": []
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 2,
+   "sentence": "But assuming markets remain favorable, we expect to achieve the target in a reasonable time frame.",
+   "ev_start": 39758,
+   "ev_end": 39856,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S153",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence",
+     "comfortable"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 3,
+   "sentence": "Our confidence in reaching the target has increased based on last quarter's and this quarter's underlying performance, which is why we are comfortable saying we intend to achieve the target and then raise the bar higher.",
+   "ev_start": 39857,
+   "ev_end": 40077,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S154",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 27,
+   "sentence_index": 4,
+   "sentence": "We are not giving a specific timeline because external factors can change, but our confidence is higher, not lower, as each quarter goes by.",
+   "ev_start": 40078,
+   "ev_end": 40218,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S155",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 2,
+   "sentence": "We have seen higher loan growth than we assumed at the beginning of the year, which is positive.",
+   "ev_start": 41089,
+   "ev_end": 41185,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S156",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 3,
+   "sentence": "You also see tariff refunds and other factors affecting some commercial clients, but overall demand has been strong and credit performance remains very good across portfolios, supporting continued execution and growth.",
+   "ev_start": 41186,
+   "ev_end": 41404,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S157",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "WFC_2026_2-046"
+   ],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 33,
+   "sentence_index": 0,
+   "sentence": "We are comfortable in the 10% to 10.5% CET1 range anywhere in that range.",
+   "ev_start": 41649,
+   "ev_end": 41722,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S158",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": "maintained",
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "we will"
+    ],
+    "hedge": [
+     "we will see"
+    ],
+    "revision": [
+     "maintained"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 35,
+   "sentence_index": 1,
+   "sentence": "As a reminder, we still expect RWAs to go down as a result of the proposal by about 7%, but we will see how the final rule reads.",
+   "ev_start": 42373,
+   "ev_end": 42502,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S159",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 0,
+   "sentence": "We have intentionally grown accounts, and a good part of the new accounts have come through our branch network or direct digital channels, which lowers acquisition cost compared to third-party channels and results in higher quality accounts.",
+   "ev_start": 43364,
+   "ev_end": 43605,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S160",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "introductory"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 2,
+   "sentence": "While newer vintages are bigger, over the next couple years you will see the profitability and returns of the card business increase as vintages mature and we transition from introductory APRs and promotional pricing into revolving balances.",
+   "ev_start": 43666,
+   "ev_end": 43907,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S161",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisitions"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 3,
+   "sentence": "Yield will move around quarter to quarter depending on acquisitions, but over the longer period you will see yields and returns increase.",
+   "ev_start": 43908,
+   "ev_end": 44045,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S162",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 2,
+   "sentence": "On pricing competition, it has not changed over the last few quarters.",
+   "ev_start": 44620,
+   "ev_end": 44690,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S163",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 44,
+   "sentence_index": 4,
+   "sentence": "On the commercial side, rates are always competitive, but we have not seen more competitive behavior than expected and we are careful not to overpay to attract deposits.",
+   "ev_start": 44791,
+   "ev_end": 44960,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S164",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 3,
+   "sentence": "That supports a good second half with respect to delinquencies and charge-offs, supported by strong employment and wage growth.",
+   "ev_start": 46239,
+   "ev_end": 46366,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S165",
+   "topics": [
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weakness"
+    ],
+    "pressure": [
+     "weakness"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "weakness"
+    ],
+    "hedge": [
+     "cautious"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 50,
+   "sentence_index": 6,
+   "sentence": "Companies remain cautious about large investments and generally have more liquidity than pre-COVID, so we are not seeing widespread weakness.",
+   "ev_start": 46540,
+   "ev_end": 46681,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S166",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 54,
+   "sentence_index": 3,
+   "sentence": "You will see more natural growth over the next couple quarters and then we will decide the pace based on opportunity sets and client activity.",
+   "ev_start": 47364,
+   "ev_end": 47506,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S167",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "markets"
+   ],
+   "home": "markets",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "performance": []
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 0,
+   "sentence": "As a reminder, when we had to live with the asset cap, we reduced the balance sheet in markets more significantly than any other area because we did not want to limit things like consumer loans.",
+   "ev_start": 47527,
+   "ev_end": 47721,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S168",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 1,
+   "sentence": "Much of what you see is a return of balance sheet that was originally there and you will see a more normal pace of growth going forward.",
+   "ev_start": 47722,
+   "ev_end": 47858,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S169",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 58,
+   "sentence_index": 0,
+   "sentence": "Getting good advisers and teams is always competitive.",
+   "ev_start": 48123,
+   "ev_end": 48177,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S170",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 58,
+   "sentence_index": 1,
+   "sentence": "We are disciplined and do not overpay to recruit advisers, and we have not changed our compensation approach in a while.",
+   "ev_start": 48178,
+   "ev_end": 48298,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S171",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 58,
+   "sentence_index": 4,
+   "sentence": "Attrition is at a record low for us.",
+   "ev_start": 48485,
+   "ev_end": 48521,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S172",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "banking"
+   ],
+   "home": "banking",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 58,
+   "sentence_index": 5,
+   "sentence": "The advisers we attract bring investment business and also banking needs - deposits and lending - which rounds out profitability on the platform.",
+   "ev_start": 48522,
+   "ev_end": 48667,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S173",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 62,
+   "sentence_index": 3,
+   "sentence": "There is no change in guidance and we are very confident.",
+   "ev_start": 49301,
+   "ev_end": 49358,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S174",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "pressure": [
+     "tariff"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 0,
+   "sentence": "The period-end number is driven by many factors: seasonality, tariff-related refund paydowns, and other items.",
+   "ev_start": 49545,
+   "ev_end": 49655,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S175",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "auto",
+    "home_lending"
+   ],
+   "home": "auto",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 2,
+   "sentence": "On the consumer side we expect more growth in auto and card and stability in home lending.",
+   "ev_start": 49724,
+   "ev_end": 49814,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S176",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "second half"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Santomassimo",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 64,
+   "sentence_index": 3,
+   "sentence": "We expect some commercial portfolio growth in the second half of the year.",
+   "ev_start": 49815,
+   "ev_end": 49889,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S177",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitors"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 68,
+   "sentence_index": 0,
+   "sentence": "On the consumer side, not really - underwriting appears consistent among competitors.",
+   "ev_start": 50425,
+   "ev_end": 50510,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S178",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deployment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 68,
+   "sentence_index": 1,
+   "sentence": "On the wholesale side, the story is different: there is significant capital deployment by banks and nonbanks across a wide range of risk assets.",
+   "ev_start": 50511,
+   "ev_end": 50655,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S179",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 68,
+   "sentence_index": 3,
+   "sentence": "We are staying true to our risk tolerances while growing the franchise.",
+   "ev_start": 50709,
+   "ev_end": 50780,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S180",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 68,
+   "sentence_index": 5,
+   "sentence": "We do what we are comfortable with and underwrite within our credit standards.",
+   "ev_start": 50953,
+   "ev_end": 51031,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "WFC_2026_2-S181",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Charles W. Scharf",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 72,
+   "sentence_index": 4,
+   "sentence": "We are staying within lanes we understand and are confident in how we underwrite these opportunities.",
+   "ev_start": 52343,
+   "ev_end": 52444,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "WFC_2026_2-S006",
+  "WFC_2026_2-S011",
+  "WFC_2026_2-S028",
+  "WFC_2026_2-S062",
+  "WFC_2026_2-S075",
+  "WFC_2026_2-S096",
+  "WFC_2026_2-S143",
+  "WFC_2026_2-S144",
+  "WFC_2026_2-S147",
+  "WFC_2026_2-S012",
+  "WFC_2026_2-S013",
+  "WFC_2026_2-S014",
+  "WFC_2026_2-S041",
+  "WFC_2026_2-S042",
+  "WFC_2026_2-S084",
+  "WFC_2026_2-S110",
+  "WFC_2026_2-S115",
+  "WFC_2026_2-S039",
+  "WFC_2026_2-S060",
+  "WFC_2026_2-S079",
+  "WFC_2026_2-S021",
+  "WFC_2026_2-S022",
+  "WFC_2026_2-S099",
+  "WFC_2026_2-S100",
+  "WFC_2026_2-S101",
+  "WFC_2026_2-S029",
+  "WFC_2026_2-S103",
+  "WFC_2026_2-S175",
+  "WFC_2026_2-S044",
+  "WFC_2026_2-S052",
+  "WFC_2026_2-S054",
+  "WFC_2026_2-S088",
+  "WFC_2026_2-S098",
+  "WFC_2026_2-S145",
+  "WFC_2026_2-S051",
+  "WFC_2026_2-S106",
+  "WFC_2026_2-S018",
+  "WFC_2026_2-S043",
+  "WFC_2026_2-S050",
+  "WFC_2026_2-S055",
+  "WFC_2026_2-S067",
+  "WFC_2026_2-S068",
+  "WFC_2026_2-S069",
+  "WFC_2026_2-S078",
+  "WFC_2026_2-S081",
+  "WFC_2026_2-S107",
+  "WFC_2026_2-S119",
+  "WFC_2026_2-S142",
+  "WFC_2026_2-S152",
+  "WFC_2026_2-S032",
+  "WFC_2026_2-S033",
+  "WFC_2026_2-S111",
+  "WFC_2026_2-S114",
+  "WFC_2026_2-S146",
+  "WFC_2026_2-S017",
+  "WFC_2026_2-S023",
+  "WFC_2026_2-S024",
+  "WFC_2026_2-S027",
+  "WFC_2026_2-S047",
+  "WFC_2026_2-S048",
+  "WFC_2026_2-S066",
+  "WFC_2026_2-S072",
+  "WFC_2026_2-S077",
+  "WFC_2026_2-S083",
+  "WFC_2026_2-S085",
+  "WFC_2026_2-S086",
+  "WFC_2026_2-S112",
+  "WFC_2026_2-S128",
+  "WFC_2026_2-S160",
+  "WFC_2026_2-S165",
+  "WFC_2026_2-S178"
+ ],
+ "surfaced_signal_ids": [
+  "WFC_2026_2-S006",
+  "WFC_2026_2-S011",
+  "WFC_2026_2-S028",
+  "WFC_2026_2-S062",
+  "WFC_2026_2-S075",
+  "WFC_2026_2-S096",
+  "WFC_2026_2-S143",
+  "WFC_2026_2-S144",
+  "WFC_2026_2-S147",
+  "WFC_2026_2-S012",
+  "WFC_2026_2-S013",
+  "WFC_2026_2-S014",
+  "WFC_2026_2-S041",
+  "WFC_2026_2-S042",
+  "WFC_2026_2-S084",
+  "WFC_2026_2-S110",
+  "WFC_2026_2-S115",
+  "WFC_2026_2-S039",
+  "WFC_2026_2-S060",
+  "WFC_2026_2-S079",
+  "WFC_2026_2-S021",
+  "WFC_2026_2-S022",
+  "WFC_2026_2-S099",
+  "WFC_2026_2-S100",
+  "WFC_2026_2-S101",
+  "WFC_2026_2-S029",
+  "WFC_2026_2-S103",
+  "WFC_2026_2-S175",
+  "WFC_2026_2-S044",
+  "WFC_2026_2-S052",
+  "WFC_2026_2-S054",
+  "WFC_2026_2-S088",
+  "WFC_2026_2-S098",
+  "WFC_2026_2-S145",
+  "WFC_2026_2-S051",
+  "WFC_2026_2-S106",
+  "WFC_2026_2-S018",
+  "WFC_2026_2-S043",
+  "WFC_2026_2-S050",
+  "WFC_2026_2-S055",
+  "WFC_2026_2-S067",
+  "WFC_2026_2-S068",
+  "WFC_2026_2-S069",
+  "WFC_2026_2-S078",
+  "WFC_2026_2-S081",
+  "WFC_2026_2-S107",
+  "WFC_2026_2-S119",
+  "WFC_2026_2-S142",
+  "WFC_2026_2-S152",
+  "WFC_2026_2-S032",
+  "WFC_2026_2-S033",
+  "WFC_2026_2-S111",
+  "WFC_2026_2-S114",
+  "WFC_2026_2-S146",
+  "WFC_2026_2-S017",
+  "WFC_2026_2-S023",
+  "WFC_2026_2-S024",
+  "WFC_2026_2-S027",
+  "WFC_2026_2-S047",
+  "WFC_2026_2-S048",
+  "WFC_2026_2-S066",
+  "WFC_2026_2-S072",
+  "WFC_2026_2-S077",
+  "WFC_2026_2-S083",
+  "WFC_2026_2-S085",
+  "WFC_2026_2-S086",
+  "WFC_2026_2-S112",
+  "WFC_2026_2-S128",
+  "WFC_2026_2-S160",
+  "WFC_2026_2-S165",
+  "WFC_2026_2-S178",
+  "WFC_2026_2-S153",
+  "WFC_2026_2-S173",
+  "WFC_2026_2-S132",
+  "WFC_2026_2-S113",
+  "WFC_2026_2-S117",
+  "WFC_2026_2-S158"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "ago",
+   "average",
+   "corporate_and_investment_bank",
+   "consumer_small_and_business_banking",
+   "credit_card",
+   "home_lending",
+   "third_party_mortgage",
+   "auto",
+   "banking",
+   "commercial_real_estate",
+   "markets",
+   "wealth_and_investment_management",
+   "highlighted_average",
+   "trading_related"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "WFC_2026_2-002",
+   "WFC_2026_2-005",
+   "WFC_2026_2-010",
+   "WFC_2026_2-011",
+   "WFC_2026_2-014",
+   "WFC_2026_2-017",
+   "WFC_2026_2-018",
+   "WFC_2026_2-020",
+   "WFC_2026_2-028",
+   "WFC_2026_2-029",
+   "WFC_2026_2-036",
+   "WFC_2026_2-046"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "warn",
+   "detail": "the ledger flagged conflicting total-company revenue figures ['WFC_2026_2-002', 'WFC_2026_2-011', 'WFC_2026_2-014', 'WFC_2026_2-018', 'WFC_2026_2-020', 'WFC_2026_2-036']: a segment figure may be filed as the company total (sentences like 'Revenue was...' inside a segment paragraph). Check the source sentences before quoting total revenue from this call."
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "12 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 181,
+  "signals_usable": 181,
+  "selected": 71,
+  "by_topic": {
+   "momentum": 105,
+   "strategy": 53,
+   "competition": 13,
+   "product": 12,
+   "pressure": 8
+  },
+  "by_horizon": {
+   "current": 144,
+   "forward": 37
+  },
+  "trajectory_rows": 1,
+  "blocks_with_content": 14,
+  "checks_failed": 0,
+  "checks_warn": 3
+ }
+}

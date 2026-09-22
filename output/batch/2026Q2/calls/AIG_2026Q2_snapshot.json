@@ -1,0 +1,5059 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "AIG",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "AIG",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 5,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Quentin McMillan",
+    "role": "ir"
+   },
+   {
+    "name": "Eric Andersen",
+    "role": "management"
+   },
+   {
+    "name": "Keith Walsh",
+    "role": "management"
+   },
+   {
+    "name": "Alex Scott",
+    "role": "analyst"
+   },
+   {
+    "name": "Meyer Shields",
+    "role": "analyst"
+   },
+   {
+    "name": "Brian Meredith",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Zaremski",
+    "role": "analyst"
+   },
+   {
+    "name": "Jon Hancock",
+    "role": "management"
+   },
+   {
+    "name": "Rowland Mayor",
+    "role": "analyst"
+   },
+   {
+    "name": "Pablo Singzon",
+    "role": "analyst"
+   },
+   {
+    "name": "Elyse Greenspan",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "AIG_2026Q2.json",
+  "vocabulary_packs": [
+   "insurance"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.27, qa +0.33",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "commercial_insurance",
+   "name": "Commercial Insurance",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  },
+  {
+   "node": "north_america_commercial",
+   "name": "North America Commercial",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "international_commercial",
+   "name": "International Commercial",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  },
+  {
+   "node": "general_insurance",
+   "name": "General Insurance",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 6
+  },
+  {
+   "node": "personal",
+   "name": "Personal",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 1
+   },
+   "n_mentions": 7
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "AIG_2026_2-013",
+   "AIG_2026_2-009",
+   "AIG_2026_2-011",
+   "AIG_2026_2-010",
+   "AIG_2026_2-023",
+   "AIG_2026_2-027",
+   "AIG_2026_2-035",
+   "AIG_2026_2-036",
+   "AIG_2026_2-016",
+   "AIG_2026_2-024",
+   "AIG_2026_2-038",
+   "AIG_2026_2-014",
+   "AIG_2026_2-015",
+   "AIG_2026_2-039",
+   "AIG_2026_2-040",
+   "AIG_2026_2-021",
+   "AIG_2026_2-019",
+   "AIG_2026_2-012"
+  ],
+  "signal_ids": [
+   "AIG_2026_2-S012",
+   "AIG_2026_2-S015",
+   "AIG_2026_2-S016",
+   "AIG_2026_2-S018",
+   "AIG_2026_2-S023",
+   "AIG_2026_2-S027",
+   "AIG_2026_2-S031",
+   "AIG_2026_2-S034",
+   "AIG_2026_2-S038",
+   "AIG_2026_2-S053",
+   "AIG_2026_2-S066",
+   "AIG_2026_2-S074",
+   "AIG_2026_2-S076",
+   "AIG_2026_2-S082",
+   "AIG_2026_2-S083",
+   "AIG_2026_2-S093",
+   "AIG_2026_2-S121"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "commercial_insurance",
+   "name": "Commercial Insurance",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AIG_2026_2-005"
+   ],
+   "signal_ids": [
+    "AIG_2026_2-S005"
+   ],
+   "n_home_signals": 1,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "north_america_commercial",
+   "name": "North America Commercial",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AIG_2026_2-006"
+   ],
+   "signal_ids": [
+    "AIG_2026_2-S065",
+    "AIG_2026_2-S073"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "international_commercial",
+   "name": "International Commercial",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [],
+   "signal_ids": [
+    "AIG_2026_2-S007",
+    "AIG_2026_2-S075",
+    "AIG_2026_2-S077"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "general_insurance",
+   "name": "General Insurance",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AIG_2026_2-017",
+    "AIG_2026_2-018"
+   ],
+   "signal_ids": [
+    "AIG_2026_2-S045",
+    "AIG_2026_2-S054",
+    "AIG_2026_2-S055",
+    "AIG_2026_2-S062",
+    "AIG_2026_2-S079"
+   ],
+   "n_home_signals": 6,
+   "n_mentions": 6,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "personal",
+   "name": "Personal",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "AIG_2026_2-033"
+   ],
+   "signal_ids": [
+    "AIG_2026_2-S004",
+    "AIG_2026_2-S008",
+    "AIG_2026_2-S100",
+    "AIG_2026_2-S111",
+    "AIG_2026_2-S112",
+    "AIG_2026_2-S113",
+    "AIG_2026_2-S119"
+   ],
+   "n_home_signals": 7,
+   "n_mentions": 7,
+   "stance": {
+    "confident": 1
+   },
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 7,
+    "cautious": 4,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.27
+   },
+   "qa": {
+    "confident": 8,
+    "cautious": 4,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.33
+   }
+  },
+  "speakers": {
+   "Eric Andersen": {
+    "confident": 9,
+    "cautious": 6
+   },
+   "Keith Walsh": {
+    "confident": 6,
+    "cautious": 1
+   },
+   "Jon Hancock": {
+    "cautious": 1
+   }
+  },
+  "notable_confident": [
+   "AIG_2026_2-S051",
+   "AIG_2026_2-S127",
+   "AIG_2026_2-S124",
+   "AIG_2026_2-S119"
+  ],
+  "notable_cautious": [
+   "AIG_2026_2-S110",
+   "AIG_2026_2-S013",
+   "AIG_2026_2-S027",
+   "AIG_2026_2-S034",
+   "AIG_2026_2-S096"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "AIG_2026_2-S001",
+   "topics": [],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.46,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "I'm pleased to share our strong second quarter results and the meaningful progress we are making across AIG.",
+   "ev_start": 1462,
+   "ev_end": 1570,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S002",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Following my remarks, Keith Walsh will provide more detail on our financial performance, and Jon Hancock will join us for Q&A. Now let me review a few financial highlights.",
+   "ev_start": 1929,
+   "ev_end": 2101,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S003",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "Our performance reflects the benefits of our diversified portfolio, continued momentum from organic growth and our strategic transactions and disciplined execution by our talented team.",
+   "ev_start": 2225,
+   "ev_end": 2410,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S004",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [
+    "AIG_2026_2-003",
+    "AIG_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 9",
+     "reflecting organic growth"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "Net premiums written increased 9%, or 11% excluding North American Property, reflecting organic growth in select high-performing segments of our Global Commercial portfolio, growth in Global Personal driven by our Accident & Health and high net worth businesses, and contributions from our recent strategic transactions, which are providing meaningful growth in line with our expectations.",
+   "ev_start": 2929,
+   "ev_end": 3318,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "commercial_insurance"
+   ],
+   "home": "commercial_insurance",
+   "fact_ids": [
+    "AIG_2026_2-005"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 9"
+    ],
+    "performance": []
+   },
+   "score": 4.31,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Global Commercial Insurance net premiums written increased 9% year-over-year.",
+   "ev_start": 3319,
+   "ev_end": 3396,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "north_america_commercial"
+   ],
+   "home": "north_america_commercial",
+   "fact_ids": [
+    "AIG_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 9"
+    ],
+    "performance": []
+   },
+   "score": 4.25,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "North America Commercial net premiums written increased 9% year-over-year.",
+   "ev_start": 3397,
+   "ev_end": 3471,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S007",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international_commercial"
+   ],
+   "home": "international_commercial",
+   "fact_ids": [
+    "AIG_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 10"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 17,
+   "sentence": "International Commercial net premiums written increased 10%, driven by growth in Property and Marine, partially offset by Financial Lines, where we continue to be targeted and disciplined in our underwriting.",
+   "ev_start": 3770,
+   "ev_end": 3978,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S008",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": []
+   },
+   "score": 3.46,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 19,
+   "sentence": "Our team made outstanding progress improving the performance of our Global Personal Insurance business.",
+   "ev_start": 4127,
+   "ev_end": 4230,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S009",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "robust",
+     "increased 8"
+    ],
+    "performance": [
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "Net premiums written increased 8% in the quarter, driven by momentum in Accident & Health, reflecting our team's ongoing focus on building a robust pipeline that has resulted in several notable new client wins as well as continued organic growth in our high net worth business.",
+   "ev_start": 4231,
+   "ev_end": 4508,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S010",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-009",
+    "AIG_2026_2-010",
+    "AIG_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchases",
+     "dividends"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Finally, we returned $904 million in capital to our shareholders in the second quarter, inclusive of $641 million in share repurchases and $263 million in dividends.",
+   "ev_start": 4509,
+   "ev_end": 4674,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "profitability",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 24,
+   "sentence": "I would characterize the market as transitioning from an extended phase of broad positive pricing into a more selective environment, where profitability and growth are increasingly dependent on line-specific dynamics.",
+   "ev_start": 4808,
+   "ev_end": 5025,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S012",
+   "topics": [
+    "competition",
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 6.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "While this influx of capacity has created competitive pricing pressure in certain lines like property, we believe it has also created opportunities.",
+   "ev_start": 5211,
+   "ev_end": 5359,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S013",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "advantages"
+    ],
+    "hedge": [
+     "play out"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 30,
+   "sentence": "We are seeing this play out in property, where our expertise and the diversity of our global property portfolio are important advantages.",
+   "ev_start": 5777,
+   "ev_end": 5914,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S014",
+   "topics": [
+    "competition",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenging",
+     "pressure"
+    ],
+    "competition": [
+     "competition"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 31,
+   "sentence": "Last quarter, we detailed the challenging dynamics in the North American property market, particularly in E&S, where pricing has continued to be under pressure, fueled by excess capacity and competition.",
+   "ev_start": 5915,
+   "ev_end": 6118,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S015",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best",
+     "growing"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "pressure": [
+     "pressure"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "Given the ongoing rate pressure, we have intentionally continued to contract our Lexington property portfolio in targeted areas while selectively growing the parts of the property portfolio we believe will deliver the best risk-adjusted returns.",
+   "ev_start": 6119,
+   "ev_end": 6364,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.27,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 36,
+   "sentence": "The pricing environment, combined with our deliberate actions, have reduced overall growth in North America by over 3 percentage points.",
+   "ev_start": 6752,
+   "ev_end": 6888,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S017",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "While the environment remains competitive, we continue to find targeted opportunities for growth, including through our Everest renewal rights transaction.",
+   "ev_start": 7000,
+   "ev_end": 7155,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declining"
+    ],
+    "performance": [
+     "declining"
+    ]
+   },
+   "score": 3.99,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 39,
+   "sentence": "In International Property, rates are declining at a more moderate pace than in North America.",
+   "ev_start": 7156,
+   "ev_end": 7249,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S019",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 3.27,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 45,
+   "sentence": "In North America Excess Casualty, we are achieving mid-teen pricing increases, and we have been disciplined on attachment points, terms and conditions, limits and risk selection.",
+   "ev_start": 7807,
+   "ev_end": 7985,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S020",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competition",
+     "competitive",
+     "differentiated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "While there is increasing competition and pricing is beginning to become more competitive in some areas, we continue to see select opportunities for profitable growth, supported by our underwriting and claims expertise as well as our differentiated multinational capabilities.",
+   "ev_start": 8140,
+   "ev_end": 8416,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 9"
+    ],
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "decrease"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 50,
+   "sentence": "For example, our political violence pricing increased 9% in the second quarter compared to a decrease of 8% in the first quarter.",
+   "ev_start": 8804,
+   "ev_end": 8933,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "In summary, across our global and diverse portfolio, we continue to deploy capital selectively where pricing, margin and risk quality are within our appetite and deliver targeted risk-adjusted returns.",
+   "ev_start": 9053,
+   "ev_end": 9254,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S023",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "competition": [
+     "competitive",
+     "advantages"
+    ],
+    "performance": [
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 53,
+   "sentence": "Now I'd like to expand on AIG's unique competitive advantages and how we intend to convert these strengths into sustained earnings growth and long-term value creation.",
+   "ev_start": 9255,
+   "ev_end": 9422,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S024",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "compete"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "We also have one of the most recognized brands in the industry, which helps us compete in markets around the world.",
+   "ev_start": 9598,
+   "ev_end": 9713,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 57,
+   "sentence": "Our durable foundation enables us to expand the ways in which we access business, deploy capital and provide value to clients and distribution partners to become even more relevant in the market.",
+   "ev_start": 9788,
+   "ev_end": 9983,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S026",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner",
+     "deploying",
+     "innovative"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 58,
+   "sentence": "At the core of our strategy is a significant opportunity to become an essential partner to our clients by connecting our businesses more effectively across AIG and deploying capital in innovative ways to drive long-term value.",
+   "ev_start": 9984,
+   "ev_end": 10210,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S027",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "product": [
+     "deploying"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "growth",
+     "profitable"
+    ],
+    "hedge": [
+     "prudently"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 59,
+   "sentence": "Our growth plan is built around five strategic priorities: delivering exceptional underwriting performance and deploying capital towards opportunities with the strongest risk-adjusted returns; using our balance sheet and reinsurance program efficiently to support profitable growth while prudently managing volatility; expanding our AI capabilities to improve decision-making, quality and productivity; maintaining expense discipline; and investing in our team and talent to strengthen execution, connectivity and our ability to bring the full capability of AIG to our clients.",
+   "ev_start": 10211,
+   "ev_end": 10788,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S028",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovative"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "Across every line of business, we look at risk at the individual level, the portfolio level and through the lens of different distribution strategies in order to bring forward innovative solutions.",
+   "ev_start": 11195,
+   "ev_end": 11392,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 64,
+   "sentence": "We are focused on growing attractive areas of our portfolio by bringing together AIG's global underwriting, claims and risk expertise to help clients and partners better understand the risks they face and deliver more comprehensive solutions that support their evolving needs.",
+   "ev_start": 11393,
+   "ev_end": 11669,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S030",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 69,
+   "sentence": "We are looking at opportunities to expand our reach in regions where we see attractive opportunities for disciplined growth.",
+   "ev_start": 12156,
+   "ev_end": 12280,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S031",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ],
+    "strategy": [
+     "acquire"
+    ]
+   },
+   "score": 5.14,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 70,
+   "sentence": "As an example, during the second quarter, we announced an agreement to acquire Everest Insurance operations in Colombia.",
+   "ev_start": 12281,
+   "ev_end": 12401,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S032",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints",
+     "challenges"
+    ],
+    "product": [
+     "shipping"
+    ],
+    "pressure": [
+     "constraints"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "We are staying closely connected to governments, marine and shipping clients directly exposed to developments in the strait, and those on the ground managing supply chain constraints and other challenges.",
+   "ev_start": 13037,
+   "ev_end": 13241,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S033",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 78,
+   "sentence": "Second, we will continue to use our balance sheet and reinsurance program to support profitable growth while managing volatility.",
+   "ev_start": 13550,
+   "ev_end": 13679,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S034",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ],
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 3.46,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 79,
+   "sentence": "Over many years, AIG has built a consistent framework for generating underwriting profit through disciplined risk selection, prudent limits and the strategic use of reinsurance.",
+   "ev_start": 13680,
+   "ev_end": 13857,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S035",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "Reinsurance continues to be an important tool in managing volatility and tail risk, and we evaluate our program continuously to ensure it remains aligned with market conditions and our return objectives.",
+   "ev_start": 14031,
+   "ev_end": 14234,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S036",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "This disciplined approach extends to how we manage capital.",
+   "ev_start": 14235,
+   "ev_end": 14294,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S037",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "expanding"
+    ],
+    "strategy": [
+     "invested"
+    ],
+    "performance": [
+     "grow",
+     "profitably",
+     "earnings"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 84,
+   "sentence": "Our top priority is to grow the company profitably by expanding earnings, premiums, our invested assets and our overall tangible book value.",
+   "ev_start": 14366,
+   "ev_end": 14506,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S038",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "deploy"
+    ],
+    "strategy": [
+     "repurchases",
+     "dividends"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "If we can't deploy capital at attractive returns, we will return it to shareholders through share repurchases and dividends.",
+   "ev_start": 14507,
+   "ev_end": 14631,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S039",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchase"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "Given our current share price at a modest premium to tangible book value, we view the repurchase of our shares as a very attractive use of capital.",
+   "ev_start": 14632,
+   "ev_end": 14779,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S040",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 90,
+   "sentence": "Where deployed, our underwriters are reviewing more submissions and generating quotes significantly faster, improving their productivity.",
+   "ev_start": 15271,
+   "ev_end": 15408,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 93,
+   "sentence": "This information will enhance how we partner with brokers, provide a clearer view of the broader market ecosystem and enable data-driven decisions that can create value across market cycles.",
+   "ev_start": 15793,
+   "ev_end": 15983,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S042",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 94,
+   "sentence": "We are pleased with the progress we are making and we continue to thoughtfully scale our AI capabilities across the company.",
+   "ev_start": 15984,
+   "ev_end": 16108,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S043",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 95,
+   "sentence": "Fourth, we will continue to maintain expense discipline while investing for growth.",
+   "ev_start": 16109,
+   "ev_end": 16192,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S044",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 97,
+   "sentence": "We are investing in underwriting talent in priority areas, strengthening how we engage with distribution partners, advancing our claims capabilities and deploying technology to support these opportunities.",
+   "ev_start": 16322,
+   "ev_end": 16527,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S045",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "general_insurance"
+   ],
+   "home": "general_insurance",
+   "fact_ids": [
+    "AIG_2026_2-012"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "on track to",
+     "full year"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 100,
+   "sentence": "We remain on track to reduce the general insurance expense ratio below 30% for full year 2027.",
+   "ev_start": 16725,
+   "ev_end": 16819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S046",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.96,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 101,
+   "sentence": "Fifth, we will continue to invest in our team and talent to strengthen execution, connectivity and our ability to bring the full capabilities of AIG to clients.",
+   "ev_start": 16820,
+   "ev_end": 16980,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S047",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 104,
+   "sentence": "We have a deep bench of leaders across AIG and have made several internal promotions over the last few months, underscoring our commitment to developing and advancing talent from within.",
+   "ev_start": 17232,
+   "ev_end": 17418,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S048",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new capabilities"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 105,
+   "sentence": "At the same time, we are adding experienced external talent and new capabilities to strengthen connectivity across AIG, pursue emerging growth areas in key verticals and product lines and reinforce a more agile, connected go-to-market culture.",
+   "ev_start": 17419,
+   "ev_end": 17662,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S049",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "commitment",
+     "invest"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 106,
+   "sentence": "These internal promotions and targeted external appointments reflect our commitment to invest in our teams with talent that supports our strategic growth initiatives and help us build capabilities in areas where we see attractive returns.",
+   "ev_start": 17663,
+   "ev_end": 17901,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S050",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger",
+     "strong"
+    ],
+    "strategy": [
+     "commitment"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.96,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 108,
+   "sentence": "Today, AIG has a stronger, more focused portfolio, talented and dedicated colleagues, a demonstrated commitment to underwriting excellence, meaningful growth opportunities, considerable potential to benefit from data technology and AI, a strong balance sheet and significant financial flexibility.",
+   "ev_start": 18050,
+   "ev_end": 18347,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S051",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ],
+    "confident": [
+     "enthusiastic",
+     "confident"
+    ]
+   },
+   "score": 2.22,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 109,
+   "sentence": "I am very enthusiastic about the future of the company and confident in AIG's next chapter.",
+   "ev_start": 18348,
+   "ev_end": 18439,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S052",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 110,
+   "sentence": "That confidence reflects not only the achievements we have made, but the clear path ahead.",
+   "ev_start": 18440,
+   "ev_end": 18530,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S053",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiate"
+    ],
+    "strategy": [
+     "commitment"
+    ]
+   },
+   "score": 4.46,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 112,
+   "sentence": "Their commitment to our clients, our partners, key stakeholders and each other continue to differentiate AIG.",
+   "ev_start": 18680,
+   "ev_end": 18789,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S054",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "general_insurance"
+   ],
+   "home": "general_insurance",
+   "fact_ids": [
+    "AIG_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 4"
+    ],
+    "performance": []
+   },
+   "score": 3.64,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "Second quarter General Insurance adjusted pretax income was $1.5 billion, up 4% from the prior year quarter, reflecting higher underwriting income and higher interest income, partially offset by lower income from our alternatives portfolio.",
+   "ev_start": 19069,
+   "ev_end": 19309,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S055",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "general_insurance"
+   ],
+   "home": "general_insurance",
+   "fact_ids": [
+    "AIG_2026_2-017",
+    "AIG_2026_2-018"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "increased 68"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "For the first half of 2026, General Insurance underwriting income increased 68% to $1.5 billion, reflecting an excellent 13% increase in accident year underwriting earnings, lower catastrophe losses and more favorable prior year reserve development.",
+   "ev_start": 19589,
+   "ev_end": 19838,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S056",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-019"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "grew",
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Overall, first half 2026 net premiums written grew 13%, which we expect to support earnings growth as it earns in over 2026 and 2027.",
+   "ev_start": 19839,
+   "ev_end": 19972,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S057",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "general_insurance"
+   ],
+   "home": "general_insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": []
+   },
+   "score": 3.42,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "General Insurance accident year combined ratio as adjusted was 88.1%, an improvement of 30 basis points from the prior year quarter.",
+   "ev_start": 20019,
+   "ev_end": 20151,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S058",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "There are several key factors in our process that give us confidence in our reserves.",
+   "ev_start": 21612,
+   "ev_end": 21697,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "review"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "Third, we conduct a review of the entire portfolio every 90 days, allowing us to identify emerging trends earlier and react quickly.",
+   "ev_start": 22037,
+   "ev_end": 22169,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S060",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "feedback"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "We complement this with monthly looks at actual versus expected movements and regular interactions to inform the underwriting, claims and actuarial feedback loop.",
+   "ev_start": 22170,
+   "ev_end": 22332,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S061",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 25,
+   "sentence": "We continue to feel confident with our reserve position.",
+   "ev_start": 22333,
+   "ev_end": 22389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "general_insurance"
+   ],
+   "home": "general_insurance",
+   "fact_ids": [
+    "AIG_2026_2-023"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": []
+   },
+   "score": 4.14,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Overall, second quarter General Insurance calendar year combined ratio improved 30 basis points year-over-year to 89.0%.",
+   "ev_start": 22390,
+   "ev_end": 22510,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S063",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-026"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduced",
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 30,
+   "sentence": "The accident year loss ratio as adjusted was 63.4%, an increase of 30 basis points, driven by changes in business mix as we reduced certain property lines and earned in more casualty business, combined with rate pressure, particularly in property.",
+   "ev_start": 22795,
+   "ev_end": 23042,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S064",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-027"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "The expense ratio increased 20 basis points, driven by the acquisition ratio, which was 50 basis points higher due to mix change, while the GOE ratio improved by 30 basis points.",
+   "ev_start": 23043,
+   "ev_end": 23221,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "north_america_commercial"
+   ],
+   "home": "north_america_commercial",
+   "fact_ids": [
+    "AIG_2026_2-028"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvement"
+    ],
+    "performance": []
+   },
+   "score": 4.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "Overall, North America Commercial calendar year combined ratio was 84.0%, an excellent result and an improvement of 190 basis points from the prior year quarter.",
+   "ev_start": 23341,
+   "ev_end": 23502,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S066",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-030"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "The accident year loss ratio was 55.2%, a 100 basis point increase year-over-year, reflecting rate pressure, partially mitigated by underwriting actions and reinsurance benefits.",
+   "ev_start": 23613,
+   "ev_end": 23791,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S067",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-031"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "The expense ratio rose 130 basis points to 32.1%, driven entirely by a higher acquisition ratio.",
+   "ev_start": 23792,
+   "ev_end": 23888,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S068",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "acquisition"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "The increase in the acquisition ratio was primarily driven by strong new business growth and changes in business mix.",
+   "ev_start": 23889,
+   "ev_end": 24006,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S069",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "While our recent strategic transactions benefited the overall expense ratio in the quarter, they contributed to a higher acquisition ratio, which was more than offset by the benefits in the GOE ratio.",
+   "ev_start": 24007,
+   "ev_end": 24207,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum",
+     "improvement"
+    ],
+    "performance": [
+     "growth",
+     "momentum",
+     "profitability"
+    ]
+   },
+   "score": 3.14,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "The business generated strong growth momentum in Accident & Health and high net worth, as Eric outlined, while delivering continued profitability improvement.",
+   "ev_start": 24424,
+   "ev_end": 24582,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-034"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "decrease"
+    ],
+    "performance": [
+     "decrease"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "The accident year combined ratio as adjusted was 91.2%, a 490 basis point decrease year-over-year, driven by strong improvement in both the accident year loss ratio and expense ratio.",
+   "ev_start": 24749,
+   "ev_end": 24932,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S072",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "We are pleased with the progress we are making as the actions we've taken to reposition the portfolio continue to earn through.",
+   "ev_start": 25490,
+   "ev_end": 25617,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "north_america_commercial"
+   ],
+   "home": "north_america_commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 5"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "Excluding property, North America Commercial renewal pricing increased 5% year-over-year.",
+   "ev_start": 25765,
+   "ev_end": 25854,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S074",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "we believe",
+     "moving forward"
+    ],
+    "pressure": [
+     "headwind"
+    ]
+   },
+   "score": 5.94,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 57,
+   "sentence": "Overall, we believe Financial Lines will be less of a headwind moving forward.",
+   "ev_start": 26414,
+   "ev_end": 26492,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international_commercial"
+   ],
+   "home": "international_commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.89,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "In International Commercial, renewal pricing declined 6% following multiple years of compounded rate increases.",
+   "ev_start": 26493,
+   "ev_end": 26604,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decrease",
+     "down 4"
+    ],
+    "performance": [
+     "decrease"
+    ]
+   },
+   "score": 4.26,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 59,
+   "sentence": "By line of business, Global Energy saw pricing decrease 15% and Financial Lines pricing was down 4%.",
+   "ev_start": 26605,
+   "ev_end": 26705,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S077",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "international_commercial"
+   ],
+   "home": "international_commercial",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Where the market conditions are highly competitive, we will focus on preserving margin and being disciplined in the application of our underwriting standards.",
+   "ev_start": 26706,
+   "ev_end": 26864,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S078",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 62,
+   "sentence": "Second quarter total net investment income on an APTI basis was $908 million.",
+   "ev_start": 26898,
+   "ev_end": 26975,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S079",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "general_insurance"
+   ],
+   "home": "general_insurance",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.42,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "General Insurance net investment income was $871 million, flat year-over-year.",
+   "ev_start": 26976,
+   "ev_end": 27054,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S080",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "In our core fixed income portfolio, net investment income grew 4% from the prior year quarter.",
+   "ev_start": 27055,
+   "ev_end": 27149,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S081",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "The steady growth in our core fixed income portfolio was partially offset by lower alternative investment income of $13 million, down from $48 million in the prior year quarter.",
+   "ev_start": 27435,
+   "ev_end": 27612,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decline"
+    ],
+    "performance": [
+     "decline"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 68,
+   "sentence": "The decline was due to private equity, which posted a loss of $8 million.",
+   "ev_start": 27613,
+   "ev_end": 27686,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S083",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect",
+     "moving forward"
+    ],
+    "product": [
+     "announced",
+     "partnerships",
+     "deployed"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 70,
+   "sentence": "We continue to execute on our previously announced investment partnerships where we have deployed capital and expect to see the benefits moving forward.",
+   "ev_start": 27865,
+   "ev_end": 28017,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S084",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment",
+     "dividends"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 73,
+   "sentence": "The difference was driven by lower net investment income and other of $39 million compared to $92 million in the prior year quarter, which included $27 million of Corebridge dividends.",
+   "ev_start": 28156,
+   "ev_end": 28340,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S085",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 74,
+   "sentence": "In addition, the current quarter had lower short-term investment income.",
+   "ev_start": 28341,
+   "ev_end": 28413,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S086",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploying"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 77,
+   "sentence": "Our capital management priorities remain focused on deploying capital to support profitable growth and delivering attractive long-term returns to shareholders.",
+   "ev_start": 28515,
+   "ev_end": 28674,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S087",
+   "topics": [
+    "momentum",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "AIG_2026_2-039"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable",
+     "up 4",
+     "reflecting growth"
+    ],
+    "strategy": [
+     "dividends",
+     "repurchases"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 81,
+   "sentence": "Book value per share at June 30, 2026, was $77.39, up 4% from the prior year quarter, reflecting growth in net income as well as the favorable impact of lower interest rates, partially offset by capital return to shareholders through dividends and share repurchases.",
+   "ev_start": 29134,
+   "ev_end": 29400,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S088",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 3,
+   "sentence": "As I said in the prepared remarks, we see a lot of opportunities to grow the business.",
+   "ev_start": 30658,
+   "ev_end": 30744,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S089",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 4,
+   "sentence": "Our preference is to focus on growing into the capital base.",
+   "ev_start": 30745,
+   "ev_end": 30805,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S090",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "dividends"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 5,
+   "sentence": "At the same time, we've demonstrated that we're believers in returning capital through buybacks and dividends, which is a focus for us as well.",
+   "ev_start": 30806,
+   "ev_end": 30949,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S091",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 9,
+   "sentence": "To get to the high end of the ROE range we talked about at Investor Day, it requires strong execution around underwriting, expense discipline, investment income and capital management.",
+   "ev_start": 31285,
+   "ev_end": 31469,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S092",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 7,
+   "sentence_index": 11,
+   "sentence": "We feel good about where we are and see many opportunities ahead.",
+   "ev_start": 31598,
+   "ev_end": 31663,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S093",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 1,
+   "sentence": "There's been a lot of talk around social inflation, litigation funding and the factors driving everything from nuclear verdicts to overall cost increases.",
+   "ev_start": 32014,
+   "ev_end": 32168,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S094",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "inflation"
+    ],
+    "pressure": [
+     "inflation"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 3,
+   "sentence": "But we haven't seen anything that demonstrates social inflation is moderating broadly, and we're not building moderation into our pricing at this stage.",
+   "ev_start": 32329,
+   "ev_end": 32481,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S095",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel really good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "I feel really good about where we are.",
+   "ev_start": 33260,
+   "ev_end": 33298,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S096",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 5,
+   "sentence": "We're not seeing material deterioration in 2023 and no change in frequency or severity; we simply took a prudent step to be more consistent.",
+   "ev_start": 33808,
+   "ev_end": 33948,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S097",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 1,
+   "sentence": "As rates moderate, you'll see some pressure on loss ratios, which we watch closely.",
+   "ev_start": 34574,
+   "ev_end": 34657,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S098",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "Some portfolios and transactions may add acquisition costs but improve overall expense ratios across the enterprise.",
+   "ev_start": 34767,
+   "ev_end": 34883,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S099",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 14,
+   "sentence_index": 6,
+   "sentence": "We're focused on profitability and will continue to pursue strategic opportunities that broaden relationships, add talent and capabilities, and deploy capital at attractive returns.",
+   "ev_start": 34955,
+   "ev_end": 35136,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S100",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressures"
+    ],
+    "pressure": [
+     "pressures"
+    ],
+    "performance": []
+   },
+   "score": 4.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 3,
+   "sentence": "Pressures in commercial lines loss ratios have been offset by improvements in personal insurance and progress on the expense ratio.",
+   "ev_start": 35497,
+   "ev_end": 35628,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S101",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 15,
+   "sentence_index": 4,
+   "sentence": "We feel good about overall margins.",
+   "ev_start": 35629,
+   "ev_end": 35664,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S102",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "deploy"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 3,
+   "sentence": "We will continue to pursue strategic transactions that deploy capital at attractive returns and broaden client relationships and capabilities.",
+   "ev_start": 36177,
+   "ev_end": 36319,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S103",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 17,
+   "sentence_index": 4,
+   "sentence": "Expect us to pursue both organic growth and selective transactions that make strategic sense.",
+   "ev_start": 36320,
+   "ev_end": 36413,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S104",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "We will remain disciplined and selective across our segments.",
+   "ev_start": 36837,
+   "ev_end": 36898,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenging"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "We anticipated growth would be more challenging this year, which is why converting strategic transactions has been a priority.",
+   "ev_start": 36899,
+   "ev_end": 37025,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S106",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 4,
+   "sentence": "The property market remains under pressure; casualty is attractive and showing needed rate increases.",
+   "ev_start": 37026,
+   "ev_end": 37127,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S107",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jon Hancock",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 2,
+   "sentence": "We take a prudent approach and know where we are in the cycle.",
+   "ev_start": 37296,
+   "ev_end": 37358,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S108",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.82,
+   "speaker": "Jon Hancock",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 4,
+   "sentence": "Two examples: Global Specialty - we're market leaders and can pursue profitable opportunities while remaining disciplined on pricing and risk-adjusted returns.",
+   "ev_start": 37473,
+   "ev_end": 37632,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S109",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 4.14,
+   "speaker": "Jon Hancock",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 20,
+   "sentence_index": 6,
+   "sentence": "At the other end, Accident & Health is high volume and low limit; we are a leader, seeing solid growth, and expect more opportunities internationally.",
+   "ev_start": 37774,
+   "ev_end": 37924,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S110",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "profitability",
+     "grow"
+    ],
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 4.42,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 21,
+   "sentence_index": 2,
+   "sentence": "Profitability is the North Star, and we will grow in a smart, prudent way.",
+   "ev_start": 38148,
+   "ev_end": 38222,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S111",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": []
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 1,
+   "sentence": "From a personal perspective, we've focused for years on improving the end-to-end insurance process to be more efficient and deliver better colleague and client experiences.",
+   "ev_start": 38500,
+   "ev_end": 38672,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S112",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "rollout"
+    ]
+   },
+   "score": 4.46,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 2,
+   "sentence": "Over the last few months I've spent a lot of time with the team on strategy and rollout of Underwriting by AIG Assist and Claims by AIG Assist.",
+   "ev_start": 38673,
+   "ev_end": 38816,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S113",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "product": [
+     "deployed"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 3,
+   "sentence": "Where deployed, underwriters are reviewing more submissions and generating quotes significantly faster, improving productivity.",
+   "ev_start": 38817,
+   "ev_end": 38944,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S114",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "forward": [
+     "we see the"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 4,
+   "sentence": "We're also getting valuable broker-level insights as submission volume flows through the system, which helps us identify where we see the best business and adjust resource allocation.",
+   "ev_start": 38945,
+   "ev_end": 39128,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S115",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "early days"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 5,
+   "sentence": "It's early days but promising.",
+   "ev_start": 39129,
+   "ev_end": 39159,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S116",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 23,
+   "sentence_index": 6,
+   "sentence": "These investments improve colleague efficiency and client outcomes, and we expect continued benefits as we scale.",
+   "ev_start": 39160,
+   "ev_end": 39273,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S117",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 1,
+   "sentence": "With the Everest transaction and shared client relationships, it becomes difficult to precisely break out each contribution, so we haven't provided a specific split.",
+   "ev_start": 39686,
+   "ev_end": 39851,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S118",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "tailwind"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 26,
+   "sentence_index": 2,
+   "sentence": "The reinsurance tailwind observed in the first quarter largely dissipated in the second, and other transactions fill in the remainder of the growth percentages.",
+   "ev_start": 39852,
+   "ev_end": 40012,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S119",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "personal"
+   ],
+   "home": "personal",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "performance": [],
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 5.04,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 0,
+   "sentence": "It's difficult to precisely separate the contributions, but we're excited about Global Personal.",
+   "ev_start": 40890,
+   "ev_end": 40986,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S120",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 2,
+   "sentence": "The improvement stems from premium growth, underwriting actions, reinsurance savings, lower acquisition costs and operating improvements.",
+   "ev_start": 41098,
+   "ev_end": 41235,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S121",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "growing"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.64,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 3,
+   "sentence": "We're investing behind leadership in Accident & Health, where we see a growing pipeline and strong opportunities globally.",
+   "ev_start": 41236,
+   "ev_end": 41358,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S122",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "solid"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 5,
+   "sentence": "There is cat exposure in high net worth, but fundamentals are solid and we continue to invest in the business.",
+   "ev_start": 41408,
+   "ev_end": 41518,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S123",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 33,
+   "sentence_index": 2,
+   "sentence": "Our AI investments are meant to make colleagues more efficient rather than reduce headcount.",
+   "ev_start": 42025,
+   "ev_end": 42117,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S124",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "going forward"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 4,
+   "sentence": "That shows expense discipline and gives us confidence going forward.",
+   "ev_start": 42775,
+   "ev_end": 42843,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S125",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 1,
+   "sentence": "We're pleased with 13% growth in the first half and 9% in the quarter.",
+   "ev_start": 43206,
+   "ev_end": 43276,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S126",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 4,
+   "sentence": "Right now, we feel good about our position.",
+   "ev_start": 43482,
+   "ev_end": 43525,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S127",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "next year"
+    ],
+    "confident": [
+     "feel good about"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Keith Walsh",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 39,
+   "sentence_index": 3,
+   "sentence": "We do have a eurobond to refinance later in the year, which will be due early next year, but at this time we feel good about where leverage sits.",
+   "ev_start": 43954,
+   "ev_end": 44099,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "AIG_2026_2-S128",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "product": [
+     "partnership"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Eric Andersen",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 2,
+   "sentence": "A special thank you to Peter Zaffino for his partnership during this transition; his guidance has been great and the organization has benefited.",
+   "ev_start": 44280,
+   "ev_end": 44424,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "AIG_2026_2-S005",
+  "AIG_2026_2-S065",
+  "AIG_2026_2-S073",
+  "AIG_2026_2-S007",
+  "AIG_2026_2-S075",
+  "AIG_2026_2-S077",
+  "AIG_2026_2-S045",
+  "AIG_2026_2-S054",
+  "AIG_2026_2-S055",
+  "AIG_2026_2-S062",
+  "AIG_2026_2-S079",
+  "AIG_2026_2-S004",
+  "AIG_2026_2-S008",
+  "AIG_2026_2-S100",
+  "AIG_2026_2-S111",
+  "AIG_2026_2-S112",
+  "AIG_2026_2-S113",
+  "AIG_2026_2-S119",
+  "AIG_2026_2-S012",
+  "AIG_2026_2-S015",
+  "AIG_2026_2-S016",
+  "AIG_2026_2-S018",
+  "AIG_2026_2-S023",
+  "AIG_2026_2-S027",
+  "AIG_2026_2-S031",
+  "AIG_2026_2-S034",
+  "AIG_2026_2-S038",
+  "AIG_2026_2-S053",
+  "AIG_2026_2-S066",
+  "AIG_2026_2-S074",
+  "AIG_2026_2-S076",
+  "AIG_2026_2-S082",
+  "AIG_2026_2-S083",
+  "AIG_2026_2-S093",
+  "AIG_2026_2-S121"
+ ],
+ "surfaced_signal_ids": [
+  "AIG_2026_2-S005",
+  "AIG_2026_2-S065",
+  "AIG_2026_2-S073",
+  "AIG_2026_2-S007",
+  "AIG_2026_2-S075",
+  "AIG_2026_2-S077",
+  "AIG_2026_2-S045",
+  "AIG_2026_2-S054",
+  "AIG_2026_2-S055",
+  "AIG_2026_2-S062",
+  "AIG_2026_2-S079",
+  "AIG_2026_2-S004",
+  "AIG_2026_2-S008",
+  "AIG_2026_2-S100",
+  "AIG_2026_2-S111",
+  "AIG_2026_2-S112",
+  "AIG_2026_2-S113",
+  "AIG_2026_2-S119",
+  "AIG_2026_2-S012",
+  "AIG_2026_2-S015",
+  "AIG_2026_2-S016",
+  "AIG_2026_2-S018",
+  "AIG_2026_2-S023",
+  "AIG_2026_2-S027",
+  "AIG_2026_2-S031",
+  "AIG_2026_2-S034",
+  "AIG_2026_2-S038",
+  "AIG_2026_2-S053",
+  "AIG_2026_2-S066",
+  "AIG_2026_2-S074",
+  "AIG_2026_2-S076",
+  "AIG_2026_2-S082",
+  "AIG_2026_2-S083",
+  "AIG_2026_2-S093",
+  "AIG_2026_2-S121",
+  "AIG_2026_2-S051",
+  "AIG_2026_2-S127",
+  "AIG_2026_2-S124",
+  "AIG_2026_2-S110",
+  "AIG_2026_2-S013",
+  "AIG_2026_2-S096"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "commercial_insurance",
+   "north_america_commercial",
+   "international_commercial",
+   "general_insurance",
+   "personal"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [
+   "international_commercial"
+  ],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": [
+   "AIG_2026_2-001",
+   "AIG_2026_2-002",
+   "AIG_2026_2-003",
+   "AIG_2026_2-004",
+   "AIG_2026_2-007",
+   "AIG_2026_2-008",
+   "AIG_2026_2-020",
+   "AIG_2026_2-022",
+   "AIG_2026_2-025",
+   "AIG_2026_2-026",
+   "AIG_2026_2-028",
+   "AIG_2026_2-029",
+   "AIG_2026_2-030",
+   "AIG_2026_2-031",
+   "AIG_2026_2-032",
+   "AIG_2026_2-034",
+   "AIG_2026_2-037"
+  ]
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  },
+  {
+   "name": "facts_held_back",
+   "status": "warn",
+   "detail": "17 low-confidence ledger facts are not shown"
+  }
+ ],
+ "stats": {
+  "signals": 128,
+  "signals_usable": 128,
+  "selected": 35,
+  "by_topic": {
+   "product": 22,
+   "strategy": 42,
+   "momentum": 44,
+   "competition": 9,
+   "pressure": 14
+  },
+  "by_horizon": {
+   "current": 106,
+   "forward": 22
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 5,
+  "checks_failed": 0,
+  "checks_warn": 2
+ }
+}

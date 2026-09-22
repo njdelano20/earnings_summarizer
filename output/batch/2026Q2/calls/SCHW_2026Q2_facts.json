@@ -1,0 +1,1056 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "SCHW",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "SCHW",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 4,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Jeff Edwards",
+    "role": "ir"
+   },
+   {
+    "name": "Rick Wurster",
+    "role": "management"
+   },
+   {
+    "name": "Mike Verdeschi",
+    "role": "management"
+   },
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Dan Fannon",
+    "role": "analyst"
+   },
+   {
+    "name": "Patrick Moynihan",
+    "role": "analyst"
+   },
+   {
+    "name": "Devin Ryan",
+    "role": "analyst"
+   },
+   {
+    "name": "Bill Katz",
+    "role": "analyst"
+   },
+   {
+    "name": "Alex Blostein",
+    "role": "analyst"
+   },
+   {
+    "name": "Steven Chubak",
+    "role": "analyst"
+   },
+   {
+    "name": "Ken Worthington",
+    "role": "analyst"
+   },
+   {
+    "name": "Brian Bedell",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Cyprys",
+    "role": "analyst"
+   },
+   {
+    "name": "Ben Budish",
+    "role": "analyst"
+   },
+   {
+    "name": "Chris Allen",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Brown",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "second quarter",
+   "detail": "the call says 'second quarter', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "SCHW_2026Q2.json",
+  "vocabulary_packs": [
+   "asset_management"
+  ]
+ },
+ "facts": [
+  {
+   "kind": "reported",
+   "metric": "net_flows",
+   "segment": "managed investing",
+   "stat": "growth",
+   "value": 53.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": "yoy",
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 24,
+   "sentence": "Managed investing net flows increased 53% over last year.",
+   "ev_start": 2775,
+   "ev_end": 2832,
+   "figure_text": "53%",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-001"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "managed investing",
+   "stat": "level",
+   "value": 7100000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 27,
+   "sentence": "We delivered $7.1 billion in total revenue and adjusted earnings per share of $1.62, up 42% over last year.",
+   "ev_start": 2936,
+   "ev_end": 3043,
+   "figure_text": "$7.1 billion",
+   "confidence": "high",
+   "flags": [
+    "segment_from_section"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-002"
+  },
+  {
+   "kind": "reported",
+   "metric": "eps",
+   "segment": "total",
+   "stat": "level",
+   "value": 1.62,
+   "value_high": null,
+   "unit": "USD_per_share",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [
+    {
+     "value": 42.0,
+     "value_high": null,
+     "unit": "pct",
+     "basis": "yoy",
+     "constant_currency": false,
+     "text": "42%",
+     "ev_start": 2936,
+     "ev_end": 3043
+    },
+    {
+     "value": 42.0,
+     "value_high": null,
+     "unit": "pct",
+     "basis": null,
+     "constant_currency": false,
+     "text": "42%",
+     "ev_start": 18064,
+     "ev_end": 18285
+    }
+   ],
+   "period": "second quarter",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "sentence_index": 27,
+   "sentence": "We delivered $7.1 billion in total revenue and adjusted earnings per share of $1.62, up 42% over last year.",
+   "ev_start": 2936,
+   "ev_end": 3043,
+   "figure_text": "$1.62",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 2,
+   "verified": true,
+   "id": "SCHW_2026_2-003"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "total",
+   "stat": "growth",
+   "value": 21.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": "yoy",
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Total revenue grew 21% year-over-year to $7.1 billion, including a 19% increase in net interest revenue versus the prior year period due to increased utilization of our lending solutions by clients, the reduction of higher cost borrowings at the banks, and demand for long-short strategies.",
+   "ev_start": 16570,
+   "ev_end": 16860,
+   "figure_text": "21%",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-004"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "total",
+   "stat": "level",
+   "value": 7100000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [
+    {
+     "value": 21.0,
+     "value_high": null,
+     "unit": "pct",
+     "basis": "yoy",
+     "constant_currency": false,
+     "text": "21%",
+     "ev_start": 16570,
+     "ev_end": 16860
+    }
+   ],
+   "period": "second quarter",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Total revenue grew 21% year-over-year to $7.1 billion, including a 19% increase in net interest revenue versus the prior year period due to increased utilization of our lending solutions by clients, the reduction of higher cost borrowings at the banks, and demand for long-short strategies.",
+   "ev_start": 16570,
+   "ev_end": 16860,
+   "figure_text": "$7.1 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-005"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "trading",
+   "stat": "level",
+   "value": 1200000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Schwab's industry-leading retail trading platform supported continued client engagement with daily average trades of 11.9 million, driving a 28% increase in trading revenue to $1.2 billion.",
+   "ev_start": 17193,
+   "ev_end": 17382,
+   "figure_text": "$1.2 billion",
+   "confidence": "medium",
+   "flags": [
+    "segment_lowercase_phrase"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-006"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "yield, other",
+   "stat": "growth",
+   "value": 32.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Bank deposit account fees grew 35% year-over-year due to continued improvement in the net yield, other revenue was up 32% versus 2Q 2025, with stronger trading volumes as well as typical second quarter seasonality.",
+   "ev_start": 17383,
+   "ev_end": 17597,
+   "figure_text": "32%",
+   "confidence": "medium",
+   "flags": [
+    "segment_lowercase_phrase",
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-007"
+  },
+  {
+   "kind": "reported",
+   "metric": "share_repurchases",
+   "segment": "total",
+   "stat": "level",
+   "value": 1000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 27,
+   "sentence": "Our adjusted ratio of 6.8% reflects our support of business growth and client engagement, as well as the net redemption of preferred equity and the repurchase of $1 billion worth of common shares.",
+   "ev_start": 19837,
+   "ev_end": 20033,
+   "figure_text": "$1 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-008"
+  },
+  {
+   "kind": "guidance",
+   "metric": "revenue",
+   "segment": "total",
+   "stat": "growth",
+   "value": 17.5,
+   "value_high": 18.5,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "2026",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 40,
+   "sentence": "Using these updates, we would expect total revenue growth of 17.5%-18.5% in 2026.",
+   "ev_start": 21941,
+   "ev_end": 22022,
+   "figure_text": "17.5%-18.5%",
+   "confidence": "high",
+   "flags": [
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "SCHW_2026_2-009"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "$120 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We're attracting new clients and assets with 1.4 million new brokerage accounts and $120 billion in core net new assets, up nearly 50% over last year.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2582
+  },
+  {
+   "figure_text": "50%",
+   "reason": "change_without_metric",
+   "sentence": "We're attracting new clients and assets with 1.4 million new brokerage accounts and $120 billion in core net new assets, up nearly 50% over last year.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2582
+  },
+  {
+   "figure_text": "$67 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Bank lending balances reached $67 billion, up 33%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2833
+  },
+  {
+   "figure_text": "33%",
+   "reason": "change_without_metric",
+   "sentence": "Bank lending balances reached $67 billion, up 33%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 2833
+  },
+  {
+   "figure_text": "61%",
+   "reason": "no_metric_phrase",
+   "sentence": "61% of affluent clients ages 25-44 say they prefer to consolidate their wealth and banking relationship.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6264
+  },
+  {
+   "figure_text": "$1 million-$5 million",
+   "reason": "no_metric_phrase",
+   "sentence": "Households with $1 million-$5 million in assets using only one financial services firm jumped 11 percentage points year-over-year to 22%, and we expect this to grow as more investors seek the convenience of one-stop shopping in all aspects of their life.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6369
+  },
+  {
+   "figure_text": "11 percentage points",
+   "reason": "change_without_metric",
+   "sentence": "Households with $1 million-$5 million in assets using only one financial services firm jumped 11 percentage points year-over-year to 22%, and we expect this to grow as more investors seek the convenience of one-stop shopping in all aspects of their life.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6369
+  },
+  {
+   "figure_text": "22%",
+   "reason": "no_metric_phrase",
+   "sentence": "Households with $1 million-$5 million in assets using only one financial services firm jumped 11 percentage points year-over-year to 22%, and we expect this to grow as more investors seek the convenience of one-stop shopping in all aspects of their life.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 6369
+  },
+  {
+   "figure_text": "27%",
+   "reason": "no_metric_phrase",
+   "sentence": "Legacy Ameritrade clients continue to engage in our wealth and lending capabilities, and 27% of all thinkorswim users are now legacy Schwab clients.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 8431
+  },
+  {
+   "figure_text": "$260 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We are continuing to attract new clients to Schwab with 2.7 million new brokerage accounts opened in the first half of the year and $260 billion in core net new assets, representing year-over-year growth of nearly 20%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 9976
+  },
+  {
+   "figure_text": "20%",
+   "reason": "change_without_metric",
+   "sentence": "We are continuing to attract new clients to Schwab with 2.7 million new brokerage accounts opened in the first half of the year and $260 billion in core net new assets, representing year-over-year growth of nearly 20%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 9976
+  },
+  {
+   "figure_text": "$37 trillion",
+   "reason": "no_metric_phrase",
+   "sentence": "The U.S. retail market is $37 trillion and growing, and we have just 2% market share.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 11722
+  },
+  {
+   "figure_text": "2%",
+   "reason": "no_metric_phrase",
+   "sentence": "The U.S. retail market is $37 trillion and growing, and we have just 2% market share.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 11722
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "At the same time, just 5% of Schwab retail households are on a fee-based advice solution.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 11808
+  },
+  {
+   "figure_text": "31%",
+   "reason": "no_metric_phrase",
+   "sentence": "31% of Schwab clients say they are willing to pay for advice.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 11898
+  },
+  {
+   "figure_text": "33%",
+   "reason": "change_without_metric",
+   "sentence": "Our lending balances have increased 33% year over year, driven in large part by adoption of our digital Pledged Asset Line offer.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 12900
+  },
+  {
+   "figure_text": "0.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "Today at Schwab, 0.5% of clients use one of our lending products, versus 4% on average across the industry.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 13371
+  },
+  {
+   "figure_text": "4%",
+   "reason": "no_metric_phrase",
+   "sentence": "Today at Schwab, 0.5% of clients use one of our lending products, versus 4% on average across the industry.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 13371
+  },
+  {
+   "figure_text": "100 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "With an average spread to securities north of 100 basis points on PALs, as an example, narrowing the lending penetration gap as more investors consolidate their financial lives at Schwab is a win for clients and a win for our economics.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 13479
+  },
+  {
+   "figure_text": "15%-20%",
+   "reason": "no_metric_phrase",
+   "sentence": "As an example, over the past year, developer team productivity has improved by 15%-20%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 1,
+   "ev_start": 15108
+  },
+  {
+   "figure_text": "19%",
+   "reason": "not_tied_to_metric",
+   "sentence": "Total revenue grew 21% year-over-year to $7.1 billion, including a 19% increase in net interest revenue versus the prior year period due to increased utilization of our lending solutions by clients, the reduction of higher cost borrowings at the banks, and demand for long-short strategies.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 16570
+  },
+  {
+   "figure_text": "16%",
+   "reason": "no_metric_phrase",
+   "sentence": "Momentum within the technology sector helped lift equity markets to their best quarterly performance since early 2020, which in combination with robust asset gathering and client interest in Schwab's wealth and asset management offerings, drove 16% year-over-year growth in asset management and administration fees to $1.8 billion.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 16861
+  },
+  {
+   "figure_text": "$1.8 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Momentum within the technology sector helped lift equity markets to their best quarterly performance since early 2020, which in combination with robust asset gathering and client interest in Schwab's wealth and asset management offerings, drove 16% year-over-year growth in asset management and administration fees to $1.8 billion.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 16861
+  },
+  {
+   "figure_text": "28%",
+   "reason": "not_tied_to_metric",
+   "sentence": "Schwab's industry-leading retail trading platform supported continued client engagement with daily average trades of 11.9 million, driving a 28% increase in trading revenue to $1.2 billion.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 17193
+  },
+  {
+   "figure_text": "35%",
+   "reason": "change_without_metric",
+   "sentence": "Bank deposit account fees grew 35% year-over-year due to continued improvement in the net yield, other revenue was up 32% versus 2Q 2025, with stronger trading volumes as well as typical second quarter seasonality.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 17383
+  },
+  {
+   "figure_text": "11%",
+   "reason": "change_without_metric",
+   "sentence": "Adjusted expenses for the second quarter grew 11% year-over-year, reflecting strong client engagement across our trading, wealth, and banking solutions, and the first full quarter of Forge, while underlying expenses remain in line with our initial expectations.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 17618
+  },
+  {
+   "figure_text": "54.3%",
+   "reason": "pct_without_growth_cue",
+   "sentence": "Record quarterly revenue combined with balanced expense management delivered adjusted pre-tax profit margin of 54.3%, as second quarter adjusted earnings per share reached a record $1.62, a year-over-year increase of 42%.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 18064
+  },
+  {
+   "figure_text": "$165.1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Total margin balances ended the quarter at $165.1 billion, including continued growth in long-short related activity.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 18373
+  },
+  {
+   "figure_text": "$67 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Led by new Pledged Asset Line originations, total bank loan balances grew to $67 billion, up 33% from 2Q 2025 and 16% versus the prior year-end, while investment securities remain relatively flat as we continue to support client lending needs.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 18491
+  },
+  {
+   "figure_text": "33%",
+   "reason": "change_without_metric",
+   "sentence": "Led by new Pledged Asset Line originations, total bank loan balances grew to $67 billion, up 33% from 2Q 2025 and 16% versus the prior year-end, while investment securities remain relatively flat as we continue to support client lending needs.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 18491
+  },
+  {
+   "figure_text": "16%",
+   "reason": "no_metric_phrase",
+   "sentence": "Led by new Pledged Asset Line originations, total bank loan balances grew to $67 billion, up 33% from 2Q 2025 and 16% versus the prior year-end, while investment securities remain relatively flat as we continue to support client lending needs.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 18491
+  },
+  {
+   "figure_text": "$24.2 billion",
+   "reason": "change_without_metric",
+   "sentence": "While strong equity markets lifted sentiment and supported elevated trading activity, transactional sweep cash increased by $24.2 billion in 2Q, largely driven by demand for long-short strategies as well as organic asset gathering.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 19036
+  },
+  {
+   "figure_text": "6.75%-7%",
+   "reason": "no_metric_phrase",
+   "sentence": "Capital levels remain strong, with our adjusted Tier 1 Leverage Ratio finishing the quarter within the 6.75%-7% range.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 19718
+  },
+  {
+   "figure_text": "6.8%",
+   "reason": "not_tied_to_metric",
+   "sentence": "Our adjusted ratio of 6.8% reflects our support of business growth and client engagement, as well as the net redemption of preferred equity and the repurchase of $1 billion worth of common shares.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 19837
+  },
+  {
+   "figure_text": "25 basis point",
+   "reason": "no_metric_phrase",
+   "sentence": "In terms of where we are today, market expectations for interest rates continue to evolve, with the forward curve pricing in one 25 basis point rate hike before the end of the year.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 20947
+  },
+  {
+   "figure_text": "13%",
+   "reason": "no_metric_phrase",
+   "sentence": "Given the strong year-to-date equity market returns, we are now assuming approximately 13% full-year market appreciation.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 21129
+  },
+  {
+   "figure_text": "5%",
+   "reason": "pct_without_growth_cue",
+   "sentence": "Our asset gathering momentum reinforces our confidence in the 5% organic growth rate we outlined for 2026.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 21251
+  },
+  {
+   "figure_text": "3.0%-3.10%",
+   "reason": "no_metric_phrase",
+   "sentence": "With full-year net interest margin expanding to a range of 3.0%-3.10%, an average 4Q 2026 net interest margin expected to finish in the 3.25%-3.30% range as the timing of the potential Fed rate hike late in the year limits the impact in 2026.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 22023
+  },
+  {
+   "figure_text": "3.25%-3.30%",
+   "reason": "no_metric_phrase",
+   "sentence": "With full-year net interest margin expanding to a range of 3.0%-3.10%, an average 4Q 2026 net interest margin expected to finish in the 3.25%-3.30% range as the timing of the potential Fed rate hike late in the year limits the impact in 2026.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 22023
+  },
+  {
+   "figure_text": "9.5%-10.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "Given our sustained business momentum, we now anticipate annual expense growth to range from 9.5%-10.5%.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 22353
+  },
+  {
+   "figure_text": "5.5%-6.5%",
+   "reason": "no_metric_phrase",
+   "sentence": "I would note that underlying expenses still remain in line with the 5.5%-6.5% range we shared at the January winter business update.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 22458
+  },
+  {
+   "figure_text": "100 basis points",
+   "reason": "not_tied_to_metric",
+   "sentence": "Second, the inclusion of Forge, which contributes approximately 100 basis points to the year-over-year growth rate.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 22774
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "I still believe 5% or higher is the right long-term expectation.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 24896
+  },
+  {
+   "figure_text": "86%",
+   "reason": "change_without_metric",
+   "sentence": "Wealth: our proprietary wealth offer flows are up 86% year to date.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 25222
+  },
+  {
+   "figure_text": "60%",
+   "reason": "change_without_metric",
+   "sentence": "PAL originations are up 60%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 25290
+  },
+  {
+   "figure_text": "12%",
+   "reason": "change_without_metric",
+   "sentence": "Our number of bank accounts we have, I think, are up 12%.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 25319
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "I expect that to drive more than 5% NNA growth, just as it has for the last several quarters.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 25920
+  },
+  {
+   "figure_text": "6%",
+   "reason": "no_metric_phrase",
+   "sentence": "I think we're 6% plus in that business the last four quarters or so.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 26014
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "When we do that, again, our expectation is NNA growth should be 5% or higher.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 26476
+  },
+  {
+   "figure_text": "5%",
+   "reason": "no_metric_phrase",
+   "sentence": "We remain positive about hitting 5% or higher and feel good about each of our three client-facing businesses in that regard.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 6,
+   "ev_start": 26981
+  },
+  {
+   "figure_text": "59%",
+   "reason": "change_without_metric",
+   "sentence": "The Pledged Asset Line is up 59% year-over-year.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "ev_start": 32230
+  },
+  {
+   "figure_text": "400 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "When we started the year in our financial scenario, that operating leverage in that first scenario was 400 basis points.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "ev_start": 33586
+  },
+  {
+   "figure_text": "800 basis points",
+   "reason": "no_metric_phrase",
+   "sentence": "The updated scenario has operating leverage of 800 basis points.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "ev_start": 33707
+  },
+  {
+   "figure_text": "1%",
+   "reason": "pct_without_growth_cue",
+   "sentence": "It's roughly 1% of our revenue.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "ev_start": 37607
+  },
+  {
+   "figure_text": "90%-95%",
+   "reason": "no_metric_phrase",
+   "sentence": "The three parts of prediction markets and where 90%-95% of the volume exists today is just really sports wagering.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "ev_start": 42427
+  },
+  {
+   "figure_text": "1%-2%",
+   "reason": "no_metric_phrase",
+   "sentence": "1%-2% of trading actually happens outside of market hours, that's for good reason.",
+   "speaker": "Rick Wurster",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "ev_start": 44560
+  },
+  {
+   "figure_text": "$6-8 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "You probably see $6-8 billion of cash flows coming off of that portfolio.",
+   "speaker": "Mike Verdeschi",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 42,
+   "ev_start": 51632
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 9,
+  "by_kind": {
+   "reported": 8,
+   "guidance": 1
+  },
+  "by_confidence": {
+   "high": 7,
+   "medium": 2
+  },
+  "verified": 9,
+  "unverified": 0,
+  "unclaimed_figures": 57,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

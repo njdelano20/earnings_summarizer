@@ -1,0 +1,3472 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "CVX",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "CVX",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 6,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jeanine Wai",
+    "role": "ir"
+   },
+   {
+    "name": "Michael Wirth",
+    "role": "management"
+   },
+   {
+    "name": "Jeff Gustavson",
+    "role": "management"
+   },
+   {
+    "name": "Eimear Bonner",
+    "role": "management"
+   },
+   {
+    "name": "Devin McDermott",
+    "role": "analyst"
+   },
+   {
+    "name": "Neil Mehta",
+    "role": "analyst"
+   },
+   {
+    "name": "John Royall",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas George Blyth Leggate",
+    "role": "analyst"
+   },
+   {
+    "name": "Arun Jayaram",
+    "role": "analyst"
+   },
+   {
+    "name": "Stephen Richardson",
+    "role": "analyst"
+   },
+   {
+    "name": "Biraj Borkhataria",
+    "role": "analyst"
+   },
+   {
+    "name": "James West",
+    "role": "analyst"
+   },
+   {
+    "name": "Sam Margolin",
+    "role": "analyst"
+   },
+   {
+    "name": "Manav Gupta",
+    "role": "analyst"
+   },
+   {
+    "name": "Jean Ann Salisbury",
+    "role": "analyst"
+   },
+   {
+    "name": "Wei Jiang",
+    "role": "analyst"
+   },
+   {
+    "name": "Nitin Kumar",
+    "role": "analyst"
+   },
+   {
+    "name": "Bob Brackett",
+    "role": "analyst"
+   },
+   {
+    "name": "Jason Gabelman",
+    "role": "analyst"
+   },
+   {
+    "name": "Phillip Jungwirth",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "CVX_2026Q2.json",
+  "vocabulary_packs": [
+   "oil_gas_upstream"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Operating cash flow nearly $20B",
+   "fact_ids": [
+    "CVX_2026_2-002"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.00, qa +0.62",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "upstream",
+   "name": "Upstream",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 3
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "CVX_2026_2-006",
+   "CVX_2026_2-002",
+   "CVX_2026_2-004",
+   "CVX_2026_2-005",
+   "CVX_2026_2-003"
+  ],
+  "signal_ids": [
+   "CVX_2026_2-S007",
+   "CVX_2026_2-S008",
+   "CVX_2026_2-S010",
+   "CVX_2026_2-S013",
+   "CVX_2026_2-S014",
+   "CVX_2026_2-S018",
+   "CVX_2026_2-S021",
+   "CVX_2026_2-S043",
+   "CVX_2026_2-S057",
+   "CVX_2026_2-S060",
+   "CVX_2026_2-S063",
+   "CVX_2026_2-S065",
+   "CVX_2026_2-S076",
+   "CVX_2026_2-S078",
+   "CVX_2026_2-S083",
+   "CVX_2026_2-S084",
+   "CVX_2026_2-S087"
+  ],
+  "trajectory": []
+ },
+ "blocks": [
+  {
+   "id": "upstream",
+   "name": "Upstream",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "CVX_2026_2-001"
+   ],
+   "signal_ids": [
+    "CVX_2026_2-S002",
+    "CVX_2026_2-S003",
+    "CVX_2026_2-S016"
+   ],
+   "n_home_signals": 3,
+   "n_mentions": 3,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 1,
+    "cautious": 1,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.0
+   },
+   "qa": {
+    "confident": 13,
+    "cautious": 3,
+    "mixed": 2,
+    "withheld": 0,
+    "index": 0.62
+   }
+  },
+  "speakers": {
+   "Michael Wirth": {
+    "cautious": 4,
+    "confident": 4,
+    "mixed": 2
+   },
+   "Eimear Bonner": {
+    "confident": 10
+   }
+  },
+  "notable_confident": [
+   "CVX_2026_2-S036",
+   "CVX_2026_2-S031",
+   "CVX_2026_2-S021",
+   "CVX_2026_2-S063"
+  ],
+  "notable_cautious": [
+   "CVX_2026_2-S001",
+   "CVX_2026_2-S052",
+   "CVX_2026_2-S075",
+   "CVX_2026_2-S077"
+  ],
+  "withheld": [],
+  "revisions": []
+ },
+ "signals": [
+  {
+   "id": "CVX_2026_2-S001",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "negative": [
+     "uncertainty"
+    ],
+    "pressure": [
+     "uncertainty"
+    ],
+    "hedge": [
+     "uncertainty"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 1,
+   "sentence": "Amid geopolitical uncertainty and market volatility, Chevron delivered a strong second quarter, driven by our consistent strategy, capital discipline and strong execution.",
+   "ev_start": 1080,
+   "ev_end": 1251,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S002",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "upstream"
+   ],
+   "home": "upstream",
+   "fact_ids": [
+    "CVX_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Global upstream production grew more than 5% quarter-over-quarter, underpinned by exceptional reliability across key assets.",
+   "ev_start": 1252,
+   "ev_end": 1376,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "upstream"
+   ],
+   "home": "upstream",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 3,
+   "sentence": "In the U.S., we achieved a new upstream production record of nearly 2.1 million barrels of oil equivalent per day and record refinery throughput of over 1 million barrels per day.",
+   "ev_start": 1377,
+   "ev_end": 1556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S004",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergy"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 5,
+   "sentence": "Hess synergy benefits have also been delivered six months early.",
+   "ev_start": 1743,
+   "ev_end": 1807,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S005",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "And we strengthened our balance sheet to underpin long-term investments to deliver the reliable energy the world will need for decades to come.",
+   "ev_start": 1979,
+   "ev_end": 2122,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S006",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "acquisition"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "This month also marks the one-year anniversary of the Hess acquisition.",
+   "ev_start": 2123,
+   "ev_end": 2194,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S007",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "We pulled value forward, capturing 50% more synergies than initially targeted, with $1.5 billion realized six months ahead of schedule.",
+   "ev_start": 2195,
+   "ev_end": 2330,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S008",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "double"
+    ],
+    "strategy": [
+     "dividends",
+     "accretive"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "The Hess assets are generating strong free cash flow, which has been roughly double the incremental dividends and accretive to shareholders on a per share basis.",
+   "ev_start": 2331,
+   "ev_end": 2492,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S009",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "is expected"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Guyana is a world-class asset with significant resource depth that is expected to extend high-margin oil growth into the 2030s.",
+   "ev_start": 2546,
+   "ev_end": 2673,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S010",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerates"
+    ],
+    "negative": [
+     "constraint"
+    ],
+    "pressure": [
+     "constraint"
+    ],
+    "performance": [
+     "demand",
+     "accelerates"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "The U.S. is undergoing a structural shift in electricity demand as AI accelerates, and reliable power is becoming the critical constraint.",
+   "ev_start": 3249,
+   "ev_end": 3387,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S011",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "partnerships"
+    ],
+    "performance": [
+     "customers"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 3,
+   "sentence": "We bring a combination of assets and capabilities we believe few can match: a leading U.S. natural gas portfolio, extensive experience with large-scale behind-the-meter power, proven project execution capabilities, and strong partnerships that provide access to critical equipment and leading customers.",
+   "ev_start": 3442,
+   "ev_end": 3745,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S012",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged"
+    ],
+    "competition": [
+     "advantaged"
+    ],
+    "product": [
+     "partnerships"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "We're leveraging advantaged assets, customer relationships, execution capabilities and partnerships to deliver reliable, affordable energy while creating long-term shareholder value.",
+   "ev_start": 3790,
+   "ev_end": 3972,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S013",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announced"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "While many data center power projects have been announced, few have secured long-term customer commitments for behind-the-meter power and only one is at multi-gigawatt scale, Project Kilby.",
+   "ev_start": 3973,
+   "ev_end": 4162,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S014",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "later this year"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "We're now focused on execution, with permitting and EPC activities progressing towards a final investment decision later this year.",
+   "ev_start": 4406,
+   "ev_end": 4537,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S015",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 12,
+   "sentence": "We're already in advanced discussions on additional opportunities with existing and potential customers for future projects.",
+   "ev_start": 4721,
+   "ev_end": 4845,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S016",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "upstream"
+   ],
+   "home": "upstream",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "Adjusted upstream earnings increased due to higher realizations, higher liftings and favorable timing effects and were partly offset by higher DD&A and tax-related expenses.",
+   "ev_start": 5630,
+   "ev_end": 5803,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S017",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "favorable"
+    ],
+    "performance": [
+     "earnings"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 9,
+   "sentence": "Adjusted downstream earnings increased primarily due to higher refining margins and favorable timing effects.",
+   "ev_start": 5804,
+   "ev_end": 5913,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 13,
+   "sentence": "Following the large build in the first quarter, working capital unwound by $2.9 billion as commodity prices decreased through the quarter.",
+   "ev_start": 6232,
+   "ev_end": 6370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S019",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "strong",
+     "momentum",
+     "growing"
+    ],
+    "performance": [
+     "momentum",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 14,
+   "sentence": "On production, we had our second highest quarter ever, maintaining strong operating momentum across all our key assets and growing production by over 200,000 barrels of oil equivalent per day.",
+   "ev_start": 6371,
+   "ev_end": 6563,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S020",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 22,
+   "sentence": "Through these reductions, we have largely offset inflationary effects while we continued to grow across key assets like the Permian, Gulf of America and Guyana.",
+   "ev_start": 7390,
+   "ev_end": 7550,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S021",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "CVX_2026_2-005",
+    "CVX_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growth of 2",
+     "improvement"
+    ],
+    "performance": [
+     "growth",
+     "cash flow"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "We remain confident in the 2030 objectives we outlined last November, including annual production growth of 2% to 3%, adjusted free cash flow growth averaging greater than 10% per year and more than 3% improvement on return on capital employed, all at flat commodity prices that are lower than today.",
+   "ev_start": 7909,
+   "ev_end": 8209,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S022",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "robust"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 28,
+   "sentence": "We also continue to develop robust growth options for the next decade, building new resource options across regions and asset classes.",
+   "ev_start": 8210,
+   "ev_end": 8344,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S023",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "exciting"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 12,
+   "sentence": "But really the most exciting thing is the ability to optimize across the entire field now.",
+   "ev_start": 10940,
+   "ev_end": 11030,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S024",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "best"
+    ],
+    "negative": [
+     "pressure"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 13,
+   "sentence": "The low-pressure production performance of the field has been strong and through this integrated control center we take each generation of topside facilities and look at the way to best optimize those, not only individually, but collectively across the capabilities we have in all of the kit.",
+   "ev_start": 11031,
+   "ev_end": 11323,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S025",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "ship"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "sentence_index": 19,
+   "sentence": "Mitigation is the usual things: we can ship some across the Caspian; we can ship some on rail; we've got storage that we can use to buffer some of these ups and downs.",
+   "ev_start": 11892,
+   "ev_end": 12059,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S026",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "comfortable"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 6,
+   "sentence": "We are very comfortable to say today that we have successfully increased the nameplate oil capacity of 3GP from the original 260,000 barrels of oil per day to 320,000 barrels of oil per day.",
+   "ev_start": 13162,
+   "ev_end": 13352,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S027",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 9,
+   "sentence": "I'm confident that we can sustain that level of performance.",
+   "ev_start": 13559,
+   "ev_end": 13619,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S028",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "record"
+    ],
+    "performance": [
+     "record"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 10,
+   "sentence": "The efforts by the team are consistent with our track record of looking for the technical limits in plant and increasing the capacity.",
+   "ev_start": 13620,
+   "ev_end": 13754,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S029",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 11,
+   "sentence": "They'll continue to focus on safely and reliably optimizing the plant and the production, optimizing through the integrated operations center from the reservoir through to the market.",
+   "ev_start": 13755,
+   "ev_end": 13938,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S030",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 9,
+   "sentence_index": 12,
+   "sentence": "So we're really, really pleased with that.",
+   "ev_start": 13939,
+   "ev_end": 13981,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S031",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "new operating model"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 3,
+   "sentence": "One of the things I'm really pleased with in the new operating model is we brought all these assets together under common management.",
+   "ev_start": 14858,
+   "ev_end": 14991,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S032",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 6,
+   "sentence": "Argentina is smaller than that but growing.",
+   "ev_start": 15423,
+   "ev_end": 15466,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S033",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 8,
+   "sentence": "At the scale we operate at now, we could grow these assets further, particularly in the Permian, if we chose, but we are working for efficiency, productivity and to generate free cash out of them.",
+   "ev_start": 15701,
+   "ev_end": 15897,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S034",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 12,
+   "sentence_index": 12,
+   "sentence": "So we're getting to know that asset better as was the case with the DJ when we integrated it.",
+   "ev_start": 16208,
+   "ev_end": 16301,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "cash flow"
+    ]
+   },
+   "score": 2.78,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 2,
+   "sentence": "The Permian has been operating for the last five quarters at over 1 million barrels per day, so they are seeing huge efficiencies with this focus on sweating the assets, not growing production, but growing free cash flow.",
+   "ev_start": 17199,
+   "ev_end": 17420,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S036",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 4,
+   "sentence": "It's one of the reasons why we feel confident today to say that we expect to finish the year at the low end of our capital budget range of $18 billion to $19 billion.",
+   "ev_start": 17547,
+   "ev_end": 17713,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S037",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "sentence_index": 10,
+   "sentence": "By bringing all of the shale and tight assets together to run them as one, we couldn't have done it without that integration because they're all learning from each other.",
+   "ev_start": 18270,
+   "ev_end": 18440,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S038",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 6,
+   "sentence": "It also shows that we bring differentiated capabilities to this market.",
+   "ev_start": 19428,
+   "ev_end": 19499,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S039",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeds"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 7,
+   "sentence": "I spoke about the structural shift in power demand where demand far exceeds supply.",
+   "ev_start": 19500,
+   "ev_end": 19583,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S040",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see that"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 8,
+   "sentence": "The grid cannot keep up with demand from hyperscalers and others, and we see that persisting for years.",
+   "ev_start": 19584,
+   "ev_end": 19687,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 11,
+   "sentence": "Our customer and partner relationships and stakeholder engagement are also critical.",
+   "ev_start": 20069,
+   "ev_end": 20153,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "availability"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 12,
+   "sentence": "Turbine availability is tight.",
+   "ev_start": 20154,
+   "ev_end": 20184,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S043",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "announcement"
+    ]
+   },
+   "score": 4.22,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 14,
+   "sentence": "I think the Kilby announcement strengthens our position in these discussions and demonstrates we've converted an opportunity into an executable project.",
+   "ev_start": 20285,
+   "ev_end": 20437,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S044",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 16,
+   "sentence_index": 16,
+   "sentence": "But we'll be disciplined as we move this forward and always focus on value over growth.",
+   "ev_start": 20570,
+   "ev_end": 20657,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 2,
+   "sentence": "And if you look at it, it has continued to grow.",
+   "ev_start": 21411,
+   "ev_end": 21459,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 3,
+   "sentence": "I can have Jeanine follow up with you offline, but it actually has crept up and is still growing.",
+   "ev_start": 21460,
+   "ev_end": 21557,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improvements"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 11,
+   "sentence": "As we work these technology levers and see performance improvements, it changes your options: you can extend the plateau, create more value at plateau, or create more value through growth.",
+   "ev_start": 22309,
+   "ev_end": 22497,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S048",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged"
+    ],
+    "competition": [
+     "advantaged"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 13,
+   "sentence": "This is an advantaged asset given our long history there and our royalty position.",
+   "ev_start": 22669,
+   "ev_end": 22751,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S049",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "product": [
+     "announced"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.94,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 15,
+   "sentence": "On growth, there are three buckets I think about: enhanced opportunities such as our massive shale portfolio, Guyana, Eastern Med expansion projects, Argentina and West Africa; announced business development advancements in exploration, including new entries into Libya, Suriname and Namibia, and our continued leadership in the Gulf of America; and special situations we have some control over, like Venezuela and Iraq.",
+   "ev_start": 22865,
+   "ev_end": 23285,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S050",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 19,
+   "sentence_index": 18,
+   "sentence": "Broadly, we have many growth options and will pursue the strongest while remaining capital disciplined.",
+   "ev_start": 23433,
+   "ev_end": 23536,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S051",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 6,
+   "sentence": "The terms look like they will be competitive within our portfolio, but we still have work to do to finalize all the details.",
+   "ev_start": 24564,
+   "ev_end": 24688,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S052",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 22,
+   "sentence_index": 8,
+   "sentence": "We've got a framework to evaluate that and have talked to a number of interested parties who would participate; we would have a share, but many others would as well.",
+   "ev_start": 24886,
+   "ev_end": 25051,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S053",
+   "topics": [],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "reduction"
+    ],
+    "confident": [
+     "thrilled"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 1,
+   "sentence": "We're absolutely thrilled to share that we achieved the $3 billion of structural cost reduction ahead of schedule.",
+   "ev_start": 25973,
+   "ev_end": 26087,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "restructuring"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 4,
+   "sentence": "We went through a massive restructuring and rewiring of the organization last year, and that is impacting results - about 35% of the 70% I referenced is related to that reorganization.",
+   "ev_start": 26270,
+   "ev_end": 26454,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S055",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 6,
+   "sentence": "A few examples to demonstrate our confidence in sustainability: we centralized functions and created a technical center that allows centralized and standardized engineering work orders across the organization, and we're seeing results there.",
+   "ev_start": 26579,
+   "ev_end": 26820,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S056",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 9,
+   "sentence": "These changes are now built into the business, and we're very confident they'll continue to deliver.",
+   "ev_start": 27168,
+   "ev_end": 27268,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "mixed",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "commitment"
+    ],
+    "confident": [
+     "confidence"
+    ],
+    "hedge": [
+     "we will see"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 28,
+   "sentence_index": 6,
+   "sentence": "The commitment to keeping CPC open from all parties that rely on it and governments that rely on it is very high, and I have a great degree of confidence that that commitment is real and that we will see CPC continue operating.",
+   "ev_start": 28754,
+   "ev_end": 28981,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S058",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "optimistic"
+    ]
+   },
+   "score": 1.22,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 5,
+   "sentence": "West Africa - the deepwater of both Nigeria and Angola - is relatively underexplored, and I'm optimistic large basins with proven petroleum systems offer more opportunities.",
+   "ev_start": 30344,
+   "ev_end": 30517,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S059",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 7,
+   "sentence": "The Mediterranean is interesting; we've had success off Egypt and are a partner in a well where a working petroleum system has been established, which is important in exploration.",
+   "ev_start": 30587,
+   "ev_end": 30766,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S060",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "new tools"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "sentence_index": 9,
+   "sentence": "We'll be disciplined in advancing the portfolio and will use new tools, including AI, which will change cycle times and our ability to see things previously unseen, and I expect it to improve outcomes.",
+   "ev_start": 30919,
+   "ev_end": 31120,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 4,
+   "sentence": "We also have a growing position in North America with 4 million tons per annum that will come online over the next few years, and that position is primarily going into Europe.",
+   "ev_start": 32274,
+   "ev_end": 32449,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 6,
+   "sentence": "JKM and TTF have firmed, and I think demand in both North Asia and Europe is likely to remain strong over the next period.",
+   "ev_start": 32548,
+   "ev_end": 32670,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "best"
+    ],
+    "performance": [
+     "sales"
+    ],
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 3.22,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 34,
+   "sentence_index": 7,
+   "sentence": "We'll make the best sales into each market and continue to operate at high reliability, and I'm pleased to say our Australian assets are operating reliably.",
+   "ev_start": 32671,
+   "ev_end": 32827,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S064",
+   "topics": [
+    "product",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "product": [
+     "availability"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 3,
+   "sentence": "Those margins have been under pressure over the last few years but have been buoyant in recent months as naphtha availability out of the Middle East has been constrained.",
+   "ev_start": 33570,
+   "ev_end": 33740,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S065",
+   "topics": [
+    "competition",
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "advantaged"
+    ],
+    "negative": [
+     "tightening"
+    ],
+    "competition": [
+     "advantaged"
+    ],
+    "pressure": [
+     "tightening"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 5,
+   "sentence": "Ethane crackers are lower cost, so their margins tend to be better, and in an environment of production tightening, CPChem is advantaged.",
+   "ev_start": 33806,
+   "ev_end": 33943,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S066",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "mixed",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ],
+    "hedge": [
+     "we'll see"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 37,
+   "sentence_index": 6,
+   "sentence": "We'll see how long this tightness lasts; I can't predict when things in the Strait will settle down, but we're very pleased with CPChem's performance right now.",
+   "ev_start": 33944,
+   "ev_end": 34104,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S067",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 1,
+   "sentence": "We're excited about the decision.",
+   "ev_start": 34446,
+   "ev_end": 34479,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S068",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 2,
+   "sentence": "The rationale was to explore another pathway for innovation.",
+   "ev_start": 34480,
+   "ev_end": 34540,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S069",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "deploying",
+     "partnering",
+     "innovate"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 4,
+   "sentence": "We have a lot of work underway deploying pilots and trying different chemicals, and partnering with a company that has manufacturing, distribution and pumping service capabilities allows us to co-innovate and accelerate scaling this technology with speed.",
+   "ev_start": 34641,
+   "ev_end": 34896,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S070",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 5,
+   "sentence": "We have many non-operated joint venture volumes, so having a partner allows us to offer this solution to NOJV partners; it's a win-win.",
+   "ev_start": 34897,
+   "ev_end": 35032,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "improving"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 40,
+   "sentence_index": 6,
+   "sentence": "We see this as a way to accelerate progress on improving shale and tight recovery across basins.",
+   "ev_start": 35033,
+   "ev_end": 35129,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S072",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "sentence_index": 5,
+   "sentence": "At the end of the day, we'll remain capital disciplined.",
+   "ev_start": 36294,
+   "ev_end": 36350,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "weaker"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 3,
+   "sentence": "European diesel demand was weaker in the second quarter, which I think kept global inventories from drawing further.",
+   "ev_start": 37037,
+   "ev_end": 37153,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S074",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints",
+     "pressure"
+    ],
+    "pressure": [
+     "constraints",
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 5,
+   "sentence": "Restocking of heating oil ahead of winter, the Russian export ban, refinery outages in Russia and constraints in the Strait all add pressure.",
+   "ev_start": 37199,
+   "ev_end": 37340,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S075",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "hard to say"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 8,
+   "sentence": "The question is when crude flows reestablish and when cracks come back in - hard to say.",
+   "ev_start": 37452,
+   "ev_end": 37540,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S076",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 9,
+   "sentence": "I expect upward pressure on product pricing into the third quarter and perhaps beyond.",
+   "ev_start": 37541,
+   "ev_end": 37627,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S077",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "not obvious"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 10,
+   "sentence": "Demand destruction is not obvious at scale.",
+   "ev_start": 37628,
+   "ev_end": 37671,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S078",
+   "topics": [
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "constraints"
+    ],
+    "pressure": [
+     "constraints"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 46,
+   "sentence_index": 11,
+   "sentence": "China is a black box and is a big question for us, and other Asian markets that faced physical constraints may see short-term demand impacts.",
+   "ev_start": 37672,
+   "ev_end": 37813,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "demand"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 3,
+   "sentence": "None of that has been agreed with Microsoft yet, but their demand needs continue to increase, and we'll work with them if expansion meets our return thresholds.",
+   "ev_start": 38480,
+   "ev_end": 38640,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S080",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 5,
+   "sentence": "The macro demand environment is durable and the depth of our capabilities is differentiated.",
+   "ev_start": 38720,
+   "ev_end": 38812,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S081",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beyond this"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 6,
+   "sentence": "Microsoft saw that with Kilby, and others are interested in growth beyond this in West Texas and perhaps other parts of the U.S.",
+   "ev_start": 38813,
+   "ev_end": 38941,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S082",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jeff Gustavson",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 49,
+   "sentence_index": 7,
+   "sentence": "We'll remain disciplined and stick to return thresholds.",
+   "ev_start": 38942,
+   "ev_end": 38998,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S083",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "forward": [
+     "anticipate"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 3,
+   "sentence": "With the existing model we have in place, we have grown production from those three JVs 15% over the last six months to 280,000 barrels of oil per day, and we anticipate being able to grow up to 50% between now and the end of 2028.",
+   "ev_start": 39900,
+   "ev_end": 40131,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S084",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive",
+     "compete"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "sentence_index": 8,
+   "sentence": "We'll be disciplined; the terms we're discussing are confidential, but they must be competitive and compete in our portfolio for capital.",
+   "ev_start": 40508,
+   "ev_end": 40645,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S085",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 1.22,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 1,
+   "sentence": "We're really excited about the opportunity in Argentina.",
+   "ev_start": 41222,
+   "ev_end": 41278,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S086",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 2,
+   "sentence": "We have history there across three development areas where we are an operator or nonoperated partner.",
+   "ev_start": 41279,
+   "ev_end": 41380,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S087",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "performance": [
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 4,
+   "sentence": "We're leveraging lessons from our shale and tight organization, which now includes the Bakken, DJ and Permian, to deliver on growth we shared at Investor Day, aiming to grow threefold by 2035.",
+   "ev_start": 41514,
+   "ev_end": 41706,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S088",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "performance": [
+     "accelerated",
+     "growth"
+    ]
+   },
+   "score": 3.72,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 7,
+   "sentence": "This framework gives up to 30 years of fiscal stability with incentives like accelerated depreciation and tax incentives, which makes Argentina much more competitive as a growth option.",
+   "ev_start": 41892,
+   "ev_end": 42077,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "CVX_2026_2-S089",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow"
+    ],
+    "strategy": [
+     "disciplined"
+    ],
+    "performance": [
+     "grow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "sentence_index": 8,
+   "sentence": "We'll continue to be disciplined; no change in the near term, but there's a lot of opportunity to grow.",
+   "ev_start": 42078,
+   "ev_end": 42181,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "CVX_2026_2-S002",
+  "CVX_2026_2-S003",
+  "CVX_2026_2-S016",
+  "CVX_2026_2-S007",
+  "CVX_2026_2-S008",
+  "CVX_2026_2-S010",
+  "CVX_2026_2-S013",
+  "CVX_2026_2-S014",
+  "CVX_2026_2-S018",
+  "CVX_2026_2-S021",
+  "CVX_2026_2-S043",
+  "CVX_2026_2-S057",
+  "CVX_2026_2-S060",
+  "CVX_2026_2-S063",
+  "CVX_2026_2-S065",
+  "CVX_2026_2-S076",
+  "CVX_2026_2-S078",
+  "CVX_2026_2-S083",
+  "CVX_2026_2-S084",
+  "CVX_2026_2-S087"
+ ],
+ "surfaced_signal_ids": [
+  "CVX_2026_2-S002",
+  "CVX_2026_2-S003",
+  "CVX_2026_2-S016",
+  "CVX_2026_2-S007",
+  "CVX_2026_2-S008",
+  "CVX_2026_2-S010",
+  "CVX_2026_2-S013",
+  "CVX_2026_2-S014",
+  "CVX_2026_2-S018",
+  "CVX_2026_2-S021",
+  "CVX_2026_2-S043",
+  "CVX_2026_2-S057",
+  "CVX_2026_2-S060",
+  "CVX_2026_2-S063",
+  "CVX_2026_2-S065",
+  "CVX_2026_2-S076",
+  "CVX_2026_2-S078",
+  "CVX_2026_2-S083",
+  "CVX_2026_2-S084",
+  "CVX_2026_2-S087",
+  "CVX_2026_2-S036",
+  "CVX_2026_2-S031",
+  "CVX_2026_2-S001",
+  "CVX_2026_2-S052",
+  "CVX_2026_2-S075",
+  "CVX_2026_2-S077"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "upstream"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 89,
+  "signals_usable": 89,
+  "selected": 20,
+  "by_topic": {
+   "pressure": 8,
+   "momentum": 34,
+   "strategy": 15,
+   "product": 20,
+   "competition": 8
+  },
+  "by_horizon": {
+   "current": 78,
+   "forward": 11
+  },
+  "trajectory_rows": 0,
+  "blocks_with_content": 1,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

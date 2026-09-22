@@ -1,0 +1,467 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "DIS",
+  "fiscal_quarter": 3,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q3",
+  "symbol": "DIS",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q3",
+  "period_end": "2026-06",
+  "fye_month": 9,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "seed",
+  "qa_start_turn": 44,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Ben Swinburne",
+    "role": "ir"
+   },
+   {
+    "name": "Josh D'Amaro",
+    "role": "management"
+   },
+   {
+    "name": "Robert Fishman",
+    "role": "analyst"
+   },
+   {
+    "name": "Laura Martin",
+    "role": "analyst"
+   },
+   {
+    "name": "Hugh Johnston",
+    "role": "management"
+   },
+   {
+    "name": "Rich Greenfield",
+    "role": "analyst"
+   },
+   {
+    "name": "Barton Crockett",
+    "role": "analyst"
+   },
+   {
+    "name": "Mike Morris",
+    "role": "analyst"
+   },
+   {
+    "name": "Kannan Venkateshwar",
+    "role": "analyst"
+   },
+   {
+    "name": "David Karnovsky",
+    "role": "analyst"
+   },
+   {
+    "name": "Peter Supino",
+    "role": "analyst"
+   },
+   {
+    "name": "Steven Cahall",
+    "role": "analyst"
+   },
+   {
+    "name": "Michael Ng",
+    "role": "analyst"
+   },
+   {
+    "name": "Jessica Reif Ehrlich",
+    "role": "analyst"
+   },
+   {
+    "name": "Sean Diffley",
+    "role": "analyst"
+   },
+   {
+    "name": "Bryan Kraft",
+    "role": "analyst"
+   },
+   {
+    "name": "Batya Levi",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Third Quarter",
+   "detail": "the call says 'Third Quarter', matching 2026Q3"
+  },
+  "reported_period_label": "q3",
+  "source_file": "DIS_2026Q3.json",
+  "vocabulary_packs": [
+   "media_entertainment"
+  ]
+ },
+ "facts": [
+  {
+   "kind": "reported",
+   "metric": "operating_income",
+   "segment": "segment",
+   "stat": "growth",
+   "value": 21.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "q3",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Total segment operating income came in ahead of our prior guidance, up 21% with total company revenue growth of 7%, and Disney Experiences delivered record fiscal Q3 revenue and segment OI.",
+   "ev_start": 1832,
+   "ev_end": 2021,
+   "figure_text": "21%",
+   "confidence": "medium",
+   "flags": [
+    "segment_lowercase_phrase",
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "DIS_2026_3-001"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "total",
+   "stat": "growth",
+   "value": 7.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "q3",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Total segment operating income came in ahead of our prior guidance, up 21% with total company revenue growth of 7%, and Disney Experiences delivered record fiscal Q3 revenue and segment OI.",
+   "ev_start": 1832,
+   "ev_end": 2021,
+   "figure_text": "7%",
+   "confidence": "high",
+   "flags": [
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "DIS_2026_3-002"
+  },
+  {
+   "kind": "reported",
+   "metric": "revenue",
+   "segment": "total",
+   "stat": "level",
+   "value": 10000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "q3",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 8,
+   "sentence": "Revenue was $10 billion.",
+   "ev_start": 12247,
+   "ev_end": 12271,
+   "figure_text": "$10 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "DIS_2026_3-003"
+  },
+  {
+   "kind": "reported",
+   "metric": "share_repurchases",
+   "segment": "total",
+   "stat": "level",
+   "value": 7000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "about",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "q3",
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 15,
+   "sentence": "And then as we think about shareholder returns in that aspect of capital allocation, I'd certainly highlight two things: number one is the semiannual dividend, which we've obviously been increasing; and number two, in terms of the share repurchase program, recall, we originally guided to about $7 billion in fiscal '26, and now we're up to at least $9 billion.",
+   "ev_start": 22036,
+   "ev_end": 22397,
+   "figure_text": "$7 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "DIS_2026_3-004"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "4%",
+   "reason": "no_metric_phrase",
+   "sentence": "First, we grew our global guests 4% year-over-year with particular strength at Walt Disney World, while also benefiting from additional capacity at Disney Cruise Line.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 3630
+  },
+  {
+   "figure_text": "$1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Second, the strength of our franchise IP was evident in the financial and cultural impact of Toy Story 5, which recently surpassed $1 billion at the global box office.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 3875
+  },
+  {
+   "figure_text": "100%",
+   "reason": "no_metric_phrase",
+   "sentence": "And third, the unique passion of sports fandom drove over 100% growth in NBA finals and NHL post-season viewership across ESPN and ABC versus the prior season, making this the most viewed fiscal Q3 across ESPN, ESPN2 and ESPN on ABC since 2016.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 4043
+  },
+  {
+   "figure_text": "$4 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "The five Toy Story films have delivered over $4 billion in global box office and over two billion hours streamed on Disney+.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5117
+  },
+  {
+   "figure_text": "$1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Across all retailers, Toy Story generates more than $1 billion in annual global retail sales and reaches fans across every Disney park and cruise ship, including four immersive lands, 19 attractions and two hotels.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 5242
+  },
+  {
+   "figure_text": "13%",
+   "reason": "not_tied_to_metric",
+   "sentence": "We delivered a 13% SVOD operating margin in fiscal Q3, and we remain on track for double-digit margins in fiscal '26, excluding the 53rd week impact.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 7598
+  },
+  {
+   "figure_text": "10%",
+   "reason": "no_metric_phrase",
+   "sentence": "It's 10% above where we were in Q3 last year.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12272
+  },
+  {
+   "figure_text": "4%",
+   "reason": "no_metric_phrase",
+   "sentence": "And then on top of this, and this is really important, we delivered 4% global guest growth, and we had 3% attendance growth at our domestic parks.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12950
+  },
+  {
+   "figure_text": "3%",
+   "reason": "no_metric_phrase",
+   "sentence": "And then on top of this, and this is really important, we delivered 4% global guest growth, and we had 3% attendance growth at our domestic parks.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 12950
+  },
+  {
+   "figure_text": "4%",
+   "reason": "no_metric_phrase",
+   "sentence": "We saw 4% growth in per-cap spending at our domestic parks.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 13134
+  },
+  {
+   "figure_text": "4%",
+   "reason": "no_metric_phrase",
+   "sentence": "You're right in observing that we are seeing the impact of those projects quickly with the Q3 global guest increasing at 4%, segment margin increasing for the quarter.",
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 6,
+   "ev_start": 15439
+  },
+  {
+   "figure_text": "4%",
+   "reason": "change_without_metric",
+   "sentence": "Just a minute ago, I mentioned that Q3 global guests increased 4% above Q3 '25 and that our domestic parks attendance was up 3% in Q3.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "ev_start": 17681
+  },
+  {
+   "figure_text": "3%",
+   "reason": "change_without_metric",
+   "sentence": "Just a minute ago, I mentioned that Q3 global guests increased 4% above Q3 '25 and that our domestic parks attendance was up 3% in Q3.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "ev_start": 17681
+  },
+  {
+   "figure_text": "4%",
+   "reason": "no_metric_phrase",
+   "sentence": "And I think it's pretty clear that with 4% per-cap growth, we're certainly not discounting our way to volume growth.",
+   "speaker": "Josh D'Amaro",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 8,
+   "ev_start": 17950
+  },
+  {
+   "figure_text": "$100 million",
+   "reason": "not_tied_to_metric",
+   "sentence": "Finally, on tariffs, we had about $100 million of tariff refunds in the quarter at Disney Experiences, which hit segment OI with no impact on revenue.",
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 10,
+   "ev_start": 20042
+  },
+  {
+   "figure_text": "$9 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "We're turbocharging the Experiences growth with our $9 billion of fiscal '26 CapEx.",
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "ev_start": 21550
+  },
+  {
+   "figure_text": "$24 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "On content, we're on track to spend $24 billion across the company this year.",
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "ev_start": 21923
+  },
+  {
+   "figure_text": "$9 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "And then as we think about shareholder returns in that aspect of capital allocation, I'd certainly highlight two things: number one is the semiannual dividend, which we've obviously been increasing; and number two, in terms of the share repurchase program, recall, we originally guided to about $7 billion in fiscal '26, and now we're up to at least $9 billion.",
+   "speaker": "Hugh Johnston",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "ev_start": 22036
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 4,
+  "by_kind": {
+   "reported": 4
+  },
+  "by_confidence": {
+   "medium": 1,
+   "high": 3
+  },
+  "verified": 4,
+  "unverified": 0,
+  "unclaimed_figures": 18,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

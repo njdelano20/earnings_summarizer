@@ -1,0 +1,6706 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "PYPL",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "PYPL",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 23,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Steven Winoker",
+    "role": "ir"
+   },
+   {
+    "name": "Enrique Lores",
+    "role": "management"
+   },
+   {
+    "name": "Jamie Miller",
+    "role": "management"
+   },
+   {
+    "name": "Jason Kupferberg",
+    "role": "analyst"
+   },
+   {
+    "name": "Tien-Tsin Huang",
+    "role": "analyst"
+   },
+   {
+    "name": "Daniel Perlin",
+    "role": "analyst"
+   },
+   {
+    "name": "Sanjay Sakhrani",
+    "role": "analyst"
+   },
+   {
+    "name": "Darrin Peller",
+    "role": "analyst"
+   },
+   {
+    "name": "Bryan Keane",
+    "role": "analyst"
+   },
+   {
+    "name": "Timothy Chiodo",
+    "role": "analyst"
+   },
+   {
+    "name": "Ramsey El-Assal",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "PYPL_2026Q2.json",
+  "vocabulary_packs": [
+   "credit_finance"
+  ]
+ },
+ "headline": [
+  {
+   "kind": "result",
+   "text": "Revenue growth 5%, second quarter",
+   "fact_ids": [
+    "PYPL_2026_2-001"
+   ]
+  },
+  {
+   "kind": "result",
+   "text": "EPS $5.38/sh",
+   "fact_ids": [
+    "PYPL_2026_2-012"
+   ]
+  },
+  {
+   "kind": "trajectory",
+   "text": "Revenue growth is accelerating: guided up vs 5% reported",
+   "fact_ids": [
+    "PYPL_2026_2-001"
+   ]
+  },
+  {
+   "kind": "tone",
+   "text": "Management wording (confident vs cautious cues, -1..+1): prepared +0.38",
+   "fact_ids": []
+  }
+ ],
+ "scoreboard": [
+  {
+   "node": "total",
+   "name": "Total company",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "PYPL_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "up",
+    "source": "PYPL_2026_2-S035",
+    "delta_pp": null,
+    "guided_lo": null,
+    "guided_hi": null,
+    "guided_descriptor": null
+   },
+   "stance": {},
+   "n_mentions": 0
+  },
+  {
+   "node": "branded_checkout",
+   "name": "Branded Checkout",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {
+    "confident": 2
+   },
+   "n_mentions": 12
+  },
+  {
+   "node": "transaction",
+   "name": "Transaction",
+   "depth": 0,
+   "revenue": null,
+   "growth": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "PYPL_2026_2-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "gross_margin": null,
+   "outlook": {
+    "direction": "down",
+    "source": "PYPL_2026_2-S105",
+    "delta_pp": -3.0,
+    "guided_lo": 1.0,
+    "guided_hi": 3.0,
+    "guided_descriptor": "low single-digit"
+   },
+   "stance": {},
+   "n_mentions": 16
+  },
+  {
+   "node": "other_value_added_services",
+   "name": "Other Value-Added Services",
+   "depth": 0,
+   "revenue": {
+    "value": 850000000.0,
+    "fact_id": "PYPL_2026_2-008"
+   },
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 2
+  },
+  {
+   "node": "nontransaction_operating_expenses",
+   "name": "Nontransaction Operating Expenses",
+   "depth": 0,
+   "revenue": null,
+   "growth": null,
+   "gross_margin": null,
+   "outlook": null,
+   "stance": {},
+   "n_mentions": 1
+  }
+ ],
+ "company": {
+  "fact_ids": [
+   "PYPL_2026_2-001",
+   "PYPL_2026_2-012",
+   "PYPL_2026_2-011",
+   "PYPL_2026_2-010",
+   "PYPL_2026_2-004",
+   "PYPL_2026_2-002",
+   "PYPL_2026_2-015",
+   "PYPL_2026_2-005",
+   "PYPL_2026_2-006",
+   "PYPL_2026_2-013"
+  ],
+  "signal_ids": [
+   "PYPL_2026_2-S004",
+   "PYPL_2026_2-S005",
+   "PYPL_2026_2-S031",
+   "PYPL_2026_2-S037",
+   "PYPL_2026_2-S043",
+   "PYPL_2026_2-S046",
+   "PYPL_2026_2-S050",
+   "PYPL_2026_2-S065",
+   "PYPL_2026_2-S068",
+   "PYPL_2026_2-S092",
+   "PYPL_2026_2-S094",
+   "PYPL_2026_2-S102",
+   "PYPL_2026_2-S111",
+   "PYPL_2026_2-S128",
+   "PYPL_2026_2-S130",
+   "PYPL_2026_2-S156"
+  ],
+  "trajectory": [
+   "total:revenue"
+  ]
+ },
+ "blocks": [
+  {
+   "id": "branded_checkout",
+   "name": "Branded Checkout",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PYPL_2026_2-003"
+   ],
+   "signal_ids": [
+    "PYPL_2026_2-S006",
+    "PYPL_2026_2-S011",
+    "PYPL_2026_2-S060",
+    "PYPL_2026_2-S064",
+    "PYPL_2026_2-S070",
+    "PYPL_2026_2-S072",
+    "PYPL_2026_2-S097",
+    "PYPL_2026_2-S150",
+    "PYPL_2026_2-S152"
+   ],
+   "n_home_signals": 12,
+   "n_mentions": 12,
+   "stance": {
+    "confident": 2
+   },
+   "trajectory": []
+  },
+  {
+   "id": "transaction",
+   "name": "Transaction",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PYPL_2026_2-007"
+   ],
+   "signal_ids": [
+    "PYPL_2026_2-S077",
+    "PYPL_2026_2-S079",
+    "PYPL_2026_2-S099",
+    "PYPL_2026_2-S104",
+    "PYPL_2026_2-S105",
+    "PYPL_2026_2-S134"
+   ],
+   "n_home_signals": 16,
+   "n_mentions": 16,
+   "stance": {},
+   "trajectory": [
+    "transaction:revenue"
+   ]
+  },
+  {
+   "id": "other_value_added_services",
+   "name": "Other Value-Added Services",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PYPL_2026_2-008",
+    "PYPL_2026_2-009"
+   ],
+   "signal_ids": [
+    "PYPL_2026_2-S078",
+    "PYPL_2026_2-S090"
+   ],
+   "n_home_signals": 2,
+   "n_mentions": 2,
+   "stance": {},
+   "trajectory": []
+  },
+  {
+   "id": "nontransaction_operating_expenses",
+   "name": "Nontransaction Operating Expenses",
+   "dimension": "segment",
+   "parent": null,
+   "depth": 0,
+   "fact_ids": [
+    "PYPL_2026_2-014"
+   ],
+   "signal_ids": [],
+   "n_home_signals": 0,
+   "n_mentions": 1,
+   "stance": {},
+   "trajectory": []
+  }
+ ],
+ "trajectory": [
+  {
+   "key": "total:revenue",
+   "node": "total",
+   "name": "Total company",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "PYPL_2026_2-001",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": null,
+    "hi": null,
+    "descriptor": null,
+    "period": null,
+    "source": "signal_text",
+    "id": "PYPL_2026_2-S035",
+    "direction_word": "up",
+    "text": "As we expand the value we deliver to consumers, we expect to drive deeper engagement, increase monetization and accelerate the growth of Venmo.",
+    "confidence": "medium"
+   },
+   "direction": "up",
+   "delta_pp": null,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  },
+  {
+   "key": "transaction:revenue",
+   "node": "transaction",
+   "name": "Transaction",
+   "metric": "revenue",
+   "kind": "growth",
+   "reported": {
+    "value": 5.0,
+    "period": "second quarter",
+    "fact_id": "PYPL_2026_2-007",
+    "basis": "yoy",
+    "currency_basis": null,
+    "confidence": "high"
+   },
+   "guided": {
+    "lo": 1.0,
+    "hi": 3.0,
+    "descriptor": "low single-digit",
+    "period": null,
+    "source": "signal_text",
+    "id": "PYPL_2026_2-S105",
+    "direction_word": "down",
+    "text": "We expect low single-digit revenue growth on a currency-neutral basis, slightly positive growth in transaction margin dollars, transaction margin dollars excluding interest on customer balances to be slightly positive to growing low single digits, high single-digit growth in nontransaction operating expenses, and non-GAAP earnings per share to decline within a low single-digit range.",
+    "position": null,
+    "modifier": null,
+    "confidence": "medium"
+   },
+   "direction": "down",
+   "delta_pp": -3.0,
+   "confidence": "medium",
+   "note": "guided figure read from the sentence, not yet in the ledger"
+  }
+ ],
+ "tone": {
+  "method": "lexical cue counts on management sentences; indicative of wording, not a measure of business health",
+  "sections": {
+   "prepared": {
+    "confident": 9,
+    "cautious": 4,
+    "mixed": 0,
+    "withheld": 0,
+    "index": 0.38
+   },
+   "qa": {
+    "confident": 0,
+    "cautious": 0,
+    "mixed": 0,
+    "withheld": 0,
+    "index": null
+   }
+  },
+  "speakers": {
+   "Enrique Lores": {
+    "confident": 7,
+    "cautious": 2
+   },
+   "Jamie Miller": {
+    "confident": 2,
+    "cautious": 2
+   }
+  },
+  "notable_confident": [
+   "PYPL_2026_2-S009",
+   "PYPL_2026_2-S133",
+   "PYPL_2026_2-S040",
+   "PYPL_2026_2-S123"
+  ],
+  "notable_cautious": [
+   "PYPL_2026_2-S098",
+   "PYPL_2026_2-S056",
+   "PYPL_2026_2-S124",
+   "PYPL_2026_2-S154"
+  ],
+  "withheld": [],
+  "revisions": [
+   "PYPL_2026_2-S011",
+   "PYPL_2026_2-S095",
+   "PYPL_2026_2-S097",
+   "PYPL_2026_2-S099"
+  ]
+ },
+ "signals": [
+  {
+   "id": "PYPL_2026_2-S001",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate",
+     "improving"
+    ],
+    "performance": [
+     "accelerate",
+     "growth",
+     "profitability",
+     "cash flow"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 4,
+   "sentence": "We are making steady, tangible progress in our transformation and the actions we are taking are positioning us to accelerate and diversify growth across the company while improving profitability and cash flow over time.",
+   "ev_start": 1209,
+   "ev_end": 1428,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S002",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded"
+    ],
+    "strategy": [
+     "disciplined"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 7,
+   "sentence": "We delivered results that exceeded our expectations reflecting disciplined execution across the business.",
+   "ev_start": 1677,
+   "ev_end": 1782,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S003",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [
+    "PYPL_2026_2-001"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increased 5",
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "margin",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 8,
+   "sentence": "Revenue increased 5% and transaction margin dollars grew 1%.",
+   "ev_start": 1783,
+   "ev_end": 1843,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S004",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strength",
+     "grew"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "grew",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 9,
+   "sentence": "Excluding interest on customer balances, TM dollars grew 3%, driven by continued strength in Venmo, Credit and Braintree, while at the same time, increasing our growth investments this quarter.",
+   "ev_start": 1844,
+   "ev_end": 2037,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S005",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PYPL_2026_2-002"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "exceeded"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "earnings",
+     "declining"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 7.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 10,
+   "sentence": "Non-GAAP earnings per share exceeded our guidance, declining 1% year-over-year to $1.38.",
+   "ev_start": 2038,
+   "ev_end": 2126,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S006",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [
+    "PYPL_2026_2-003"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "increasing 2"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 11,
+   "sentence": "Branded checkout total payment volume continued to stabilize, increasing 2% on a currency-neutral basis, consistent with last quarter.",
+   "ev_start": 2127,
+   "ev_end": 2261,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S007",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum",
+     "mid-teens",
+     "growing"
+    ],
+    "performance": [
+     "momentum",
+     "volume",
+     "growing"
+    ]
+   },
+   "score": 2.86,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 12,
+   "sentence": "Venmo and Braintree once again delivered strong momentum with total payment volume growing in the mid-teens.",
+   "ev_start": 2262,
+   "ev_end": 2370,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S008",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "strategy": [
+     "investing",
+     "repurchase",
+     "dividend"
+    ],
+    "performance": [
+     "cash flow"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 13,
+   "sentence": "We also generated strong free cash flow, providing flexibility to continue investing in the business while returning capital to shareholders through our repurchase program and dividend.",
+   "ev_start": 2371,
+   "ev_end": 2556,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S009",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 14,
+   "sentence": "Our performance in the quarter gives us confidence as we move into the second half of the year.",
+   "ev_start": 2557,
+   "ev_end": 2652,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S010",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "full year",
+     "guidance"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 15,
+   "sentence": "As a result, we are raising our full year guidance for transaction margin dollars and non-GAAP EPS.",
+   "ev_start": 2653,
+   "ev_end": 2752,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S011",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "raised",
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "low single-digit"
+    ],
+    "forward": [
+     "for the year"
+    ],
+    "performance": [],
+    "revision": [
+     "raised"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 16,
+   "sentence": "We're also raising our expectation for online branded checkout to the low single-digit range for the year.",
+   "ev_start": 2753,
+   "ev_end": 2859,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S012",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 18,
+   "sentence": "We are confident in our ability to create long-term shareholder value that builds on our trusted global brands with a matched customer scale, unique data and a two-sided open payments network.",
+   "ev_start": 2908,
+   "ev_end": 3100,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S013",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 20,
+   "sentence": "We are diversifying our business model beyond Checkout with financial services across PayPal and Venmo, becoming the largest driver of future transaction margin growth.",
+   "ev_start": 3154,
+   "ev_end": 3322,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S014",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 21,
+   "sentence": "Expanding into financial services meaningfully increases our addressable market and creates new opportunities for long-term growth.",
+   "ev_start": 3323,
+   "ev_end": 3454,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S015",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "momentum",
+     "strong"
+    ],
+    "performance": [
+     "accelerating",
+     "momentum",
+     "growth"
+    ]
+   },
+   "score": 3.04,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 22,
+   "sentence": "We are accelerating the momentum of Venmo and our payment service provider businesses, both of which are already delivering strong growth.",
+   "ev_start": 3455,
+   "ev_end": 3593,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S016",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 23,
+   "sentence": "We are also rebuilding the consumer side of our network through investments in technology, data and local capabilities, allowing us to better serve our highest-value consumers while creating more value for merchants.",
+   "ev_start": 3594,
+   "ev_end": 3810,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S017",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 25,
+   "sentence": "And our investments in AI and technology modernization have focused on clear business priorities and measurable outcomes that will help us accelerate innovation.",
+   "ev_start": 3955,
+   "ev_end": 4116,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S018",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 26,
+   "sentence": "Taken together, we believe these changes position PayPal for stronger execution, more diversified growth and greater long-term shareholder value.",
+   "ev_start": 4117,
+   "ev_end": 4262,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S019",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "competition": [
+     "competitive"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 29,
+   "sentence": "Our investments are aligned with those priorities and we are executing with discipline to build a stronger, more competitive business.",
+   "ev_start": 4376,
+   "ev_end": 4510,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S020",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 32,
+   "sentence": "At the same time, we are laying the groundwork for our next phase of growth by investing to deepen customer engagement and increase lifetime value.",
+   "ev_start": 4733,
+   "ev_end": 4880,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S021",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "expecting",
+     "second half"
+    ],
+    "product": [
+     "new capabilities"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 33,
+   "sentence": "These investments are already underway with momentum expecting to build in the second half of 2027 and continue throughout 2028 as new capabilities scale across the platform.",
+   "ev_start": 4881,
+   "ev_end": 5055,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S022",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "product": [
+     "next-generation",
+     "innovations"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 34,
+   "sentence": "Looking to 2028 and beyond, we expect our next-generation innovations such as agentic payments and digital identity to become increasingly meaningful contributors to our business.",
+   "ev_start": 5056,
+   "ev_end": 5235,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S023",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 35,
+   "sentence": "We believe these are areas where the industry will be fundamentally reshaped and we're investing today to position PayPal to help define what comes next.",
+   "ev_start": 5236,
+   "ev_end": 5389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S024",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 38,
+   "sentence": "We believe putting the consumer at the center of our strategy will strengthen our network, improve our merchant value proposition and drive long-term growth.",
+   "ev_start": 5490,
+   "ev_end": 5647,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S025",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 41,
+   "sentence": "We are sharpening our focus on our highest-value consumer segments because they represent our greatest opportunity for long-term growth.",
+   "ev_start": 5886,
+   "ev_end": 6022,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S026",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "growing",
+     "revenue"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 42,
+   "sentence": "This is a large and growing cohort of highly engaged consumers whose active accounts and average revenue per active account are growing faster than the rest of our customer base.",
+   "ev_start": 6023,
+   "ev_end": 6201,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S027",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "performance": [
+     "volume"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 43,
+   "sentence": "They account for the majority of our payment volume and improving how we serve them is our first priority.",
+   "ev_start": 6202,
+   "ev_end": 6308,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S028",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "beyond the"
+    ]
+   },
+   "score": 1.72,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 46,
+   "sentence": "Checkout remains foundational, but financial services, including buy now pay later, Credit and other capabilities allow us to deepen customer relationships well beyond the transaction.",
+   "ev_start": 6485,
+   "ev_end": 6669,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S029",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improve"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 47,
+   "sentence": "By retaining this customer longer, increasing our share of wallet and attracting more consumers like them, we can improve customer lifetime value, engagement and durable volume growth.",
+   "ev_start": 6670,
+   "ev_end": 6854,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S030",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see the"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 51,
+   "sentence": "Those capabilities help us deliver more relevant experiences, better match products to customer needs and invest where we see the greatest opportunity to create value.",
+   "ev_start": 7300,
+   "ev_end": 7467,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S031",
+   "topics": [
+    "competition",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strongest",
+     "improving"
+    ],
+    "competition": [
+     "competitive",
+     "advantage"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 52,
+   "sentence": "We are putting this strategy into action by improving the end-to-end customer experience and investing behind the products, capabilities and markets where we have the strongest competitive advantage.",
+   "ev_start": 7468,
+   "ev_end": 7667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S032",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "product": [
+     "introduced",
+     "availability"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 54,
+   "sentence": "This quarter, Temu introduced BNPL in Canada, expanding availability to eight markets globally.",
+   "ev_start": 7759,
+   "ev_end": 7854,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S033",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched"
+    ],
+    "product": [
+     "launched"
+    ]
+   },
+   "score": 3.39,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 55,
+   "sentence": "And Home Depot Canada launched upstream presentment of our BNPL offerings.",
+   "ev_start": 7855,
+   "ev_end": 7929,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S034",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "profitable",
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 60,
+   "sentence": "Longer term, we'll unlock new sources of profitable growth through initiatives like agentic payments while creating stronger network effects by better monetizing the wallet, identity and merchant infrastructure we have built over the past two decades.",
+   "ev_start": 8368,
+   "ev_end": 8619,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S035",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate",
+     "expand"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 5.04,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 63,
+   "sentence": "As we expand the value we deliver to consumers, we expect to drive deeper engagement, increase monetization and accelerate the growth of Venmo.",
+   "ev_start": 8771,
+   "ev_end": 8914,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S036",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "performance": [
+     "adoption",
+     "revenue"
+    ]
+   },
+   "score": 4.04,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 66,
+   "sentence": "Once we have engaged new users and grown their Venmo balance, our next priority will drive broader adoption of our financial services offerings to expand average revenue per account.",
+   "ev_start": 9191,
+   "ev_end": 9373,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S037",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "launched",
+     "grow"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "product": [
+     "launched",
+     "adoption"
+    ],
+    "performance": [
+     "adoption",
+     "grow"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 71,
+   "sentence": "We recently launched a holistic marketing program to drive broader adoption of these monetized products, and we believe there is much more room to grow.",
+   "ev_start": 9835,
+   "ev_end": 9987,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S038",
+   "topics": [
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "product": [
+     "launch",
+     "new products"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 72,
+   "sentence": "Over time, we will launch new products that enable consumers to send, spend and borrow seamlessly.",
+   "ev_start": 9988,
+   "ev_end": 10086,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S039",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "differentiated"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 73,
+   "sentence": "This is where PayPal's connected ecosystem gives us a differentiated right to win.",
+   "ev_start": 10087,
+   "ev_end": 10169,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S040",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 75,
+   "sentence": "The momentum we are seeing today reinforces our confidence that this strategy will continue to deliver durable monetization.",
+   "ev_start": 10424,
+   "ev_end": 10548,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S041",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "adoption"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 80,
+   "sentence": "Our immediate focus is on driving adoption of our existing value-added services across our large enterprise merchants in the U.S. and Europe.",
+   "ev_start": 10866,
+   "ev_end": 11007,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S042",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "challenges"
+    ],
+    "product": [
+     "embedded"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 81,
+   "sentence": "Payouts, Risk as a Service, payment optimization and embedded finance solutions help merchants access increasingly complex global payments and commerce challenges.",
+   "ev_start": 11008,
+   "ev_end": 11171,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S043",
+   "topics": [
+    "competition",
+    "product",
+    "pressure",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "difficult"
+    ],
+    "competition": [
+     "differentiated"
+    ],
+    "product": [
+     "adoption"
+    ],
+    "pressure": [
+     "difficult"
+    ],
+    "performance": [
+     "adoption"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 82,
+   "sentence": "These differentiated capabilities are difficult to replicate, and we see substantial runway for further adoption.",
+   "ev_start": 11172,
+   "ev_end": 11285,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S044",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double"
+    ],
+    "forward": [
+     "we will",
+     "we see the"
+    ],
+    "performance": [
+     "profitable",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 83,
+   "sentence": "Next, we will double down on underpenetrated customer segments and geographies where we see the greatest potential for durable profitable growth.",
+   "ev_start": 11286,
+   "ev_end": 11431,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S045",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 85,
+   "sentence": "To better attract and serve merchants with increasingly sophisticated needs, we are expanding our technical sales capability and creating a team dedicated to selling value-added services.",
+   "ev_start": 11504,
+   "ev_end": 11691,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S046",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 3.34,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 86,
+   "sentence": "We are also accelerating our platform modernization work to deliver a better merchant experience by unifying Braintree, PayPal Complete Payments and Hyperwallet into a single foundation.",
+   "ev_start": 11692,
+   "ev_end": 11878,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S047",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving",
+     "expanding"
+    ],
+    "performance": [
+     "sales"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 87,
+   "sentence": "Our near-term priorities are improving interoperability and expanding sales processing capabilities, merchant lending and payouts.",
+   "ev_start": 11879,
+   "ev_end": 12009,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S048",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrate"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 88,
+   "sentence": "Over time, this work will make it faster and easier for merchants to adopt, integrate and scale our full suite of capabilities.",
+   "ev_start": 12010,
+   "ev_end": 12137,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S049",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 89,
+   "sentence": "Over the long term, as this work matures, we will unlock new flexibility and reach, enabling growth across all merchant types.",
+   "ev_start": 12138,
+   "ev_end": 12264,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S050",
+   "topics": [
+    "competition",
+    "product"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "competition": [
+     "differentiators"
+    ],
+    "product": [
+     "launch"
+    ]
+   },
+   "score": 6.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 90,
+   "sentence": "At the same time, we will launch more commercial offerings supported by differentiators like AI and agentic payments.",
+   "ev_start": 12265,
+   "ev_end": 12382,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S051",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "future"
+    ]
+   },
+   "score": 0.98,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 91,
+   "sentence": "These capabilities can support future growth by positioning PayPal to capture more transactions wherever they take place.",
+   "ev_start": 12383,
+   "ev_end": 12504,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S052",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 98,
+   "sentence": "At the same time, we are continuing to modernize our technology platform to create simpler, more unified customer experiences, accelerate innovation and improve our cost structure.",
+   "ev_start": 13274,
+   "ev_end": 13454,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S053",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "competition": [
+     "competitive",
+     "advantage"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 99,
+   "sentence": "Our priorities are clear: converging into a single platform to reduce complexity, continuing our migration from owned data centers to the cloud, building a more modular and scalable architecture that strengthens our competitive advantage and enhancing the consistency, resiliency and quality of every customer experience through stronger controls and fast standardized capabilities.",
+   "ev_start": 13455,
+   "ev_end": 13837,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S054",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 103,
+   "sentence": "Before I conclude, I want to address the recent M&A speculation regarding the company.",
+   "ev_start": 14084,
+   "ev_end": 14170,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S055",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "m&a"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 104,
+   "sentence": "I'm sure you can understand as a matter of policy, we don't comment on market speculation or potential M&A discussion.",
+   "ev_start": 14171,
+   "ev_end": 14289,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S056",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 109,
+   "sentence": "At the same time, we remain open and objective in evaluating opportunities.",
+   "ev_start": 14649,
+   "ev_end": 14724,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S057",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest"
+    ],
+    "forward": [
+     "we believe"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 1,
+   "sentence": "Over the last quarter, the team has focused on sharpening our strategy across each of our three core businesses, while taking a rigorous approach to identifying the opportunities where we believe we can generate the highest and most durable return on our investments.",
+   "ev_start": 15120,
+   "ev_end": 15387,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S058",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 2,
+   "sentence": "Based on the progress to date, we are confident that greater strategic clarity underpinned by sharper execution and a leaner cost structure will enable us to deliver durable results over time.",
+   "ev_start": 15388,
+   "ev_end": 15580,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S059",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PYPL_2026_2-004"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "performance": [
+     "volume",
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 5,
+   "sentence": "Total payment volume was $486 billion, accelerating to 9% currency-neutral growth.",
+   "ev_start": 15762,
+   "ev_end": 15844,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S060",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "grow"
+    ],
+    "performance": [
+     "volume",
+     "growth",
+     "grow"
+    ]
+   },
+   "score": 3.9,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 6,
+   "sentence": "On a currency-neutral basis, online branded checkout volume growth stabilized at 2% for a second consecutive quarter, while Braintree and Venmo continue to grow in the mid-teens.",
+   "ev_start": 15845,
+   "ev_end": 16023,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S061",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 7,
+   "sentence": "Second quarter revenue grew 5% on a spot and 3% on a currency-neutral basis.",
+   "ev_start": 16024,
+   "ev_end": 16100,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S062",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "grow"
+    ],
+    "performance": [
+     "momentum",
+     "grow",
+     "revenue"
+    ]
+   },
+   "score": 2.94,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 8,
+   "sentence": "Our financial services portfolio, including Credit and Buy Now Pay Later is showing good momentum on pace to grow revenue at least twice as fast as the total company this year.",
+   "ev_start": 16101,
+   "ev_end": 16277,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S063",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "margin",
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 9,
+   "sentence": "Transaction margin dollars excluding interest on customer balances grew 3%.",
+   "ev_start": 16278,
+   "ev_end": 16353,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S064",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 13,
+   "sentence": "Growth in these areas more than offset investments to strengthen branded checkout and drive higher engagement over time.",
+   "ev_start": 16699,
+   "ev_end": 16819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S065",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PYPL_2026_2-005",
+    "PYPL_2026_2-006"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than"
+    ],
+    "negative": [
+     "declining"
+    ],
+    "forward": [
+     "guidance"
+    ],
+    "performance": [
+     "earnings",
+     "declining"
+    ],
+    "guidance_figure": [
+     "ledger"
+    ]
+   },
+   "score": 7.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 14,
+   "sentence": "Second quarter non-GAAP earnings per share came in better than our guidance, declining 1% to $1.38.",
+   "ev_start": 16820,
+   "ev_end": 16919,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S066",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "sale of"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 16,
+   "sentence": "Adjusted free cash flow, which excludes the timing impact from the origination and sale of Paylater receivables was $1.8 billion.",
+   "ev_start": 17108,
+   "ev_end": 17237,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S067",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "grew"
+    ],
+    "performance": [
+     "grew",
+     "accelerating"
+    ]
+   },
+   "score": 3.32,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 20,
+   "sentence": "Transactions per active account, excluding PSP, grew 7%, accelerating for a second consecutive quarter.",
+   "ev_start": 17388,
+   "ev_end": 17491,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S068",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 23,
+   "sentence": "Branded experience TPV, which includes online checkout, PayPal and Venmo debit as well as tap-to-pay grew 6% compared to 5% in the first quarter and 4% in the fourth quarter.",
+   "ev_start": 17587,
+   "ev_end": 17761,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S069",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 24,
+   "sentence": "While debit card and tap-to-pay spend represent a small portion of branded experiences volume today, growth remained strong at greater than 60% year-over-year.",
+   "ev_start": 17762,
+   "ev_end": 17921,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S070",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "up 2"
+    ],
+    "performance": [
+     "volume",
+     "growth"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 26,
+   "sentence": "Online branded checkout volume growth further stabilized, up 2% on a currency-neutral basis, consistent with first quarter growth.",
+   "ev_start": 18063,
+   "ev_end": 18193,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S071",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "better than",
+     "accelerating"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 2.26,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 27,
+   "sentence": "This was slightly better than our expectations, primarily driven by accelerating buy now pay later and Pay with Venmo performance as well as faster growth in the U.S.",
+   "ev_start": 18194,
+   "ev_end": 18360,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S072",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "taking share",
+     "growing"
+    ],
+    "competition": [
+     "taking share"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 5.26,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 28,
+   "sentence": "Pay with Venmo and Buy Now Pay Later continue to outpace the market, taking share from other payment methods and growing 44% and 26%.",
+   "ev_start": 18361,
+   "ev_end": 18494,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S073",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "healthy",
+     "momentum",
+     "up 10"
+    ],
+    "performance": [
+     "volume",
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 3.54,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 29,
+   "sentence": "P2P and other consumer volume growth remains healthy, up 10% in the second quarter and reflecting the debit card and Venmo momentum I just mentioned.",
+   "ev_start": 18495,
+   "ev_end": 18644,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S074",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerated"
+    ],
+    "forward": [
+     "second half"
+    ],
+    "performance": [
+     "volume",
+     "growth",
+     "accelerated"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 31,
+   "sentence": "Volume growth accelerated to 13% from 11% in the first quarter and from 7% in the second half of 2025.",
+   "ev_start": 18661,
+   "ev_end": 18763,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S075",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "mid-teens",
+     "grow"
+    ],
+    "performance": [
+     "grow",
+     "growth",
+     "profitable"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 32,
+   "sentence": "Braintree TPV continued to grow in the mid-teens from a combination of growth in profitable front book business, high retention and growth alongside our existing merchant base.",
+   "ev_start": 18764,
+   "ev_end": 18940,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S076",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 33,
+   "sentence": "We are driving higher attachment of value-added services, supporting margin expansion over time.",
+   "ev_start": 18941,
+   "ev_end": 19037,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S077",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [
+    "PYPL_2026_2-007"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "revenue",
+     "grew"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 35,
+   "sentence": "Transaction revenue grew 5% on a spot basis to $7.8 billion.",
+   "ev_start": 19083,
+   "ev_end": 19143,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S078",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "other_value_added_services"
+   ],
+   "home": "other_value_added_services",
+   "fact_ids": [
+    "PYPL_2026_2-008"
+   ],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong"
+    ],
+    "performance": [
+     "revenue"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 36,
+   "sentence": "Other value-added services revenue was approximately flat at $850 million driven by strong contribution from consumer and merchant credit offset primarily by lower interest rates on customer balances.",
+   "ev_start": 19144,
+   "ev_end": 19344,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S079",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declined"
+    ],
+    "performance": [
+     "declined"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 37,
+   "sentence": "Transaction take rate declined by seven basis points to 1.61%.",
+   "ev_start": 19345,
+   "ev_end": 19407,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S080",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.04,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 38,
+   "sentence": "Operationally, this was driven by a combination of factors, including branded co-marketing investments and mix dynamics, including faster Venmo growth.",
+   "ev_start": 19408,
+   "ev_end": 19559,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S081",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grew"
+    ],
+    "performance": [
+     "grew"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 39,
+   "sentence": "TM dollars ex interest on customer balances grew 3%.",
+   "ev_start": 19560,
+   "ev_end": 19612,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S082",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improved"
+    ],
+    "performance": []
+   },
+   "score": 2.89,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 41,
+   "sentence": "Transaction loss as a percentage of TPV improved slightly year-over-year to seven basis points.",
+   "ev_start": 19770,
+   "ev_end": 19865,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S083",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 42,
+   "sentence": "This reflects our team's ongoing work and OpEx investments to improve and strengthen onboarding, fraud prevention and risk management capabilities.",
+   "ev_start": 19866,
+   "ev_end": 20013,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S084",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "accelerate"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 43,
+   "sentence": "During the second quarter, we made meaningful progress on our reorganization and sharpened our view of the highest impact actions needed to accelerate our growth strategy.",
+   "ev_start": 20014,
+   "ev_end": 20185,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S085",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "performance": [
+     "margin"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 44,
+   "sentence": "At the same time, we saw stronger-than-expected underlying business performance, including transaction margin trends.",
+   "ev_start": 20186,
+   "ev_end": 20303,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S086",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invested"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 45,
+   "sentence": "And against that backdrop, we have invested more heavily in a number of high priority areas, which helped drive higher nontransaction-related operating expense in the quarter and will continue in the third quarter.",
+   "ev_start": 20304,
+   "ev_end": 20518,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S087",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "forward": [
+     "we see the"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 46,
+   "sentence": "These investments reflect our prioritization of operating spend in the areas where we see the greatest long-term value creation and position us to capitalize on the momentum we're seeing while advancing our transformation.",
+   "ev_start": 20519,
+   "ev_end": 20741,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S088",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 47,
+   "sentence": "It's important to note that part of the increase is timing; we're investing ahead of cost savings that we expect to become more material in the fourth quarter.",
+   "ev_start": 20742,
+   "ev_end": 20901,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S089",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "improve"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 48,
+   "sentence": "These investments include platform and cloud modernization, risk capabilities that improve loss performance and targeted investments to support our highest priority growth initiatives.",
+   "ev_start": 20902,
+   "ev_end": 21086,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S090",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "other_value_added_services"
+   ],
+   "home": "other_value_added_services",
+   "fact_ids": [
+    "PYPL_2026_2-009"
+   ],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "down 8"
+    ],
+    "product": [
+     "partner"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 49,
+   "sentence": "As a result of higher operating expenses, as well as the lapping of the nonrecurring partner benefit previously discussed, non-GAAP operating income was down 8% in the quarter to $1.5 billion.",
+   "ev_start": 21087,
+   "ev_end": 21279,
+   "confidence": "high",
+   "flags": [
+    "segment_from_fact"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S091",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PYPL_2026_2-010"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 51,
+   "sentence": "In the second quarter, we completed $1.5 billion in share repurchases, bringing the trailing 12-month total to $6 billion.",
+   "ev_start": 21310,
+   "ev_end": 21432,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S092",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PYPL_2026_2-011"
+   ],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 52,
+   "sentence": "We ended the quarter with $15.3 billion in cash, cash equivalents and investments and $13.4 billion in debt.",
+   "ev_start": 21433,
+   "ev_end": 21541,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S093",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "pleased"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 54,
+   "sentence": "We are pleased with our first half performance, reflecting continued stabilization and the resilience of our business while driving significant organizational change.",
+   "ev_start": 21615,
+   "ev_end": 21781,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S094",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "momentum"
+    ]
+   },
+   "score": 3.48,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 55,
+   "sentence": "As Enrique highlighted, 2026 is a year where PayPal is strengthening its fundamentals and its execution muscle to position for greater momentum in the years ahead.",
+   "ev_start": 21782,
+   "ev_end": 21945,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S095",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "expect"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 58,
+   "sentence": "We now expect transaction margin dollars to increase to approximately $15.6 billion or $14.5 billion, excluding interest on customer balances.",
+   "ev_start": 22130,
+   "ev_end": 22272,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S096",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [
+    "PYPL_2026_2-013"
+   ],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "guidance"
+    ],
+    "strategy": [
+     "repurchases"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 60,
+   "sentence": "Our guidance continues to assume at least $6 billion of adjusted free cash flow and approximately $6 billion in share repurchases.",
+   "ev_start": 22379,
+   "ev_end": 22509,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S097",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": {
+    "node": "branded_checkout",
+    "metric": "revenue",
+    "descriptor": "low single-digit",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "low single-digit",
+     "improvement"
+    ],
+    "forward": [
+     "expect",
+     "for the full year"
+    ],
+    "performance": [
+     "growth"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 5.89,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 61,
+   "sentence": "For online branded checkout, we now expect low single-digit TPV growth on a currency-neutral basis for the full year, reflecting a modest improvement from our prior expectations.",
+   "ev_start": 22510,
+   "ev_end": 22688,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S098",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments",
+     "disciplined"
+    ],
+    "hedge": [
+     "evaluating"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 62,
+   "sentence": "We are encouraged by the early progress of our targeted growth investments and remain disciplined in evaluating their performance, balancing near and longer-term value creation.",
+   "ev_start": 22689,
+   "ev_end": 22866,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S099",
+   "topics": [
+    "pressure",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": "revised",
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwind"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "pressure": [
+     "headwind"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "margin"
+    ],
+    "revision": [
+     "revised"
+    ]
+   },
+   "score": 8.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 63,
+   "sentence": "We now expect these investments to represent a modestly lower headwind to transaction margin dollars in 2026 than the three points we previously anticipated.",
+   "ev_start": 22867,
+   "ev_end": 23024,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S100",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 64,
+   "sentence": "This primarily reflects the timing of investment activity during the year rather than any change to our conviction around these initiatives.",
+   "ev_start": 23025,
+   "ev_end": 23165,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S101",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments",
+     "investing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 65,
+   "sentence": "Consistent with the investments we've already discussed, a portion of that benefit is offset by higher nontransaction OpEx as we continue investing in our transformation and other high priority opportunities.",
+   "ev_start": 23166,
+   "ev_end": 23374,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S102",
+   "topics": [
+    "product",
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "decreased"
+    ],
+    "product": [
+     "embedding"
+    ],
+    "strategy": [
+     "investment"
+    ],
+    "performance": [
+     "decreased"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 67,
+   "sentence": "We have decreased end-to-end production time by embedding AI within the full software delivery cycle, and we have prioritized geographies for investment and identified specific rationalization opportunities.",
+   "ev_start": 23494,
+   "ev_end": 23701,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S103",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "highest",
+     "improving"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 71,
+   "sentence": "Consistent with what we shared last quarter, we intend to reinvest a significant portion of these savings into our highest priority growth initiatives while improving operating leverage and our overall financial profile over time.",
+   "ev_start": 24191,
+   "ev_end": 24421,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S104",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "full year",
+     "guidance",
+     "expecting"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "margin",
+     "earnings",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 72,
+   "sentence": "With that said, we are raising our full year guidance for non-GAAP transaction margin dollars and earnings per share, while also expecting higher nontransaction-related operating expense growth, reflecting the stronger business performance we're seeing and investments aligned with our strategy.",
+   "ev_start": 24422,
+   "ev_end": 24717,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S105",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "mixed",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction",
+    "nontransaction_operating_expenses"
+   ],
+   "home": "transaction",
+   "fact_ids": [
+    "PYPL_2026_2-014",
+    "PYPL_2026_2-015"
+   ],
+   "guided": {
+    "node": "transaction",
+    "metric": "revenue",
+    "descriptor": "low single-digit",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": "down",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "low single-digit",
+     "positive",
+     "low single digits",
+     "high single-digit"
+    ],
+    "negative": [
+     "decline"
+    ],
+    "forward": [
+     "expect"
+    ],
+    "performance": [
+     "revenue",
+     "growth",
+     "margin",
+     "growing",
+     "earnings",
+     "decline"
+    ]
+   },
+   "score": 5.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 75,
+   "sentence": "We expect low single-digit revenue growth on a currency-neutral basis, slightly positive growth in transaction margin dollars, transaction margin dollars excluding interest on customer balances to be slightly positive to growing low single digits, high single-digit growth in nontransaction operating expenses, and non-GAAP earnings per share to decline within a low single-digit range.",
+   "ev_start": 24920,
+   "ev_end": 25306,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S106",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "forward": [
+     "guidance",
+     "full year",
+     "expect"
+    ],
+    "performance": [
+     "margin",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 76,
+   "sentence": "As implied from our guidance for the third quarter and the full year, we also expect fourth quarter transaction margin dollar growth to be slightly positive.",
+   "ev_start": 25307,
+   "ev_end": 25464,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S107",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 3,
+   "sentence_index": 78,
+   "sentence": "Our path to realizing the next phase of PayPal's growth is becoming clearer with substantive progress and we remain focused on building our momentum to drive durable long-term value creation.",
+   "ev_start": 25563,
+   "ev_end": 25754,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S108",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integration"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 6,
+   "sentence_index": 6,
+   "sentence": "And some of that is around technology and risk, but a big portion of it is around really building out product in a deeper way, financial services, buy now pay later, the integration of that back into PayPal and into Venmo, and really making sure that we've got the right consumer platforms around that and the marketing dollars to really shift and deepen our consumer value proposition over time and have that come through in the way of stronger operating leverage as we do it.",
+   "ev_start": 27072,
+   "ev_end": 27549,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S109",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 1,
+   "sentence": "Our investments are going to be fully aligned to the areas that we described during the prepared remarks and are the changes we are driving in the strategy.",
+   "ev_start": 27663,
+   "ev_end": 27819,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S110",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expand"
+    ],
+    "forward": [
+     "we are going to"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 3,
+   "sentence": "And we are going to be investing to expand our portfolio, to expand our geographical coverage and also to expand from a distribution perspective, and we are working with multiple partners and companies to make that happen.",
+   "ev_start": 27910,
+   "ev_end": 28132,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S111",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we are going to"
+    ],
+    "product": [
+     "launching",
+     "integrated",
+     "partnership"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 5.48,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 4,
+   "sentence": "For example, PayPal will be soon launching an integrated consumer lending partnership with Amazon for Germany and Austria, and this is a good example of the type of investments we are going to be making.",
+   "ev_start": 28133,
+   "ev_end": 28336,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S112",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating"
+    ],
+    "forward": [
+     "we are going to"
+    ],
+    "strategy": [
+     "investing"
+    ],
+    "performance": [
+     "accelerating",
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 5,
+   "sentence": "Second, we also mentioned that we are going to be accelerating our growth, both in Venmo and in PSP in Braintree, and we're going to do that by investing both on the product side and on the go-to-market side.",
+   "ev_start": 28337,
+   "ev_end": 28545,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S113",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 7,
+   "sentence": "And this means we will be investing in marketing, data processing capabilities to really reinforce our position in that side of the network.",
+   "ev_start": 28627,
+   "ev_end": 28767,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S114",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 9,
+   "sentence": "These will deserve investments as well.",
+   "ev_start": 28918,
+   "ev_end": 28957,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S115",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we are going to"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 3.98,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 10,
+   "sentence": "And we are going to continue to invest in long-term innovation related to agentic e-commerce, related to PayPal world.",
+   "ev_start": 28958,
+   "ev_end": 29076,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S116",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "are going to"
+    ],
+    "strategy": [
+     "investment"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 11,
+   "sentence": "So we have a very clear definition of what the investment areas are going to be.",
+   "ev_start": 29077,
+   "ev_end": 29157,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S117",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 7,
+   "sentence_index": 12,
+   "sentence": "And this is why the savings program is so important because the majority of these investments will be self-funded with the savings that Jamie described.",
+   "ev_start": 29158,
+   "ev_end": 29310,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S118",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we continue to believe"
+    ],
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 3,
+   "sentence": "We continue to believe that there are significant synergies across the three businesses.",
+   "ev_start": 30301,
+   "ev_end": 30389,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S119",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 5,
+   "sentence": "As we developed them, we continue to see synergies at the customer level in terms of leveraging customers and customer presence.",
+   "ev_start": 30539,
+   "ev_end": 30667,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S120",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expansion"
+    ],
+    "product": [
+     "integrated"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 6,
+   "sentence": "And as we have developed, for example, integrated plans for some of our large merchants, we have seen the opportunity and the expansion of growth that this creates for each of our businesses.",
+   "ev_start": 30668,
+   "ev_end": 30859,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S121",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 7,
+   "sentence": "As we modernize our technology, we see clearly that we can leverage investments to support all businesses that make this more efficient.",
+   "ev_start": 30860,
+   "ev_end": 30996,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S122",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "synergies"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 8,
+   "sentence": "And finally, there are key capabilities the company has, for example, in the areas of risk and identity that we manage across the full company that provide synergies across all of them.",
+   "ev_start": 30997,
+   "ev_end": 31182,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S123",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "grow",
+     "expand"
+    ],
+    "performance": [
+     "grow"
+    ],
+    "confident": [
+     "confident"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 9,
+   "sentence": "So where we are today is we are very confident in our ability to grow and expand each of our businesses.",
+   "ev_start": 31183,
+   "ev_end": 31287,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S124",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "evaluate"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 14,
+   "sentence": "What I can say is that our Board and management team are open and have a clear responsibility to objectively evaluate every opportunity that is presented to us, compared with our own plan and choose the option that creates more value.",
+   "ev_start": 31659,
+   "ev_end": 31893,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S125",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 9,
+   "sentence_index": 16,
+   "sentence": "And at this point, while we remain open, our focus is on executing our own strategic plan, given the confidence that we have in creating value for shareholders.",
+   "ev_start": 32092,
+   "ev_end": 32252,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S126",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "strong",
+     "momentum"
+    ],
+    "performance": [
+     "growth",
+     "momentum"
+    ]
+   },
+   "score": 1.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 3,
+   "sentence": "And to your point, we saw a nice sequential growth in the U.S. in the second quarter with just continued strong buy-now-pay-later momentum.",
+   "ev_start": 33016,
+   "ev_end": 33155,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S127",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 5,
+   "sentence": "We saw some early success with our investments and some benefit in June from the World Cup as well.",
+   "ev_start": 33188,
+   "ev_end": 33287,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S128",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "pressure"
+    ],
+    "pressure": [
+     "pressure"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 7,
+   "sentence": "We saw some pressure in the travel vertical.",
+   "ev_start": 33427,
+   "ev_end": 33471,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S129",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 10,
+   "sentence": "And so a lot of what we've seen in the last year really is a more normalization of that growth, but also as we look across the landscape, certainly, there's more competitive intensity as well.",
+   "ev_start": 33688,
+   "ev_end": 33880,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S130",
+   "topics": [
+    "product",
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "innovation",
+     "integrations"
+    ],
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 4.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 11,
+   "sentence": "What we've been very focused on, starting about 12 or 18 months ago is bringing our latest innovation and integrations to Europe, making sure that we're not only investing in loyalty.",
+   "ev_start": 33881,
+   "ev_end": 34064,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S131",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 12,
+   "sentence": "We're investing in upgrading the experience.",
+   "ev_start": 34065,
+   "ev_end": 34109,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S132",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 11,
+   "sentence_index": 13,
+   "sentence": "We're investing in bringing buy now pay later and other elements of the consumer value prop that Enrique talked about to the European markets.",
+   "ev_start": 34110,
+   "ev_end": 34252,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S133",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "confident": [
+     "confidence"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 12,
+   "sentence_index": 3,
+   "sentence": "And this is one of the reasons that gives us confidence for the second half.",
+   "ev_start": 34911,
+   "ev_end": 34987,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S134",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "growing"
+    ],
+    "performance": [
+     "margin",
+     "growing"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 3,
+   "sentence": "Today, Financial Services is already a significant part of the transaction margin of the company, close to 20% and is growing in double digits.",
+   "ev_start": 35796,
+   "ev_end": 35939,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S135",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": {
+    "node": "total",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "up",
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "forward": [
+     "is going to"
+    ],
+    "performance": [
+     "accelerate",
+     "growth"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 4,
+   "sentence": "And what our strategy is going to do is to accelerate that growth.",
+   "ev_start": 35940,
+   "ev_end": 36006,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S136",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "doubling",
+     "growing"
+    ],
+    "performance": [
+     "growing"
+    ]
+   },
+   "score": 3.36,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 6,
+   "sentence": "Second big change is doubling down on our growing businesses, Venmo and PSP.",
+   "ev_start": 36094,
+   "ev_end": 36170,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S137",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 1.82,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 9,
+   "sentence": "And in the case of PSP, by expanding the portfolio of value-added services and increasing the attach rate, and we are making specific investments in both areas to make it happen.",
+   "ev_start": 36305,
+   "ev_end": 36483,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S138",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerating",
+     "improve"
+    ],
+    "product": [
+     "deployment"
+    ],
+    "performance": [
+     "accelerating"
+    ]
+   },
+   "score": 2.39,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 13,
+   "sentence": "And we see opportunities there to continue to improve the experience as we have been doing during the last months, accelerating the deployment of the new experiences, increasing the portfolio of offerings we offer them, especially around BNPL and over time, making our loyalty programs more relevant.",
+   "ev_start": 36959,
+   "ev_end": 37259,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S139",
+   "topics": [
+    "product",
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "accelerate"
+    ],
+    "product": [
+     "innovation"
+    ],
+    "performance": [
+     "accelerate"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 17,
+   "sentence": "We are modernizing our technology platform, and this will help us to accelerate innovation over time.",
+   "ev_start": 37749,
+   "ev_end": 37850,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S140",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "stronger"
+    ],
+    "forward": [
+     "going forward"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 14,
+   "sentence_index": 20,
+   "sentence": "And again, the savings program that we have will help us to self-fund these investments to continue to position the company in a stronger way going forward.",
+   "ev_start": 38039,
+   "ev_end": 38195,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S141",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "double-digit"
+    ],
+    "performance": [
+     "growth",
+     "earnings"
+    ]
+   },
+   "score": 1.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 15,
+   "sentence_index": 3,
+   "sentence": "So deeper focus on credit and financial services, significant cost out, reinvesting those savings back into growth initiatives really to self-fund, and all of that will drive an attractive double-digit earnings growth profile over time.",
+   "ev_start": 38613,
+   "ev_end": 38849,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S142",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "momentum",
+     "accelerating"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "performance": [
+     "momentum",
+     "accelerating"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 4,
+   "sentence": "In 2027 we will be building momentum, accelerating BNPL and financial services, accelerating Venmo and Braintree.",
+   "ev_start": 40097,
+   "ev_end": 40210,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S143",
+   "topics": [
+    "strategy",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "acceleration"
+    ],
+    "forward": [
+     "we will"
+    ],
+    "strategy": [
+     "investments"
+    ],
+    "performance": [
+     "acceleration"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 5,
+   "sentence": "And then beyond that, we will continue the acceleration of those businesses, but we also see opportunities coming from investments we are doing today in new areas.",
+   "ev_start": 40211,
+   "ev_end": 40374,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S144",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.98,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 6,
+   "sentence": "New areas like agentic payments, PayPal world, and ads that we think can become significant businesses over time and where we are investing today to make it happen.",
+   "ev_start": 40375,
+   "ev_end": 40539,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S145",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "investing"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 7,
+   "sentence": "In terms of what are the key metrics to track, I think the key thing is to really understand they need to be related to the businesses and how and where we are investing.",
+   "ev_start": 40540,
+   "ev_end": 40710,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S146",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "strategy": [
+     "invest"
+    ]
+   },
+   "score": 2.89,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 8,
+   "sentence": "For example, as we invest in financial services, increasing the growth of BNPL, increasing the attach of credit and debit products to our offering will be key metrics that we need to track.",
+   "ev_start": 40711,
+   "ev_end": 40900,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S147",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we will"
+    ]
+   },
+   "score": 0.5,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 9,
+   "sentence": "When we talk about checkout and the focus that we're going to have in high-value customers, understanding and measuring customer lifetime value, the growth and share of these customers, our share of wallet will become key metrics to track as well as the growth that we will have in the most relevant merchants.",
+   "ev_start": 40901,
+   "ev_end": 41211,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S148",
+   "topics": [
+    "competition",
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "improving"
+    ],
+    "forward": [
+     "is going to",
+     "we will"
+    ],
+    "competition": [
+     "differentiating"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 3.82,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 11,
+   "sentence": "And in the case of PSP it will be both growth and what is the attach of value-added services that, as I mentioned before, is going to be the way we will be differentiating, but also the way we will be improving the business profile of the business.",
+   "ev_start": 41316,
+   "ev_end": 41564,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S149",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "confident",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "confident": [
+     "excited"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 17,
+   "sentence_index": 12,
+   "sentence": "So I think we are excited about the opportunities we have.",
+   "ev_start": 41565,
+   "ev_end": 41623,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S150",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "forward",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": {
+    "node": "branded_checkout",
+    "metric": "revenue",
+    "descriptor": "low single digits",
+    "band": [
+     1.0,
+     3.0
+    ],
+    "position": null,
+    "modifier": null,
+    "direction_word": null,
+    "source": "signal_text"
+   },
+   "cues": {
+    "positive": [
+     "low single digits"
+    ],
+    "forward": [
+     "expect",
+     "second half"
+    ],
+    "performance": [
+     "growth"
+    ]
+   },
+   "score": 4.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 1,
+   "sentence": "And then, Darrin, with respect to the second part of your question, we expect branded checkout growth to be low single digits in the second half.",
+   "ev_start": 41830,
+   "ev_end": 41975,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S151",
+   "topics": [
+    "strategy"
+   ],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "second half"
+    ],
+    "strategy": [
+     "investments"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 2,
+   "sentence": "As you've looked at our growth investments, they begin to ramp more in the second half.",
+   "ev_start": 41976,
+   "ev_end": 42063,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S152",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated",
+     "partnerships"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 3,
+   "sentence": "We are really starting to see some encouraging signs as we work with some of our largest merchants across whether it's presentment, whether it's integrated buy now pay later, exclusive partnerships, all the way over to co-marketing, starting to see encouraging signs there.",
+   "ev_start": 42064,
+   "ev_end": 42337,
+   "confidence": "medium",
+   "flags": [
+    "segment_from_context"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S153",
+   "topics": [
+    "competition"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "competition": [
+     "competitive"
+    ]
+   },
+   "score": 3.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 6,
+   "sentence": "Fourth quarter, the holidays are always competitive.",
+   "ev_start": 42531,
+   "ev_end": 42583,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S154",
+   "topics": [],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": "cautious",
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "hedge": [
+     "prudent"
+    ]
+   },
+   "score": 0.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 18,
+   "sentence_index": 7,
+   "sentence": "But I would say, I think we've been prudent in our guide, and that's reflected in our expectations.",
+   "ev_start": 42584,
+   "ev_end": 42683,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S155",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanding"
+    ],
+    "product": [
+     "integrate"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 5,
+   "sentence": "And we are also expanding distribution and working with partners that will integrate that in their platforms.",
+   "ev_start": 43320,
+   "ev_end": 43429,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S156",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "declining"
+    ],
+    "performance": [
+     "declining",
+     "growth"
+    ]
+   },
+   "score": 4.28,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 20,
+   "sentence_index": 7,
+   "sentence": "For example, in a leading fashion retailer where we signed an exclusive BNPL agreement during the last month, we went from a TPV declining business to close to 10% growth in Q2.",
+   "ev_start": 43491,
+   "ev_end": 43668,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S157",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 22,
+   "sentence_index": 1,
+   "sentence": "I would say that where we have seen the chances to succeed in growth is when we have an end-to-end integrated plan from the company.",
+   "ev_start": 45041,
+   "ev_end": 45173,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S158",
+   "topics": [
+    "product"
+   ],
+   "horizon": "current",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "product": [
+     "integrated"
+    ]
+   },
+   "score": 2.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 22,
+   "sentence_index": 3,
+   "sentence": "And we have many examples when we see this integrated approach bringing great results.",
+   "ev_start": 45351,
+   "ev_end": 45437,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S159",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "transaction"
+   ],
+   "home": "transaction",
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "positive"
+    ],
+    "performance": [
+     "growth",
+     "volume",
+     "margin"
+    ]
+   },
+   "score": 3.0,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 22,
+   "sentence_index": 5,
+   "sentence": "We followed the approach that I just described, and we saw 50% growth in volume and transaction margin, which had a fairly positive impact in the performance of the company.",
+   "ev_start": 45507,
+   "ev_end": 45680,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S160",
+   "topics": [
+    "momentum"
+   ],
+   "horizon": "current",
+   "direction": "positive",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "positive": [
+     "expanded"
+    ],
+    "performance": [
+     "growth",
+     "customers"
+    ]
+   },
+   "score": 3.28,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 22,
+   "sentence_index": 6,
+   "sentence": "We have expanded, for example, our offering to BNPL with another leading global marketplace to an additional seven markets, and we have seen TPV growth in Q2 of 9% and addition of 500,000 new monthly active customers.",
+   "ev_start": 45681,
+   "ev_end": 45898,
+   "confidence": "high",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S161",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "forward": [
+     "we see the"
+    ]
+   },
+   "score": 0.89,
+   "speaker": "Enrique Lores",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 22,
+   "sentence_index": 7,
+   "sentence": "So we see the opportunities both in TPV, but also in adding new customers to the platform.",
+   "ev_start": 45899,
+   "ev_end": 45989,
+   "confidence": "medium",
+   "flags": [
+    "context_dependent"
+   ],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S162",
+   "topics": [
+    "pressure"
+   ],
+   "horizon": "forward",
+   "direction": "negative",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [],
+   "home": null,
+   "fact_ids": [],
+   "guided": null,
+   "cues": {
+    "negative": [
+     "headwinds"
+    ],
+    "forward": [
+     "expecting"
+    ],
+    "pressure": [
+     "headwinds"
+    ]
+   },
+   "score": 5.0,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 1,
+   "sentence": "With respect to interest rates, we're not expecting or not planning, I should say, any rate changes this year; we did have headwinds coming into this year with respect to the rate cuts that had happened late last year.",
+   "ev_start": 46901,
+   "ev_end": 47119,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  },
+  {
+   "id": "PYPL_2026_2-S163",
+   "topics": [],
+   "horizon": "forward",
+   "direction": "neutral",
+   "stance": null,
+   "withheld": false,
+   "revision": null,
+   "segments": [
+    "branded_checkout"
+   ],
+   "home": "branded_checkout",
+   "fact_ids": [],
+   "guided": {
+    "node": "branded_checkout",
+    "metric": "revenue",
+    "descriptor": null,
+    "band": null,
+    "position": null,
+    "modifier": null,
+    "direction_word": "flat",
+    "source": "signal_text"
+   },
+   "cues": {
+    "forward": [
+     "expect"
+    ]
+   },
+   "score": 2.5,
+   "speaker": "Jamie Miller",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "sentence_index": 3,
+   "sentence": "And then with respect to third quarter, we expect third quarter to be relatively consistent branded checkout growth at about 2%, pretty consistent with the first half, absent some monthly movement up or down.",
+   "ev_start": 47200,
+   "ev_end": 47408,
+   "confidence": "medium",
+   "flags": [],
+   "verified": true
+  }
+ ],
+ "selected_signal_ids": [
+  "PYPL_2026_2-S006",
+  "PYPL_2026_2-S011",
+  "PYPL_2026_2-S060",
+  "PYPL_2026_2-S064",
+  "PYPL_2026_2-S070",
+  "PYPL_2026_2-S072",
+  "PYPL_2026_2-S097",
+  "PYPL_2026_2-S150",
+  "PYPL_2026_2-S152",
+  "PYPL_2026_2-S077",
+  "PYPL_2026_2-S079",
+  "PYPL_2026_2-S099",
+  "PYPL_2026_2-S104",
+  "PYPL_2026_2-S105",
+  "PYPL_2026_2-S134",
+  "PYPL_2026_2-S078",
+  "PYPL_2026_2-S090",
+  "PYPL_2026_2-S004",
+  "PYPL_2026_2-S005",
+  "PYPL_2026_2-S031",
+  "PYPL_2026_2-S037",
+  "PYPL_2026_2-S043",
+  "PYPL_2026_2-S046",
+  "PYPL_2026_2-S050",
+  "PYPL_2026_2-S065",
+  "PYPL_2026_2-S068",
+  "PYPL_2026_2-S092",
+  "PYPL_2026_2-S094",
+  "PYPL_2026_2-S102",
+  "PYPL_2026_2-S111",
+  "PYPL_2026_2-S128",
+  "PYPL_2026_2-S130",
+  "PYPL_2026_2-S156"
+ ],
+ "surfaced_signal_ids": [
+  "PYPL_2026_2-S006",
+  "PYPL_2026_2-S011",
+  "PYPL_2026_2-S060",
+  "PYPL_2026_2-S064",
+  "PYPL_2026_2-S070",
+  "PYPL_2026_2-S072",
+  "PYPL_2026_2-S097",
+  "PYPL_2026_2-S150",
+  "PYPL_2026_2-S152",
+  "PYPL_2026_2-S077",
+  "PYPL_2026_2-S079",
+  "PYPL_2026_2-S099",
+  "PYPL_2026_2-S104",
+  "PYPL_2026_2-S105",
+  "PYPL_2026_2-S134",
+  "PYPL_2026_2-S078",
+  "PYPL_2026_2-S090",
+  "PYPL_2026_2-S004",
+  "PYPL_2026_2-S005",
+  "PYPL_2026_2-S031",
+  "PYPL_2026_2-S037",
+  "PYPL_2026_2-S043",
+  "PYPL_2026_2-S046",
+  "PYPL_2026_2-S050",
+  "PYPL_2026_2-S065",
+  "PYPL_2026_2-S068",
+  "PYPL_2026_2-S092",
+  "PYPL_2026_2-S094",
+  "PYPL_2026_2-S102",
+  "PYPL_2026_2-S111",
+  "PYPL_2026_2-S128",
+  "PYPL_2026_2-S130",
+  "PYPL_2026_2-S156",
+  "PYPL_2026_2-S009",
+  "PYPL_2026_2-S133",
+  "PYPL_2026_2-S040",
+  "PYPL_2026_2-S123",
+  "PYPL_2026_2-S098",
+  "PYPL_2026_2-S056",
+  "PYPL_2026_2-S124",
+  "PYPL_2026_2-S154",
+  "PYPL_2026_2-S095"
+ ],
+ "coverage": {
+  "registry": "auto (no segments/<TICKER>.json)",
+  "discussed": [
+   "branded_checkout",
+   "transaction",
+   "other_value_added_services",
+   "nontransaction_operating_expenses"
+  ],
+  "not_discussed": [],
+  "facts_without_commentary": [],
+  "commentary_without_facts": [],
+  "unmapped_fact_segments": {},
+  "held_back_low_confidence_facts": []
+ },
+ "checks": [
+  {
+   "name": "signals_verified",
+   "status": "pass",
+   "detail": "every signal sentence matches the transcript at its offsets and was said by management"
+  },
+  {
+   "name": "no_duplicate_quotes",
+   "status": "pass",
+   "detail": "each sentence appears once in the snapshot"
+  },
+  {
+   "name": "no_low_confidence_quotes",
+   "status": "pass",
+   "detail": "no low-confidence signal is shown"
+  },
+  {
+   "name": "trajectory_sources_exist",
+   "status": "pass",
+   "detail": "every trajectory input resolves to a ledger fact or a signal"
+  },
+  {
+   "name": "total_revenue_consistent",
+   "status": "pass",
+   "detail": "no conflicting total-company revenue figures in the ledger"
+  },
+  {
+   "name": "segment_registry",
+   "status": "warn",
+   "detail": "no segments/<TICKER>.json: segments were auto-discovered from facts only, so sub-segments/geographies are not broken out"
+  },
+  {
+   "name": "fact_segments_mapped",
+   "status": "pass",
+   "detail": "every ledger segment maps to a registry node"
+  }
+ ],
+ "stats": {
+  "signals": 163,
+  "signals_usable": 163,
+  "selected": 33,
+  "by_topic": {
+   "momentum": 80,
+   "strategy": 55,
+   "product": 27,
+   "competition": 10,
+   "pressure": 4
+  },
+  "by_horizon": {
+   "current": 112,
+   "forward": 51
+  },
+  "trajectory_rows": 2,
+  "blocks_with_content": 4,
+  "checks_failed": 0,
+  "checks_warn": 1
+ }
+}

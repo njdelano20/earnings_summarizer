@@ -1,0 +1,312 @@
+{
+ "symbol": "UPS",
+ "quarter": "2026Q2",
+ "transcript": [
+  {
+   "speaker": "Operator",
+   "title": "Operator",
+   "content": "Good morning. My name is Matthew, and I'll be your facilitator today. I'd like to welcome everyone to the UPS Second Quarter 2026 Earnings Conference Call. It is now my pleasure to turn the floor over to your host, Mr. P.J. Guido, Investor Relations Officer. Sir, the floor is yours.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "P.J. Guido",
+   "title": "Investor Relations Officer",
+   "content": "Good morning, and welcome to the UPS Second Quarter 2026 Earnings Call. Joining me today are Carol Tomé, our Chief Executive Officer; Brian Dykes, our Chief Financial Officer; and a few additional members of our executive leadership team. Before we begin, I want to remind you that some of the comments we'll make today are forward-looking statements and address our expectations for the future performance or operating results of our company. These statements are subject to risks and uncertainties, which are described in our 2025 Form 10-K and other reports we file with or furnish to the Securities and Exchange Commission. These reports, when filed, are available on the UPS Investor Relations website and from the SEC. Unless stated otherwise, our discussion refers to adjusted results. For the second quarter of 2026, GAAP results included after-tax transformation charges of $891 million or $1.05 per diluted share consisting primarily of employee separation costs associated with workforce reduction initiatives from our recently completed Driver Choice program. A reconciliation of non-GAAP adjusted amounts to GAAP financial results is available in today's webcast materials. These materials are also available on the UPS Investor Relations website. Following our prepared remarks, we will take questions from those joining us via the teleconference. And now I'll turn the call over to Carol.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Thank you, PJ, and good morning. Eighteen months ago, we announced our Amazon glide down and network reconfiguration plan. Today, I'm pleased to say we executed that plan exactly as designed while continuing to deliver the industry-leading service that sets UPS apart. I want to thank our UPSers for their extraordinary work throughout this period. And I also want to thank our partners at Amazon for collaborating with us on what was truly a complex undertaking. Over that period, we executed a deliberate structural reset of our U.S. business. Specifically, we eliminated approximately 2 million pieces per day of lower-quality Amazon volume. We reconfigured and further automated our U.S. network for higher return opportunities. And we removed approximately $4.5 billion of related expense with more to come as we finish out 2026. I'm incredibly proud of what we have accomplished. But this reconfiguration was never the destination. It was the foundation. We now have a leaner, more automated, more agile network that will deliver operating leverage as volume grows. And importantly, incremental volume today carries materially better economics than before because of the structural changes we've made. Our second quarter financial results demonstrate the successful execution of key initiatives and the strength of our underlying business. Consolidated revenue was $22.8 billion, an increase of 7.6% versus last year. Consolidated operating profit was $2.1 billion, an increase of 12% versus last year. And consolidated operating margin was 9.2%, a year-over-year increase of 40 basis points and up 300 basis points from the first quarter of this year. While fuel price volatility in the second quarter drove higher fuel revenue and corresponding fuel costs, our fuel surcharge mechanisms functioned as designed, covering the increase in fuel expense. All three segments contributed to our strong second quarter revenue performance, and underscoring the strength of the quarter, U.S. Domestic delivered meaningful operating profit growth of over 20% versus last year. As part of our transformation, we continue to invest in RFID and artificial intelligence, or AI. We view these technologies as the intersection of the physical and digital world, helping us gain efficiencies and will also win and retain customers. Think of RFID as the eyes and ears within our network and AI as the brain. RFID generates data from billions of package movements. Our AI transforms that data into decisions, predictions and actions. In fact, we believe RFID is the most significant package visibility advancement in a decade. We're using it to move from a scanning-based network to a sensing network, eliminating hundreds of millions of manual scans every year. We've completed deployment of RFID sensing technology across all of our U.S. delivery facilities and package cars. And now we're moving internationally. We're also enabling our customers with RFID label printers, and every package shipped at our 5,500 UPS Stores is RFID-enabled. These capabilities are generating rich real-time data about the packages in our network. Now pair that data with the AI-powered digital twin of our network, including our facilities, vehicles, aircraft and package flow data. This strengthens our ability to dynamically adapt to changing conditions like weather delays or volume forecast changes. Our AI is constantly tracking network performance, so it can optimize planning, routing and execution in near real time. The result is an integrated network that is even more efficient and reliable with enhanced end-to-end visibility and an unmatched premium experience for our customers. As we move ahead, the next phase of our strategy is straightforward. We're fully focused on capturing premium volume, like from small and medium-sized businesses, health care and B2B customers with a clear emphasis on revenue quality and margin expansion. This quarter was broad-based across nearly all industry sectors, delivering SMB average daily volume growth of 4.3%. The SMBs continue to value the reliability of our integrated network and the capabilities we provide, including end-to-end visibility solutions, our digital access program, or DAP, our UPS Stores, and box-free label-free returns. Speaking of DAP, it is not just for B2C e-commerce shippers. B2B e-commerce shippers also value the convenience and customer experience our DAP platform delivers. In fact, in the second quarter, we saw B2B DAP average daily volume increase 34% year-over-year. And in the second quarter, we generated $1.4 billion in global DAP revenue marking the third quarter in a row of delivering GAAP revenue of over $1 billion. Moving to health care. In the second quarter, we generated over $3 billion in health care revenue, achieving that milestone for the second consecutive quarter. We're already the number one provider of complex health care logistics solutions in the world. And we're not stopping there. Demand for cold chain logistics is accelerating and to further strengthen our global cold chain capabilities, we have added 27 temperature-controlled cross-dock facilities to our network. These facilities are designed specifically for fast, precise transfers of complex health care products between air and ground services while maintaining strict temperature control. We are the only carrier that provides end-to-end solutions for complex health care with our own assets, ensuring complete control, visibility and best-in-class service. Looking at our industrial and automotive customers, they continue to operate in a complex environment shaped by shifting trade patterns, evolving regulations and ongoing supply chain disruption. We're helping them navigate these complexities by combining the strength of our integrated network and RFID-enabled visibility with additional new capabilities. Here, we're expanding North American air freight services between the U.S. and Mexico, and we've launched a dedicated team of over 300 specialists with deep expertise in the supply chain needs of automotive and industrial manufacturing customers. These enhancements allow us to bring customers the right solutions, whether it's for a time-critical part, a cross-border shipment or to assist when they are making a broader supply chain shift. The second quarter marks the fourth straight quarter of delivering results that exceeded our expectations. Going forward, our number one priority remains moving the right packages and the right mix of volume through our network. This is as true for the U.S. as it is for the rest of our businesses. I'm pleased with the growth we've seen in our forwarding business as they have been focused on driving premium volume. And outside the U.S., our team has done a magnificent job of managing through trade lane shifts. As trade policy changes and volume and trade moves, UPS has been there to support. Encouragingly, we are seeing momentum on the China to U.S. lane which returned to year-over-year growth beginning in May. As we enter the second half of the year, we've got momentum, even in the face of external factors that could influence our results like war and fuel price volatility. Based on our year-to-date results, today, we are raising our full year 2026 consolidated revenue outlook to approximately $91.2 billion. We are raising our consolidated operating profit expectation to approximately $8.65 billion and lifting our diluted earnings per share guidance to approximately $7.22. Brian will provide more details in a moment. With the foundational groundwork now in place, we are excited about the opportunities that lie ahead. So with that, thank you for listening. And now I'll turn the call over to Brian.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Thank you, Carol, and good morning, everyone. This morning, I'll cover our second quarter results, then I'll give an update on our Amazon glide down and network reconfiguration efforts. Finally, I'll wrap up with our financial outlook for the remainder of 2026. Turning to our results. Our performance in the second quarter reflected excellent execution across our businesses, especially in U.S. Domestic, where we completed our Amazon glide down and related network reconfiguration efforts as planned. Further, and as Carol mentioned, our results reflected fuel price volatility during the second quarter, stemming from the conflict in the Middle East, which drove an outsized increase in both revenue and expense relative to our expectations. While higher fuel prices were positive to revenue, the corresponding increase in expense meant that the net impact to consolidated operating profit dollars was modest. In the second quarter, consolidated revenue was $22.8 billion, and operating profit was $2.1 billion. Consolidated operating margin was 9.2% and diluted earnings per share were $1.76. Moving to our segment performance. In the U.S., we continued our focus on revenue quality and growth in the premium parts of the market as we concluded our Amazon glide down in the second quarter. For the quarter, Total U.S. average daily volume was down 3.3% versus the second quarter of last year. Total air average daily volume was down 2.3% year-over-year. Excluding Amazon, total Air average daily volume increased 1.2% year-over-year, driven by food & beverage and health care customers. Ground average daily volume was down 3.5% compared to the second quarter of 2025 with most of the decline attributable to our planned Amazon glide down. Notably, when adjusting for Amazon and actions taken on other lower-yielding volume, average daily volume grew year-over-year in the second quarter, underscoring the improvements we're making through the execution of our strategy. That improvement was also reflected in our customer mix. SMB average daily volume increased 4.3% year-over-year with growth from nearly all industries, led by high-tech and health care. In the second quarter, SMBs made up 34.5% of total U.S. volume, an increase of 250 basis points compared to the second quarter of last year. And looking at B2B, while average daily volume was down 3.2% year-over-year, the rate of decline was 190 basis points better compared to the first quarter with bright spots in the high-tech and automotive sectors. In the second quarter, B2B represented 43.8% of our total U.S. volume. Moving to revenue. In the second quarter, U.S. Domestic generated $14.9 billion, an increase of 6% year-over-year, with both SMB and enterprise customers contributing to the increase. Growth in revenue per piece was strong and increased 9.3% compared to the second quarter of last year. More than half of the growth in revenue per piece was driven by healthy base rates and customer mix improvement, with fuel contributing the remainder of the increase. Turning to costs. In the second quarter, total expense in U.S. domestic increased 4.9%, with more than half of the increase coming from fuel and purchased transportation. Strong base rate growth and increased productivity in our reconfigured network contributed to revenue per piece growing 130 basis points faster than the cost per piece growth rate, demonstrating the operating leverage we expected from our network reconfiguration. The U.S. Domestic segment delivered $1.2 billion in operating profit, a 21% increase year-over-year and more than double the operating profit delivered in the first quarter of this year. Operating margin was 8%, which was an increase of 100 basis points compared to the second quarter of last year and a 400 basis point increase from the first quarter of this year. Moving to our International segment. In the second quarter, we delivered strong top line growth with all regions generating year-over-year expansion, driven by strong revenue quality. In the second quarter, total international average daily volume declined 5.8%, led by domestic declines in Europe. On the export side, average daily volume in the second quarter decreased 4.2% year-over-year. However, and importantly, we returned to volume growth on the China-U.S. trade lane as we lap the elimination of the de minimis exemption for Chinese imports in May. Additionally, Asia-to-Asia export volume increased 13.6% compared to last year, enabled by our recent investments in the region. Turning to revenue. We saw an improvement in geographic mix during the second quarter as trade lanes began to rebalance, particularly in Asia. As a result, International generated $5 billion in revenue, an increase of 12.5% year-over-year. Revenue growth was driven by an 18.9% year-over-year increase in revenue per piece with a little more than half coming from fuel. Operating profit in the International segment was $623 million, down $59 million year-over-year. International operating margin in the second quarter was 12.4%, which includes a 120 basis point year-over-year negative impact from fuel. Looking at Supply Chain Solutions. For the second quarter in a row, Supply Chain Solutions delivered strong operating profit growth year-over-year driven by improvements across multiple business units. In the second quarter, revenue was $2.9 billion, an increase of $207 million versus last year. Forwarding increased revenue 8.1% year-over-year, driven by higher rates in international airfreight. Logistics revenue increased 4.3% year-over-year, driven by strong growth in health care logistics, partially offset by our Mail Innovations business. And UPS Digital, which includes Roadie and Happy Returns, delivered revenue growth of over 30% compared to the second quarter of 2025. In the second quarter, Supply Chain Solutions generated operating profit of $291 million, an increase of $79 million year-over-year. Operating margin was 10.2%, up 220 basis points compared to last year and the third quarter in a row of year-over-year operating margin expansion. Lastly, looking at cash and liquidity. Year-to-date, we generated $3.1 billion in cash from operations and free cash flow of $1.6 billion, which includes the one-time payments made in the second quarter for the Driver Choice program. We ended the second quarter with $4.7 billion in cash on the balance sheet and no outstanding commercial paper. And so far this year, UPS has paid $2.7 billion in dividends. Now before moving to our outlook, let me share the progress we made in the first half of the year from our Amazon glide down and related network reconfiguration efforts. Starting with variable costs. Total operational hours moved down with volume in the first half of the year. Looking at semi-variable costs, we finished down nearly 30,000 operational positions compared to the first half of last year. This includes reductions from our Driver Choice program with approximately 80% of participants departing the company in the second quarter. And our fixed cost bucket, we closed 45 buildings in the first half of the year, with several additional closures planned in the back half of the year. Our engineering and operations teams executed the Amazon glide down exceptionally well, and we're pleased to have successfully completed this part of our strategy. We are seeing significant value from these efforts as well as from our broader network reconfiguration and efficiency reimagined initiatives. As a result, we still expect to deliver approximately $3 billion in related benefits in 2026. Moving to our 2026 financial outlook. As we discussed, we entered the year expecting a clear distinction between the first and second half. Given our strong first half results, which exceeded our expectations, we are increasing our full year 2026 outlook. We now expect consolidated revenue of approximately $91.2 billion and consolidated operating profit of approximately $8.65 billion. This implies full year diluted earnings per share of approximately $7.22. As a reminder, third quarter 2025 diluted earnings per share included a $0.30 benefit from sale-leaseback transactions. Now let me add some color on the segments. Starting with domestic, we expect full year 2026 revenue of approximately $60 billion, up 1% year-over-year and an operating margin of approximately 7.5%. Looking at the third quarter, we expect average daily volume to decline mid-single digits, reflecting a seasonal decline as well as the impact of this year's Amazon glide down, which completed in June. We expect revenue to be approximately flat year-over-year and a third quarter operating margin of approximately 7%. Lastly, in the back half of the year, we expect the U.S. domestic operating margin to be approximately 8.8%, reflecting year-over-year margin expansion in both the third and fourth quarters. Turning to the International segment. And starting with the full year, we anticipate revenue growth in the mid-single digits year-over-year, driven by strong revenue per piece growth. Operating margin in the International segment is expected to be in the mid-teens. We expect a similar performance in the third quarter with revenue up mid-single digits, driven by strong revenue per piece. And we expect the operating margin to be between 13% and 14%. Lastly, in Supply Chain Solutions, we expect full year 2026 revenue growth in the high single digits, driven by growth in forwarding and health care logistics. We expect full year operating margin to be between 10% and 11%. In the third quarter, we expect Supply Chain Solutions revenue growth in the low double digits year-over-year and operating margin between 10% and 11%. Turning to our expectations for cash in the balance sheet. For the full year 2026, capital expenditures are still expected to be about $3 billion, and we plan to complete our pension contribution of $1.3 billion. We expect free cash flow to be approximately $5.5 billion, which includes the payments for the Driver Choice program I mentioned earlier. Lastly, we are still planning to pay out around $5.4 billion in dividends in 2026, subject to Board approval. The successful completion of the Amazon glide down and related network reconfiguration marks an important inflection point for UPS, setting us up to deliver consolidated revenue and operating profit growth and expand operating margin. As we move into the next chapter of growth, our focus is on growing premium, high-quality volume around the world, leveraging the full strength of our portfolio solutions. With the power of our integrated global network, we are well positioned to deliver sustainable profitable growth and create long-term shareowner value. With that, operator, please open the lines for questions.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Jordan Alliger",
+   "title": "Analyst",
+   "content": "With the Amazon drawdown done, you've given some good color for the third quarter and for the full year 2026. Just sort of curious, can you maybe go into a little bit more on your confidence level around the structural change on domestic margin? And what that could mean from a longer-term domestic margin perspective? Is there a bogey you'd like to see over the next couple of years?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Well, let's start, Jordan. Thank you very much for the question. Let's just start with automation in our U.S. business. By the end of the second quarter, 68.5% of the volume in our U.S. business was flowing through an automated building compared to 64% one year ago. We know that the cost per piece in the automated building is about 28% lower than a non-automated building. So that gives us confidence in the productivity that we should continue to deliver going forward. Brian, maybe you want to talk about the algorithm.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "I will. And I think, Carol, in addition to the automation you mentioned, it's important that we recognize we've also reduced capacity as we've declined the Amazon volume. If you look at where we started at the beginning of 2024, as Carol mentioned, we've removed 2 million pieces a day of lower-yielding volume from the network. We've also eliminated 50 million hours over the course of last year and this year, nearly 78,000 operational positions associated with that volume, and we'll close nearly 150 buildings. That lowers the structural cost of the network, which you’re starting to see show up in the margin, and gives us a lot of confidence that we can carry that through in the second half. As we go forward, we continue to see really strong pricing in our U.S. business. We think about base pricing in the 250 to 350 basis points range, which is about where we are this quarter. We also see cost per piece coming down as we rightsize the network with the new structural target. Jordan, the way to think about it is a roughly 50 to 100 basis point spread between revenue per piece and cost per piece will help drive margin accretion in our U.S. business going forward. We are focused on leaning into premium segments of the market to maintain that base pricing and revenue-per-piece benefit and on leveraging a now more efficient U.S. network to drive operating leverage.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Scott Group",
+   "title": "Analyst",
+   "content": "So it seems like domestic margin improvement moderates a little bit in Q3, then reaccelerates again in Q4. Maybe just give a little more color to sort of talk about that? And then, Carol, just bigger picture, in your opening comments, you talked about going after SMB and B2B share. I think FedEx would probably say the same thing in terms of what they're trying to do. So how do you see the share dynamic, the competitive dynamic evolving if that's what both of us are going to do?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Sure. So first, Scott, if you think about the sequentials between Q2 to Q3, it's really normal seasonality, right? So we're still in that point, a 50 to 100 basis point spread between revenue per piece and cost per piece. It is consistent with where we set out at the beginning of the year. And look, if you take a step back and think about our original guide, we had anticipated an earnings decline in the first half and an earnings increase in the second half when you normalize for the sale-leaseback transactions in the third quarter of last year, now mid-teens EPS growth in both the third quarter and the fourth quarter. So it was a robust guide to begin with. The first half performance gives us a lot of confidence that we can hit that and domestic is just going to perform under normal seasonality as we go into Q3 and Q4.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "As it relates to how we're going to gain share, our focus on growing our company is to retain the customers we have and then bring new customers into our network by differentiating with new enabling capabilities. And those capabilities include things like, well, owning the end-to-end solution for health care customers. We are the only carrier that owns our assets along that complex health care supply chain. That gives us control and visibility and separates us from the competition. But it's not just in complex health care logistics, which by the way is pretty growthy for us. It's other areas too. So if you think about RFID and the initiatives that we launched now a few years ago, Scott, it's really starting to take traction. We now have RFID-enabled capabilities at the customer location, in other words, the point of origin, covering over 2.2 million pieces per day. And let me tell you what that means for the customer. I'm going to give you a story to make it real for you. We recently converted a high-end jeweler from a competitor into our network because of RFID at the origin. Why? Because at the previous carrier's location, they had to have security guards watch every scan occur. The packages were really being loaded onto the package carrier vehicle. At our location, you don't need security guards any longer, and we have visibility from the point of origin to the point of destination. That allowed us to win that high-end jeweler. These enabling capabilities are differentiating. They're sticky. Where we have RFID at the point of origin, we have seen no churn. That's a really powerful way to grow, but it doesn't stop with RFID. It also is our returns approach. Leveraging our 5,500 UPS Stores, our box-free label return capability with Happy Returns, which, as we said in our prepared remarks, we've seen rate growth. Our focus on B2B and defined plans for that customer and more. So these enabling capabilities are differentiating and will allow us to grow.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "Thomas Wadewitz",
+   "title": "Analyst",
+   "content": "Brian, could you offer some thoughts on the cost per piece trend in the second half and into 2027? You've had strong execution resizing the network; how do you expect that to play out? Also, how should we think about mix as a factor for 2027? You discussed 250 to 300 basis points of price; would you add a point or two of mix on top of that given your focus on premium verticals, packages, and SMBs that likely generate higher revenue per piece?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Yes. Thanks, Tom, for the question. First, I think what's really important is to think about the revenue-per-piece and cost-per-piece spread. As we transition from the first half to the second half, we are wrapping some material pricing changes we made last year, so we will see both numbers come down a little. We were at 9.3% in the second quarter for revenue per piece in the U.S.; about half of that was fuel and about half was base pricing and mix. That will come down closer to 4% to 4.5% as we unwind those impacts from last year. On a two-year stack, pricing still looks really strong. The same dynamic occurs with cost per piece: as we reduce the cost of the network, we expect cost per piece to fall as well. We expect to maintain a roughly 50 to 100 basis-point spread. Looking ahead, driving operating leverage through the unit cost differential is our focus as we go into 2027. We will still see an impact from Amazon as we roll into the first half of 2027 and compare those volumes, but we do expect some product mix benefit. So yes, base pricing plus 50 to 100 basis points of product mix is a reasonable expectation going forward, and we will focus on maintaining that unit cost spread to drive operating leverage.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Christian Wetherbee",
+   "title": "Analyst",
+   "content": "In the last quarter, you gave the Amazon revenue. I know it wasn't a year-end number. But I was wondering if you could maybe offer that considering we're kind of at the end of the glide down. And then maybe zooming out a little bit sort of with what you have left of that portfolio. How do we think about the growth profile of that versus maybe the rest of the opportunity for top line growth for you as you think out beyond 2026, maybe 2027, 2028?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Look, Amazon is and will continue to be an important customer to UPS. As a percent of our total revenue, Amazon made up 9%. And that's down about 100 basis points from a year ago and certainly down from which was over 13% during the COVID year. As we think about going forward, it's all about optimizing the volume that comes into our network, and we are working together as partners to make that happen.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Ken Hoexter",
+   "title": "Analyst",
+   "content": "And Carol, just to follow up a bit, what do you think, and Brian, what are your thoughts on underlying ground growth now that you're into the program? Do you reassess with Amazon about your future in terms of where you stand at that 9 percent? And if international is normalizing now with Asia volume, should we see margins return to the upper teens or mid teens? How do you see international panning out?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Well, as I mentioned, Ken, we're going to optimize the volume with Amazon, and that will be across the various modes that we serve them today. From a margin perspective outside the United States, we're very encouraged by what we're seeing in the trends, aren't we, Brian?",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "That's right. When you look at it, we do start to see momentum in some really important international trade lanes, and that momentum will carry through into the back half. We're seeing volume recover as trade lanes settle. Also, in the back half of this year, the elimination of global de minimis in September will create a significant year-over-year comp benefit. I would add that our international business will perform slightly better than seasonality because of the volume momentum into the fourth quarter, especially with the surcharges and fees we typically see in the market. So we're positive there. And to add to Carol's point on the U.S., Ken, we expect volume growth excluding Amazon in the back half of this year across all segments. We talked about SMB, but we will see volume growth in the back half of this year.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "David Vernon",
+   "title": "Analyst",
+   "content": "So Carol, I wanted to ask you about the competition issues around Amazon. We continue to hear both from investors and some of the conversations in the industry about Amazon being a little bit more aggressive from an enterprise shipping perspective and wanting to kind of go after directly some of your customers. I'm just wondering if you guys are seeing that in the day-to-day. And then more broadly, as you think about dealing with that potential inevitability or occurrence if it's going to happen, how do you think of responding to that?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Well, David, we look at the competitive landscape broadly because candidly, there are a lot of competitors out there. And we look at the offerings that all competitors are presenting to customers and then focus on how we are differentiating the offer that we provide. Those points of differentiation, which I mentioned earlier, include our cold chain logistics capabilities, our reverse logistics capabilities, our RFID labeling capabilities and that visibility end-to-end, of course, time-definite delivery and special operating plans. So we create relationships and partnerships with our customers to ensure that we are meeting them where they want us to be. That's an important point of differentiation — it's also about relationship building. We have over 300 high-impact executives who have relationships with our customers. Relationships at the CEO level and at the CFO level. It's no longer just at the chief procurement officer level or the chief supply chain officer level. And these relationships create an element of trust, and trust matters as competition comes knocking on the door — because it does. So when competition comes knocking on the door, we're there to meet that competition with our enabling capabilities. I am not aware of any volume that we've lost to that competitor that you mentioned. But we're going to stay focused on leaning into what we're best at. By the way, did I mention service? I should have. We continue to lead the pack in terms of on-time delivery, best-in-class.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Jonathan Chappell",
+   "title": "Analyst",
+   "content": "Brian, you've obviously done a lot of heavy lifting, getting the costs aligned with the Amazon glide down. If you look to the demand environment today relative to where it was 18 months ago, obviously, a ton has changed with tariffs and de minimis and fuel and more, etc. How do you feel about the capacity on the go forward? Do you think that you're in a situation where you're rightsized on the 2H '26, '27 kind of demand outlook? Or is there more to be done on the capacity side, just given the ebbs and flows of demand over the last 18 months?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Thanks, Jonathan, for the question. And first, I'd be remiss if I didn't say there are 1,000 UPSers that delivered those benefits. So it wasn't just myself or the executive team. We've got a lot of people who have worked really hard to get the network to where it is. And I do think that with your question, the capacity is in a really good place, right? I mentioned some of the stats of the Amazon drawdown. This is what we've been targeting. We've been targeting trying to get to an optimal capacity for the delivery volume that we anticipate having in the U.S. So that's kind of step one check — we've gotten there. Now the second piece, as Carol mentioned, the automation that we put in now gives us more flexibility to scale that capacity, right? The automated hubs give us the ability to add throughput much faster than what we used to have to do with conventional hubs and our network is getting much smarter about how we can scale not just from month-to-month or peak to nonpeak, but even day to day and week to week. So we feel really good about that. And we think that it aligns really well with the demand environment and what we think we'll see for peak seasons now that we've got a much more manageable peak with a more stable set of customers.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "I feel very good about the capacity. Just to put the automation percentage into perspective because what does 68% mean? It's the equivalent year-on-year of 337 million more packages going through automation than we had a year ago. That creates a tremendous amount of capacity to pull more volume through. And we're ready for it. And as you heard, if you ignore Amazon and the volume that we intentionally made available to the market, we actually grew our volume in the second quarter.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Ariel Rosa",
+   "title": "Analyst",
+   "content": "Carol and Brian, maybe the automation piece is actually a good thing to continue on. I wanted to ask about something a little bit further out. It seems to me next year, people are going to start talking about the Teamsters contract renegotiation. You've obviously done a lot of work to drive efficiency. Thinking about the last Teamsters contract, obviously, that was the start of a number of problems that resulted in having to drive efficiency and other things. How do investors get comfortable that we're not going to have similar challenges? And how are you thinking about approaching that negotiation? I know it's still a ways out, but just talk to us about how you're thinking about that and kind of the relationship with the teams at this point such that investors can get comfortable with that risk?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Well, you're right, the contract renewal is two years out. We are today renewing contracts with our customers that go long past 2028. So it's the relationship that we formed with our customers, the trust that we've built with our customers, the confidence in our ability to manage through contract negotiations that are a long ways out gives us the ability to continue to drive our business. And that's what we're focused on — continuing to drive our business.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Brian Ossenbeck",
+   "title": "Analyst",
+   "content": "Maybe two quick follow-ups for Brian here. Just thinking about the 2Q to 3Q bridge for U.S. domestic. I was thinking maybe it might be a little bit better than seasonal, and you got the Driver Choice program mostly completed in 2Q. The USPS SmartPost transition, the network reconfiguration, MD-11 leases. So just want to see why we wouldn't see more of a pickup into 3Q and all those things are fully baked in. And if you can provide a little bit of color in terms of — it sounds like the international margins may be impacted a bit by fuel, which to me, it sounded like the only margin impact from fuel this quarter across the segment. So I just wanted to clarify that as well.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Yes, yes. So let me address your second point first. So if you think about fuel on a consolidated basis, we saw fuel surcharge revenue increase. We also saw expense increase. So it really had a minimal impact on profit. I would say in the U.S., we were able to overcome that and still get to the 8% margin. On the international side, it's more impacted by fuel because you have more air volume, you have longer fly distances, it's a bigger proportion of the total cost base. And so while we got there on total profit dollars, you have more revenue, so you see a margin impact. I would also say, look, we also had to add some block hours associated with the Middle East war, right? There's some cost to redirect the network — some lease aircraft costs because of airspace restrictions, things like that. So that kind of explains the international piece. When we think about the second quarter to third quarter bridge, well, we laid out our initial guide at the beginning of the year. Adjusted for the sale-leaseback, it's going to be mid-teens EPS growth. I would say the first half of the year performance gives us a lot of confidence in the momentum that we're seeing that's going to help us deliver the second half of the year, and we want to make sure that we hit the numbers that we laid out. So I think it's pretty close to normal seasonality, and we feel really confident in our ability to deliver.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "I think the spread narrows a bit between revenue per piece and cost per piece because there were some pricing actions that we took a year ago in the third quarter that are repeating. So there's a little bit of a year-over-year comp, but we're very excited that we're going to be expanding margin in both Q3 and Q4 in our domestic business.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Brandon Oglenski",
+   "title": "Analyst",
+   "content": "Maybe we can talk a little bit about international volume trends. Because it does look like your domestic business has been down quite a bit. Was there any sort of focused reorienting of the business there? Or is this just a follow-through on tariffs. And I guess you guys talked about volume trends moving positive in Asia. So how does the current tariff situation play into that outlook?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "So if you look at our international volume, first on the export side, as Brian mentioned and I mentioned in my prepared remarks, we saw a return to volume growth in the China-U.S. trade lane, which is great, as well as Asia-to-Asia trade lanes, which is wonderful because we've made investments there. We have seen, though, tariffs impact volume in certain areas. Tariffs have certainly impacted volume from Canada to the United States, and that's actually our largest partner. So we are just working through the tariff noise, if you will. And then because of the disruption in the Middle East, we've seen some volume declines in Europe exports as well. Some of that's tariff, but mostly because of the disruption in the Middle East. Domestically, we have been working on this same pivot as we have in the United States to lean into revenue quality. And we're really pleased with that because it's going to position us for good things to come.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Bascome Majors",
+   "title": "Analyst",
+   "content": "Brian, I don't want to beat a dead horse on seasonality. But even if we add back the $350 million in one-time costs that you talked about in the first quarter, it still looks like the consolidated operating profit in the second half versus first half is a bit more than you've done in recent years. Could you just broad strokes high level explain what we're missing on the cost side or the revenue side that gets you comfortable with that maybe slightly more than typical momentum there?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Yes. So Bascome, if you look across the segments, Domestic and Supply Chain Solutions are kind of following normal seasonality. Where you're seeing the improvement is in the international business. And it's really about two things. This momentum that we talked about, right, that we see volume performing well in Asia, and we see that carrying through. And then remember, we're wrapping the elimination of the global de minimis exemption in September that shows a big year-over-year improvement as we get into the fourth quarter as well as our normal seasonal uplift. So domestic and Supply Chain Solutions will be kind of normal. International, you're going to see steady improvement as we go through the back half that makes it look a little bit better in total.",
+   "sentiment": "0.5"
+  },
+  {
+   "speaker": "J. Bruce Chan",
+   "title": "Analyst",
+   "content": "Just going back to some of the competitive dynamics here. We understand that FedEx is spinning up a similar program to DAP. I just wanted to get your comments on what kind of threat that poses and how you think that influences your GAAP growth outlook?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "We keep adding new DAP partners to our program. It's been in place now over six years. We've had two quarters in a row of over $1 billion of growth on the platform. We've got strong relationships there. We feel very good about our offering. We've got a simple API that can help us to stand up a platform in less than a day. So we always look at the competition, but I feel very good about where we are and the strong relationships that we have with the various e-commerce platforms that are using our program.",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Ravi Shanker",
+   "title": "Analyst",
+   "content": "Just a couple here. Brian, can you confirm whether you had any real estate gains in 2Q and any run rate for the rest of the year? And Carol, can you follow up to your response on Amazon. Just to confirm the messaging there, are you saying that they're going after volumes that you guys don't necessarily want? Or are you saying there's enough room for everybody to grow in this industry?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Ravi, thanks for the question. On real estate gains, we didn't have anything out of the ordinary course in the quarter. Look, as part of the Amazon drawdown plan that we included in our guide that we've been executing over the last couple of years, there's buy and sale of real estate. There's also the offset of asset write-offs, accelerated depreciation, and impairments. And so we had kind of planned all those in our guide and they kind of wash. The only material transaction that we were very clear about calling out were the sale-leaseback transactions that we did in the third quarter last year.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "On the competitive question, I expect you should ask Amazon about what volume they're going after. But if we do a side-by-side comparison, where they have strengths would be on lightweight short-zone, urban. Where we have strength is everywhere else. We're going to lean into the parts of the market that we want to grow with enabling capabilities that we will do better than anybody else.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Jeffrey Kauffman",
+   "title": "Analyst",
+   "content": "Congratulations on getting past some of these big drains on the system. I want to take a longer-term view, Carol, with some of the capacity changes you've made. I know we're spending about $3 billion right now, and that's been the case for the last year too. But if I go back in time, spend in the $4.5 billion to $5 billion range has kind of been more normal for the business. If we look out three to five years, where do you think capital spend should settle? And with the new structure in your organization, is that going to be permanently $1 billion less than we're used to? Or are we going to have to get up to that $4.5 billion to $5 billion range at some point in time?",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "So remember, we were spending those dollars to build out a network. That now we have. So we are optimizing the network that we have. From a run rate, Brian...",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "About 3.5% of revenue, Jeff, I think it's about the right level to think about.",
+   "sentiment": "0.2"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "So as revenue grows, our capital dollars will increase, but that 3.5% is a good number to think about for you.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Jeffrey Kauffman",
+   "title": "Analyst",
+   "content": "And that is a little structurally lower than it has been in the past. So whether it stays or not — yes.",
+   "sentiment": "0.1"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "It is. But I remember, we built out a network. We built out a global network. But where we have opportunities, trust us, we'll be investing in those. For example, we just announced that we opened up 27 cold chain cross-dock facilities that cements our leadership position around the world for complex health care logistics. We just announced that we invested $50 million in North American air freight to support automotive and industrial customers and their growth and some of the challenges that they're facing given today's supply chain. We can help them. So where we see opportunities to invest for growth, we will.",
+   "sentiment": "0.6"
+  },
+  {
+   "speaker": "Stephanie Benjamin Moore",
+   "title": "Analyst",
+   "content": "I wanted to touch on peak season, maybe how peak season is shaping up so far this year. We're also seeing pretty active import activity, so I would love to get your thoughts on how it's trending versus prior years.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Steph, it's a little bit early. We're just starting to get peak season forecasts from our customers. But as we build our financial plan that supports the guidance that we just gave, we expect the volume sequentially in the United States to lift about 24% from Q3 to Q4, much like it did last year.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "And I would just add, Carol, I think what we see from a pricing environment standpoint is that the pricing remains rational and we think that we'll be able to price accordingly for the demand as well.",
+   "sentiment": "0.4"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "As you know, the carriers tend to issue a holiday demand surcharge. And so that certainly supports the guidance that we've given.",
+   "sentiment": "0.3"
+  },
+  {
+   "speaker": "Brian Dykes",
+   "title": "Chief Financial Officer",
+   "content": "Matthew, we have time for one more question.",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Elliot Alper",
+   "title": "Analyst",
+   "content": "This is Elliot Alper on for Jason. Just within Healthcare Logistics, you discussed the investment in cross-dock facilities to further build out that business. Can you talk about the new capabilities some of these temperature-controlled cross-docks offer to customers that maybe you could not do before? And maybe how these investments are impacting your health care growth pipeline?",
+   "sentiment": "0.0"
+  },
+  {
+   "speaker": "Carol Tomé",
+   "title": "Chief Executive Officer",
+   "content": "Well, I'd be happy to give a story because I think this showcases the power of our network. We work with the manufacturer of vaccines who manufacture those vaccines in Europe. Where the supply chain works is that when the vaccine is ready for pickup, we will pick up the vaccine in a refrigerated truck and carry it to our cold chain cross-dock facility, at which that vaccine will be prepared for shipment. We then put that vaccine on a refrigerated truck and truck it over to our main European air hub in Cologne, Germany. We put the vaccine on our brown aircraft and we fly it to our main air hub in Louisville, Kentucky, which we call Worldport. That vaccine is then put on a refrigerated truck and trucked over to our cold chain warehousing in Shepherdsville, Kentucky. We do that in less than 24 hours. We own every asset that that vaccine travels on. We have complete visibility of that vaccine because of our RFID labeling. Oh, by the way, which also means temperature control so we make sure there's no excursion. This allows us then the capability that we can take to our health care logistics customers and meet them where they need us to be. Now with that, Kate, would you like to add anything?",
+   "sentiment": "0.7"
+  },
+  {
+   "speaker": "Kathleen Gutmann",
+   "title": "President, Healthcare Logistics (Head of Healthcare Logistics)",
+   "content": "Yes, absolutely. I mean it is a differentiated solution. All of those pallets that Carol talked about are riding on our assets, right? That is a big differentiation. We're not doing handoffs with other carriers that lead to excursions or failure or impact of life. Right now, the cold chain new investment is growing double digits — and revenue per kilo is as well. So really great strength. Our customers are recognizing it.",
+   "sentiment": "0.8"
+  },
+  {
+   "speaker": "P.J. Guido",
+   "title": "Investor Relations Officer",
+   "content": "Thank you, Matthew. This concludes our call. Thank you for joining, and have a good day.",
+   "sentiment": "0.0"
+  }
+ ]
+}

@@ -1,0 +1,700 @@
+{
+ "meta": {
+  "source": "alphavantage",
+  "ticker": "CVX",
+  "fiscal_quarter": 2,
+  "fiscal_year": 2026,
+  "quarter_label": "2026Q2",
+  "symbol": "CVX",
+  "from_cache": false,
+  "provider": "alphavantage",
+  "calendar_label": "2026Q2",
+  "fiscal_label": "2026Q2",
+  "period_end": "2026-06",
+  "fye_month": 12,
+  "fy_naming": "end",
+  "fiscal_calendar_source": "MarketDataLibrary financials.period_ending (naming assumed: end)",
+  "qa_start_turn": 6,
+  "qa_boundary_found": true,
+  "has_speaker_labels": true,
+  "speakers": [
+   {
+    "name": "Operator",
+    "role": "operator"
+   },
+   {
+    "name": "Jeanine Wai",
+    "role": "ir"
+   },
+   {
+    "name": "Michael Wirth",
+    "role": "management"
+   },
+   {
+    "name": "Jeff Gustavson",
+    "role": "management"
+   },
+   {
+    "name": "Eimear Bonner",
+    "role": "management"
+   },
+   {
+    "name": "Devin McDermott",
+    "role": "analyst"
+   },
+   {
+    "name": "Neil Mehta",
+    "role": "analyst"
+   },
+   {
+    "name": "John Royall",
+    "role": "analyst"
+   },
+   {
+    "name": "Douglas George Blyth Leggate",
+    "role": "analyst"
+   },
+   {
+    "name": "Arun Jayaram",
+    "role": "analyst"
+   },
+   {
+    "name": "Stephen Richardson",
+    "role": "analyst"
+   },
+   {
+    "name": "Biraj Borkhataria",
+    "role": "analyst"
+   },
+   {
+    "name": "James West",
+    "role": "analyst"
+   },
+   {
+    "name": "Sam Margolin",
+    "role": "analyst"
+   },
+   {
+    "name": "Manav Gupta",
+    "role": "analyst"
+   },
+   {
+    "name": "Jean Ann Salisbury",
+    "role": "analyst"
+   },
+   {
+    "name": "Wei Jiang",
+    "role": "analyst"
+   },
+   {
+    "name": "Nitin Kumar",
+    "role": "analyst"
+   },
+   {
+    "name": "Bob Brackett",
+    "role": "analyst"
+   },
+   {
+    "name": "Jason Gabelman",
+    "role": "analyst"
+   },
+   {
+    "name": "Phillip Jungwirth",
+    "role": "analyst"
+   }
+  ],
+  "period_check": {
+   "status": "pass",
+   "found": "Second Quarter 2026",
+   "detail": "the call says 'Second Quarter 2026', matching 2026Q2"
+  },
+  "reported_period_label": "second quarter",
+  "source_file": "CVX_2026Q2.json",
+  "vocabulary_packs": [
+   "oil_gas_upstream"
+  ]
+ },
+ "facts": [
+  {
+   "kind": "reported",
+   "metric": "production",
+   "segment": "upstream",
+   "stat": "growth",
+   "value": 5.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": "more than",
+   "basis": "qoq",
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "sentence_index": 2,
+   "sentence": "Global upstream production grew more than 5% quarter-over-quarter, underpinned by exceptional reliability across key assets.",
+   "ev_start": 1252,
+   "ev_end": 1376,
+   "figure_text": "5%",
+   "confidence": "medium",
+   "flags": [
+    "segment_lowercase_phrase"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "CVX_2026_2-001"
+  },
+  {
+   "kind": "reported",
+   "metric": "operating_cash_flow",
+   "segment": "total",
+   "stat": "level",
+   "value": 20000000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": "nearly",
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 3,
+   "sentence": "Cash flow from operations, excluding working capital, was nearly $20 billion.",
+   "ev_start": 5230,
+   "ev_end": 5307,
+   "figure_text": "$20 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "CVX_2026_2-002"
+  },
+  {
+   "kind": "reported",
+   "metric": "capex",
+   "segment": "total",
+   "stat": "level",
+   "value": 4400000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 4,
+   "sentence": "Organic CapEx was $4.4 billion for the quarter.",
+   "ev_start": 5308,
+   "ev_end": 5355,
+   "figure_text": "$4.4 billion",
+   "confidence": "high",
+   "flags": [],
+   "mentions": 1,
+   "verified": true,
+   "id": "CVX_2026_2-003"
+  },
+  {
+   "kind": "reported",
+   "metric": "operating_cash_flow",
+   "segment": "total",
+   "stat": "level",
+   "value": 19700000000.0,
+   "value_high": null,
+   "unit": "USD",
+   "qualifier": null,
+   "basis": null,
+   "accounting": "adjusted",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 10,
+   "sentence": "Chevron generated $19.7 billion of cash flow from operations, excluding working capital, and $15.4 billion of adjusted free cash flow in the quarter.",
+   "ev_start": 5914,
+   "ev_end": 6063,
+   "figure_text": "$19.7 billion",
+   "confidence": "high",
+   "flags": [
+    "adjusted_basis"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "CVX_2026_2-004"
+  },
+  {
+   "kind": "reported",
+   "metric": "production",
+   "segment": "total",
+   "stat": "growth",
+   "value": 2.0,
+   "value_high": 3.0,
+   "unit": "pct",
+   "qualifier": null,
+   "basis": null,
+   "accounting": null,
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "We remain confident in the 2030 objectives we outlined last November, including annual production growth of 2% to 3%, adjusted free cash flow growth averaging greater than 10% per year and more than 3% improvement on return on capital employed, all at flat commodity prices that are lower than today.",
+   "ev_start": 7909,
+   "ev_end": 8209,
+   "figure_text": "2% to 3%",
+   "confidence": "high",
+   "flags": [
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "CVX_2026_2-005"
+  },
+  {
+   "kind": "reported",
+   "metric": "free_cash_flow",
+   "segment": "total",
+   "stat": "growth",
+   "value": 10.0,
+   "value_high": null,
+   "unit": "pct",
+   "qualifier": "greater than",
+   "basis": null,
+   "accounting": "non_gaap",
+   "currency_basis": null,
+   "descriptor": null,
+   "driver": null,
+   "direction": null,
+   "context_metric": null,
+   "context_segment": null,
+   "changes": [],
+   "period": "second quarter",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "sentence_index": 27,
+   "sentence": "We remain confident in the 2030 objectives we outlined last November, including annual production growth of 2% to 3%, adjusted free cash flow growth averaging greater than 10% per year and more than 3% improvement on return on capital employed, all at flat commodity prices that are lower than today.",
+   "ev_start": 7909,
+   "ev_end": 8209,
+   "figure_text": "10%",
+   "confidence": "high",
+   "flags": [
+    "basis_unspecified"
+   ],
+   "mentions": 1,
+   "verified": true,
+   "id": "CVX_2026_2-006"
+  }
+ ],
+ "unclaimed": [
+  {
+   "figure_text": "$3 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "At the same time, we maintained financial and capital discipline, achieving our structural cost reduction target six months early, with $3 billion of annual run rate savings since 2024.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 1557
+  },
+  {
+   "figure_text": "25%",
+   "reason": "not_tied_to_metric",
+   "sentence": "We continue to capture strong capital efficiencies in U.S. shale and tight, and expect to spend 25% less CapEx per barrel of oil equivalent in 2026 compared to last year.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 1808
+  },
+  {
+   "figure_text": "50%",
+   "reason": "no_metric_phrase",
+   "sentence": "We pulled value forward, capturing 50% more synergies than initially targeted, with $1.5 billion realized six months ahead of schedule.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 2195
+  },
+  {
+   "figure_text": "$1.5 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We pulled value forward, capturing 50% more synergies than initially targeted, with $1.5 billion realized six months ahead of schedule.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 2195
+  },
+  {
+   "figure_text": "28%",
+   "reason": "no_metric_phrase",
+   "sentence": "In the Bakken, we're leveraging best practices from our shale and tight business to drive performance improvement, drilling laterals that are on average 28% longer, optimizing workovers and applying advanced chemicals.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 2,
+   "ev_start": 2674
+  },
+  {
+   "figure_text": "$12.1 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "For the second quarter, Chevron reported earnings of $12.1 billion or $6.11 per share.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5088
+  },
+  {
+   "figure_text": "$6.11",
+   "reason": "no_metric_phrase",
+   "sentence": "For the second quarter, Chevron reported earnings of $12.1 billion or $6.11 per share.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5088
+  },
+  {
+   "figure_text": "$12 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Adjusted earnings were $12 billion or $6.06 per share.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5175
+  },
+  {
+   "figure_text": "$6.06",
+   "reason": "no_metric_phrase",
+   "sentence": "Adjusted earnings were $12 billion or $6.06 per share.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5175
+  },
+  {
+   "figure_text": "$18 billion to $19 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We now expect to finish the year at the lower end of our guidance range of $18 billion to $19 billion.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5356
+  },
+  {
+   "figure_text": "$9.2 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Adjusted second quarter earnings were $9.2 billion higher versus last quarter.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5551
+  },
+  {
+   "figure_text": "$15.4 billion",
+   "reason": "not_tied_to_metric",
+   "sentence": "Chevron generated $19.7 billion of cash flow from operations, excluding working capital, and $15.4 billion of adjusted free cash flow in the quarter.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 5914
+  },
+  {
+   "figure_text": "$8 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We reduced debt by more than $8 billion, further strengthening our balance sheet and financial flexibility.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 6064
+  },
+  {
+   "figure_text": "$2.9 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Following the large build in the first quarter, working capital unwound by $2.9 billion as commodity prices decreased through the quarter.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 6232
+  },
+  {
+   "figure_text": "1%",
+   "reason": "not_tied_to_metric",
+   "sentence": "And TCO and Australia operated at or near full rates and the impact from the Middle East conflict remained isolated to the Partitioned Zone, representing about 1% of second quarter total production.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 6837
+  },
+  {
+   "figure_text": "$3 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We achieved $3 billion of structural cost reductions over the past 12 months, reaching our target six months ahead of schedule.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 7079
+  },
+  {
+   "figure_text": "70%",
+   "reason": "no_metric_phrase",
+   "sentence": "Thanks to the hard work and relentless focus across the organization, more than 70% of the savings came from efficiency gains, underscoring the quality of the improvements delivered.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 7207
+  },
+  {
+   "figure_text": "3%",
+   "reason": "not_tied_to_metric",
+   "sentence": "We remain confident in the 2030 objectives we outlined last November, including annual production growth of 2% to 3%, adjusted free cash flow growth averaging greater than 10% per year and more than 3% improvement on return on capital employed, all at flat commodity prices that are lower than today.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "prepared",
+   "turn_index": 4,
+   "ev_start": 7909
+  },
+  {
+   "figure_text": "$3 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "The affiliate distributions in the quarter of roughly $3 billion, most of that is coming from TCO and I want to affirm our $6 billion guidance at $70 Brent; obviously, we're likely to have a higher number for Brent this year, which would translate into even higher affiliate distributions.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "ev_start": 10555
+  },
+  {
+   "figure_text": "$6 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "The affiliate distributions in the quarter of roughly $3 billion, most of that is coming from TCO and I want to affirm our $6 billion guidance at $70 Brent; obviously, we're likely to have a higher number for Brent this year, which would translate into even higher affiliate distributions.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "ev_start": 10555
+  },
+  {
+   "figure_text": "$70",
+   "reason": "no_metric_phrase",
+   "sentence": "The affiliate distributions in the quarter of roughly $3 billion, most of that is coming from TCO and I want to affirm our $6 billion guidance at $70 Brent; obviously, we're likely to have a higher number for Brent this year, which would translate into even higher affiliate distributions.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 8,
+   "ev_start": 10555
+  },
+  {
+   "figure_text": "$3.5 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "Our capital is now expected to be below $3.5 billion this year, which is a 25% improvement in capital efficiency versus 2025.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "ev_start": 17421
+  },
+  {
+   "figure_text": "25%",
+   "reason": "no_metric_phrase",
+   "sentence": "Our capital is now expected to be below $3.5 billion this year, which is a 25% improvement in capital efficiency versus 2025.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "ev_start": 17421
+  },
+  {
+   "figure_text": "$18 billion to $19 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "It's one of the reasons why we feel confident today to say that we expect to finish the year at the low end of our capital budget range of $18 billion to $19 billion.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 13,
+   "ev_start": 17547
+  },
+  {
+   "figure_text": "$3 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "We're absolutely thrilled to share that we achieved the $3 billion of structural cost reduction ahead of schedule.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "ev_start": 25973
+  },
+  {
+   "figure_text": "35%",
+   "reason": "no_metric_phrase",
+   "sentence": "We went through a massive restructuring and rewiring of the organization last year, and that is impacting results - about 35% of the 70% I referenced is related to that reorganization.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "ev_start": 26270
+  },
+  {
+   "figure_text": "70%",
+   "reason": "no_metric_phrase",
+   "sentence": "We went through a massive restructuring and rewiring of the organization last year, and that is impacting results - about 35% of the 70% I referenced is related to that reorganization.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 25,
+   "ev_start": 26270
+  },
+  {
+   "figure_text": "35%",
+   "reason": "no_metric_phrase",
+   "sentence": "We increased our acreage by 35% over the last year and closed on 10 million net acres this year in South America, the Mediterranean and the Gulf of America primarily.",
+   "speaker": "Michael Wirth",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 31,
+   "ev_start": 30100
+  },
+  {
+   "figure_text": "$18 billion to $21 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "In terms of the long-term range we shared at Investor Day, we provided a range of $18 billion to $21 billion.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "ev_start": 35869
+  },
+  {
+   "figure_text": "$18 billion to $19 billion",
+   "reason": "no_metric_phrase",
+   "sentence": "This year, our budget is $18 billion to $19 billion.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 43,
+   "ev_start": 35979
+  },
+  {
+   "figure_text": "15%",
+   "reason": "not_tied_to_metric",
+   "sentence": "With the existing model we have in place, we have grown production from those three JVs 15% over the last six months to 280,000 barrels of oil per day, and we anticipate being able to grow up to 50% between now and the end of 2028.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "ev_start": 39900
+  },
+  {
+   "figure_text": "50%",
+   "reason": "not_tied_to_metric",
+   "sentence": "With the existing model we have in place, we have grown production from those three JVs 15% over the last six months to 280,000 barrels of oil per day, and we anticipate being able to grow up to 50% between now and the end of 2028.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 52,
+   "ev_start": 39900
+  },
+  {
+   "figure_text": "70% to 75%",
+   "reason": "no_metric_phrase",
+   "sentence": "We are producing 80,000 barrels a day from Argentina with about a 70% to 75% oil cut, so we like the product slate from Vaca Muerta.",
+   "speaker": "Eimear Bonner",
+   "role": "management",
+   "section": "qa",
+   "turn_index": 55,
+   "ev_start": 41381
+  }
+ ],
+ "checks": [
+  {
+   "name": "evidence_verification",
+   "status": "pass",
+   "detail": "all facts trace to the transcript text"
+  },
+  {
+   "name": "range_order",
+   "status": "pass",
+   "detail": "all ranges are low<=high"
+  },
+  {
+   "name": "percent_bounds",
+   "status": "pass",
+   "detail": "margin/tax-rate levels within plausible bounds"
+  },
+  {
+   "name": "no_conflicting_values",
+   "status": "pass",
+   "detail": "no metric has two different values in the same period"
+  }
+ ],
+ "stats": {
+  "facts": 6,
+  "by_kind": {
+   "reported": 6
+  },
+  "by_confidence": {
+   "medium": 1,
+   "high": 5
+  },
+  "verified": 6,
+  "unverified": 0,
+  "unclaimed_figures": 33,
+  "checks_failed": 0,
+  "checks_warn": 0
+ }
+}

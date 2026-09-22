@@ -10,6 +10,17 @@
     "gross_profit": {"kind": "duration", "unit": "USD",
                      "concepts": ["GrossProfit"]},
     "eps": {"kind": "duration", "unit": "USD_per_share",
-           "concepts": ["EarningsPerShareDiluted", "EarningsPerShareBasic"]}
+           "concepts": ["EarningsPerShareDiluted", "EarningsPerShareBasic"]},
+    "capex": {"kind": "duration", "unit": "USD",
+             "concepts": ["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsForCapitalImprovements",
+                          "PaymentsToAcquireProductiveAssets"]},
+    "debt_issued": {"kind": "duration", "unit": "USD",
+                    "concepts": ["ProceedsFromIssuanceOfLongTermDebt", "ProceedsFromNotesPayable",
+                                 "ProceedsFromIssuanceOfDebt"]},
+    "debt_repaid": {"kind": "duration", "unit": "USD",
+                    "concepts": ["RepaymentsOfLongTermDebt", "RepaymentsOfNotesPayable", "RepaymentsOfDebt"]},
+    "acquisitions": {"kind": "duration", "unit": "USD",
+                     "concepts": ["PaymentsToAcquireBusinessesNetOfCashAcquired",
+                                  "PaymentsToAcquireBusinessesGross"]}
   }
 }

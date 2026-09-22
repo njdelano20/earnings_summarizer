@@ -81,6 +81,42 @@ class QuarterlyMatching(unittest.TestCase):
         self.assertEqual(got["value"], 1.38)
         self.assertEqual(got["unit"], "USD_per_share")
 
+    def test_direct_standalone_match_is_flagged_not_derived(self):
+        facts = facts_with("Revenues", ("2026-03-29", "2026-06-27", 11536000000, "10-Q"))
+        got = S.find_quarterly_value(facts, "revenue", date(2026, 6, 27))
+        self.assertFalse(got["derived_from_ytd"])
+
+
+class YtdDerivation(unittest.TestCase):
+    """capex/debt/acquisitions: SEC's cash-flow-statement concepts are typically tagged YTD-only (ASC 270's
+    interim-reporting convention), unlike revenue/EPS -- the real 2026-09-22 case that motivated this: AAPL's
+    filed capex was only ever tagged as 9-month and 6-month cumulative totals, never a standalone quarter."""
+
+    def test_derives_the_standalone_quarter_from_two_real_ytd_filings(self):
+        facts = facts_with("PaymentsToAcquirePropertyPlantAndEquipment",
+                           ("2025-09-28", "2026-03-28", 4344000000, "10-Q"),   # 6-month YTD
+                           ("2025-09-28", "2026-06-27", 6799000000, "10-Q"))   # 9-month YTD
+        got = S.find_quarterly_value(facts, "capex", date(2026, 6, 27))
+        self.assertEqual(got["value"], 2455000000)          # the real AAPL Q3 FY2026 figure
+        self.assertTrue(got["derived_from_ytd"])
+        self.assertEqual(got["start"], "2026-03-28")         # the derived quarter's own start, not the fiscal year's
+
+    def test_no_matching_prior_quarter_ytd_returns_none_not_a_guess(self):
+        # only the 9-month figure is on file -- nothing to subtract, so this must not be treated as the quarter
+        facts = facts_with("PaymentsToAcquirePropertyPlantAndEquipment",
+                           ("2025-09-28", "2026-06-27", 6799000000, "10-Q"))
+        self.assertIsNone(S.find_quarterly_value(facts, "capex", date(2026, 6, 27)))
+
+    def test_a_longer_span_ending_the_same_date_never_wins_as_this_periods_ytd(self):
+        # a longer cumulative span (e.g. a restated multi-year figure) that happens to end on the same date as
+        # the real 9-month YTD entry must not be picked as "this period" -- shortest qualifying span wins
+        facts = facts_with("PaymentsToAcquirePropertyPlantAndEquipment",
+                           ("2024-09-28", "2026-06-27", 20000000000, "10-Q/A"),   # ~21 months -- must be ignored
+                           ("2025-09-28", "2026-03-28", 4344000000, "10-Q"),
+                           ("2025-09-28", "2026-06-27", 6799000000, "10-Q"))
+        got = S.find_quarterly_value(facts, "capex", date(2026, 6, 27))
+        self.assertEqual(got["value"], 2455000000)
+
 
 class CrossCheck(unittest.TestCase):
     def _facts_result(self, *facts):

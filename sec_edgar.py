@@ -221,13 +221,67 @@ def find_quarterly_value(facts: dict, metric: str, period_end: date, tolerance_d
                 continue                                  # a YTD or annual duration, not a standalone quarter
         candidates.append(e)
     if not candidates:
-        return None
+        return _derive_quarter_from_ytd(facts, metric, period_end, tolerance_days)
     # prefer the filing closest to the exact date, then an un-amended 10-Q/10-K over a 10-Q/A
     candidates.sort(key=lambda e: (abs((date.fromisoformat(e["end"]) - period_end).days), e.get("form", "").endswith("/A")))
     best = candidates[0]
     return {"value": best["val"], "unit": spec["unit"], "end": best["end"], "start": best.get("start"),
            "form": best.get("form"), "fy": best.get("fy"), "fp": best.get("fp"), "filed": best.get("filed"),
-           "accn": best.get("accn")}
+           "accn": best.get("accn"), "derived_from_ytd": False}
+
+
+def _derive_quarter_from_ytd(facts: dict, metric: str, period_end: date,
+                             tolerance_days: int = _DEFAULT_TOLERANCE_DAYS) -> dict | None:
+    """Cash-flow-statement concepts (capex, debt issued/repaid, acquisitions, ...) are typically tagged
+    CUMULATIVE-YTD ONLY in a 10-Q -- SEC's own interim-reporting convention (ASC 270), unlike income-statement
+    concepts, which usually also get a standalone-quarter tag. `find_quarterly_value` calls this only after its
+    own direct standalone-quarter search comes up empty. Derives the quarter as YTD(this period) minus
+    YTD(the immediately prior quarter, same fiscal-year start) -- both real filed numbers, nothing invented.
+    None if no matching prior-quarter YTD entry exists (e.g. Q1, where YTD already equals the quarter and would
+    have been caught by the direct search already, or the prior filing simply isn't in this cache)."""
+    spec = metric_map().get(metric)
+    if not spec or spec["kind"] != "duration":
+        return None
+    entries = _entries_for(facts, spec["concepts"], spec["unit"])
+    this_ytd = None
+    for e in entries:
+        try:
+            end = date.fromisoformat(e["end"])
+            start = date.fromisoformat(e["start"])
+        except (KeyError, ValueError):
+            continue
+        if abs((end - period_end).days) > tolerance_days:
+            continue
+        days = (end - start).days
+        if days <= _QUARTER_DAYS[1]:
+            continue                                  # a standalone quarter -- the direct search already covers this
+        # prefer the shortest qualifying cumulative span, so an annual 10-K entry never wins over a 10-Q's YTD
+        if this_ytd is None or days < (date.fromisoformat(this_ytd["end"]) - date.fromisoformat(this_ytd["start"])).days:
+            this_ytd = e
+    if this_ytd is None:
+        return None
+    this_start = date.fromisoformat(this_ytd["start"])
+    this_end = date.fromisoformat(this_ytd["end"])
+    this_days = (this_end - this_start).days
+    target_prior_days = this_days - 91                # one quarter (~91 days) shorter, same start
+    best_prior, best_gap = None, None
+    for e in entries:
+        try:
+            end = date.fromisoformat(e["end"])
+            start = date.fromisoformat(e["start"])
+        except (KeyError, ValueError):
+            continue
+        if start != this_start or end >= this_end:
+            continue
+        gap = abs((end - start).days - target_prior_days)
+        if gap <= 20 and (best_gap is None or gap < best_gap):
+            best_prior, best_gap = e, gap
+    if best_prior is None:
+        return None
+    return {"value": this_ytd["val"] - best_prior["val"], "unit": spec["unit"], "end": this_ytd["end"],
+           "start": best_prior["end"], "form": this_ytd.get("form"), "fy": this_ytd.get("fy"),
+           "fp": this_ytd.get("fp"), "filed": this_ytd.get("filed"), "accn": this_ytd.get("accn"),
+           "derived_from_ytd": True}
 
 
 # --------------------------------------------------------------------------- #

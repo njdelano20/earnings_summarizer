@@ -86,8 +86,14 @@ def packs_for(ticker: str | None) -> list[str]:
     ticker = ticker.strip().upper()
     packs: list[str] = list(_load_json(TICKERS_FILE, {}).get("tickers", {}).get(ticker, []))
     info = industry_of(ticker)
-    if info and info.get("industry"):
-        packs += _load_json(INDUSTRY_PACKS_FILE, {}).get("industries", {}).get(info["industry"], [])
+    if info:
+        mapping = _load_json(INDUSTRY_PACKS_FILE, {})
+        found = mapping.get("industries", {}).get(info.get("industry") or "", [])
+        if not found:
+            # the specific industry gave nothing (missing or unmapped): fall back to the symbol's sector, if that
+            # sector has a safe default (industry_packs.json's "sectors" -- deliberately only for a few sectors)
+            found = mapping.get("sectors", {}).get(info.get("sector") or "", [])
+        packs += found
     seen, out = set(), []
     for p in packs:
         if p not in seen:

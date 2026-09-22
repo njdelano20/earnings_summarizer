@@ -129,5 +129,9 @@
 
     "Farm Products": ["agriculture"],
     "Agricultural Inputs": ["agriculture"]
+  },
+  "sectors": {
+    "note": "Fallback used only when a symbol's specific industry is missing or unmapped (e.g. VICI: sector Real Estate, industry blank in the library). Deliberately minimal: most sectors (Financials, Industrials, ...) are too mixed for a single default to be safe.",
+    "Real Estate": ["reit"]
   }
 }

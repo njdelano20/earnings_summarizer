@@ -1,7 +1,10 @@
 {
   "name": "credit_finance",
-  "description": "Consumer/commercial credit and mortgage finance companies: origination volume and loss rates replace product revenue.",
+  "description": "Yahoo's 'Credit Services' industry mixes payment networks (Visa, Mastercard, PayPal, Amex) with consumer/commercial lenders (Capital One, SoFi, Affirm) and mortgage finance -- the same industry label, genuinely different businesses -- so this pack covers both: payment/transaction volume for networks, origination volume and loss rates for lenders.",
   "metrics": [
+    {"name": "payments_volume", "pattern": "payments?\\s+volume", "segmented": true},
+    {"name": "processed_transactions", "pattern": "processed\\s+transactions?"},
+    {"name": "cross_border_volume", "pattern": "cross[- ]border\\s+volume", "segmented": true},
     {"name": "loan_originations", "pattern": "(?:loan\\s+)?originations?", "segmented": true},
     {"name": "net_charge_off_rate", "pattern": "net\\s+charge[- ]off\\s+rate", "pct_level": true},
     {"name": "delinquency_rate", "pattern": "delinquency\\s+rate|delinquencies", "pct_level": true},

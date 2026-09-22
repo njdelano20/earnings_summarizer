@@ -1,0 +1,11 @@
+{
+  "name": "airline",
+  "description": "Airlines, airports and air services companies: load factor, unit revenue and unit cost replace product revenue. Capacity (available seat miles) is a physical quantity: the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "load_factor", "pattern": "load\\s+factor", "pct_level": true},
+    {"name": "rasm", "pattern": "\\bRASM\\b|revenue\\s+per\\s+available\\s+seat\\s+mile"},
+    {"name": "casm", "pattern": "\\bCASM\\b|cost\\s+per\\s+available\\s+seat\\s+mile"},
+    {"name": "capacity", "pattern": "capacity(?:\\s+growth)?|available\\s+seat\\s+miles?|\\bASMs?\\b", "segmented": true},
+    {"name": "passenger_revenue", "pattern": "passenger\\s+revenue", "segmented": true}
+  ]
+}

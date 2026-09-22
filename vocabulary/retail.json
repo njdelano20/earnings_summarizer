@@ -1,0 +1,8 @@
+{
+  "name": "retail",
+  "description": "Traditional and online retailers (department stores, apparel, grocery, internet retail, ...). Comparable/same-store sales is already in the core vocabulary (facts.py); this pack adds e-commerce-specific metrics.",
+  "metrics": [
+    {"name": "gmv", "pattern": "gross\\s+merchandise\\s+value|\\bGMV\\b", "segmented": true},
+    {"name": "average_order_value", "pattern": "average\\s+order\\s+value|\\bAOV\\b", "segmented": true}
+  ]
+}

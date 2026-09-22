@@ -1,0 +1,13 @@
+{
+  "name": "insurance",
+  "description": "Property & casualty, life, specialty and reinsurance carriers, and brokers: underwriting ratios and premiums replace product revenue.",
+  "metrics": [
+    {"name": "combined_ratio", "pattern": "combined\\s+ratio", "pct_level": true},
+    {"name": "loss_ratio", "pattern": "loss\\s+ratio", "pct_level": true},
+    {"name": "expense_ratio", "pattern": "expense\\s+ratio", "pct_level": true},
+    {"name": "premiums_written", "pattern": "(?:gross\\s+|net\\s+)?(?:written\\s+premiums?|premiums?\\s+written)", "segmented": true},
+    {"name": "premiums_earned", "pattern": "(?:net\\s+)?earned\\s+premiums?|premiums?\\s+earned", "segmented": true},
+    {"name": "underwriting_income", "pattern": "underwriting\\s+(?:income|profit|gain)", "segmented": true},
+    {"name": "book_value_per_share", "pattern": "book\\s+value\\s+per\\s+(?:diluted\\s+)?share", "per_share": true}
+  ]
+}

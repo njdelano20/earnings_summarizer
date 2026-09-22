@@ -1,0 +1,8 @@
+{
+  "name": "media_entertainment",
+  "description": "Streaming, gaming, publishing, broadcasting and advertising companies: subscribers/users and ARPU replace product revenue. Subscriber counts are physical quantities; the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "subscribers", "pattern": "subscribers?"},
+    {"name": "average_revenue_per_user", "pattern": "\\bARPU\\b|average\\s+revenue\\s+per\\s+(?:user|member|subscriber)", "segmented": true}
+  ]
+}

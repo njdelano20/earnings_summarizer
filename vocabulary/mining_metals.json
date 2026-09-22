@@ -1,0 +1,11 @@
+{
+  "name": "mining_metals",
+  "description": "Metals and mining companies (gold, base and industrial metals, coal, uranium): production is usually stated in physical units (ounces, tons, pounds); the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "production", "pattern": "production(?:\\s+volumes?)?", "segmented": true},
+    {"name": "realized_price", "pattern": "realized\\s+prices?", "segmented": true},
+    {"name": "all_in_sustaining_costs", "pattern": "all[- ]in\\s+sustaining\\s+costs?|\\bAISC\\b", "segmented": true},
+    {"name": "cash_costs", "pattern": "cash\\s+costs?", "segmented": true},
+    {"name": "reserves", "pattern": "(?:proven\\s+and\\s+probable\\s+)?reserves"}
+  ]
+}

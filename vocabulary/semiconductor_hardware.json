@@ -1,0 +1,8 @@
+{
+  "name": "semiconductor_hardware",
+  "description": "Semiconductors, semiconductor equipment, communication equipment and computer hardware companies: unit shipments and ASP replace generic units.",
+  "metrics": [
+    {"name": "units_shipped", "pattern": "units\\s+shipped|unit\\s+shipments?", "segmented": true},
+    {"name": "asp", "pattern": "average\\s+selling\\s+prices?|\\bASPs?\\b", "segmented": true}
+  ]
+}

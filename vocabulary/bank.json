@@ -1,0 +1,19 @@
+{
+  "name": "bank",
+  "description": "Regional and diversified banks: net interest income/margin, credit costs, efficiency and capital ratios replace revenue/gross-margin as the headline metrics.",
+  "metrics": [
+    {"name": "net_interest_income", "pattern": "net\\s+interest\\s+income|\\bNII\\b", "segmented": true},
+    {"name": "net_interest_margin", "pattern": "net\\s+interest\\s+margin|\\bNIM\\b", "pct_level": true},
+    {"name": "noninterest_income", "pattern": "non[- ]?interest\\s+income|fee\\s+income", "segmented": true},
+    {"name": "noninterest_expense", "pattern": "non[- ]?interest\\s+expense", "segmented": true},
+    {"name": "provision_credit_losses", "pattern": "provision\\s+for\\s+(?:credit|loan)\\s+losses|credit\\s+loss\\s+provision"},
+    {"name": "net_charge_offs", "pattern": "net\\s+charge[- ]offs?"},
+    {"name": "efficiency_ratio", "pattern": "efficiency\\s+ratio", "pct_level": true},
+    {"name": "deposits", "pattern": "(?:total\\s+)?deposits", "segmented": true},
+    {"name": "loans", "pattern": "(?:total\\s+)?loans(?:\\s+and\\s+leases)?", "segmented": true},
+    {"name": "cet1_ratio", "pattern": "CET1(?:\\s+ratio)?|common\\s+equity\\s+tier\\s+1(?:\\s+ratio)?", "pct_level": true},
+    {"name": "return_on_tangible_common_equity", "pattern": "return\\s+on\\s+tangible\\s+common\\s+equity|\\bROTCE\\b", "pct_level": true},
+    {"name": "return_on_assets", "pattern": "return\\s+on\\s+(?:average\\s+)?assets|\\bROA\\b", "pct_level": true},
+    {"name": "tangible_book_value_per_share", "pattern": "tangible\\s+book\\s+value\\s+per\\s+share|\\bTBVPS\\b", "per_share": true}
+  ]
+}

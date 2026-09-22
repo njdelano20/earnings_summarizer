@@ -1,0 +1,9 @@
+{
+  "name": "oil_gas_downstream",
+  "description": "Refining & marketing and oilfield equipment & services companies: utilization and crack spreads replace product revenue.",
+  "metrics": [
+    {"name": "utilization_rate", "pattern": "utilization\\s+rate", "pct_level": true},
+    {"name": "crack_spread", "pattern": "crack\\s+spreads?"},
+    {"name": "refining_margin", "pattern": "refining\\s+margins?", "segmented": true}
+  ]
+}

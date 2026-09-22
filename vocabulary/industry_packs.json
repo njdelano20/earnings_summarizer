@@ -1,0 +1,133 @@
+{
+  "note": "Maps every Yahoo Finance industry (as stored in MarketDataLibrary securities.industry -- 'company type') to the vocabulary pack(s) it uses, on top of the core vocabulary in facts.py. An industry with no entry here gets core only: most of the 153 industries in the library need nothing sector-specific (revenue/margin/segment already covers them). This file only needs a code change to vocab.py if the RESOLUTION rule changes; adding, removing or re-pointing an industry is a data edit here.",
+  "industries": {
+    "Biotechnology": ["biotech_pharma"],
+    "Drug Manufacturers - Specialty & Generic": ["biotech_pharma"],
+    "Drug Manufacturers - General": ["biotech_pharma"],
+    "Medical - Pharmaceuticals": ["biotech_pharma"],
+
+    "Medical Devices": ["medtech"],
+    "Medical Instruments & Supplies": ["medtech"],
+    "Diagnostics & Research": ["medtech"],
+    "Scientific & Technical Instruments": ["medtech"],
+    "Health Information Services": ["medtech"],
+
+    "Medical Care Facilities": ["healthcare_services"],
+    "Healthcare Plans": ["healthcare_services"],
+    "Medical Distribution": ["healthcare_services"],
+    "Pharmaceutical Retailers": ["healthcare_services"],
+
+    "Banks - Regional": ["bank"],
+    "Banks - Diversified": ["bank"],
+    "Financial Conglomerates": ["bank"],
+
+    "Asset Management": ["asset_management"],
+    "Capital Markets": ["asset_management"],
+    "Financial Data & Stock Exchanges": ["asset_management"],
+
+    "Credit Services": ["credit_finance"],
+    "Mortgage Finance": ["credit_finance"],
+
+    "Insurance - Property & Casualty": ["insurance"],
+    "Insurance - Life": ["insurance"],
+    "Insurance - Specialty": ["insurance"],
+    "Insurance - Diversified": ["insurance"],
+    "Insurance - Reinsurance": ["insurance"],
+    "Insurance Brokers": ["insurance"],
+
+    "REIT - Mortgage": ["reit"],
+    "REIT - Office": ["reit"],
+    "REIT - Residential": ["reit"],
+    "REIT - Retail": ["reit"],
+    "REIT - Diversified": ["reit"],
+    "REIT - Healthcare Facilities": ["reit"],
+    "REIT - Specialty": ["reit"],
+    "REIT - Hotel & Motel": ["reit"],
+    "REIT - Industrial": ["reit"],
+    "Real Estate Services": ["reit"],
+    "Real Estate - Development": ["reit"],
+    "Real Estate - Diversified": ["reit"],
+
+    "Oil & Gas Exploration & Production": ["oil_gas_upstream"],
+    "Oil & Gas Integrated": ["oil_gas_upstream"],
+    "Oil & Gas Drilling": ["oil_gas_upstream"],
+
+    "Oil & Gas Midstream": ["oil_gas_midstream"],
+
+    "Oil & Gas Refining & Marketing": ["oil_gas_downstream"],
+    "Oil & Gas Equipment & Services": ["oil_gas_downstream"],
+
+    "Gold": ["mining_metals"],
+    "Other Industrial Metals & Mining": ["mining_metals"],
+    "Other Precious Metals & Mining": ["mining_metals"],
+    "Silver": ["mining_metals"],
+    "Copper": ["mining_metals"],
+    "Steel": ["mining_metals"],
+    "Aluminum": ["mining_metals"],
+    "Coking Coal": ["mining_metals"],
+    "Thermal Coal": ["mining_metals"],
+    "Uranium": ["mining_metals"],
+
+    "Utilities - Regulated Electric": ["utility"],
+    "Utilities - Regulated Gas": ["utility"],
+    "Utilities - Regulated Water": ["utility"],
+    "Utilities - Independent Power Producers": ["utility"],
+    "Utilities - Diversified": ["utility"],
+
+    "Utilities - Renewable": ["renewable_energy"],
+    "Solar": ["renewable_energy"],
+
+    "Telecom Services": ["telecom"],
+
+    "Entertainment": ["media_entertainment"],
+    "Advertising Agencies": ["media_entertainment"],
+    "Internet Content & Information": ["media_entertainment"],
+    "Broadcasting": ["media_entertainment"],
+    "Publishing": ["media_entertainment"],
+    "Electronic Gaming & Multimedia": ["media_entertainment"],
+
+    "Software - Application": ["software_saas"],
+    "Software - Infrastructure": ["software_saas"],
+    "Information Technology Services": ["software_saas"],
+
+    "Semiconductors": ["semiconductor_hardware"],
+    "Semiconductor Equipment & Materials": ["semiconductor_hardware"],
+    "Communication Equipment": ["semiconductor_hardware"],
+    "Electronic Components": ["semiconductor_hardware"],
+    "Computer Hardware": ["semiconductor_hardware"],
+    "Consumer Electronics": ["semiconductor_hardware"],
+    "Electronics & Computer Distribution": ["semiconductor_hardware"],
+
+    "Internet Retail": ["retail"],
+    "Apparel Retail": ["retail"],
+    "Specialty Retail": ["retail"],
+    "Discount Stores": ["retail"],
+    "Department Stores": ["retail"],
+    "Home Improvement Retail": ["retail"],
+    "Grocery Stores": ["retail"],
+    "Food Distribution": ["retail"],
+
+    "Restaurants": ["restaurants"],
+
+    "Auto Manufacturers": ["auto"],
+    "Auto & Truck Dealerships": ["auto"],
+    "Auto Parts": ["auto"],
+    "Recreational Vehicles": ["auto"],
+
+    "Resorts & Casinos": ["gaming_leisure"],
+    "Gambling": ["gaming_leisure"],
+    "Leisure": ["gaming_leisure"],
+    "Lodging": ["gaming_leisure"],
+
+    "Airlines": ["airline"],
+    "Airports & Air Services": ["airline"],
+
+    "Marine Shipping": ["transportation_logistics"],
+    "Integrated Freight & Logistics": ["transportation_logistics"],
+    "Trucking": ["transportation_logistics"],
+    "Railroads": ["transportation_logistics"],
+
+    "Farm Products": ["agriculture"],
+    "Agricultural Inputs": ["agriculture"]
+  }
+}

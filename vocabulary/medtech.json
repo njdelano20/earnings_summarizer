@@ -1,0 +1,9 @@
+{
+  "name": "medtech",
+  "description": "Medical device, instrument, diagnostics and health-information companies: procedure volume and installed base matter alongside product revenue. Both are physical quantities: the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "procedure_volume", "pattern": "procedures?\\s+(?:performed|volumes?)", "segmented": true},
+    {"name": "installed_base", "pattern": "installed\\s+base", "segmented": true},
+    {"name": "asp", "pattern": "average\\s+selling\\s+prices?|\\bASPs?\\b", "segmented": true}
+  ]
+}

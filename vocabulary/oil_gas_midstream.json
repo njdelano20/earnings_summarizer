@@ -1,0 +1,8 @@
+{
+  "name": "oil_gas_midstream",
+  "description": "Gathering, processing and pipeline companies (see the earnings_summarizer HESM notes). Throughput is usually a physical rate (MMcf/d, Mbbl/d): the growth-rate form works now, the absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "throughput", "pattern": "throughput(?:\\s+volumes?)?", "segmented": true},
+    {"name": "distributable_cash_flow", "pattern": "distributable\\s+cash\\s+flow|\\bDCF\\b"}
+  ]
+}

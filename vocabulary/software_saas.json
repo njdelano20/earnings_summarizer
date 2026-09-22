@@ -1,0 +1,9 @@
+{
+  "name": "software_saas",
+  "description": "Application software, infrastructure software and IT services companies. ARR/backlog/bookings are already in the core vocabulary (facts.py); this pack adds the retention and billings metrics specific to subscription businesses.",
+  "metrics": [
+    {"name": "net_revenue_retention", "pattern": "net\\s+(?:dollar\\s+|revenue\\s+)?retention(?:\\s+rate)?|\\bNRR\\b|\\bNDR\\b", "pct_level": true},
+    {"name": "billings", "pattern": "billings?", "segmented": true},
+    {"name": "remaining_performance_obligations", "pattern": "remaining\\s+performance\\s+obligations?|\\bRPO\\b"}
+  ]
+}

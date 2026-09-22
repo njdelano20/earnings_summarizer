@@ -1,0 +1,9 @@
+{
+  "name": "auto",
+  "description": "Auto manufacturers, dealerships, parts makers and RV makers: deliveries and ASP replace generic units. Delivery/production counts are physical quantities; the growth-rate form works now, an absolute count does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "deliveries", "pattern": "deliveries|vehicles\\s+(?:sold|delivered)", "segmented": true},
+    {"name": "asp", "pattern": "average\\s+selling\\s+prices?|\\bASPs?\\b", "segmented": true},
+    {"name": "vehicle_production", "pattern": "(?:vehicle\\s+)?production(?:\\s+volumes?)?", "segmented": true}
+  ]
+}

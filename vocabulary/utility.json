@@ -1,0 +1,9 @@
+{
+  "name": "utility",
+  "description": "Regulated electric, gas, water and diversified/independent-power utilities: the rate base and its allowed return replace product revenue. Customer counts are physical quantities: their growth rate works now, an absolute count does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "rate_base", "pattern": "rate\\s+base", "segmented": true},
+    {"name": "allowed_roe", "pattern": "allowed\\s+(?:return\\s+on\\s+equity|ROE)|authorized\\s+ROE", "pct_level": true},
+    {"name": "customers_served", "pattern": "customers?(?:\\s+served)?", "segmented": true}
+  ]
+}

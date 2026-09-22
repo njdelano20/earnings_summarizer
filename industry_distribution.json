@@ -1,0 +1,640 @@
+{
+ "Communication Services": [
+  {
+   "industry": "Internet Content & Information",
+   "n": 70
+  },
+  {
+   "industry": "Telecom Services",
+   "n": 54
+  },
+  {
+   "industry": "Entertainment",
+   "n": 47
+  },
+  {
+   "industry": "Advertising Agencies",
+   "n": 34
+  },
+  {
+   "industry": "Electronic Gaming & Multimedia",
+   "n": 20
+  },
+  {
+   "industry": "Broadcasting",
+   "n": 14
+  },
+  {
+   "industry": "Publishing",
+   "n": 9
+  }
+ ],
+ "Consumer Discretionary": [
+  {
+   "industry": "Auto Parts",
+   "n": 55
+  },
+  {
+   "industry": "Restaurants",
+   "n": 51
+  },
+  {
+   "industry": "Specialty Retail",
+   "n": 42
+  },
+  {
+   "industry": "Education & Training Services",
+   "n": 41
+  },
+  {
+   "industry": "Internet Retail",
+   "n": 38
+  },
+  {
+   "industry": "Apparel Retail",
+   "n": 31
+  },
+  {
+   "industry": "Furnishings, Fixtures & Appliances",
+   "n": 27
+  },
+  {
+   "industry": "Leisure",
+   "n": 27
+  },
+  {
+   "industry": "Apparel Manufacturing",
+   "n": 24
+  },
+  {
+   "industry": "Auto & Truck Dealerships",
+   "n": 23
+  },
+  {
+   "industry": "Auto Manufacturers",
+   "n": 23
+  },
+  {
+   "industry": "Residential Construction",
+   "n": 19
+  },
+  {
+   "industry": "Travel Services",
+   "n": 17
+  },
+  {
+   "industry": "Resorts & Casinos",
+   "n": 17
+  },
+  {
+   "industry": "Recreational Vehicles",
+   "n": 16
+  },
+  {
+   "industry": "Gambling",
+   "n": 13
+  },
+  {
+   "industry": "Footwear & Accessories",
+   "n": 12
+  },
+  {
+   "industry": "Lodging",
+   "n": 11
+  },
+  {
+   "industry": "Personal Services",
+   "n": 10
+  },
+  {
+   "industry": "Luxury Goods",
+   "n": 10
+  },
+  {
+   "industry": "Home Improvement Retail",
+   "n": 6
+  },
+  {
+   "industry": "Textile Manufacturing",
+   "n": 5
+  },
+  {
+   "industry": "Department Stores",
+   "n": 4
+  }
+ ],
+ "Consumer Staples": [
+  {
+   "industry": "Packaged Foods",
+   "n": 64
+  },
+  {
+   "industry": "Household & Personal Products",
+   "n": 27
+  },
+  {
+   "industry": "Beverages - Non-Alcoholic",
+   "n": 19
+  },
+  {
+   "industry": "Farm Products",
+   "n": 18
+  },
+  {
+   "industry": "Grocery Stores",
+   "n": 11
+  },
+  {
+   "industry": "Tobacco",
+   "n": 11
+  },
+  {
+   "industry": "Food Distribution",
+   "n": 11
+  },
+  {
+   "industry": "Discount Stores",
+   "n": 9
+  },
+  {
+   "industry": "Beverages - Wineries & Distilleries",
+   "n": 9
+  },
+  {
+   "industry": "Beverages - Brewers",
+   "n": 8
+  },
+  {
+   "industry": "Confectioners",
+   "n": 5
+  },
+  {
+   "industry": "Pharmaceutical Retailers",
+   "n": 4
+  }
+ ],
+ "Energy": [
+  {
+   "industry": "Oil & Gas Exploration & Production",
+   "n": 77
+  },
+  {
+   "industry": "Oil & Gas Midstream",
+   "n": 58
+  },
+  {
+   "industry": "Oil & Gas Equipment & Services",
+   "n": 48
+  },
+  {
+   "industry": "Oil & Gas Refining & Marketing",
+   "n": 19
+  },
+  {
+   "industry": "Solar",
+   "n": 18
+  },
+  {
+   "industry": "Oil & Gas Integrated",
+   "n": 17
+  },
+  {
+   "industry": "Uranium",
+   "n": 15
+  },
+  {
+   "industry": "Oil & Gas Drilling",
+   "n": 10
+  },
+  {
+   "industry": "Coking Coal",
+   "n": 5
+  },
+  {
+   "industry": "Thermal Coal",
+   "n": 5
+  },
+  {
+   "industry": "(none)",
+   "n": 1
+  }
+ ],
+ "Financials": [
+  {
+   "industry": "Banks - Regional",
+   "n": 324
+  },
+  {
+   "industry": "Asset Management",
+   "n": 136
+  },
+  {
+   "industry": "Capital Markets",
+   "n": 90
+  },
+  {
+   "industry": "Credit Services",
+   "n": 50
+  },
+  {
+   "industry": "Insurance - Property & Casualty",
+   "n": 45
+  },
+  {
+   "industry": "Insurance Brokers",
+   "n": 23
+  },
+  {
+   "industry": "Banks - Diversified",
+   "n": 19
+  },
+  {
+   "industry": "Insurance - Life",
+   "n": 18
+  },
+  {
+   "industry": "Insurance - Specialty",
+   "n": 15
+  },
+  {
+   "industry": "Financial Data & Stock Exchanges",
+   "n": 14
+  },
+  {
+   "industry": "Mortgage Finance",
+   "n": 12
+  },
+  {
+   "industry": "Insurance - Diversified",
+   "n": 12
+  },
+  {
+   "industry": "Insurance - Reinsurance",
+   "n": 8
+  },
+  {
+   "industry": "Financial Conglomerates",
+   "n": 7
+  },
+  {
+   "industry": "(none)",
+   "n": 2
+  }
+ ],
+ "Healthcare": [
+  {
+   "industry": "Biotechnology",
+   "n": 559
+  },
+  {
+   "industry": "Medical Devices",
+   "n": 138
+  },
+  {
+   "industry": "Drug Manufacturers - Specialty & Generic",
+   "n": 82
+  },
+  {
+   "industry": "Medical Care Facilities",
+   "n": 49
+  },
+  {
+   "industry": "Medical Instruments & Supplies",
+   "n": 49
+  },
+  {
+   "industry": "Diagnostics & Research",
+   "n": 44
+  },
+  {
+   "industry": "Health Information Services",
+   "n": 39
+  },
+  {
+   "industry": "Scientific & Technical Instruments",
+   "n": 30
+  },
+  {
+   "industry": "Drug Manufacturers - General",
+   "n": 21
+  },
+  {
+   "industry": "Healthcare Plans",
+   "n": 11
+  },
+  {
+   "industry": "Medical Distribution",
+   "n": 11
+  },
+  {
+   "industry": "Medical - Pharmaceuticals",
+   "n": 2
+  },
+  {
+   "industry": "(none)",
+   "n": 1
+  }
+ ],
+ "Industrials": [
+  {
+   "industry": "Aerospace & Defense",
+   "n": 88
+  },
+  {
+   "industry": "Specialty Industrial Machinery",
+   "n": 71
+  },
+  {
+   "industry": "Electrical Equipment & Parts",
+   "n": 49
+  },
+  {
+   "industry": "Specialty Business Services",
+   "n": 43
+  },
+  {
+   "industry": "Engineering & Construction",
+   "n": 43
+  },
+  {
+   "industry": "Building Products & Equipment",
+   "n": 36
+  },
+  {
+   "industry": "Marine Shipping",
+   "n": 33
+  },
+  {
+   "industry": "Integrated Freight & Logistics",
+   "n": 30
+  },
+  {
+   "industry": "Industrial Distribution",
+   "n": 25
+  },
+  {
+   "industry": "Conglomerates",
+   "n": 25
+  },
+  {
+   "industry": "Farm & Heavy Construction Machinery",
+   "n": 25
+  },
+  {
+   "industry": "Security & Protection Services",
+   "n": 20
+  },
+  {
+   "industry": "Rental & Leasing Services",
+   "n": 19
+  },
+  {
+   "industry": "Metal Fabrication",
+   "n": 19
+  },
+  {
+   "industry": "Staffing & Employment Services",
+   "n": 18
+  },
+  {
+   "industry": "Waste Management",
+   "n": 18
+  },
+  {
+   "industry": "Consulting Services",
+   "n": 17
+  },
+  {
+   "industry": "Pollution & Treatment Controls",
+   "n": 16
+  },
+  {
+   "industry": "Airlines",
+   "n": 16
+  },
+  {
+   "industry": "Trucking",
+   "n": 16
+  },
+  {
+   "industry": "Tools & Accessories",
+   "n": 11
+  },
+  {
+   "industry": "Railroads",
+   "n": 10
+  },
+  {
+   "industry": "Airports & Air Services",
+   "n": 8
+  },
+  {
+   "industry": "Business Equipment & Supplies",
+   "n": 5
+  },
+  {
+   "industry": "Infrastructure Operations",
+   "n": 2
+  }
+ ],
+ "Materials": [
+  {
+   "industry": "Specialty Chemicals",
+   "n": 58
+  },
+  {
+   "industry": "Other Industrial Metals & Mining",
+   "n": 53
+  },
+  {
+   "industry": "Gold",
+   "n": 53
+  },
+  {
+   "industry": "Steel",
+   "n": 20
+  },
+  {
+   "industry": "Packaging & Containers",
+   "n": 19
+  },
+  {
+   "industry": "Building Materials",
+   "n": 17
+  },
+  {
+   "industry": "Other Precious Metals & Mining",
+   "n": 16
+  },
+  {
+   "industry": "Chemicals",
+   "n": 15
+  },
+  {
+   "industry": "Agricultural Inputs",
+   "n": 13
+  },
+  {
+   "industry": "Copper",
+   "n": 7
+  },
+  {
+   "industry": "(none)",
+   "n": 7
+  },
+  {
+   "industry": "Silver",
+   "n": 7
+  },
+  {
+   "industry": "Lumber & Wood Production",
+   "n": 6
+  },
+  {
+   "industry": "Paper & Paper Products",
+   "n": 5
+  },
+  {
+   "industry": "Aluminum",
+   "n": 4
+  }
+ ],
+ "Real Estate": [
+  {
+   "industry": "(none)",
+   "n": 87
+  },
+  {
+   "industry": "Real Estate Services",
+   "n": 44
+  },
+  {
+   "industry": "REIT - Mortgage",
+   "n": 29
+  },
+  {
+   "industry": "Real Estate - Development",
+   "n": 13
+  },
+  {
+   "industry": "REIT - Office",
+   "n": 11
+  },
+  {
+   "industry": "REIT - Residential",
+   "n": 11
+  },
+  {
+   "industry": "REIT - Retail",
+   "n": 11
+  },
+  {
+   "industry": "REIT - Diversified",
+   "n": 9
+  },
+  {
+   "industry": "REIT - Healthcare Facilities",
+   "n": 8
+  },
+  {
+   "industry": "REIT - Specialty",
+   "n": 8
+  },
+  {
+   "industry": "REIT - Hotel & Motel",
+   "n": 7
+  },
+  {
+   "industry": "REIT - Industrial",
+   "n": 6
+  },
+  {
+   "industry": "Real Estate - Diversified",
+   "n": 2
+  }
+ ],
+ "Shell Company / SPAC": [
+  {
+   "industry": "Shell Companies",
+   "n": 307
+  }
+ ],
+ "Technology": [
+  {
+   "industry": "Software - Application",
+   "n": 213
+  },
+  {
+   "industry": "Software - Infrastructure",
+   "n": 156
+  },
+  {
+   "industry": "Semiconductors",
+   "n": 69
+  },
+  {
+   "industry": "Information Technology Services",
+   "n": 66
+  },
+  {
+   "industry": "Communication Equipment",
+   "n": 45
+  },
+  {
+   "industry": "Electronic Components",
+   "n": 44
+  },
+  {
+   "industry": "Computer Hardware",
+   "n": 41
+  },
+  {
+   "industry": "Semiconductor Equipment & Materials",
+   "n": 30
+  },
+  {
+   "industry": "Consumer Electronics",
+   "n": 17
+  },
+  {
+   "industry": "Electronics & Computer Distribution",
+   "n": 8
+  }
+ ],
+ "Unclassified Equity": [
+  {
+   "industry": "(none)",
+   "n": 10
+  },
+  {
+   "industry": "Other",
+   "n": 1
+  }
+ ],
+ "Utilities": [
+  {
+   "industry": "Utilities - Regulated Electric",
+   "n": 43
+  },
+  {
+   "industry": "Utilities - Renewable",
+   "n": 22
+  },
+  {
+   "industry": "Utilities - Regulated Gas",
+   "n": 15
+  },
+  {
+   "industry": "Utilities - Regulated Water",
+   "n": 12
+  },
+  {
+   "industry": "Utilities - Independent Power Producers",
+   "n": 8
+  },
+  {
+   "industry": "Utilities - Diversified",
+   "n": 6
+  }
+ ]
+}

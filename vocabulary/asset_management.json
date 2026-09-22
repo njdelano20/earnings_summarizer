@@ -1,0 +1,11 @@
+{
+  "name": "asset_management",
+  "description": "Asset managers, capital markets firms and exchanges: assets under management and fee revenue replace product revenue.",
+  "metrics": [
+    {"name": "aum", "pattern": "assets\\s+under\\s+management|\\bAUM\\b", "segmented": true},
+    {"name": "net_flows", "pattern": "net\\s+(?:inflows|outflows|flows)", "segmented": true},
+    {"name": "management_fees", "pattern": "management\\s+fees?", "segmented": true},
+    {"name": "performance_fees", "pattern": "(?:incentive|performance)\\s+fees?", "segmented": true},
+    {"name": "fee_related_earnings", "pattern": "fee[- ]related\\s+earnings"}
+  ]
+}

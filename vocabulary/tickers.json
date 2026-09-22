@@ -1,5 +1,5 @@
 {
-  "note": "Which vocabulary packs (vocabulary/<pack>.json) each ticker uses, on top of the core vocabulary. A ticker not listed here gets the core vocabulary only and is flagged in the batch scorecard. Later this can be filled from the MarketDataLibrary's sector/industry labels instead of by hand.",
+  "note": "Explicit per-ticker vocabulary pack overrides, applied IN ADDITION to whatever a ticker's Yahoo Finance industry (MarketDataLibrary securities.industry, via vocabulary/symbol_industry.json + vocabulary/industry_packs.json) already assigns. Use this only when a ticker's classification is missing, wrong, or the company genuinely spans more than its industry suggests -- not as the primary mechanism: most tickers should need no entry here at all, because they resolve automatically from their industry. CPRT and VICI are kept here as a safety net for the two calls already validated against gold, even though both should also resolve automatically (Copart via its own industry, VICI as a REIT).",
   "tickers": {
     "CPRT": ["marketplace"],
     "VICI": ["reit"]

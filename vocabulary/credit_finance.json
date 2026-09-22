@@ -1,0 +1,10 @@
+{
+  "name": "credit_finance",
+  "description": "Consumer/commercial credit and mortgage finance companies: origination volume and loss rates replace product revenue.",
+  "metrics": [
+    {"name": "loan_originations", "pattern": "(?:loan\\s+)?originations?", "segmented": true},
+    {"name": "net_charge_off_rate", "pattern": "net\\s+charge[- ]off\\s+rate", "pct_level": true},
+    {"name": "delinquency_rate", "pattern": "delinquency\\s+rate|delinquencies", "pct_level": true},
+    {"name": "provision_for_losses", "pattern": "provision\\s+for\\s+(?:loan|credit)\\s+losses"}
+  ]
+}

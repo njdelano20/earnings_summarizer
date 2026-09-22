@@ -1,0 +1,9 @@
+{
+  "name": "transportation_logistics",
+  "description": "Marine shipping, freight & logistics, trucking and railroad companies: shipment volume, yield and the railroad-specific operating ratio replace product revenue. Volume (carloads, containers, shipments) is a physical quantity: the growth-rate form works now, an absolute count does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "shipment_volume", "pattern": "(?:shipment|freight)\\s+volumes?|carloads?|containers?\\s+(?:shipped|handled)", "segmented": true},
+    {"name": "yield", "pattern": "revenue\\s+per\\s+unit|\\byield\\b", "segmented": true},
+    {"name": "operating_ratio", "pattern": "operating\\s+ratio", "pct_level": true}
+  ]
+}

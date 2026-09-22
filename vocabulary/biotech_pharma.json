@@ -1,0 +1,9 @@
+{
+  "name": "biotech_pharma",
+  "description": "Biotechnology and pharmaceutical companies, many pre-revenue. R&D spend, milestones and royalties matter alongside (or instead of) product revenue; cash position and net loss are already in the core vocabulary (cash_and_securities, net_income -- a negative net_income is a net loss).",
+  "metrics": [
+    {"name": "rd_expense", "pattern": "research\\s+and\\s+development\\s+expenses?|\\bR&D\\s+expenses?\\b"},
+    {"name": "milestone_payments", "pattern": "milestone\\s+payments?"},
+    {"name": "royalty_revenue", "pattern": "royalty\\s+revenue|royalties", "segmented": true}
+  ]
+}

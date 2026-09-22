@@ -1,0 +1,9 @@
+{
+  "name": "healthcare_services",
+  "description": "Managed care, medical facilities and medical distribution companies: the medical cost ratio (how much of premium revenue goes to claims) and membership/admissions replace product revenue. Membership/admissions counts are physical quantities: the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "medical_cost_ratio", "pattern": "medical\\s+(?:cost|loss)\\s+ratio|\\bMCR\\b|\\bMLR\\b", "pct_level": true},
+    {"name": "membership", "pattern": "membership|members?(?:\\s+enrolled)?", "segmented": true},
+    {"name": "admissions", "pattern": "admissions?", "segmented": true}
+  ]
+}

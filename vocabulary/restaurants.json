@@ -1,0 +1,8 @@
+{
+  "name": "restaurants",
+  "description": "Restaurant chains. Comparable/same-store sales is already in the core vocabulary (facts.py); this pack adds systemwide sales and unit counts. Unit counts are physical quantities: the growth-rate form works now, an absolute count does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "systemwide_sales", "pattern": "systemwide\\s+sales", "segmented": true},
+    {"name": "unit_count", "pattern": "(?:restaurant\\s+)?(?:unit\\s+count|new\\s+(?:restaurant\\s+)?openings?)", "segmented": true}
+  ]
+}

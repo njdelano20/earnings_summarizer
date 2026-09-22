@@ -1,0 +1,10 @@
+{
+  "name": "gaming_leisure",
+  "description": "Casinos, gambling operators, lodging and leisure companies: RevPAR/ADR/occupancy and gross gaming revenue replace product revenue.",
+  "metrics": [
+    {"name": "revpar", "pattern": "\\bRevPAR\\b|revenue\\s+per\\s+available\\s+room", "segmented": true},
+    {"name": "adr", "pattern": "average\\s+daily\\s+rates?|\\bADR\\b", "segmented": true},
+    {"name": "occupancy", "pattern": "occupancy(?:\\s+rates?)?", "pct_level": true, "segmented": true},
+    {"name": "gross_gaming_revenue", "pattern": "gross\\s+gaming\\s+revenue|\\bGGR\\b", "segmented": true}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "telecom",
+  "description": "Telecom service providers: subscriber counts and ARPU replace product revenue. Subscriber/net-add counts are physical quantities; the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "subscribers", "pattern": "subscribers?", "segmented": true},
+    {"name": "net_adds", "pattern": "net\\s+adds?", "segmented": true},
+    {"name": "arpu", "pattern": "\\bARPU\\b|average\\s+revenue\\s+per\\s+(?:user|subscriber|account)", "segmented": true},
+    {"name": "churn_rate", "pattern": "churn(?:\\s+rate)?", "pct_level": true}
+  ]
+}

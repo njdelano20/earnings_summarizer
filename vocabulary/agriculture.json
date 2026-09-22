@@ -1,0 +1,8 @@
+{
+  "name": "agriculture",
+  "description": "Farm products and agricultural input companies: physical volumes (bushels, tons, acres) and realized price replace product revenue. Volume is a physical quantity: the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "volumes_sold", "pattern": "(?:bushels?|tons?)\\s+(?:sold|produced|shipped)|(?:planted|harvested)\\s+acres", "segmented": true},
+    {"name": "realized_price", "pattern": "realized\\s+prices?", "segmented": true}
+  ]
+}

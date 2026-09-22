@@ -12,10 +12,23 @@ sector-specific lives in vocabulary/<pack>.json as DATA, so a new sector is a ne
 
 A metric may say: "segmented" (its segment is read from the words before it, like revenue), "pct_level" (its figure
 is a level in percent, like a margin, not a growth rate), "per_share" (a dollar figure is per share) and
-"per_share_metric" (the name to use for a following "... $2.45 to $2.47 per share" that restates it).
+"per_share_metric" (the name to use for a following "... $2.45 to $2.47 per share" that restates it). A metric whose
+usual figure is a physical quantity (subscribers, barrels/day, megawatts, ...) still works for growth-rate mentions
+("subscribers grew 5%") via the normal percent-growth mechanism; an ABSOLUTE level ("50 million subscribers") is not
+captured yet -- that needs a "quantity" figure type the core extractor does not have. Packs say so in their
+description so the gap is visible, not silent.
 
-vocabulary/tickers.json says which packs a ticker uses. A ticker with no entry gets the core vocabulary only, and the
-batch scorecard flags it so nobody assumes a sector was covered.
+WHICH PACKS A TICKER GETS (packs_for -- resolved automatically, not hand-maintained per ticker):
+  1. vocabulary/symbol_industry.json    every symbol's sector/industry, a snapshot of the MarketDataLibrary's own
+                                        classification (Yahoo Finance's, already populated via the library's
+                                        stockanalysis.com scraping). Refresh with `py refresh_industries.py`.
+  2. vocabulary/industry_packs.json     maps each Yahoo industry to the pack(s) it uses. Most of the ~150 industries
+                                        in the library map to nothing (core vocabulary already covers them, e.g.
+                                        "Specialty Chemicals"): only industries whose REPORTING CONVENTION genuinely
+                                        differs (banks, insurers, REITs, telecom, ...) get a pack.
+  3. vocabulary/tickers.json            explicit per-ticker overrides, layered on top, for the rare case where a
+                                        ticker's classification is missing, wrong, or the company spans categories.
+A ticker with no industry on file and no override gets the core vocabulary only.
 """
 
 from __future__ import annotations
@@ -26,6 +39,11 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 VOCAB_DIR = Path(__file__).resolve().parent / "vocabulary"
+SYMBOL_INDUSTRY_FILE = VOCAB_DIR / "symbol_industry.json"
+INDUSTRY_PACKS_FILE = VOCAB_DIR / "industry_packs.json"
+TICKERS_FILE = VOCAB_DIR / "tickers.json"
+
+_cache: dict[str, dict] = {}
 
 
 @dataclass
@@ -33,21 +51,49 @@ class Vocabulary:
     triggers: list[tuple[str, re.Pattern]]
     segmented: set[str]
     pct_level: set[str]
-    per_share_of: dict[str, str] = field(default_factory=dict)      # "affo" -> "affo_per_share"
-    per_share_metrics: set[str] = field(default_factory=set)        # metrics whose dollar figure is per share
+    per_share_of: dict[str, str] = field(default_factory=dict)  # "affo" -> "affo_per_share"
+    per_share_metrics: set[str] = field(default_factory=set)    # metrics whose dollar figure is per share
     packs: list[str] = field(default_factory=list)
 
 
+def _load_json(path: Path, default):
+    key = str(path)
+    if key not in _cache:
+        try:
+            _cache[key] = json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+        except (OSError, ValueError):
+            _cache[key] = default
+    return _cache[key]
+
+
 def _load_pack(name: str) -> dict:
-    path = VOCAB_DIR / f"{name}.json"
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads((VOCAB_DIR / f"{name}.json").read_text(encoding="utf-8"))
+
+
+def industry_of(ticker: str | None) -> dict | None:
+    """{'sector': ..., 'industry': ...} for a ticker, from the symbol_industry.json snapshot, or None if the
+    snapshot has never been refreshed or the ticker is not in the MarketDataLibrary."""
+    if not ticker:
+        return None
+    return _load_json(SYMBOL_INDUSTRY_FILE, {}).get(ticker.strip().upper())
 
 
 def packs_for(ticker: str | None) -> list[str]:
-    path = VOCAB_DIR / "tickers.json"
-    if not ticker or not path.exists():
+    """Which vocabulary packs a ticker uses: the industry-derived packs plus any explicit override, deduplicated,
+    override first. A ticker with an unmapped industry, or none on file, may still get packs from an override."""
+    if not ticker:
         return []
-    return list(json.loads(path.read_text(encoding="utf-8")).get("tickers", {}).get(ticker.upper(), []))
+    ticker = ticker.strip().upper()
+    packs: list[str] = list(_load_json(TICKERS_FILE, {}).get("tickers", {}).get(ticker, []))
+    info = industry_of(ticker)
+    if info and info.get("industry"):
+        packs += _load_json(INDUSTRY_PACKS_FILE, {}).get("industries", {}).get(info["industry"], [])
+    seen, out = set(), []
+    for p in packs:
+        if p not in seen:
+            seen.add(p)
+            out.append(p)
+    return out
 
 
 def build(core_triggers: list[tuple[str, re.Pattern]], core_segmented: set[str], core_pct_level: set[str],

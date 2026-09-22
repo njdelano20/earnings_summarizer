@@ -1,0 +1,8 @@
+{
+  "name": "renewable_energy",
+  "description": "Solar and other renewable/independent power generators: capacity (MW) and generation (MWh) are physical quantities; the growth-rate form works now, an absolute level does not until a quantity figure type is added.",
+  "metrics": [
+    {"name": "generating_capacity", "pattern": "(?:generating\\s+|installed\\s+)?capacity", "segmented": true},
+    {"name": "generation", "pattern": "(?:electricity\\s+|power\\s+)?generation(?:\\s+volumes?)?", "segmented": true}
+  ]
+}

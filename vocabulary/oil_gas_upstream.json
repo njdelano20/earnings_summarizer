@@ -1,0 +1,11 @@
+{
+  "name": "oil_gas_upstream",
+  "description": "Exploration & production, integrated and drilling companies. Production and reserves are usually stated in physical units (boe/d, Bcfe): growth-rate mentions ('production grew 8%') are captured now, an absolute level ('420,000 boe/d') is not until a quantity figure type is added -- see the project notes.",
+  "metrics": [
+    {"name": "production", "pattern": "production(?:\\s+volumes?)?", "segmented": true},
+    {"name": "reserves", "pattern": "(?:proved|proven)\\s+reserves"},
+    {"name": "realized_price", "pattern": "realized\\s+prices?", "segmented": true},
+    {"name": "lifting_costs", "pattern": "lifting\\s+costs?"},
+    {"name": "finding_development_costs", "pattern": "finding\\s+and\\s+development\\s+costs?|\\bF&D\\s+costs?\\b"}
+  ]
+}

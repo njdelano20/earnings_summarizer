@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>AAPL Q3 2026 Quick Summary</title>
+<title>Quick Summary</title>
 <style>
-  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 900px;
-          margin: 40px auto; padding: 0 24px; color: #0b0b0b; background: #fcfcfb; line-height: 1.55; }
-  h1 { font-size: 1.7rem; border-bottom: 2px solid #0b0b0b; padding-bottom: 10px; }
-  h2 { font-size: 1.25rem; margin-top: 2.4em; border-bottom: 1px solid #e1e0d9; padding-bottom: 6px; }
-  img { max-width: 100%; display: block; margin: 14px 0; border: 1px solid #e1e0d9; border-radius: 4px; }
-  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.92rem; }
-  th, td { border: 1px solid #e1e0d9; padding: 6px 10px; text-align: left; }
-  th { background: #f2f1ec; }
-  code { background: #f2f1ec; padding: 1px 5px; border-radius: 3px; font-size: 0.88em; }
-  em { color: #52514e; }
-  blockquote { border-left: 3px solid #c3c2b7; margin-left: 0; padding-left: 14px; color: #52514e; }
-  hr { border: none; border-top: 1px solid #e1e0d9; margin: 2.5em 0; }
+body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 1200px;
+       margin: 40px auto; padding: 0 24px; color: #0b0b0b; background: #fcfcfb; line-height: 1.55; }
+h1 { font-size: 1.8rem; border-bottom: 2px solid #0b0b0b; padding-bottom: 10px; }
+h2 { font-size: 1.3rem; margin-top: 2.6em; border-bottom: 1px solid #e1e0d9; padding-bottom: 6px; }
+h3 { font-size: 1.05rem; }
+img { max-width: 100%; display: block; border: 1px solid #e1e0d9; border-radius: 4px; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.9rem; }
+th, td { border: 1px solid #e1e0d9; padding: 6px 10px; text-align: left; }
+th { background: #f2f1ec; }
+code { background: #f2f1ec; padding: 1px 5px; border-radius: 3px; font-size: 0.88em; }
+em { color: #52514e; }
+hr { border: none; border-top: 1px solid #e1e0d9; margin: 2.5em 0; }
+.section-row { display: flex; gap: 32px; align-items: flex-start; margin-top: 12px; }
+.section-row > .chart-col { flex: 0 0 46%; }
+.section-col { flex: 1 1 auto; min-width: 0; }
+.section-full { margin-top: 12px; }
+@media (max-width: 860px) { .section-row { flex-direction: column; } .section-row > .chart-col { flex-basis: auto; } }
 </style>
 </head>
 <body>
-<h1>Apple Inc. (AAPL) — June quarter 2026 — Quick Summary</h1>
-<p><em>Early build of the template in <code>summary_template.md</code>, hand-assembled from real data (no new
-extraction/matching code written yet — that's the open work the spec calls out). Every number
-below is a real fact from <code>output/AAPL_Q3_2026_facts.json</code> / <code>_snapshot.md</code> (fact IDs shown) or
-a real MarketDataLibrary row; nothing is invented. Where a section's designed data source isn't
-usable yet, that's stated plainly rather than silently backfilled from somewhere else.</em></p>
-<h2>1. Headline scoreboard</h2>
-<p><img alt="Headline scoreboard" src="sample_AAPL_Q3_2026_scoreboard.png" /></p>
-<table>
+<h1>Apple Inc. (AAPL) — June quarter 2026 — Quick Summary</h1><p><em>Build of the template in <code>summary_template.md</code>, reworked 2026-09-22 per direct design feedback
+(layout, section cuts/additions, phrasing). Every number below is a real fact from
+<code>output/AAPL_Q3_2026_facts.json</code> / <code>_snapshot.md</code> (fact IDs shown), a real SEC EDGAR filing
+(<code>sec_edgar.py</code>), a real MarketDataLibrary row, or Alpha Vantage's INSIDER_TRANSACTIONS feed;
+nothing is invented. Where a section's designed data source isn't usable yet, that's stated
+plainly rather than silently backfilled from somewhere else.</em></p><h2>1. Headline scoreboard</h2><div class="section-row"><div class="chart-col"><img alt="Headline scoreboard" src="sample_AAPL_Q3_2026_scoreboard.png"/></div><div class="section-col"><table>
 <thead>
 <tr>
 <th>Metric</th>
@@ -57,16 +59,7 @@ usable yet, that's stated plainly rather than silently backfilled from somewhere
 <td>—</td>
 </tr>
 </tbody>
-</table>
-<p><code>AAPL_2026_3-001</code>, <code>AAPL_2026_3-013</code>, <code>AAPL_2026_3-006</code>, <code>AAPL_2026_3-015</code></p>
-<p><em>The chart shows yoy deltas as stat tiles — the real comparison available today, not the
-actual-vs-guided delta bars the template design calls for. That "vs. prior guidance" column
-is designed to compare this quarter's actual against what was guided into it last call — the
-existing <code>trajectory</code> logic in <code>snapshot.py</code> already does this comparison, it just needs the
-prior quarter's AAPL call in the gold set to populate it.</em></p>
-<h2>2. Business segments</h2>
-<p><img alt="Revenue by segment" src="sample_AAPL_Q3_2026_segments.png" /></p>
-<table>
+</table><p><code>AAPL_2026_3-001</code>, <code>AAPL_2026_3-013</code>, <code>AAPL_2026_3-006</code>, <code>AAPL_2026_3-015</code></p></div></div><h2>2. Business segments</h2><div class="section-row"><div class="chart-col"><img alt="Revenue by segment" src="sample_AAPL_Q3_2026_segments.png"/></div><div class="section-col"><table>
 <thead>
 <tr>
 <th>Segment</th>
@@ -107,66 +100,84 @@ prior quarter's AAPL call in the gold set to populate it.</em></p>
 <td>75.6%</td>
 </tr>
 </tbody>
-</table>
-<p><em>Source note: this table is 100% transcript-extracted, not from MarketDataLibrary's
+</table><p><em>Source note: this table is 100% transcript-extracted, not from MarketDataLibrary's
 <code>segments</code> table — checked directly, AAPL has no <code>Revenue by Segment</code> category in <code>segments</code>
 at all (only Revenue by Geography / EBIT by Geography / Gross Profit / Key Performance
 Indicators). This is the real, current state, not a placeholder — for AAPL, this section
 runs on the extractor alone.</em> <code>AAPL_2026_3-003</code>, <code>AAPL_2026_3-016</code>, <code>AAPL_2026_3-017</code>,
-<code>AAPL_2026_3-018</code>, <code>AAPL_2026_3-005</code>, <code>AAPL_2026_3-010</code></p>
-<p>Mac and iPhone both grew on what management called "an incredibly strong iPhone and Mac
-product cycle" with demand "beyond our expectation," while iPad declined on a difficult
-compare against last year's iPad launch. Services set records "in every category," per
-management, despite a 110bp sequential gross-margin dip attributed to product mix.</p>
-<h2>3. Margin trend</h2>
-<p><img alt="Gross margin trend" src="sample_AAPL_Q3_2026_margin.png" /></p>
-<p><em>Both points are transcript-reported, not from MarketDataLibrary — <code>financials</code> is annual
-(FY) + TTM only today, not quarterly, so a real trailing-quarters margin trend isn't
-buildable from the DB yet. Two points is too thin to call a "trend" honestly; this section
-will only become useful once either quarterly financials exist or enough consecutive real
-calls accumulate in the gold set.</em></p>
-<h2>4. Capital allocation</h2>
-<p><img alt="Capital allocation" src="sample_AAPL_Q3_2026_capital.png" /></p>
-<table>
+<code>AAPL_2026_3-018</code>, <code>AAPL_2026_3-005</code>, <code>AAPL_2026_3-010</code></p><p><strong>What's driving each segment:</strong></p><ul>
+<li><strong>iPhone</strong> (+22% yoy): part of "an incredibly strong iPhone and Mac product cycle," with
+  demand described as "beyond expectation." New iPhone 17 hardware (see Product development)
+  is the direct driver.</li>
+<li><strong>Mac</strong> (+29% yoy): the same product-cycle strength, plus the new MacBook Neo — also the
+  hardware behind the education-channel Windows/Chromebook displacement noted in Competitive
+  environment.</li>
+<li><strong>iPad</strong> (-6% yoy): the one declining segment, attributed to a difficult compare against
+  last year's iPad launch — a tough year-ago comparison, not a stated demand problem.</li>
+<li><strong>Wearables, Home &amp; Accessories</strong> (+6% yoy): modest growth; no specific driver was called
+  out for this segment beyond the reported rate.</li>
+<li><strong>Services</strong> (+12% yoy, 75.6% gross margin): records set "in every category," but margin
+  fell 110 bps sequentially on product mix — the one segment where growth and margin moved
+  in opposite directions this quarter.</li>
+</ul><p><strong>Margin context</strong> (folded in here rather than a standalone trend section — see "what's still
+open" below for why): company-wide gross margin rose to 50.1% (+80 bps qoq, headline
+scoreboard); Services' own margin moved the <em>other</em> direction (-110 bps sequentially, mix-
+driven, above), meaning the company-wide improvement came from elsewhere — hardware mix/ASPs
+is the more likely source, though that specific attribution wasn't stated directly on the call.</p></div></div><h2>3. Capital allocation</h2><div class="section-row"><div class="chart-col"><img alt="Capital allocation" src="sample_AAPL_Q3_2026_capital.png"/></div><div class="section-col"><table>
 <thead>
 <tr>
 <th>Use of cash</th>
 <th>Amount (June qtr)</th>
+<th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Dividends paid</td>
-<td>$4.00B</td>
-</tr>
-<tr>
 <td>Share repurchases</td>
 <td>$25.80B</td>
+<td>transcript</td>
 </tr>
 <tr>
-<td><strong>Total capital returned</strong></td>
-<td><strong>$33.00B</strong></td>
+<td>Dividends paid</td>
+<td>$4.00B</td>
+<td>transcript</td>
 </tr>
 <tr>
 <td>CapEx</td>
-<td>not stated as a quarter figure on this call</td>
+<td>$2.46B</td>
+<td>SEC 10-Q (derived — see note)</td>
 </tr>
 <tr>
-<td>M&amp;A</td>
-<td>not stated as a quarter figure — a &gt;$30B multi-year Broadcom silicon agreement was announced (strategic commitment, not a booked quarterly cash outflow)</td>
+<td>Debt repaid</td>
+<td>$0.23B</td>
+<td>SEC 10-Q (derived — see note)</td>
+</tr>
+<tr>
+<td>Debt issued</td>
+<td>$0 fiscal-year-to-date through this quarter</td>
+<td>SEC 10-Q, filed directly</td>
+</tr>
+<tr>
+<td><strong>Total returned to shareholders</strong> (dividends + buybacks)</td>
+<td><strong>$29.80B</strong></td>
+<td>—</td>
 </tr>
 </tbody>
-</table>
-<p><code>AAPL_2026_3-021</code>, <code>AAPL_2026_3-022</code>, <code>AAPL_2026_3-023</code></p>
-<p><em>Designed source is <code>cash_flow</code>'s Financing + Investing Activities (which would also give
-real CapEx and M&amp;A cash flows, not just what a call happens to mention) — not usable yet:
-MarketDataLibrary's <code>cash_flow</code> only has the Operating Activities table for ~5,035 of 5,039
-symbols (confirmed on AAPL directly: 11 line items, all Operating Activities). This is a new
-finding from tonight, same root cause as the balance_sheet gap, not yet fixed. Until it is,
-this section is whatever capital-return figures the call states — real, but partial.</em></p>
-<h2>5. Balance sheet snapshot</h2>
-<p><img alt="Balance sheet snapshot" src="sample_AAPL_Q3_2026_balance.png" /></p>
-<table>
+</table><p><code>AAPL_2026_3-021</code>, <code>AAPL_2026_3-022</code>, <code>AAPL_2026_3-023</code></p><p><strong>M&amp;A</strong> (deliberately not charted — a pie slice implies a completed cash outflow): AAPL's own
+SEC filings show $0 tagged as acquisitions cash flow this fiscal year through the June
+quarter, consistent with the call's characterization of its &gt;$30B multi-year Broadcom
+custom-silicon agreement as a forward supply commitment, not a completed acquisition with an
+immediate cash outflow. Worth tracking going forward: if that changes to a real cash
+acquisition in a future quarter, the SEC filing would show it, and it would belong in this
+table.</p><p><em>CapEx and debt activity are now real, SEC-filed figures (<code>sec_edgar.py</code>, extended
+2026-09-22) instead of "not stated" placeholders. One real subtlety: SEC's cash-flow-statement
+XBRL tags are cumulative-year-to-date only, not a discrete quarter (unlike revenue/EPS, which
+get both) — this is SEC's own interim-reporting convention (ASC 270), confirmed directly
+against AAPL's filed data. CapEx and debt-repaid above are DERIVED as (9-month YTD) minus
+(6-month YTD), both real filed numbers, nothing fabricated — see <code>_derive_quarter_from_ytd()</code>
+in <code>sec_edgar.py</code>. MarketDataLibrary's own <code>cash_flow</code> table remains Operating-Activities-only
+for ~5,035/5,039 symbols (unchanged finding); SEC EDGAR now sidesteps that gap entirely for
+the metrics it covers, so this section no longer depends on that fix being run.</em></p></div></div><h2>4. Balance sheet snapshot</h2><div class="section-row"><div class="chart-col"><img alt="Balance sheet snapshot" src="sample_AAPL_Q3_2026_balance.png"/></div><div class="section-col"><table>
 <thead>
 <tr>
 <th></th>
@@ -187,14 +198,81 @@ this section is whatever capital-return figures the call states — real, but pa
 <td>~$63B</td>
 </tr>
 </tbody>
-</table>
-<p><code>AAPL_2026_3-019</code>, <code>AAPL_2026_3-020</code></p>
-<p><em>Designed source is <code>financials</code>' balance_sheet statement — not usable yet: AAPL is one of
+</table><p><code>AAPL_2026_3-019</code>, <code>AAPL_2026_3-020</code></p><p><em>Designed source is <code>financials</code>' balance_sheet statement — not usable yet: AAPL is one of
 the ~5,042 symbols still missing the Liabilities/Equity sections (fix exists —
-<code>refetch_balance_sheet_liabilities.py</code> in MarketDataLibrary — not yet run at scale). Figures
-above are transcript-stated instead.</em></p>
-<h2>6. Forward guidance (September quarter)</h2>
-<table>
+<code>refetch_balance_sheet_liabilities.py</code> in MarketDataLibrary — running as of this writing, not
+yet confirmed complete). Figures above are transcript-stated instead.</em></p></div></div><h2>5. Insider activity</h2><div class="section-full"><p><strong>June quarter (2026-03-29 to 2026-06-27): $152.4M in insider stock sales, zero insider
+purchases.</strong></p><table>
+<thead>
+<tr>
+<th>Insider</th>
+<th>Title</th>
+<th>Shares sold</th>
+<th>Value</th>
+<th>Avg. price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arthur D. Levinson</td>
+<td>Director</td>
+<td>300,000</td>
+<td>$86.74M</td>
+<td>$289.14</td>
+</tr>
+<tr>
+<td>Timothy D. Cook</td>
+<td>CEO</td>
+<td>131,576</td>
+<td>$33.54M</td>
+<td>$254.94</td>
+</tr>
+<tr>
+<td>Deirdre O'Brien</td>
+<td>SVP</td>
+<td>64,317</td>
+<td>$16.43M</td>
+<td>$255.50</td>
+</tr>
+<tr>
+<td>Sabih Khan</td>
+<td>COO</td>
+<td>33,317</td>
+<td>$8.52M</td>
+<td>$255.63</td>
+</tr>
+<tr>
+<td>Jennifer Newstead</td>
+<td>SVP, General Counsel</td>
+<td>16,238</td>
+<td>$4.81M</td>
+<td>$296.42</td>
+</tr>
+<tr>
+<td>Kevan Parekh</td>
+<td>CFO</td>
+<td>6,327</td>
+<td>$1.70M</td>
+<td>$268.51</td>
+</tr>
+<tr>
+<td>Ben Borders</td>
+<td>Principal Accounting Officer</td>
+<td>2,406</td>
+<td>$0.68M</td>
+<td>$281.84</td>
+</tr>
+</tbody>
+</table><p>Most of this activity coincides with scheduled RSU-vesting dates for Cook, O'Brien, Khan,
+Newstead, Parekh, and Borders — consistent with routine tax-withholding or pre-arranged
+10b5-1 plan sales tied to equity compensation, not a fresh discretionary decision to sell.
+The one exception: Director Arthur Levinson's $86.7M sale in early May has no corresponding
+equity award that quarter, making it the more standalone data point here — though this feed
+doesn't indicate whether it ran under an existing 10b5-1 plan, so it shouldn't be read as a
+spontaneous signal on its own. No insider bought shares on the open market this quarter.</p><p><em>Source: Alpha Vantage <code>INSIDER_TRANSACTIONS</code> (same provider as the transcript), fetched
+2026-09-22. <code>add_insider_transactions_data.py</code> (new, in MarketDataLibrary) loads this into a
+new <code>insider_transactions</code> table there for future automation — not yet run at scale (queued
+behind the balance_sheet fix, which had the DB locked as of this writing).</em></p></div><h2>6. Forward guidance (September quarter)</h2><div class="section-full"><table>
 <thead>
 <tr>
 <th>Metric</th>
@@ -223,59 +301,73 @@ above are transcript-stated instead.</em></p>
 <td>~2.5 pp unfavorable (total company)</td>
 </tr>
 </tbody>
-</table>
-<p><code>AAPL_2026_3-025</code>, <code>AAPL_2026_3-029</code>, <code>AAPL_2026_3-031</code>, <code>AAPL_2026_3-033</code>, <code>AAPL_2026_3-024</code></p>
-<p>Both revenue growth (16% → 9-11%) and gross margin (50.1% → 47-48%) are guided down from
+</table><p><code>AAPL_2026_3-025</code>, <code>AAPL_2026_3-029</code>, <code>AAPL_2026_3-031</code>, <code>AAPL_2026_3-033</code>, <code>AAPL_2026_3-024</code></p><p>Both revenue growth (16% → 9-11%) and gross margin (50.1% → 47-48%) are guided down from
 this quarter's actuals — the existing trajectory logic already flags both as "decelerating"
-and "lower" respectively.</p>
-<h2>7. Competitive environment</h2>
-<p>Management cited third-party data (IDC) claiming share gains in both iPhone and Mac during
-the quarter: <em>"According to IDC, we gained share globally during the quarter"</em> (iPhone) and
-the same claim for Mac. On Mac specifically, management added color on displacement:
-<em>"about half of the MacBook Neo large purchases by U.S. education institutions displaced
-Windows and Chromebook devices."</em></p>
-<h2>8. Product development</h2>
-<p>Headline item: a from-scratch Siri AI rebuild ("a completely reimagined version of Siri...
-integrated seamlessly across our platforms"), alongside new MacBook Neo and iPhone 17
-hardware cited as demand drivers, AirPods Pro 3/Max 2, a new "Apple Upgrade" hardware-leasing
-program (with Klarna), and a &gt;$30B multi-year custom-silicon agreement with Broadcom under
-Apple's U.S. manufacturing program.</p>
-<h2>9. Macro / regulatory</h2>
-<ul>
-<li><strong>Tariffs</strong>: a net tailwind this quarter ($0.11/sh EPS benefit, ~2pp gross margin benefit),
-  expected to shrink to ~1pp of margin benefit next quarter — management explicit that
-  "we'll see decreasing benefit from this over time."</li>
-<li><strong>FX</strong>: a growing headwind — ~2.5pp this quarter's Services guide, ~5pp cited for the
-  broader March-to-September stretch.</li>
-<li><strong>Supply/memory costs</strong>: flagged as worsening into the September quarter — "less
-  flexibility in the supply chain than normal," with memory cost cited as the primary driver
-  of the margin guide-down (more explanatory than FX, per management's own attribution).</li>
-<li><strong>Regulatory</strong>: the only region-specific friction mentioned is the EU, where Siri AI
-  hasn't shipped yet — <em>"we have not been able to do that in the European Union."</em></li>
-</ul>
-<hr />
-<h2>What this demonstrates, and what's still open</h2>
-<p><strong>Works today, real data, no placeholders</strong>: headline numbers, business segments (transcript
-side), forward guidance, competitive environment, product development, macro/regulatory —
-sections 1, 2 (partial), 6, 7, 8, 9.</p>
-<p><strong>Chart rendering built 2026-09-22 (<code>charts.py</code>, <code>py charts.py --demo</code> regenerates all five
-PNGs in this doc).</strong> All five chart-bearing sections now render real, not-hand-drawn charts
-from the same numbers already in this doc's tables — including sections 3-5, which are still
-data-limited (see below), so their charts are honestly thin/partial rather than faked full.
-Palette and color usage (categorical for true nominal categories like capital-allocation uses;
-status green/red reserved for actual good/bad readings like segment growth direction or net
-cash vs. debt; a labeled gray "not stated" bar rather than a fabricated number for CapEx/M&amp;A)
-follow the dataviz skill's validated default. Pixel-level polish (rounded bar caps, the 2px
-inter-bar gap spec) was skipped as not worth the complexity for a local static-PNG report;
-the substantive checks (correct color job, direct value labels, recessive gridlines, a table
-next to every chart as the accessible alternative) are all honored.</p>
-<p><strong>Still blocked on MarketDataLibrary fixes that exist but haven't run at scale</strong>: margin trend
-(needs quarterly financials, which don't exist in any form yet — bigger lift), capital
-allocation (needs the <code>cash_flow</code> Financing/Investing gap fixed — not yet written), balance
-sheet snapshot (fix written, not yet run) — sections 3, 4, 5. The charts for these sections
-are real, but only as good as the transcript-only data feeding them today.</p>
-<p><strong>Not started</strong>: the actual sentence-to-segment matching engine that would replace this
-hand-assembly with real code (deliberately deferred again this session in favor of the chart
-work — still the real remaining engineering item for section 2).</p>
+and "lower" respectively.</p></div><h2>7. Competitive environment</h2><div class="section-full"><p>AAPL reported IDC-sourced share gains in both iPhone and Mac this quarter — third-party data,
+not an internal claim, though vendor-tracked share estimates carry their own measurement
+uncertainty and are directional rather than precise. On Mac specifically, roughly half of
+MacBook Neo's large-purchase volume with U.S. education institutions came at the direct
+expense of Windows and Chromebook devices — a real displacement dynamic in a channel where
+Apple has historically been a distant third choice. If it holds across future quarters, it
+points to Mac's competitive position genuinely strengthening in a segment it hasn't typically
+won; one quarter of education-channel data isn't enough on its own to call that a durable
+trend rather than a one-time refresh cycle effect.</p></div><h2>8. Product development</h2><div class="section-full"><ul>
+<li><strong>Siri AI rebuild</strong> — a from-scratch redesign ("a completely reimagined version of Siri")
+  integrated across Apple's platforms. The most consequential software item this quarter:
+  Siri's AI competitiveness versus Google- and OpenAI-backed assistants elsewhere has been a
+  recurring criticism, so this is Apple's direct answer to it. Not yet available in the EU
+  (see Macro/regulatory) — a real near-term gap in one of Apple's largest markets.</li>
+<li><strong>MacBook Neo</strong> — new hardware cited directly as a driver of Mac's +29% yoy growth (see
+  Business segments), and of the education-channel Windows/Chromebook displacement (see
+  Competitive environment).</li>
+<li><strong>iPhone 17</strong> — new hardware cited as a driver of iPhone's +22% yoy growth.</li>
+<li><strong>AirPods Pro 3 / Max 2</strong> — new audio hardware launched this quarter; no segment-level
+  growth attribution was given for these specifically.</li>
+<li><strong>Apple Upgrade</strong> — a new hardware-leasing/subscription program launched with Klarna. A
+  business-model move (recurring revenue, lower upfront cost for buyers) rather than a
+  product launch — worth watching for its effect on hardware-segment revenue recognition and
+  upgrade-cycle attach rates in future quarters.</li>
+<li><strong>Broadcom custom-silicon agreement</strong> — a &gt;$30B multi-year commitment under Apple's U.S.
+  manufacturing program. A supply-chain and onshoring move, not a completed acquisition (see
+  Capital allocation: SEC filings show no acquisitions cash outflow this quarter, consistent
+  with this being a forward commitment rather than a booked purchase).</li>
+</ul></div><h2>9. Macro / regulatory</h2><div class="section-full"><ul>
+<li><strong>Tariffs</strong> — a net tailwind this quarter ($0.11/sh EPS benefit, ~2pp gross-margin
+  benefit), guided to shrink to ~1pp of margin benefit next quarter. A fading tailwind rather
+  than a new headwind for now, but one whose benefit is explicitly decaying quarter over
+  quarter.</li>
+<li><strong>FX</strong> — a growing headwind: ~2.5pp on the Services guide for next quarter, ~5pp across the
+  broader March-to-September stretch. Directionally negative for margin into the next
+  quarter, on top of the tariff tailwind fading at the same time.</li>
+<li><strong>Supply/memory costs</strong> — flagged as worsening into the September quarter, with memory
+  cost cited as the larger driver of the margin guide-down (ahead of FX). A cost-side
+  pressure that could persist beyond one quarter if industry-wide memory pricing stays
+  elevated, rather than a one-quarter blip.</li>
+<li><strong>Regulatory</strong> — the EU is the one region-specific friction point: Siri AI has not shipped
+  there yet. That means Apple's most consequential software launch this quarter (see Product
+  development) is currently unavailable in one of its largest markets — a real, ongoing
+  revenue/engagement gap specific to that feature and that region, not yet resolved.</li>
+</ul><hr/></div><h2>Source documents</h2><div class="section-full"><ul>
+<li><a href="../data/transcripts/AAPL_Q3_2026.txt">Full earnings call transcript</a></li>
+<li><a href="https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm">10-Q filed with the SEC</a>
+  (period ended 2026-06-27, filed 2026-07-31)</li>
+</ul><hr/></div><h2>What this demonstrates, and what's still open</h2><div class="section-full"><p><strong>Works today, real data, no placeholders</strong>: headline numbers, business segments (transcript
+side), capital allocation (now mostly SEC-sourced), insider activity (new), forward guidance,
+competitive environment, product development, macro/regulatory.</p><p><strong>This round's rework (2026-09-22), per direct design feedback</strong>: cut the standalone margin-
+trend section (too thin on 1-2 points to earn its own section; the real margin story is now
+folded into Business segments, where it's actually explained). CapEx and debt issued/repaid
+are now real SEC-filed numbers instead of "not stated" — required extending <code>sec_edgar.py</code> to
+derive a standalone quarter from two YTD filings, a genuine and reusable capability, not a
+one-off. Capital allocation is now a pie chart. Added a new Insider activity section (Alpha
+Vantage <code>INSIDER_TRANSACTIONS</code>, a new provider for this project). Sections 7-8 rewritten to
+read as analysis ("here's what's happening, here's the plausible read") rather than reported
+speech ("management said"); Product development restructured from one paragraph into one
+bullet per product.</p><p><strong>Still blocked on MarketDataLibrary fixes</strong>: balance sheet snapshot (fix exists, running as
+of this writing — see Balance sheet snapshot section). Segments coverage for AAPL specifically
+still runs on the extractor alone (no <code>Revenue by Segment</code> rows in the library for this
+symbol) — a per-symbol reality, not a bug.</p><p><strong>Not started</strong>: the actual sentence-to-segment matching engine that would replace this
+hand-assembly with real code — still the real remaining engineering item for section 2. Two-
+column (chart-and-text-side-by-side) layout is a presentation concern, not a content one — see
+the rendered HTML version of this doc rather than this Markdown source for that.</p></div>
 </body>
 </html>

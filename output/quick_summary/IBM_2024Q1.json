@@ -1,0 +1,33 @@
+{
+ "symbol": "IBM",
+ "quarter": "2024Q1",
+ "period_end_guess": "2024-03-31",
+ "scoreboard": [
+  {
+   "label": "Revenue",
+   "value": "$14.5B",
+   "delta": null
+  },
+  {
+   "label": "EPS",
+   "value": "$1.68",
+   "delta": null
+  }
+ ],
+ "segments": [],
+ "capital_allocation": {
+  "CapEx": 239000000
+ },
+ "balance_sheet": {
+  "debt": 59500000000.0,
+  "debt_maturity": {
+   "Next 12mo": 6713000000,
+   "Year 2": 6001000000,
+   "Year 3": 5583000000,
+   "Year 4": 4448000000,
+   "Year 5": 4492000000,
+   "After 5yr": 34348000000
+  },
+  "debt_maturity_as_of": "2026-06-30"
+ }
+}

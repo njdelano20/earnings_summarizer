@@ -1,0 +1,21 @@
+{
+ "symbol": "HESM",
+ "quarter": "2026Q2",
+ "period_end_guess": "2026-06-30",
+ "scoreboard": [],
+ "segments": [],
+ "capital_allocation": {
+  "CapEx": 23100000
+ },
+ "balance_sheet": {
+  "debt_maturity": {
+   "Next 12mo": 32500000,
+   "Year 2": 668000000,
+   "Year 3": 1350000000,
+   "Year 4": 600000000,
+   "Year 5": 1150000000,
+   "After 5yr": 1150000000
+  },
+  "debt_maturity_as_of": "2025-12-31"
+ }
+}

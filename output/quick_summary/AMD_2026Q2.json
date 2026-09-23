@@ -1,0 +1,65 @@
+{
+ "symbol": "AMD",
+ "quarter": "2026Q2",
+ "period_end_guess": "2026-06-30",
+ "scoreboard": [
+  {
+   "label": "Revenue",
+   "value": "$11.5B",
+   "delta": "+13% qoq"
+  },
+  {
+   "label": "Gross margin",
+   "value": "56.0%",
+   "delta": "+80 bps qoq",
+   "guidance": "Next qtr guide: 56%"
+  },
+  {
+   "label": "Operating cash flow",
+   "value": "$2.4B",
+   "delta": null
+  }
+ ],
+ "segments": [
+  {
+   "name": "Data Center",
+   "revenue": 6700000000.0,
+   "yoy_pct": 16
+  },
+  {
+   "name": "Client and Gaming",
+   "revenue": 3800000000.0,
+   "yoy_pct": 7
+  },
+  {
+   "name": "Client",
+   "revenue": 3100000000.0,
+   "yoy_pct": 6
+  },
+  {
+   "name": "Embedded",
+   "revenue": 977000000.0,
+   "yoy_pct": 12
+  },
+  {
+   "name": "Gaming",
+   "revenue": 779000000.0,
+   "yoy_pct": -31
+  }
+ ],
+ "capital_allocation": {
+  "CapEx": 808000000
+ },
+ "balance_sheet": {
+  "cash": 13100000000.0,
+  "debt_maturity": {
+   "Next 12mo": 875000000,
+   "Year 2": 750000000,
+   "Year 3": 625000000,
+   "Year 4": 0,
+   "Year 5": 750000000,
+   "After 5yr": 1000000000
+  },
+  "debt_maturity_as_of": "2025-12-27"
+ }
+}

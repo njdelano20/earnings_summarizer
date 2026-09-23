@@ -163,7 +163,7 @@ def build_segments(ledger: dict) -> list[dict]:
         if f.get("value") is None:
             continue
         change = f.get("change") or {}
-        rows.append({"name": segment.title(), "revenue": f["value"], "yoy_pct": change.get("value")})
+        rows.append({"name": _display_name(segment), "revenue": f["value"], "yoy_pct": change.get("value")})
     rows.sort(key=lambda r: -r["revenue"])
     return rows
 

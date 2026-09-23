@@ -1,28 +1,28 @@
 {
  "symbol": "AAPL",
  "quarter": "Q3_2026",
- "period_end_guess": "2026-09-30",
+ "period_end_guess": "2026-06-30",
  "scoreboard": [
   {
    "label": "Revenue",
    "value": "$109.4B",
    "delta": "+16% yoy",
-   "beat": "Missed consensus by -3.7%",
-   "beat_good": false,
-   "guidance": "Next qtr guide: 9%"
+   "beat": "Beat consensus by +0.4%",
+   "beat_good": true,
+   "guidance": "Next qtr guide: 9-11%"
   },
   {
    "label": "EPS",
    "value": "$2.02",
    "delta": "+29% yoy",
-   "beat": "Beat consensus by +2.1%",
+   "beat": "Beat consensus by +6.7%",
    "beat_good": true
   },
   {
    "label": "Gross margin",
    "value": "50.1%",
    "delta": "+80 bps qoq",
-   "guidance": "Next qtr guide: 47%"
+   "guidance": "Next qtr guide: 47-48%"
   },
   {
    "label": "Operating cash flow",
@@ -31,6 +31,11 @@
   }
  ],
  "segments": [
+  {
+   "name": "Iphone",
+   "revenue": 54300000000.0,
+   "yoy_pct": 22
+  },
   {
    "name": "Mac",
    "revenue": 10400000000.0,
@@ -45,16 +50,13 @@
    "name": "Ipad",
    "revenue": 6200000000.0,
    "yoy_pct": -6
-  },
-  {
-   "name": "Iphone",
-   "revenue": 22,
-   "yoy_pct": null
   }
  ],
  "capital_allocation": {
   "Dividends paid": 4000000000.0,
-  "Share repurchases": 25800000000.0
+  "Share repurchases": 25800000000.0,
+  "CapEx": 2455000000,
+  "Debt repaid": 232000000
  },
  "balance_sheet": {
   "cash": 147000000000.0,
@@ -69,19 +71,5 @@
    "After 5yr": 49303000000
   },
   "debt_maturity_as_of": "2025-09-27"
- },
- "insider_activity": {
-  "window_start": "2026-07-01",
-  "window_end": "2026-09-30",
-  "total_value": 8096940.279999999,
-  "total_shares": 24860.0,
-  "by_executive": [
-   {
-    "name": "NEWSTEAD, JENNIFER",
-    "title": "SVP, GC and Government Affairs",
-    "shares": 24860.0,
-    "value": 8096940.279999999
-   }
-  ]
  }
 }

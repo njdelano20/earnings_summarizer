@@ -35,7 +35,7 @@ import calendar
 import json
 import os
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import estimates
@@ -58,16 +58,24 @@ def _split_stem(stem: str) -> tuple[str, str]:
 
 def _approx_period_end(symbol: str, quarter_text: str) -> date:
     """A starting guess only -- sec_edgar.py's own _refine_period_end() pins it to the real
-    filed date from there, same as batch.py's approximation for live calls."""
+    filed date from there, same as batch.py's approximation for live calls. The gold filename's
+    quarter token is the COMPANY'S OWN fiscal label (confirmed against every fact id in
+    output/<stem>_facts.json, e.g. "AAPL_2026_3-001" for gold/AAPL_Q3_2026.json) -- resolve via
+    from_fiscal(), not resolve() (which would treat it as a calendar label and silently pick the
+    wrong quarter for any company whose fiscal year doesn't end in December, e.g. AAPL)."""
     year, q = periods.parse_quarter(quarter_text)
-    cq = periods.resolve(symbol, f"{year}Q{q}")
+    cq = periods.from_fiscal(symbol, f"{year}Q{q}")
     last_day = calendar.monthrange(cq.period_end_year, cq.period_end_month)[1]
     return date(cq.period_end_year, cq.period_end_month, last_day)
 
 
 def _ledger(gold: dict) -> dict[tuple, dict]:
-    """{(kind, metric, segment): fact} -- segment defaults to 'total'."""
-    return {(f["kind"], f["metric"], f.get("segment") or "total"): f for f in gold["expected"]}
+    """{(kind, metric, segment, stat): fact}. `stat` is part of the key on purpose -- gold files
+    carry both a 'level' fact (the dollar figure) and a separate 'growth' fact (the yoy % as its
+    own row) for the same (kind, metric, segment), e.g. iPhone revenue has both a level=$54.3B
+    fact and a growth=22 fact; without `stat` in the key the second silently overwrites the
+    first in this dict (a real bug caught by inspecting real output, not by reasoning about it)."""
+    return {(f["kind"], f["metric"], f.get("segment") or "total", f.get("stat")): f for f in gold["expected"]}
 
 
 def _fmt_change(change: dict | None) -> str | None:
@@ -83,12 +91,13 @@ def _fmt_change(change: dict | None) -> str | None:
 
 
 def _fmt_guidance_value(metric: str, guide: dict) -> str:
-    v = guide["value"]
+    v, v_high = guide["value"], guide.get("value_high")
     if metric == "gross_margin" or guide.get("stat") == "growth":
-        return f"{v:.0f}%"
+        return f"{v:.0f}-{v_high:.0f}%" if v_high is not None else f"{v:.0f}%"
     if metric == "eps":
-        return f"${v:.2f}"
-    return f"${v/1e9:.2f}B"
+        return f"${v:.2f}" + (f"-${v_high:.2f}" if v_high is not None else "")
+    lo, hi = f"${v/1e9:.2f}B", (f"${v_high/1e9:.2f}B" if v_high is not None else None)
+    return f"{lo}-{hi}" if hi else lo
 
 
 _SCOREBOARD_METRICS = [
@@ -98,12 +107,27 @@ _SCOREBOARD_METRICS = [
     ("operating_cash_flow", "Operating cash flow", lambda v: f"${v/1e9:.1f}B"),
 ]
 _SEGMENT_EXCLUDE = {"total", "products", "services"}   # aggregates, not individual segments
+_LOWERCASE_WORDS = {"and", "of", "the", "for", "in"}
+
+
+def _display_name(segment: str) -> str:
+    """gold segment strings are raw lowercase, e.g. 'wearables, home, and accessories' --
+    str.title() capitalizes every word including connectors ('And') and mishandles the comma.
+    A small, generic (not AAPL-specific) fix: capitalize each word except common connectors,
+    unless it's the first word."""
+    words = segment.split(" ")
+    out = []
+    for i, w in enumerate(words):
+        core = w.strip(",")
+        cased = core if (i > 0 and core.lower() in _LOWERCASE_WORDS) else core.capitalize()
+        out.append(cased + ("," if w.endswith(",") else ""))
+    return " ".join(out)
 
 
 def build_scoreboard(ledger: dict) -> list[dict]:
     tiles = []
     for metric, label, fmt in _SCOREBOARD_METRICS:
-        f = ledger.get(("reported", metric, "total"))
+        f = ledger.get(("reported", metric, "total", "level"))
         if f is None or f.get("value") is None:
             continue
         tile = {"label": label, "value": fmt(f["value"]), "delta": _fmt_change(f.get("change"))}
@@ -115,7 +139,10 @@ def build_scoreboard(ledger: dict) -> list[dict]:
                 tile["beat"] = f"{'Beat' if s['pct'] >= 0 else 'Missed'} consensus by {s['pct']:+.1f}%"
                 tile["beat_good"] = s["pct"] >= 0
 
-        guide = ledger.get(("guidance", metric, "total"))
+        # revenue guidance is filed as a growth-rate fact, not a level -- every other guided
+        # metric here is a level (see _fmt_guidance_value)
+        guide_stat = "growth" if metric == "revenue" else "level"
+        guide = ledger.get(("guidance", metric, "total", guide_stat))
         next_est = ledger.get(f"_estimate_next_{metric}")
         if guide is not None and guide.get("value") is not None:
             tile["guidance"] = f"Next qtr guide: {_fmt_guidance_value(metric, guide)}"
@@ -128,10 +155,10 @@ def build_scoreboard(ledger: dict) -> list[dict]:
 def build_segments(ledger: dict) -> list[dict]:
     rows = []
     for key, f in ledger.items():
-        if not (isinstance(key, tuple) and len(key) == 3):
+        if not (isinstance(key, tuple) and len(key) == 4):
             continue                                       # skip the "_estimate_*" scalar keys
-        kind, metric, segment = key
-        if kind != "reported" or metric != "revenue" or segment in _SEGMENT_EXCLUDE:
+        kind, metric, segment, stat = key
+        if kind != "reported" or metric != "revenue" or stat != "level" or segment in _SEGMENT_EXCLUDE:
             continue
         if f.get("value") is None:
             continue
@@ -144,7 +171,7 @@ def build_segments(ledger: dict) -> list[dict]:
 def build_capital_allocation(facts: dict, ledger: dict, period_end: date) -> dict:
     uses = {}
     for metric, label in (("dividends", "Dividends paid"), ("share_repurchases", "Share repurchases")):
-        f = ledger.get(("reported", metric, "total"))
+        f = ledger.get(("reported", metric, "total", "level"))
         if f and f.get("value") is not None:
             uses[label] = f["value"]
     for metric, label in (("capex", "CapEx"), ("debt_repaid", "Debt repaid")):
@@ -161,8 +188,8 @@ _MATURITY_LABELS = [("debt_maturity_1y", "Next 12mo"), ("debt_maturity_2y", "Yea
 
 def build_balance_sheet(facts: dict, ledger: dict) -> dict:
     out = {}
-    cash = ledger.get(("reported", "cash_and_securities", "total"))
-    debt = ledger.get(("reported", "total_debt", "total"))
+    cash = ledger.get(("reported", "cash_and_securities", "total", "level"))
+    debt = ledger.get(("reported", "total_debt", "total", "level"))
     if cash and cash.get("value") is not None:
         out["cash"] = cash["value"]
     if debt and debt.get("value") is not None:
@@ -223,8 +250,10 @@ def export_one(stem: str, skip_av: bool = False) -> Path:
     symbol, quarter_text = _split_stem(stem)
     ledger = _ledger(gold)
     period_end = _approx_period_end(symbol, quarter_text)
-    year, q = periods.parse_quarter(quarter_text)
-    quarter_start = date(year, ((q - 1) * 3) + 1, 1)
+    # ~91 days before the (fiscal) period end, not derived from the raw calendar-quarter number
+    # -- that inverted the range for any company whose fiscal quarter doesn't align to the
+    # calendar (e.g. AAPL fiscal Q3 ends in June, not September), silently zeroing every match
+    quarter_start = period_end - timedelta(days=91)
 
     if not skip_av:
         api_key = os.environ.get("ALPHAVANTAGE_API_KEY")

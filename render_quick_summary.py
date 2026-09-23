@@ -5,13 +5,15 @@ export_quick_summary.py's JSON payload (output/quick_summary/<STEM>.json) and pr
 SAME page design as docs/sample_AAPL_Q3_2026.md/.html -- the two-column matplotlib-chart layout
 is the real target template (confirmed directly by the user 2026-09-23), not a redesign.
 
-Generates: the 5 data-driven sections (headline scoreboard, business segments, capital
-allocation, balance sheet, insider activity) plus a real Source documents section (the actual
-cached transcript + the real filed SEC document, both live-verified, not a generic search
-link). Sections 6-8 (competitive environment, product development, macro/regulatory) are
-deliberately NOT generated -- they were hand-written by reading each transcript this session,
-no code produces them yet (see docs/summary_template.md's Phase 2). A generated doc for a new
-company is honestly 5 sections, not 8 -- never padded with placeholder text to look complete.
+Generates all 8 sections, same as the AAPL reference doc: the 5 data-driven ones (headline
+scoreboard, business segments -- now with per-segment driver bullets too, capital allocation,
+balance sheet, insider activity) plus the 3 narrative ones (competitive environment, product
+development, macro/regulatory), via narrative.py -- real transcript sentences already
+topic-tagged and evidence-verified by signals.py (cached in output/<STEM>_snapshot.json), never
+LLM-paraphrased or synthesized. A symbol with no cached snapshot, or no real evidence for a given
+section, simply doesn't get that section -- never padded with placeholder text to fake
+completeness. Plus a real Source documents section (the actual cached transcript + the real
+filed SEC document, both live-verified, not a generic search link).
 
     py render_quick_summary.py AMD_2026Q2          regenerate charts + docs/sample_AMD_2026Q2.md/.html
     py render_quick_summary.py --all               every symbol-quarter already exported
@@ -26,6 +28,7 @@ import sys
 from pathlib import Path
 
 import charts
+import narrative
 import render_sample
 import sec_edgar
 
@@ -104,76 +107,142 @@ def _real_filing_url(symbol: str, period_end_guess: str) -> tuple[str, str, str]
     return url, rd, filed
 
 
+def _headline_scoreboard_section(payload, stem, name, narr) -> list[str] | None:
+    if not payload.get("scoreboard"):
+        return None
+    return [f"![Headline scoreboard]({stem}_scoreboard.png)", ""]
+
+
+def _business_segments_section(payload, stem, name, narr) -> list[str] | None:
+    segs = payload.get("segments") or []
+    if not segs:
+        return None
+    lines = [f"![Revenue by segment]({stem}_segments.png)", ""]
+    lines += ["| Segment | Revenue | Growth (yoy) |", "|---|---|---|"]
+    for s in segs:
+        growth = f"{s['yoy_pct']:+.0f}%" if s.get("yoy_pct") is not None else "—"
+        lines.append(f"| {s['name']} | {_fmt_usd(s['revenue'])} | {growth} |")
+    lines += ["", f"{name} doesn't disclose gross margin by individual segment in this data, "
+                  f"so it's left out rather than estimated.", ""]
+    drivers = narr.get("segment_drivers") or {}
+    if drivers:
+        lines.append("**What's driving each segment:**")
+        lines.append("")
+        for seg_name, sentences in drivers.items():
+            lines.append(f"- **{seg_name}**: {' '.join(sentences)}")
+        lines.append("")
+    return lines
+
+
+def _capital_allocation_section(payload, stem, name, narr) -> list[str] | None:
+    cap = payload.get("capital_allocation") or {}
+    if not cap:
+        return None
+    lines = [f"![Capital allocation]({stem}_capital.png)", ""]
+    lines += ["| Use of cash | Amount |", "|---|---|"]
+    for label, v in cap.items():
+        lines.append(f"| {label} | {_fmt_usd(v)} |")
+    shareholder = (cap.get("Dividends paid") or 0) + (cap.get("Share repurchases") or 0)
+    if cap.get("Dividends paid") is not None or cap.get("Share repurchases") is not None:
+        lines += ["", f"Total returned to shareholders (dividends + buybacks): **{_fmt_usd(shareholder)}**."]
+    lines.append("")   # unconditional -- a table with no trailing blank line runs into the next heading
+    return lines
+
+
+def _balance_sheet_section(payload, stem, name, narr) -> list[str] | None:
+    bs = payload.get("balance_sheet") or {}
+    if bs.get("cash") is None and bs.get("debt") is None:
+        return None
+    lines = []
+    # the cash/debt bar chart needs BOTH figures (render_one's balance_sheet_chart call has the
+    # same guard) -- a symbol with only one of the two gets a table, not a broken image
+    if bs.get("cash") is not None and bs.get("debt") is not None:
+        lines += [f"![Balance sheet snapshot]({stem}_balance.png)", ""]
+    lines += ["| | This quarter |", "|---|---|"]
+    if bs.get("cash") is not None:
+        lines.append(f"| Cash & securities | {_fmt_usd(bs['cash'])} |")
+    if bs.get("debt") is not None:
+        lines.append(f"| Total debt | {_fmt_usd(bs['debt'])} |")
+    if bs.get("net_cash") is not None:
+        label = "Net cash" if bs["net_cash"] >= 0 else "Net debt"
+        lines.append(f"| {label} | {_fmt_usd(bs['net_cash'])} |")
+    lines.append("")
+    ladder = bs.get("debt_maturity")
+    if ladder:
+        parts = ", ".join(f"{_fmt_usd(v)} in {k.lower()}" for k, v in ladder.items())
+        as_of = bs.get("debt_maturity_as_of")
+        lines += [f"**When it's due**: {parts} — the aggregate principal-by-year figure "
+                 f"{name} files with the SEC" + (f" (as of {as_of})" if as_of else "") +
+                 f"; individual notes (coupon, specific maturity date) aren't broken out "
+                 f"at that level in this data.", ""]
+    return lines
+
+
+def _insider_activity_section(payload, stem, name, narr) -> list[str] | None:
+    insider = payload.get("insider_activity")
+    if not insider or not insider.get("by_executive"):
+        return None
+    lines = [f"**{insider.get('window_start', '')} to {insider.get('window_end', '')}**: "
+            f"{_fmt_usd(insider.get('total_value'))} in real open-market insider stock sales.", ""]
+    lines += ["| Insider | Title | Shares sold | Value |", "|---|---|---|---|"]
+    for e in insider["by_executive"]:
+        shares = f"{e['shares']:,.0f}" if e.get("shares") is not None else "—"
+        lines.append(f"| {e['name'].title()} | {e.get('title') or '—'} | {shares} | {_fmt_usd(e.get('value'))} |")
+    lines.append("")
+    return lines
+
+
+def _competitive_environment_section(payload, stem, name, narr) -> list[str] | None:
+    sentences = narr.get("competitive_environment")
+    if not sentences:
+        return None
+    return [" ".join(sentences), ""]
+
+
+def _product_development_section(payload, stem, name, narr) -> list[str] | None:
+    sentences = narr.get("product_development")
+    if not sentences:
+        return None
+    return [f"- {s}" for s in sentences] + [""]
+
+
+def _macro_regulatory_section(payload, stem, name, narr) -> list[str] | None:
+    sentences = narr.get("macro_regulatory")
+    if not sentences:
+        return None
+    return [f"- {s}" for s in sentences] + [""]
+
+
+_SECTIONS = [
+    ("Headline scoreboard", _headline_scoreboard_section),
+    ("Business segments", _business_segments_section),
+    ("Capital allocation", _capital_allocation_section),
+    ("Balance sheet snapshot", _balance_sheet_section),
+    ("Insider activity", _insider_activity_section),
+    ("Competitive environment", _competitive_environment_section),
+    ("Product development", _product_development_section),
+    ("Macro / regulatory", _macro_regulatory_section),
+]
+
+
 def build_markdown(payload: dict, stem: str) -> str:
     symbol, quarter = payload["symbol"], payload["quarter"]
     name = _company_name(symbol)
     quarter_label = quarter.replace("_", " ")
     lines = [f"# {name} ({symbol}) — {quarter_label} — Quick Summary", ""]
 
-    # 1. Headline scoreboard
-    if payload.get("scoreboard"):
-        lines += ["## 1. Headline scoreboard", "", f"![Headline scoreboard]({stem}_scoreboard.png)", ""]
+    narr = narrative.build_narrative(stem, payload.get("segments") or [])
 
-    # 2. Business segments
-    segs = payload.get("segments") or []
-    if segs:
-        lines += ["## 2. Business segments", "", f"![Revenue by segment]({stem}_segments.png)", ""]
-        lines += ["| Segment | Revenue | Growth (yoy) |", "|---|---|---|"]
-        for s in segs:
-            growth = f"{s['yoy_pct']:+.0f}%" if s.get("yoy_pct") is not None else "—"
-            lines.append(f"| {s['name']} | {_fmt_usd(s['revenue'])} | {growth} |")
-        lines += ["", f"{name} doesn't disclose gross margin by individual segment in this data, "
-                      f"so it's left out rather than estimated.", ""]
-
-    # 3. Capital allocation
-    cap = payload.get("capital_allocation") or {}
-    if cap:
-        lines += ["## 3. Capital allocation", "", f"![Capital allocation]({stem}_capital.png)", ""]
-        lines += ["| Use of cash | Amount |", "|---|---|"]
-        for label, v in cap.items():
-            lines.append(f"| {label} | {_fmt_usd(v)} |")
-        shareholder = (cap.get("Dividends paid") or 0) + (cap.get("Share repurchases") or 0)
-        if cap.get("Dividends paid") is not None or cap.get("Share repurchases") is not None:
-            lines += ["", f"Total returned to shareholders (dividends + buybacks): **{_fmt_usd(shareholder)}**."]
-        lines.append("")   # unconditional -- a table with no trailing blank line runs into the next heading
-
-    # 4. Balance sheet
-    bs = payload.get("balance_sheet") or {}
-    if bs.get("cash") is not None or bs.get("debt") is not None:
-        lines += ["## 4. Balance sheet snapshot", ""]
-        # the cash/debt bar chart needs BOTH figures (render_one's balance_sheet_chart call has
-        # the same guard) -- a symbol with only one of the two gets a table, not a broken image
-        if bs.get("cash") is not None and bs.get("debt") is not None:
-            lines += [f"![Balance sheet snapshot]({stem}_balance.png)", ""]
-        lines += ["| | This quarter |", "|---|---|"]
-        if bs.get("cash") is not None:
-            lines.append(f"| Cash & securities | {_fmt_usd(bs['cash'])} |")
-        if bs.get("debt") is not None:
-            lines.append(f"| Total debt | {_fmt_usd(bs['debt'])} |")
-        if bs.get("net_cash") is not None:
-            label = "Net cash" if bs["net_cash"] >= 0 else "Net debt"
-            lines.append(f"| {label} | {_fmt_usd(bs['net_cash'])} |")
-        lines.append("")
-        ladder = bs.get("debt_maturity")
-        if ladder:
-            parts = ", ".join(f"{_fmt_usd(v)} in {k.lower()}" for k, v in ladder.items())
-            as_of = bs.get("debt_maturity_as_of")
-            lines += [f"**When it's due**: {parts} — the aggregate principal-by-year figure "
-                     f"{name} files with the SEC" + (f" (as of {as_of})" if as_of else "") +
-                     f"; individual notes (coupon, specific maturity date) aren't broken out "
-                     f"at that level in this data.", ""]
-
-    # 5. Insider activity
-    insider = payload.get("insider_activity")
-    if insider and insider.get("by_executive"):
-        lines += ["## 5. Insider activity", "",
-                 f"**{insider.get('window_start', '')} to {insider.get('window_end', '')}**: "
-                 f"{_fmt_usd(insider.get('total_value'))} in real open-market insider stock sales.", ""]
-        lines += ["| Insider | Title | Shares sold | Value |", "|---|---|---|---|"]
-        for e in insider["by_executive"]:
-            shares = f"{e['shares']:,.0f}" if e.get("shares") is not None else "—"
-            lines.append(f"| {e['name'].title()} | {e.get('title') or '—'} | {shares} | {_fmt_usd(e.get('value'))} |")
-        lines.append("")
+    # numbered sequentially over whichever sections actually have real content -- a company
+    # missing one data point (e.g. IBM has no segment breakdown) gets 1, 2, 3... not 1, 3, 4
+    # with a silent gap where "2" used to be
+    n = 0
+    for title, builder in _SECTIONS:
+        body = builder(payload, stem, name, narr)
+        if body is None:
+            continue
+        n += 1
+        lines += [f"## {n}. {title}", ""] + body
 
     # Source documents -- real links only, never a generic search URL
     src_lines = []
@@ -193,16 +262,16 @@ def build_markdown(payload: dict, stem: str) -> str:
 
 
 _PROTECTED = {"AAPL_Q3_2026"}   # the original, hand-curated reference doc -- this generator's
-# output is intentionally thinner (5 sections, no narrative) and must never silently clobber
-# it. Regenerate AAPL's own doc only via a deliberate --force-aapl, never as a side effect of
-# --all or a routine run.
+# auto-generated version must never silently clobber it, even though it now produces all 8
+# sections too. Regenerate AAPL's own doc only via a deliberate --force-aapl, never as a side
+# effect of --all or a routine run.
 
 
 def render_one(stem: str, force: bool = False) -> Path:
     if stem in _PROTECTED and not force:
         raise RuntimeError(f"{stem} is the hand-curated reference doc (docs/sample_{stem}.md) -- "
-                           f"refusing to overwrite it with the auto-generated (thinner, 5-section) "
-                           f"version. Pass force=True / --force-aapl if this is really intended.")
+                           f"refusing to overwrite it with the auto-generated version. Pass "
+                           f"force=True / --force-aapl if this is really intended.")
     payload = json.loads((QUICK_SUMMARY_DIR / f"{stem}.json").read_text(encoding="utf-8"))
     symbol = payload["symbol"]
 

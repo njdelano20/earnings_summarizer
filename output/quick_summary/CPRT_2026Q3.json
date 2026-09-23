@@ -22,6 +22,7 @@
  "segments": [
   {
    "name": "International",
+   "slug": "international",
    "revenue": 234200000.0,
    "yoy_pct": 7.9
   }

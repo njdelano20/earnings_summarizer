@@ -38,6 +38,11 @@ OUTPUT_DIR = ROOT / "output"
 _MACRO_KEYWORDS = re.compile(
     r"\btariff|regulat\w*|foreign exchange|\bfx\b|supply chain|memory cost|inflation|"
     r"interest rate|\bfed\b|federal reserve\b", re.I)
+# a customer-story sentence ("[Some Bank] is using our AI to streamline regulatory workflows")
+# can hit the "regulat*" keyword above by accident -- it's a product use-case, not the reporting
+# company's own regulatory exposure. Real 2026-09-22 false positive on AAPL, caught by reading
+# actual output, not by reasoning about the regex.
+_CUSTOMER_STORY = re.compile(r"\bis using\b|\bare using\b|\bhas been using\b", re.I)
 
 _MAX_PRODUCT_BULLETS = 6
 _MAX_MACRO_BULLETS = 5
@@ -57,23 +62,41 @@ def _clean(sentence: str) -> str:
     return sentence.strip().rstrip(".") + "."
 
 
-def segment_drivers(signals: list[dict], segments: list[dict]) -> dict[str, list[str]]:
+def segment_drivers(signals: list[dict], segments: list[dict], used: "_Used") -> dict[str, list[str]]:
     """{segment_display_name: [real sentence, ...]} -- only for segments that actually have a
-    tagged signal; a segment with no real evidence sentence gets no entry, never a guess."""
+    tagged signal; a segment with no real evidence sentence gets no entry, never a guess. A
+    sentence tagged with multiple segments (e.g. one combined-guidance sentence covering client,
+    embedded, and gaming together) is only ever claimed by the first (highest-revenue) segment
+    it matches, not repeated under every segment it's tagged with."""
     out = {}
     for seg in segments:
         slug = seg.get("slug", "")
-        matches = [s for s in signals if slug in s.get("segments", []) and s.get("verified")]
+        matches = [s for s in signals if slug in s.get("segments", []) and s.get("verified")
+                  and not _CUSTOMER_STORY.search(s["sentence"])]
         matches.sort(key=lambda s: -s.get("score", 0))
-        if matches:
-            out[seg["name"]] = [_clean(s["sentence"]) for s in matches[:_MAX_PER_SEGMENT]]
+        picked = []
+        for s in matches:
+            if len(picked) >= _MAX_PER_SEGMENT:
+                break
+            sent = _clean(s["sentence"])
+            if used.claim(sent):
+                picked.append(sent)
+        if picked:
+            out[seg["name"]] = picked
     return out
 
 
-def competitive_environment(signals: list[dict]) -> list[str]:
+def competitive_environment(signals: list[dict], used: "_Used") -> list[str]:
     matches = [s for s in signals if "competition" in s.get("topics", []) and s.get("verified")]
     matches.sort(key=lambda s: -s.get("score", 0))
-    return [_clean(s["sentence"]) for s in matches[:_MAX_COMPETITIVE_SENTENCES]]
+    out = []
+    for s in matches:
+        if len(out) >= _MAX_COMPETITIVE_SENTENCES:
+            break
+        sent = _clean(s["sentence"])
+        if used.claim(sent):
+            out.append(sent)
+    return out
 
 
 _REVENUE_SENTENCE = re.compile(
@@ -87,58 +110,79 @@ _MACRO_BUCKETS = [
 ]
 
 
-def _dedup_by_word_overlap(sentences: list[str], threshold: float = 0.55) -> list[str]:
-    """Keeps a sentence only if it doesn't share >threshold of its significant words with one
-    already kept -- catches near-restatements of the same point ('we expect FX to be a headwind
-    of 2.5pp' said three different ways) that a plain string-prefix check misses."""
-    kept: list[str] = []
-    kept_wordsets: list[set[str]] = []
-    for sent in sentences:
-        words = {w for w in re.findall(r"[a-z]{4,}", sent.lower())}
-        if not words:
-            continue
-        is_dup = False
-        for kw in kept_wordsets:
-            overlap = len(words & kw) / max(1, min(len(words), len(kw)))
-            if overlap > threshold:
-                is_dup = True
-                break
-        if not is_dup:
-            kept.append(sent)
-            kept_wordsets.append(words)
-    return kept
+class _Used:
+    """Tracks every sentence claimed by some section so far (across segment drivers,
+    competitive environment, product development, and macro/regulatory), so the same real
+    transcript sentence -- or a near-restatement of it -- never appears twice in one document.
+    Real 2026-09-22 bug: AMD's top-scored, multi-segment-tagged guidance sentence was picked
+    independently by 3 segment-driver bullets AND product development, since each section used
+    to select its candidates with no awareness of what any other section had already used."""
+
+    def __init__(self, threshold: float = 0.55) -> None:
+        self._threshold = threshold
+        self._keys: set[str] = set()
+        self._wordsets: list[set[str]] = []
+
+    def claim(self, sentence: str) -> bool:
+        """Records `sentence` and returns True if it's new; returns False (does nothing) if it
+        exactly or near-duplicates something already claimed by an earlier section."""
+        key = re.sub(r"\s+", " ", sentence.strip().lower())
+        if key in self._keys:
+            return False
+        words = {w for w in re.findall(r"[a-z]{4,}", sentence.lower())}
+        if words:
+            for kw in self._wordsets:
+                overlap = len(words & kw) / max(1, min(len(words), len(kw)))
+                if overlap > self._threshold:
+                    return False
+        self._keys.add(key)
+        if words:
+            self._wordsets.append(words)
+        return True
 
 
-def product_development(signals: list[dict]) -> list[str]:
+def product_development(signals: list[dict], used: "_Used") -> list[str]:
     matches = [s for s in signals if "product" in s.get("topics", []) and s.get("verified")
               and not _REVENUE_SENTENCE.search(s["sentence"])]   # a revenue restatement isn't "development" news
     matches.sort(key=lambda s: -s.get("score", 0))
-    candidates = [_clean(s["sentence"]) for s in matches]
-    return _dedup_by_word_overlap(candidates)[:_MAX_PRODUCT_BULLETS]
+    out = []
+    for s in matches:
+        if len(out) >= _MAX_PRODUCT_BULLETS:
+            break
+        sent = _clean(s["sentence"])
+        if used.claim(sent):
+            out.append(sent)
+    return out
 
 
-def macro_regulatory(signals: list[dict]) -> list[str]:
+def macro_regulatory(signals: list[dict], used: "_Used") -> list[str]:
     matches = [s for s in signals if "pressure" in s.get("topics", []) and s.get("verified")
-              and _MACRO_KEYWORDS.search(s["sentence"])]
+              and _MACRO_KEYWORDS.search(s["sentence"]) and not _CUSTOMER_STORY.search(s["sentence"])]
     matches.sort(key=lambda s: -s.get("score", 0))
-    deduped = _dedup_by_word_overlap([_clean(s["sentence"]) for s in matches])
+    candidates = [_clean(s["sentence"]) for s in matches]
     # spread across the real macro themes present (tariff/regulatory/fx/supply/rates) rather than
     # letting whichever theme happens to score highest fill every slot -- one pass per bucket,
-    # highest-scored survivor in each, before falling back to whatever's left
+    # highest-scored surviving (not-yet-used) sentence in each, before falling back to whatever's left
     by_bucket: dict[str, list[str]] = {}
-    for sent in deduped:
+    for sent in candidates:
         for name, rx in _MACRO_BUCKETS:
             if rx.search(sent):
                 by_bucket.setdefault(name, []).append(sent)
                 break
     out: list[str] = []
     for name, _ in _MACRO_BUCKETS:
-        if by_bucket.get(name) and len(out) < _MAX_MACRO_BULLETS:
-            out.append(by_bucket[name][0])
-    for sent in deduped:
         if len(out) >= _MAX_MACRO_BULLETS:
             break
-        if sent not in out:
+        for sent in by_bucket.get(name, []):
+            if used.claim(sent):
+                out.append(sent)
+                break
+    for sent in candidates:
+        if len(out) >= _MAX_MACRO_BULLETS:
+            break
+        if sent in out:
+            continue
+        if used.claim(sent):
             out.append(sent)
     return out
 
@@ -149,17 +193,18 @@ def build_narrative(stem: str, segments: list[dict]) -> dict:
     signals = load_signals(stem)
     if not signals:
         return {}
+    used = _Used()
     out = {}
-    drivers = segment_drivers(signals, segments)
+    drivers = segment_drivers(signals, segments, used)
     if drivers:
         out["segment_drivers"] = drivers
-    comp = competitive_environment(signals)
+    comp = competitive_environment(signals, used)
     if comp:
         out["competitive_environment"] = comp
-    prod = product_development(signals)
+    prod = product_development(signals, used)
     if prod:
         out["product_development"] = prod
-    macro = macro_regulatory(signals)
+    macro = macro_regulatory(signals, used)
     if macro:
         out["macro_regulatory"] = macro
     return out
@@ -174,14 +219,15 @@ def main() -> int:
     if signals is None:
         print(f"No cached snapshot for {stem} (expected output/{stem}_snapshot.json)", file=sys.stderr)
         return 1
+    used = _Used()
     print("Competitive environment:")
-    for s in competitive_environment(signals):
+    for s in competitive_environment(signals, used):
         print(" ", s)
     print("\nProduct development:")
-    for s in product_development(signals):
+    for s in product_development(signals, used):
         print(" ", s)
     print("\nMacro / regulatory:")
-    for s in macro_regulatory(signals):
+    for s in macro_regulatory(signals, used):
         print(" ", s)
     return 0
 

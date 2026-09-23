@@ -23,26 +23,31 @@
  "segments": [
   {
    "name": "Data Center",
+   "slug": "data center",
    "revenue": 6700000000.0,
    "yoy_pct": 16
   },
   {
    "name": "Client and Gaming",
+   "slug": "client and gaming",
    "revenue": 3800000000.0,
    "yoy_pct": 7
   },
   {
    "name": "Client",
+   "slug": "client",
    "revenue": 3100000000.0,
    "yoy_pct": 6
   },
   {
    "name": "Embedded",
+   "slug": "embedded",
    "revenue": 977000000.0,
    "yoy_pct": 12
   },
   {
    "name": "Gaming",
+   "slug": "gaming",
    "revenue": 779000000.0,
    "yoy_pct": -31
   }

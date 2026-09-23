@@ -33,21 +33,25 @@
  "segments": [
   {
    "name": "Iphone",
+   "slug": "iphone",
    "revenue": 54300000000.0,
    "yoy_pct": 22
   },
   {
    "name": "Mac",
+   "slug": "mac",
    "revenue": 10400000000.0,
    "yoy_pct": 29
   },
   {
    "name": "Wearables, Home, and Accessories",
+   "slug": "wearables, home, and accessories",
    "revenue": 7900000000.0,
    "yoy_pct": 6
   },
   {
    "name": "Ipad",
+   "slug": "ipad",
    "revenue": 6200000000.0,
    "yoy_pct": -6
   }
